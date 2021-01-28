@@ -1,0 +1,226 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Src/Scene/Add/essential/typeBox.gd" type="Script" id=2]
+[ext_resource path="res://Src/Scene/Add/essential/TextInput.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.294118, 0.294118, 0.294118, 1 )
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Basic Zone" type="Panel" parent="."]
+margin_top = 129.0
+margin_right = 896.0
+margin_bottom = 335.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="basic fields text" type="RichTextLabel" parent="."]
+margin_left = 912.0
+margin_top = 129.0
+margin_right = 1152.0
+margin_bottom = 161.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "basic fields"
+text = "basic fields"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="typical fields text" type="RichTextLabel" parent="."]
+visible = false
+margin_left = 912.0
+margin_top = 352.0
+margin_right = 1152.0
+margin_bottom = 384.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Typical fields"
+text = "Typical fields"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="type entry" type="HBoxContainer" parent="."]
+margin_left = 8.0
+margin_top = 143.735
+margin_right = 578.0
+margin_bottom = 191.735
+custom_constants/separation = 80
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="key" type="Panel" parent="type entry"]
+margin_right = 240.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 240, 48 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="type entry/key"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 232.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[color=black]type
+"
+text = "type
+"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="type entry"]
+margin_left = 320.0
+margin_right = 570.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 250, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name entry" type="HBoxContainer" parent="."]
+margin_left = 8.0
+margin_top = 208.0
+margin_right = 828.0
+margin_bottom = 256.0
+custom_constants/separation = 80
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="key" type="Panel" parent="name entry"]
+margin_right = 240.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 240, 48 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="name entry/key"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 232.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[color=black]name"
+text = "name"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="value" type="Panel" parent="name entry"]
+margin_left = 320.0
+margin_right = 820.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 500, 48 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="name entry/value"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 496.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[color=black]"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description entry" type="HBoxContainer" parent="."]
+margin_left = 8.0
+margin_top = 272.0
+margin_right = 876.0
+margin_bottom = 320.0
+custom_constants/separation = 80
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="key" type="Panel" parent="description entry"]
+margin_right = 240.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 240, 48 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="description entry/key"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 232.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[color=black]description"
+text = "description"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="value" type="Panel" parent="description entry"]
+margin_left = 320.0
+margin_right = 820.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 500, 48 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="description entry/value"]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 496.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[color=black]"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}

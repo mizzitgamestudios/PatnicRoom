@@ -1,0 +1,37 @@
+{
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "jhg.gflujzt.c"
+  },
+
+  "Comp_Universal_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "a simple humanoid bodytype"
+  },
+
+  "Comp_Universal_HitPoints": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : 10
+  },
+
+  "Comp_Bodyparts_HitProbabillity": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : 15
+  },
+
+  "Comp_Bodyparts_Connects": {
+    "type" : "ENTRY_CONTAINER",
+    "value" : [
+      {
+        "Comp_Bodyparts_HitProbabillity": {
+          "type" : "ENTRY_SIMPLE",
+          "value" : 15
+        }
+      }
+    ]
+  },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Bodyparts"
+  }
+}

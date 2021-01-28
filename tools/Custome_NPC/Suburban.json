@@ -1,0 +1,21 @@
+{
+
+	"wrapper":[
+		{
+			"race":"dwarf",
+			"role":"Hacker_Tier_One",
+			"specialty":"Critter",
+			"tileName":"CommonBNPC_0_0",
+			"posX":"27",
+			"posY":"40"
+		},{
+			"race":"dwarf",
+			"role":"Hacker_Tier_One",
+			"specialty":"Critter",
+			"tileName":"CommonBNPC_0_2",
+			"posX":"29",
+			"posY":"40"
+	}
+	]
+
+}

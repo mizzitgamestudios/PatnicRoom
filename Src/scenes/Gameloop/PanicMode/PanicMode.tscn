@@ -1,0 +1,741 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Media/Tilesets/all.tres" type="TileSet" id=1]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicModeUserInput.gd" type="Script" id=2]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=8]
+[ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=10]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Matrix/Matrix Floor.gd" type="Script" id=11]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Camera2D.gd" type="Script" id=12]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Actor/Player.gd" type="Script" id=13]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Meat/Meat Interactables.gd" type="Script" id=14]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Matrix/Matrix Interactables.gd" type="Script" id=15]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Meat/Meat Floor.gd" type="Script" id=16]
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/rng Backgrounf.gd" type="Script" id=17]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.215686, 0.780392, 1, 0.352941 )
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 13
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.298039, 0.298039, 0.298039, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 15
+font_data = ExtResource( 8 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="GUI" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="TextureRect" parent="GUI"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 17 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AR Map" type="Panel" parent="GUI"]
+margin_left = 12.0
+margin_top = 8.0
+margin_right = 1063.0
+margin_bottom = 1080.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Map border" type="Panel" parent="GUI"]
+margin_left = 25.0
+margin_top = 24.0
+margin_right = 1044.0
+margin_bottom = 1044.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AR Log" type="Panel" parent="GUI"]
+margin_left = 1094.0
+margin_top = 768.0
+margin_right = 1912.0
+margin_bottom = 1080.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Log border" type="Panel" parent="GUI"]
+margin_left = 1107.0
+margin_top = 778.0
+margin_right = 1898.0
+margin_bottom = 1041.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AR KIS" type="Panel" parent="GUI"]
+margin_left = 1094.0
+margin_top = 8.0
+margin_right = 1920.0
+margin_bottom = 752.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info side" type="HBoxContainer" parent="."]
+margin_left = 1016.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+rect_min_size = Vector2( 900, 1080 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ViewportContainer2" type="ViewportContainer" parent="Info side"]
+margin_right = 900.0
+margin_bottom = 1080.0
+rect_min_size = Vector2( 900, 1080 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="Info side/ViewportContainer2"]
+position = Vector2( -50, 540 )
+
+[node name="Log text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 278.0
+margin_top = 248.0
+margin_right = 382.0
+margin_bottom = 305.0
+custom_fonts/normal_font = ExtResource( 10 )
+bbcode_enabled = true
+bbcode_text = "[center]Log"
+text = "Log"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Log" type="VBoxContainer" parent="Info side/ViewportContainer2/Camera2D"]
+process_priority = 13
+margin_left = 121.0
+margin_top = 172.0
+margin_right = 621.0
+margin_bottom = 447.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control9" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_right = 500.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control9"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control9/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control10" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 25.0
+margin_right = 500.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control10"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control10/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control18" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 50.0
+margin_right = 500.0
+margin_bottom = 75.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control18"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control18/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control19" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 75.0
+margin_right = 500.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control19"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control19/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control11" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 100.0
+margin_right = 500.0
+margin_bottom = 125.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control11"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control11/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control12" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 125.0
+margin_right = 500.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control12"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control12/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control13" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 150.0
+margin_right = 500.0
+margin_bottom = 175.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control13"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control13/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control14" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 175.0
+margin_right = 500.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control14"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control14/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control15" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 200.0
+margin_right = 500.0
+margin_bottom = 225.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control15"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control15/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control16" type="Control" parent="Info side/ViewportContainer2/Camera2D/Log"]
+margin_top = 225.0
+margin_right = 500.0
+margin_bottom = 250.0
+rect_min_size = Vector2( 500, 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="Info side/ViewportContainer2/Camera2D/Log/Control16"]
+margin_left = 25.8368
+margin_top = 72.4324
+margin_right = 805.837
+margin_bottom = 97.4324
+rect_min_size = Vector2( 700, 25 )
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D/Log/Control16/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 543.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = -499.0
+margin_right = 969.0
+margin_bottom = -308.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = -244.0
+margin_right = 969.0
+margin_bottom = -53.0
+rect_pivot_offset = Vector2( 64, 136 )
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = 13.0
+margin_right = 969.0
+margin_bottom = 204.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = -308.0
+margin_right = 1082.0
+margin_bottom = -244.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 10 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]K[/color]its"
+text = "Kits"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = -52.0
+margin_right = 1082.0
+margin_bottom = 12.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 10 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]I[/color]nv"
+text = "Inv"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 890.0
+margin_top = 204.0
+margin_right = 1082.0
+margin_bottom = 268.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 10 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]C[/color]har"
+text = "Char"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Open Info" type="Control" parent="Info side/ViewportContainer2/Camera2D"]
+margin_left = 50.0
+margin_top = -540.0
+margin_right = 90.0
+margin_bottom = -500.0
+
+[node name="Map side" type="Node2D" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Map side"]
+margin_left = 31.0
+margin_top = 32.0
+margin_right = 1039.0
+margin_bottom = 1040.0
+rect_min_size = Vector2( 1008, 1008 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ViewportContainer" type="ViewportContainer" parent="Map side/HBoxContainer"]
+margin_right = 1008.0
+margin_bottom = 1008.0
+rect_min_size = Vector2( 1008, 1008 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Viewport" type="Viewport" parent="Map side/HBoxContainer/ViewportContainer"]
+size = Vector2( 1008, 1008 )
+handle_input_locally = false
+usage = 0
+render_target_update_mode = 3
+
+[node name="Perception" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 32.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Meat Layer" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Meat Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 16 )
+
+[node name="Interactables" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Meat Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 15 )
+
+[node name="Magic Layer" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Magic Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 16 )
+
+[node name="Interactables" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Magic Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 14 )
+
+[node name="Matrix Layer" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Matrix Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 11 )
+
+[node name="Interactables" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Perception/Matrix Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 15 )
+
+[node name="Abstraction" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 32.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Actor" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Map" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction/Actor"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+
+[node name="Player" type="Control" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Map" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction/Player"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="Camera2D" type="Camera2D" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction/Player/Map"]
+current = true
+script = ExtResource( 12 )
+
+[node name="open Info panel" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

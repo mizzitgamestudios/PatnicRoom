@@ -1,0 +1,125 @@
+{
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Telepathic push"
+  },
+  "Comp_KitParts_KitPartName": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Telepathic push"
+  },
+  "Comp_KitPart_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "often used by martial artist to gain that sweet edge when someone puts up a fight...I miss the daycare"
+  },
+  "Comp_KitPart_MechanicalSummary": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "pushes 2 Tiles"
+  },
+
+
+
+  "Comp_KitParts_ListOfConditions": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "forced movement","2"
+
+    ]
+  },
+  "Comp_KitPart_SymbiosType": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "mind",
+      "no damage",
+      "position change",
+    ]
+  },
+
+  "Comp_KitPart_Effect": {
+    "type" : "ENTRY_EFFECT",
+
+    "TIME" : {
+      "T-0-TIME":"N/A",
+      "T-1-TIME":"N/A",
+      "T-2-TIME":"0",
+      "T-3-TIME":"N/A"
+    },
+
+    "TRIGGER":{
+      "T-0-TRIGGER":"N/A",
+      "T-1-TRIGGER":"N/A",
+      "T-2-TRIGGER":"projectile hit",
+      "T-3-TRIGGER":"N/A",
+    },
+
+    "SPACE":{
+      "T-0-SPACE":{
+        "medium":"N/A",
+        "reach":"N/A",
+        "m-type":"N/A"
+      },
+      "T-1-SPACE":{
+        "medium":"N/A",
+        "reach":"N/A",
+        "m-type":"N/A"
+      },
+      "T-2-SPACE":{
+        "medium":"linear",
+        "reach":"2",
+        "m-type":"0"
+      },
+      "T-3-SPACE":{
+        "medium":"N/A",
+        "reach":"N/A",
+        "m-type":"N/A"
+      }
+    },
+
+  "EFFECT":{
+    "T-0-EFFECT":{
+        "category":"N/A",
+        "value":"N/A"
+      },
+      "T-1-EFFECT":{
+        "category":"N/A",
+        "values":"N/A"
+      },
+      "T-2-EFFECT":{
+        "category":"CONDITION",
+        "values":[
+          "forcedMovement",
+          "0",
+          "2",
+          "pushing"
+        ]
+      },
+      "T-3-EFFECT":{
+        "category":"N/A",
+        "values":"N/A"
+      }
+    }
+  },
+
+
+
+  "Comp_KitPart_LogToString": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "X bursts up in flames and takes X damage"
+  },
+  "Comp_KitPart_ModTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_Cooldown": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "5"
+  },
+
+
+
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Spell_Form"
+  }
+
+
+}

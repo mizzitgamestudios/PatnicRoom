@@ -1,0 +1,208 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[node name="root recycler" type="Node2D"]
+position = Vector2( 0, -27 )
+
+[node name="Matterials3" type="Panel" parent="."]
+margin_left = 1375.0
+margin_top = 283.0
+margin_right = 1815.0
+margin_bottom = 630.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Matterials4" type="Panel" parent="."]
+margin_left = 1376.0
+margin_top = 283.0
+margin_right = 1816.0
+margin_bottom = 333.0
+rect_min_size = Vector2( 440, 50 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Matterials text" type="RichTextLabel" parent="."]
+margin_left = 1383.0
+margin_top = 274.0
+margin_right = 1823.0
+margin_bottom = 339.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Recycler"
+text = "Recycler"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lkjndsfvöjlkfvgn" type="Panel" parent="."]
+margin_left = 432.0
+margin_top = 633.0
+margin_right = 1544.0
+margin_bottom = 713.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+
+
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Status2" type="Panel" parent="Node"]
+margin_left = 832.0
+margin_top = 296.0
+margin_right = 1350.0
+margin_bottom = 324.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Status3" type="Panel" parent="Node"]
+margin_left = 832.0
+margin_top = 512.0
+margin_right = 1350.0
+margin_bottom = 552.0
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Status5" type="Panel" parent="Node"]
+margin_left = 842.0
+margin_top = 519.0
+margin_right = 1003.0
+margin_bottom = 543.0
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Status6" type="Panel" parent="Node"]
+margin_left = 1011.0
+margin_top = 519.0
+margin_right = 1172.0
+margin_bottom = 543.0
+rect_pivot_offset = Vector2( 59, 19 )
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Status7" type="Panel" parent="Node"]
+margin_left = 1179.0
+margin_top = 519.0
+margin_right = 1340.0
+margin_bottom = 543.0
+rect_pivot_offset = Vector2( 59, 19 )
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Status4" type="Panel" parent="Node"]
+margin_left = 832.0
+margin_top = 324.0
+margin_right = 1350.0
+margin_bottom = 512.0
+custom_styles/panel = SubResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RunnersText3" type="RichTextLabel" parent="Node"]
+margin_left = 835.0
+margin_top = 300.0
+margin_right = 899.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Synth:"
+text = "Synth:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RunnersText5" type="RichTextLabel" parent="Node"]
+margin_left = 963.0
+margin_top = 300.0
+margin_right = 1027.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Steel:"
+text = "Steel:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RunnersText7" type="RichTextLabel" parent="Node"]
+margin_left = 1091.0
+margin_top = 300.0
+margin_right = 1155.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Wires:"
+text = "Wires:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RunnersText9" type="RichTextLabel" parent="Node"]
+margin_left = 1219.0
+margin_top = 300.0
+margin_right = 1283.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Bio:"
+text = "Bio:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lkjndsfvöjlkfvgn" type="Panel" parent="Node"]
+margin_left = 832.0
+margin_top = 216.0
+margin_right = 1350.0
+margin_bottom = 296.0
+custom_styles/panel = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RunnersText12" type="RichTextLabel" parent="Node"]
+margin_left = 832.0
+margin_top = 216.0
+margin_right = 1352.0
+margin_bottom = 296.0
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 10 )
+bbcode_enabled = true
+bbcode_text = "[center] Recycler"
+text = " Recycler"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,42 @@
+{
+  "Comp_Actor_SpecialtyName": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "fatal poisonous test eater"
+  },
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "fatal poisonous test eater"
+  },
+  "Comp_Actor_SpecialtyDescription": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "consults 40 year old housewifes in mid-live-crisis about juju matters"
+  },
+  "Comp_Actor_Attributes": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "con":1,
+      "agi":0,
+      "rea":-1,
+      "str":-1,
+
+      "wil": 0,
+      "log": 0,
+      "int": 1,
+      "cha": 0
+    }
+  },
+  "Comp_NPC_SkillBlock": {
+    "type" : "ENTRY_DICTIONARY",
+    "value":{
+      "First Aid":"3",
+      "Medicine":"2",
+      "survival":"1",
+      "Perception":"3",
+      "Assensing":"1",
+      }
+    },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Specialties"
+  }
+}

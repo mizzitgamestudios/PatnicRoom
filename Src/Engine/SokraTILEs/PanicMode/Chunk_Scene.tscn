@@ -1,0 +1,149 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Media/Tilesets/all.tres" type="TileSet" id=1]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicModeUserInput.gd" type="Script" id=2]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Camera2D.gd" type="Script" id=3]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Matrix/Matrix Interactables.gd" type="Script" id=4]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Matrix/Matrix Floor.gd" type="Script" id=5]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Meat/Meat Floor.gd" type="Script" id=6]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Meat/Meat Interactables.gd" type="Script" id=7]
+[ext_resource path="res://Src/Engine/SokraTILEs/PanicMode/Actor/Player.gd" type="Script" id=8]
+
+[node name="Chunk" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1920.0
+margin_bottom = 1088.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 1200.0
+margin_bottom = 1040.0
+rect_min_size = Vector2( 1168, 1008 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ViewportContainer" type="ViewportContainer" parent="HBoxContainer"]
+margin_right = 1168.0
+margin_bottom = 1008.0
+rect_min_size = Vector2( 1168, 1008 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Viewport" type="Viewport" parent="HBoxContainer/ViewportContainer"]
+size = Vector2( 1168, 1008 )
+handle_input_locally = false
+usage = 0
+render_target_update_mode = 3
+
+[node name="Perception" type="Control" parent="HBoxContainer/ViewportContainer/Viewport"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 32.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Magic Layer" type="Control" parent="HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Magic Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 6 )
+
+[node name="Interactables" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Magic Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 7 )
+
+[node name="Matrix Layer" type="Control" parent="HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Matrix Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 5 )
+
+[node name="Interactables" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Matrix Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 4 )
+
+[node name="Meat Layer" type="Control" parent="HBoxContainer/ViewportContainer/Viewport/Perception"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Floor" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Meat Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 6 )
+
+[node name="Interactables" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Perception/Meat Layer"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 4 )
+
+[node name="Abstraction" type="Control" parent="HBoxContainer/ViewportContainer/Viewport"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 32.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Actor" type="Control" parent="HBoxContainer/ViewportContainer/Viewport/Abstraction"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Map" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Abstraction/Actor"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+
+[node name="Player" type="Control" parent="HBoxContainer/ViewportContainer/Viewport/Abstraction"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Map" type="TileMap" parent="HBoxContainer/ViewportContainer/Viewport/Abstraction/Player"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="Camera2D" type="Camera2D" parent="HBoxContainer/ViewportContainer/Viewport/Abstraction/Player/Map"]
+current = true
+script = ExtResource( 3 )

@@ -1,0 +1,57 @@
+{
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "elf"
+  },
+  "Comp_Universal_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "just like humans,but in tiny"
+  },
+
+  "Comp_Bodyparts_ArrayOfBodyParts": {
+    "type" : "ENTRY_CONTAINER",
+    "value" : [
+      {
+        "Comp_Actor_Perk": {
+          "type" : "ENTRY_SIMPLE",
+          "value" : "infrared_sight"
+        }
+      }
+
+    ]
+  },
+
+  "Comp_Actor_RacialEnemies": {
+    "type" : "ENTRY_Array",
+    "value" : [
+      "human"
+    ]
+  },
+
+  "Comp_Actor_RacialFriends": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "orc"
+    ]
+  },
+
+  "Comp_Actor_Attributes": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "constitution":5,
+      "agillity":2,
+      "reaction":3,
+      "strength":5,
+
+      "willpower":3,
+      "logic":2,
+      "intuition":2,
+      "charisma":1,
+    }
+  },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Races"
+  }
+
+}

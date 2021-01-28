@@ -1,0 +1,33 @@
+{
+
+
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "antropomorphic_upper_leg"
+  },
+
+  "Comp_Universal_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "upper leg of an human,flesh-modell,a rarity in these times"
+  },
+
+  "Comp_Bodyparts_ArrayOfBodyParts": {
+    "type" : "ENTRY_CONTAINER",
+    "value" : [
+      {
+        "Comp_Universal_Description": {
+          "type":"TEMPLATE",
+          "group":"Bodyparts",
+          "sup":"Antropomorphic",
+          "value":"upper_leg"
+        }
+      }
+
+    ]
+  },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Anatomies"
+  }
+
+}

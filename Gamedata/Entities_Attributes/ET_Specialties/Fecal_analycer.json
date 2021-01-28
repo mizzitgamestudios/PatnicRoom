@@ -1,0 +1,41 @@
+{
+  "Comp_Actor_SpecialtyName": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Critter Fecal analyst"
+  },
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Critter Fecal analyst"
+  },
+  "Comp_Actor_SpecialtyDescription": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Specialiced in near exticted Animals and their health by analycing their shit"
+  },
+  "Comp_Actor_Attributes": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "con":-1,
+      "agi":0,
+      "rea":-1,
+      "str":0,
+
+      "wil": 1,
+      "log": 0,
+      "int": 0,
+      "cha": 1
+    }
+  },
+  "Comp_NPC_SkillBlock": {
+    "type" : "ENTRY_DICTIONARY",
+    "value":{
+      "Animal Handling":3,
+      "Biotechnology":-2
+      }
+    },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Specialties"
+  }
+
+
+}

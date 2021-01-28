@@ -1,0 +1,44 @@
+{
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Spellcaster_Tier_One"
+  },
+  "Comp_Universal_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "weak guys throwing wild punches,lasts 2 rounds in the ring and 9 weeks in coma"
+  },
+  "Comp_NPC_Synonym": {
+    "type" : "ENTRY_ARRAY",
+    "value" : ["kids party magican","awakening teenager","unknowingly awakend"]
+  },
+  "Comp_Actor_Attributes": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "con":-2,
+      "agi":2,
+      "rea":-1,
+      "str":-1,
+
+      "wil": 1,
+      "log": -2,
+      "int": 2,
+      "cha": -1
+    }
+  },
+  "Comp_NPC_SkillBlock": {
+    "type" : "ENTRY_DICTIONARY",
+    "value":{
+      "Gymnastcis":"3",
+      "Sneaking":"5",
+      "Perception":"4",
+      "Assensing":"5",
+      "Computer":"3",
+      }
+    },
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Roles"
+  }
+
+
+}

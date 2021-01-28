@@ -1,0 +1,130 @@
+{
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Fireball"
+  },
+  "Comp_KitParts_KitPartName": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Fireball of burning"
+  },
+  "Comp_KitPart_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Its a normal Fireball,very hot...dont touch it and stop fooling around."
+  },
+  "Comp_KitPart_MechanicalSummary": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "deals 1 damage, 50 % chance to enflame target for 1D6"
+  },
+
+
+
+  "Comp_KitParts_ListOfConditions": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "burning","1","6"
+
+    ]
+  },
+  "Comp_KitPart_SymbiosType": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "fire",
+      "damage over time",
+      "spreading",
+    ]
+  },
+
+
+
+  "Comp_KitPart_Effect": {
+    "type" : "ENTRY_EFFECT",
+
+    "TIME" : {
+      "T-0-TIME":"N/A",
+      "T-1-TIME":"0",
+      "T-2-TIME":"1",
+      "T-3-TIME":"N/A"
+    },
+
+    "TRIGGER":{
+      "T-0-TRIGGER":"N/A",
+      "T-1-TRIGGER":"projectile hit",
+      "T-2-TRIGGER":"CHANCE(50)",
+      "T-3-TRIGGER":"N/A",
+    },
+
+    "SPACE":{
+      "T-0-SPACE":{
+        "medium":"N/A",
+        "reach":"N/A",
+        "m-type":"N/A"
+      },
+      "T-1-SPACE":{
+        "medium":"linea",
+        "reach":"4",
+        "m-type":"0"
+      },
+      "T-2-SPACE":{
+        "medium":"areal",
+        "reach":"2",
+        "m-type":"0"
+      },
+      "T-3-SPACE":{
+        "medium":"linea",
+        "reach":"N/A",
+        "m-type":"0"
+      }
+    },
+
+  "EFFECT":{
+    "T-0-EFFECT":{
+        "category":"N/A",
+        "value":"N/A"
+      },
+      "T-1-EFFECT":{
+        "category":"STATMOD",
+        "values":[
+          "HP",
+          "-2"
+        ]
+      },
+      "T-2-EFFECT":{
+        "category":"CONDITION",
+        "values":[
+          "burning",
+          "3",
+          "2",
+          "panicInducing"
+        ]
+      },
+      "T-3-EFFECT":{
+        "category":"N/A",
+        "values":"N/A"
+      }
+    }
+  },
+
+
+
+  "Comp_KitPart_LogToString": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "X bursts up in flames and takes X damage"
+  },
+  "Comp_KitPart_ModTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_Cooldown": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "5"
+  },
+
+
+
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Spell_Form"
+  }
+
+
+}
