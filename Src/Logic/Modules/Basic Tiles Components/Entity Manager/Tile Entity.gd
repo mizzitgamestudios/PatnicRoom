@@ -50,7 +50,7 @@ signal TileEntity_Validate_Use_With_Comp
 
 
 ################################################################################
-##  --- Functions ---                                                         ##
+#  --- Functions ---                                                         #
 ################################################################################
 func deepCopy():
 	if !dictForDeepCopy.has("Comp_Tile_Name"):
