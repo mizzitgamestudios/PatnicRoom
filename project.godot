@@ -245,21 +245,6 @@ _global_script_classes=[ {
 "path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/Effect.gd"
 }, {
 "base": "Component",
-"class": "Comp_Kit_ConnectedAppendix",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedAppendix.gd"
-}, {
-"base": "Component",
-"class": "Comp_Kit_ConnectedBase",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedBase.gd"
-}, {
-"base": "Component",
-"class": "Comp_Kit_ConnectedMod",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedMod.gd"
-}, {
-"base": "Component",
 "class": "Comp_Kit_KitCat",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/KitCat.gd"
@@ -278,6 +263,21 @@ _global_script_classes=[ {
 "class": "Comp_Kit_SymbiosType",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/SymbiosType.gd"
+}, {
+"base": "Component",
+"class": "Comp_Kit_appendixConnection",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedAppendix.gd"
+}, {
+"base": "Component",
+"class": "Comp_Kit_baseConnection",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedBase.gd"
+}, {
+"base": "Component",
+"class": "Comp_Kit_modConnection",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/KitSet/Components/Kit Module/connectedMod.gd"
 }, {
 "base": "Component",
 "class": "Comp_NPC_AttributeMod",
@@ -822,13 +822,13 @@ _global_script_class_icons={
 "Comp_KitParts_KitPartName": "",
 "Comp_KitParts_ListOfConditions": "",
 "Comp_KitSet_Effect": "",
-"Comp_Kit_ConnectedAppendix": "",
-"Comp_Kit_ConnectedBase": "",
-"Comp_Kit_ConnectedMod": "",
 "Comp_Kit_KitCat": "",
 "Comp_Kit_KitType": "",
 "Comp_Kit_LogToString": "",
 "Comp_Kit_SymbiosType": "",
+"Comp_Kit_appendixConnection": "",
+"Comp_Kit_baseConnection": "",
+"Comp_Kit_modConnection": "",
 "Comp_NPC_AttributeMod": "",
 "Comp_NPC_Gear": "",
 "Comp_NPC_IndirectStats": "",

@@ -1,10 +1,10 @@
 extends Component
-class_name Comp_Kit_ConnectedMod
+class_name Comp_Kit_modConnection
 
 var value
 
 func _init(valuePara):
-	name = "Comp_Kit_ConnectedMod"
+	name = "Comp_Kit_modConnection"
 	value = valuePara
 
 

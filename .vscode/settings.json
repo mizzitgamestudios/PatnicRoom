@@ -19,9 +19,20 @@
 
 
     // --- Icons --- \\
+    "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.folders.associations": {
-        "config": "src",
-        "sample": "dist"
-    }
+        "Entity Manager": "Template",
+        "Components": "Components",
+        "Controller": "Controller",
+        "Systems": "Public",
+        "Unit Test": "Test",
+        "Basic Tiles Components":"Environment",
+        "Engine": "Core",
+        "Media":"Images",
+        "Gamedata":"DataBase",
+        "Effect Generator":"Layout",
+        "scenes":"global",
+        "Gameloop":"generator",
+    },
 
 }

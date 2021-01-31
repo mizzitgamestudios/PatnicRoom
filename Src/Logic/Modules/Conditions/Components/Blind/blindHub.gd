@@ -1,6 +1,6 @@
 ###############################################################################################################################
 #                                                                                                                             #
-# Klasse:		Blind Hub                                                                                                    #
+# Klasse:		Blind Hub                                                                                                     #
 # description:	Basic class for Tilemap representation,includes Signal for broadcasts                                         #
 #                                                                                                                             #
 # data flow:	                                                                                                              #
@@ -51,18 +51,16 @@ func getStrategyOfCondition(instancedCondition:Component) -> void:
 			overStimulation.run(instancedCondition)
 
 
-
 func isWornOut() -> bool:
 	return duration == 0
 func isNeutraliced() -> bool:
 	return false
 
 
-
 func _on_Actor_Turn_Started():
 	if isWornOut():
 		affectedEnt.remove_component(name)
-
+		
 func _on_Actor_Turn_Finished():
 	if !isNeutraliced(): 
 		run()

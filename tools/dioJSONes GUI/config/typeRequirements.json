@@ -1,9 +1,0 @@
-{
-  "Role":{
-    "gear":"list of all template items which can be dropped by this enemy.if not specified,there is a chance of 20%",
-    "skilmod":"test"
-  }
-
-
-
-}

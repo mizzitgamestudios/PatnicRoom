@@ -59,9 +59,9 @@ var index = {
 	"Comp_Kit_KitCat":Comp_Kit_KitCat,
 	"Comp_Kit_KitType":Comp_Kit_KitType,
 	
-	"Comp_Kit_ConnectedAppendix":Comp_Kit_ConnectedAppendix,
-	"Comp_Kit_ConnectedBase":Comp_Kit_ConnectedBase,
-	"Comp_Kit_ConnectedMod":Comp_Kit_ConnectedMod,
+	"Comp_Kit_baseConnection":Comp_Kit_baseConnection,
+	"Comp_Kit_modConnection":Comp_Kit_modConnection,
+	"Comp_Kit_appendixConnection":Comp_Kit_appendixConnection,
 
 ################################################################################
 ##  --- KitPart ---                                                            ##

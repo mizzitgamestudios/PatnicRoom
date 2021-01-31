@@ -24,7 +24,7 @@ func fillDictsForXRef(layerToParse):
 
 func AddTextureAtlasNrToEnt(ent:TileEntity):
 	var cache = self.tile_set.find_tile_by_name( ent.textureID() )
-	ent.staticTilesetCellNr = Comp_Tile_StaticTilesetCellNr.new(cache)
+	ent.staticTilesetCellNr = Comp_Tile_StaticTilesetCellNr.new(str(cache))
 
 
 
