@@ -3,39 +3,41 @@
 # Klasse:		ActorsOnMap                                                                                                   #
 # description:	List of all Actors on @SokraTiles.Atlas_tileset_Meta on ActorLayor                                            #
 #                                                                                                                             #
-# data flow:	                                                                                                              #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
 # often called:	N/A                                                                                                           #
 #                                                                                                                             #
 ###############################################################################################################################
 
-extends Node
-class_name ComponentManager
+extends Group
+class_name Group_ActorsOnMap
 
 
 
-func add_component(component:Component) -> String:
-	DemokrECTS.performanceManager.is_dirty = true;
-	var _id: String = component.name.to_lower();
-	
-	if (component.has_method('get_name')):
-		_id = component.get_name().to_lower();
-	
-	if DemokrECTS.entityManager.hasComponent(_id):
-		return _id;
-	
-	DemokrECTS.entityManager.EntittiesWithComponents[_id] = {}
-	return _id;
+########################
+# --- Init ----------- #
+########################
+var entitiesInGroup = {}
+func _init(namePara:String) -> void:
+	name = namePara
 
 
-func removeComponentInECS(entity:Entity, component_name:String) -> void:
-	DemokrECTS.performanceManager.is_dirty = true;
-	var _key: String = component_name.to_lower();
-	
-	if DemokrECTS.entityManager.hasComponent(_key):
-		var _id = entity.get_instance_id();
 
-		DemokrECTS.entityManager.EntittiesWithComponents[_key].erase(_id);
-	return
+########################
+#--- Helper ---------- #
+########################
+func addEntity(ent:Entity) -> void:
+	entitiesInGroup[_getEntName(ent)] = ent
+
+func removeEntity(ent:Entity):
+	if has(ent):
+		entitiesInGroup.remove( _getEntName(ent) )
+
+func has(ent:Entity):
+	entitiesInGroup.has(_getEntName(ent))
+
+
+func _getEntName(ent:Entity) -> int:
+	return ent.getComponent("Comp_Universal_Name").value
 
 
 

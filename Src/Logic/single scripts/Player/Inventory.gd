@@ -5,6 +5,7 @@ class_name Inventory
 var listOfEnts = {}
 var cap
 var firstAdd :bool = true
+
 func appendGear(ent:Entity):
 	if firstAdd:
 		setCap()

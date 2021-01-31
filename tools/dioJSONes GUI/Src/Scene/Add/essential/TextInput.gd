@@ -4,7 +4,7 @@ extends Panel
 var minVec
 var maxVec
 func _ready():
-	get_node(".").set("custom_styles/panel",StyleConstructor.createInputStyleSleep())
+	#get_node(".").set("custom_styles/panel",StyleConstructor.createInputStyleSleep())
 	minVec = rect_global_position
 	var cacheSizeOfRect = Vector2(get_end().x-get_begin().x,get_end().y-get_begin().y)
 	maxVec = Vector2(minVec.x+cacheSizeOfRect.x,minVec.y+cacheSizeOfRect.y)

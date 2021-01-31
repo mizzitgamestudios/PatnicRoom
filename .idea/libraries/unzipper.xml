@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="unzipper">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/addons/github-integration/resources/extraction/unzipper.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -3,8 +3,8 @@ class_name Comp_Tile_Description
 
 var value: String
 
-func _init(valuePara):
+func _init(valuePara:String):
 	name = "Comp_Tile_Description"
-	value = String(valuePara)
+	value = str(valuePara)
 
 

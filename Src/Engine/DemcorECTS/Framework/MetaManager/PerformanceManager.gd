@@ -1,3 +1,13 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		PerformanceManager                                                                                            #
+# description:	increases Framerate and empties unused but reserved memory space                                              #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name PerformanceManager         
 
@@ -32,6 +42,12 @@ func rebuild() -> void:
 	
 	is_dirty = false
 
+
+
+
+########################
+##  --- Management --- #
+########################
 func update(group = null, delta = null) -> void:
 	if is_dirty:
 		rebuild()

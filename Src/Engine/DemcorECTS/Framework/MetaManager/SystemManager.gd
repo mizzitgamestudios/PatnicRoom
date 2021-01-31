@@ -1,3 +1,13 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		SystemManager                                                                                                 #
+# description:	Manages Communication between Components                                                                      #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name SystemManager
 
@@ -19,7 +29,6 @@ var system_entities = {};
 ##  --- Management ---                                                        ##
 ################################################################################
 func add_system(system, components = []) -> void:
-	DemokrECTS.performanceManager = true;
 	var _id: String = system.name.to_lower();
 	
 	if DemokrECTS.isSystemInECS(_id):
@@ -41,18 +50,13 @@ func add_system(system, components = []) -> void:
 	if system.has_method("on_after_add"):
 		system.on_after_add();
 
-
-
-
-
+		
 func removeSystemInECS(system_name:String):
 	var _id: String = system_name.to_lower();
 	var _system = systems[system_name];
 	
 	if not isSystemInECS(_id):
 		return;
-	
-	DemokrECTS.performanceManager.is_dirty = true;
 	
 	if _system.has_method("on_before_remove"):
 		_system.on_before_remove();

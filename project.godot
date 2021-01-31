@@ -399,11 +399,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/gs_logger/appenders/console_appender.gd"
 }, {
-"base": "HBoxContainer",
-"class": "ContributorClass",
-"language": "GDScript",
-"path": "res://addons/github-integration/scripts/ContributorClass.gd"
-}, {
 "base": "Node",
 "class": "CreateNPCProcess",
 "language": "GDScript",
@@ -464,11 +459,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/Effect Generator/Systems/Syntax.gd"
 }, {
-"base": "Entity",
-"class": "Ent_Kit_Base",
-"language": "GDScript",
-"path": "res://Src/Engine/DemcorECTS/Framework/Entities/Player.gd"
-}, {
 "base": "Node",
 "class": "Entity",
 "language": "GDScript",
@@ -494,11 +484,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Engine/ArisPROCGENes/Generator Hub/Actors.gd"
 }, {
-"base": "PanelContainer",
-"class": "GistItem",
-"language": "GDScript",
-"path": "res://addons/github-integration/scripts/GistItem.gd"
-}, {
 "base": "Node",
 "class": "Group",
 "language": "GDScript",
@@ -512,7 +497,7 @@ _global_script_classes=[ {
 "base": "Group",
 "class": "Group_ActorsOnMap",
 "language": "GDScript",
-"path": "res://Src/Engine/DemcorECTS/Framework/Groups/RealTime/ActorsOnMap.gd"
+"path": "res://Src/Engine/DemcorECTS/Framework/Groups/ActorsOnMap.gd"
 }, {
 "base": "Group",
 "class": "Group_Atlas",
@@ -522,7 +507,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Helpers",
 "language": "GDScript",
-"path": "res://Src/Logic/single scripts/Util/Helpers.gd"
+"path": "res://Src/Logic/single scripts/Util/SubUtils/Helpers.gd"
 }, {
 "base": "Layout",
 "class": "HtmlLayout",
@@ -530,19 +515,9 @@ _global_script_classes=[ {
 "path": "res://addons/gs_logger/layouts/html_layout.gd"
 }, {
 "base": "Node",
-"class": "InitArisProcgeNes",
-"language": "GDScript",
-"path": "res://Src/Bootstrap/Engines/ArisPROCGENes.gd"
-}, {
-"base": "Node",
-"class": "InitDemokrECTS",
-"language": "GDScript",
-"path": "res://Src/Bootstrap/Engines/DemocrECTS.gd"
-}, {
-"base": "Node",
 "class": "InitDioJSONes",
 "language": "GDScript",
-"path": "res://Src/Bootstrap/Engines/DioJSONes.gd"
+"path": "res://Src/Bootstrap/Engines/InitDioJSONes.gd"
 }, {
 "base": "Node",
 "class": "InitSokraTiles",
@@ -553,61 +528,6 @@ _global_script_classes=[ {
 "class": "Inventory",
 "language": "GDScript",
 "path": "res://Src/Logic/single scripts/Player/Inventory.gd"
-}, {
-"base": "HBoxContainer",
-"class": "InvitationItem",
-"language": "GDScript",
-"path": "res://addons/github-integration/scripts/InvitationItem.gd"
-}, {
-"base": "Reference",
-"class": "JSONConfigFile",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_config_file.gd"
-}, {
-"base": "Reference",
-"class": "JSONConfigProcessor",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_config_processor.gd"
-}, {
-"base": "Reference",
-"class": "JSONProperty",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyArray",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_array.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyFile",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_file.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyImage",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_image.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyInteger",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_integer.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyNumber",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_number.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyObject",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_object.gd"
-}, {
-"base": "Reference",
-"class": "JSONPropertyString",
-"language": "GDScript",
-"path": "res://godot/json_config_file/json_properties/json_property_string.gd"
 }, {
 "base": "Node",
 "class": "JsonParser",
@@ -693,11 +613,6 @@ _global_script_classes=[ {
 "class": "Recycler",
 "language": "GDScript",
 "path": "res://Src/Logic/single scripts/Player/Recycler.gd"
-}, {
-"base": "PanelContainer",
-"class": "RepositoryItem",
-"language": "GDScript",
-"path": "res://addons/github-integration/scripts/RepositoryItem.gd"
 }, {
 "base": "Node",
 "class": "RestmodeUserinput",
@@ -938,7 +853,6 @@ _global_script_class_icons={
 "ComponentBasic": "",
 "ComponentManager": "",
 "ConsoleAppender": "",
-"ContributorClass": "",
 "CreateNPCProcess": "",
 "DemocrECTS_ComponentIndex": "",
 "DictionaryUtil": "",
@@ -951,35 +865,20 @@ _global_script_class_icons={
 "Effect_Generator_API": "",
 "Effect_Generator_Simpel": "",
 "Effect_Generator_Syntax": "",
-"Ent_Kit_Base": "",
 "Entity": "",
 "EntityManager": "",
 "FileAppender": "",
 "FileHub": "",
 "GeneratorHubActors": "",
-"GistItem": "",
 "Group": "",
 "GroupManager": "",
 "Group_ActorsOnMap": "",
 "Group_Atlas": "",
 "Helpers": "",
 "HtmlLayout": "",
-"InitArisProcgeNes": "",
-"InitDemokrECTS": "",
 "InitDioJSONes": "",
 "InitSokraTiles": "",
 "Inventory": "",
-"InvitationItem": "",
-"JSONConfigFile": "",
-"JSONConfigProcessor": "",
-"JSONProperty": "",
-"JSONPropertyArray": "",
-"JSONPropertyFile": "",
-"JSONPropertyImage": "",
-"JSONPropertyInteger": "",
-"JSONPropertyNumber": "",
-"JSONPropertyObject": "",
-"JSONPropertyString": "",
 "JsonParser": "",
 "JsonToEntityParser": "",
 "KitConstructor": "",
@@ -997,7 +896,6 @@ _global_script_class_icons={
 "PerformanceManager": "",
 "RNGClass": "",
 "Recycler": "",
-"RepositoryItem": "",
 "RestmodeUserinput": "",
 "Runner": "",
 "RuntimeParameter": "",
@@ -1038,35 +936,36 @@ description=false
 
 [application]
 
-config/name="P@nicroom"
+config/name="P@nicroom CACHE"
 run/main_scene="res://Src/Bootstrap/GameInit/GameInitSzene.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
-IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
-RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
-UserData="*res://addons/github-integration/scripts/user_data.gd"
-ScreenDebugger="*res://addons/screen_debugger/S_ScreenDebugger.gd"
 Logger="*res://addons/gs_logger/logger.gd"
-__________________________________________________________________________________________="*res://tools/separator/separator1.tscn"
 Util="*res://Src/Logic/single scripts/Util/Main.gd"
+__________________________________________________________________________________________="*res://tools/separator/separator1.tscn"
 ENUM="*res://Src/Logic/single scripts/Enum.gd"
 Signals="*res://Src/Logic/single scripts/Signals.gd"
 RestMode="*res://Src/scenes/Gameloop/RestMode/Restmode.gd"
 ____________________________________________________________________________________="*res://tools/separator/separator0.tscn"
 GameInit="*res://Src/Bootstrap/GameInit/GameInit.gd"
+SokraTiles="*res://Src/Engine/SokraTILEs/sokraTILES.gd"
 DioJSONes="*res://Src/Engine/DioJSONes/dioJSONes.gd"
 DemokrECTS="*res://Src/Engine/DemcorECTS/demokrECS.gd"
 ArisPROCGENes="*res://Src/Engine/ArisPROCGENes/ArisPROCGENes.gd"
-SokraTiles="*res://Src/Engine/SokraTILEs/sokraTILES.gd"
+BooStrap="*res://Src/Bootstrap/BooStrap.gd"
 Player="*res://Src/Logic/single scripts/Player/Player Singleton.gd"
 ______________________________________________________________________________="*res://tools/separator/separator4.tscn"
 ConditionHub="*res://Src/Logic/Modules/Conditions/Entity Manager/ConditionHub.gd"
-BooStrap="*res://Src/Bootstrap/BooStrap.gd"
 ____________________________________________________________________________="*res://tools/separator/separator2.tscn"
 Gameloop="*res://Src/Gameloop.gd"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/unused_signal=false
 
 [display]
 
@@ -1081,7 +980,7 @@ script_templates_search_path="res://tools/GD-Script Template"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "github-integration", "godotp-folder-structure", "gs_logger", "gut", "screen_debugger", "toggle_code_generation", "vnen.tiled_importer", "zylann.project_stats" )
+enabled=PoolStringArray( "gs_logger", "gut" )
 
 [input]
 

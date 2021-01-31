@@ -6,30 +6,12 @@ func getAllTileSetPaths() -> PoolStringArray:
 
 
 func getTilesetName(filepath: String) -> String:
-	var splitAtNumberOfTileSet =filepath.split("JSON/")
-	var nameOfTileSetWithFileTyp=splitAtNumberOfTileSet[1]
+	var splitAtNumberOfTileSet:PoolStringArray = filepath.split("JSON/")
+	var nameOfTileSetWithFileTyp:String = splitAtNumberOfTileSet[1]
 	
-	var splitAtFileType=nameOfTileSetWithFileTyp.split(".json")
+	var splitAtFileType = nameOfTileSetWithFileTyp.split(".json")
 	var tileSetName=splitAtFileType[0]
 	
 	return tileSetName
-
-var tilesetName
-
-func getTileSetNameById(tileId):
-	var split = tileId.split("_")
-	var tilesets = SokraTiles.Atlas_tileset_Order
-	for i in tilesets.size():
-		var currentTilesetName = tilesets[i]
-		if split[0] in currentTilesetName:
-			return currentTilesetName
-
-
-
-
-
-
-
-
 
 

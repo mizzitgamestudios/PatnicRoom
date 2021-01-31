@@ -1,5 +1,16 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		ActorsOnMap                                                                                                   #
+# description:	List of all Actors on @SokraTiles.Atlas_tileset_Meta on ActorLayor                                            #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name GroupManager
+
 
 ################################################################################
 ##  --- Variables ---                                                         ##

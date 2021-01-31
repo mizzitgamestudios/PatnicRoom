@@ -4,8 +4,8 @@ class_name KitConstructor
 
 
 
-func constructEntByDictionary(tempdict:Dictionary) -> KitEntity:
-	var ent = KitE.new()
+func constructEntByDictionary(tempdict:Dictionary) -> KitPartEntity:
+	var ent = KitPartEntity.new()
 	ent.layer = Comp_Tile_Layer.new(tempdict["Comp_Tile_Layer"])
 	ent.isWalkable = Comp_Tile_IsWalkable.new(tempdict["Comp_Tile_IsWalkable"])
 	ent.textureID = Comp_Tile_TextureID.new(tempdict["Comp_Tile_TextureID"])
@@ -17,8 +17,8 @@ func constructEntByDictionary(tempdict:Dictionary) -> KitEntity:
 	return ent
 
 
-func constructEntByEnt(arrOfEnt:Array) -> KitEntity:
-	var ent = KitE.new()
+func constructEntByEnt(arrOfEnt:Array) -> KitPartEntity:
+	var ent = KitPartEntity.new()
 	ent.layer = Comp_Tile_Layer.new(tempdict["Comp_Tile_Layer"])
 	ent.isWalkable = Comp_Tile_IsWalkable.new(tempdict["Comp_Tile_IsWalkable"])
 	ent.textureID = Comp_Tile_TextureID.new(tempdict["Comp_Tile_TextureID"])

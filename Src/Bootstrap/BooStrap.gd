@@ -1,22 +1,33 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		Bootstrap                                                                                                     #
+# description:	starts up the 4 Engines to initialice them their needed data to start a game-routine                          #
+#                                                                                                                             #
+# data flow:	                                                                                                              #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 
 
 
-
+########################
+# --- Init ----------- #
+########################
 func _init() -> void:
 	SokraTiles_initManager()
-	InitSokraTiles.new();
-	InitDioJSONes.new();
-	
-	InitArisProcgeNes.new();
 	DemocrECTS_initManager()
-	InitDemokrECTS.new()
+	
+	InitSokraTiles.new()
+	InitDioJSONes.new()
 	
 
 
-
+########################
+# --- Suvfunctions --- #
+########################
 func SokraTiles_initManager():
-	
 	# TILES
 	SokraTiles.actorPositionManager = ActorPositionManager.new()
 	# DEBUG
@@ -27,8 +38,6 @@ func SokraTiles_initManager():
 	SokraTiles.tilesetManager = SokraTILEs_TilesetManager.new()
 	SokraTiles.layerManager = SokraTILEs_LayerManager.new()
 	SokraTiles.tilemapManager = SokraTILEs_TilemapManager.new()
-
-
 
 func DemocrECTS_initManager():
 	DemokrECTS.performanceManager = PerformanceManager.new()

@@ -1,3 +1,13 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		EntityManager                                                                                                   #
+# description:	List of all Actors on @SokraTiles.Atlas_tileset_Meta on ActorLayor                                            #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name EntityManager
 
@@ -42,7 +52,6 @@ func add_entity(entity:Entity) -> void:
 
 
 func removeEntityInECS(entity:Entity) -> void:#
-	DemokrECTS.performanceManager = true;
 	if (entity.has_method("get_instance_id")):
 		DemokrECTS.entity_remove_queue.append(entity.get_instance_id());
 

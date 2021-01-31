@@ -1,9 +1,21 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		--- DioJSONes ---                                                                                         #
+# description:	Responsible for the generation of Game-elements,ecspecially Chunks #
+#                                                                                                                             #
+# data flow:	External JSON -> Tilemap(ActorLayer)                                                                          #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 
 onready var effektGenerator: DioJSONes_EffektGenerator
 onready var interpreter: DioJSONes_Interpreter
 
-
+func initSubsystems():
+	interpreter = DioJSONes_Interpreter.new()
+	effektGenerator = DioJSONes_EffektGenerator.new()
 
 
 
@@ -16,7 +28,4 @@ func parseFromArray(pathArray : Array):
 func parsePathToDict(path : String):
 	return Util.JSONParser.fileToDictionary(path)
 
-func initSubsystems():
 
-	interpreter = DioJSONes_Interpreter.new()
-	effektGenerator = DioJSONes_EffektGenerator.new()

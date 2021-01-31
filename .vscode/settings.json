@@ -1,0 +1,27 @@
+{
+    // --- GENERAL --- \\
+    "godot_tools.editor_path": "c:\\Users\\Daniel\\Desktop\\Godot\\Godot_v3.2.3-stable_mono_win64.exe",     //path to godot mono exe
+
+
+    "files.exclude": {                //file-types to exclude for showing in bar
+        ".import": true,
+        "addons": true,
+        "godot": true,
+        "icon.png": true,
+        ".github":true,
+        "icon.png.import": true,
+        ".mono":true
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#fff700"
+    },
+
+
+    // --- Icons --- \\
+    "material-icon-theme.folders.associations": {
+        "config": "src",
+        "sample": "dist"
+    }
+
+}

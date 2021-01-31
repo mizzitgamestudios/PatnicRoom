@@ -1,3 +1,13 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		--- SokraTILES ---                                                                                         #
+# description:	Responsible for the generation of Game-elements,ecspecially Chunks #
+#                                                                                                                             #
+# data flow:	External JSON -> Tilemap(ActorLayer)                                                                          #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 
 ################################################################################
@@ -19,9 +29,8 @@ var actorPositionManager : ActorPositionManager
 
 var platonicHeaven
 var tilemap
-var Atlas_tileset_Order = {}
+
 var Atlas_tileset_Meta = {}
-var Atlas_tiles_Attributes = {}
 
 
 

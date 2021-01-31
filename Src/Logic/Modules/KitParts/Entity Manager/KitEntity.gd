@@ -13,7 +13,6 @@ var mType:Component
 var kitCat:Component
 
 var nameOfKit:Component
-var description:Component
 var setName:Component
 
 var dictForDeepCopy= {}

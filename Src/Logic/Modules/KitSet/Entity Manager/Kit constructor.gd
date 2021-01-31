@@ -4,8 +4,8 @@ class_name KitSetConstructor
 
 
 
-func constructEntByDictionary(tempdict:Dictionary) -> KitEntity:
-	var ent = KitEntity.new()
+func constructEntByDictionary(tempdict:Dictionary) -> KitSetEntity:
+	var ent = KitSetEntity.new()
 	ent.baseConnection = Comp_Kit_baseConnection.new(tempdict["Comp_Kit_baseConnection"])
 	ent.modConnection = Comp_Kit_modConnection.new(tempdict["Comp_Kit_modConnection"])
 	ent.appendixConnection = Comp_Kit_appendixConnection.new(tempdict["Comp_Kit_appendixConnection"])

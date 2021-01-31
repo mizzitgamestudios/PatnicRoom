@@ -1,3 +1,13 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		TileEntity                                                                                                    #
+# description:	Basic class for Tilemap representation,includes Signal for broadcasts                                         #
+#                                                                                                                             #
+# data flow:	                                                                                                              #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Component
 class_name Comp_Cond_TranscendentBody
 

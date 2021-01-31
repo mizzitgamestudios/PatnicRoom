@@ -2,7 +2,7 @@ extends Node2D
 
 
 func _ready():
-	var essentialpreload = preload("res://Src/Scene/Add/essential/essential.tscn")
+	#var essentialpreload = preload("res://Src/Scene/Add/essential/essential.tscn")
 	var essentialInstance = essentialpreload.instance()
 	get_node(".").add_child(essentialInstance)
 

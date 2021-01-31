@@ -1,6 +1,6 @@
 extends Node
 
-var entryPreload = preload("res://Src/Scene/Add/Entry/Entry.tscn")
+
 var sizeHeight=48
 
 

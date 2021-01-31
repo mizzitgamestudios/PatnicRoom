@@ -1,17 +1,25 @@
-##########################################################################################################
-##  Possible Runtime-configs                                                                            ##
-##                                                                                                      ##
-##  firstTime:    starts the game like default but with native Systemsettings                           ##
-##  default:      starts the game normal,used for Player                                                ##
-##  Remarks:                                                                                            ##
-##                                                                                                      ##
-## ---DEBUG---                                                                                          ##
-## tilemapTest:  Starts SokraTILEs_TilemapManager for testing of Tilemap rendering                      ##
-## cfgTest:      prints a value of config,changes and prints again                                      ##
-## restmode:     starts in restMode                                                                     ##
-##                                                                                                      ##
-##                                                                                                      ##
-##########################################################################################################
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		GameInit                                                                                                      #
+# description:	starts the game with varous parameter for debugging,look at L.9                                               #
+# data flow:	                                                                                                              #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+#  Possible Runtime-configs                                                                                                   # 
+#                                                                                                                             #
+#   firstTime:    starts the game like default but with native Systemsettings                                                 #
+#   default:      starts the game normal,used for Player                                                                      #
+#   Remarks:                                                                                                                  #
+#                                                                                                                             #
+#  ---DEBUG---                                                                                                                #
+#  tilemapTest:  Starts SokraTILEs_TilemapManager for testing of Tilemap rendering                                            #
+#  cfgTest:      prints a value of config,changes and prints again                                                            #
+#  restmode:     starts in restMode                                                                                           #
+#                                                                                                                             #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name RuntimeParameter
 
@@ -19,10 +27,11 @@ var settingToUse: String = "default";    # <---- WRITE RUNTIME PARAMETER HERE
 
 
 
-
+########################
+# --- Init ----------- #
+########################
 var startConfig: ConfigFile = ConfigFile.new();
 func _ready() -> void:
-	#startConfig.load(getSavePath());
 	match settingToUse:
 		"firstTime":
 			runFirstTime();
@@ -36,7 +45,9 @@ func _ready() -> void:
 			runRestmode();
 
 
-
+########################
+# --- Subfunction ---- #
+########################
 func getSavePath() -> String:
 	return "res://tools/RuntimeConfigs/"+settingToUse+".cfg";
 
@@ -47,14 +58,14 @@ func loadValueOfConfig(section:String, key:String) -> int:
 	return startConfig.get_value(section,key,"default");
 
 
+###########################################
+# --- CONFIGS ----------------------------#
+###########################################
 
-
-
-
-
+########################
+# --- default -------- #
+########################
 func runDefault() -> void:
-	startConfig.load("user://settings.cfg")
-	
 	var settings = {
 			"fullscreen":startConfig.get_value("display","window/size/Fullscreen"),
 			"displayWidth":startConfig.get_value("display","window/size/width"),
@@ -67,30 +78,22 @@ func runDefault() -> void:
 	
 	Gameloop.startTitleMode()
 
+########################
+# --- first time ----- #
+########################
+func runFirstTime() -> void:	#TODO: IMPLEMENTING/TEST
 
-func runFirstTime() -> void:
-	startConfig.load("user://settings.cfg")
-	var displayCount: int = OS.get_screen_count()
-	var displayWidth: int = OS.get_screen_size().x
-	var displayHeight: int = OS.get_screen_size().y
-	
-	
-	var fullscreen: bool
-	if displayCount ==1:
-		fullscreen=true
-	else:
-		fullscreen=false
-	
+	var resolution:Vector2 = getResolution()
+	var fullscreen: bool = canBeFullscreen()
 	
 	var settings = {
 		"display":{
 			"window/size/Fullscreen":fullscreen,
-			"window/size/width":displayWidth,
-			"window/size/height":displayHeight
+			"window/size/width":resolution.x,
+			"window/size/height":resolution.y
 			}
 		}
-	
-	
+
 	for section in settings.keys():
 		for key in settings[section]:
 			startConfig.set_value(section,key,settings[section][key])
@@ -99,6 +102,24 @@ func runFirstTime() -> void:
 	startConfig.save("user://settings.cfg")
 
 
+func getResolution():
+	var displayWidth: float = OS.get_screen_size().x
+	var displayHeight: float = OS.get_screen_size().y
+	return Vector2(displayHeight,displayWidth)
+
+func canBeFullscreen():
+	var displayCount: float = OS.get_screen_count()
+	var fullscreen:bool
+
+	if displayCount ==1:
+		fullscreen=true
+	else:
+		fullscreen=false
+	return fullscreen
+
+########################
+# --- Test ----------- #
+########################
 func runCfgTest() -> void:
 	var newVal: int = 4
 	var oldval: int
@@ -108,14 +129,20 @@ func runCfgTest() -> void:
 	
 	oldval = loadValueOfConfig("value","ausgabe")
 
-
-
+########################
+# --- Panicmode ------ #
+########################
 var boolRunTilemapTest: bool = false
 var paraRunTilemapTestFilepathToMap: String
+
 func runTilemapTest(parameter) -> void:
 	boolRunTilemapTest = true
 	paraRunTilemapTestFilepathToMap = parameter
+	
 	get_tree().change_scene("res://Src/scenes/Gameloop/PanicMode/PanicMode.tscn")
 
+########################
+# --- Restmode ------- #
+########################
 func runRestmode() -> void:
 	get_tree().change_scene("res://Src/Gameloop_Scenes/RestMode/Init.tscn")

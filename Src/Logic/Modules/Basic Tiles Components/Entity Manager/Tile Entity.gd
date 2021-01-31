@@ -1,8 +1,35 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		TileEntity                                                                                                    #
+# description:	Basic class for Tilemap representation,includes Signal for broadcasts                                         #
+#                                                                                                                             #
+# data flow:	                                                                                                              #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Entity
 class_name TileEntity
 
 ################################################################################
 ##  --- Variables ---                                                         ##
+##                                                                            ##
+##      description          = toString() for looking action of player        ##
+##      tileName             = Name of TileEnt,UID                            ##
+##      Layer                = typicall movement                              ##
+##                                                                            ##
+##      isWalkable           = lets actors stay on tile                       ##
+##      staticTilesetCellNr  = hardcoded Numbers in Media/Tilesets/all.tres   ##
+##      textureID            = Name of TileEnt and its referenced             ##
+##      currentPosition      = Vector2() about the whereabouts on map         ##
+##                                                                            ##
+##      magicNoise           =                                                ##
+##      MatrixNoise          =                                                ##
+##                                                                            ##
+##      uniqueComponents     = Components which are special to TileEnt        ##
+##      dictForDeepCopy      = dict for an reference copy of TileEnt          ##
+##                                                                            ##
+##                                                                            ##
 ################################################################################
 
 var staticTilesetCellNr:Component
@@ -46,40 +73,14 @@ func buildDictForDeepCopy():
 ################################################################################
 ##  --- Signals ---                                                           ##
 ################################################################################
-func _on_TileEntity_looks_for_comp(emitPos:Vector2,reach:int,compName:String):
-	var nameBool :bool = false
-	if self.hasComponent(compName):
-		nameBool = true
+func _on_TileEntity_looks_for_comp(emit:TileEntity,reach:int,compName:String):
+	return isSignalInReach(emit,reach) and self.hasComponent(compName)
 
-	var posBool :bool = false
-	if (emitPos.x + reach) - self.currentPosition.x >= 0:
-		posBool = true
-	elif (emitPos.y + reach) - self.currentPosition.y >= 0:
-		posBool = true
-
-	return nameBool and posBool
-
-func _on_TileEntity_Validate_Use(emitPos:Vector2,reach:int,tileName:String):
-	var nameBool :bool = false 
-	if self.textureID() == tileName:
-		nameBool = true
-		
-	var posBool :bool = false
-	if (emitPos.x + reach) - self.currentPosition.x >= 0:
-		posBool = true
-	elif (emitPos.y + reach) - self.currentPosition.y >= 0:
-		posBool = true
-	
-	return nameBool and posBool
+func _on_TileEntity_Validate_Use(emit:TileEntity,reach:int,tileName:String):	
+	return isSignalInReach(emit,reach) and self.textureID() == tileName
 
 func _on_TileEntity_Validate_Use_With_Comp(signalSource:TileEntity,reach:int,tileName:String,componentName:String):
-	var useBool :bool = _on_TileEntity_Validate_Use(signalSource.currentPosition,reach,tileName)
-	
-	var componentBool :bool = false
-	if uniqueComponents.hasComponent(componentName):
-		componentBool = true
-	
-	return useBool and componentBool
+	return uniqueComponents.hasComponent(componentName) and _on_TileEntity_Validate_Use(signalSource,reach,tileName)
 
 ################################################################################
 ##  --- Getter ---                                                            ##

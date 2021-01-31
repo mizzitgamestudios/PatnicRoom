@@ -1,6 +1,23 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		Filehub Util                                                                                                  #
+# description:	converts and autofills DIctionary                                                                             #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+#                                                                                                                             #
+# often called:	@getListOfFilePathsOfDirectory() with parameter String as Filepath                                            #
+#                                                                                                                             #
+#                                                                                                                             #
+#                                                                                                                             #                                              #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
-signal freeing_orphans
 class_name NodesManager
+
+
+signal freeing_orphans
+
 func free_orphaned_nodes():
 	emit_signal("freeing_orphans")
 

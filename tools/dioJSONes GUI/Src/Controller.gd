@@ -2,7 +2,7 @@ extends Node
 
 
 func appendFormByTypeRequirements(typeString,nodeOfBasicZone):
-	Conventions.numberOfReqirements = Conventions.typeRequirements[typeString].size()
+	#Conventions.numberOfReqirements = Conventions.typeRequirements[typeString].size()
 	
 	createTypePanel(typeString,nodeOfBasicZone)
 	createTypeEntries(typeString,nodeOfBasicZone)

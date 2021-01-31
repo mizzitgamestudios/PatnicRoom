@@ -1,10 +1,25 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		Filehub Util                                                                                                  #
+# description:	converts and autofills DIctionary                                                                             #
+#                                                                                                                             #
+# data flow:	SokraTiles -> PanicMode -> Actor Layor                                                                        #
+#                                                                                                                             #
+# often called:	@getListOfFilePathsOfDirectory() with parameter String as Filepath                                            #
+#                                                                                                                             #
+#                                                                                                                             #
+#                                                                                                                             #                                              #
+#                                                                                                                             #
+###############################################################################################################################
+
 extends Node
 class_name FileHub
 
-func _init():
-	pass;
+
 	
-	
+########################
+# --- Main ----------- #
+########################
 var dir = Directory.new()
 func getListOfFilePathsOfDirectory(path):                                      #Filewalker for .json-files
 	var filesArray = []
@@ -23,6 +38,11 @@ func getListOfFilePathsOfDirectory(path):                                      #
 	dir.list_dir_end()
 	return filesArray
 
+
+
+########################
+# --- Subfunctions --- #
+########################
 func getNextFile(path):
 	dir.open(path)
 	dir.list_dir_begin(true,false)

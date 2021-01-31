@@ -1,11 +1,29 @@
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		Burning Hub                                                                                                    #
+# description:	Basic class for Tilemap representation,includes Signal for broadcasts                                         #
+#                                                                                                                             #
+# data flow:	                                                                                                              #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
 extends Component
 class_name Comp_Cond_Burning
 
+
+########################
+# --- Variables ------ #
+########################
 var duration: int
 var intensity: int
 var strategy: String
 var affectedEnt: Entity
 
+
+
+########################
+# --- Init ----------- #
+########################
 func _init(parentPara:Entity, durationPara:int, intensityPara:int, strategyPara:String) -> void:
 	connect("Actor_Turn_Started",self,"_on_Actor_Turn_Started")
 	connect("Actor_Turn_Finished",self,"_on_Actor_Turn_Finished")
@@ -18,6 +36,9 @@ func _init(parentPara:Entity, durationPara:int, intensityPara:int, strategyPara:
 
 
 
+########################
+# --- Process -------- #
+########################
 func run():
 	getStrategyOfCondition(self)
 
@@ -51,5 +72,9 @@ func _on_Actor_Turn_Finished():
 		affectedEnt.remove_component(name)  
 
 
+
+########################
+# --- File ----------- #
+########################
 var foo = preload("res://Src/Logic/Modules/Conditions/Components/Burning/Strategies/foo.gd")
 var bar = preload("res://Src/Logic/Modules/Conditions/Components/Burning/Strategies/bar.gd")

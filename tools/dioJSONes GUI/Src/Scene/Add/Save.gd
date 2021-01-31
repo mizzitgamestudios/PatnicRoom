@@ -13,7 +13,7 @@ func _ready():
 
 func _input(event):
 	if isMouseOnNode(minVec,maxVec,get_node(".")):
-		get_node(".").set("custom_styles/panel",StyleConstructor.createButtonStyleAwake())
+		#get_node(".").set("custom_styles/panel",StyleConstructor.createButtonStyleAwake())
 		if event.is_action("ui_accept"):
 			Controller.checkForm(get_node("RichTextLabel3"))
 	else:
