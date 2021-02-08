@@ -1,14 +1,15 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Media/FixedDays Font/Text_Default.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Self/Inventory/Subscene/KitOverview.gd" type="Script" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
 [sub_resource type="StyleBoxFlat" id=2]
@@ -25,22 +26,14 @@ bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
 [sub_resource type="StyleBoxFlat" id=4]
 bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
 
-[sub_resource type="StyleBoxFlat" id=5]
-bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
-
-[sub_resource type="StyleBoxFlat" id=6]
-bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
-
-[sub_resource type="StyleBoxFlat" id=7]
-bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
-
-[node name="Settingwechsel" type="Node2D"]
+[node name="root_Kits" type="Node2D"]
 position = Vector2( 352, -72 )
+script = ExtResource( 3 )
 
 [node name="lkjndsfvöjlkfvgn" type="Panel" parent="."]
 margin_left = 441.0
 margin_top = 633.0
-margin_right = 1557.0
+margin_right = 1520.0
 margin_bottom = 713.0
 custom_styles/panel = SubResource( 1 )
 __meta__ = {
@@ -50,7 +43,7 @@ __meta__ = {
 [node name="lkjndsfvöjlkfvgn2" type="Panel" parent="."]
 margin_left = 441.0
 margin_top = 713.0
-margin_right = 1557.0
+margin_right = 1520.0
 margin_bottom = 1118.0
 custom_styles/panel = SubResource( 2 )
 __meta__ = {
@@ -117,44 +110,61 @@ custom_styles/panel = SubResource( 3 )
 margin_right = 40.0
 margin_bottom = 40.0
 
-[node name="name" type="Panel" parent="list/1"]
+[node name="Base" type="Panel" parent="list/1"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/1/name"]
+[node name="text" type="RichTextLabel" parent="list/1/Base"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/1"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="Mod" type="Panel" parent="list/1"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/1/toString"]
+[node name="text" type="RichTextLabel" parent="list/1/Mod"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="Appendix" type="Panel" parent="list/1"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="list/1/Appendix"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="2" type="HBoxContainer" parent="list"]
@@ -188,50 +198,67 @@ margin_left = 63.0
 margin_right = 103.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="texture" type="TextureRect" parent="list/2/symbol"]
 margin_right = 40.0
 margin_bottom = 40.0
 
-[node name="name" type="Panel" parent="list/2"]
+[node name="Base" type="Panel" parent="list/2"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
-custom_styles/panel = SubResource( 6 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/2/name"]
+[node name="text" type="RichTextLabel" parent="list/2/Base"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/2"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="Mod" type="Panel" parent="list/2"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
-custom_styles/panel = SubResource( 7 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/2/toString"]
+[node name="text" type="RichTextLabel" parent="list/2/Mod"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="Appendix" type="Panel" parent="list/2"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="text" type="RichTextLabel" parent="list/2/Appendix"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="3" type="HBoxContainer" parent="list"]
@@ -273,42 +300,59 @@ margin_bottom = 40.0
 
 [node name="name" type="Panel" parent="list/3"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/3/name"]
+[node name="Base" type="RichTextLabel" parent="list/3/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/3"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/3"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/3/toString"]
+[node name="Base" type="RichTextLabel" parent="list/3/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/3"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="Base" type="RichTextLabel" parent="list/3/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="4" type="HBoxContainer" parent="list"]
@@ -342,50 +386,70 @@ margin_left = 63.0
 margin_right = 103.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="texture" type="TextureRect" parent="list/4/symbol"]
 margin_right = 40.0
 margin_bottom = 40.0
-
-[node name="name" type="Panel" parent="list/4"]
-margin_left = 106.0
-margin_right = 306.0
-margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
-custom_styles/panel = SubResource( 6 )
-
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/4/name"]
-margin_top = 4.0
-margin_right = 200.0
-margin_bottom = 36.0
-custom_fonts/normal_font = ExtResource( 1 )
-bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
-scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="toString" type="Panel" parent="list/4"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name" type="Panel" parent="list/4"]
+margin_left = 106.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
-custom_styles/panel = SubResource( 7 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/4/toString"]
+[node name="Base" type="RichTextLabel" parent="list/4/name"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name2" type="Panel" parent="list/4"]
+margin_left = 429.0
+margin_right = 749.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Base" type="RichTextLabel" parent="list/4/name2"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/4"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Base" type="RichTextLabel" parent="list/4/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="5" type="HBoxContainer" parent="list"]
@@ -427,42 +491,59 @@ margin_bottom = 40.0
 
 [node name="name" type="Panel" parent="list/5"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/5/name"]
+[node name="Base" type="RichTextLabel" parent="list/5/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/5"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/5"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/5/toString"]
+[node name="Base" type="RichTextLabel" parent="list/5/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/5"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="Base" type="RichTextLabel" parent="list/5/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="6" type="HBoxContainer" parent="list"]
@@ -496,7 +577,7 @@ margin_left = 63.0
 margin_right = 103.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="texture" type="TextureRect" parent="list/6/symbol"]
 margin_right = 40.0
@@ -504,42 +585,59 @@ margin_bottom = 40.0
 
 [node name="name" type="Panel" parent="list/6"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
-custom_styles/panel = SubResource( 6 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/6/name"]
+[node name="Base" type="RichTextLabel" parent="list/6/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/6"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/6"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
-custom_styles/panel = SubResource( 7 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/6/toString"]
+[node name="Base" type="RichTextLabel" parent="list/6/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/6"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Base" type="RichTextLabel" parent="list/6/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="7" type="HBoxContainer" parent="list"]
@@ -581,42 +679,59 @@ margin_bottom = 40.0
 
 [node name="name" type="Panel" parent="list/7"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/7/name"]
+[node name="Base" type="RichTextLabel" parent="list/7/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/7"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/7"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/7/toString"]
+[node name="Base" type="RichTextLabel" parent="list/7/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/7"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="Base" type="RichTextLabel" parent="list/7/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="8" type="HBoxContainer" parent="list"]
@@ -650,63 +765,70 @@ margin_left = 63.0
 margin_right = 103.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="texture" type="TextureRect" parent="list/8/symbol"]
 margin_right = 40.0
 margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="name" type="Panel" parent="list/8"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
-custom_styles/panel = SubResource( 6 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/8/name"]
+[node name="Base" type="RichTextLabel" parent="list/8/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/8"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/8"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
-custom_styles/panel = SubResource( 7 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/8/toString"]
+[node name="Base" type="RichTextLabel" parent="list/8/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="RichTextLabel4" type="RichTextLabel" parent="list/8/toString"]
+[node name="name3" type="Panel" parent="list/8"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Base" type="RichTextLabel" parent="list/8/name3"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
 [node name="9" type="HBoxContainer" parent="list"]
@@ -748,42 +870,59 @@ margin_bottom = 40.0
 
 [node name="name" type="Panel" parent="list/9"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/9/name"]
+[node name="Base" type="RichTextLabel" parent="list/9/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/9"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/9"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
+rect_min_size = Vector2( 320, 40 )
 custom_styles/panel = SubResource( 3 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/9/toString"]
+[node name="Base" type="RichTextLabel" parent="list/9/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/9"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="Base" type="RichTextLabel" parent="list/9/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }
 
 [node name="10" type="HBoxContainer" parent="list"]
@@ -817,51 +956,65 @@ margin_left = 63.0
 margin_right = 103.0
 margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
-custom_styles/panel = SubResource( 5 )
+custom_styles/panel = SubResource( 4 )
 
 [node name="texture" type="TextureRect" parent="list/10/symbol"]
 margin_right = 40.0
 margin_bottom = 40.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="name" type="Panel" parent="list/10"]
 margin_left = 106.0
-margin_right = 306.0
+margin_right = 426.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 200, 40 )
-custom_styles/panel = SubResource( 6 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="list/10/name"]
+[node name="Base" type="RichTextLabel" parent="list/10/name"]
 margin_top = 4.0
-margin_right = 200.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink out"
-text = "blink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
 }
 
-[node name="toString" type="Panel" parent="list/10"]
-margin_left = 309.0
-margin_right = 1109.0
+[node name="name2" type="Panel" parent="list/10"]
+margin_left = 429.0
+margin_right = 749.0
 margin_bottom = 40.0
-rect_min_size = Vector2( 800, 40 )
-custom_styles/panel = SubResource( 7 )
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="list/10/toString"]
+[node name="Base" type="RichTextLabel" parent="list/10/name2"]
 margin_top = 4.0
-margin_right = 800.0
+margin_right = 320.0
 margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
-bbcode_text = "blink outblink outblink outblink outblink outblink out"
-text = "blink outblink outblink outblink outblink outblink out"
 scroll_active = false
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": true
+}
+
+[node name="name3" type="Panel" parent="list/10"]
+margin_left = 752.0
+margin_right = 1072.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 320, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Base" type="RichTextLabel" parent="list/10/name3"]
+margin_top = 4.0
+margin_right = 320.0
+margin_bottom = 36.0
+rect_min_size = Vector2( 320, 0 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": true
 }

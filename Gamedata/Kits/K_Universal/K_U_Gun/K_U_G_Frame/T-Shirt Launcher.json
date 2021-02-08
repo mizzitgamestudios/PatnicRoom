@@ -1,0 +1,139 @@
+{
+
+  "Comp_Universal_Name": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "T-shirt Cannon"
+  },
+  "Comp_Universal_Description": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : " TOTAL RECALL! CANONS MADE IN 2078 MIGHT SHOOT STRAIGHTJACKETS"
+  },
+  "Comp_KitPart_ToString": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "T-shirt Cannon"
+  },
+  "Comp_KitPart_MechanicalSummary": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "deals 2 damage,10% chance of incapacitating"
+  },
+
+
+
+  "Comp_KitPart_MType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "MEAT"
+  },
+  "Comp_KitPart_CatType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "GUN"
+  },
+  "Comp_KitPart_PartType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "BASE"
+  },
+
+
+
+  "Comp_KitPart_ModTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "5"
+  },
+  "Comp_KitPart_CooldownTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+
+
+
+  "Comp_Universall_Rarity": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_StrategyKeywords": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "incapacitating",
+    ]
+  },
+
+
+
+  "Comp_KitPart_EffectReference": {
+    "type" : "ENTRY_EFFECT",
+
+    "TIME" : {
+      "T-0-TIME":"N/A",
+      "T-1-TIME":"0",
+      "T-2-TIME":"1",
+      "T-3-TIME":"N/A"
+    },
+
+    "TRIGGER":{
+      "T-0-TRIGGER":"N/A",
+      "T-1-TRIGGER":"projectile hit",
+      "T-2-TRIGGER":"CHANCE(50)",
+      "T-3-TRIGGER":"N/A",
+    },
+
+    "SPACE":{
+      "T-0-SPACE":{
+        "medium":"N/A",
+        "reach":"N/A",
+        "m-type":"N/A"
+      },
+      "T-1-SPACE":{
+        "medium":"linea",
+        "reach":"4",
+        "m-type":"0"
+      },
+      "T-2-SPACE":{
+        "medium":"areal",
+        "reach":"2",
+        "m-type":"0"
+      },
+      "T-3-SPACE":{
+        "medium":"linea",
+        "reach":"N/A",
+        "m-type":"0"
+      }
+    },
+
+  "EFFECT":{
+    "T-0-EFFECT":{
+        "category":"N/A",
+        "value":"N/A"
+      },
+      "T-1-EFFECT":{
+        "category":"STATMOD",
+        "values":[
+          "HP",
+          "-2"
+        ]
+      },
+      "T-2-EFFECT":{
+        "category":"CONDITION",
+        "values":[
+          "burning",
+          "3",
+          "2",
+        ]
+      },
+      "T-3-EFFECT":{
+        "category":"N/A",
+        "values":"N/A"
+      }
+    }
+  },
+
+
+
+
+
+
+  "META": {
+    "type":"META",
+    "Group" : "atlas_Gun_Frame"
+  }
+
+
+}

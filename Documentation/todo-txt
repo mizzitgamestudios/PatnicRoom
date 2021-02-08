@@ -1,0 +1,22 @@
+
+Hi, RedRastaRigger here.
+This is supposed to be a little guide to set you up for possible modding and deeper understanding of the inner workings of our Game.
+Its audience is people who want to edit the GD-Scripts and have a solid foundation in Software development.
+If you are looking for an more easy way to mod,try out our other section called "GUIded modding".
+We would like to here your feedback, were some parts here not understanable or even plain wrong ? lets fix it to help following modders.
+
+as always: restore your Peace.
+
+
+
+> Ancient Engines
+> basic structure of a module
+> the 5 types of Game-elements
+> Effect-Constructor
+> Condition-Consturctor
+> DioJSONes parser
+> DioJSONes interpreter
+> ECTS
+> Unit Tests
+> Tools
+> recommended Setup/IDE

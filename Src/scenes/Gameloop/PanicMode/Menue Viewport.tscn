@@ -1,0 +1,821 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[node name="root_" type="Node2D"]
+
+[node name="whole container" type="HBoxContainer" parent="."]
+margin_left = 1016.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+rect_min_size = Vector2( 900, 1080 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ViewportContainer2" type="ViewportContainer" parent="whole container"]
+margin_right = 900.0
+margin_bottom = 1080.0
+rect_min_size = Vector2( 900, 1080 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Camera2D" type="Camera2D" parent="whole container/ViewportContainer2"]
+position = Vector2( -50, 540 )
+
+[node name="left box" type="VBoxContainer" parent="whole container/ViewportContainer2/Camera2D"]
+margin_left = 80.0
+margin_top = -64.0
+margin_right = 120.0
+margin_bottom = 104.0
+custom_constants/separation = 24
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control1" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_right = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control1"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control1/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control1/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control2" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 24.0
+margin_right = 40.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control2"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control2/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control2/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control3" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 48.0
+margin_right = 40.0
+margin_bottom = 48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control3"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control3/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control3/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control4" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 72.0
+margin_right = 40.0
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control4"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control4/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control4/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control5" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 96.0
+margin_right = 40.0
+margin_bottom = 96.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control5"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control5/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control5/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control6" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 120.0
+margin_right = 40.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control6"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control6/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control6/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control7" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 144.0
+margin_right = 40.0
+margin_bottom = 144.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control7"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control7/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control7/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control8" type="Control" parent="whole container/ViewportContainer2/Camera2D/left box"]
+margin_top = 168.0
+margin_right = 40.0
+margin_bottom = 168.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/left box/Control8"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control8/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/left box/Control8/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right box" type="VBoxContainer" parent="whole container/ViewportContainer2/Camera2D"]
+margin_left = 400.0
+margin_top = -64.0
+margin_right = 440.0
+margin_bottom = 104.0
+custom_constants/separation = 24
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control1" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_right = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control1"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control1/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control1/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control2" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 24.0
+margin_right = 40.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control2"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control2/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control2/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control3" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 48.0
+margin_right = 40.0
+margin_bottom = 48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control3"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control3/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control3/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control4" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 72.0
+margin_right = 40.0
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control4"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control4/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control4/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control5" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 96.0
+margin_right = 40.0
+margin_bottom = 96.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control5"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control5/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control5/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control6" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 120.0
+margin_right = 40.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control6"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control6/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control6/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control7" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 144.0
+margin_right = 40.0
+margin_bottom = 144.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control7"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 300, 25 )
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control7/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control7/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control8" type="Control" parent="whole container/ViewportContainer2/Camera2D/right box"]
+margin_top = 168.0
+margin_right = 40.0
+margin_bottom = 168.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/right box/Control8"]
+margin_left = 240.0
+margin_top = 76.0
+margin_right = 540.0
+margin_bottom = 101.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control8/Title"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 272.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "yugoslavian lawyer of angel descend"
+text = "yugoslavian lawyer of angel descend"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/right box/Control8/Title"]
+margin_left = 272.0
+margin_top = 3.0
+margin_right = 296.0
+margin_bottom = 22.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "1"
+text = "1"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}

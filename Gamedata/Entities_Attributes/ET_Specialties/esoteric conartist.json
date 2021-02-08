@@ -28,11 +28,9 @@
   "Comp_NPC_SkillBlock": {
     "type" : "ENTRY_DICTIONARY",
     "value":{
-      "Con":"4",
-      "Negotiation":"1",
-      "Impersonation":"1",
-      "Perception":"2",
-      "Assensing":"1",
+      "NEGOTIATION":"2",
+      "DISGUISE":"3",
+      "CHEMISTRY":"5"
       }
     },
   "META": {

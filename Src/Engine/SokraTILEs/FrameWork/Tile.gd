@@ -25,8 +25,8 @@ func parseDictToTileEntity(tiles):
 			propertiesCache[porpertyName]=porpertyValue
 			_cacheTileNrAndID(idcache,tile["id"])
 			
-			
-		entCache = DemokrECTS.tileEntManager.constructEnt(propertiesCache)
+		
+		entCache = API_000_BasicTilesAtlas.createNewTileByDict(propertiesCache)
 		tilesOfTilesetsWithAttributes[entCache.textureID()] = entCache
 	return tilesOfTilesetsWithAttributes
 
@@ -49,7 +49,7 @@ func getTileNrAndIDOfLocalCache():
 	
 
 
-	
+
 
 var tileNrToString
 var tilesetNr

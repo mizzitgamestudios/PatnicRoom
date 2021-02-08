@@ -18,9 +18,9 @@ func _ready():
 		get_node("gametitle/dynamic subtitle").initialice()
 		
 		
-		var test=Util.JSONParser.fileToDictionary("res://Gamedata/Kits/K_Magic/K_M_Spell/K_M_S_Forn/Telepathic push.json")
-		var testr =Effect_Generator_API.new()
-		testr.getProcessOfEffect(test["Comp_KitPart_Effect"])
+		#var test=Util.JSONParser.fileToDictionary("res://Gamedata/Kits/K_Magic/K_M_Spell/K_M_S_Forn/Telepathic push.json")
+		#var testr =Effect_Generator_API.new()
+		#testr.getProcessOfEffect(test["Comp_KitPart_Effect"])
 
 
 

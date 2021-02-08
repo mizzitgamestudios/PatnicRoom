@@ -1,15 +1,16 @@
 {
+
   "Comp_Universal_Name": {
     "type" : "ENTRY_SIMPLE",
     "value" : "Telepathic push"
   },
-  "Comp_KitParts_KitPartName": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "Telepathic push"
-  },
-  "Comp_KitPart_Description": {
+  "Comp_Universal_Description": {
     "type" : "ENTRY_SIMPLE",
     "value" : "often used by martial artist to gain that sweet edge when someone puts up a fight...I miss the daycare"
+  },
+  "Comp_KitPart_ToString": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Telepathic push"
   },
   "Comp_KitPart_MechanicalSummary": {
     "type" : "ENTRY_SIMPLE",
@@ -18,23 +19,47 @@
 
 
 
-  "Comp_KitParts_ListOfConditions": {
-    "type" : "ENTRY_ARRAY",
-    "value" : [
-      "forced movement","2"
-
-    ]
+  "Comp_KitPart_MType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "MEAT"
   },
-  "Comp_KitPart_SymbiosType": {
-    "type" : "ENTRY_ARRAY",
-    "value" : [
-      "mind",
-      "no damage",
-      "position change",
-    ]
+  "Comp_KitPart_CatType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "SPELL"
+  },
+  "Comp_KitPart_PartType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "BASE"
   },
 
-  "Comp_KitPart_Effect": {
+
+
+  "Comp_KitPart_ModTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_CooldownTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+
+
+
+  "Comp_Universall_Rarity": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_StrategyKeywords": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "fire",
+      "damage over time",
+      "spreading",
+    ]
+  },
+
+
+  "Comp_KitPart_EffectReference": {
     "type" : "ENTRY_EFFECT",
 
     "TIME" : {
@@ -100,19 +125,6 @@
   },
 
 
-
-  "Comp_KitPart_LogToString": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "X bursts up in flames and takes X damage"
-  },
-  "Comp_KitPart_ModTime": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "3"
-  },
-  "Comp_KitPart_Cooldown": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "5"
-  },
 
 
 

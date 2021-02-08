@@ -1,5 +1,6 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=15 format=2]
 
+[ext_resource path="res://Src/Logic/Modules/011_Player/UserInput/KitsUILoader.gd" type="Script" id=1]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=8]
 [ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=10]
 
@@ -39,19 +40,40 @@ border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
 border_width_left = 3
+border_width_top = 3
 border_width_right = 3
 border_width_bottom = 3
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
 [sub_resource type="StyleBoxFlat" id=7]
 bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
+border_width_left = 3
+border_width_right = 3
 border_width_bottom = 1
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
 [sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 3
+border_width_right = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
 bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
 border_width_left = 1
 border_width_top = 1
@@ -59,9 +81,9 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
-[node name="Node2D" type="Node2D"]
+[node name="root_kits" type="Node2D"]
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+[node name="whole container" type="HBoxContainer" parent="."]
 margin_left = 1016.0
 margin_right = 1920.0
 margin_bottom = 1080.0
@@ -70,7 +92,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ViewportContainer2" type="ViewportContainer" parent="HBoxContainer2"]
+[node name="ViewportContainer2" type="ViewportContainer" parent="whole container"]
 margin_right = 900.0
 margin_bottom = 1080.0
 rect_min_size = Vector2( 900, 1080 )
@@ -78,10 +100,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Camera2D" type="Camera2D" parent="HBoxContainer2/ViewportContainer2"]
+[node name="Camera2D" type="Camera2D" parent="whole container/ViewportContainer2"]
 position = Vector2( -50, 540 )
 
-[node name="RichTextLabel" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D"]
+[node name="RichTextLabel" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D"]
 margin_left = 120.0
 margin_top = -525.0
 margin_right = 232.0
@@ -97,18 +119,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer2/ViewportContainer2/Camera2D"]
+[node name="VBoxContainer" type="VBoxContainer" parent="whole container/ViewportContainer2/Camera2D"]
 margin_left = 240.0
 margin_top = -524.0
 margin_right = 1040.0
 margin_bottom = -19.0
 rect_min_size = Vector2( 800, 0 )
 custom_constants/separation = 6
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit1" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer"]
+[node name="Kit1" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer"]
 margin_right = 800.0
 margin_bottom = 95.0
 rect_min_size = Vector2( 700, 95 )
@@ -116,7 +139,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -125,21 +148,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
+[node name="kitbase" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -148,33 +169,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitbase"]
-margin_left = 8.0
-margin_right = 48.0
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitbase"]
+margin_left = 7.05615
+margin_right = 47.0562
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Base"
-text = "Base"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
+[node name="kitMod" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -183,33 +200,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitMod"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitMod"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Mod"
-text = "Mod"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
+[node name="KitAppendix" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -218,33 +231,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/KitAppendix"]
 margin_left = 8.0
 margin_right = 88.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Appendix"
-text = "Appendix"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
+[node name="Separator" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit1"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -255,7 +264,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit2" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer"]
+[node name="Kit2" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer"]
 margin_top = 101.0
 margin_right = 800.0
 margin_bottom = 196.0
@@ -264,7 +273,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -273,126 +282,112 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
+[node name="kitbase" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
-custom_styles/panel = SubResource( 6 )
+custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitbase"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitbase"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Base"
-text = "Base"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
+[node name="kitMod" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
-custom_styles/panel = SubResource( 6 )
+custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitMod"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitMod"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Mod"
-text = "Mod"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
+[node name="KitAppendix" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
-custom_styles/panel = SubResource( 6 )
+custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/KitAppendix"]
 margin_left = 8.0
 margin_right = 88.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Appendix"
-text = "Appendix"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
+[node name="Separator" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit2"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -403,7 +398,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit3" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer"]
+[node name="Kit3" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer"]
 margin_top = 202.0
 margin_right = 800.0
 margin_bottom = 297.0
@@ -412,7 +407,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -421,21 +416,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
+[node name="kitbase" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -444,33 +437,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitbase"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitbase"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Base"
-text = "Base"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
+[node name="kitMod" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -479,33 +468,30 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitMod"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitMod"]
 margin_left = 8.0
+margin_top = -0.943909
 margin_right = 48.0
-margin_bottom = 19.0
+margin_bottom = 18.0561
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Mod"
-text = "Mod"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
+[node name="KitAppendix" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -514,33 +500,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/KitAppendix"]
 margin_left = 8.0
 margin_right = 88.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Appendix"
-text = "Appendix"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
+[node name="Separator" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit3"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -551,7 +533,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit4" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer"]
+[node name="Kit4" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer"]
 margin_top = 303.0
 margin_right = 800.0
 margin_bottom = 398.0
@@ -560,146 +542,135 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 8 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+[node name="kitbase" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitbase"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitbase"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Base"
-text = "Base"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "1234567890123456789012345678901234567890123456789012345678901234567890"
-text = "1234567890123456789012345678901234567890123456789012345678901234567890"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+[node name="kitMod" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+margin_left = 0.206299
 margin_top = 48.0
-margin_right = 700.0
+margin_right = 700.206
 margin_bottom = 73.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitMod"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitMod"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Mod"
-text = "Mod"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+[node name="KitAppendix" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/KitAppendix"]
 margin_left = 8.0
 margin_right = 88.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Appendix"
-text = "Appendix"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
+bbcode_text = " "
+text = " "
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
+[node name="Separator" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit4"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
 margin_bottom = 96.0
 rect_min_size = Vector2( 2, 0 )
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 9 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit5" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer"]
+[node name="Kit5" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer"]
 margin_top = 404.0
 margin_right = 800.0
 margin_bottom = 499.0
@@ -708,7 +679,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -717,21 +688,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
+[node name="kitbase" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -740,33 +709,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitbase"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitbase"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Base"
-text = "Base"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
+[node name="kitMod" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -775,33 +740,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitMod"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitMod"]
 margin_left = 8.0
 margin_right = 48.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Mod"
-text = "Mod"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
+[node name="KitAppendix" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -810,33 +771,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/KitAppendix"]
 margin_left = 8.0
 margin_right = 88.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "Appendix"
-text = "Appendix"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 2 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
+[node name="Separator" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer/Kit5"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -847,7 +804,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer4" type="VBoxContainer" parent="HBoxContainer2/ViewportContainer2/Camera2D"]
+[node name="VBoxContainer4" type="VBoxContainer" parent="whole container/ViewportContainer2/Camera2D"]
 process_priority = 13
 margin_left = 150.0
 margin_top = 172.0
@@ -858,7 +815,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control9" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control9" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_right = 500.0
 margin_bottom = 25.0
 rect_min_size = Vector2( 500, 25 )
@@ -866,7 +823,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control9"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control9"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
@@ -877,7 +834,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control9/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control9/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -891,7 +848,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control10" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control10" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 25.0
 margin_right = 500.0
 margin_bottom = 50.0
@@ -900,18 +857,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control10"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control10"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
 margin_bottom = 101.0
 rect_min_size = Vector2( 550, 25 )
-custom_styles/panel = SubResource( 8 )
+custom_styles/panel = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control10/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control10/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -925,7 +882,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control18" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control18" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 50.0
 margin_right = 500.0
 margin_bottom = 75.0
@@ -934,7 +891,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control18"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control18"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
@@ -945,7 +902,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control18/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control18/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -959,7 +916,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control19" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control19" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 75.0
 margin_right = 500.0
 margin_bottom = 100.0
@@ -968,18 +925,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control19"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control19"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
 margin_bottom = 101.0
 rect_min_size = Vector2( 550, 25 )
-custom_styles/panel = SubResource( 8 )
+custom_styles/panel = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control19/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control19/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -993,7 +950,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control11" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control11" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 100.0
 margin_right = 500.0
 margin_bottom = 125.0
@@ -1002,7 +959,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control11"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control11"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
@@ -1013,7 +970,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control11/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control11/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -1027,7 +984,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control12" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control12" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 125.0
 margin_right = 500.0
 margin_bottom = 150.0
@@ -1036,18 +993,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control12"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control12"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
 margin_bottom = 101.0
 rect_min_size = Vector2( 550, 25 )
-custom_styles/panel = SubResource( 8 )
+custom_styles/panel = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control12/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control12/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -1061,7 +1018,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control13" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control13" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 150.0
 margin_right = 500.0
 margin_bottom = 175.0
@@ -1070,7 +1027,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control13"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control13"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
@@ -1081,7 +1038,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control13/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control13/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -1095,7 +1052,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control14" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control14" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 175.0
 margin_right = 500.0
 margin_bottom = 200.0
@@ -1104,18 +1061,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control14"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control14"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
 margin_bottom = 101.0
 rect_min_size = Vector2( 550, 25 )
-custom_styles/panel = SubResource( 8 )
+custom_styles/panel = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control14/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control14/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -1129,7 +1086,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control15" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control15" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 200.0
 margin_right = 500.0
 margin_bottom = 225.0
@@ -1138,7 +1095,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control15"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control15"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
@@ -1149,7 +1106,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control15/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control15/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0
@@ -1163,7 +1120,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Control16" type="Control" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4"]
+[node name="Control16" type="Control" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4"]
 margin_top = 225.0
 margin_right = 500.0
 margin_bottom = 250.0
@@ -1172,18 +1129,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" type="Panel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control16"]
+[node name="Title" type="Panel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control16"]
 margin_left = 240.0
 margin_top = 76.0
 margin_right = 740.0
 margin_bottom = 101.0
 rect_min_size = Vector2( 550, 25 )
-custom_styles/panel = SubResource( 8 )
+custom_styles/panel = SubResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="HBoxContainer2/ViewportContainer2/Camera2D/VBoxContainer4/Control16/Title"]
+[node name="text" type="RichTextLabel" parent="whole container/ViewportContainer2/Camera2D/VBoxContainer4/Control16/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 543.0

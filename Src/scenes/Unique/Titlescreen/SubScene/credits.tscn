@@ -4,6 +4,8 @@
 [ext_resource path="res://Src/scenes/Unique/Titlescreen/scripts/close MenuePoint.gd" type="Script" id=2]
 [ext_resource path="res://Media/FixedDays Font/FixedSysTemplate.ttf" type="DynamicFontData" id=3]
 
+
+
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
 border_width_left = 3

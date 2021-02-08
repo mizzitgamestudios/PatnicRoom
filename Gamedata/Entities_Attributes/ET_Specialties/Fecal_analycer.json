@@ -1,11 +1,11 @@
 {
   "Comp_Actor_SpecialtyName": {
     "type" : "ENTRY_SIMPLE",
-    "value" : "Critter Fecal analyst"
+    "value" : "critter fecal analyst"
   },
   "Comp_Universal_Name": {
     "type" : "ENTRY_SIMPLE",
-    "value" : "Critter Fecal analyst"
+    "value" : "critter fecal analyst"
   },
   "Comp_Actor_SpecialtyDescription": {
     "type" : "ENTRY_SIMPLE",
@@ -28,8 +28,9 @@
   "Comp_NPC_SkillBlock": {
     "type" : "ENTRY_DICTIONARY",
     "value":{
-      "Animal Handling":3,
-      "Biotechnology":-2
+      "NEGOTIATION":"2",
+      "DISGUISE":"3",
+      "CHEMISTRY":"5"
       }
     },
   "META": {

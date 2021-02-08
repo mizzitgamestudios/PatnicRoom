@@ -1,7 +1,9 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=2]
+[ext_resource path="res://Src/Logic/Modules/011_Player/UserInput/KitsUILoader.gd" type="Script" id=3]
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/Kits.gd" type="Script" id=4]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
@@ -77,39 +79,157 @@ border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
 [sub_resource type="StyleBoxFlat" id=11]
 bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
-[node name="root_Kits" type="Node2D"]
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 3
+border_width_right = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
-[node name="Panel5" type="Panel" parent="."]
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+border_width_left = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="Animation" id=14]
+resource_name = "LeftToRight"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("background:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1112, 8 ), Vector2( 2000, 8 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("container for kits seen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1124, 176 ), Vector2( 2000, 176 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("lifted tab:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1832, 8 ), Vector2( 2000, 8 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("tab text:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1848, 200 ), Vector2( 2000, 200 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "RightToLeft"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("background:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 8 ), Vector2( 1112, 8 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("container for kits seen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 176 ), Vector2( 1124, 176 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("lifted tab:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 8 ), Vector2( 1832, 8 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("tab text:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 200 ), Vector2( 1848, 200 ) ]
+}
+
+[node name="root_Kits" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="background" type="Panel" parent="."]
 margin_left = 1112.0
-margin_top = 40.0
+margin_top = 8.0
 margin_right = 1835.0
-margin_bottom = 744.0
+margin_bottom = 837.0
 custom_styles/panel = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Panel4" type="Panel" parent="."]
+[node name="lifted tab" type="Panel" parent="."]
 margin_left = 1832.0
-margin_top = 40.0
+margin_top = 8.0
 margin_right = 1935.0
-margin_bottom = 231.0
+margin_bottom = 199.0
 custom_styles/panel = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="tab text" type="RichTextLabel" parent="."]
 margin_left = 1848.0
-margin_top = 232.0
+margin_top = 200.0
 margin_right = 2040.0
-margin_bottom = 296.0
+margin_bottom = 264.0
 rect_rotation = 270.0
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
@@ -120,18 +240,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="container for kits seen" type="VBoxContainer" parent="."]
 margin_left = 1124.0
-margin_top = 112.0
+margin_top = 176.0
 margin_right = 1924.0
-margin_bottom = 727.0
+margin_bottom = 791.0
 rect_min_size = Vector2( 800, 0 )
 custom_constants/separation = 35
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit1" type="Control" parent="VBoxContainer"]
+[node name="Kit1" type="Control" parent="container for kits seen"]
 margin_right = 800.0
 margin_bottom = 95.0
 rect_min_size = Vector2( 700, 95 )
@@ -139,7 +260,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="VBoxContainer/Kit1"]
+[node name="Title" type="Panel" parent="container for kits seen/Kit1"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -148,21 +269,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit1/Title"]
-margin_left = 8.0
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit1/Title"]
+margin_left = 7.57959
 margin_top = 3.0
-margin_right = 608.0
+margin_right = 607.58
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="VBoxContainer/Kit1"]
+[node name="kitbase" type="Panel" parent="container for kits seen/Kit1"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -171,9 +290,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit1/kitbase"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit1/kitbase"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -184,20 +303,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="VBoxContainer/Kit1/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="container for kits seen/Kit1/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="VBoxContainer/Kit1"]
+[node name="kitMod" type="Panel" parent="container for kits seen/Kit1"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -206,9 +323,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit1/kitMod"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit1/kitMod"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -219,20 +336,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="VBoxContainer/Kit1/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="container for kits seen/Kit1/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="VBoxContainer/Kit1"]
+[node name="KitAppendix" type="Panel" parent="container for kits seen/Kit1"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -241,9 +356,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit1/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit1/KitAppendix"]
 margin_left = 8.0
-margin_right = 88.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -254,20 +369,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="VBoxContainer/Kit1/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="container for kits seen/Kit1/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="VBoxContainer/Kit1"]
+[node name="Separator" type="Panel" parent="container for kits seen/Kit1"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -278,7 +391,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit2" type="Control" parent="VBoxContainer"]
+[node name="Kit2" type="Control" parent="container for kits seen"]
 margin_top = 130.0
 margin_right = 800.0
 margin_bottom = 225.0
@@ -287,7 +400,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="VBoxContainer/Kit2"]
+[node name="Title" type="Panel" parent="container for kits seen/Kit2"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -296,21 +409,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit2/Title"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit2/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="VBoxContainer/Kit2"]
+[node name="kitbase" type="Panel" parent="container for kits seen/Kit2"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -319,9 +430,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit2/kitbase"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit2/kitbase"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -332,20 +443,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="VBoxContainer/Kit2/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="container for kits seen/Kit2/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="VBoxContainer/Kit2"]
+[node name="kitMod" type="Panel" parent="container for kits seen/Kit2"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -354,9 +463,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit2/kitMod"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit2/kitMod"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -367,20 +476,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="VBoxContainer/Kit2/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="container for kits seen/Kit2/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="VBoxContainer/Kit2"]
+[node name="KitAppendix" type="Panel" parent="container for kits seen/Kit2"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -389,9 +496,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit2/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit2/KitAppendix"]
 margin_left = 8.0
-margin_right = 88.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -402,20 +509,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="VBoxContainer/Kit2/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="container for kits seen/Kit2/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="VBoxContainer/Kit2"]
+[node name="Separator" type="Panel" parent="container for kits seen/Kit2"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -426,7 +531,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit3" type="Control" parent="VBoxContainer"]
+[node name="Kit3" type="Control" parent="container for kits seen"]
 margin_top = 260.0
 margin_right = 800.0
 margin_bottom = 355.0
@@ -435,7 +540,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="VBoxContainer/Kit3"]
+[node name="Title" type="Panel" parent="container for kits seen/Kit3"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -444,21 +549,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit3/Title"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit3/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="VBoxContainer/Kit3"]
+[node name="kitbase" type="Panel" parent="container for kits seen/Kit3"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -467,9 +570,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit3/kitbase"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit3/kitbase"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -480,20 +583,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="VBoxContainer/Kit3/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="container for kits seen/Kit3/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="VBoxContainer/Kit3"]
+[node name="kitMod" type="Panel" parent="container for kits seen/Kit3"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -502,9 +603,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit3/kitMod"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit3/kitMod"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -515,20 +616,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="VBoxContainer/Kit3/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="container for kits seen/Kit3/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="VBoxContainer/Kit3"]
+[node name="KitAppendix" type="Panel" parent="container for kits seen/Kit3"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -537,9 +636,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit3/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit3/KitAppendix"]
 margin_left = 8.0
-margin_right = 88.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -550,20 +649,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="VBoxContainer/Kit3/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="container for kits seen/Kit3/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="VBoxContainer/Kit3"]
+[node name="Separator" type="Panel" parent="container for kits seen/Kit3"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -574,7 +671,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit4" type="Control" parent="VBoxContainer"]
+[node name="Kit4" type="Control" parent="container for kits seen"]
 margin_top = 390.0
 margin_right = 800.0
 margin_bottom = 485.0
@@ -583,7 +680,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="VBoxContainer/Kit4"]
+[node name="Title" type="Panel" parent="container for kits seen/Kit4"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -592,32 +689,30 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit4/Title"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit4/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="VBoxContainer/Kit4"]
+[node name="kitbase" type="Panel" parent="container for kits seen/Kit4"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
-custom_styles/panel = SubResource( 11 )
+custom_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit4/kitbase"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit4/kitbase"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -628,31 +723,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="VBoxContainer/Kit4/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="container for kits seen/Kit4/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "1234567890123456789012345678901234567890123456789012345678901234567890"
-text = "1234567890123456789012345678901234567890123456789012345678901234567890"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="VBoxContainer/Kit4"]
+[node name="kitMod" type="Panel" parent="container for kits seen/Kit4"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
-custom_styles/panel = SubResource( 11 )
+custom_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit4/kitMod"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit4/kitMod"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -663,31 +756,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="VBoxContainer/Kit4/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="container for kits seen/Kit4/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="VBoxContainer/Kit4"]
+[node name="KitAppendix" type="Panel" parent="container for kits seen/Kit4"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
-custom_styles/panel = SubResource( 11 )
+custom_styles/panel = SubResource( 13 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit4/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit4/KitAppendix"]
 margin_left = 8.0
-margin_right = 88.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -698,31 +789,29 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="VBoxContainer/Kit4/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="container for kits seen/Kit4/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="VBoxContainer/Kit4"]
+[node name="Separator" type="Panel" parent="container for kits seen/Kit4"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
 margin_bottom = 96.0
 rect_min_size = Vector2( 2, 0 )
-custom_styles/panel = SubResource( 11 )
+custom_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Kit5" type="Control" parent="VBoxContainer"]
+[node name="Kit5" type="Control" parent="container for kits seen"]
 margin_top = 520.0
 margin_right = 800.0
 margin_bottom = 615.0
@@ -731,7 +820,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="Title" type="Panel" parent="VBoxContainer/Kit5"]
+[node name="Title" type="Panel" parent="container for kits seen/Kit5"]
 margin_top = -1.0
 margin_right = 700.0
 margin_bottom = 24.0
@@ -740,21 +829,19 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit5/Title"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit5/Title"]
 margin_left = 8.0
 margin_top = 3.0
 margin_right = 608.0
 margin_bottom = 22.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitbase" type="Panel" parent="VBoxContainer/Kit5"]
+[node name="kitbase" type="Panel" parent="container for kits seen/Kit5"]
 margin_top = 24.0
 margin_right = 700.0
 margin_bottom = 49.0
@@ -763,9 +850,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit5/kitbase"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit5/kitbase"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -776,20 +863,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="BaseText" type="RichTextLabel" parent="VBoxContainer/Kit5/kitbase"]
+[node name="BaseText" type="RichTextLabel" parent="container for kits seen/Kit5/kitbase"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="kitMod" type="Panel" parent="VBoxContainer/Kit5"]
+[node name="kitMod" type="Panel" parent="container for kits seen/Kit5"]
 margin_top = 48.0
 margin_right = 700.0
 margin_bottom = 73.0
@@ -798,9 +883,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit5/kitMod"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit5/kitMod"]
 margin_left = 8.0
-margin_right = 48.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -811,20 +896,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ModText" type="RichTextLabel" parent="VBoxContainer/Kit5/kitMod"]
+[node name="ModText" type="RichTextLabel" parent="container for kits seen/Kit5/kitMod"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="KitAppendix" type="Panel" parent="VBoxContainer/Kit5"]
+[node name="KitAppendix" type="Panel" parent="container for kits seen/Kit5"]
 margin_top = 72.0
 margin_right = 700.0
 margin_bottom = 97.0
@@ -833,9 +916,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="text" type="RichTextLabel" parent="VBoxContainer/Kit5/KitAppendix"]
+[node name="text" type="RichTextLabel" parent="container for kits seen/Kit5/KitAppendix"]
 margin_left = 8.0
-margin_right = 88.0
+margin_right = 126.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
@@ -846,20 +929,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AppendixText" type="RichTextLabel" parent="VBoxContainer/Kit5/KitAppendix"]
+[node name="AppendixText" type="RichTextLabel" parent="container for kits seen/Kit5/KitAppendix"]
 margin_left = 136.0
 margin_right = 696.0
 margin_bottom = 19.0
 custom_fonts/normal_font = SubResource( 4 )
 bbcode_enabled = true
-bbcode_text = "yugoslavian lawyer of angel descend"
-text = "yugoslavian lawyer of angel descend"
 scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Separator" type="Panel" parent="VBoxContainer/Kit5"]
+[node name="Separator" type="Panel" parent="container for kits seen/Kit5"]
 margin_left = 128.0
 margin_top = 24.0
 margin_right = 130.0
@@ -869,3 +950,7 @@ custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/LeftToRight = SubResource( 14 )
+anims/RightToLeft = SubResource( 15 )

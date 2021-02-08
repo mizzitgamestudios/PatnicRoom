@@ -9,7 +9,8 @@ func _init(keyPara: String, valuePara):
 	self.key = keyPara
 
 func run():
-	var component = DemokrECTS.componentIndex.index[key].new(value)
-	if is_instance_valid(component):
-		return component
+	var component = DemokrECTS.component_Index[str(key)]
+	var compInst = component.new(value)
+	if is_instance_valid(compInst):
+		return compInst
 	return null

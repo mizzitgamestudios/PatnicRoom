@@ -28,8 +28,9 @@
   "Comp_NPC_SkillBlock": {
     "type" : "ENTRY_DICTIONARY",
     "value":{
-      "Animal Handling":3,
-      "Biotechnology":-2
+      "NEGOTIATION":"2",
+      "DISGUISE":"3",
+      "CHEMISTRY":"5"
       }
     },
   "META": {

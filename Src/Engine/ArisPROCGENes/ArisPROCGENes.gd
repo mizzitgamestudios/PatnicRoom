@@ -11,20 +11,20 @@
 extends Node
 
 
-
+var actorsOnMap = []
 ################################################################################
 ##  --- Parts of Engine ---                                                   ##
 ################################################################################
-var generatorHubActors: GeneratorHubActors = GeneratorHubActors.new();
-var createNPCProcess:CreateNPCProcess =CreateNPCProcess.new()
+#var generatorHubActors := GeneratorHubActors.new();
+#var createNPCProcess :=CreateNPCProcess.new()
 
 
 
 ################################################################################
 ##  --- Custom Generation ---                                                 ##
 ################################################################################
-func generateActorsInTools():
-	generatorHubActors.generateByJSONinTools()
+#func generateActorsInTools():
+#	generatorHubActors.generateByJSONinTools()
 
 
 

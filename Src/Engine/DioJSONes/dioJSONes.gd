@@ -1,6 +1,6 @@
 ###############################################################################################################################
 #                                                                                                                             #
-# Klasse:		--- DioJSONes ---                                                                                         #
+# Klasse:		--- DioJSONes ---                                                                                             #
 # description:	Responsible for the generation of Game-elements,ecspecially Chunks #
 #                                                                                                                             #
 # data flow:	External JSON -> Tilemap(ActorLayer)                                                                          #

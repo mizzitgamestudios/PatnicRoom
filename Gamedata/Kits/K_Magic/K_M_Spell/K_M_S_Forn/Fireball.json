@@ -1,15 +1,16 @@
 {
+
   "Comp_Universal_Name": {
     "type" : "ENTRY_SIMPLE",
     "value" : "Fireball"
   },
-  "Comp_KitParts_KitPartName": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "Fireball of burning"
-  },
-  "Comp_KitPart_Description": {
+  "Comp_Universal_Description": {
     "type" : "ENTRY_SIMPLE",
     "value" : "Its a normal Fireball,very hot...dont touch it and stop fooling around."
+  },
+  "Comp_KitPart_ToString": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Fireball"
   },
   "Comp_KitPart_MechanicalSummary": {
     "type" : "ENTRY_SIMPLE",
@@ -18,14 +19,37 @@
 
 
 
-  "Comp_KitParts_ListOfConditions": {
-    "type" : "ENTRY_ARRAY",
-    "value" : [
-      "burning","1","6"
-
-    ]
+  "Comp_KitPart_MType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "MEAT"
   },
-  "Comp_KitPart_SymbiosType": {
+  "Comp_KitPart_CatType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "SPELL"
+  },
+  "Comp_KitPart_PartType": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "BASE"
+  },
+
+
+
+  "Comp_KitPart_ModTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_CooldownTime": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "5"
+  },
+
+
+
+  "Comp_Universall_Rarity": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "3"
+  },
+  "Comp_KitPart_StrategyKeywords": {
     "type" : "ENTRY_ARRAY",
     "value" : [
       "fire",
@@ -36,7 +60,7 @@
 
 
 
-  "Comp_KitPart_Effect": {
+  "Comp_KitPart_EffectReference": {
     "type" : "ENTRY_EFFECT",
 
     "TIME" : {
@@ -106,18 +130,6 @@
 
 
 
-  "Comp_KitPart_LogToString": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "X bursts up in flames and takes X damage"
-  },
-  "Comp_KitPart_ModTime": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "3"
-  },
-  "Comp_KitPart_Cooldown": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "5"
-  },
 
 
 

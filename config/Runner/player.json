@@ -30,34 +30,13 @@
 
 
     "//C2":"---Agillity---",
-    "Pistols":"0",
-    "Automatics":"0",
-    "Longarms":"0",
-    "Exotic Ranged Weapons":"0",
-    "Gunnery":"0",
-    "Heavy Weapons":"0",
-
-    "Clubs":"0",
-    "Blades":"0",
-    "Throwing Weapons":"0",
-    "Unarmed Combat":"0",
-    "Exotic Meele Weapons":"0",
-
     "Locksmith":"0",
     "Palming":"0",
-
     "Gymnastcis":"0",
     "Sneaking":"0",
 
 
     "//C3":"---Reaction---",
-    "Pilot Aerospace":"0",
-    "Pilot Walker":"0",
-    "Pilot Aircraft":"0",
-    "Pilot Exotic":"0",
-    "Pilot Groundcraft":"0",
-    "Pilot Watercraft":"0",
-
 
     "//C4":"---Strength---",
     "Running":"0",
@@ -77,7 +56,6 @@
     "Medicine":"0",
     "Biotechnology":"0",
     "Computer":"0",
-    "Cybercombat":"0",
     "Electronic Warfare":"0",
     "Software":"0",
 

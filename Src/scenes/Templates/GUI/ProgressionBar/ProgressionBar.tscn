@@ -6,6 +6,8 @@
 [ext_resource path="res://Media/GUI/restmode/enter animation/Unbenannt3.png" type="Texture" id=4]
 [ext_resource path="res://Media/GUI/restmode/enter animation/Unbenannt2.png" type="Texture" id=5]
 
+
+
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
 border_width_left = 3

@@ -7,7 +7,7 @@
 [ext_resource path="res://Media/FixedDays Font/FixedSysTemplate.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=6]
 
-[sub_resource type="StyleBoxFlat" id=1]
+[sub_resource type="StyleBoxFlat" id=9]
 bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
 border_width_left = 3
 border_width_top = 3
@@ -15,13 +15,13 @@ border_width_right = 3
 border_width_bottom = 3
 border_color = Color( 0.12549, 0.14902, 0.211765, 1 )
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=10]
 size = 30
 outline_size = 2
 outline_color = Color( 0.196078, 0.196078, 0.196078, 1 )
 font_data = ExtResource( 5 )
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id=11]
 bg_color = Color( 0.2, 0.262745, 0.411765, 1 )
 border_width_left = 3
 border_width_top = 3
@@ -29,7 +29,7 @@ border_width_right = 3
 border_width_bottom = 3
 border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
 
-[sub_resource type="GDScript" id=4]
+[sub_resource type="GDScript" id=12]
 script/source = "extends Panel
 
 
@@ -92,11 +92,11 @@ func setRectPosOfPanel():
 
 "
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="DynamicFont" id=13]
 size = 18
 font_data = ExtResource( 6 )
 
-[sub_resource type="GDScript" id=6]
+[sub_resource type="GDScript" id=14]
 script/source = "extends RichTextLabel
 
 
@@ -106,7 +106,7 @@ func _ready():
 
 "
 
-[sub_resource type="StyleBoxFlat" id=7]
+[sub_resource type="StyleBoxFlat" id=15]
 bg_color = Color( 0, 0.223529, 0.756863, 1 )
 
 [sub_resource type="GDScript" id=8]
@@ -127,8 +127,8 @@ func _process(delta):
 	var kit = Player.kit
 	var perk = Player.perk
 	var race = Player.race
-
-	var nameText = get_node(\"..\").get_node(\"One Name/nameZone/nameInput\").bbcode_text
+	var nameText
+	nameText = get_node(\"..\").get_node(\"One Name/nameZone/nameInput\").bbcode_text
 	nameText.erase(0,14)
 	
 	var kitText = get_node(\"..\").get_node(\"form_starting kit2/already known/nameZone2/nameInput\")
@@ -148,6 +148,10 @@ func isEveryCheckBoxSet(kit,perk,race):
 
 func _input(event):
 		if event.is_action(\"leftClickMouse\") and isMouseOnNode(minVec,maxVec):
+			var nameText = get_node(\"..\").get_node(\"One Name/nameZone/nameInput\").bbcode_text
+			nameText.erase(0,14)
+			
+			API_011_Player.generateNewChar(Player.kit,Player.perk,Player.race,nameText)
 			
 			Player.characterCreationProcess()
 			Gameloop.startPanicMode()
@@ -157,7 +161,7 @@ func isMouseOnNode(minVec,maxVec):
 	return mouse.x > minVec.x and mouse.y > minVec.y and mouse.x < maxVec.x and mouse.y < maxVec.y
 "
 
-[sub_resource type="StyleBoxFlat" id=9]
+[sub_resource type="StyleBoxFlat" id=16]
 bg_color = Color( 0.337255, 0.396078, 0.529412, 0.196078 )
 border_width_left = 3
 border_width_top = 3
@@ -165,7 +169,7 @@ border_width_right = 3
 border_width_bottom = 3
 border_color = Color( 0.12549, 0.14902, 0.211765, 1 )
 
-[sub_resource type="StyleBoxFlat" id=10]
+[sub_resource type="StyleBoxFlat" id=17]
 bg_color = Color( 0.2, 0.262745, 0.411765, 1 )
 
 [node name="root_Create" type="Node2D"]
@@ -180,7 +184,7 @@ margin_left = 608.0
 margin_top = 440.0
 margin_right = 1816.0
 margin_bottom = 952.0
-custom_styles/panel = SubResource( 1 )
+custom_styles/panel = SubResource( 9 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -219,7 +223,7 @@ margin_top = 64.0
 margin_right = 248.0
 margin_bottom = 96.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Name"
 text = "Name"
@@ -232,8 +236,8 @@ margin_left = 160.0
 margin_top = 104.0
 margin_right = 379.0
 margin_bottom = 136.0
-custom_styles/panel = SubResource( 3 )
-script = SubResource( 4 )
+custom_styles/panel = SubResource( 11 )
+script = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -243,7 +247,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 8.0
 margin_right = 8.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -258,7 +262,7 @@ margin_top = 598.0
 margin_right = 1187.0
 margin_bottom = 622.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Choose one random type of kit to start with: "
 text = "Choose one random type of kit to start with: "
@@ -272,7 +276,7 @@ margin_top = 530.0
 margin_right = 1979.0
 margin_bottom = 554.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "hint: hover over text to get more information"
 text = "hint: hover over text to get more information"
@@ -286,7 +290,7 @@ margin_top = 558.0
 margin_right = 987.0
 margin_bottom = 590.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Starting kit"
 text = "Starting kit"
@@ -307,7 +311,7 @@ margin_top = 872.0
 margin_right = 1155.0
 margin_bottom = 896.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]or type out one you already know!"
 text = "or type out one you already know!"
@@ -320,8 +324,8 @@ margin_left = 848.0
 margin_top = 896.0
 margin_right = 1104.0
 margin_bottom = 928.0
-custom_styles/panel = SubResource( 3 )
-script = SubResource( 4 )
+custom_styles/panel = SubResource( 11 )
+script = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -330,9 +334,9 @@ __meta__ = {
 margin_left = 8.0
 margin_right = 256.0
 margin_bottom = 32.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
-script = SubResource( 6 )
+script = SubResource( 14 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -346,7 +350,7 @@ margin_top = 114.0
 margin_right = 310.0
 margin_bottom = 146.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Seed (optional)"
 text = "Seed (optional)"
@@ -359,8 +363,8 @@ margin_left = -61.0
 margin_top = 154.0
 margin_right = 179.0
 margin_bottom = 186.0
-custom_styles/panel = SubResource( 3 )
-script = SubResource( 4 )
+custom_styles/panel = SubResource( 11 )
+script = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -369,7 +373,7 @@ __meta__ = {
 margin_left = 8.0
 margin_right = 240.0
 margin_bottom = 32.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -384,7 +388,7 @@ margin_top = 483.0
 margin_right = 1622.0
 margin_bottom = 515.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Race"
 text = "Race"
@@ -416,7 +420,7 @@ margin_left = 1005.0
 margin_top = 653.0
 margin_right = 1025.0
 margin_bottom = 673.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 15 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -445,7 +449,7 @@ margin_left = 1005.0
 margin_top = 653.0
 margin_right = 1025.0
 margin_bottom = 673.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 15 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -474,7 +478,7 @@ margin_left = 1005.0
 margin_top = 653.0
 margin_right = 1025.0
 margin_bottom = 673.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 15 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -503,7 +507,7 @@ margin_left = 1005.0
 margin_top = 653.0
 margin_right = 1025.0
 margin_bottom = 673.0
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 15 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -517,7 +521,7 @@ margin_top = 456.0
 margin_right = 1736.0
 margin_bottom = 488.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow] Perk (placeholder)"
 text = " Perk (placeholder)"
@@ -531,7 +535,7 @@ margin_top = 496.0
 margin_right = 1824.0
 margin_bottom = 520.0
 rect_pivot_offset = Vector2( 184, 48 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]choose one Specialty to start with:"
 text = "choose one Specialty to start with:"
@@ -551,7 +555,7 @@ script = SubResource( 8 )
 margin_right = 173.0
 margin_bottom = 67.0
 rect_pivot_offset = Vector2( 331, 63 )
-custom_styles/panel = SubResource( 9 )
+custom_styles/panel = SubResource( 16 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -560,7 +564,7 @@ __meta__ = {
 margin_left = 3.0
 margin_right = 173.0
 margin_bottom = 67.0
-custom_fonts/normal_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 10 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]finish
@@ -576,7 +580,7 @@ margin_left = 693.0
 margin_top = 628.0
 margin_right = 741.0
 margin_bottom = 653.0
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Meat"
 text = "Meat"
@@ -590,7 +594,7 @@ margin_top = 709.0
 margin_right = 740.0
 margin_bottom = 733.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Magic"
 text = "Magic"
@@ -604,7 +608,7 @@ margin_top = 785.0
 margin_right = 728.0
 margin_bottom = 810.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Matrix"
 text = "Matrix"
@@ -619,7 +623,7 @@ margin_right = 893.0
 margin_bottom = 736.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "gives one of your bodyparts a magical attribute"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Infusion"
 text = "Infusion"
@@ -634,7 +638,7 @@ margin_right = 901.0
 margin_bottom = 813.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "enhances your body over its natural limits"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Cyberware"
 text = "Cyberware"
@@ -649,7 +653,7 @@ margin_right = 870.0
 margin_bottom = 656.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "close quarter weapons high raw damage"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Melee"
 text = "Melee"
@@ -664,7 +668,7 @@ margin_right = 979.0
 margin_bottom = 656.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "projectile weapons with diverse types of damage"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Gun"
 text = "Gun"
@@ -679,7 +683,7 @@ margin_right = 1096.0
 margin_bottom = 656.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "protects you of damage but also enviromental factors"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Armor"
 text = "Armor"
@@ -694,7 +698,7 @@ margin_right = 1003.0
 margin_bottom = 736.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "gives you one of many diffrent spells with"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Spell"
 text = "Spell"
@@ -709,7 +713,7 @@ margin_right = 1088.0
 margin_bottom = 736.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "lets you summon a ghost to aid you"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Rite"
 text = "Rite"
@@ -724,7 +728,7 @@ margin_right = 987.0
 margin_bottom = 808.0
 rect_pivot_offset = Vector2( 232, 112 )
 hint_tooltip = "lets you controll and manipuate the internet of things"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Hack"
 text = "Hack"
@@ -738,7 +742,7 @@ margin_top = 788.0
 margin_right = 1128.0
 margin_bottom = 821.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Drone"
@@ -758,7 +762,7 @@ hint_tooltip = "Humans take up the mayority of mankind and are its litteral aver
 > there are no special perks
 > there are no secial attributes
 > there are no overwhelming racial tensions"
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Human"
 text = "Human"
@@ -772,7 +776,7 @@ margin_top = 737.0
 margin_right = 1272.0
 margin_bottom = 760.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Dwarf"
 text = "Dwarf"
@@ -786,7 +790,7 @@ margin_top = 800.0
 margin_right = 1288.0
 margin_bottom = 840.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Troll"
 text = "Troll"
@@ -800,7 +804,7 @@ margin_top = 857.0
 margin_right = 1264.0
 margin_bottom = 880.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Elf"
 text = "Elf"
@@ -814,7 +818,7 @@ margin_top = 700.0
 margin_right = 1573.0
 margin_bottom = 743.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]go big or go home"
 text = "go big or go home"
@@ -828,7 +832,7 @@ margin_top = 777.0
 margin_right = 1552.0
 margin_bottom = 797.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]ganger"
 text = "ganger"
@@ -842,7 +846,7 @@ margin_top = 840.0
 margin_right = 1548.0
 margin_bottom = 860.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]Wanderer"
 text = "Wanderer"
@@ -856,7 +860,7 @@ margin_top = 888.0
 margin_right = 1552.0
 margin_bottom = 911.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]"
 __meta__ = {
@@ -869,7 +873,7 @@ margin_top = 712.0
 margin_right = 1760.0
 margin_bottom = 736.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]sell out"
 text = "sell out"
@@ -883,7 +887,7 @@ margin_top = 777.0
 margin_right = 1792.0
 margin_bottom = 802.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]most wanted"
 text = "most wanted"
@@ -897,7 +901,7 @@ margin_top = 829.0
 margin_right = 1784.0
 margin_bottom = 851.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]"
 __meta__ = {
@@ -910,7 +914,7 @@ margin_top = 888.0
 margin_right = 1762.0
 margin_bottom = 912.0
 rect_pivot_offset = Vector2( 232, 112 )
-custom_fonts/normal_font = SubResource( 5 )
+custom_fonts/normal_font = SubResource( 13 )
 bbcode_enabled = true
 bbcode_text = "[color=yellow]"
 __meta__ = {
@@ -923,7 +927,7 @@ margin_left = 1040.0
 margin_top = 785.0
 margin_right = 1096.0
 margin_bottom = 817.0
-custom_styles/panel = SubResource( 10 )
+custom_styles/panel = SubResource( 17 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -934,7 +938,7 @@ margin_left = 1040.0
 margin_top = 704.0
 margin_right = 1096.0
 margin_bottom = 736.0
-custom_styles/panel = SubResource( 10 )
+custom_styles/panel = SubResource( 17 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -945,7 +949,7 @@ margin_left = 1040.0
 margin_top = 624.0
 margin_right = 1096.0
 margin_bottom = 656.0
-custom_styles/panel = SubResource( 10 )
+custom_styles/panel = SubResource( 17 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

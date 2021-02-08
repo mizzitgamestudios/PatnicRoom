@@ -19,20 +19,41 @@
 
 
     // --- Icons --- \\
-    "material-icon-theme.folders.theme": "specific",
-    "material-icon-theme.folders.associations": {
-        "Entity Manager": "Template",
-        "Components": "Components",
-        "Controller": "Controller",
-        "Systems": "Public",
-        "Unit Test": "Test",
-        "Basic Tiles Components":"Environment",
-        "Engine": "Core",
-        "Media":"Images",
-        "Gamedata":"DataBase",
-        "Effect Generator":"Layout",
-        "scenes":"global",
-        "Gameloop":"generator",
-    },
+    "vsicons.associations.folders": [
+        
+        { "icon": "paket", "extensions": ["Components"], "format": "FileFormat.svg" },
+        { "icon": "blueprint", "extensions": ["009_Tilemap"], "format": "FileFormat.svg" },
+        { "icon": "e2e", "extensions": ["IO"], "format": "FileFormat.svg" },
+        { "icon": "helper", "extensions": ["Systems"], "format": "FileFormat.svg" },
+        { "icon": "dependabot", "extensions": ["Unit Test"], "format": "FileFormat.svg" },
+        { "icon": "public", "extensions": ["Entity Manager"], "format": "FileFormat.svg" },
+        { "icon": "redis", "extensions": ["GameData"], "format": "FileFormat.svg" },
+        { "icon": "docs", "extensions": ["Documentation"], "format": "FileFormat.svg" },
+        { "icon": "theme", "extensions": ["Media"], "format": "FileFormat.svg" },
+        { "icon": "app", "extensions": ["Engine"], "format": "FileFormat.svg" },
+        { "icon": "azurepipelines", "extensions": ["Bootstrap"], "format": "FileFormat.svg" },
+        { "icon": "binary", "extensions": ["Logic"], "format": "FileFormat.svg" },
+        { "icon": "blueprint", "extensions": ["000_Basic Tiles Atlas"], "format": "FileFormat.svg" },
+
+
+        // --- generic Modules
+        { "icon": "plugin", "format": "FileFormat.svg",
+            "extensions": [
+                "001_Metahuman Stats",
+                "002_Effect Generator",
+                "003_Conditions",
+                "004_Items",
+                "005_KitSet",
+                "006_Kitparts",
+                "007_Procgen Actor",
+                "008_Procgen Chunk",
+                "010_DioJSONes interpreter"
+            
+            ]
+         },
+        
+    ]
+
+
 
 }

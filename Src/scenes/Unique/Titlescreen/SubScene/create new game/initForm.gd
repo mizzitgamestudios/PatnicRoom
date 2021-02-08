@@ -55,7 +55,7 @@ func setKit(base):
 	var yThree=705
 	
 	listOfPerksCheckboxes.append([xOne,yOne,"meele",        "kit",get_parent()])
-	listOfPerksCheckboxes.append([xOne,yTwo,"Drones",       "kit",get_parent()])
+	listOfPerksCheckboxes.append([xOne,yTwo,"hack",       "kit",get_parent()])
 	listOfPerksCheckboxes.append([xOne,yThree,"infusion",      "kit",get_parent()])
 	
 	listOfPerksCheckboxes.append([xTwo,yTwo,"hack",      "kit",get_parent()])

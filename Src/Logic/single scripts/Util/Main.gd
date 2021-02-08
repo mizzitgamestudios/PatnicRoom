@@ -1,11 +1,11 @@
 extends Node
 
 var JSONParser : JsonParser
-var RNG
+var RNG: RNGClass
 var Filehub
 var DictionaryUtils
-var Nodes
-var helpers
+var Nodes : NodesManager
+var filepathBuilder
 
 
 func _init():
@@ -14,4 +14,4 @@ func _init():
 	Filehub = FileHub.new()
 	DictionaryUtils = DictionaryUtil.new()
 	Nodes = NodesManager.new()
-	helpers = Helpers.new()
+	filepathBuilder = FilepathBuilder.new()

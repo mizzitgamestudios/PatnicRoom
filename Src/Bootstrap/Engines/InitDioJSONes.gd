@@ -3,7 +3,6 @@
 # Klasse:		InitDioJSONes                                                                                                 #
 # description:	collects all GameData-JSON and tand converts them into Entities in their @DemocrECTS.allGroups                #
 # data flow:	gets all Filepaths of GameData -> converts JSON to Entities -> adds them to Groups of ECTS                    #
-# often called:	N/A                                                                                                           #
 #                                                                                                                             #
 ###############################################################################################################################
 
@@ -25,15 +24,15 @@ var parser := JsonToEntityParser.new()
 # --- Init ----------- #
 ########################
 func _init():
-	DemokrECTS.groupManager.allGroups={}
-	DemokrECTS.groupManager.initGroups()
+
+	DemokrECTS.groupManager.initGroups() # toRefactor: needs to be here because InitDioJSONes happens bevore Bootstrap but needs the groups for declare diffrent groups
 	DioJSONes.initSubsystems();
 	effektGenerator = DioJSONes.effektGenerator;
 	interpreter = DioJSONes.interpreter;
 
-	var listOfAllJSONs: Array = deserialiceTheCoinage("res://Gamedata")
+	var listOfAllJSONs: Array = deserialiceTheCoinage(ENUM.BASE_GAME_DATA_PATH)
 	parseAll(listOfAllJSONs)
-	effektGenerator.parseText("fihb")
+	
 
 
 

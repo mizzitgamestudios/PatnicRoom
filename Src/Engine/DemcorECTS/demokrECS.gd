@@ -10,57 +10,34 @@
 
 extends Node
 
-##############################################################################
-##  --- Parts of Engine ---                                                 ##
-##############################################################################
 
-var entityManager : EntityManager
-var systemManager :SystemManager
-var componentManager : ComponentManager
-var groupManager : GroupManager
-var performanceManager : PerformanceManager
-var componentIndex : DemocrECTS_ComponentIndex
-var tileEntManager : TileEntManager
+var atlas_component_entities = {};
+var atlas_entities = {}
+var atlas_systems = {}
+var component_Index = {}
+var groupManager :GroupManager
 
 
 
-func _init() -> void:
-	tileEntManager= TileEntManager.new()
-	systemManager = SystemManager.new()
-	componentIndex = DemocrECTS_ComponentIndex.new()
-	componentManager = ComponentManager.new()
-	groupManager = GroupManager.new()
-	performanceManager = PerformanceManager.new()
-	entityManager = EntityManager.new()
+func get_All_Kit_Part_Entities():
+	return groupManager.atlas_All_Kit_Parts
+
+# use ENUM.ATLAS_GROUP.__________
+func get_Group_By_Name(namePara:String):
+	if namePara.begins_with("atlas_"):
+		return groupManager.allGroups[str("atlas_"+namePara)]
+	else:
+		return groupManager.allGroups[namePara]
+	
 
 
-################################################################################
-##  --- TileEntity ---                                                        ##
-################################################################################
+func get_array_of_all_entites_with_comp(string_of_comp:String):
+	var _entities_with_comp: Dictionary = atlas_component_entities[string_of_comp]
+	return _entities_with_comp.keys()
 
-func getActorByInstanceID(instanceID:String) -> TileEntity:
-	return null
+func synch_Component_Index(component_Index_Para:Dictionary):
+	var keys_of_dictionary = component_Index_Para.keys()
+	var values_of_dictionary = component_Index_Para.values()
 
-func setTile(tile:TileEntity,pos:Vector2):
-	pass
-
-
-
-func hasPosComponent(pos:Vector2,componentName:String) -> bool:
-	return false
-
-
-
-################################################################################
-##  --- Component ---                                                         ##
-################################################################################
-
-func addCompToTile(tile:TileEntity,componentName:String) -> void:
-	pass
-
-func removeCompOfTile(tile:TileEntity,componentName:String) -> void:
-	pass
-
-func saveChunkAsJSON() -> void:
-	pass
-
+	for i in keys_of_dictionary.size():
+		component_Index[keys_of_dictionary[i]] = values_of_dictionary[i]

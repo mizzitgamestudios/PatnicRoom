@@ -1,0 +1,303 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/Upper Arm.png" type="Texture" id=2]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/Hand.png" type="Texture" id=3]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/Head.png" type="Texture" id=4]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/Feet.png" type="Texture" id=5]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/forearm.png" type="Texture" id=6]
+[ext_resource path="res://Media/GUI/Panicmode/Condition/Chest.png" type="Texture" id=7]
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/Monitor.gd" type="Script" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_color = Color( 1, 1, 1, 1 )
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 13
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+
+[sub_resource type="Animation" id=9]
+resource_name = "LeftToRight"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("background:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1100, 8 ), Vector2( 2500, 8 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1806, 424 ), Vector2( 2000, 424 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("tab text:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1856, 614 ), Vector2( 2000, 614 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Condition:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -48, 24 ), Vector2( 400, 24 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "RightToLeft"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("background:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2500, 8 ), Vector2( 1100, 8 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 424 ), Vector2( 1806, 424 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("tab text:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2000, 614 ), Vector2( 1856, 614 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Condition:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 400, 24 ), Vector2( -48, 24 ) ]
+}
+
+[node name="root_Status" type="Node2D"]
+script = ExtResource( 8 )
+
+[node name="background" type="Panel" parent="."]
+margin_left = 2033.33
+margin_top = 8.0
+margin_right = 2756.33
+margin_bottom = 837.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lifted tab" type="Panel" parent="."]
+margin_left = 1935.33
+margin_top = 424.0
+margin_right = 2038.33
+margin_bottom = 615.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab text" type="RichTextLabel" parent="."]
+margin_left = 1952.0
+margin_top = 614.0
+margin_right = 2144.0
+margin_bottom = 678.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]M[/color]onitor"
+text = "Monitor"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Condition" type="YSort" parent="."]
+position = Vector2( 250.667, 24 )
+z_index = 10
+
+[node name="head" type="TextureRect" parent="Condition"]
+modulate = Color( 0.752941, 0.870588, 0.0627451, 1 )
+margin_left = 1776.0
+margin_top = 16.0
+margin_right = 1822.0
+margin_bottom = 38.0
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="chest" type="TextureRect" parent="Condition"]
+modulate = Color( 0.215686, 0.639216, 0.176471, 1 )
+margin_left = 1770.83
+margin_top = 46.1123
+margin_right = 1826.83
+margin_bottom = 113.112
+texture = ExtResource( 7 )
+
+[node name="upper leg L" type="TextureRect" parent="Condition"]
+margin_left = 1805.03
+margin_top = 117.0
+margin_right = 1817.03
+margin_bottom = 147.0
+rect_pivot_offset = Vector2( 4.51465, 11.3235 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="down leg l" type="TextureRect" parent="Condition"]
+margin_left = 1807.62
+margin_top = 150.079
+margin_right = 1813.62
+margin_bottom = 173.079
+rect_pivot_offset = Vector2( 1.91895, -21.7555 )
+texture = ExtResource( 6 )
+
+[node name="upper leg r" type="TextureRect" parent="Condition"]
+margin_left = 1780.0
+margin_top = 117.0
+margin_right = 1792.0
+margin_bottom = 147.0
+rect_pivot_offset = Vector2( 4.51465, 11.3235 )
+texture = ExtResource( 2 )
+
+[node name="down leg r" type="TextureRect" parent="Condition"]
+margin_left = 1782.59
+margin_top = 150.079
+margin_right = 1788.59
+margin_bottom = 173.079
+rect_pivot_offset = Vector2( 1.91895, -21.7555 )
+texture = ExtResource( 6 )
+
+[node name="upper arm r" type="TextureRect" parent="Condition"]
+margin_left = 1753.3
+margin_top = 56.1906
+margin_right = 1765.3
+margin_bottom = 86.1906
+rect_pivot_offset = Vector2( 4.51465, 11.3235 )
+texture = ExtResource( 2 )
+
+[node name="upper arm l" type="TextureRect" parent="Condition"]
+margin_left = 1755.9
+margin_top = 89.2696
+margin_right = 1761.9
+margin_bottom = 112.27
+rect_pivot_offset = Vector2( 1.91895, -21.7555 )
+texture = ExtResource( 6 )
+
+[node name="upper arm l2" type="TextureRect" parent="Condition"]
+margin_left = 1832.73
+margin_top = 56.1906
+margin_right = 1844.73
+margin_bottom = 86.1906
+rect_pivot_offset = Vector2( 4.51465, 11.3235 )
+texture = ExtResource( 2 )
+
+[node name="hand l" type="TextureRect" parent="Condition"]
+margin_left = 1835.32
+margin_top = 117.0
+margin_right = 1843.32
+margin_bottom = 125.0
+rect_pivot_offset = Vector2( 16.2554, 15.3281 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hand r" type="TextureRect" parent="Condition"]
+modulate = Color( 1, 0, 0, 1 )
+margin_left = 1805.03
+margin_top = 178.736
+margin_right = 1816.03
+margin_bottom = 186.736
+rect_pivot_offset = Vector2( 16.2554, 15.3281 )
+texture = ExtResource( 5 )
+
+[node name="footl" type="TextureRect" parent="Condition"]
+margin_left = 1780.0
+margin_top = 178.736
+margin_right = 1791.0
+margin_bottom = 186.736
+rect_pivot_offset = Vector2( 16.2554, 15.3281 )
+texture = ExtResource( 5 )
+
+[node name="handr" type="TextureRect" parent="Condition"]
+margin_left = 1755.9
+margin_top = 117.0
+margin_right = 1763.9
+margin_bottom = 125.0
+rect_pivot_offset = Vector2( 16.2554, 15.3281 )
+texture = ExtResource( 3 )
+
+[node name="forearm l" type="TextureRect" parent="Condition"]
+margin_left = 1835.32
+margin_top = 89.2696
+margin_right = 1841.32
+margin_bottom = 112.27
+rect_pivot_offset = Vector2( 1.91895, -21.7555 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/LeftToRight = SubResource( 9 )
+anims/RightToLeft = SubResource( 8 )

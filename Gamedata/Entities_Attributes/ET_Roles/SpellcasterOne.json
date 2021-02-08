@@ -28,11 +28,11 @@
   "Comp_NPC_SkillBlock": {
     "type" : "ENTRY_DICTIONARY",
     "value":{
-      "Gymnastcis":"3",
-      "Sneaking":"5",
-      "Perception":"4",
-      "Assensing":"5",
-      "Computer":"3",
+      "GYMNASTICS":"3",
+      "SNEAKING":"5",
+      "PERCEPTION":"4",
+      "ASSENSING":"5",
+      "COMPUTER":"3",
       }
     },
   "META": {

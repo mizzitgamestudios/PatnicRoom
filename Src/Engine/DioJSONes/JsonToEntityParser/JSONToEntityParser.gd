@@ -36,6 +36,11 @@ func parse(dictionary : Dictionary) -> Entity:
 				
 			ENUM.JSON_KEY_TYPE.META:
 				buildMeta(idx,currentDicEntry, ent)
+			
+			ENUM.JSON_KEY_TYPE.ENTRY_EFFECT:
+				buildEffectReference(idx,currentDicEntry, ent)
+		
+		
 	return ent
 
 
@@ -52,6 +57,12 @@ func buildSimpleAndContainer(idx, dicToBuildComp, ent):
 
 func buildArrayAndDictionary(idx,currentDicEntry, ent):
 	var dicToBuildComp = currentDicEntry.value
+	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(idx, dicToBuildComp)
+	var component = compConstructor.run()
+	ent.add_component(component)
+
+func buildEffectReference(idx,currentDicEntry, ent):
+	var dicToBuildComp = currentDicEntry
 	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(idx, dicToBuildComp)
 	var component = compConstructor.run()
 	ent.add_component(component)

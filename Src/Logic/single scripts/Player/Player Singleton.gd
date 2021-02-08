@@ -11,13 +11,15 @@ var stats
 var common
 
 func _ready() -> void:
+	
+
 	cloudPrinter=Cloudprinter.new()
 	kitventory = Kitventory.new()
 	recycler = Recycler.new()
 	stats = Stats.new()
 	common = Common.new()
 	runner = Runner.new()
-	runner.inventory = Inventory.new()
+	#runner.inventory = Inventory.new()
 	team = Team.new()
 
 ##############################################################################
@@ -32,8 +34,8 @@ var gold = -1
 var devmode="true"
 
 func characterCreationProcess():
-	runner.initialice()
-	
+	#runner.initialice()
+	pass
 	
 
 var kit="0"

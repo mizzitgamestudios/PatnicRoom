@@ -28,11 +28,9 @@
   "Comp_NPC_SkillBlock": {
     "type" : "ENTRY_DICTIONARY",
     "value":{
-      "First Aid":"3",
-      "Medicine":"2",
-      "survival":"1",
-      "Perception":"3",
-      "Assensing":"1",
+      "NEGOTIATION":"2",
+      "DISGUISE":"3",
+      "CHEMISTRY":"5"
       }
     },
   "META": {

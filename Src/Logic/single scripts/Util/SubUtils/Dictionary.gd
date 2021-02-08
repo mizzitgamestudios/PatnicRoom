@@ -53,7 +53,17 @@ func getMode(oldDict,newDict,commonKey,mode):
 		"replace":
 			return newDict[commonKey]
 
+
 func zeroOut(oldDict,oldKeys):
 	for i in oldKeys.size():
 		oldDict[oldKeys[i]] = 0
 	return oldDict
+
+
+
+func mergeDictionary(dictOne:Dictionary,dictTwo:Dictionary):
+	var dictTwoKeys = dictTwo.keys()
+	for i in dictOne.size():
+		dictOne[dictTwoKeys[i]] = dictTwo[dictTwoKeys[i]]
+	
+	return dictOne

@@ -31,7 +31,7 @@ var platonicHeaven
 var tilemap
 
 var Atlas_tileset_Meta = {}
-
+var Actors_on_map = {}
 
 
 ################################################################################
@@ -42,6 +42,7 @@ func parseTilemap(tileMapFilePath:String):
 	tilemapManager.initTileMap(tileMapFilePath)
 	tilemapManager.tileMapCleanUp()
 	tilemapManager.formatTileMap(tilemap)
+	
 
 
 func moveActor(ent:Entity,direction:int):
