@@ -1,0 +1,16 @@
+{
+  "C_6_TILE_NAME": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Brawler_Tier_One"
+  },
+  "C_0_ANY_DESCRIPTION": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "people who put their first toe in the cyberspace,they are not skilled but still a thread without protection"
+  },
+  "META": {
+    "type":"META",
+    "GROUP" : "atlas_Flags",
+    "GROUP_ENTRY_NAME":"placeholder",
+    "ENTITY_TYPE":"DEFAULT"
+  }
+}

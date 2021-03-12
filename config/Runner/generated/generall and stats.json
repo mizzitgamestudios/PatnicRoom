@@ -1,0 +1,85 @@
+{
+  "//C1":"------- GENERALL -------",
+
+  "playerName":"placeholder",
+  "streetName":"NULL",
+  "description":"an unknown man,yet to earn his name",
+  "I am...":"NULL",
+  "I can...":"NULL",
+  "race":"NULL",
+
+
+  "//C2":"------- ATTRIBUTES -------",
+
+  "attributes":{
+    "con":"3",
+    "agi":"3",
+    "str":"3",
+    "rea":"3",
+
+    "log":"3",
+    "int":"3",
+    "wil":"3",
+    "cha":"3"
+  },
+
+
+    "//C3":"------- SKILLS -------",
+
+    "skills":{
+
+      "//C4":"--- CON ---",
+      "DIVING"              : "2",
+      "FREE_FALL"           : "2",
+
+      "//C4":"--- AGI ---",
+      "LOCKSMITH"           : "2",
+      "PALMING"             : "2",
+      "GYMNASTIC"           : "2",
+      "SNEAKING"            : "2",
+
+      "//C5":"--- STR ---",
+      "RUNNING"             : "2",
+      "SWIMMING"            : "2",
+
+      "//C6":"--- WIL ---",
+      "SURVIVAL"            : "2",
+      "ASTRAL_COMBAT"       : "2",
+
+      "//C4":"--- LOG ---",
+      "ARCANA"              : "2",
+      "MECHANICS"           : "2",
+      "CHEMISTRY"           : "2",
+      "FIRST_AID"           : "2",
+      "MEDININE"            : "2",
+      "BIOTECHNOLOGY"       : "2",
+      "COMPUTER"            : "2",
+      "ELECTRONIC_WARFRAE"  : "2",
+      "SOFTWARE"            : "2",
+
+      "//C4":"--- INT ---",
+      "ARTISAN"             : "2",
+      "DISGUISE"            : "2",
+      "PERCEPTION"          : "2",
+      "ASSENSING"           : "2",
+      "NAVIGATION"          : "2",
+
+      "//C4":"--- CHA ---",
+      "CON"                 : "2",
+      "LEADERSHIP"          : "2",
+      "ANIMAL_HANDLING"     : "2",
+      "ETTIUETTE"           : "2",
+      "INTIMIDATION"        : "2",
+      "NEGOTIATION"         : "2",
+      "IMPERSONATION"       : "2"
+    },
+
+
+    "//C3":"------- SKILLS -------",
+
+    "perks":[
+
+    ]
+
+
+}

@@ -1,0 +1,163 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/News Side Panel/News.gd" type="Script" id=1]
+[ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 0.729412 )
+border_color = Color( 1, 1, 1, 1 )
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 13
+
+[sub_resource type="DynamicFont" id=2]
+size = 53
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 8
+corner_radius_bottom_right = 8
+
+[sub_resource type="Animation" id=4]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("tab text:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -100, 826 ), Vector2( 20, 826 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -100, 631 ), Vector2( 0, 631 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("background:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -100, 8 ), Vector2( 80, 8 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("tab text:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1942.4, 826 ), Vector2( 1806, 826 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1922.4, 631 ), Vector2( 1806, 631 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("background:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1940, 8 ), Vector2( 1100, 8 ) ]
+}
+
+[node name="root_Onlook" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="background" type="Panel" parent="."]
+margin_left = -100.0
+margin_top = 8.0
+margin_right = 623.0
+margin_bottom = 837.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab text2" type="RichTextLabel" parent="background"]
+margin_left = 52.0
+margin_top = 8.0
+margin_right = 692.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center]select something to look"
+text = "select something to look"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lifted tab" type="Panel" parent="."]
+margin_left = -100.0
+margin_top = 631.0
+margin_right = 2.99999
+margin_bottom = 822.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab text" type="RichTextLabel" parent="."]
+margin_left = -100.0
+margin_top = 826.0
+margin_right = 91.9999
+margin_bottom = 890.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center]Onlook"
+text = "Onlook"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/LeftToRight = SubResource( 4 )
+anims/rightToLeft = SubResource( 5 )

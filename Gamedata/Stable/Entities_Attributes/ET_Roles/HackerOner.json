@@ -1,0 +1,48 @@
+{
+  "C_6_TILE_NAME": {
+    "type": "ENTRY_SIMPLE",
+    "value": "Hacker_Tier_One"
+  },
+  "C_0_ANY_DESCRIPTION": {
+    "type": "ENTRY_SIMPLE",
+    "value": "weak guys throwing wild punches,lasts 2 rounds in the ring and 9 weeks in coma"
+  },
+  "F_6_ACTOR_ATTRIBUTES":{
+    "type":"FLAG"
+ },
+  "C_47_ANY_SYNONYM": {
+    "type": "ENTRY_ARRAY",
+    "value": [
+      "orc"
+    ]
+  },
+  "C_19_ACTOR_ATTRIBUTES": {
+    "type": "ENTRY_DICTIONARY",
+    "value": {
+      "con": 2,
+      "agi": 0,
+      "rea": 0,
+      "str": 2,
+      "wil": -1,
+      "log": -1,
+      "int": -1,
+      "cha": -1
+    }
+  },
+  "C_20_ACTOR_SKILLBLOCK": {
+    "type": "ENTRY_DICTIONARY",
+    "value": {
+      "GYMNASTICS": "3",
+      "SNEAKING": "5",
+      "PERCEPTION": "4",
+      "ASSENSING": "5",
+      "COMPUTER": "3",
+    }
+  },
+  "META": {
+    "type": "META",
+    "GROUP": "atlas_Roles",
+    "GROUP_ENTRY_NAME": "Brawler_Tier_One",
+    "ENTITY_TYPE": "DEFAULT"
+  }
+}

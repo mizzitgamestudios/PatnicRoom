@@ -1,0 +1,101 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Text_Header.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/buttonN.gd" type="Script" id=2]
+[ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/buttonY.gd" type="Script" id=3]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=4]
+[ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/Panel.gd" type="Script" id=5]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.2, 0.262745, 0.411765, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="DynamicFont" id=3]
+size = 18
+font_data = ExtResource( 4 )
+
+[node name="root_enterSaveroom" type="Node2D"]
+position = Vector2( 176, 0 )
+script = ExtResource( 5 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 216.0
+margin_top = 336.0
+margin_right = 792.0
+margin_bottom = 616.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 280.0
+margin_top = 352.0
+margin_right = 752.0
+margin_bottom = 400.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Enter P[color=red]@[/color]nicroom?"
+text = "Enter P@nicroom?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 300.0
+margin_top = 500.0
+margin_right = 460.0
+margin_bottom = 540.0
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_left = 312.0
+margin_top = 508.0
+margin_right = 472.0
+margin_bottom = 532.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Stay in P[color=red]@[/color]nic"
+text = "Stay in P@nic"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="."]
+margin_left = 568.0
+margin_top = 500.0
+margin_right = 632.0
+margin_bottom = 540.0
+custom_styles/panel = SubResource( 2 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+margin_left = 576.0
+margin_top = 508.0
+margin_right = 624.0
+margin_bottom = 532.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Rest"
+text = "Rest"
+__meta__ = {
+"_edit_use_anchors_": false
+}

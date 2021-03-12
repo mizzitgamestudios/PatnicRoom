@@ -1,0 +1,39 @@
+{
+  "C_6_TILE_NAME": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "humanoid"
+  },
+
+  "C_0_ANY_DESCRIPTION": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "a simple humanoid bodytype"
+  },
+
+  "C_46_ANY_HITPOINTS": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : 10
+  },
+
+  "C_17_ACTOR_BODYPARTS_HITPROBABILLITY": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : 15
+  },
+
+  "C_16_ACTOR_BODYPARTS_CONNECTS": {
+    "type" : "ENTRY_CONTAINER",
+    "value" : [
+      {
+        "HIT_PROPABILLITY": {
+          "type" : "ENTRY_SIMPLE",
+          "value" : 15
+        }
+      }
+    ]
+  },
+  "META": {
+    "type":"META",
+    "GROUP" : "atlas_Bodyparts",
+    "GROUP_ENTRY_NAME":"humanoid",
+    "ENTITY_TYPE":"DEFAULT"
+  }
+}

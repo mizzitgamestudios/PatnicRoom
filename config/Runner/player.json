@@ -1,0 +1,86 @@
+{
+  "name":"default",
+  "race":"N/A",
+  "streetname":"N/A",
+
+  "perks":[
+    "N/A"
+  ],
+
+  "attributes":{
+    "con":"0",
+    "agi":"0",
+    "rea":"0",
+    "str":"0",
+
+    "wil":"0",
+    "log":"0",
+    "int":"0",
+    "cha":"0"
+  },
+
+  "carriage":[
+    "N/A"
+  ],
+
+  "skills":{
+    "//C1":"---Constitution---",
+    "Diving":"0",
+    "Free-fall":"0",
+
+
+    "//C2":"---Agillity---",
+    "Locksmith":"0",
+    "Palming":"0",
+    "Gymnastcis":"0",
+    "Sneaking":"0",
+
+
+    "//C3":"---Reaction---",
+
+    "//C4":"---Strength---",
+    "Running":"0",
+    "Swimming":"0",
+
+
+    "//C5":"---Willpower---",
+    "Survival":"0",
+    "Astral Combat":"0",
+
+
+    "//C6":"---Logic---",
+    "Arcana":"0",
+    "Mechanic":"0",
+    "Chemistry":"0",
+    "First Aid":"0",
+    "Medicine":"0",
+    "Biotechnology":"0",
+    "Computer":"0",
+    "Electronic Warfare":"0",
+    "Software":"0",
+
+
+    "//C7":"---Intuition---",
+    "Artisan":"0",
+    "Disguise":"0",
+    "Perception":"0",
+    "Assensing":"0",
+    "Navigation":"0",
+
+
+    "//C8":"---Charisma---",
+    "Con":"0",
+    "Leadership":"0",
+    "Animal Handling":"0",
+    "Ettiquette":"0",
+    "Intimidation":"0",
+    "Negotiation":"0",
+    "Impersonation":"0",
+
+  }
+
+
+
+
+
+}

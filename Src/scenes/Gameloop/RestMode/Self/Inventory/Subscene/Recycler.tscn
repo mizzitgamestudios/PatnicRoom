@@ -1,0 +1,954 @@
+[gd_scene load_steps=28 format=2]
+
+[ext_resource path="res://Media/GUI/restmode/matterials/wires.png" type="Texture" id=1]
+[ext_resource path="res://Media/GUI/restmode/matterials/fiber.png" type="Texture" id=2]
+[ext_resource path="res://Media/GUI/restmode/matterials/bio.png" type="Texture" id=3]
+[ext_resource path="res://Media/GUI/restmode/matterials/steel.png" type="Texture" id=4]
+[ext_resource path="res://Media/GUI/restmode/matterials/clear.png" type="Texture" id=5]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=6]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 44
+outline_size = 3
+outline_color = Color( 0.172549, 0.203922, 0.286275, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_right = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 30
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_right = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=11]
+size = 25
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=14]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=15]
+size = 40
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=17]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+
+[sub_resource type="StyleBoxFlat" id=19]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0.890196, 0.415686, 0, 1 )
+
+[sub_resource type="DynamicFont" id=21]
+size = 50
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 6 )
+
+[node name="Settingwechsel" type="Node2D"]
+position = Vector2( 360, 0 )
+
+[node name="All" type="HBoxContainer" parent="."]
+margin_left = 608.0
+margin_top = 135.0
+margin_right = 1308.0
+margin_bottom = 534.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Recycler" type="VBoxContainer" parent="All"]
+margin_right = 512.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 509, 0 )
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="header" type="Panel" parent="All/Recycler"]
+margin_right = 512.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 500, 40 )
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All/Recycler/header"]
+margin_left = 3.0
+margin_top = -3.0
+margin_right = 597.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center]Recycler"
+text = "Recycler"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="seperator" type="Panel" parent="All/Recycler"]
+margin_top = 40.0
+margin_right = 512.0
+margin_bottom = 43.0
+rect_min_size = Vector2( 300, 3 )
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="center" type="Panel" parent="All/Recycler"]
+margin_top = 43.0
+margin_right = 512.0
+margin_bottom = 343.0
+rect_min_size = Vector2( 512, 300 )
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="all visual" type="HBoxContainer" parent="All/Recycler/center"]
+margin_left = 3.0
+margin_right = 512.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 509, 300 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bio Synth" type="Panel" parent="All/Recycler/center/all visual"]
+margin_right = 150.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 150, 300 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Bio Text" type="RichTextLabel" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -2.10979
+anchor_top = -1.12352
+anchor_right = -2.10979
+anchor_bottom = -1.12352
+margin_left = 311.469
+margin_top = 337.056
+margin_right = 434.469
+margin_bottom = 369.056
+rect_min_size = Vector2( 118, 32 )
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]Wires"
+text = "Wires"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Bio count" type="RichTextLabel" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -1.89646
+anchor_top = -1.12352
+anchor_right = -1.89646
+anchor_bottom = -1.12352
+margin_left = 279.469
+margin_top = 369.056
+margin_right = 434.469
+margin_bottom = 401.056
+rect_min_size = Vector2( 150, 32 )
+rect_pivot_offset = Vector2( 24, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]1222"
+text = "1222"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Bio Texture" type="TextureRect" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -1.06979
+anchor_top = -1.12352
+anchor_right = -1.06979
+anchor_bottom = -1.12352
+margin_left = 278.469
+margin_top = 337.056
+margin_right = 310.469
+margin_bottom = 369.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Synth Text" type="RichTextLabel" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -2.10312
+anchor_top = -0.870185
+anchor_right = -2.10312
+anchor_bottom = -0.870185
+margin_left = 311.469
+margin_top = 529.056
+margin_right = 433.469
+margin_bottom = 561.056
+rect_min_size = Vector2( 118, 32 )
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]Synth"
+text = "Synth"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Synth Count" type="RichTextLabel" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -1.88312
+anchor_top = -0.870185
+anchor_right = -1.88312
+anchor_bottom = -0.870185
+margin_left = 279.469
+margin_top = 497.056
+margin_right = 433.469
+margin_bottom = 529.056
+rect_min_size = Vector2( 150, 32 )
+rect_pivot_offset = Vector2( 24, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]1222"
+text = "1222"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Synth Texture" type="TextureRect" parent="All/Recycler/center/all visual/Bio Synth"]
+anchor_left = -1.07646
+anchor_top = -0.870185
+anchor_right = -1.07646
+anchor_bottom = -0.870185
+margin_left = 279.469
+margin_top = 529.056
+margin_right = 311.469
+margin_bottom = 561.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="SEPA" type="Panel" parent="All/Recycler/center/all visual"]
+margin_left = 150.0
+margin_right = 153.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 3, 0 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="visual center" type="Panel" parent="All/Recycler/center/all visual"]
+margin_left = 153.0
+margin_right = 353.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 200, 300 )
+custom_styles/panel = SubResource( 7 )
+
+[node name="Steel Texture2" type="TextureRect" parent="All/Recycler/center/all visual/visual center"]
+anchor_left = 0.155208
+anchor_top = -1.08019
+anchor_right = 0.155208
+anchor_bottom = -1.08019
+margin_left = 100.958
+margin_top = 529.056
+margin_right = 132.958
+margin_bottom = 561.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Synth Texture2" type="TextureRect" parent="All/Recycler/center/all visual/visual center"]
+anchor_left = -0.721458
+anchor_top = -1.08019
+anchor_right = -0.721458
+anchor_bottom = -1.08019
+margin_left = 180.292
+margin_top = 529.056
+margin_right = 212.292
+margin_bottom = 561.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Bio Texture2" type="TextureRect" parent="All/Recycler/center/all visual/visual center"]
+anchor_left = -0.714792
+anchor_top = -0.973518
+anchor_right = -0.714792
+anchor_bottom = -0.973518
+margin_left = 178.958
+margin_top = 337.056
+margin_right = 210.958
+margin_bottom = 369.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Bio Texture3" type="TextureRect" parent="All/Recycler/center/all visual/visual center"]
+anchor_left = -0.474792
+anchor_top = -0.706852
+anchor_right = -0.474792
+anchor_bottom = -0.706852
+margin_left = 178.958
+margin_top = 337.056
+margin_right = 210.958
+margin_bottom = 369.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Wires Texture2" type="TextureRect" parent="All/Recycler/center/all visual/visual center"]
+anchor_left = -0.023125
+anchor_top = -0.973518
+anchor_right = -0.023125
+anchor_bottom = -0.973518
+margin_left = 136.625
+margin_top = 337.056
+margin_right = 168.625
+margin_bottom = 369.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="SEPA2" type="Panel" parent="All/Recycler/center/all visual"]
+margin_left = 353.0
+margin_right = 356.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 3, 300 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Wires Steel" type="Panel" parent="All/Recycler/center/all visual"]
+margin_left = 356.0
+margin_right = 506.0
+margin_bottom = 300.0
+rect_min_size = Vector2( 150, 300 )
+custom_styles/panel = SubResource( 8 )
+
+[node name="Wires Text" type="RichTextLabel" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.483542
+anchor_top = -1.12352
+anchor_right = 0.483542
+anchor_bottom = -1.12352
+margin_left = -44.5313
+margin_top = 337.056
+margin_right = 78.4688
+margin_bottom = 369.056
+rect_min_size = Vector2( 118, 32 )
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]Wires"
+text = "Wires"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Wires count" type="RichTextLabel" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.483542
+anchor_top = -1.12352
+anchor_right = 0.483542
+anchor_bottom = -1.12352
+margin_left = -76.5313
+margin_top = 369.056
+margin_right = 78.4688
+margin_bottom = 401.056
+rect_min_size = Vector2( 150, 32 )
+rect_pivot_offset = Vector2( 24, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]1222"
+text = "1222"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Wires Texture" type="TextureRect" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.516875
+anchor_top = -1.12352
+anchor_right = 0.516875
+anchor_bottom = -1.12352
+margin_left = -77.5313
+margin_top = 337.056
+margin_right = -45.5313
+margin_bottom = 369.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Steel Text" type="RichTextLabel" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.483542
+anchor_top = -0.870185
+anchor_right = 0.483542
+anchor_bottom = -0.870185
+margin_left = -44.5313
+margin_top = 529.056
+margin_right = 77.4688
+margin_bottom = 561.056
+rect_min_size = Vector2( 118, 32 )
+rect_pivot_offset = Vector2( 136, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]Steel"
+text = "Steel"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Steel Count" type="RichTextLabel" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.483542
+anchor_top = -0.870185
+anchor_right = 0.483542
+anchor_bottom = -0.870185
+margin_left = -76.5313
+margin_top = 497.056
+margin_right = 77.4688
+margin_bottom = 529.056
+rect_min_size = Vector2( 150, 32 )
+rect_pivot_offset = Vector2( 24, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[center]1222"
+text = "1222"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Steel Texture" type="TextureRect" parent="All/Recycler/center/all visual/Wires Steel"]
+anchor_left = 0.510208
+anchor_top = -0.870185
+anchor_right = 0.510208
+anchor_bottom = -0.870185
+margin_left = -76.5313
+margin_top = 529.056
+margin_right = -44.5313
+margin_bottom = 561.056
+rect_min_size = Vector2( 32, 32 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="seperator2" type="Panel" parent="All/Recycler"]
+margin_top = 343.0
+margin_right = 512.0
+margin_bottom = 346.0
+rect_min_size = Vector2( 300, 3 )
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="buttons" type="Panel" parent="All/Recycler"]
+margin_top = 346.0
+margin_right = 512.0
+margin_bottom = 396.0
+rect_min_size = Vector2( 509, 50 )
+custom_styles/panel = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="construct" type="Panel" parent="All/Recycler/buttons"]
+margin_left = 6.0
+margin_top = 10.0
+margin_right = 156.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 150, 30 )
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Recycler/buttons/construct"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 148.0
+margin_bottom = 28.0
+custom_fonts/normal_font = SubResource( 11 )
+bbcode_enabled = true
+bbcode_text = "[center]Construct"
+text = "Construct"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="All/Recycler/buttons"]
+margin_left = 181.0
+margin_top = 10.0
+margin_right = 331.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 150, 30 )
+custom_styles/panel = SubResource( 12 )
+
+[node name="deconstruct" type="RichTextLabel" parent="All/Recycler/buttons/Panel2"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 148.0
+margin_bottom = 28.0
+custom_fonts/normal_font = SubResource( 11 )
+bbcode_enabled = true
+bbcode_text = "[center]Deconstruct"
+text = "Deconstruct"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="license" type="Panel" parent="All/Recycler/buttons"]
+margin_left = 356.0
+margin_top = 10.0
+margin_right = 506.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 150, 30 )
+custom_styles/panel = SubResource( 13 )
+
+[node name="text" type="RichTextLabel" parent="All/Recycler/buttons/license"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 148.0
+margin_bottom = 28.0
+custom_fonts/normal_font = SubResource( 11 )
+bbcode_enabled = true
+bbcode_text = "[center]License"
+text = "License"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="seperator3" type="Panel" parent="All/Recycler"]
+margin_top = 396.0
+margin_right = 512.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 300, 3 )
+rect_pivot_offset = Vector2( 443, 88 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Licenses" type="Panel" parent="All"]
+margin_left = 512.0
+margin_right = 700.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 188, 150 )
+custom_styles/panel = SubResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="header" type="RichTextLabel" parent="All/Licenses"]
+margin_top = -1.0
+margin_right = 185.0
+margin_bottom = 39.0
+custom_fonts/normal_font = SubResource( 15 )
+bbcode_enabled = true
+bbcode_text = "[center]Licenses"
+text = "Licenses"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="inputPanel" type="Panel" parent="All/Licenses"]
+margin_left = 3.0
+margin_top = 35.0
+margin_right = 182.0
+margin_bottom = 59.0
+custom_styles/panel = SubResource( 16 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input text" type="RichTextLabel" parent="All/Licenses/inputPanel"]
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 177.0
+margin_bottom = 22.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="known licenses panel" type="Panel" parent="All/Licenses"]
+margin_top = 64.0
+margin_right = 188.0
+margin_bottom = 346.0
+custom_styles/panel = SubResource( 17 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="list of known licenses" type="VBoxContainer" parent="All/Licenses/known licenses panel"]
+margin_top = 3.0
+margin_right = 185.0
+margin_bottom = 279.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/1"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 23.0
+margin_right = 185.0
+margin_bottom = 46.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/2"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 46.0
+margin_right = 185.0
+margin_bottom = 69.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/3"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 69.0
+margin_right = 185.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/4"]
+margin_left = 1.0
+margin_right = 186.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 92.0
+margin_right = 185.0
+margin_bottom = 115.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/5"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 115.0
+margin_right = 185.0
+margin_bottom = 138.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/6"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="7" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 138.0
+margin_right = 185.0
+margin_bottom = 161.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/7"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="8" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 161.0
+margin_right = 185.0
+margin_bottom = 184.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/8"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="9" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 184.0
+margin_right = 185.0
+margin_bottom = 207.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/9"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="10" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 207.0
+margin_right = 185.0
+margin_bottom = 230.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/10"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="11" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 230.0
+margin_right = 185.0
+margin_bottom = 253.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/11"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="12" type="Panel" parent="All/Licenses/known licenses panel/list of known licenses"]
+margin_top = 253.0
+margin_right = 185.0
+margin_bottom = 276.0
+rect_min_size = Vector2( 185, 23 )
+custom_styles/panel = SubResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="All/Licenses/known licenses panel/list of known licenses/12"]
+margin_right = 185.0
+margin_bottom = 23.0
+rect_min_size = Vector2( 185, 23 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Panel WIP" type="Panel" parent="."]
+margin_left = 608.0
+margin_top = 248.0
+margin_right = 1306.0
+margin_bottom = 409.0
+custom_styles/panel = SubResource( 20 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel WIP"]
+margin_top = 32.0
+margin_right = 708.0
+margin_bottom = 144.0
+custom_fonts/normal_font = SubResource( 21 )
+bbcode_enabled = true
+bbcode_text = "[center] Work in Progress"
+text = " Work in Progress"
+__meta__ = {
+"_edit_use_anchors_": false
+}

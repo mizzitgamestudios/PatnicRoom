@@ -1,0 +1,16 @@
+{
+  "knownConditions":{
+    "Elemental_Fire_Burning":"Cond_Bruning_Root",
+    "Elemental_Fire_Burning":"Cond_Burning_Incinerating",
+    "Elemental_Fire_Burning":"Cond_Burning_Spreading",
+
+
+    "Psychological_Confusion_Wandering":"Cond_Confusing_Wandering",
+
+    "Sensational_Blind_Overstimulated":"Cond_Blinding_Overstimulating",
+    "Sensational_Blind_Understimulated":"Cond_Blinding_Understimulating"
+
+
+
+  }
+}

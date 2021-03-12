@@ -1,0 +1,50 @@
+{
+	"type out Condition Form":{
+		"prefix": "SNIPPET Strategy",
+		"description": "Template form to implement new Feature",
+		"body":[
+"extends Cond_Parent",
+"class_name Cond_Burning_${1: name of strategy}",
+"",
+"",			
+"func _init(level:int, duration:int) -> void:",
+"   self.level = level",
+"   self.duration = duration",	               
+"   self.logToString = \"${2:text For Log On Playerpanel}\"",
+"",				
+"",
+"self.symbioticComponents = {",
+"   \"${3:type of symbiosys [COMPONENT;CONDITION;STAT]}\":\"${4:value of Symbiosys}\"",
+"     }",
+"",	
+"",
+"",
+"func getLogToString():",
+"   return self.logToString",			
+"func isNeutraliced() -> bool:",
+"   return false",
+"",			
+"",		
+"",		
+"func run():",
+"   pass"
+		]
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

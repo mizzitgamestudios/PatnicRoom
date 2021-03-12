@@ -1,0 +1,49 @@
+{
+  "listOfKnownComponents":[
+
+    {"name","String"},
+    {"description","String"},
+    {"textureID","String"},
+    {"staticTilesetID","int"},
+    {"layer","String"},
+    {"isWalkable","bool"},
+    {"magicNoise","String"},
+    {"matrixNoise","String"},
+    {"allLimits","allLimits"},
+    {"anatomy","anatomy"},
+    {"attributes","Attributes"},
+    {"cariage","Inventory"},
+    {"condition","ConditionList"},
+    {"painTollerance","int"},
+    {"perk","Perk"},
+
+    {"race","Template"},
+    {"roleName","Template"},
+    {"specialty","Template"},
+
+    {"skillBlock","Skillblock"},
+    {"arrayOfBodyparts","Array"},
+    {"connect","Array"},
+    {"hitProbabillity","int"},
+    {"attributesMod",""},
+    {"gear","String"},
+    {"indirectStats","IndirectStats"},
+    {"KitSet","Array"},
+    {"name","String"},
+    {"roleDescripption","String"},
+    {"synonym","String"},
+    {"tileName","String"},
+    {"hitPoints","int"},
+    {"backpackSlotSize","String"},
+
+    {"cooldownTime","String"},
+    {"logToString","String"},
+    {"mType","enum"},
+    {"mechanicalSummary","String"},
+    {"modTime",""},
+    {"strategyKeyword",""},
+    {"rarity","String"},
+    {"catType",""},
+    {"universalPosition",""}
+  ]
+}

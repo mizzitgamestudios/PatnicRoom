@@ -1,0 +1,332 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
+[ext_resource path="res://Media/GUI/KitSymbols/Cyberware.png" type="Texture" id=2]
+[ext_resource path="res://Media/GUI/KitSymbols/Hacks.png" type="Texture" id=3]
+[ext_resource path="res://Media/GUI/KitSymbols/Meele.png" type="Texture" id=4]
+[ext_resource path="res://Media/GUI/KitSymbols/Infusion.png" type="Texture" id=5]
+[ext_resource path="res://Media/GUI/KitSymbols/Spell.png" type="Texture" id=6]
+[ext_resource path="res://Media/GUI/KitSymbols/Gun.png" type="Texture" id=7]
+[ext_resource path="res://Media/panicroom.PNG" type="Texture" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 1, 0.0470588, 0.0470588, 1 )
+
+[node name="root_Introduction" type="Node2D"]
+
+[node name="Frame" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 232.0
+margin_right = 1088.0
+margin_bottom = 360.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Frame"]
+margin_top = 32.0
+margin_right = 1024.0
+margin_bottom = 88.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center] How to play P[color=red]@[/color]nicroom"
+text = " How to play P@nicroom"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="summary" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 344.0
+margin_right = 1008.0
+margin_bottom = 688.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 344.0
+margin_right = 576.0
+margin_bottom = 688.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="1"]
+margin_right = 512.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]1. select a kit "
+text = "1. select a kit "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 56.0
+margin_right = 512.0
+margin_bottom = 80.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "extend your body beyond Nature with Cyberware"
+text = "extend your body beyond Nature with Cyberware"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 104.0
+margin_right = 512.0
+margin_bottom = 128.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "Hack surrunding electronics of the Matrix"
+text = "Hack surrunding electronics of the Matrix"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 152.0
+margin_right = 512.0
+margin_bottom = 176.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "Guns are maybe not special but reliable"
+text = "Guns are maybe not special but reliable"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 200.0
+margin_right = 500.0
+margin_bottom = 224.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "Meele to get personal with your foes"
+text = "Meele to get personal with your foes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 248.0
+margin_right = 512.0
+margin_bottom = 272.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "Magic runs through your veins by Infusion"
+text = "Magic runs through your veins by Infusion"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="1"]
+margin_left = 56.0
+margin_top = 296.0
+margin_right = 500.0
+margin_bottom = 320.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "Manipulate Mana by casting Spells"
+text = "Manipulate Mana by casting Spells"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 42.0
+margin_right = 40.0
+margin_bottom = 74.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 90.0
+margin_right = 40.0
+margin_bottom = 122.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect3" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 138.0
+margin_right = 40.0
+margin_bottom = 170.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect4" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 186.0
+margin_right = 40.0
+margin_bottom = 218.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect5" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 234.0
+margin_right = 40.0
+margin_bottom = 266.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect6" type="TextureRect" parent="1"]
+margin_left = 8.0
+margin_top = 282.0
+margin_right = 40.0
+margin_bottom = 314.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Panel" parent="."]
+margin_left = 576.0
+margin_top = 344.0
+margin_right = 1088.0
+margin_bottom = 688.0
+rect_pivot_offset = Vector2( 486.918, 272 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel9" type="RichTextLabel" parent="2"]
+margin_right = 512.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]2. get to the[color=white] P[color=red]@[/color]nicroom"
+text = "2. get to the P@nicroom"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect7" type="TextureRect" parent="2"]
+margin_left = 88.0
+margin_top = 120.0
+margin_right = 407.0
+margin_bottom = 337.0
+rect_pivot_offset = Vector2( 186.667, 74.6667 )
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="2/TextureRect7"]
+margin_left = 91.5636
+margin_top = 68.8954
+margin_right = 131.564
+margin_bottom = 108.895
+custom_styles/panel = SubResource( 6 )
+
+[node name="3" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 688.0
+margin_right = 576.0
+margin_bottom = 1032.0
+rect_pivot_offset = Vector2( 464, 184 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel10" type="RichTextLabel" parent="3"]
+margin_top = 8.0
+margin_right = 512.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]2. add modules to kits"
+text = "2. add modules to kits"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Panel" parent="."]
+margin_left = 576.0
+margin_top = 688.0
+margin_right = 1088.0
+margin_bottom = 1032.0
+rect_pivot_offset = Vector2( 464, 184 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel11" type="RichTextLabel" parent="4"]
+margin_top = 8.0
+margin_right = 512.0
+margin_bottom = 40.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]4.go into the next chunk"
+text = "4.go into the next chunk"
+__meta__ = {
+"_edit_use_anchors_": false
+}

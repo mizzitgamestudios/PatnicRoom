@@ -1,0 +1,1362 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Entity",
+"class": "ActorEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Actor Entity.gd"
+}, {
+"base": "Node",
+"class": "ActorPositionManager",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Actor Position.gd"
+}, {
+"base": "Sprite",
+"class": "AnimatedPNG",
+"language": "GDScript",
+"path": "res://Src/scenes/Unique/Titlescreen/scripts/AnimatedPNG.gd"
+}, {
+"base": "Control",
+"class": "AnimatedText",
+"language": "GDScript",
+"path": "res://Src/scenes/Unique/Titlescreen/scripts/AnimatedText.gd"
+}, {
+"base": "Reference",
+"class": "Appender",
+"language": "GDScript",
+"path": "res://addons/gs_logger/appender.gd"
+}, {
+"base": "KitPartEntity",
+"class": "AppendixKitPartEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/KitParts/AppendixKitPart.gd"
+}, {
+"base": "KitPartEntity",
+"class": "BaseKitPartEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/KitParts/BaseKitPart.gd"
+}, {
+"base": "Node",
+"class": "CheckboxConstructor",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Checkbox/Constructor.gd"
+}, {
+"base": "Node",
+"class": "Cloudprinter",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Cloudprinter.gd"
+}, {
+"base": "Node",
+"class": "Common",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Common.gd"
+}, {
+"base": "Component",
+"class": "C_22_ACTOR_LIMITS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/indirect stats/AllLimits.gd"
+}, {
+"base": "Component",
+"class": "Comp_Actor_Anatomy",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/Templates/Components/Description.gd"
+}, {
+"base": "Component",
+"class": "C_19_ACTOR_ATTRIBUTES",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/direct stats/AttributesBlock.gd"
+}, {
+"base": "Component",
+"class": "C_23_ACTOR_CARRIAGE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/indirect stats/Carriage.gd"
+}, {
+"base": "Component",
+"class": "C_24_ANY_CONDITION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/indirect stats/condition.gd"
+}, {
+"base": "Component",
+"class": "C_25_ACTOR_PAINTOLLERANCE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/indirect stats/Paintollerance.gd"
+}, {
+"base": "Component",
+"class": "C_50_Player_Selected_Tiles",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Components/Streetname.gd"
+}, {
+"base": "Component",
+"class": "C_10_ACTOR_PERKS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/basic definition/Perks.gd"
+}, {
+"base": "Component",
+"class": "C_41_ANY_POSITION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Components/pos.gd"
+}, {
+"base": "Component",
+"class": "C_11_ACTOR_RACE_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/basic definition/RaceName.gd"
+}, {
+"base": "Component",
+"class": "C_27_ACTOR_RACIAL_ENEMIES",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/Racial Relations/Racial Enemies.gd"
+}, {
+"base": "Component",
+"class": "C_28_ACTOR_RACIAL_FRIENDS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/Racial Relations/Racial Friends.gd"
+}, {
+"base": "Component",
+"class": "C_13_ACTOR_ROLE_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/basic definition/RoleName.gd"
+}, {
+"base": "Component",
+"class": "C_50_ACTOR_ROLE_DESCRIPTION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/basic definition/SpecialtyDescription.gd"
+}, {
+"base": "Component",
+"class": "C_14_ACTOR_SPECIALTY_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/basic definition/SpecialtyName.gd"
+}, {
+"base": "Component",
+"class": "C_15_ACTOR_ARRAY_BODYPARTS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/Bodyparts/Array Of Body.gd"
+}, {
+"base": "Component",
+"class": "C_16_ACTOR_BODYPARTS_CONNECTS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/Bodyparts/connects.gd"
+}, {
+"base": "Component",
+"class": "C_17_ACTOR_BODYPARTS_HITPROBABILLITY",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/Bodyparts/Hit Probabillity.gd"
+}, {
+"base": "Component",
+"class": "Comp_Cond_NAME",
+"language": "GDScript",
+"path": "res://tools/GD-Script Template/condition.gd"
+}, {
+"base": "Component",
+"class": "Comp_Culture_ChunkVariety",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/008_Procgen Chunk/Components/Chunk Variety.gd"
+}, {
+"base": "Component",
+"class": "C_42_ROLE_VARIETY",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Components/Role Variety.gd"
+}, {
+"base": "Component",
+"class": "C_30_ANY_NEEDED_BACKPACK_SLOTS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/004_Items/Components/Needed Backpack Slots.gd"
+}, {
+"base": "Component",
+"class": "C_29_ANY_LISTING_PRICE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/004_Items/Components/Listing Price.gd"
+}, {
+"base": "Component",
+"class": "C_31_KIT_CAT_TYPE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/catType.gd"
+}, {
+"base": "Component",
+"class": "C_33_KIT_COOLDOWN_TIMER",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/Cooldown.gd"
+}, {
+"base": "Component",
+"class": "C_49_EFFECT_REFERENCE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/EffectReference.gd"
+}, {
+"base": "Component",
+"class": "C_34_ANY_LOG_TO_STRING",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/LogToString.gd"
+}, {
+"base": "Component",
+"class": "C_37_ANY_M_TYPE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/MType.gd"
+}, {
+"base": "Component",
+"class": "C_35_KIT_MECHANICAL_SUMMARY",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/Mechanical Summary.gd"
+}, {
+"base": "Component",
+"class": "C_36_KIT_MOD_TIME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/modTime.gd"
+}, {
+"base": "Component",
+"class": "C_38_KIT_PART_TYPE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/partType.gd"
+}, {
+"base": "Component",
+"class": "C_39_KIT_STRATEGY_KEYWORD",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/StrategyKeywords.gd"
+}, {
+"base": "Component",
+"class": "C_40_ANY_TO_STRING",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/toString.gd"
+}, {
+"base": "Component",
+"class": "C_32_ANY_LIST_OF_CONDITIONS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Components/Kit Module/Conditions.gd"
+}, {
+"base": "Component",
+"class": "C_18_ACTOR_ATTRIBUTEMOD",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/direct stats/attributeMod.gd"
+}, {
+"base": "Component",
+"class": "C_52_ACTOR_GEAR",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/simple NPC stats/gear.gd"
+}, {
+"base": "Component",
+"class": "C_26_ACTOR_INDIRECT_STATS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/indirect stats/Stats Init.gd"
+}, {
+"base": "Component",
+"class": "Comp_NPC_Kit",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/simple NPC stats/Kit Referenz.gd"
+}, {
+"base": "Component",
+"class": "Comp_NPC_RoleDescription",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/simple NPC stats/RoleDescription.gd"
+}, {
+"base": "Component",
+"class": "C_20_ACTOR_SKILLBLOCK",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/direct stats/skillmod.gd"
+}, {
+"base": "Component",
+"class": "C_47_ANY_SYNONYM",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/simple NPC stats/Synonym.gd"
+}, {
+"base": "Component",
+"class": "C_21_TILE_TILENAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Components/direct stats/TileName.gd"
+}, {
+"base": "Component",
+"class": "C_43_PLAYER_DESCRIPTION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Components/description.gd"
+}, {
+"base": "Component",
+"class": "C_45_PLAYER_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Components/Playername.gd"
+}, {
+"base": "Component",
+"class": "C_53_Actor_SELECTED_TILE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Components/selected tiles.gd"
+}, {
+"base": "Component",
+"class": "C_44_PLAYER_STREETNAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Components/PerceivedLayer.gd"
+}, {
+"base": "Component",
+"class": "C_0_ANY_DESCRIPTION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Description.gd"
+}, {
+"base": "Component",
+"class": "C_1_ANY_IS_WALKABLE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Is Walkable.gd"
+}, {
+"base": "Component",
+"class": "C_3_ANY_LAYER",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Layer.gd"
+}, {
+"base": "Component",
+"class": "C_4_ANY_MAGIC_NOISE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Magic Noise.gd"
+}, {
+"base": "Component",
+"class": "C_5_ANY_MATRIX_NOISE",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Matrix Noise.gd"
+}, {
+"base": "Component",
+"class": "C_6_TILE_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Name.gd"
+}, {
+"base": "Component",
+"class": "C_7_TILE_STATIC_TILESET_NR",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/C_7_TILE_STATIC_TILESET_NR.gd"
+}, {
+"base": "Component",
+"class": "C_2_ANY_TEXTURE_ID",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Texture ID.gd"
+}, {
+"base": "Component",
+"class": "C_9_ANY_UNIQUE_COMPONENTS",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Components/Unique Components.gd"
+}, {
+"base": "Component",
+"class": "C_0_ANY_DESCRIPTION",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/Universal Components/Description.gd"
+}, {
+"base": "Component",
+"class": "C_46_ANY_HITPOINTS",
+"language": "GDScript",
+"path": "res://tools/GD-Script Template/Component.gd"
+}, {
+"base": "Component",
+"class": "C_6_TILE_NAME",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/Universal Components/name.gd"
+}, {
+"base": "Component",
+"class": "C_48_ANY_RARITY",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/Universal Components/rarity.gd"
+}, {
+"base": "Object",
+"class": "Component",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/parts of Entities/Component.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Blinding_Overstimulating",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Senses/Blinding/Overstimulating.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Blinding_Understimulating",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Senses/Blinding/Understimulating.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Burning_Incinerating",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/burning/Incinerating.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Burning_Root",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/burning/burning.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Burning_Spreading",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/burning/Spreading.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Confusing_Wandering",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Psychological/Confusing/Wandering.gd"
+}, {
+"base": "Object",
+"class": "Cond_Parent",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Parent Class.gd"
+}, {
+"base": "Condition_Visitor",
+"class": "ConditionEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Sub-entites/ConditionEntity.gd"
+}, {
+"base": "Appender",
+"class": "ConsoleAppender",
+"language": "GDScript",
+"path": "res://addons/gs_logger/appenders/console_appender.gd"
+}, {
+"base": "Node",
+"class": "DemocrECTS_Controller",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Module Structure/Controller.gd"
+}, {
+"base": "Node",
+"class": "DictionaryUtil",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/Dictionary.gd"
+}, {
+"base": "Node",
+"class": "DioJSONes_EffektGenerator",
+"language": "GDScript",
+"path": "res://Src/Engine/DioJSONes/Dynamic Parser/Effekt Generator.gd"
+}, {
+"base": "Node",
+"class": "DioJSONes_Interpreter",
+"language": "GDScript",
+"path": "res://Src/Engine/DioJSONes/Dynamic Parser/Interpreter.gd"
+}, {
+"base": "Component",
+"class": "DioJSONes_SubParser_ComponentConstructor",
+"language": "GDScript",
+"path": "res://Src/Engine/DioJSONes/JsonToEntityParser/ComponentConstructor.gd"
+}, {
+"base": "Entity",
+"class": "EffectEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/EffectEntity.gd"
+}, {
+"base": "Component",
+"class": "EffectTComponent",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Components/EffectTComponent.gd"
+}, {
+"base": "Component",
+"class": "Effect_Generator_API",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Controller/API.gd"
+}, {
+"base": "Node",
+"class": "Effect_Generator_Simpel",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Systems/Simpel Generator.gd"
+}, {
+"base": "Node",
+"class": "Effect_Generator_Syntax",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Systems/Syntax.gd"
+}, {
+"base": "Object",
+"class": "Entity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/parts of Entities/Entity.gd"
+}, {
+"base": "Appender",
+"class": "FileAppender",
+"language": "GDScript",
+"path": "res://addons/gs_logger/appenders/file_appender.gd"
+}, {
+"base": "Node",
+"class": "FileHub",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/DirectoryManager.gd"
+}, {
+"base": "Node",
+"class": "FilepathBuilder",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/Filepath Builder.gd"
+}, {
+"base": "Entity",
+"class": "GearEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Sub-entites/Gear.gd"
+}, {
+"base": "Node",
+"class": "GroupManager",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Manager/GroupManager.gd"
+}, {
+"base": "Node",
+"class": "Group_Atlas",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Module Structure/Group.gd"
+}, {
+"base": "Layout",
+"class": "HtmlLayout",
+"language": "GDScript",
+"path": "res://addons/gs_logger/layouts/html_layout.gd"
+}, {
+"base": "Node",
+"class": "InitDemocrECTS",
+"language": "GDScript",
+"path": "res://Src/Bootstrap/Engines/InitDemocrECTS.gd"
+}, {
+"base": "Node",
+"class": "InitDioJSONes",
+"language": "GDScript",
+"path": "res://Src/Bootstrap/Engines/InitDioJSONes.gd"
+}, {
+"base": "Node",
+"class": "InitSokraTiles",
+"language": "GDScript",
+"path": "res://Src/Bootstrap/Engines/SokraTILES.gd"
+}, {
+"base": "Entity",
+"class": "InteractEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Interactable Entity.gd"
+}, {
+"base": "Node",
+"class": "Inventory",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Inventory.gd"
+}, {
+"base": "Node",
+"class": "JsonParser",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/JSONParser.gd"
+}, {
+"base": "Node",
+"class": "JsonToEntityParser",
+"language": "GDScript",
+"path": "res://Src/Engine/DioJSONes/JsonToEntityParser/JSONToEntityParser.gd"
+}, {
+"base": "Component",
+"class": "KitConstructor",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Entity Manager/Kit constructor.gd"
+},{
+"base": "Entity",
+"class": "KitPartEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Sub-entites/KitSetEntity.gd"
+},{
+"base": "Object",
+"class": "KitPartEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Sub-entites/KitPartEntity.gd"
+}, {
+"base": "Node",
+"class": "KitSelection",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/Filling Kits in Form.gd"
+}, {
+"base": "Node",
+"class": "KitSelectioneXTERN",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/Filling Kits in Form EXTERN.gd"
+}, {
+"base": "Component",
+"class": "KitSetConstructor",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/005_KitSet/Entity Manager/Kit constructor.gd"
+}, {
+"base": "Component",
+"class": "Kitventory",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Kitventory.gd"
+}, {
+"base": "Entity",
+"class": "C_51_PLAYER_KITSETS",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Sub-entites/Kitventory.gd"
+}, {
+"base": "Reference",
+"class": "Layout",
+"language": "GDScript",
+"path": "res://addons/gs_logger/layout.gd"
+}, {
+"base": "Reference",
+"class": "Message",
+"language": "GDScript",
+"path": "res://addons/gs_logger/message.gd"
+}, {
+"base": "KitPartEntity",
+"class": "ModKitPartEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/KitParts/ModKitPart.gd"
+}, {
+"base": "Node",
+"class": "NodesManager",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/NodesManager.gd"
+}, {
+"base": "Control",
+"class": "PanelConstructor",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Panel/Constructor.gd"
+}, {
+"base": "Layout",
+"class": "PatternLayout",
+"language": "GDScript",
+"path": "res://addons/gs_logger/layouts/pattern_layout.gd"
+}, {
+"base": "Node",
+"class": "PerformanceManager",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Manager/PerformanceManager.gd"
+}, {
+"base": "Entity",
+"class": "PlayerEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Player Entity.gd"
+}, {
+"base": "Node",
+"class": "RNGClass",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/RNG.gd"
+}, {
+"base": "Component",
+"class": "Recycler",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Recycler.gd"
+}, {
+"base": "Node",
+"class": "RestmodeUserinput",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Userinput.gd"
+}, {
+"base": "Node",
+"class": "Runner",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Runner.gd"
+}, {
+"base": "Node",
+"class": "RuntimeParameter",
+"language": "GDScript",
+"path": "res://Src/Bootstrap/GameInit/GameInit.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_LayerManager",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Layer.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_TileManager",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Tile.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_TilemapDebug",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Debug.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_TilemapManager",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Tilemap.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_TilemapParser",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Parser.gd"
+}, {
+"base": "Node",
+"class": "SokraTILEs_TilesetManager",
+"language": "GDScript",
+"path": "res://Src/Engine/SokraTILEs/FrameWork/Tileset.gd"
+}, {
+"base": "TileMap",
+"class": "SokraTiles_Chunk",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/010_DioJSONes interpreter/Layerparent.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Magic_Floor",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Magic/Magic Floor.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Magic_Interactables",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Magic/Magic Interactables.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Matrix_Floor",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Matrix/Matrix Floor.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Matrix_Interactables",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Matrix/Matrix Interactables.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Meat_Floor",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Meat/Meat Floor.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Meat_Interactables",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Meat/Meat Interactables.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_NPC",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Actor/NPC.gd"
+}, {
+"base": "SokraTiles_Chunk",
+"class": "SokraTiles_Chunk_Player",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Actor/Player.gd"
+}, {
+"base": "Component",
+"class": "SpaceComponent",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Components/SpaceComponent.gd"
+}, {
+"base": "Node",
+"class": "StationManager",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/StationManager.gd"
+}, {
+"base": "Component",
+"class": "Stats",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Stats.gd"
+}, {
+"base": "Control",
+"class": "StyleManager",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Flatbox Style/StyleManager.gd"
+}, {
+"base": "Reference",
+"class": "System",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Module Structure/system.gd"
+}, {
+"base": "Node",
+"class": "SystemManager",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Manager/SystemManager.gd"
+}, {
+"base": "Node",
+"class": "Team",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Team.gd"
+}, {
+"base": "Component",
+"class": "TemplateManager",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/parts of Entities/Template.gd"
+}, {
+"base": "RichTextLabel",
+"class": "TextInputField",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Textfield input/TextClick.gd"
+}, {
+"base": "Component",
+"class": "TileEntManager",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Entity Manager/TileEntManager.gd"
+}, {
+"base": "Entity",
+"class": "TileEntity",
+"language": "GDScript",
+"path": "res://Src/Engine/DemcorECTS/Entities/Tile Entity.gd"
+}, {
+"base": "Component",
+"class": "TriggerComponent",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Components/TriggerComponent.gd"
+}, {
+"base": "Panel",
+"class": "UniversalCheckbox",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Checkbox/Userinput.gd"
+}, {
+"base": "Reference",
+"class": "Utils",
+"language": "GDScript",
+"path": "res://addons/gs_logger/utils.gd"
+}, {
+"base": "Object",
+"class": "Visitor",
+"language": "GDScript",
+"path": "res://Src/Engine/Visitor Pattern/Offering Entities/Visitor.gd"
+}, {
+"base": "Node",
+"class": "WorldMap",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/WorldMap.gd"
+}, {
+"base": "Node",
+"class": "_006_CompiIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/006_Kitparts/Controller/CompIndex.gd"
+}, {
+"base": "Node",
+"class": "_007_Create_NPC_Process",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Entity Manager/CreateNPCProcess.gd"
+}, {
+"base": "Node",
+"class": "_00_00_CompIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Controller/CompIndex.gd"
+}, {
+"base": "Node",
+"class": "_00_00_Logger",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Controller/Logger.gd"
+}, {
+"base": "Node",
+"class": "_00_00_Validator",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/000_Basic Tiles Atlas/Controller/Validators.gd"
+}, {
+"base": "Node",
+"class": "_00_01_CompIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/001_Metahuman Stats/Controller/CompIndex.gd"
+}, {
+"base": "Object",
+"class": "_010_In",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/IO/in.gd"
+}, {
+"base": "Object",
+"class": "_010_Out",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/IO/out.gd"
+}, {
+"base": "Object",
+"class": "_011_CharLoader",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/loadChar.gd"
+}, {
+"base": "Node",
+"class": "_011_Chargen",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/chargen.gd"
+}, {
+"base": "Object",
+"class": "_011_FSM_Hub_InterfacePanel",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/Interface FSM/FSM Hub.gd"
+}, {
+"base": "Object",
+"class": "_011_FSM_Hub_PlayerMovement",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/PlayerMovement/FSM Hub.gd"
+}, {
+"base": "Object",
+"class": "_011_In",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/io/In.gd"
+}, {
+"base": "Object",
+"class": "_011_StateManagaer_Interface",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/Interface FSM/SidePanel.gd"
+}, {
+"base": "Object",
+"class": "_011_StateManagaer_PlayerMovement",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/PlayerMovement/Node Manager.gd"
+}, {
+"base": "Node",
+"class": "_011_Utils",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Utils.gd"
+}, {
+"base": "Object",
+"class": "_012_In",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/013_Entropy/io/In.gd"
+}, {
+"base": "Node",
+"class": "_014_Complex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/014_Tilemap Selector/Systems/Complex/Complex.gd"
+}, {
+"base": "Node",
+"class": "_014_Simplex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/014_Tilemap Selector/Systems/Simplex/Simplex.gd"
+}, {
+"base": "Node",
+"class": "_014_Utils",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/014_Tilemap Selector/Systems/Simplex/Utils.gd"
+}, {
+"base": "Object",
+"class": "_014_validator",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/014_Tilemap Selector/Systems/Validator/Validator.gd"
+}, {
+"base": "Node",
+"class": "_01_01_CompIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Controller/CompIndex.gd"
+}, {
+"base": "Node",
+"class": "_01_01_ConditionManager",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Entity Manager/ConditionHub.gd"
+}, {
+"base": "Node",
+"class": "_01_01_Logger",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Controller/Logger.gd"
+}, {
+"base": "Node",
+"class": "_01_01_Validator",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Controller/Validators.gd"
+}, {
+"base": "Node",
+"class": "_02_00_CompIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/004_Items/Controller/CompIndex.gd"
+}, {
+"base": "Node",
+"class": "_03_00_CompIndex",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Controller/CompIndex.gd"
+}, {
+"base": "Node",
+"class": "_03_00_EntityManager",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Entity Manager/DynamicNPC.gd"
+}, {
+"base": "Node",
+"class": "_03_00_Logger",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Controller/Logger.gd"
+}, {
+"base": "Node",
+"class": "_03_00_Validator",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Procgen Actor/Controller/Validators.gd"
+}, {
+"base": "Object",
+"class": "_05_runEffect",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/005_KitSet/Systems/run effect.gd"
+}, {
+"base": "Node",
+"class": "_KitsUILoader",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/KitsUILoader.gd"
+}, {
+"base": "Object",
+"class": "_TileInterpreter",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/009_Tilemap Structure/Systems/Tile Interpreter.gd"
+}, {
+"base": "Node",
+"class": "_menueLoader",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/PanicMode/HUD/Menue loader.gd"
+} ]
+_global_script_class_icons={
+"ActorEntity": "",
+"ActorPositionManager": "",
+"AnimatedPNG": "",
+"AnimatedText": "",
+"Appender": "",
+"AppendixKitPartEntity": "",
+"BaseKitPartEntity": "",
+"CheckboxConstructor": "",
+"Cloudprinter": "",
+"Common": "",
+"C_22_ACTOR_LIMITS": "",
+"Comp_Actor_Anatomy": "",
+"C_19_ACTOR_ATTRIBUTES": "",
+"C_23_ACTOR_CARRIAGE": "",
+"C_24_ANY_CONDITION": "",
+"C_25_ACTOR_PAINTOLLERANCE": "",
+"C_50_Player_Selected_Tiles": "",
+"C_10_ACTOR_PERKS": "",
+"C_41_ANY_POSITION": "",
+"C_11_ACTOR_RACE_NAME": "",
+"C_27_ACTOR_RACIAL_ENEMIES": "",
+"C_28_ACTOR_RACIAL_FRIENDS": "",
+"C_13_ACTOR_ROLE_NAME": "",
+"C_50_ACTOR_ROLE_DESCRIPTION": "",
+"C_14_ACTOR_SPECIALTY_NAME": "",
+"C_15_ACTOR_ARRAY_BODYPARTS": "",
+"C_16_ACTOR_BODYPARTS_CONNECTS": "",
+"C_17_ACTOR_BODYPARTS_HITPROBABILLITY": "",
+"Comp_Cond_NAME": "",
+"Comp_Culture_ChunkVariety": "",
+"C_42_ROLE_VARIETY": "",
+"C_30_ANY_NEEDED_BACKPACK_SLOTS": "",
+"C_29_ANY_LISTING_PRICE": "",
+"C_31_KIT_CAT_TYPE": "",
+"C_33_KIT_COOLDOWN_TIMER": "",
+"C_49_EFFECT_REFERENCE": "",
+"C_34_ANY_LOG_TO_STRING": "",
+"C_37_ANY_M_TYPE": "",
+"C_35_KIT_MECHANICAL_SUMMARY": "",
+"C_36_KIT_MOD_TIME": "",
+"C_38_KIT_PART_TYPE": "",
+"C_39_KIT_STRATEGY_KEYWORD": "",
+"C_40_ANY_TO_STRING": "",
+"C_32_ANY_LIST_OF_CONDITIONS": "",
+"C_18_ACTOR_ATTRIBUTEMOD": "",
+"C_52_ACTOR_GEAR": "",
+"C_26_ACTOR_INDIRECT_STATS": "",
+"Comp_NPC_Kit": "",
+"Comp_NPC_RoleDescription": "",
+"C_20_ACTOR_SKILLBLOCK": "",
+"C_47_ANY_SYNONYM": "",
+"C_21_TILE_TILENAME": "",
+"C_43_PLAYER_DESCRIPTION": "",
+"C_45_PLAYER_NAME": "",
+"C_53_Actor_SELECTED_TILE": "",
+"C_44_PLAYER_STREETNAME": "",
+"C_0_ANY_DESCRIPTION": "",
+"C_1_ANY_IS_WALKABLE": "",
+"C_3_ANY_LAYER": "",
+"C_4_ANY_MAGIC_NOISE": "",
+"C_5_ANY_MATRIX_NOISE": "",
+"C_6_TILE_NAME": "",
+"C_7_TILE_STATIC_TILESET_NR": "",
+"C_2_ANY_TEXTURE_ID": "",
+"C_9_ANY_UNIQUE_COMPONENTS": "",
+"C_0_ANY_DESCRIPTION": "",
+"C_46_ANY_HITPOINTS": "",
+"C_6_TILE_NAME": "",
+"C_48_ANY_RARITY": "",
+"Component": "",
+"Cond_Blinding_Overstimulating": "",
+"Cond_Blinding_Understimulating": "",
+"Cond_Burning_Incinerating": "",
+"Cond_Burning_Root": "",
+"Cond_Burning_Spreading": "",
+"Cond_Confusing_Wandering": "",
+"Cond_Parent": "",
+"ConditionEntity": "",
+"ConsoleAppender": "",
+"DemocrECTS_Controller": "",
+"DictionaryUtil": "",
+"DioJSONes_EffektGenerator": "",
+"DioJSONes_Interpreter": "",
+"DioJSONes_SubParser_ComponentConstructor": "",
+"EffectEntity": "",
+"EffectTComponent": "",
+"Effect_Generator_API": "",
+"Effect_Generator_Simpel": "",
+"Effect_Generator_Syntax": "",
+"Entity": "",
+"FileAppender": "",
+"FileHub": "",
+"FilepathBuilder": "",
+"GearEntity": "",
+"GroupManager": "",
+"Group_Atlas": "",
+"HtmlLayout": "",
+"InitDemocrECTS": "",
+"InitDioJSONes": "",
+"InitSokraTiles": "",
+"InteractEntity": "",
+"Inventory": "",
+"JsonParser": "",
+"JsonToEntityParser": "",
+"KitConstructor": "",
+"KitPartEntity": "",
+"KitSelection": "",
+"KitSelectioneXTERN": "",
+"KitSetConstructor": "",
+"Kitventory": "",
+"C_51_PLAYER_KITSETS": "",
+"Layout": "",
+"Message": "",
+"ModKitPartEntity": "",
+"NodesManager": "",
+"PanelConstructor": "",
+"PatternLayout": "",
+"PerformanceManager": "",
+"PlayerEntity": "",
+"RNGClass": "",
+"Recycler": "",
+"RestmodeUserinput": "",
+"Runner": "",
+"RuntimeParameter": "",
+"SokraTILEs_LayerManager": "",
+"SokraTILEs_TileManager": "",
+"SokraTILEs_TilemapDebug": "",
+"SokraTILEs_TilemapManager": "",
+"SokraTILEs_TilemapParser": "",
+"SokraTILEs_TilesetManager": "",
+"SokraTiles_Chunk": "",
+"SokraTiles_Chunk_Magic_Floor": "",
+"SokraTiles_Chunk_Magic_Interactables": "",
+"SokraTiles_Chunk_Matrix_Floor": "",
+"SokraTiles_Chunk_Matrix_Interactables": "",
+"SokraTiles_Chunk_Meat_Floor": "",
+"SokraTiles_Chunk_Meat_Interactables": "",
+"SokraTiles_Chunk_NPC": "",
+"SokraTiles_Chunk_Player": "",
+"SpaceComponent": "",
+"StationManager": "",
+"Stats": "",
+"StyleManager": "",
+"System": "",
+"SystemManager": "",
+"Team": "",
+"TemplateManager": "",
+"TextInputField": "",
+"TileEntManager": "",
+"TileEntity": "",
+"TriggerComponent": "",
+"UniversalCheckbox": "",
+"Utils": "",
+"Visitor": "",
+"WorldMap": "",
+"_006_CompiIndex": "",
+"_007_Create_NPC_Process": "",
+"_00_00_CompIndex": "",
+"_00_00_Logger": "",
+"_00_00_Validator": "",
+"_00_01_CompIndex": "",
+"_010_In": "",
+"_010_Out": "",
+"_011_CharLoader": "",
+"_011_Chargen": "",
+"_011_FSM_Hub_InterfacePanel": "",
+"_011_FSM_Hub_PlayerMovement": "",
+"_011_In": "",
+"_011_StateManagaer_Interface": "",
+"_011_StateManagaer_PlayerMovement": "",
+"_011_Utils": "",
+"_012_In": "",
+"_014_Complex": "",
+"_014_Simplex": "",
+"_014_Utils": "",
+"_014_validator": "",
+"_01_01_CompIndex": "",
+"_01_01_ConditionManager": "",
+"_01_01_Logger": "",
+"_01_01_Validator": "",
+"_02_00_CompIndex": "",
+"_03_00_CompIndex": "",
+"_03_00_EntityManager": "",
+"_03_00_Logger": "",
+"_03_00_Validator": "",
+"_05_runEffect": "",
+"_KitsUILoader": "",
+"_TileInterpreter": "",
+"_menueLoader": ""
+}
+
+[addon]
+
+description=false
+
+[application]
+
+config/name="P@nicroom CACHE"
+run/main_scene="res://Src/Bootstrap/GameInit/GameInitSzene.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Logger="*res://addons/gs_logger/logger.gd"
+Util="*res://Src/Logic/single scripts/Util/Main.gd"
+__________________________________________________________________________________________="*res://tools/separator/separator1.tscn"
+ENUM="*res://Src/Logic/single scripts/Enum.gd"
+Signals="*res://Src/Logic/single scripts/Signals.gd"
+RestMode="*res://Src/scenes/Gameloop/RestMode/Restmode.gd"
+API_000_BasicTilesAtlas="*res://Src/Logic/Modules/000_Basic Tiles Atlas/Controller/API.gd"
+API_001_MetahumanStats="*res://Src/Logic/Modules/001_Metahuman Stats/Controller/API.gd"
+API_002_Effect="*res://Src/Logic/Modules/002_Effect Generator/Controller/API.gd"
+API_003_Condition="*res://Src/Logic/Modules/003_Conditions/Controller/API.gd"
+API_004_Items="*res://Src/Logic/Modules/004_Items/Controller/API.gd"
+API_005_KitSet="*res://Src/Logic/Modules/005_KitSet/Controller/API.gd"
+API_006_KitParts="*res://Src/Logic/Modules/006_Kitparts/Controller/API.gd"
+API_007_ProcgenActor="*res://Src/Logic/Modules/007_Procgen Actor/Controller/API.gd"
+API_008_ProcgenChunk="*res://Src/Logic/Modules/008_Procgen Chunk/Controller/API.gd"
+API_009_Tilemap="*res://Src/Logic/Modules/009_Tilemap Structure/Controller/API.gd"
+API_011_Player="*res://Src/Logic/Modules/011_Player/Controller/API.gd"
+API_012_Behavior="*res://Src/Logic/Modules/012_Behavior/Controller/API.gd"
+API_014_TilemapSelector="*res://Src/Logic/Modules/014_Tilemap Selector/Controller/API.gd"
+____________________________________________________________________________________="*res://tools/separator/separator0.tscn"
+GameInit="*res://Src/Bootstrap/GameInit/GameInit.gd"
+DemokrECTS="*res://Src/Engine/DemcorECTS/demokrECS.gd"
+SokraTiles="*res://Src/Engine/SokraTILEs/sokraTILES.gd"
+DioJSONes="*res://Src/Engine/DioJSONes/dioJSONes.gd"
+ArisPROCGENes="*res://Src/Engine/ArisPROCGENes/ArisPROCGENes.gd"
+BooStrap="*res://Src/Bootstrap/BooStrap.gd"
+Player="*res://Src/Logic/single scripts/Player/Player Singleton.gd"
+Gameloop="*res://Src/Gameloop.gd"
+ConditionHub="*res://Src/Logic/Modules/003_Conditions/Entity Manager/ConditionHub.gd"
+____________________________________________________________________________="*res://tools/separator/separator2.tscn"
+PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
+IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
+UserData="*res://addons/github-integration/scripts/user_data.gd"
+RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
+API_013_Entropy="*res://Src/Logic/Modules/013_Entropy/Controller/API.gd"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/unused_signal=false
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/borderless=true
+window/vsync/use_vsync=false
+
+[editor]
+
+script_templates_search_path="res://tools/GD-Script Template"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "gs_logger", "gut" )
+
+[input]
+
+ui_accept={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777221,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777222,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+ui_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777231,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":14,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777233,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":15,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":12,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+ui_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":13,"pressure":0.0,"pressed":false,"script":null)
+ ]
+}
+ui_home={
+"deadzone": 0.5,
+"events": [  ]
+}
+ui_end={
+"deadzone": 0.5,
+"events": [  ]
+}
+Panic_Walk_North={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Walk_South={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Walk_East={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Walk_West={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+delete={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777220,"unicode":0,"echo":false,"script":null)
+ ]
+}
+leftClickMouse={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+enter={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777221,"unicode":0,"echo":false,"script":null)
+ ]
+}
+escape={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"unicode":0,"echo":false,"script":null)
+ ]
+}
+PlayerDirectionInput={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Info_Kits={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":75,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Info_Jur={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":74,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Info_Mon={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":77,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Info_News={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":78,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Kit_Selection={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":49,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":50,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":51,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":52,"unicode":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":53,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Panic_Onlook={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":79,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[layer_names]
+
+2d_render/layer_1="floor"
+2d_render/layer_2="unwalkable"
+2d_render/layer_3="Actor"
+2d_render/layer_4="Player"
+2d_render/layer_5="Air"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
+
+[tiled_importer]
+
+enable_json_format=false

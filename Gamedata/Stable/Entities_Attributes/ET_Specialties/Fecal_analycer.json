@@ -1,0 +1,50 @@
+{
+  "C_14_ACTOR_SPECIALTY_NAME": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "critter fecal analyst"
+  },
+  "C_6_TILE_NAME": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "critter fecal analyst"
+  },
+  "C_50_ACTOR_ROLE_DESCRIPTION": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "Specialiced in near exticted Animals and their health by analycing their shit"
+  },
+  "F_6_ACTOR_ATTRIBUTES":{
+    "type":"FLAG"
+ },
+ "F_7_ACTOR_ATTRIBUTES_SPECIALTY":{
+  "type":"FLAG"
+},
+  "C_19_ACTOR_ATTRIBUTES": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "con":-1,
+      "agi":0,
+      "rea":-1,
+      "str":0,
+
+      "wil": 1,
+      "log": 0,
+      "int": 0,
+      "cha": 1
+    }
+  },
+  "C_20_ACTOR_SKILLBLOCK": {
+    "type" : "ENTRY_DICTIONARY",
+    "value":{
+      "NEGOTIATION":"2",
+      "DISGUISE":"3",
+      "CHEMISTRY":"5"
+      }
+    },
+  "META": {
+    "type":"META",
+    "GROUP" : "atlas_Specialties",
+    "GROUP_ENTRY_NAME":"critter fecal analyst",
+    "ENTITY_TYPE":"DEFAULT"
+  }
+
+
+}

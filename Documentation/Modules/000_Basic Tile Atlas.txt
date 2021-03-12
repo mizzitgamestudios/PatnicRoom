@@ -1,0 +1,56 @@
+--- 000_Basic Tile Atlas ---
+
+> Use
+  > frames the Lowest common anominator for TileEntities
+  > parses dictionaries into TileEntities
+  > Saves them in an Dictionary
+
+> Components
+  > C_0_ANY_DESCRIPTION (String)
+    > a simple explanation of the tile,shown when the player looks at it.
+
+  > C_1_ANY_IS_WALKABLE (bool)
+    > determinds if an Actor or Interactable can stay/walk on it.
+
+  > C_3_ANY_LAYER (PoolStringArray)
+    > String list of layers where its texture is shown
+
+  > C_4_ANY_MAGIC_NOISE (int)
+    > number of background noise its generating
+
+  > C_5_ANY_MATRIX_NOISE (int)
+    > number of background noise its generating
+
+  > C_6_TILE_NAME (String)
+    > the overall name of this template
+
+  > C_2_ANY_TEXTURE_ID (String)
+    > ID for referencing the texture in the tileset-Atlas
+
+  > C_9_ANY_UNIQUE_COMPONENTS (Entity)
+    > every other component which is not the lowest common anominator
+
+
+> Controller
+  > API
+    > Variables
+      > atlasTiles: Dictionary of String(C_2_ANY_TEXTURE_ID) as key and TileEntity as value
+        > collection of all TileEntities known by the game at initialication
+
+    > functions
+      > createNewTileByDict (Dictionary) -> TileEntity
+        > creates a TileEntity by a dictionary
+        > called in the initialication in TileManager.parseDictToTileEntity() [Src\Engine\SokraTILEs\FrameWork\Tile.gd]
+
+      > getIndexedTile (String) -> TileEntity
+        > returns the TileEntity with the coresponding C_2_ANY_TEXTURE_ID
+
+
+
+> Entity Manager
+
+> IO
+
+> Systems
+
+> Unit Test

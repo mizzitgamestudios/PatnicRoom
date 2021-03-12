@@ -1,0 +1,62 @@
+{
+  "C_6_TILE_NAME": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "orc"
+  },
+  "C_0_ANY_DESCRIPTION": {
+    "type" : "ENTRY_SIMPLE",
+    "value" : "just like humans,but in tiny"
+  },
+  "F_6_ACTOR_ATTRIBUTES":{
+    "type":"FLAG"
+ },
+  "C_15_ACTOR_ARRAY_BODYPARTS": {
+    "type" : "ENTRY_CONTAINER",
+    "value" : [
+      {
+        "C_10_ACTOR_PERKS": {
+          "type" : "ENTRY_SIMPLE",
+          "value" : "infrared_sight"
+        }
+      }
+
+    ]
+  },
+
+  "C_27_ACTOR_RACIAL_ENEMIES": {
+    "type" : "ENTRY_Array",
+    "value" : [
+      "human"
+    ]
+  },
+
+  "C_28_ACTOR_RACIAL_FRIENDS": {
+    "type" : "ENTRY_ARRAY",
+    "value" : [
+      "orc"
+    ]
+  },
+
+  "C_19_ACTOR_ATTRIBUTES": {
+    "type" : "ENTRY_DICTIONARY",
+    "value" : {
+      "constitution":5,
+      "agillity":2,
+      "reaction":3,
+      "strength":5,
+
+      "willpower":3,
+      "logic":2,
+      "intuition":2,
+      "charisma":1,
+    }
+  },
+  "META": {
+    "type":"META",
+    "GROUP" : "atlas_Races",
+    "GROUP_ENTRY_NAME":"orc",
+    "ENTITY_TYPE":"DEFAULT"
+  }
+
+
+}
