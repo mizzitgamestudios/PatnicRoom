@@ -26,6 +26,7 @@ func _init() -> void:
 func attachConditionToEnt(ent:Entity, condName:String, duration:int, var intensity:int=0):
 	print("condition"+condName+" an "+ent.mouseHover_quack())
 	_conditionEntMananager.construct(ent,condName,duration,intensity)
+	SokraTiles.getCondition().addLayerEntry(ent,API_003_Condition.getAllConditions()[condName].textureID_quack())
 
 	
 func getAllConditions():

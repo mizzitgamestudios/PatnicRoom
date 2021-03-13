@@ -8,7 +8,7 @@ func initialice(layerEnum,layerNode) -> void:
 	var layerToParse = SokraTiles.getParsedLayer(layerEnum)
 	SokraTiles.addChunkToKnownLayers(layerEnum,layerNode)
 	
-	Signals.connect("Actor_Turn_Finished",self,"_cleanMap")
+	#Signals.connect("Actor_Turn_Finished",self,"_cleanMap")
 
 
 func _cleanMap():

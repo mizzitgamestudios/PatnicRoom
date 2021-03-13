@@ -4,14 +4,11 @@ class_name _5_KitSelect
 
 
 func setDirectionOfKitset(direction,kitset):
-	
-	
 	var reach = kitset.initialSelect["SPACE"].reach
 	var pos   = API_011_Player.currentChar.position()
 	
 	API_014_TilemapSelector.drawCellByPosandReach(direction,pos,reach,"Marker_0_4")
 	API_011_Player.resetSelectedTiles()
-
 
 
 
@@ -32,6 +29,7 @@ func getKitSelect(kitSet:KitSetEntity):
 
 
 func setTriggersOnMap(kitset):
+	API_011_Player.getSelectedTilesComp().resetAlerted()
 	var basicTrigger    = API_002_Effect.getTriggerableByBase(kitset,API_011_Player.getSelectedTiles())
 	var specificTrigger = API_002_Effect.getTriggerableBySpecific(kitset,basicTrigger)
 	

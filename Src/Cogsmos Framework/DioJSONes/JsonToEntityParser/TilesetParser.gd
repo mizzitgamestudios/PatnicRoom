@@ -17,25 +17,31 @@ func parseTileSetToEntities(tiles):
 	var tilesOfTilesetsWithAttributes = {}
 	var idcache
 	
-		
 	for tile in tiles:
 		var propertiesCache={}
 		for i in tile["properties"].size():				
-			var property = tile["properties"][i]
+			var property                  = tile["properties"][i]
 				
 			
-			var porpertyName = ( str(property["name"]) )
-			var porpertyValue = property["value"]
+			var porpertyName              = ( str(property["name"]) )
+			var porpertyValue             = property["value"]
 			
-			
-			propertiesCache[porpertyName]=porpertyValue
+			propertiesCache[porpertyName] = porpertyValue
+
 			_cacheTileNrAndID(idcache,tile["id"])
 			
+
 		propertiesCache["C_7_TILE_STATIC_TILESET_NR"] = getStaticID(propertiesCache["C_2_ANY_TEXTURE_ID"])
 		entCache = DemokrECTS.convertToEntity(propertiesCache)
-		entCache.addComponent(C_7_TILE_STATIC_TILESET_NR.new( getStaticID(entCache.textureID())))
+
+
 		tilesOfTilesetsWithAttributes[entCache.textureID()] = entCache
+
 	return tilesOfTilesetsWithAttributes.values()
+
+
+
+	
 
 
 var tileNrInSetCache=[]

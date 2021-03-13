@@ -80,7 +80,7 @@
 
             ],
             "STAT_MOD":[
-              ["C_46_ANY_HITPOINTS","-20"],
+              ["U_DEAL_PLAIN_DAMAGE","-20"],
               ["U_CHANGE_TEXTURE","Suburban_0_3"]
             ]
          }

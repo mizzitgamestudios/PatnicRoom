@@ -33,13 +33,13 @@ func logic()            -> int:		return getCompValue(C_19_ACTOR_ATTRIBUTES.name_
 
 # ---- INDIRECT ----
 func carriageCapacity() -> int:		return getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).carriageCapacity
-func physicalLimit()    -> int:		return getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).physicalLimit
-func socialLimit()      -> int:		return getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).socialLimit
-func mentalLimit()      -> int:		return getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).mentalLimit
-func hitpoints()        -> int:		return getComp(C_26_ACTOR_INDIRECT_STATS.name_quack()).hitpoints
+func physicalLimit()    -> int:		return getCompValue(C_22_ACTOR_LIMITS.name_quack()).physicalLimit
+func socialLimit()      -> int:		return getCompValue(C_22_ACTOR_LIMITS.name_quack()).socialLimit
+func mentalLimit()      -> int:		return getCompValue(C_22_ACTOR_LIMITS.name_quack()).mentalLimit
+func hitpoints()        -> int:		return getComp(C_57_HITPOINTS.name_quack()).value
 func condition()        -> int:		return getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).condition
 func type(): return ENUM.TYPES_ON_MAP.ACTOR
-
+func changeHitpoints(modValue):     getComp(C_57_HITPOINTS.name_quack()).changeHitpoints(modValue)
 func typeToString(): return "ACTOR"
 
 func posX():

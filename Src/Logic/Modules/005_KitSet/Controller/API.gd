@@ -7,6 +7,7 @@ var _select       : _005_Select
 var _getter       : _005_Get
 var _kitSetMerger : _005_KitSetMerger
 var _kitSelect    : _5_KitSelect
+var _kitRun       : _5_KitRun
 
 
 func _ready() -> void:
@@ -14,6 +15,7 @@ func _ready() -> void:
 	_getter       = _005_Get.new()
 	_select       = _005_Select.new()
 	_kitSelect    = _5_KitSelect.new()
+	_kitRun       = _5_KitRun.new()
 
 
 
@@ -36,6 +38,9 @@ func getKitSelect(kitSet:KitSetEntity):
 func setDirectionOfKitset(directionEnum,kitset):
 	_kitSelect.setDirectionOfKitset(directionEnum,kitset)
 
+func runKitSet(kitset):
+	_kitRun.runKitSet(kitset)
+
 #----- GETTER --------------------------------------------------------------------##
 
 func getSlot(kitset:KitSetEntity,kitPart:String,unit:int,slot:String):  return _getter.getSlot(kitset,kitPart,unit,slot)
@@ -52,34 +57,7 @@ func getInitialKitsetSelect(kitset:KitSetEntity):
 
 
 
-func runKitSet(kitset):
-	var selectedTiles    = API_011_Player.getSelectedTilesComp().getAlerted()
-	var initialCondition = kitset.initialSelect["EFFECT_CONDITION"]
-	var initialStat      = kitset.initialSelect["EFFECT_STAT_MOD"]
-	
-	for i in initialStat.statModList.size():
-		var currentStat = initialStat.statModList[i]
-		
-		
-		if currentStat[0] == "C_46_ANY_HITPOINTS": 
-			damageEnt(selectedTiles.back(),currentStat)
-	
-		elif currentStat[0] == "U_CHANGE_TEXTURE":
-			API_014_TilemapSelector.manageToHegel(selectedTiles.back(),"changeTexture",currentStat[1],currentStat[0])
-	
-		else:
-			API_014_TilemapSelector.manageToHegel(selectedTiles.back(),"changeStat",currentStat[1],currentStat[0])
-	
-	
-	API_011_Player.getSelectedTilesComp().resetAlerted()
+
 	
 
-func damageEnt(arr,currentStat):
-	for i in arr.size():
-		if arr[i] is ActorEntity:
-		
-			var hitpoints =int(arr[i].hitpoints())
-			var takeAway = int(currentStat[1])
-			hitpoints += takeAway
-			if hitpoints <=0: 
-				SokraTiles.Actors_on_map.erase(arr[i].get_instance_id())
+

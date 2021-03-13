@@ -1,0 +1,544 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-03-13 09:51:21
+count workspace : c:\Users\Daniel\Documents\GitHub\PatnicRoom
+total files : 516
+total code lines : 35371
+total comment lines : 34
+total blank lines : 6569
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .TMP|            517|              0|             58|    1.5|
+   |               |            342|              0|             60|   0.97|
+   |            .md|            184|              1|             66|   0.52|
+   |          .tres|           1803|              0|             11|    5.1|
+   |         .godot|              2|              0|              0| 0.0057|
+   |            .gd|           6187|             33|           3951|     17|
+   |          .json|           9319|              0|            257|     26|
+   |          .tscn|          15327|              0|           1850|     43|
+   |           .cfg|             30|              0|              9|  0.085|
+   |        .import|           1450|              0|            250|    4.1|
+   |           .tmp|             27|              0|             10|  0.076|
+   |           .txt|            183|              0|             47|   0.52|
+   -------------------------------------------------------------------------
+.gitignore, code is 14, comment is 0, blank is 9.
+CHANGELOG.md, code is 0, comment is 0, blank is 0.
+config\DynamicSubtitle.json, code is 16, comment is 0, blank is 5.
+config\Runner\chargen presets.json, code is 145, comment is 0, blank is 41.
+config\Runner\generated\generall and stats.json, code is 64, comment is 0, blank is 21.
+config\Runner\generated\Inventory.json, code is 58, comment is 0, blank is 27.
+config\Runner\player.json, code is 60, comment is 0, blank is 26.
+default_env.tres, code is 5, comment is 0, blank is 2.
+Documentation\_Entity Summary.md, code is 25, comment is 0, blank is 7.
+Documentation\Gamedesign\Ancient Engines.md, code is 23, comment is 0, blank is 19.
+Documentation\Gamedesign\DioJSONes, code is 158, comment is 0, blank is 26.
+Documentation\Gamedesign\dioJSONes.txt, code is 146, comment is 0, blank is 28.
+Documentation\Gamedesign\introduction to add content.json, code is 60, comment is 0, blank is 17.
+Documentation\Gamedesign\quickreferences.json, code is 40, comment is 0, blank is 14.
+Documentation\JSON Convention.md, code is 46, comment is 0, blank is 16.
+Documentation\Modules\000_Basic Tile Atlas.txt, code is 37, comment is 0, blank is 19.
+Documentation\statistics\kitparts.md, code is 45, comment is 1, blank is 4.
+Documentation\StyleConvention.md, code is 31, comment is 0, blank is 19.
+Documentation\todo-txt, code is 17, comment is 0, blank is 5.
+Documentation\webside, code is 31, comment is 0, blank is 2.
+Gamedata\Stable\Entities_Attributes\ET-Race\dwarf.json, code is 53, comment is 0, blank is 8.
+Gamedata\Stable\Entities_Attributes\ET-Race\elf.json, code is 53, comment is 0, blank is 8.
+Gamedata\Stable\Entities_Attributes\ET-Race\human.json, code is 53, comment is 0, blank is 9.
+Gamedata\Stable\Entities_Attributes\ET-Race\orc.json, code is 53, comment is 0, blank is 9.
+Gamedata\Stable\Entities_Attributes\ET-Race\troll.json, code is 53, comment is 0, blank is 9.
+Gamedata\Stable\Entities_Attributes\ET_Roles\BrawlerOne.json, code is 47, comment is 0, blank is 4.
+Gamedata\Stable\Entities_Attributes\ET_Roles\HackerOner.json, code is 47, comment is 0, blank is 1.
+Gamedata\Stable\Entities_Attributes\ET_Roles\SpellcasterOne.json, code is 47, comment is 0, blank is 4.
+Gamedata\Stable\Entities_Attributes\ET_Specialties\Drug dealer.json, code is 52, comment is 0, blank is 4.
+Gamedata\Stable\Entities_Attributes\ET_Specialties\esoteric conartist.json, code is 47, comment is 0, blank is 1.
+Gamedata\Stable\Entities_Attributes\ET_Specialties\fatal poisonous test eater.json, code is 47, comment is 0, blank is 1.
+Gamedata\Stable\Entities_Attributes\ET_Specialties\Fecal_analycer.json, code is 47, comment is 0, blank is 3.
+Gamedata\Stable\Entities_Attributes\ET_Specialties\freelanced hobo.json, code is 47, comment is 0, blank is 10.
+Gamedata\Stable\Factions\the_drop_outz.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Flags\F_Perks\F_P_immortal.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Flags\F_Perks\F_P_infrared_sight.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Flags\F_Perks\F_P_low_light_sight.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Items\I_Consumables\large_medkit.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Items\I_Consumables\medium_medkit.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Items\I_Consumables\small_medkit.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Items\I_Tools\one-way_spoofer.json, code is 16, comment is 0, blank is 0.
+Gamedata\Stable\Kits\K_Electronics\K_E_Cyberware\K_E_C_Modell\Fingerguns.json, code is 89, comment is 0, blank is 1.
+Gamedata\Stable\Kits\K_Electronics\K_E_Hack\K_E_H_Codebase\Guest List Injection.json, code is 90, comment is 0, blank is 1.
+Gamedata\Stable\Kits\K_Electronics\K_E_Hack\K_E_H_Codebase\Heartbleed bug.json, code is 93, comment is 0, blank is 2.
+Gamedata\Stable\Kits\K_Magic\K_M_Infusion\K_M_I_Tattoo\4thWallbreak.json, code is 94, comment is 0, blank is 3.
+Gamedata\Stable\Kits\K_Universal\K_U_Gun\K_U_G_Frame\foobar.json, code is 94, comment is 0, blank is 3.
+LICENSE, code is 122, comment is 0, blank is 18.
+Media\debug\Tilemap.txt, code is 0, comment is 0, blank is 0.
+Media\FixedDays Font\FixedSysTemplate.ttf, it is a binary file.
+Media\FixedDays Font\new_dynamicfontdata.tres, code is 3, comment is 0, blank is 1.
+Media\FixedDays Font\Panel_Title.tres, code is 7, comment is 0, blank is 2.
+Media\FixedDays Font\Text_Default.tres, code is 5, comment is 0, blank is 2.
+Media\FixedDays Font\Text_Header.tres, code is 7, comment is 0, blank is 2.
+Media\fluff\Megacorp1.png, it is a binary file.
+Media\fluff\Megacorp1.png.import, code is 29, comment is 0, blank is 5.
+Media\fluff\Megacorp2.png, it is a binary file.
+Media\fluff\Megacorp2.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\All Kit Symbols.afphoto, it is a binary file.
+Media\GUI\KitSymbols\Armor.png, it is a binary file.
+Media\GUI\KitSymbols\Armor.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Cyberware.png, it is a binary file.
+Media\GUI\KitSymbols\Cyberware.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Drones.png, it is a binary file.
+Media\GUI\KitSymbols\Drones.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Gun.png, it is a binary file.
+Media\GUI\KitSymbols\Gun.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Hacks.png, it is a binary file.
+Media\GUI\KitSymbols\Hacks.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Infusion.png, it is a binary file.
+Media\GUI\KitSymbols\Infusion.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Meele.png, it is a binary file.
+Media\GUI\KitSymbols\Meele.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Rite.png, it is a binary file.
+Media\GUI\KitSymbols\Rite.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\KitSymbols\Spell.png, it is a binary file.
+Media\GUI\KitSymbols\Spell.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\allGUI.png, it is a binary file.
+Media\GUI\Panicmode\allGUI.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\AR.png, it is a binary file.
+Media\GUI\Panicmode\AR.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\background\backgroundOnepng.png, it is a binary file.
+Media\GUI\Panicmode\background\backgroundOnepng.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\background\Unbenannt.png, it is a binary file.
+Media\GUI\Panicmode\background\Unbenannt.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\Chest.png, it is a binary file.
+Media\GUI\Panicmode\Condition\Chest.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\Feet.png, it is a binary file.
+Media\GUI\Panicmode\Condition\Feet.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\forearm.png, it is a binary file.
+Media\GUI\Panicmode\Condition\forearm.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\Hand.png, it is a binary file.
+Media\GUI\Panicmode\Condition\Hand.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\Head.png, it is a binary file.
+Media\GUI\Panicmode\Condition\Head.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Panicmode\Condition\Upper Arm.png, it is a binary file.
+Media\GUI\Panicmode\Condition\Upper Arm.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\background\five.png, it is a binary file.
+Media\GUI\restmode\background\five.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\background\four.png, it is a binary file.
+Media\GUI\restmode\background\four.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\background\one.png, it is a binary file.
+Media\GUI\restmode\background\one.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\background\three.png, it is a binary file.
+Media\GUI\restmode\background\three.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\background\two.png, it is a binary file.
+Media\GUI\restmode\background\two.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\enter animation\Unbenannt1.png, it is a binary file.
+Media\GUI\restmode\enter animation\Unbenannt1.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\enter animation\Unbenannt2.png, it is a binary file.
+Media\GUI\restmode\enter animation\Unbenannt2.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\enter animation\Unbenannt3.png, it is a binary file.
+Media\GUI\restmode\enter animation\Unbenannt3.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\bio.png, it is a binary file.
+Media\GUI\restmode\matterials\bio.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\clear.png, it is a binary file.
+Media\GUI\restmode\matterials\clear.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\fiber.png, it is a binary file.
+Media\GUI\restmode\matterials\fiber.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\info.png, it is a binary file.
+Media\GUI\restmode\matterials\info.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\PEACE-RESTORED.png, it is a binary file.
+Media\GUI\restmode\matterials\PEACE-RESTORED.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\steel.png, it is a binary file.
+Media\GUI\restmode\matterials\steel.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\Unbenannt.png, it is a binary file.
+Media\GUI\restmode\matterials\Unbenannt.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\restmode\matterials\wires.png, it is a binary file.
+Media\GUI\restmode\matterials\wires.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Titlescreen\background\backgroundFour.png, it is a binary file.
+Media\GUI\Titlescreen\background\backgroundFour.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Titlescreen\background\backgroundThree.png, it is a binary file.
+Media\GUI\Titlescreen\background\backgroundThree.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Titlescreen\background\backgroundTwopng.png, it is a binary file.
+Media\GUI\Titlescreen\background\backgroundTwopng.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Titlescreen\create new game formpng.png, it is a binary file.
+Media\GUI\Titlescreen\create new game formpng.png.import, code is 29, comment is 0, blank is 5.
+Media\GUI\Titlescreen\Title.png, it is a binary file.
+Media\GUI\Titlescreen\Title.png.import, code is 29, comment is 0, blank is 5.
+Media\panicroom.PNG, it is a binary file.
+Media\panicroom.PNG.import, code is 29, comment is 0, blank is 5.
+Media\TileMap\06_debug.json, code is 14, comment is 0, blank is 0.
+Media\TileMap\custome\Introduction.json, code is 28, comment is 0, blank is 0.
+Media\TileMap\custome\mall.json, code is 44, comment is 0, blank is 0.
+Media\TileMap\custome\schanze.json, code is 163, comment is 0, blank is 0.
+Media\TileMap\custome\sewer.json, code is 170, comment is 0, blank is 0.
+Media\TileMap\custome\Suburban.json, code is 188, comment is 0, blank is 0.
+Media\TileMap\custome\test.json, code is 157, comment is 0, blank is 0.
+Media\TileMap\Debug.json, code is 55, comment is 0, blank is 0.
+Media\TileMap\devroom.json, code is 113, comment is 0, blank is 0.
+Media\TileMap\dummy.json, code is 159, comment is 0, blank is 0.
+Media\TileMap\ProcGen bricks\Suburban\01.json, code is 98, comment is 0, blank is 0.
+Media\TileMap\ProcGen bricks\Suburban\02.json, code is 90, comment is 0, blank is 0.
+Media\TileMap\ProcGen bricks\Suburban\03.json, code is 88, comment is 0, blank is 0.
+Media\TileMap\SuburbanTestSide.json, code is 170, comment is 0, blank is 0.
+Media\TileMap\template.json, code is 157, comment is 0, blank is 0.
+Media\Tilesets\all.tres, code is 1776, comment is 0, blank is 2.
+Media\Tilesets\JSON\01_General.json, code is 513, comment is 0, blank is 0.
+Media\Tilesets\JSON\02_POI.json, code is 473, comment is 0, blank is 0.
+Media\Tilesets\JSON\03_Suburban.json, code is 2568, comment is 0, blank is 0.
+Media\Tilesets\JSON\04_CommonBNPC.json, code is 923, comment is 0, blank is 0.
+Media\Tilesets\JSON\05_Security.json, code is 1058, comment is 0, blank is 0.
+Media\Tilesets\JSON\06_Marker.json, code is 338, comment is 0, blank is 0.
+Media\Tilesets\PNG\01_General.png, it is a binary file.
+Media\Tilesets\PNG\01_General.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\02_POI.png, it is a binary file.
+Media\Tilesets\PNG\02_POI.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\03_Suburban.png, it is a binary file.
+Media\Tilesets\PNG\03_Suburban.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\04_CommonBNPC.png, it is a binary file.
+Media\Tilesets\PNG\04_CommonBNPC.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\05_Security.png, it is a binary file.
+Media\Tilesets\PNG\05_Security.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\06_Marker.png, it is a binary file.
+Media\Tilesets\PNG\06_Marker.png.import, code is 29, comment is 0, blank is 5.
+Media\Tilesets\PNG\07_Decoration.png, it is a binary file.
+Media\Tilesets\PNG\07_Decoration.png.import, code is 29, comment is 0, blank is 5.
+project.godot, code is 2, comment is 0, blank is 0.
+project.godot~RF7015310.TMP, code is 2, comment is 0, blank is 0.
+README.md, code is 12, comment is 0, blank is 1.
+Src\Bootstrap\BooStrap.gd, code is 9, comment is 4, blank is 4.
+Src\Bootstrap\Engines\InitDemocrECTS.gd, code is 10, comment is 3, blank is 6.
+Src\Bootstrap\Engines\InitDioJSONes.gd, code is 5, comment is 1, blank is 2.
+Src\Bootstrap\Engines\SokraTILES.gd, code is 49, comment is 0, blank is 8.
+Src\Bootstrap\GameInit\GameInit.gd, code is 57, comment is 0, blank is 28.
+Src\Bootstrap\GameInit\GameInitSzene.tscn, code is 10, comment is 0, blank is 2.
+Src\Cogsmos Framework\ArisPROCGENes\ArisPROCGENes.gd, code is 5, comment is 3, blank is 11.
+Src\Cogsmos Framework\DemcorECTS\demokrECS.gd, code is 25, comment is 4, blank is 11.
+Src\Cogsmos Framework\DemcorECTS\Entities\Actor Entity.gd, code is 39, comment is 0, blank is 15.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\Effect_Unit_Component.gd, code is 14, comment is 2, blank is 12.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_EFFECT_Condition.gd, code is 10, comment is 0, blank is 13.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_EFFECT_Statmod.gd, code is 8, comment is 0, blank is 16.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_SPACE.gd, code is 20, comment is 0, blank is 13.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_TIME.gd, code is 18, comment is 0, blank is 12.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_TRIGGER_Base.gd, code is 7, comment is 0, blank is 6.
+Src\Cogsmos Framework\DemcorECTS\Entities\Effect\slots\Effect_Comp_TRIGGER_Specific.gd, code is 17, comment is 0, blank is 8.
+Src\Cogsmos Framework\DemcorECTS\Entities\EffectEntity.gd, code is 32, comment is 0, blank is 17.
+Src\Cogsmos Framework\DemcorECTS\Entities\Interactable Entity.gd, code is 36, comment is 0, blank is 20.
+Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\AppendixKitPart.gd, code is 4, comment is 0, blank is 5.
+Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\BaseKitPart.gd, code is 4, comment is 0, blank is 5.
+Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\Kit Parts\KitPartEntity.gd, code is 22, comment is 2, blank is 12.
+Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\ModKitPart.gd, code is 4, comment is 0, blank is 7.
+Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\KitSetEntity.gd, code is 42, comment is 1, blank is 23.
+Src\Cogsmos Framework\DemcorECTS\Entities\Player\Belongings\Gear.gd, code is 9, comment is 0, blank is 5.
+Src\Cogsmos Framework\DemcorECTS\Entities\Player\Belongings\Kitventory.gd, code is 16, comment is 0, blank is 7.
+Src\Cogsmos Framework\DemcorECTS\Entities\Player\Player Entity.gd, code is 37, comment is 0, blank is 19.
+Src\Cogsmos Framework\DemcorECTS\Entities\Tile Entity.gd, code is 42, comment is 0, blank is 22.
+Src\Cogsmos Framework\DemcorECTS\Manager\Atlas.gd, code is 41, comment is 0, blank is 32.
+Src\Cogsmos Framework\DemcorECTS\Manager\Entity Converter.gd, code is 37, comment is 0, blank is 26.
+Src\Cogsmos Framework\DemcorECTS\Manager\GroupManager.gd, code is 93, comment is 0, blank is 43.
+Src\Cogsmos Framework\DemcorECTS\Manager\PerformanceManager.gd, code is 3, comment is 1, blank is 18.
+Src\Cogsmos Framework\DemcorECTS\Manager\SystemManager.gd, code is 46, comment is 1, blank is 20.
+Src\Cogsmos Framework\DemcorECTS\Module Structure\Controller.gd, code is 83, comment is 0, blank is 56.
+Src\Cogsmos Framework\DemcorECTS\Module Structure\EntityManager.gd, code is 100, comment is 0, blank is 59.
+Src\Cogsmos Framework\DemcorECTS\Module Structure\system.gd, code is 3, comment is 1, blank is 27.
+Src\Cogsmos Framework\DemcorECTS\parts of Entities\Component.gd, code is 6, comment is 0, blank is 3.
+Src\Cogsmos Framework\DemcorECTS\parts of Entities\Entity.gd, code is 48, comment is 3, blank is 32.
+Src\Cogsmos Framework\DemcorECTS\parts of Entities\Group.gd, code is 40, comment is 1, blank is 32.
+Src\Cogsmos Framework\DemcorECTS\parts of Entities\Template.gd, code is 17, comment is 0, blank is 17.
+Src\Cogsmos Framework\DioJSONes\dioJSONes.gd, code is 12, comment is 0, blank is 8.
+Src\Cogsmos Framework\DioJSONes\Dynamic Parser\Interpreter.gd, code is 65, comment is 0, blank is 29.
+Src\Cogsmos Framework\DioJSONes\Dynamic Parser\StatMod\Hub.gd, code is 7, comment is 0, blank is 12.
+Src\Cogsmos Framework\DioJSONes\Dynamic Parser\StatMod\U_CHANGE_TEXTURE.gd, code is 6, comment is 0, blank is 7.
+Src\Cogsmos Framework\DioJSONes\Dynamic Parser\StatMod\U_DEAL_PLAIN_DAMAGE.gd, code is 4, comment is 0, blank is 6.
+Src\Cogsmos Framework\DioJSONes\EffectParser\dictToEffectEnt.gd, code is 36, comment is 0, blank is 15.
+Src\Cogsmos Framework\DioJSONes\Interpreter\InterpreterHub.gd, code is 83, comment is 0, blank is 31.
+Src\Cogsmos Framework\DioJSONes\Interpreter\keywords\PRC.gd, code is 6, comment is 0, blank is 4.
+Src\Cogsmos Framework\DioJSONes\Interpreter\keywords\REF.gd, code is 6, comment is 0, blank is 4.
+Src\Cogsmos Framework\DioJSONes\Interpreter\keywords\RNG.gd, code is 6, comment is 0, blank is 4.
+Src\Cogsmos Framework\DioJSONes\Interpreter\keywords\TMS.gd, code is 6, comment is 0, blank is 4.
+Src\Cogsmos Framework\DioJSONes\JsonToEntityParser\ComponentConstructor.gd, code is 13, comment is 0, blank is 3.
+Src\Cogsmos Framework\DioJSONes\JsonToEntityParser\JSONToEntityParser.gd, code is 78, comment is 3, blank is 32.
+Src\Cogsmos Framework\DioJSONes\JsonToEntityParser\TilesetParser.gd, code is 34, comment is 0, blank is 26.
+Src\Cogsmos Framework\DioJSONes\SYNTAX.gd, code is 36, comment is 0, blank is 21.
+Src\Cogsmos Framework\HeGEL\Condition\addCond.gd, code is 5, comment is 0, blank is 3.
+Src\Cogsmos Framework\HeGEL\Condition\changeCond.gd, code is 6, comment is 0, blank is 7.
+Src\Cogsmos Framework\HeGEL\Condition\removeCond.gd, code is 5, comment is 0, blank is 5.
+Src\Cogsmos Framework\HeGEL\HeGEL.gd, code is 14, comment is 0, blank is 9.
+Src\Cogsmos Framework\HeGEL\InjectionComponents\foo.gd, code is 4, comment is 0, blank is 5.
+Src\Cogsmos Framework\HeGEL\Stats\changeCond.gd, code is 4, comment is 0, blank is 5.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\parent\SokraTiles_Chunk_Basic.gd, code is 28, comment is 0, blank is 19.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\SokraTiles_Chunk_Actors.gd, code is 34, comment is 0, blank is 25.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\SokraTiles_Chunk_Animation.gd, code is 18, comment is 0, blank is 22.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\SokraTiles_Chunk_Floor.gd, code is 6, comment is 0, blank is 9.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\SokraTiles_Chunk_Interactables.gd, code is 6, comment is 0, blank is 7.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Debug.gd, code is 17, comment is 0, blank is 6.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\Layer.gd, code is 2, comment is 0, blank is 7.
+Src\Cogsmos Framework\SokraTILEs\FrameWork\TilemapParse\Tilemap.gd, code is 96, comment is 0, blank is 54.
+Src\Cogsmos Framework\SokraTILEs\sokraTILES.gd, code is 70, comment is 0, blank is 31.
+Src\Components\C0.gd, code is 19, comment is 0, blank is 3.
+Src\Components\C1.gd, code is 19, comment is 0, blank is 5.
+Src\Components\C10.gd, code is 6, comment is 0, blank is 6.
+Src\Components\C11.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C12.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C13.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C14.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C15.gd, code is 12, comment is 0, blank is 6.
+Src\Components\C16.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C17.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C18.gd, code is 7, comment is 0, blank is 6.
+Src\Components\C19.gd, code is 46, comment is 0, blank is 16.
+Src\Components\C2.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C20.gd, code is 21, comment is 0, blank is 22.
+Src\Components\C21.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C22.gd, code is 16, comment is 0, blank is 5.
+Src\Components\C23.gd, code is 14, comment is 0, blank is 8.
+Src\Components\C24.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C25.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C26.gd, code is 24, comment is 0, blank is 12.
+Src\Components\C27.gd, code is 10, comment is 0, blank is 6.
+Src\Components\C28.gd, code is 10, comment is 0, blank is 7.
+Src\Components\C29.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C3.gd, code is 19, comment is 0, blank is 4.
+Src\Components\C30.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C31.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C32.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C33.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C34.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C35.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C36.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C37.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C38.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C39.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C4.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C40.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C41.gd, code is 19, comment is 0, blank is 7.
+Src\Components\C42.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C43.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C44.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C45.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C47.gd, code is 8, comment is 0, blank is 6.
+Src\Components\C48.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C49.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C5.gd, code is 8, comment is 0, blank is 3.
+Src\Components\C50.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C51.gd, code is 6, comment is 0, blank is 2.
+Src\Components\C52.gd, code is 6, comment is 0, blank is 5.
+Src\Components\C53.gd, code is 22, comment is 0, blank is 13.
+Src\Components\C54.gd, code is 6, comment is 0, blank is 4.
+Src\Components\C55.gd, code is 11, comment is 0, blank is 6.
+Src\Components\C56.gd, code is 11, comment is 0, blank is 6.
+Src\Components\C57.gd, code is 11, comment is 0, blank is 6.
+Src\Components\C6.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C7.gd, code is 8, comment is 0, blank is 4.
+Src\Components\C9.gd, code is 6, comment is 0, blank is 4.
+Src\Components\Flags\F1.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F2.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F3.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F4.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F5.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F6.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F7.gd, code is 4, comment is 0, blank is 8.
+Src\Components\Flags\F8.gd, code is 4, comment is 0, blank is 6.
+Src\Components\Injected Comp\I1.gd, code is 62, comment is 0, blank is 4.
+Src\Components\INJECTED_COMP.gd, code is 5, comment is 0, blank is 4.
+Src\Gameloop.gd, code is 25, comment is 0, blank is 20.
+Src\Logic\Modules\000_Basic Tiles Atlas\Controller\API.gd, code is 20, comment is 1, blank is 17.
+Src\Logic\Modules\000_Basic Tiles Atlas\Entity Manager\TileEntManager.gd, code is 19, comment is 0, blank is 12.
+Src\Logic\Modules\001_Metahuman Stats\Controller\API.gd, code is 17, comment is 0, blank is 21.
+Src\Logic\Modules\001_Metahuman Stats\IO\Input.gd, code is 1, comment is 0, blank is 4.
+Src\Logic\Modules\001_Metahuman Stats\Systems\BasicStatChange.gd, code is 27, comment is 0, blank is 18.
+Src\Logic\Modules\002_Effect Generator\Controller\API.gd, code is 32, comment is 2, blank is 34.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\Events\condition.gd, code is 0, comment is 0, blank is 0.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\Events\StatMod.gd, code is 0, comment is 0, blank is 0.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\SpaceSlots\Medium\MediumHub.gd, code is 18, comment is 0, blank is 17.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\SpaceSlots\Source\SourceHub.gd, code is 12, comment is 0, blank is 15.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\Syntax.gd, code is 38, comment is 0, blank is 26.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\Trigger\BaseTrigger.gd, code is 43, comment is 0, blank is 23.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\Trigger\SpecificTrigger.gd, code is 57, comment is 0, blank is 35.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\TriggerBasic\TriggerSlot.gd, code is 31, comment is 0, blank is 15.
+Src\Logic\Modules\002_Effect Generator\Entity Manager\TriggerSpecific\Hub.gd, code is 60, comment is 0, blank is 35.
+Src\Logic\Modules\003_Conditions\Controller\API.gd, code is 23, comment is 0, blank is 18.
+Src\Logic\Modules\003_Conditions\Entity Manager\ConditionHub.gd, code is 6, comment is 0, blank is 5.
+Src\Logic\Modules\003_Conditions\Entity Manager\ConditionIndex.gd, code is 7, comment is 0, blank is 18.
+Src\Logic\Modules\003_Conditions\Strategies\Elemental\Earth\test.gd, code is 22, comment is 0, blank is 28.
+Src\Logic\Modules\003_Conditions\Strategies\Elemental\Fire\burning.gd, code is 27, comment is 0, blank is 20.
+Src\Logic\Modules\003_Conditions\Strategies\Elemental\Fire\Incinerating.gd, code is 22, comment is 0, blank is 14.
+Src\Logic\Modules\003_Conditions\Strategies\Elemental\Fire\Spreading.gd, code is 22, comment is 0, blank is 14.
+Src\Logic\Modules\003_Conditions\Strategies\Parent Class.gd, code is 85, comment is 0, blank is 49.
+Src\Logic\Modules\003_Conditions\Strategies\Psychological\Confusing\Wandering.gd, code is 22, comment is 0, blank is 14.
+Src\Logic\Modules\003_Conditions\Strategies\Senses\Sight\Overstimulating.gd, code is 22, comment is 0, blank is 14.
+Src\Logic\Modules\003_Conditions\Strategies\Senses\Sight\Understimulating.gd, code is 22, comment is 0, blank is 14.
+Src\Logic\Modules\004_Items\Controller\API.gd, code is 2, comment is 0, blank is 3.
+Src\Logic\Modules\005_KitSet\Controller\API.gd, code is 34, comment is 0, blank is 29.
+Src\Logic\Modules\005_KitSet\Entity Manager\kitMerge.gd, code is 33, comment is 0, blank is 27.
+Src\Logic\Modules\005_KitSet\Systems\getter.gd, code is 26, comment is 0, blank is 11.
+Src\Logic\Modules\005_KitSet\Systems\InitialKitPartToAct.gd, code is 33, comment is 0, blank is 21.
+Src\Logic\Modules\005_KitSet\Systems\kitRun.gd, code is 22, comment is 0, blank is 37.
+Src\Logic\Modules\005_KitSet\Systems\kitSelect.gd, code is 30, comment is 0, blank is 38.
+Src\Logic\Modules\006_Kitparts\Controller\API.gd, code is 14, comment is 0, blank is 10.
+Src\Logic\Modules\006_Kitparts\Entity Manager\Kit constructor.gd, code is 31, comment is 0, blank is 30.
+Src\Logic\Modules\007_Procgen Actor\Controller\API.gd, code is 12, comment is 0, blank is 9.
+Src\Logic\Modules\007_Procgen Actor\Entity Manager\CreateNPCProcess.gd, code is 51, comment is 0, blank is 31.
+Src\Logic\Modules\007_Procgen Actor\Entity Manager\DynamicNPC.gd, code is 16, comment is 0, blank is 7.
+Src\Logic\Modules\008_Procgen Chunk\Controller\API.gd, code is 2, comment is 0, blank is 2.
+Src\Logic\Modules\009_Tilemap Structure\Controller\API.gd, code is 29, comment is 0, blank is 23.
+Src\Logic\Modules\009_Tilemap Structure\IO\in.gd, code is 4, comment is 0, blank is 12.
+Src\Logic\Modules\009_Tilemap Structure\IO\out.gd, code is 17, comment is 0, blank is 13.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Actor\NPC.gd, code is 28, comment is 0, blank is 29.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Actor\Player.gd, code is 16, comment is 0, blank is 14.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Animation\Selection.gd, code is 20, comment is 0, blank is 22.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Magic\Magic Floor.gd, code is 5, comment is 0, blank is 6.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Magic\Magic Interactables.gd, code is 5, comment is 0, blank is 4.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Matrix\Matrix Floor.gd, code is 5, comment is 0, blank is 6.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Matrix\Matrix Interactables.gd, code is 5, comment is 0, blank is 4.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Meat\Meat Floor.gd, code is 19, comment is 0, blank is 12.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Layer\Meat\Meat Interactables.gd, code is 43, comment is 0, blank is 30.
+Src\Logic\Modules\009_Tilemap Structure\Systems\Tile Interpreter.gd, code is 14, comment is 0, blank is 19.
+Src\Logic\Modules\010_DioJSONes interpreter\Controller\API.gd, code is 1, comment is 0, blank is 2.
+Src\Logic\Modules\011_Player\Controller\API.gd, code is 31, comment is 0, blank is 24.
+Src\Logic\Modules\011_Player\io\In.gd, code is 9, comment is 0, blank is 7.
+Src\Logic\Modules\011_Player\Systems\chargen.gd, code is 35, comment is 0, blank is 30.
+Src\Logic\Modules\011_Player\Systems\Input\PanicMode\Interface FSM\FSM Hub.gd, code is 54, comment is 0, blank is 40.
+Src\Logic\Modules\011_Player\Systems\Input\PanicMode\Interface FSM\MouseHover.gd, code is 88, comment is 0, blank is 51.
+Src\Logic\Modules\011_Player\Systems\Input\PanicMode\Interface FSM\SidePanel.gd, code is 45, comment is 0, blank is 38.
+Src\Logic\Modules\011_Player\Systems\Input\PanicMode\PlayerMovement\FSM Hub.gd, code is 47, comment is 0, blank is 45.
+Src\Logic\Modules\011_Player\Systems\Input\PanicMode\UserinputHub.gd, code is 41, comment is 0, blank is 29.
+Src\Logic\Modules\011_Player\Systems\loadChar.gd, code is 64, comment is 0, blank is 41.
+Src\Logic\Modules\011_Player\Systems\Utils.gd, code is 11, comment is 0, blank is 7.
+Src\Logic\Modules\012_Behavior\Controller\API.gd, code is 18, comment is 0, blank is 20.
+Src\Logic\Modules\013_Entropy\Controller\API.gd, code is 15, comment is 0, blank is 15.
+Src\Logic\Modules\013_Entropy\io\In.gd, code is 2, comment is 0, blank is 3.
+Src\Logic\Modules\014_Tilemap Selector\Controller\API.gd, code is 58, comment is 0, blank is 28.
+Src\Logic\Modules\014_Tilemap Selector\Systems\Complex.gd, code is 41, comment is 0, blank is 38.
+Src\Logic\Modules\014_Tilemap Selector\Systems\Simplex.gd, code is 40, comment is 0, blank is 22.
+Src\Logic\Modules\014_Tilemap Selector\Systems\Utils.gd, code is 18, comment is 0, blank is 13.
+Src\Logic\Modules\015_Basic Static Interactables Atlas\Controller\API.gd, code is 15, comment is 0, blank is 14.
+Src\Logic\Modules\015_Basic Static Interactables Atlas\Entity Manager\TileEntManager.gd, code is 31, comment is 0, blank is 29.
+Src\Logic\Modules\017_Atlas\Controller\API.gd, code is 42, comment is 0, blank is 20.
+Src\Logic\Modules\017_Atlas\System\Actors.gd, code is 8, comment is 0, blank is 29.
+Src\Logic\Modules\017_Atlas\System\Interactables.gd, code is 6, comment is 0, blank is 14.
+Src\Logic\Modules\017_Atlas\System\KitPart.gd, code is 58, comment is 0, blank is 25.
+Src\Logic\Modules\017_Atlas\System\Race.gd, code is 7, comment is 0, blank is 28.
+Src\Logic\Modules\017_Atlas\System\Role.gd, code is 8, comment is 0, blank is 29.
+Src\Logic\Modules\017_Atlas\System\Specialty.gd, code is 8, comment is 0, blank is 30.
+Src\Logic\Modules\017_Atlas\System\Tiles.gd, code is 17, comment is 0, blank is 32.
+Src\Logic\Modules\Misc\Components\Structure Points.gd, code is 6, comment is 0, blank is 4.
+Src\Logic\single scripts\COMP.gd, code is 81, comment is 0, blank is 14.
+Src\Logic\single scripts\Enum.gd, code is 221, comment is 0, blank is 79.
+Src\Logic\single scripts\Player\Cloudprinter.gd, code is 2, comment is 0, blank is 1.
+Src\Logic\single scripts\Player\Common.gd, code is 6, comment is 0, blank is 12.
+Src\Logic\single scripts\Player\Inventory.gd, code is 15, comment is 0, blank is 12.
+Src\Logic\single scripts\Player\Kitventory.gd, code is 2, comment is 0, blank is 13.
+Src\Logic\single scripts\Player\Player Singleton.gd, code is 29, comment is 0, blank is 11.
+Src\Logic\single scripts\Player\Recycler.gd, code is 2, comment is 0, blank is 4.
+Src\Logic\single scripts\Player\Runner.gd, code is 2, comment is 0, blank is 6.
+Src\Logic\single scripts\Player\Stats.gd, code is 2, comment is 0, blank is 4.
+Src\Logic\single scripts\Player\Team.gd, code is 5, comment is 0, blank is 27.
+Src\Logic\single scripts\Player\WorldMap.gd, code is 2, comment is 0, blank is 15.
+Src\Logic\single scripts\Signals.gd, code is 14, comment is 0, blank is 7.
+Src\Logic\single scripts\Util\Main.gd, code is 14, comment is 0, blank is 3.
+Src\Logic\single scripts\Util\SubUtils\Dictionary.gd, code is 52, comment is 0, blank is 17.
+Src\Logic\single scripts\Util\SubUtils\DirectoryManager.gd, code is 39, comment is 0, blank is 11.
+Src\Logic\single scripts\Util\SubUtils\Filepath Builder.gd, code is 24, comment is 0, blank is 8.
+Src\Logic\single scripts\Util\SubUtils\JSONParser.gd, code is 27, comment is 0, blank is 7.
+Src\Logic\single scripts\Util\SubUtils\KitsUILoader.gd, code is 44, comment is 0, blank is 20.
+Src\Logic\single scripts\Util\SubUtils\NodesManager.gd, code is 24, comment is 0, blank is 9.
+Src\Logic\single scripts\Util\SubUtils\RNG.gd, code is 38, comment is 0, blank is 17.
+Src\scenes\Gameloop\PanicMode\EntropyBar.gd, code is 36, comment is 0, blank is 15.
+Src\scenes\Gameloop\PanicMode\HUD\Camera2D.gd, code is 8, comment is 0, blank is 8.
+Src\scenes\Gameloop\PanicMode\HUD\Menue loader.gd, code is 36, comment is 0, blank is 29.
+Src\scenes\Gameloop\PanicMode\PanicMode.tscn, code is 27, comment is 0, blank is 10.
+Src\scenes\Gameloop\PanicMode\PanicMode.tscn.tmp, code is 27, comment is 0, blank is 10.
+Src\scenes\Gameloop\PanicMode\rng Backgrounf.gd, code is 3, comment is 0, blank is 1.
+Src\scenes\Gameloop\PanicMode\SidePanelCache.gd, code is 9, comment is 0, blank is 6.
+Src\scenes\Gameloop\PanicMode\Subscenes\Inv Side Panel\Inv.gd, code is 11, comment is 0, blank is 7.
+Src\scenes\Gameloop\PanicMode\Subscenes\Inv Side Panel\Inv.tscn, code is 134, comment is 0, blank is 10.
+Src\scenes\Gameloop\PanicMode\Subscenes\Kits Side Panel\Kits.gd, code is 11, comment is 0, blank is 8.
+Src\scenes\Gameloop\PanicMode\Subscenes\Kits Side Panel\Kits.tscn, code is 925, comment is 0, blank is 93.
+Src\scenes\Gameloop\PanicMode\Subscenes\Monitor Side Panel\Monitor.gd, code is 11, comment is 0, blank is 15.
+Src\scenes\Gameloop\PanicMode\Subscenes\Monitor Side Panel\Monitor.tscn, code is 278, comment is 0, blank is 25.
+Src\scenes\Gameloop\PanicMode\Subscenes\News Side Panel\News.gd, code is 11, comment is 0, blank is 6.
+Src\scenes\Gameloop\PanicMode\Subscenes\News Side Panel\News.tscn, code is 991, comment is 0, blank is 92.
+Src\scenes\Gameloop\PanicMode\Subscenes\Onlook Sub Panel\News.gd, code is 11, comment is 0, blank is 5.
+Src\scenes\Gameloop\PanicMode\Subscenes\Onlook Sub Panel\Onlook.tscn, code is 151, comment is 0, blank is 12.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Action.tscn, code is 201, comment is 0, blank is 23.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Entrope Bar.tscn, code is 96, comment is 0, blank is 14.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\GUI.tscn, code is 79, comment is 0, blank is 11.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Map.tscn, code is 136, comment is 0, blank is 24.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Quest.tscn, code is 214, comment is 0, blank is 24.
+Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\SidePanel.tscn, code is 128, comment is 0, blank is 15.
+Src\scenes\Gameloop\PanicMode\Subscenes\ViewModes\dummy.tscn, code is 315, comment is 0, blank is 33.
+Src\scenes\Gameloop\PanicMode\Subscenes\ViewModes\Input handler.gd, code is 10, comment is 0, blank is 7.
+Src\scenes\Gameloop\RestMode\HUD\HUD.tscn, code is 333, comment is 0, blank is 33.
+Src\scenes\Gameloop\RestMode\HUD\instanceHUD.gd, code is 3, comment is 0, blank is 2.
+Src\scenes\Gameloop\RestMode\HUD\ScreenSwapText.gd, code is 15, comment is 0, blank is 7.
+Src\scenes\Gameloop\RestMode\Init.gd, code is 4, comment is 0, blank is 2.
+Src\scenes\Gameloop\RestMode\Init.tscn, code is 4, comment is 0, blank is 4.
+Src\scenes\Gameloop\RestMode\Progression.tscn, code is 30, comment is 0, blank is 7.
+Src\scenes\Gameloop\RestMode\Restmode.gd, code is 15, comment is 0, blank is 3.
+Src\scenes\Gameloop\RestMode\Self\Charsheet\Charsheet.tscn, code is 1258, comment is 0, blank is 127.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Inventar.tscn, code is 564, comment is 0, blank is 73.
+Src\scenes\Gameloop\RestMode\Self\Inventory\InventarInit.gd, code is 25, comment is 0, blank is 20.
+Src\scenes\Gameloop\RestMode\Self\Inventory\panicbutton.gd, code is 14, comment is 0, blank is 4.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Stats of Kit.gd, code is 1, comment is 0, blank is 7.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Cloudprinter.tscn, code is 886, comment is 0, blank is 111.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Inventory.tscn, code is 885, comment is 0, blank is 111.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\KitDetails.tscn, code is 898, comment is 0, blank is 120.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\KitOverview.gd, code is 10, comment is 0, blank is 11.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Kits.tscn, code is 900, comment is 0, blank is 120.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Kits.tscn~RF46a5cdb2.TMP, code is 330, comment is 0, blank is 35.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Recycler.tscn, code is 861, comment is 0, blank is 93.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Recycler.tscn~RF4693cc52.TMP, code is 185, comment is 0, blank is 23.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\ShopList.tscn, code is 950, comment is 0, blank is 98.
+Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\testrecycle.tscn, code is 391, comment is 0, blank is 42.
+Src\scenes\Gameloop\RestMode\Self\Rootnet\Rootnet.tscn, code is 47, comment is 0, blank is 10.
+Src\scenes\Gameloop\RestMode\Stations\Filling Kits in Form EXTERN.gd, code is 38, comment is 0, blank is 3.
+Src\scenes\Gameloop\RestMode\Stations\Filling Kits in Form.gd, code is 79, comment is 0, blank is 38.
+Src\scenes\Gameloop\RestMode\Stations\KitAppend\KitAppend.tscn, code is 253, comment is 0, blank is 40.
+Src\scenes\Gameloop\RestMode\Stations\KitAppend\KitAppendAlt.tscn, code is 253, comment is 0, blank is 40.
+Src\scenes\Gameloop\RestMode\Stations\KitBase\KitAppend.tscn, code is 237, comment is 0, blank is 42.
+Src\scenes\Gameloop\RestMode\Stations\KitBase\KitBase.tscn, code is 395, comment is 0, blank is 62.
+Src\scenes\Gameloop\RestMode\Stations\KitBase\KitMod.tscn, code is 293, comment is 0, blank is 52.
+Src\scenes\Gameloop\RestMode\Stations\KitBase\KitSwapText.gd, code is 18, comment is 0, blank is 9.
+Src\scenes\Gameloop\RestMode\Stations\Station.tscn, code is 21, comment is 0, blank is 7.
+Src\scenes\Gameloop\RestMode\Stations\StationInit.gd, code is 4, comment is 0, blank is 5.
+Src\scenes\Gameloop\RestMode\Stations\StationManager.gd, code is 12, comment is 0, blank is 8.
+Src\scenes\Gameloop\RestMode\Userinput.gd, code is 64, comment is 0, blank is 45.
+Src\scenes\Templates\GUI\Checkbox\Constructor.gd, code is 62, comment is 0, blank is 19.
+Src\scenes\Templates\GUI\Checkbox\universal Cheackbox.tscn, code is 21, comment is 0, blank is 4.
+Src\scenes\Templates\GUI\Checkbox\Userinput.gd, code is 22, comment is 0, blank is 9.
+Src\scenes\Templates\GUI\Flatbox Style\StyleManager.gd, code is 18, comment is 0, blank is 10.
+Src\scenes\Templates\GUI\Look at Panel\Initialice.gd, code is 45, comment is 0, blank is 26.
+Src\scenes\Templates\GUI\Look at Panel\look at.tscn, code is 242, comment is 0, blank is 26.
+Src\scenes\Templates\GUI\Panel\Constructor.gd, code is 27, comment is 0, blank is 12.
+Src\scenes\Templates\GUI\ProgressionBar\hover up.gd, code is 32, comment is 0, blank is 14.
+Src\scenes\Templates\GUI\ProgressionBar\ProgressionBar.gd, code is 26, comment is 0, blank is 8.
+Src\scenes\Templates\GUI\ProgressionBar\ProgressionBar.tscn, code is 82, comment is 0, blank is 16.
+Src\scenes\Templates\GUI\Textfield input\TextClick.gd, code is 29, comment is 0, blank is 14.
+Src\scenes\Unique\Enter Restmode Popup\charsheetr.tscn, code is 191, comment is 0, blank is 29.
+Src\scenes\Unique\Enter Restmode Popup\enterRestmode\buttonN.gd, code is 4, comment is 0, blank is 4.
+Src\scenes\Unique\Enter Restmode Popup\enterRestmode\buttonY.gd, code is 15, comment is 0, blank is 4.
+Src\scenes\Unique\Enter Restmode Popup\enterRestmode\enterSaveroom.tscn, code is 90, comment is 0, blank is 11.
+Src\scenes\Unique\Enter Restmode Popup\enterRestmode\Panel.gd, code is 6, comment is 0, blank is 6.
+Src\scenes\Unique\Titlescreen\init.gd, code is 37, comment is 0, blank is 41.
+Src\scenes\Unique\Titlescreen\scripts\AnimatedPNG.gd, code is 34, comment is 0, blank is 12.
+Src\scenes\Unique\Titlescreen\scripts\AnimatedText.gd, code is 34, comment is 0, blank is 14.
+Src\scenes\Unique\Titlescreen\scripts\close MenuePoint.gd, code is 8, comment is 0, blank is 3.
+Src\scenes\Unique\Titlescreen\scripts\MainMenuePoints.gd, code is 70, comment is 0, blank is 16.
+Src\scenes\Unique\Titlescreen\SubScene\create new game\create new game.tscn, code is 763, comment is 0, blank is 79.
+Src\scenes\Unique\Titlescreen\SubScene\create new game\Form Inputlistener.gd, code is 49, comment is 0, blank is 13.
+Src\scenes\Unique\Titlescreen\SubScene\create new game\initForm.gd, code is 67, comment is 0, blank is 27.
+Src\scenes\Unique\Titlescreen\SubScene\credits.tscn, code is 90, comment is 0, blank is 12.
+Src\scenes\Unique\Titlescreen\SubScene\Introduction.tscn, code is 299, comment is 0, blank is 33.
+Src\scenes\Unique\Titlescreen\SubScene\News.tscn, code is 123, comment is 0, blank is 18.
+Src\scenes\Unique\Titlescreen\SubScene\Patchnotes.tscn, code is 69, comment is 0, blank is 10.
+Src\scenes\Unique\Titlescreen\SubScene\personal.tscn, code is 70, comment is 0, blank is 12.
+Src\scenes\Unique\Titlescreen\Title.tscn, code is 129, comment is 0, blank is 18.
+test\test.md, code is 2, comment is 0, blank is 0.
+test\test.tscn, code is 14, comment is 0, blank is 2.
+tools\Custome_NPC\Suburban.json, code is 27, comment is 0, blank is 2.
+tools\debugKitsAtStart.json, code is 6, comment is 0, blank is 2.
+tools\RuntimeConfigs\default.cfg, code is 30, comment is 0, blank is 9.
+tools\RuntimeConfigs\Statistics.json, code is 7, comment is 0, blank is 3.
+tools\RuntimeConfigs\TilemapTest.json, code is 3, comment is 0, blank is 0.
+tools\Statistics\Kitparts\Main.gd, code is 45, comment is 0, blank is 32.
+tools\VSCode Snippets.json, code is 32, comment is 0, blank is 18.
+===============================================================================

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Meat/Meat Floor.gd" type="Script" id=1]
 [ext_resource path="res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Meat/Meat Interactables.gd" type="Script" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Src/scenes/Gameloop/PanicMode/HUD/Camera2D.gd" type="Script" id=10]
 [ext_resource path="res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Matrix/Matrix Interactables.gd" type="Script" id=11]
 [ext_resource path="res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Matrix/Matrix Floor.gd" type="Script" id=12]
+[ext_resource path="res://Src/Logic/Modules/009_Tilemap Structure/Systems/Layer/Animation/Conditions.gd" type="Script" id=13]
 
 [node name="Node2D" type="Node2D"]
 
@@ -158,3 +159,10 @@ cell_size = Vector2( 16, 16 )
 cell_tile_origin = 1
 format = 1
 script = ExtResource( 6 )
+
+[node name="Conditions" type="TileMap" parent="Map side/HBoxContainer/ViewportContainer/Viewport/Abstraction/Animation"]
+tile_set = ExtResource( 5 )
+cell_size = Vector2( 16, 16 )
+cell_tile_origin = 1
+format = 1
+script = ExtResource( 13 )

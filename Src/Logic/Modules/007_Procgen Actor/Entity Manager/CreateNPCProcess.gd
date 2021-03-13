@@ -77,6 +77,6 @@ func _getSkillBlock(ent):
 #----- INDIRECT STATS --------------------------------------------------------##
 
 func _addIndirectStats(ent,dictionary):
-	ent.addComponent(C_26_ACTOR_INDIRECT_STATS.new(ent.getComp(C_19_ACTOR_ATTRIBUTES.name_quack())))
+	C_26_ACTOR_INDIRECT_STATS.new(ent.getComp(C_19_ACTOR_ATTRIBUTES.name_quack()), ent)
 	ent.addComponent(C_2_ANY_TEXTURE_ID.new(dictionary["C_6_TILE_NAME"]))
 	ent.addComponent(C_21_TILE_TILENAME.new(dictionary["C_6_TILE_NAME"]))

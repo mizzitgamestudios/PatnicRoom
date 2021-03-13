@@ -79,7 +79,7 @@
             ],
             "STAT_MOD":[
               ["C_1_ANY_IS_WALKABLE",true],
-              ["U_CHANGE_TEXTURE","Suburban_0_3"],
+              ["U_CHANGE_TEXTURE","Suburban_0_3"]
             ]
          }
       }

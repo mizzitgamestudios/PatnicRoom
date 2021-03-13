@@ -7,7 +7,7 @@ class_name SokraTiles_Chunk_Player
 var player :PlayerEntity = API_011_Player.currentChar
 
 func _ready() -> void:
-	Signals.connect("Actor_Turn_Finished", self, "_cleanMap")
+	
 	
 	SokraTiles.addChunkToKnownLayers(ENUM.SOKRATILES_LAYER.ACTOR_PLAYER,self)
 	

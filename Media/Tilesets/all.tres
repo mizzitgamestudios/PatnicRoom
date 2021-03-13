@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=7 format=2]
+[gd_resource type="TileSet" load_steps=8 format=2]
 
 [ext_resource path="res://Media/Tilesets/PNG/01_General.png" type="Texture" id=1]
 [ext_resource path="res://Media/Tilesets/PNG/02_POI.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Media/Tilesets/PNG/04_CommonBNPC.png" type="Texture" id=4]
 [ext_resource path="res://Media/Tilesets/PNG/05_Security.png" type="Texture" id=5]
 [ext_resource path="res://Media/Tilesets/PNG/06_Marker.png" type="Texture" id=6]
+[ext_resource path="res://Media/Tilesets/PNG/Conditions.png" type="Texture" id=7]
 
 [resource]
 0/name = "POI_0_0"
@@ -1776,3 +1777,45 @@
 136/shape_one_way_margin = 0.0
 136/shapes = [  ]
 136/z_index = 0
+137/name = "Conditions_0_0"
+137/texture = ExtResource( 7 )
+137/tex_offset = Vector2( 0, 0 )
+137/modulate = Color( 1, 1, 1, 1 )
+137/region = Rect2( 0, 0, 16, 16 )
+137/tile_mode = 0
+137/occluder_offset = Vector2( 0, 0 )
+137/navigation_offset = Vector2( 0, 0 )
+137/shape_offset = Vector2( 0, 0 )
+137/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+137/shape_one_way = false
+137/shape_one_way_margin = 0.0
+137/shapes = [  ]
+137/z_index = 0
+138/name = "Conditions_0_1"
+138/texture = ExtResource( 7 )
+138/tex_offset = Vector2( 0, 0 )
+138/modulate = Color( 1, 1, 1, 1 )
+138/region = Rect2( 16, 0, 16, 16 )
+138/tile_mode = 0
+138/occluder_offset = Vector2( 0, 0 )
+138/navigation_offset = Vector2( 0, 0 )
+138/shape_offset = Vector2( 0, 0 )
+138/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+138/shape_one_way = false
+138/shape_one_way_margin = 0.0
+138/shapes = [  ]
+138/z_index = 0
+139/name = "Conditions_0_2"
+139/texture = ExtResource( 7 )
+139/tex_offset = Vector2( 0, 0 )
+139/modulate = Color( 1, 1, 1, 1 )
+139/region = Rect2( 32, 0, 16, 16 )
+139/tile_mode = 0
+139/occluder_offset = Vector2( 0, 0 )
+139/navigation_offset = Vector2( 0, 0 )
+139/shape_offset = Vector2( 0, 0 )
+139/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+139/shape_one_way = false
+139/shape_one_way_margin = 0.0
+139/shapes = [  ]
+139/z_index = 0

@@ -38,7 +38,7 @@ func drawCellByPosandReach(direction,pos,reach,texture):
 	_Simplex.drawCellByPosandReach(direction,pos,int(reach),texture)
 
 
-
+ 
 #----- SHAPES ----------------------------------------------------------------##
 
 func manageToHegel(entArray:Array,mode:String,mod=-1,comp=C_2_ANY_TEXTURE_ID.name_quack()):

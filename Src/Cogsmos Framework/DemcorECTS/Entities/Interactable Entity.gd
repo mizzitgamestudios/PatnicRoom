@@ -12,7 +12,7 @@ var position: 				Vector2
 func _on_TileEntity_looks_for_comp(emit:TileEntity,reach:int,compName:String):
 	return isSignalInReach(emit,reach) and self.has(compName)
 
-func _on_TileEntity_Validate_Use(emit:TileEntity,reach:int,tileNamePara:String):	
+func _on_o(emit:TileEntity,reach:int,tileNamePara:String):	
 	return isSignalInReach(emit,reach) and self.textureID() == tileNamePara
 
 

@@ -26,18 +26,19 @@ func fillPanelWithKitToString():#
 		
 		fillTitel(i,playerKitValue[i])
 		fillBase(i,playerKitValue[0])
-		
-		if playerKitValue.size() == 2:
-			if playerKitValue[1].partType.value == "MOD":
-				fillMod(i,playerKitValue[1])
-			elif playerKitValue[1].partType.value == "APPENDIX":
-				fillAppendix(i,playerKitValue[1])
-		
-		if playerKitValue.size() == 3:
-			if playerKitValue[2].partType.value == "MOD":
-				fillMod(i,playerKitValue[2])
-			elif playerKitValue[2].partType.value == "APPENDIX":
-				fillAppendix(i,playerKitValue[2])
+
+
+#		if playerKitValue.size() == 2:
+#			if playerKitValue[1].partType() == "MOD":
+#				fillMod(i,playerKitValue[1])
+#			elif playerKitValue[1].partType() == "APPENDIX":
+#				fillAppendix(i,playerKitValue[1])
+#
+#		if playerKitValue.size() == 3:
+#			if playerKitValue[2].partType() == "MOD":
+#				fillMod(i,playerKitValue[2])
+#			elif playerKitValue[2].partType() == "APPENDIX":
+#				fillAppendix(i,playerKitValue[2])
 
 
 func fillTitel(i,kitpart):

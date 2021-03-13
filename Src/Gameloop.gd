@@ -7,6 +7,9 @@ func initPanic():
 
 func startTitleMode():
 	get_tree().change_scene("res://Src/scenes/Unique/Titlescreen/Title.tscn")
+
+
+
 func startRestMode():
 	get_tree().change_scene("res://Src/scenes/Gameloop/RestMode/Init.tscn")
 func startPanicMode():
@@ -34,7 +37,9 @@ func beginActorTurn():
 	Signals.emit_signal("Effect_Turn_Started")
 	Signals.emit_signal("Effect_Turn_Finished")
 	API_012_Behavior.loopThroughActor()
-
+	Signals.emit_signal("Actor_Turn_Finished")
 	API_009_Tilemap.updateDirtyTiles()
 
-#hello
+
+
+

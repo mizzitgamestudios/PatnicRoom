@@ -29,6 +29,7 @@ func getLayer(string:String) -> Dictionary:
 		"Magic ground":			return SokraTiles.tilemap[5]
 		"Magic interactables":	return SokraTiles.tilemap[6]
 		"selection":			return SokraTiles.tilemap[7]
+		"condition":			return SokraTiles.tilemap[8]
 	return {}
 
 
@@ -97,5 +98,6 @@ func getMagicFloor():
 func getSelection():
 	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.SELECTION)
 
-
+func getCondition():
+	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.CONDITION)
 

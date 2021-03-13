@@ -10,12 +10,13 @@ var id: int
 var level: int
 var duration: int
 var isNeutraliced: bool
+var textureID: String
 var logToString: String
 var affectedEnt: Entity
 var symbioticComponents: Dictionary
 var conditionSymbiotic: Dictionary # []
 var statSymbiotic: Dictionary # [][4]
- 
+var indexName 
 
 
 ################################################################################
@@ -23,7 +24,6 @@ var statSymbiotic: Dictionary # [][4]
 ################################################################################
 
 func _init() -> void:
-	#
 	Signals.connect("updateEntropy", self, "_On_Update_Entropy")
 	
 	#Signals.connect("Effect_Turn_Finished",self,"validatePossibleSymbiotics")
@@ -42,10 +42,11 @@ func getArrayOfSymbioticComponents():
 	return symbioticComponents.keys()
 
 
-func attachToEnt(ent,condName):
+func attachToEnt(ent):
+	Signals.connect("Effect_Turn_Started", self, "run")
 	Signals.connect("Effect_Turn_Finished", self, "validatePossibleSymbiotics")
 	self.affectedEnt = ent
-	ent.dictOfConds[condName]= self
+	ent.dictOfConds[textureID]= self
 
 
 

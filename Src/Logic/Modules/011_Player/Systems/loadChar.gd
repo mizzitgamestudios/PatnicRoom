@@ -90,7 +90,7 @@ func loadKitventory():
 # ---- INDIRECT ---- #
 func loadIndirectStats():
 	var johnnyCache = charToLoad.getComp(C_19_ACTOR_ATTRIBUTES.name_quack())
-	charToLoad.addComponent(C_26_ACTOR_INDIRECT_STATS.new(johnnyCache))
+	C_26_ACTOR_INDIRECT_STATS.new(johnnyCache,charToLoad)
 
 
 
