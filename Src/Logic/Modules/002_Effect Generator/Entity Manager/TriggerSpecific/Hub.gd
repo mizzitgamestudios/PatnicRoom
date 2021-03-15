@@ -16,7 +16,7 @@ func manageSpecificTrigger(ent:KitSetEntity,collectedEnts:Array):
 			"HAS_STAT"        :  returnArray += hasStat(collectedEnts,metaValue)
 			"END_HAS_REACHED" :  return collectedEnts
 			"CHANCE"          :  return collectedEnts
-			"HAS_TEXTURE"     :  returnArray += hasTexture(collectedEnts,metaValue)
+			"HAS_TEXTURE"     :  returnArray += hasTexture(collectedEnts,metaValue[i])
 	print(returnArray.size())
 	return returnArray
 
@@ -76,15 +76,12 @@ func endHasReached():
 func hasTexture(collectedEnts:Array,metaValue):
 	var returnArray = []
 
-	for i in metaValue.size():
-		var currentTextureToValidate = metaValue[i]
+	for j in collectedEnts.size():
+		var currentEnt = collectedEnts[j]
+		var textureOfEnt = currentEnt.textureID()
 
-		for j in collectedEnts.size():
-			var currentEnt = collectedEnts[j]
-			var textureOfEnt = currentEnt.textureID()
-
-			if textureOfEnt == currentTextureToValidate: 
-				returnArray.append(currentEnt)
+		if textureOfEnt == metaValue: 
+			returnArray.append(currentEnt)
 
 	return returnArray
 

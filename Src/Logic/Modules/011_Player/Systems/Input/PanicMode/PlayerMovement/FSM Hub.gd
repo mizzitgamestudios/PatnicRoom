@@ -37,12 +37,13 @@ func takeActionByEnum(event,previousState:int) -> int:
 
 		if event.is_action_pressed("Panic_Kit_Selection"):
 			kitsetCache = kitSelect(event)
-			API_005_KitSet.getInitialKitsetSelect(kitsetCache)
-			
-			API_014_TilemapSelector.drawMarkerByKitset(kitsetCache)
-			API_005_KitSet.getKitSelect(kitsetCache)
-			
-			return checkForDirectionNeeded(kitsetCache)
+			if is_instance_valid(kitsetCache):
+				API_005_KitSet.getInitialKitsetSelect(kitsetCache)
+				
+				API_014_TilemapSelector.drawMarkerByKitset(kitsetCache)
+				API_005_KitSet.getKitSelect(kitsetCache)
+				
+				return checkForDirectionNeeded(kitsetCache)
 
 
 
@@ -56,7 +57,7 @@ func takeActionByEnum(event,previousState:int) -> int:
 
 
 
-	return ENUM.PANIC_PLAYER_STATE.STANDING
+	return ENUM.PANIC_PLAYER_STATE.INVALID
 
 
 

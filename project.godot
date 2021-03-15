@@ -305,9 +305,24 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C57.gd"
 }, {
 "base": "Component",
+"class": "C_58_ALTERNATIVE_TEXTURES",
+"language": "GDScript",
+"path": "res://Src/Components/C58.gd"
+}, {
+"base": "Component",
+"class": "C_59_KIT_MOD_CHANGE",
+"language": "GDScript",
+"path": "res://Src/Components/C59.gd"
+}, {
+"base": "Component",
 "class": "C_5_ANY_MATRIX_NOISE",
 "language": "GDScript",
 "path": "res://Src/Components/C5.gd"
+}, {
+"base": "Component",
+"class": "C_60_BASE_KIT_REFERENCE",
+"language": "GDScript",
+"path": "res://Src/Components/C60.gd"
 }, {
 "base": "Component",
 "class": "C_6_TILE_NAME",
@@ -864,6 +879,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_PLAIN_DAMAGE.gd"
 }, {
+"base": "Object",
+"class": "U_OPEN_DOOR",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_OPEN_DOOR.gd"
+}, {
 "base": "Panel",
 "class": "UniversalCheckbox",
 "language": "GDScript",
@@ -888,11 +908,6 @@ _global_script_classes=[ {
 "class": "_003_ConditionIndex",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/003_Conditions/Entity Manager/ConditionIndex.gd"
-}, {
-"base": "Node",
-"class": "_003_ConditionManager",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/003_Conditions/Entity Manager/ConditionHub.gd"
 }, {
 "base": "Object",
 "class": "_005_Get",
@@ -1144,7 +1159,10 @@ _global_script_class_icons={
 "C_55_Gear": "",
 "C_56_BASE_CONNECTOR": "",
 "C_57_HITPOINTS": "",
+"C_58_ALTERNATIVE_TEXTURES": "",
+"C_59_KIT_MOD_CHANGE": "",
 "C_5_ANY_MATRIX_NOISE": "",
+"C_60_BASE_KIT_REFERENCE": "",
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
 "C_9_ANY_UNIQUE_COMPONENTS": "",
@@ -1256,12 +1274,12 @@ _global_script_class_icons={
 "TilesetParser": "",
 "U_CHANGE_TEXTURE": "",
 "U_DEAL_PLAIN_DAMAGE": "",
+"U_OPEN_DOOR": "",
 "UniversalCheckbox": "",
 "Utils": "",
 "WorldMap": "",
 "_002_EntityManager": "",
 "_003_ConditionIndex": "",
-"_003_ConditionManager": "",
 "_005_Get": "",
 "_005_KitSetMerger": "",
 "_005_Select": "",

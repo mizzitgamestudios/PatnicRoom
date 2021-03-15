@@ -7,9 +7,6 @@ var base: KitPartEntity
 var mod: KitPartEntity
 var appendix: KitPartEntity
 
-
-var selectedTiles: Array = []
-
 #VAR name of Kitset shown to player 
 var toString: String
 
@@ -21,6 +18,8 @@ var reach: int
 
 var listOfEffects: Array
 var initialSelect = []
+
+var effect:EffectEntity 
 
 
 

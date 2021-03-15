@@ -71,9 +71,10 @@ class KitpartEntry:
 	func _init(basepara) -> void:
 		baseKit = basepara
 
-		var arr = API_017_Atlas._kitparts.getEntitiesWithCompValue(basepara.name(),C_56_BASE_CONNECTOR.name_quack())
+		var arr = API_017_Atlas._kitparts.getEntitiesWithCompValue(basepara.name(),C_60_BASE_KIT_REFERENCE.name_quack())
 		for i in arr.size():
-			modArr[arr[i].name()] = arr[i]
+			var currentMod = arr.values()[i]
+			modArr[currentMod.name()] = arr.values()[i]
 
 
 

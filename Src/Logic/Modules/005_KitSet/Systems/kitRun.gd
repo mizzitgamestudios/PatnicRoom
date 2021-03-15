@@ -18,9 +18,18 @@ func statModParse(statModArray):
 
 		var currentTile = selectedTiles [0]
 		var currentStat = statModArray  [i]
+		var keyword
+		var modValue
 		
-		var keyword     = currentStat   [0]
-		var modValue    = currentStat   [1]
+		if statModArray.size() == 2:
+			keyword     = currentStat   [0]
+			modValue    = currentStat   [1]
+		
+		if statModArray.size() == 1:
+			keyword     = currentStat   [0]
+			modValue    = 0
+		
+
 
 		for j in currentTile.size():
 			if   DIOJSONES_SYNTAX.EFFECT_UNIQUE_STATMOD.has(keyword):  DIOJSONES_UNIQUE_STATMOD.manageUniqueStatmod(currentTile[j],keyword,modValue)
@@ -37,7 +46,7 @@ func conditionParse(statModArray):
 		var currentCond = statModArray [i]
 		var currentSelect = selectedTiles[i]
 		
-		API_003_Condition.attachConditionToEnt(currentSelect[i], currentCond.indexName, currentCond.duration, currentCond.level)
+		API_003_Condition.attachConditionToEnt(currentSelect[i], currentCond.indexName_quack(), currentCond.duration, currentCond.level)
 		
 		#if   API_003_Condition.getAllConditions().has(keyword):  API_003_Condition.attachConditionToEnt(currentTile[j],keyword,duration,intensity)
 

@@ -598,6 +598,104 @@
          "type":"WALL"
         }, 
         {
+         "id":32,
+         "properties":[
+                {
+                 "name":"C_0_ANY_DESCRIPTION",
+                 "type":"string",
+                 "value":"A low security door for common housings"
+                }, 
+                {
+                 "name":"C_1_ANY_IS_WALKABLE",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"C_2_ANY_TEXTURE_ID",
+                 "type":"string",
+                 "value":"Suburban_2_0"
+                }, 
+                {
+                 "name":"C_3_ANY_LAYER",
+                 "type":"string",
+                 "value":"meat-ground"
+                }, 
+                {
+                 "name":"C_4_ANY_MAGIC_NOISE",
+                 "type":"int",
+                 "value":0
+                }, 
+                {
+                 "name":"C_5_ANY_MATRIX_NOISE",
+                 "type":"int",
+                 "value":0
+                }, 
+                {
+                 "name":"C_6_TILE_NAME",
+                 "type":"string",
+                 "value":"Simple Door"
+                }, 
+                {
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
+                 "type":"bool",
+                 "value":false
+                }]
+        }, 
+        {
+         "id":33,
+         "properties":[
+                {
+                 "name":"C_0_ANY_DESCRIPTION",
+                 "type":"string",
+                 "value":"A low security door for common housings"
+                }, 
+                {
+                 "name":"C_1_ANY_IS_WALKABLE",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"C_2_ANY_TEXTURE_ID",
+                 "type":"string",
+                 "value":"Suburban_2_1"
+                }, 
+                {
+                 "name":"C_3_ANY_LAYER",
+                 "type":"string",
+                 "value":"meat-ground"
+                }, 
+                {
+                 "name":"C_4_ANY_MAGIC_NOISE",
+                 "type":"int",
+                 "value":0
+                }, 
+                {
+                 "name":"C_5_ANY_MATRIX_NOISE",
+                 "type":"int",
+                 "value":0
+                }, 
+                {
+                 "name":"C_6_TILE_NAME",
+                 "type":"string",
+                 "value":"Simple Door"
+                }, 
+                {
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
+                 "type":"bool",
+                 "value":false
+                }]
+        }, 
+        {
          "id":44,
          "properties":[
                 {
@@ -876,6 +974,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_58_ALTERNATIVE_TEXTURES",
+                 "type":"string",
+                 "value":"Suburban_2_0"
+                }, 
+                {
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
@@ -924,6 +1027,11 @@
                  "name":"C_4_ANY_MAGIC_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_58_ALTERNATIVE_TEXTURES",
+                 "type":"string",
+                 "value":"Suburban_2_1"
                 }, 
                 {
                  "name":"C_5_ANY_MATRIX_NOISE",
@@ -976,6 +1084,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_58_ALTERNATIVE_TEXTURES",
+                 "type":"string",
+                 "value":"Suburban_2_1"
+                }, 
+                {
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
@@ -1024,6 +1137,11 @@
                  "name":"C_4_ANY_MAGIC_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_58_ALTERNATIVE_TEXTURES",
+                 "type":"string",
+                 "value":"Suburban_2_0"
                 }, 
                 {
                  "name":"C_5_ANY_MATRIX_NOISE",

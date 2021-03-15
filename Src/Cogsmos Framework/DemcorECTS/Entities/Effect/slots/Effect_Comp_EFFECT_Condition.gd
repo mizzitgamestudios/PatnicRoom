@@ -11,7 +11,7 @@ func _init(dict:Array):
 	for i in dict.size():
 		var currentCondition = dict[i]
 
-		var conditionClass = API_003_Condition.getCondition(currentCondition[0])
+		var conditionClass = API_003_Condition.getConditionByName(currentCondition[0])
 		var listEntry = conditionClass.new(int(currentCondition[1]),int(currentCondition[2]))
 		
 		condtionList.append(listEntry)

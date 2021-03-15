@@ -36,7 +36,7 @@ func getKitparts():
 			addLine("#### Mods:  ")
 			
 			for modEntry in modsForKitpart.size():
-				var currentMod = modsForKitpart[modEntry]
+				var currentMod = modsForKitpart.values()[modEntry]
 				
 				modKitToDok(currentMod)
 			

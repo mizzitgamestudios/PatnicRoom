@@ -46,7 +46,6 @@ func _input(event: InputEvent) -> void:
 
 func manageRound():
 	Signals.emit_signal("Effect_Turn_Finished")
-	print("----")
 	API_011_Player.inputMode = true
 
 

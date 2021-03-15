@@ -28,7 +28,7 @@ func secureEntityGeneration_quack(dict_or_ent,modeOfGeneration:String):
 	match modeOfGeneration:
 		"dict":        return ._constructEnt_quack(dict_or_ent,newEnt)
 		"commonEnt":   return ._convertEnt_quack(dict_or_ent,newEnt)
-		"specificEnt": return ._convertEnt_quack(dict_or_ent,newEnt)
+		"copy":        return ._convertEnt_quack(dict_or_ent,newEnt)
 		_:             return KitPartEntity
 
 	
@@ -52,9 +52,20 @@ func getKitPartByTextureID(textureIDIndex:String):
 	
 	return KitPartEntity
 	
-	
 
-	
+func convertToSpecificEntity(ent:KitPartEntity):
+	var catType = ent.getComp(C_31_KIT_CAT_TYPE.name_quack())
+	var partType = ent.getComp(C_38_KIT_PART_TYPE.name_quack())
+	var currentEnt
+	match partType.value:
+		"BASE":
+			currentEnt = BaseKitPartEntity.new(ent)
+		"MOD":
+			currentEnt = ModKitPartEntity.new(ent)
+		"APPENDIX":
+			currentEnt = AppendixKitPartEntity.new(ent)
+		
+	return currentEnt
 
 
 

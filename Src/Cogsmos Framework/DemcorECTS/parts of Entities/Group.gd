@@ -61,9 +61,9 @@ func convertToSpecificEntity(ent:Entity):
 		"BASE":
 			currentEnt = BaseKitPartEntity.new(ent)
 		"MOD":
-			currentEnt = BaseKitPartEntity.new(ent)
+			currentEnt = ModKitPartEntity.new(ent)
 		"APPENDIX":
-			currentEnt = BaseKitPartEntity.new(ent)
+			currentEnt = AppendixKitPartEntity.new(ent)
 		
 	return currentEnt
 

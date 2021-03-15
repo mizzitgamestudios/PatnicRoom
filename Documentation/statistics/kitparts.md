@@ -10,15 +10,16 @@
 #### Mods:  
  
 # Hacks  
-### Guest List Injector
+### Doorkey Spoofer
 |name|value|
 |-|-|
 |description|A HomeSec apprentice accidentily posted their account password on P2.1,almost like an inivitation for readers into the homes of his customers|
 |mechanicalSummary|opens Sec1 doors|
 |cooldownTime|4|
-|rarity|1|
+|rarity|3|
 |modTime|2|
 #### Mods:  
+|[Object:3508]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|

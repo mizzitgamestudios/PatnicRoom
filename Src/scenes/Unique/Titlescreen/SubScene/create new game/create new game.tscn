@@ -147,7 +147,7 @@ func isEveryCheckBoxSet():
 	var race = API_011_Player.chargenSelecttion[\"race\"]
 	
 	
-	return kit != null and str(perk) != null and race != null
+	return kit != null and race != null
 
 
 func _input(event):
@@ -350,6 +350,7 @@ __meta__ = {
 position = Vector2( 1461, 426 )
 
 [node name="nameInput" type="RichTextLabel" parent="Seed"]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = -61.0
 margin_top = 114.0
 margin_right = 310.0
@@ -521,6 +522,7 @@ __meta__ = {
 position = Vector2( 13, 162 )
 
 [node name="nameText" type="RichTextLabel" parent="Perk"]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1376.0
 margin_top = 456.0
 margin_right = 1736.0
@@ -535,6 +537,7 @@ __meta__ = {
 }
 
 [node name="explanation2" type="RichTextLabel" parent="Perk"]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1400.0
 margin_top = 496.0
 margin_right = 1824.0
@@ -549,6 +552,7 @@ __meta__ = {
 }
 
 [node name="Panel" type="Panel" parent="."]
+visible = false
 margin_left = 1624.0
 margin_top = 448.0
 margin_right = 1795.0
@@ -820,6 +824,7 @@ __meta__ = {
 }
 
 [node name="RichTextLabel8" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1461.0
 margin_top = 700.0
 margin_right = 1573.0
@@ -834,6 +839,7 @@ __meta__ = {
 }
 
 [node name="RichTextLabel9" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1464.0
 margin_top = 777.0
 margin_right = 1552.0
@@ -848,6 +854,7 @@ __meta__ = {
 }
 
 [node name="RichTextLabel10" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1464.0
 margin_top = 840.0
 margin_right = 1548.0
@@ -875,6 +882,7 @@ __meta__ = {
 }
 
 [node name="RichTextLabel12" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1664.0
 margin_top = 712.0
 margin_right = 1760.0
@@ -889,6 +897,7 @@ __meta__ = {
 }
 
 [node name="RichTextLabel13" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
 margin_left = 1664.0
 margin_top = 777.0
 margin_right = 1792.0

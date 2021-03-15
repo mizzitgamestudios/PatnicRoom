@@ -46,7 +46,7 @@ func runKitSet(kitset):
 func getSlot(kitset:KitSetEntity,kitPart:String,unit:int,slot:String):  return _getter.getSlot(kitset,kitPart,unit,slot)
 func getUnit(kitset:KitSetEntity,kitPart:String,unit:int):              return _getter.getUnit(kitset,kitPart,unit)
 func getKitPart(kitset:KitSetEntity,kitPart:String):                    return _getter.getKitPart(kitset,kitPart)
-func getInitialSlot(kitSet:KitSetEntity,slotName:String):               return getSlot(kitSet,kitSet.initialSelect[0],kitSet.initialSelect[1],slotName)
+func getInitialSlot(kitSet:KitSetEntity,slotName:String):               return getSlot(kitSet,"KITSET",kitSet.initialSelect[1],slotName)
 
 #FUNC after first initial Select of Kit, it will be cached 
 func getInitialKitsetSelect(kitset:KitSetEntity):

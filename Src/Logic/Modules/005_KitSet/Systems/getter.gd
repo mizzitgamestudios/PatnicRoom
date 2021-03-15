@@ -33,5 +33,6 @@ func getKitPart(kitset:KitSetEntity,kitPart:String):
 		"MOD":	return kitset.mod
 		"BASE":	return kitset.base
 		"APPENDIX":	return kitset.appendix
+		"KITSET": return kitset
 	pass
 

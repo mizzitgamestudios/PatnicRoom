@@ -14,7 +14,6 @@ func startRestMode():
 	get_tree().change_scene("res://Src/scenes/Gameloop/RestMode/Init.tscn")
 func startPanicMode():
 	SokraTiles.parseTilemap("res://Media/TileMap/custome/Suburban.json")
-	#SokraTiles.parseTilemap("res://Media/TileMap/custome/Suburban.json")
 	get_tree().change_scene("res://Src/scenes/Gameloop/PanicMode/PanicMode.tscn")
 
 

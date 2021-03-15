@@ -1,10 +1,10 @@
 {
    "C_6_TILE_NAME":{
       "type":"ENTRY_SIMPLE",
-      "value":"Guest List Injector"
+      "value":"Doorkey Spoofer"
    },
    "F_5_KITPART_TYPE":{
-      "type":"FLAG",
+      "type":"FLAG"
    },
    "C_0_ANY_DESCRIPTION":{
       "type":"ENTRY_SIMPLE",
@@ -12,7 +12,7 @@
    },
    "C_40_ANY_TO_STRING":{
       "type":"ENTRY_SIMPLE",
-      "value":"Guest List Injector"
+      "value":"Doorkey Spoofer"
    },
    "C_35_KIT_MECHANICAL_SUMMARY":{
       "type":"ENTRY_SIMPLE",
@@ -40,13 +40,7 @@
    },
    "C_48_ANY_RARITY":{
       "type":"ENTRY_SIMPLE",
-      "value":"1"
-   },
-   "C_39_KIT_STRATEGY_KEYWORD":{
-      "type":"ENTRY_ARRAY",
-      "value":[
-         "command: run()"
-      ]
+      "value":"3"
    },
    "C_49_EFFECT_REFERENCE":{
       "type":"ENTRY_EFFECT",
@@ -60,16 +54,16 @@
          "TRIGGER-0":{
             "BASE":"INTERACT_ACTOR",
             "SPECIFIC":[
-               ["HAS_TEXTURE","Suburban_4_3"],
-               ["HAS_TEXTURE","Suburban_4_4"]
+               ["HAS_TEXTURE","Suburban_4_0"],
+               ["HAS_TEXTURE","Suburban_4_1"]
             ]
          }
       },
       "SPACE":{
          "SPACE-0":{
-            "MEDIUM":"SELECT",
+            "MEDIUM":"LINEA",
             "SOURCE":"SELF",
-            "REACH":"25",
+            "REACH":"2",
             "M_TYPE":"MEAT"
          }
       },
@@ -78,8 +72,7 @@
             "CONDITION":[
             ],
             "STAT_MOD":[
-              ["C_1_ANY_IS_WALKABLE",true],
-              ["U_CHANGE_TEXTURE","Suburban_0_3"]
+              ["U_OPEN_DOOR"]
             ]
          }
       }

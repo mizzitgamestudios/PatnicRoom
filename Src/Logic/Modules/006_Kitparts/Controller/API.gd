@@ -18,7 +18,9 @@ func _init() -> void:
 #VAR  [C_4_ANY_MAGIC_NOISE ]  [C_3_ANY_LAYER ] [C_5_ANY_MATRIX_NOISE] [C_6_TILE_NAME ]   
 func contextualEntityGeneration_quack(dict_or_ent):
 	var ent = _kitPartEntManager.contextualEntityGeneration_quack(dict_or_ent)
+	ent = _kitPartEntManager.convertToSpecificEntity(ent)
 	API_017_Atlas.getKitpartsAtlas().addEntity(ent)
 	return ent
 
-
+func secureEntityGeneration_quack(ent,mode:String):
+	return _kitPartEntManager.secureEntityGeneration_quack(ent,mode)

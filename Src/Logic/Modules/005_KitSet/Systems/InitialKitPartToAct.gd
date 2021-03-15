@@ -7,11 +7,8 @@ var returnVal = -1
 var kitpartToString
 
 func getInitialKitsetSelect(kitset:KitSetEntity):
-	var initialBase = checkForInitialByKitpart(API_005_KitSet.getKitPart(kitset,"BASE"))
+	var initialBase = checkForInitialByKitpart(kitset.effect)
 	if isEarlierThanPrevious(initialBase): setNewInital(initialBase,"BASE")
-	
-	if kitset.hasMod():      checkFor("MOD",kitset,initialBase)
-	if kitset.hasAppendix(): checkFor("APPENDIX",kitset,initialBase)
 	
 	
 	var initialSelect = [kitpartToString,returnVal]
@@ -38,11 +35,11 @@ func isEarlierThanPrevious(newKitpart:String):
 
 
 
-func checkForInitialByKitpart(kitPart:KitPartEntity):
-		if   kitPart.effect.spawnComponent  != null: return "SPAWN"
-		elif kitPart.effect.onsetComponent  != null: return "ONSET"
-		elif kitPart.effect.hitComponent    != null: return "HIT"
-		elif kitPart.effect.offsetComponent != null: return "OFFSET"
+func checkForInitialByKitpart(effect):
+		if   effect.spawnComponent  != null: return "SPAWN"
+		elif effect.onsetComponent  != null: return "ONSET"
+		elif effect.hitComponent    != null: return "HIT"
+		elif effect.offsetComponent != null: return "OFFSET"
 
 
 
