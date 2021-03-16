@@ -19,5 +19,5 @@ func _init():
 
 
 
-func changeStat(comp,mod):
-	changeStat.run(comp,mod)
+func changeStat(ent,comp,mod):
+	changeStat.run(ent,comp,mod)

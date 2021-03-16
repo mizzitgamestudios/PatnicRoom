@@ -11,7 +11,6 @@ func setDirectionOfKitset(direction,kitset):
 	API_011_Player.resetSelectedTiles()
 
 
-
 func getKitSelect(kitSet:KitSetEntity):
 	var selectedPos = API_011_Player.getSelectedTiles()
 	
@@ -23,11 +22,6 @@ func getKitSelect(kitSet:KitSetEntity):
 
 
 
-
-
-
-
-
 func setTriggersOnMap(kitset):
 	API_011_Player.getSelectedTilesComp().resetAlerted()
 	var basicTrigger    = API_002_Effect.getTriggerableByBase(kitset,API_011_Player.getSelectedTiles())
@@ -35,7 +29,6 @@ func setTriggersOnMap(kitset):
 	
 	API_011_Player.getSelectedTilesComp().appendAlerted(specificTrigger)
 	return specificTrigger
-
 
 
 
@@ -57,12 +50,5 @@ func checkForSelectFormatting(kitSet,tile,currentEntity):
 		API_014_TilemapSelector._Simplex.drawSelectHighlighter(currentEntity.pos(), cachedLastPos)
 	
 		if tile == 0: API_014_TilemapSelector._Simplex.drawSelectBorder(kitSet)
-
-
-
-
-
-
-
 
 

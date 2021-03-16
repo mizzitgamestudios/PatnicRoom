@@ -27,13 +27,13 @@ func _init() -> void:
 #FUNC !NOTE! does not return primitve Datatype, use this: getCompValue()                    
 #FUNC return value-type may vary                                                            
 func getComp(componentName):	
-	if has(str(componentName)):    return dictOfComps[str(componentName)]
+	if has(str(componentName)):    return self.dictOfComps[str(componentName)]
 	else:                          return print("no component of number "+str(componentName)+" found")
 
 
 #FUNC return type may vary                                                                  
 func getCompValue(componentName):  
-	return getComp(componentName).value
+	return self.getComp(componentName).value
 
 
 #FUNC !NOTE! does not return primitve Datatype, use for this: getCompTempValue()            

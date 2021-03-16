@@ -1,17 +1,17 @@
-{
+ {
 
-   "C_6_TILE_NAME"               : "Finger Guns",
+   "C_6_TILE_NAME"               : "4th Wallbreak",
    "F_5_KITPART_TYPE"            : "N/A",
-   "C_0_ANY_DESCRIPTION"         : "silenced pistole installed in your index finger. a Community favorite of professional Hitman and eccentric Gays",
-   "C_40_ANY_TO_STRING"          : "Finger Guns",
-   "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec1 doors",
+   "C_0_ANY_DESCRIPTION"         : "//TODO: add description",
+   "C_40_ANY_TO_STRING"          : "4th Wallbreak",
+   "C_35_KIT_MECHANICAL_SUMMARY" : "deals 10 structure-pointts damage, 20 for thin walls",
    "C_48_ANY_RARITY"             : "3",
 
-   "C_37_ANY_M_TYPE"             : "MEAT",
-   "C_31_KIT_CAT_TYPE"           : "HACK",
+   "C_37_ANY_M_TYPE"             : "MAGIC",
+   "C_31_KIT_CAT_TYPE"           : "INFUSION",
    "C_38_KIT_PART_TYPE"          : "BASE",
    "C_36_KIT_MOD_TIME"           : "2",
-   "C_33_KIT_COOLDOWN_TIMER"     : "4",
+   "C_33_KIT_COOLDOWN_TIMER"     : "1",
    
 
 
@@ -30,8 +30,10 @@
          "TRIGGER-0":{
             "BASE":"INTERACT_ACTOR",
             "SPECIFIC":[
-               ["HAS_TEXTURE","Suburban_4_0"],
-               ["HAS_TEXTURE","Suburban_4_1"]
+               ["HAS_TEXTURE","Suburban_5_13"],
+               ["HAS_TEXTURE","Suburban_7_13"],
+               ["HAS_TEXTURE","Suburban_6_12"],
+               ["HAS_TEXTURE","Suburban_6_14"]
             ]}
 
       },
@@ -41,7 +43,7 @@
          "SPACE-0":{
             "MEDIUM":"LINEA",
             "SOURCE":"SELF",
-            "REACH":"2",
+            "REACH":"1",
             "M_TYPE":"MEAT"
          }
 
@@ -52,7 +54,7 @@
          "EFFECT-0":{
             "CONDITION":[],
             "STAT_MOD":[
-            ["U_OPEN_DOOR"]
+               ["U_DEAL_STRUCTURAL_DAMAGE",10]
             ]}
 
       }}

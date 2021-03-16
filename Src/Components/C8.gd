@@ -1,11 +1,14 @@
 extends Component
-class_name C_33_KIT_COOLDOWN_TIMER
+class_name C_8_STRUCTURE_HP
 
-var value:int
+
+var value 
+
 
 func _init(valuePara):
-	name = "C_33_KIT_COOLDOWN_TIMER"
-	value = int(valuePara)
+	name="C_8_STRUCTURE_HP"
+	value = valuePara
+
 
 
 ########################
@@ -19,5 +22,5 @@ const autodoc={
 	"dataType":"String",
 	"notable":"Needs to be a key of the naming convention 'ENUM.LAYERS_OF_EFFECT.SOKRATILES_LAYER'"
 }
-static func name_quack():      return "C_33_KIT_COOLDOWN_TIMER"
+static func name_quack():      return "C_8_STRUCTURE_HP"
 static func dioJSONType_quack(): return "INTEGER"

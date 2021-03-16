@@ -28,8 +28,8 @@ func changePlayerStat(compOfEnt,mod):
 
 
 func contextualEntityGeneration_quack(dict_or_ent):
-	if   dict_or_ent.has(C_47_ANY_SYNONYM.name_quack()): 			       API_017_Atlas.getRoles().addEntity(dict_or_ent)
-	elif dict_or_ent.has(C_15_ACTOR_ARRAY_BODYPARTS.name_quack()):	       API_017_Atlas.getRaces().addEntity(dict_or_ent)
+	if   dict_or_ent.hasFlag("F_10_ACTOR_ATTRIBUTES_ROLES"): 			       API_017_Atlas.getRoles().addEntity(dict_or_ent)
+	elif dict_or_ent.hasFlag("F_11_ACTOR_ATTRIBUTES_RACE"):	       API_017_Atlas.getRaces().addEntity(dict_or_ent)
 	elif dict_or_ent.hasFlag("F_7_ACTOR_ATTRIBUTES_SPECIALTY"):            API_017_Atlas.getSpecialty().addEntity(dict_or_ent)
 
 

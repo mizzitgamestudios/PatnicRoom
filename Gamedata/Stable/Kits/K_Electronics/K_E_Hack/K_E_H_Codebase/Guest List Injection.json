@@ -1,64 +1,42 @@
 {
-   "C_6_TILE_NAME":{
-      "type":"ENTRY_SIMPLE",
-      "value":"Doorkey Spoofer"
-   },
-   "F_5_KITPART_TYPE":{
-      "type":"FLAG"
-   },
-   "C_0_ANY_DESCRIPTION":{
-      "type":"ENTRY_SIMPLE",
-      "value":"A HomeSec apprentice accidentily posted their account password on P2.1,almost like an inivitation for readers into the homes of his customers"
-   },
-   "C_40_ANY_TO_STRING":{
-      "type":"ENTRY_SIMPLE",
-      "value":"Doorkey Spoofer"
-   },
-   "C_35_KIT_MECHANICAL_SUMMARY":{
-      "type":"ENTRY_SIMPLE",
-      "value":"opens Sec1 doors"
-   },
-   "C_37_ANY_M_TYPE":{
-      "type":"ENTRY_SIMPLE",
-      "value":"MEAT"
-   },
-   "C_31_KIT_CAT_TYPE":{
-      "type":"ENTRY_SIMPLE",
-      "value":"HACK"
-   },
-   "C_38_KIT_PART_TYPE":{
-      "type":"ENTRY_SIMPLE",
-      "value":"BASE"
-   },
-   "C_36_KIT_MOD_TIME":{
-      "type":"ENTRY_SIMPLE",
-      "value":"2"
-   },
-   "C_33_KIT_COOLDOWN_TIMER":{
-      "type":"ENTRY_SIMPLE",
-      "value":"4"
-   },
-   "C_48_ANY_RARITY":{
-      "type":"ENTRY_SIMPLE",
-      "value":"3"
-   },
+
+   "C_6_TILE_NAME"               : "Doorkey Spoofer",
+   "F_5_KITPART_TYPE"            : "N/A",
+   "C_0_ANY_DESCRIPTION"         : "A HomeSec apprentice accidentily posted their account password on P2.1,almost like an inivitation for readers into the homes of his customers",
+   "C_40_ANY_TO_STRING"          : "Doorkey Spoofer",
+   "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec1 doors",
+   "C_48_ANY_RARITY"             : "3",
+
+   "C_37_ANY_M_TYPE"             : "MEAT",
+   "C_31_KIT_CAT_TYPE"           : "HACK",
+   "C_38_KIT_PART_TYPE"          : "BASE",
+   "C_36_KIT_MOD_TIME"           : "2",
+   "C_33_KIT_COOLDOWN_TIMER"     : "4",
+   
+
+
+
    "C_49_EFFECT_REFERENCE":{
-      "type":"ENTRY_EFFECT",
+      
       "TIME":{
-        "TIME-0":"INSTANT",
-        "TIME-1":"N/A",
-        "TIME-2":"N/A",
-        "TIME-3":"N/A"
+      "TIME-0":"INSTANT",    
+      "TIME-1":"N/A",
+      "TIME-2":"N/A",
+      "TIME-3":"N/A"
       },
+
+
       "TRIGGER":{
          "TRIGGER-0":{
             "BASE":"INTERACT_ACTOR",
             "SPECIFIC":[
                ["HAS_TEXTURE","Suburban_4_0"],
                ["HAS_TEXTURE","Suburban_4_1"]
-            ]
-         }
+            ]}
+
       },
+      
+
       "SPACE":{
          "SPACE-0":{
             "MEDIUM":"LINEA",
@@ -66,19 +44,19 @@
             "REACH":"2",
             "M_TYPE":"MEAT"
          }
+
       },
+      
+
       "EFFECT":{
          "EFFECT-0":{
-            "CONDITION":[
-            ],
+            "CONDITION":[],
             "STAT_MOD":[
-              ["U_OPEN_DOOR"]
-            ]
-         }
-      }
-   },
-   "META":{
-      "type":"META",
-      "ENTITY_TYPE":"KITPART"
-   }
+            ["U_OPEN_DOOR"]
+            ]}
+
+      }}
+
+      
+
 }

@@ -52,6 +52,9 @@ func cacheGenerall():
 	# SKILLS
 	valuesOfComps.append( dictOfChar["skills"]      )
 	compsToAppend.append( C_20_ACTOR_SKILLBLOCK     )
+	# CREDITS
+	valuesOfComps.append( dictOfChar["credits"]      )
+	compsToAppend.append( C_9_CREDITS_ACCOUNT     )
 
 func loadGenerall():
 	for i in compsToAppend.size():

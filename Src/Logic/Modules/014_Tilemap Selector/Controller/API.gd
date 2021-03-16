@@ -41,24 +41,6 @@ func drawCellByPosandReach(direction,pos,reach,texture):
  
 #----- SHAPES ----------------------------------------------------------------##
 
-func manageToHegel(entArray:Array,mode:String,mod=-1,comp=C_2_ANY_TEXTURE_ID.name_quack()):
-	match mode:
-		"changeStat":
-			for i in entArray.size():
-				var texture = entArray[i].getComp(comp)
-				HeGEL.changeStat(texture,mod)
-
-		"changeTexture":
-			for i in entArray.size():
-				var texture = entArray[i].getComp("C_2_ANY_TEXTURE_ID")
-				HeGEL.changeStat(texture,mod)
-				API_009_Tilemap.appendDirtyTiles(SokraTiles.getMeatInteract(),entArray[i])
-				
-				var ent = SokraTiles.getMeatInteract().getEntByPos_quack(22,47,true)
-				print(ent.textureID())
-			
-
-
 func drawMarkerByKitset(kitSet:KitSetEntity):
 	var tilemapSelect   = SokraTiles.getSelection()
 	var sourcePos       = API_002_Effect.getSourcePos(kitSet)

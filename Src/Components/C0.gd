@@ -18,5 +18,5 @@ const autodoc={
 	"dataType":"String",
 	"notable":" "
 }
-static func name_quack():
-	return "C_0_ANY_DESCRIPTION"
+static func name_quack():      return "C_0_ANY_DESCRIPTION"
+static func dioJSONType_quack(): return "STRING"

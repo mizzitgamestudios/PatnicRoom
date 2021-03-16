@@ -7,8 +7,6 @@ func _init(valuePara:bool):
 	self.name = "C_1_ANY_IS_WALKABLE"
 	value = valuePara
 
-static func name_quack():
-	return "C_1_ANY_IS_WALKABLE"
 
 
 ########################
@@ -22,3 +20,5 @@ const autodoc={
 	"dataType":"bool",
 	"notable":" "
 }
+static func name_quack():      return "C_1_ANY_IS_WALKABLE"
+static func dioJSONType_quack(): return "BOOLEAN"

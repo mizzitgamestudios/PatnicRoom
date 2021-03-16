@@ -19,6 +19,7 @@ func _ready() -> void:
 	playerTilemapNode   = SokraTiles.getPlayer()
 	debugPanel          = .get_tree().get_root().get_node("Node2D/root_ViewMode/Debug")
 
+
 func getTilemapOfPerceptionMode():
 	var tilemapFloor = SokraTiles.getMeatFloor()
 	var tilemapInter = SokraTiles.getMeatInteract()
@@ -52,7 +53,6 @@ func _input(event: InputEvent) -> void:
 		if event.is_action("leftClickMouse"):
 			API_003_Condition.attachConditionToEnt(ent,"Elemental_Fire_Burning",3)
 
-			API_014_TilemapSelector.manageToHegel([ent],"changeStat",-1)
 			
 		if event.is_action("rightClickMouse"):
 			if is_instance_valid(lookAtInst):lookAtInst.queue_free()

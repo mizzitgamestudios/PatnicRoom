@@ -1,56 +1,31 @@
 {
-  "C_14_ACTOR_SPECIALTY_NAME": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "Drug_dealer"
-  },
-  "C_6_TILE_NAME": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "Drug dealer"
-  },
-  "C_47_ANY_SYNONYM": {
-    "type" : "Drug_dealer",
-    "value" : [
-      "orc"
-    ]
-  },
-  "F_6_ACTOR_ATTRIBUTES":{
-    "type":"FLAG"
- },
- "F_7_ACTOR_ATTRIBUTES_SPECIALTY":{
-  "type":"FLAG"
-},
-  "C_50_ACTOR_ROLE_DESCRIPTION": {
-    "type" : "ENTRY_SIMPLE",
-    "value" : "his Novacoke is so bad,he cuts it with Novacoke to get it more pure"
-  },
-  "C_19_ACTOR_ATTRIBUTES": {
-    "type" : "ENTRY_DICTIONARY",
-    "value" : {
-      "con":0,
-      "agi":0,
-      "rea":1,
-      "str":0,
 
-      "wil": 1,
-      "log": -1,
-      "int": -1,
-      "cha": 0
-    }
+  "C_14_ACTOR_SPECIALTY_NAME"      : "Drug_dealer",
+  "F_6_ACTOR_ATTRIBUTES"           : "N/A",
+  "F_7_ACTOR_ATTRIBUTES_SPECIALTY" : "N/A",
+  "C_50_ACTOR_ROLE_DESCRIPTION"    : "his Novacoke is so bad,he cuts it with Novacoke to get it more pure",
+  "C_47_ANY_SYNONYM"               : ["Drug dealer"],
+  "C_6_TILE_NAME"                  : "Drug dealer",
+
+  "C_19_ACTOR_ATTRIBUTES" : {
+    "con" :  0,
+    "agi" :  0,
+    "rea" :  1,
+    "str" :  0,
+
+    "wil" :  1,
+    "log" : -1,
+    "int" : -1,
+    "cha" :  0
   },
-  "C_20_ACTOR_SKILLBLOCK": {
-    "type" : "ENTRY_DICTIONARY",
-    "value":{
-      "NEGOTIATION":"2",
-      "DISGUISE":"3",
-      "CHEMISTRY":"5"
-      }
-    },
-  "META": {
-    "type":"META",
-    "GROUP" : "atlas_Specialties",
-    "GROUP_ENTRY_NAME":"Drug dealer",
-    "ENTITY_TYPE":"DEFAULT"
+
+
+  "C_20_ACTOR_SKILLBLOCK" : {
+    "NEGOTIATION"  : "2",
+    "DISGUISE"     : "3",
+    "CHEMISTRY"    : "5"
   }
+  
 
-
+  
 }

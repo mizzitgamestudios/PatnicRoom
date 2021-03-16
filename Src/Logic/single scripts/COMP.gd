@@ -14,14 +14,17 @@ func _init() -> void:
 		ATLAS_COMP_INDEX[CLASSES_ARRAY[i]] = INDEX_ARRAY[i]
 
 
-
-
-func GET_COMPONENT(componentName:String):
+func GET_BOTH(searchName:String, debugPara=false):
+	if   ATLAS_INDEX_COMP.has(searchName):    return ATLAS_INDEX_COMP[searchName]
+	elif ATLAS_FLAGS.has(searchName):         return ATLAS_FLAGS[searchName]
+	elif debugPara:                           print("Compnent with name: "+searchName+" not found"); return null
+	
+func GET_COMPONENT(componentName:String, debugPara=false):
 	if ATLAS_INDEX_COMP.has(componentName): return ATLAS_INDEX_COMP[componentName]
-	else:                                   print("Compnent with name: "+componentName+" not found"); return null
+	elif debugPara:                         print("Compnent with name: "+componentName+" not found"); return null
 
 func GET_FLAG(flagName:String, debugPara=false):
-	if   ATLAS_FLAGS.has(flagName):         return ATLAS_COMP_INDEX.get(flagName)
+	if   ATLAS_FLAGS.has(flagName):         return ATLAS_FLAGS.get(flagName)
 	elif debugPara:                         return print("flag with name: "+flagName+" not found")
 	else:                                   return null
 
@@ -36,7 +39,6 @@ var ATLAS_INDEX_COMP ={
 	"C_5_ANY_MATRIX_NOISE"      			: 	C_5_ANY_MATRIX_NOISE,
 	"C_6_TILE_NAME"         				: 	C_6_TILE_NAME,
 	"C_7_TILE_STATIC_TILESET_NR" 			:	C_7_TILE_STATIC_TILESET_NR,
-	"C_9_ANY_UNIQUE_COMPONENTS" 			: 	C_9_ANY_UNIQUE_COMPONENTS,
 	"C_10_ACTOR_PERKS"             			:   C_10_ACTOR_PERKS,
 	"C_11_ACTOR_RACE_NAME"        	 		:   C_11_ACTOR_RACE_NAME,
 	"C_50_ACTOR_ROLE_DESCRIPTION"  			: 	C_50_ACTOR_ROLE_DESCRIPTION,
@@ -51,8 +53,6 @@ var ATLAS_INDEX_COMP ={
 	"C_21_TILE_TILENAME" 					:   C_21_TILE_TILENAME,
 	"C_22_ACTOR_LIMITS"     				:   C_22_ACTOR_LIMITS,
 	"C_23_ACTOR_CARRIAGE"     				: 	C_23_ACTOR_CARRIAGE,
-	"C_24_ANY_CONDITION"         			:	C_24_ANY_CONDITION,
-	"C_25_ACTOR_PAINTOLLERANCE" 			: 	C_25_ACTOR_PAINTOLLERANCE,
 	"C_26_ACTOR_INDIRECT_STATS" 			:	C_26_ACTOR_INDIRECT_STATS,
 	"C_27_ACTOR_RACIAL_ENEMIES" 			: 	C_27_ACTOR_RACIAL_ENEMIES,
 	"C_28_ACTOR_RACIAL_FRIENDS"    			:   C_28_ACTOR_RACIAL_FRIENDS,
@@ -66,9 +66,7 @@ var ATLAS_INDEX_COMP ={
 	"C_36_KIT_MOD_TIME"        				: 	C_36_KIT_MOD_TIME,
 	"C_37_ANY_M_TYPE"            			:	C_37_ANY_M_TYPE,
 	"C_38_KIT_PART_TYPE"		    		: 	C_38_KIT_PART_TYPE,
-	"C_39_KIT_STRATEGY_KEYWORD"  			:	C_39_KIT_STRATEGY_KEYWORD,
 	"C_40_ANY_TO_STRING"       				: 	C_40_ANY_TO_STRING,
-	"C_41_ANY_POSITION" 	  				:   C_41_ANY_POSITION,
 	"C_42_ROLE_VARIETY"						:	C_42_ROLE_VARIETY,
 	"C_43_PLAYER_DESCRIPTION"				:	C_43_PLAYER_DESCRIPTION,
 	"C_44_PLAYER_STREETNAME"				: 	C_44_PLAYER_STREETNAME,
@@ -82,7 +80,9 @@ var ATLAS_INDEX_COMP ={
 	"C_56_BASE_CONNECTOR"					:	C_56_BASE_CONNECTOR,
 	"C_58_ALTERNATIVE_TEXTURES"             :   C_58_ALTERNATIVE_TEXTURES,
 	"C_59_KIT_MOD_CHANGE"                   :   C_59_KIT_MOD_CHANGE,
-	"C_60_BASE_KIT_REFERENCE"              : C_60_BASE_KIT_REFERENCE
+	"C_60_BASE_KIT_REFERENCE"              : C_60_BASE_KIT_REFERENCE,
+	"C_8_STRUCTURE_HP"                     : C_8_STRUCTURE_HP,
+	"C_9_CREDITS_ACCOUNT"                 : C_9_CREDITS_ACCOUNT
 }
 
 var ATLAS_FLAGS ={
@@ -94,5 +94,7 @@ var ATLAS_FLAGS ={
 	"F_6_ACTOR_ATTRIBUTES"				    :   6,
 	"F_7_ACTOR_ATTRIBUTES_SPECIALTY"	    :   7,
 	"F_8_IS_WALL"							:   8,
-	"F_9_IS_DOOR"							:   9
+	"F_9_IS_DOOR"							:   9,
+	"F_10_ACTOR_ATTRIBUTES_ROLES"           :  10,
+	"F_11_ACTOR_ATTRIBUTES_RACE"            :  11
 }

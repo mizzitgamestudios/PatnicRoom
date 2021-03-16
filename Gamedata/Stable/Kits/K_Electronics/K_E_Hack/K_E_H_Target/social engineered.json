@@ -1,71 +1,32 @@
-{
-    "C_6_TILE_NAME":{
-       "type":"ENTRY_SIMPLE",
-       "value":"social engineered"
-    },
-    "F_5_KITPART_TYPE":{
-       "type":"FLAG"
-    },
-    "C_40_ANY_TO_STRING":{
-       "type":"ENTRY_SIMPLE",
-       "value":"social engineered"
-    },
-    "C_35_KIT_MECHANICAL_SUMMARY":{
-       "type":"ENTRY_SIMPLE",
-       "value":"opens Sec2 doors"
-    },
-    "C_37_ANY_M_TYPE":{
-       "type":"ENTRY_SIMPLE",
-       "value":"MEAT"
-    },
-    "C_31_KIT_CAT_TYPE":{
-       "type":"ENTRY_SIMPLE",
-       "value":"HACK"
-    },
-    "C_38_KIT_PART_TYPE":{
-       "type":"ENTRY_SIMPLE",
-       "value":"MOD"
-    },
-    "C_36_KIT_MOD_TIME":{
-       "type":"ENTRY_SIMPLE",
-       "value":"2"
-    },
-    "C_33_KIT_COOLDOWN_TIMER":{
-       "type":"ENTRY_SIMPLE",
-       "value":"1"
-    },
+ {
+
+   "C_6_TILE_NAME"               : "social engineered",
+   "F_5_KITPART_TYPE"            : "N/A",
+   "C_0_ANY_DESCRIPTION"         : "This well known hack, causes heart-implants to overcharge and electronics untill the heart cant keep up the pace and explodes. Its sudden and gruesome death was feared by citizens in the early days of internal cyberware and the go-to argument of Naturalistic activists",
+   "C_40_ANY_TO_STRING"          : "social engineered",
+   "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec2 doors",
+   "C_48_ANY_RARITY"             : "5",
+
+   "C_37_ANY_M_TYPE"             : "MEAT",
+   "C_31_KIT_CAT_TYPE"           : "HACK",
+   "C_38_KIT_PART_TYPE"          : "MOD",
+   "C_36_KIT_MOD_TIME"           : "2",
+   "C_33_KIT_COOLDOWN_TIMER"     : "1",
+   "C_60_BASE_KIT_REFERENCE"     : "Doorkey Spoofer",
+
+   "C_59_KIT_MOD_CHANGE":
+   [{
+        "slot":"TRIGGER_SPECIFIC",
+        "unit":"SPAWN",
+        "mode":"APPEND",
+        "value":["HAS_TEXTURE","Suburban_4_4"]
+    },{
+        "slot":"TRIGGER_SPECIFIC",
+        "unit":"SPAWN",
+        "mode":"APPEND",
+        "value":["HAS_TEXTURE","Suburban_4_3"]
+    }]
+
+
     
-    "C_48_ANY_RARITY":{
-       "type":"ENTRY_SIMPLE",
-       "value":"4"
-    },
-    
-    "C_60_BASE_KIT_REFERENCE":{
-       "type":"ENTRY_SIMPLE",
-       "value":"Doorkey Spoofer"
-    },
-    
-    "C_59_KIT_MOD_CHANGE":{
-       "type":"ENTRY_ARRAY",
-       "value":
-       [{
-            "slot":"TRIGGER_SPECIFIC",
-            "unit":"SPAWN",
-            "mode":"APPEND",
-            "value":["HAS_TEXTURE","Suburban_4_4"]
-        },{
-            "slot":"TRIGGER_SPECIFIC",
-            "unit":"SPAWN",
-            "mode":"APPEND",
-            "value":["HAS_TEXTURE","Suburban_4_3"]
-        }]
-    },
-
-    "META":{
-       "type":"META",
-       "ENTITY_TYPE":"KITPART"
-    }
-
-
-
- }
+}

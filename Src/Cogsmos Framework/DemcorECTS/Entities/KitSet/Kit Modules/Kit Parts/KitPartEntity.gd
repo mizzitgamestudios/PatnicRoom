@@ -19,7 +19,7 @@ func modTime()           	-> String: 			return getCompValue(C_36_KIT_MOD_TIME.na
 func cooldownTime()     	-> bool: 			return getCompValue(C_33_KIT_COOLDOWN_TIMER.name_quack())
 func rarity()    			-> String:			return getCompValue(C_48_ANY_RARITY.name_quack())
 func effectReference()      -> String:			return getCompValue(C_49_EFFECT_REFERENCE.name_quack())
-func strategyKeywoard()     -> String: 			return getCompValue(C_39_KIT_STRATEGY_KEYWORD.name_quack())
+
 
 
 

@@ -1,10 +1,26 @@
 extends Component
-class_name C_9_ANY_UNIQUE_COMPONENTS
+class_name C_9_CREDITS_ACCOUNT
 
-var value: Entity
 
-func _init(valuePara:Entity):
-	name = "C_9_ANY_UNIQUE_COMPONENTS"
+var value 
+
+
+func _init(valuePara):
+	name="C_9_CREDITS_ACCOUNT"
 	value = valuePara
 
 
+
+########################
+# --- AUTODOC -------- #
+########################
+const autodoc={
+	"title":"relevant layer",
+	"description":"descibes the most relevant layer of Tile",
+	"className":"C_3_ANY_LAYER",
+	"moduleName":"00_00 Basic Tile Components",
+	"dataType":"String",
+	"notable":"Needs to be a key of the naming convention 'ENUM.LAYERS_OF_EFFECT.SOKRATILES_LAYER'"
+}
+static func name_quack():      return "C_9_CREDITS_ACCOUNT"
+static func dioJSONType_quack(): return "INTEGER"

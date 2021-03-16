@@ -51,6 +51,5 @@ func _init() -> void:
 	addComponent(C_51_PLAYER_KITSETS.new())
 	addComponent(C_2_ANY_TEXTURE_ID.new("General_0_5"))
 	addComponent(C_44_PLAYER_STREETNAME.new("the unkown"))
-	addComponent(C_50_Player_Selected_Tiles.new(ENUM.M_TYPES.MEAT))
 
 

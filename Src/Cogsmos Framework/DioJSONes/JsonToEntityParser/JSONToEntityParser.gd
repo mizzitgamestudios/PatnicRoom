@@ -7,58 +7,46 @@ class_name JsonToEntityParser
 func parse(dictionary : Dictionary) -> Entity:
 	var ent : Entity = Entity.new()
 	
-	for idx in dictionary:
-		var compConstructor = Component.new()
-		var dicToBuildComp
+	for entries in dictionary.size(): 
 		
+		var currentKey      = dictionary.keys()[entries]
+		var currentValue    = dictionary.values()[entries]
 		
-		var typeOfEntry : String = dictionary[idx].type
-		var currentDicEntry : Dictionary = dictionary[idx]
+		var compClass       = COMP.GET_BOTH(currentKey)
 		
-		#VAR Hub for Dataset to add to Entity  
-		match typeOfEntry:
-			ENUM.JSON_KEY_TYPE.ENTRY_SIMPLE:
-				dicToBuildComp = currentDicEntry["value"]
-				addAsSimpleComp(idx, dicToBuildComp, ent)
-			
-			ENUM.JSON_KEY_TYPE.ENTRY_CONTAINER:
-				dicToBuildComp = self._recursiveSelfCall(currentDicEntry["value"])
-				addAsSimpleComp(idx, dicToBuildComp, ent)
-			
-			ENUM.JSON_KEY_TYPE.TEMPLATE:
-				addAsTemplate(currentDicEntry, ent)
-				
-			ENUM.JSON_KEY_TYPE.ENTRY_DICTIONARY:
-				addAsArrOrDict(idx, currentDicEntry, ent)
-				
-			ENUM.JSON_KEY_TYPE.ENTRY_ARRAY:
-				addAsArrOrDict(idx, currentDicEntry, ent)
-				
-			ENUM.JSON_KEY_TYPE.META:
-				buildMeta(idx, currentDicEntry, ent)
-			
-			ENUM.JSON_KEY_TYPE.ENTRY_EFFECT:
-				addAsEffect(idx, currentDicEntry, ent)
-				
-			ENUM.JSON_KEY_TYPE.FLAG:
-				addAsFlag(idx, ent)
+		if compClass is int                                :addAsFlag       (currentKey,                                    ent)
 		
+		elif compClass.dioJSONType_quack() == "STRING"     : addAsSimpleComp (currentKey,        str        (currentValue),  ent)
+		elif compClass.dioJSONType_quack() == "INTEGER"    : addAsSimpleComp (currentKey,        int        (currentValue),  ent)
+		elif compClass.dioJSONType_quack() == "BOOLEAN"    : addAsSimpleComp (currentKey,        bool       (currentValue),  ent)
 		
-	return ent
+		elif compClass.dioJSONType_quack() == "ARRAY"      : addAsArrOrDict  (currentKey,                    currentValue ,  ent)
+		elif compClass.dioJSONType_quack() == "DICTIONARY" : addAsArrOrDict  (currentKey,                    currentValue ,  ent)
+		
+		elif compClass.dioJSONType_quack() == "EFFECT"     : addAsEffect     (currentKey,                    currentValue ,  ent)
+		elif compClass.dioJSONType_quack() == "TEMPLATE"   : addAsTemplate   (                               currentValue ,  ent)
+		elif compClass.dioJSONType_quack() == "CONTAINER"  : addAsSimpleComp (currentKey, _recursiveSelfCall(currentValue),  ent)
+	
+	
+	
+	
+	return DemokrECTS.convertToEntity(ent)
+
 
 
 
 # --- Basic --- #
-func addAsSimpleComp(idx, dicToBuildComp, ent):
-	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(idx, dicToBuildComp)
+func addAsSimpleComp(currentKey, currentValue, ent):
+	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(currentKey, currentValue)
 	var component = compConstructor.run()
 	ent.addComponent(component)
 
+
 func addAsArrOrDict(idx,currentDicEntry, ent):
-	var dicToBuildComp = currentDicEntry.value
-	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(idx, dicToBuildComp)
+	var compConstructor = DioJSONes_SubParser_ComponentConstructor.new(idx, currentDicEntry)
 	var component = compConstructor.run()
 	ent.addComponent(component)
+
 
 func addAsEffect(idx,currentDicEntry, ent):
 	var dicToBuildComp = currentDicEntry
@@ -68,10 +56,6 @@ func addAsEffect(idx,currentDicEntry, ent):
 
 
 # --- Advanced Parsere --- #
-func buildMeta(idx,currentDicEntry, ent):
-	#var group = currentDicEntry["GROUP"]
-	DemokrECTS.convertToEntity(ent)
-	
 func addAsTemplate(currentDicEntry, ent):
 	var arrOfFilePaths = getArrayOfFilePathsParts(currentDicEntry)
 	
@@ -80,6 +64,7 @@ func addAsTemplate(currentDicEntry, ent):
 	
 	var template = self._recursiveSelfCall(dict)
 	ent.addTemplate(templateName,template[0])
+
 
 func _recursiveSelfCall(dic) -> Array:
 	var tmpEnt : Array = []
@@ -91,9 +76,13 @@ func _recursiveSelfCall(dic) -> Array:
 		tmpEnt.append(self.getEntityOfRecursion(dic))
 	return tmpEnt
 
+
 func addAsFlag(idx, ent):
 	ent.addFlag(COMP.ATLAS_FLAGS.get(idx))
 
+
+
+	
 ################################################################################
 ##  --- GETTER ---                                                            ##
 ################################################################################
@@ -107,4 +96,3 @@ func getArrayOfFilePathsParts(currentDicEntry):
 
 func ArrayOfFilePathsToString(arrOfFilePaths):
 	return PoolStringArray(arrOfFilePaths).join(ENUM.ECTS_GROUP_DELIMETER)
-

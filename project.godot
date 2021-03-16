@@ -115,16 +115,6 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C23.gd"
 }, {
 "base": "Component",
-"class": "C_24_ANY_CONDITION",
-"language": "GDScript",
-"path": "res://Src/Components/C24.gd"
-}, {
-"base": "Component",
-"class": "C_25_ACTOR_PAINTOLLERANCE",
-"language": "GDScript",
-"path": "res://Src/Components/C25.gd"
-}, {
-"base": "Component",
 "class": "C_26_ACTOR_INDIRECT_STATS",
 "language": "GDScript",
 "path": "res://Src/Components/C26.gd"
@@ -195,11 +185,6 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C38.gd"
 }, {
 "base": "Component",
-"class": "C_39_KIT_STRATEGY_KEYWORD",
-"language": "GDScript",
-"path": "res://Src/Components/C39.gd"
-}, {
-"base": "Component",
 "class": "C_3_ANY_LAYER",
 "language": "GDScript",
 "path": "res://Src/Components/C3.gd"
@@ -208,11 +193,6 @@ _global_script_classes=[ {
 "class": "C_40_ANY_TO_STRING",
 "language": "GDScript",
 "path": "res://Src/Components/C40.gd"
-}, {
-"base": "Component",
-"class": "C_41_ANY_POSITION",
-"language": "GDScript",
-"path": "res://Src/Components/C41.gd"
 }, {
 "base": "Component",
 "class": "C_42_ROLE_VARIETY",
@@ -263,11 +243,6 @@ _global_script_classes=[ {
 "class": "C_50_ACTOR_ROLE_DESCRIPTION",
 "language": "GDScript",
 "path": "res://Src/Components/C51.gd"
-}, {
-"base": "Component",
-"class": "C_50_Player_Selected_Tiles",
-"language": "GDScript",
-"path": "res://Src/Components/C50.gd"
 }, {
 "base": "Entity",
 "class": "C_51_PLAYER_KITSETS",
@@ -335,7 +310,12 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C7.gd"
 }, {
 "base": "Component",
-"class": "C_9_ANY_UNIQUE_COMPONENTS",
+"class": "C_8_STRUCTURE_HP",
+"language": "GDScript",
+"path": "res://Src/Components/C8.gd"
+}, {
+"base": "Component",
+"class": "C_9_CREDITS_ACCOUNT",
 "language": "GDScript",
 "path": "res://Src/Components/C9.gd"
 }, {
@@ -880,6 +860,11 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_PLAIN_DAMAGE.gd"
 }, {
 "base": "Object",
+"class": "U_DEAL_STRUCTURAL_DAMAGE",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_STRUCTURAL_DAMAGE.gd"
+}, {
+"base": "Object",
 "class": "U_OPEN_DOOR",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_OPEN_DOOR.gd"
@@ -1121,8 +1106,6 @@ _global_script_class_icons={
 "C_21_TILE_TILENAME": "",
 "C_22_ACTOR_LIMITS": "",
 "C_23_ACTOR_CARRIAGE": "",
-"C_24_ANY_CONDITION": "",
-"C_25_ACTOR_PAINTOLLERANCE": "",
 "C_26_ACTOR_INDIRECT_STATS": "",
 "C_27_ACTOR_RACIAL_ENEMIES": "",
 "C_28_ACTOR_RACIAL_FRIENDS": "",
@@ -1137,10 +1120,8 @@ _global_script_class_icons={
 "C_36_KIT_MOD_TIME": "",
 "C_37_ANY_M_TYPE": "",
 "C_38_KIT_PART_TYPE": "",
-"C_39_KIT_STRATEGY_KEYWORD": "",
 "C_3_ANY_LAYER": "",
 "C_40_ANY_TO_STRING": "",
-"C_41_ANY_POSITION": "",
 "C_42_ROLE_VARIETY": "",
 "C_43_PLAYER_DESCRIPTION": "",
 "C_44_PLAYER_STREETNAME": "",
@@ -1151,7 +1132,6 @@ _global_script_class_icons={
 "C_49_EFFECT_REFERENCE": "",
 "C_4_ANY_MAGIC_NOISE": "",
 "C_50_ACTOR_ROLE_DESCRIPTION": "",
-"C_50_Player_Selected_Tiles": "",
 "C_51_PLAYER_KITSETS": "",
 "C_52_ACTOR_GEAR": "",
 "C_53_Actor_SELECTED_TILE": "",
@@ -1165,7 +1145,8 @@ _global_script_class_icons={
 "C_60_BASE_KIT_REFERENCE": "",
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
-"C_9_ANY_UNIQUE_COMPONENTS": "",
+"C_8_STRUCTURE_HP": "",
+"C_9_CREDITS_ACCOUNT": "",
 "CheckboxConstructor": "",
 "Cloudprinter": "",
 "Common": "",
@@ -1274,6 +1255,7 @@ _global_script_class_icons={
 "TilesetParser": "",
 "U_CHANGE_TEXTURE": "",
 "U_DEAL_PLAIN_DAMAGE": "",
+"U_DEAL_STRUCTURAL_DAMAGE": "",
 "U_OPEN_DOOR": "",
 "UniversalCheckbox": "",
 "Utils": "",

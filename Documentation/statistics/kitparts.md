@@ -1,15 +1,15 @@
 # Cyberwares  
+# Hacks  
 ### Finger Guns
 |name|value|
 |-|-|
 |description|silenced pistole installed in your index finger. a Community favorite of professional Hitman and eccentric Gays|
-|mechanicalSummary|deals 4 damage|
+|mechanicalSummary|opens Sec1 doors|
 |cooldownTime|4|
-|rarity|1|
+|rarity|3|
 |modTime|2|
 #### Mods:  
  
-# Hacks  
 ### Doorkey Spoofer
 |name|value|
 |-|-|
@@ -19,7 +19,7 @@
 |rarity|3|
 |modTime|2|
 #### Mods:  
-|[Object:3508]|opens Sec2 doors|
+|[Object:3335]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|
@@ -38,9 +38,9 @@
 |-|-|
 |description|//TODO: add description|
 |mechanicalSummary|deals 10 structure-pointts damage, 20 for thin walls|
-|cooldownTime|2|
-|rarity|1|
-|modTime|4|
+|cooldownTime|1|
+|rarity|3|
+|modTime|2|
 #### Mods:  
  
 # Spells  
@@ -48,10 +48,10 @@
 |name|value|
 |-|-|
 |description|this lesser flamethrow is often mocked by the spellcaster-community by this ridiculous name.however,they still tend to flinch when it gets thrown on them|
-|mechanicalSummary|deals 2 damage, sets opponent on Fire|
-|cooldownTime|2|
-|rarity|1|
-|modTime|3|
+|mechanicalSummary|Burns grass and People|
+|cooldownTime|4|
+|rarity|3|
+|modTime|2|
 #### Mods:  
  
 # Rites  

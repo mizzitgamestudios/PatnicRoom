@@ -75,7 +75,8 @@ func _constructEnt_quack(dict,newEnt):
 
 			# - Flags - #
 			var flagInstance = COMP.GET_FLAG(currentDictEntry)
-			if is_instance_valid(flagInstance): newEnt.addFlag(flagInstance)
+			if flagInstance is int: 
+				newEnt.addFlag(flagInstance)
 
 
 		return newEnt
@@ -91,9 +92,22 @@ func _convertEnt_quack(entToConvert,newEnt):
 #FUNC for example: var ent:TileEntity = _copyEnt_quack(otherEnt,ent) 
 func _copyEnt_quack(entToCopy,newEnt):
 	# - Components - #
-	newEnt.dictOfComps     = entToCopy.dictOfComps.duplicate(true)
+	var allComps = entToCopy.dictOfComps.values()
+	for i in allComps.size():
+		var compToString = allComps[i].name_quack()
+		
+		var currentComp = COMP.GET_COMPONENT(compToString)
+		var compinstance = currentComp.new(entToCopy.getCompValue(compToString))
+		
+		newEnt.addComponent(compinstance)
+	
+	
 	# - Flags - #
-	newEnt.arrOfFlags      = entToCopy.arrOfFlags.duplicate(false)
+	var allFlags = entToCopy.arrOfFlags
+	for i in allFlags.size():
+		newEnt.arrOfFlags.append(allFlags[i])
+	
+	
 	# - Flags - #
 	newEnt.dictOfTemplates = entToCopy.dictOfTemplates.duplicate(false)
 	
