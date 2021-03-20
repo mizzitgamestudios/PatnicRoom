@@ -3,7 +3,8 @@
     "entityAttributes":     false,
     "items":                false,
     "Conditions":           false,
-    "lootTables":           false
+    "lootTables":           false,
+    "componentsForForm":    true
 
 
 

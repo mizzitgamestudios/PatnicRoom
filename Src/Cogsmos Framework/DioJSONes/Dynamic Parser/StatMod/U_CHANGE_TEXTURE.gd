@@ -8,7 +8,7 @@ static func run(selectedPos, modValue:String):
 	
 	HeGEL.changeStat(selectedPos,"C_2_ANY_TEXTURE_ID",modValue)
 	
-	API_009_Tilemap.appendDirtyTiles(SokraTiles.getMeatInteract(),selectedPos)
+	API_009_Tilemap.appendDirtyTiles(selectedPos)
 
 	
  

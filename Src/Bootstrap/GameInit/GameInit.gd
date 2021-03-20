@@ -19,7 +19,7 @@
 extends Node
 class_name RuntimeParameter
 
-var settingToUse: String = "statistics";    # <---- WRITE RUNTIME PARAMETER HERE
+var settingToUse: String = "default";    # <---- WRITE RUNTIME PARAMETER HERE
 
 
 var startConfig: ConfigFile = ConfigFile.new();
@@ -79,7 +79,8 @@ func runRestmode() -> void:
 func runStatistics():
 	var jsonParse = Util.JSONParser.fileToDictionary("res://tools/RuntimeConfigs/statistics.json")
 
-	if jsonParse["kitparts"]:    load("res://tools/Statistics/Kitparts/Main.gd").new().getKitparts()
+	if jsonParse["kitparts"]:             load("res://tools/Statistics/Kitparts.gd").new().getKitparts()
+	if jsonParse["componentsForForm"]:    load("res://tools/Statistics/Components.gd").new().writeJSONForForm()
 	
-	
-	runDefault()
+	print("STATISTICS COMPUTED")
+	get_tree().quit()

@@ -115,6 +115,16 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C23.gd"
 }, {
 "base": "Component",
+"class": "C_24_ANY_CONDITION",
+"language": "GDScript",
+"path": "res://Src/Components/C24.gd"
+}, {
+"base": "Component",
+"class": "C_25_ACTOR_PAINTOLLERANCE",
+"language": "GDScript",
+"path": "res://Src/Components/C25.gd"
+}, {
+"base": "Component",
 "class": "C_26_ACTOR_INDIRECT_STATS",
 "language": "GDScript",
 "path": "res://Src/Components/C26.gd"
@@ -185,6 +195,11 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C38.gd"
 }, {
 "base": "Component",
+"class": "C_39_KIT_STRATEGY_KEYWORD",
+"language": "GDScript",
+"path": "res://Src/Components/C39.gd"
+}, {
+"base": "Component",
 "class": "C_3_ANY_LAYER",
 "language": "GDScript",
 "path": "res://Src/Components/C3.gd"
@@ -193,6 +208,11 @@ _global_script_classes=[ {
 "class": "C_40_ANY_TO_STRING",
 "language": "GDScript",
 "path": "res://Src/Components/C40.gd"
+}, {
+"base": "Component",
+"class": "C_41_ANY_POSITION",
+"language": "GDScript",
+"path": "res://Src/Components/C41.gd"
 }, {
 "base": "Component",
 "class": "C_42_ROLE_VARIETY",
@@ -213,11 +233,6 @@ _global_script_classes=[ {
 "class": "C_45_PLAYER_NAME",
 "language": "GDScript",
 "path": "res://Src/Components/C45.gd"
-}, {
-"base": "Component",
-"class": "C_46_ANY_HITPOINTS",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/Misc/Components/Structure Points.gd"
 }, {
 "base": "Component",
 "class": "C_47_ANY_SYNONYM",
@@ -243,6 +258,11 @@ _global_script_classes=[ {
 "class": "C_50_ACTOR_ROLE_DESCRIPTION",
 "language": "GDScript",
 "path": "res://Src/Components/C51.gd"
+}, {
+"base": "Component",
+"class": "C_50_Player_Selected_Tiles",
+"language": "GDScript",
+"path": "res://Src/Components/C50.gd"
 }, {
 "base": "Entity",
 "class": "C_51_PLAYER_KITSETS",
@@ -298,6 +318,16 @@ _global_script_classes=[ {
 "class": "C_60_BASE_KIT_REFERENCE",
 "language": "GDScript",
 "path": "res://Src/Components/C60.gd"
+}, {
+"base": "Component",
+"class": "C_61_LOOT_TABLE",
+"language": "GDScript",
+"path": "res://Src/Components/C61.gd"
+}, {
+"base": "Component",
+"class": "C_62_LOOT_STATE",
+"language": "GDScript",
+"path": "res://Src/Components/C62.gd"
 }, {
 "base": "Component",
 "class": "C_6_TILE_NAME",
@@ -644,6 +674,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/gs_logger/layout.gd"
 }, {
+"base": "InteractEntity",
+"class": "LootSourceEntity",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Loot Entity.gd"
+}, {
 "base": "Reference",
 "class": "Message",
 "language": "GDScript",
@@ -658,6 +693,16 @@ _global_script_classes=[ {
 "class": "MouseHoverOverTileMap",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/Interface FSM/MouseHover.gd"
+}, {
+"base": "Viewport",
+"class": "MouseLogic",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/Interface FSM/MouseLogik.gd"
+}, {
+"base": "Viewport",
+"class": "MouseMarker",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/011_Player/Systems/Input/PanicMode/Interface FSM/MouseMarker.gd"
 }, {
 "base": "Node",
 "class": "NodesManager",
@@ -855,6 +900,11 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_CHANGE_TEXTURE.gd"
 }, {
 "base": "Object",
+"class": "U_CLOSE_DOOR",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_CLOSE_DOOR.gd"
+}, {
+"base": "Object",
 "class": "U_DEAL_PLAIN_DAMAGE",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_PLAIN_DAMAGE.gd"
@@ -868,6 +918,11 @@ _global_script_classes=[ {
 "class": "U_OPEN_DOOR",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_OPEN_DOOR.gd"
+}, {
+"base": "Object",
+"class": "U_SPAWN_TILE",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_SPAWN_TILE.gd"
 }, {
 "base": "Panel",
 "class": "UniversalCheckbox",
@@ -1044,6 +1099,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/017_Atlas/System/Tiles.gd"
 }, {
+"base": "DemocrECTS_EntityManager",
+"class": "_18_TileEntManager",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/018_Loot/Entity Manager/entMan.gd"
+}, {
 "base": "Object",
 "class": "_2_BasicStatChange",
 "language": "GDScript",
@@ -1106,6 +1166,8 @@ _global_script_class_icons={
 "C_21_TILE_TILENAME": "",
 "C_22_ACTOR_LIMITS": "",
 "C_23_ACTOR_CARRIAGE": "",
+"C_24_ANY_CONDITION": "",
+"C_25_ACTOR_PAINTOLLERANCE": "",
 "C_26_ACTOR_INDIRECT_STATS": "",
 "C_27_ACTOR_RACIAL_ENEMIES": "",
 "C_28_ACTOR_RACIAL_FRIENDS": "",
@@ -1120,18 +1182,20 @@ _global_script_class_icons={
 "C_36_KIT_MOD_TIME": "",
 "C_37_ANY_M_TYPE": "",
 "C_38_KIT_PART_TYPE": "",
+"C_39_KIT_STRATEGY_KEYWORD": "",
 "C_3_ANY_LAYER": "",
 "C_40_ANY_TO_STRING": "",
+"C_41_ANY_POSITION": "",
 "C_42_ROLE_VARIETY": "",
 "C_43_PLAYER_DESCRIPTION": "",
 "C_44_PLAYER_STREETNAME": "",
 "C_45_PLAYER_NAME": "",
-"C_46_ANY_HITPOINTS": "",
 "C_47_ANY_SYNONYM": "",
 "C_48_ANY_RARITY": "",
 "C_49_EFFECT_REFERENCE": "",
 "C_4_ANY_MAGIC_NOISE": "",
 "C_50_ACTOR_ROLE_DESCRIPTION": "",
+"C_50_Player_Selected_Tiles": "",
 "C_51_PLAYER_KITSETS": "",
 "C_52_ACTOR_GEAR": "",
 "C_53_Actor_SELECTED_TILE": "",
@@ -1143,6 +1207,8 @@ _global_script_class_icons={
 "C_59_KIT_MOD_CHANGE": "",
 "C_5_ANY_MATRIX_NOISE": "",
 "C_60_BASE_KIT_REFERENCE": "",
+"C_61_LOOT_TABLE": "",
+"C_62_LOOT_STATE": "",
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
 "C_8_STRUCTURE_HP": "",
@@ -1212,9 +1278,12 @@ _global_script_class_icons={
 "KitSetEntity": "",
 "Kitventory": "",
 "Layout": "",
+"LootSourceEntity": "",
 "Message": "",
 "ModKitPartEntity": "",
 "MouseHoverOverTileMap": "",
+"MouseLogic": "",
+"MouseMarker": "",
 "NodesManager": "",
 "PanelConstructor": "",
 "PatternLayout": "",
@@ -1254,9 +1323,11 @@ _global_script_class_icons={
 "TileEntity": "",
 "TilesetParser": "",
 "U_CHANGE_TEXTURE": "",
+"U_CLOSE_DOOR": "",
 "U_DEAL_PLAIN_DAMAGE": "",
 "U_DEAL_STRUCTURAL_DAMAGE": "",
 "U_OPEN_DOOR": "",
+"U_SPAWN_TILE": "",
 "UniversalCheckbox": "",
 "Utils": "",
 "WorldMap": "",
@@ -1292,6 +1363,7 @@ _global_script_class_icons={
 "_17_Role": "",
 "_17_Specialty": "",
 "_17_Tiles": "",
+"_18_TileEntManager": "",
 "_2_BasicStatChange": "",
 "_5_KitRun": "",
 "_5_KitSelect": "",
@@ -1351,6 +1423,7 @@ PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
 IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
 UserData="*res://addons/github-integration/scripts/user_data.gd"
 RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
+API_018_Loot="*res://Src/Logic/Modules/018_Loot/Controller/API.gd"
 
 [debug]
 

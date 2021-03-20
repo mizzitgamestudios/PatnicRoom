@@ -13,7 +13,8 @@ func loopThroughActor():
 	
 	for i in actorsOnMap_Of_API007.size():
 		var currentEnt = actorsOnMap_Of_API007[actorKeys[i]]
-		walk(currentEnt)
+		if is_instance_valid(currentEnt):
+			walk(currentEnt)
 		
 	Signals.emit_signal("Actor_Turn_Finished",ENUM.ACTION_PHASE.NPC_DONE)
 

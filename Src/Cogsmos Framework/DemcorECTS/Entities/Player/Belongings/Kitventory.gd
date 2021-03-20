@@ -12,7 +12,7 @@ func getKitSet(kitToString:String):
 	return listOfKits[kitToString]
 
 func getKitSetByLevel(kitLevel):
-	if kitLevel <= listOfKits.size():
+	if kitLevel < listOfKits.size():
 		return listOfKits.values()[kitLevel]
 
 func addKitSet(kit):
@@ -21,3 +21,11 @@ func addKitSet(kit):
 
 static func name_quack():
 	return "C_51_PLAYER_KITSETS"
+var  autodoc={
+	"suggestion"  : "",
+	"description" : "name of its fightingstyle",
+	"validInputs" : [],
+	"validType"   : dioJSONType_quack(),
+	"nameToShow"  : "role description",
+}
+static func dioJSONType_quack(): return "ARRAY"

@@ -37,8 +37,9 @@ func interpreteTile(pos:Vector2,node:Node):
 	_tileInterpreter.interpreteTileNr(pos,node)
 
 
-func appendDirtyTiles(layerNode,tile):
-	dirtyTiles.append([ [layerNode], [tile]])
+func appendDirtyTiles(tile):
+	var layerNode = getTilemapLayerByEntity(tile)
+	dirtyTiles.append([ [layerNode], [tile] ])
 
 
 func updateDirtyTiles():
@@ -50,3 +51,35 @@ func updateDirtyTiles():
 		var pos = currentTile.pos()
 		
 		currentNode.drawCell_quack(currentTile.textureID(),currentTile.pos())
+
+
+
+func getTilemapLayerByEntity(ent):
+	var entType = ent.typeToString()
+	var layer   = ent.layer()
+	layer = layer.replace("-"," ")
+	
+	match layer:
+		ENUM.SOKRATILES_LAYER.MEAT_GROUND: 			return SokraTiles.getMeatFloor()
+		ENUM.SOKRATILES_LAYER.MEAT_INTERACTABLE: 	return SokraTiles.getMeatInteract()
+		
+		ENUM.SOKRATILES_LAYER.MAGIC_GROUND: 		return SokraTiles.getMagicFloor()
+		ENUM.SOKRATILES_LAYER.MAGIC_INTERACTABLE: 	return SokraTiles.getMagicInteract()
+		
+		ENUM.SOKRATILES_LAYER.MATRIX_GROUND:		return SokraTiles.getMatrixFloor()
+		ENUM.SOKRATILES_LAYER.MATRIX_GROUND: 		return SokraTiles.getMatrixInteract()
+	
+	
+	
+	
+func replaceEntOnPos(ent,pos,posAlt=0):
+	if pos is int: pos = Vector2(pos,posAlt)
+
+	var tilemapNode = getTilemapLayerByEntity(ent)
+	ent.setPos(pos)
+
+	if tilemapNode.entsOnMap.has(pos):
+		var oldEnt = tilemapNode.entsOnMap[pos] 
+		instance_from_id(oldEnt).free()
+
+	tilemapNode.entsOnMap[pos] = ent.get_instance_id()

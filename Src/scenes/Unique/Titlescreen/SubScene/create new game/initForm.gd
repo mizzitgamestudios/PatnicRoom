@@ -43,9 +43,9 @@ func setRace(base):
 		var cache = checkboxManager.compactConstruct(listOfPerksCheckboxes[i])
 		get_parent().addInputfieldToFormgroup(cache,listOfPerksCheckboxes[i][3])
 
-
+var listOfPerksCheckboxes=[]
 func setKit(base):
-	var listOfPerksCheckboxes=[]
+	
 	var xOne=770
 	var xTwo=910
 	var xThree=1010
@@ -91,4 +91,11 @@ func setAttribute(base):
 		get_parent().addInputfieldToFormgroup(cache,listOfPerksCheckboxes[i][3])
 
 
-
+func getCheckboxByContent(content:String):
+	for i in listOfPerksCheckboxes.size():
+		var currentCheckbox = listOfPerksCheckboxes[i]
+		var currentContent = currentCheckbox[2]
+		
+		if currentContent == content:
+			get_node("..").manageCheckboxes(currentCheckbox)
+		

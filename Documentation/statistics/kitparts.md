@@ -19,7 +19,7 @@
 |rarity|3|
 |modTime|2|
 #### Mods:  
-|[Object:3335]|opens Sec2 doors|
+|[Object:3387]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|
@@ -44,6 +44,16 @@
 #### Mods:  
  
 # Spells  
+### kid
+|name|value|
+|-|-|
+|description|this is a meme,dont try to understands its name,buts its veeeery deep.very clever|
+|mechanicalSummary|pulls up a wall of earth|
+|cooldownTime|8|
+|rarity|4|
+|modTime|3|
+#### Mods:  
+ 
 ### Crispyfier
 |name|value|
 |-|-|

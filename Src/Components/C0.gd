@@ -10,13 +10,12 @@ func _init(valuePara:String):
 ########################
 # --- AUTODOC -------- #
 ########################
-const autodoc={
-	"title":"Tile description",
-	"description":"is shown when the player uses the look-action on a Tile",
-	"className":"C_0_ANY_DESCRIPTION",
-	"moduleName":"00_00 Basic Tile Components",
-	"dataType":"String",
-	"notable":" "
+var autodoc={
+	"suggestion"  : "should not have mor than 80 charackters",
+	"description" : "is shown to the player in things like mousehover or onlook-action",
+	"validInputs" : [],
+	"validType"   : dioJSONType_quack(),
+	"nameToShow"  : "description",
 }
 static func name_quack():      return "C_0_ANY_DESCRIPTION"
 static func dioJSONType_quack(): return "STRING"

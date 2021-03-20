@@ -50,9 +50,9 @@ func isTileWalkable(pos:Vector2):
 	
 	if SokraTiles.getMeatInteract().entsOnMap.has(pos):
 		return SokraTiles.getMeatInteract().getEntByPos_quack(pos).getCompValue("C_1_ANY_IS_WALKABLE")
-		
-	else: return true
-
+	else:
+		var ent=SokraTiles.getMeatFloor().getEntByPos_quack(pos)
+		return ent.isWalkable()
 
 
 

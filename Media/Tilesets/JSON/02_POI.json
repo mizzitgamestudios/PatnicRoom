@@ -38,7 +38,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -88,7 +88,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -138,7 +138,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -188,7 +188,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -238,7 +238,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -288,7 +288,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -338,7 +338,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -388,7 +388,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -438,7 +438,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -488,7 +488,7 @@
                 {
                  "name":"C_3_ANY_LAYER",
                  "type":"string",
-                 "value":"meat-ground"
+                 "value":"Meat interactables"
                 }, 
                 {
                  "name":"C_4_ANY_MAGIC_NOISE",
@@ -509,6 +509,11 @@
                  "name":"C_7_TILE_STATIC_TILESET_NR",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"F_12_LOOT_SOURCE_TYPE",
+                 "type":"bool",
+                 "value":false
                 }, 
                 {
                  "name":"F_1_STATIC_INTERACTABLE_TYPE",

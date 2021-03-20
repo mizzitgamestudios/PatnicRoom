@@ -7,7 +7,7 @@ class_name F_2_TILE_TYPE
 ########################
 # --- AUTODOC -------- #
 ########################
-const autodoc={
+var  autodoc={
 	"title":"relevant layer",
 	"description":"descibes the most relevant layer of Tile",
 	"className":"C_3_ANY_LAYER",

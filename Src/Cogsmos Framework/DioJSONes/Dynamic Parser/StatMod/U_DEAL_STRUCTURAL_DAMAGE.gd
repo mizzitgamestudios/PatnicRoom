@@ -12,7 +12,7 @@ static func run(selectedPos, modValue):
 	
 
 	
-	API_009_Tilemap.appendDirtyTiles(SokraTiles.getMeatInteract(),selectedPos)
+	API_009_Tilemap.appendDirtyTiles(selectedPos)
 
 	
  

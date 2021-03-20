@@ -3222,6 +3222,3333 @@
                     "filename": "tools\\VSCode Snippets.json"
                 }
             ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-03-18 00:47:15",
+            "filesum": 534,
+            "codesum": 38144,
+            "commentsum": 34,
+            "blanksum": 7034,
+            "statistics": {
+                "": {
+                    "code": 342,
+                    "comment": 0,
+                    "blank": 60
+                },
+                ".godot": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".TMP": {
+                    "code": 517,
+                    "comment": 0,
+                    "blank": 58
+                },
+                ".md": {
+                    "code": 208,
+                    "comment": 1,
+                    "blank": 72
+                },
+                ".tres": {
+                    "code": 2170,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".gd": {
+                    "code": 7134,
+                    "comment": 33,
+                    "blank": 4169
+                },
+                ".tscn": {
+                    "code": 16086,
+                    "comment": 0,
+                    "blank": 1930
+                },
+                ".import": {
+                    "code": 1566,
+                    "comment": 0,
+                    "blank": 270
+                },
+                ".json": {
+                    "code": 9906,
+                    "comment": 0,
+                    "blank": 408
+                },
+                ".txt": {
+                    "code": 183,
+                    "comment": 0,
+                    "blank": 47
+                },
+                ".cfg": {
+                    "code": 30,
+                    "comment": 0,
+                    "blank": 9
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 9,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "CHANGELOG.md"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "config\\DynamicSubtitle.json"
+                },
+                {
+                    "blank": 41,
+                    "code": 145,
+                    "comment": 0,
+                    "filename": "config\\Runner\\chargen presets.json"
+                },
+                {
+                    "blank": 21,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "config\\Runner\\generated\\generall and stats.json"
+                },
+                {
+                    "blank": 27,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "config\\Runner\\generated\\Inventory.json"
+                },
+                {
+                    "blank": 26,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "config\\Runner\\player.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "default_env.tres"
+                },
+                {
+                    "blank": 7,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Documentation\\_Entity Summary.md"
+                },
+                {
+                    "blank": 19,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Documentation\\Gamedesign\\Ancient Engines.md"
+                },
+                {
+                    "blank": 26,
+                    "code": 158,
+                    "comment": 0,
+                    "filename": "Documentation\\Gamedesign\\DioJSONes"
+                },
+                {
+                    "blank": 28,
+                    "code": 146,
+                    "comment": 0,
+                    "filename": "Documentation\\Gamedesign\\dioJSONes.txt"
+                },
+                {
+                    "blank": 17,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "Documentation\\Gamedesign\\introduction to add content.json"
+                },
+                {
+                    "blank": 14,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "Documentation\\Gamedesign\\quickreferences.json"
+                },
+                {
+                    "blank": 16,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "Documentation\\JSON Convention.md"
+                },
+                {
+                    "blank": 19,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Documentation\\Modules\\000_Basic Tile Atlas.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Documentation\\statistics\\components.json"
+                },
+                {
+                    "blank": 6,
+                    "code": 64,
+                    "comment": 1,
+                    "filename": "Documentation\\statistics\\kitparts.md"
+                },
+                {
+                    "blank": 19,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Documentation\\StyleConvention.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Documentation\\Syntax\\Loot Table.md"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Documentation\\todo-txt"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Documentation\\webside"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET-Race\\dwarf.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET-Race\\elf.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET-Race\\human.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET-Race\\orc.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET-Race\\troll.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Roles\\BrawlerOne.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Roles\\HackerOner.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Roles\\SpellcasterOne.json"
+                },
+                {
+                    "blank": 8,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Specialties\\Drug dealer.json"
+                },
+                {
+                    "blank": 8,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Specialties\\esoteric conartist.json"
+                },
+                {
+                    "blank": 8,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Specialties\\fatal poisonous test eater.json"
+                },
+                {
+                    "blank": 8,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Specialties\\Fecal_analycer.json"
+                },
+                {
+                    "blank": 8,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Entities_Attributes\\ET_Specialties\\freelanced hobo.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Factions\\the_drop_outz.json"
+                },
+                {
+                    "blank": 19,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Electronics\\K_E_Cyberware\\K_E_C_Modell\\Fingerguns.json"
+                },
+                {
+                    "blank": 20,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Electronics\\K_E_Hack\\K_E_H_Codebase\\dajkfpifguebd.json"
+                },
+                {
+                    "blank": 19,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Electronics\\K_E_Hack\\K_E_H_Codebase\\Guest List Injection.json"
+                },
+                {
+                    "blank": 19,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Electronics\\K_E_Hack\\K_E_H_Codebase\\Heartbleed bug.json"
+                },
+                {
+                    "blank": 6,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Electronics\\K_E_Hack\\K_E_H_Target\\social engineered.json"
+                },
+                {
+                    "blank": 19,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Magic\\K_M_Infusion\\K_M_I_Tattoo\\4th Wallbreak.json"
+                },
+                {
+                    "blank": 19,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Kits\\K_Magic\\K_M_Spell\\K_M_S_Forn\\crispyfier.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Gamedata\\Stable\\Loot_Tables\\LT_Objects\\SuburbanBin.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 122,
+                    "comment": 0,
+                    "filename": "LICENSE"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Media\\debug\\Tilemap.txt"
+                },
+                {
+                    "filename": "Media\\FixedDays Font\\FixedSysTemplate.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Media\\FixedDays Font\\new_dynamicfontdata.tres"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Media\\FixedDays Font\\Panel_Title.tres"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Media\\FixedDays Font\\Text_Default.tres"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Media\\FixedDays Font\\Text_Header.tres"
+                },
+                {
+                    "filename": "Media\\fluff\\Megacorp1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\fluff\\Megacorp1.png.import"
+                },
+                {
+                    "filename": "Media\\fluff\\Megacorp2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\fluff\\Megacorp2.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\All Kit Symbols.afphoto",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Armor.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Armor.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Cyberware.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Cyberware.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Drones.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Drones.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Gun.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Gun.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Hacks.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Hacks.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Infusion.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Infusion.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Meele.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Meele.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Rite.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Rite.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\KitSymbols\\Spell.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\KitSymbols\\Spell.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\allGUI.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\allGUI.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\AR.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\AR.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\background\\backgroundOnepng.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\background\\backgroundOnepng.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\background\\Unbenannt.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\background\\Unbenannt.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Chest.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Chest.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Feet.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Feet.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\forearm.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\forearm.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Hand.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Hand.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Head.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Head.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Upper Arm.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Panicmode\\Condition\\Upper Arm.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\background\\five.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\background\\five.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\background\\four.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\background\\four.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\background\\one.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\background\\one.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\background\\three.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\background\\three.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\background\\two.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\background\\two.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt1.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt2.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\enter animation\\Unbenannt3.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\bio.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\bio.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\clear.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\clear.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\fiber.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\fiber.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\info.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\info.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\PEACE-RESTORED.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\PEACE-RESTORED.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\steel.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\steel.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\Unbenannt.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\Unbenannt.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\restmode\\matterials\\wires.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\restmode\\matterials\\wires.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundFour.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundFour.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundThree.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundThree.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundTwopng.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Titlescreen\\background\\backgroundTwopng.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Titlescreen\\create new game formpng.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Titlescreen\\create new game formpng.png.import"
+                },
+                {
+                    "filename": "Media\\GUI\\Titlescreen\\Title.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\GUI\\Titlescreen\\Title.png.import"
+                },
+                {
+                    "filename": "Media\\panicroom.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\panicroom.PNG.import"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\06_debug.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\08_Nature.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\Introduction.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\mall.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\schanze.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 170,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\sewer.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 196,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\Suburban.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\custome\\test.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\Debug.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\devroom.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 159,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\dummy.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 98,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\ProcGen bricks\\Suburban\\01.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\ProcGen bricks\\Suburban\\02.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\ProcGen bricks\\Suburban\\03.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 170,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\SuburbanTestSide.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "Media\\TileMap\\template.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 2143,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\all.tres"
+                },
+                {
+                    "blank": 0,
+                    "code": 513,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\01_General.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 522,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\02_POI.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2816,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\03_Suburban.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 923,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\04_CommonBNPC.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1058,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\05_Security.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 338,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\06_Marker.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 799,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\07_Shop.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\JSON\\08_Nature.json"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\01_General.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\01_General.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\02_POI.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\02_POI.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\03_Suburban.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\03_Suburban.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\04_CommonBNPC.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\04_CommonBNPC.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\05_Security.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\05_Security.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\06_Marker.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\06_Marker.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\07_Decoration.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\07_Decoration.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\08_Nature.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\08_Nature.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\Conditions.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\Conditions.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\Shop.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\Shop.png.import"
+                },
+                {
+                    "filename": "Media\\Tilesets\\PNG\\Unbenannt.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Media\\Tilesets\\PNG\\Unbenannt.png.import"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "project.godot"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "project.godot~RF7015310.TMP"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "Src\\Bootstrap\\BooStrap.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 3,
+                    "filename": "Src\\Bootstrap\\Engines\\InitDemocrECTS.gd"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 1,
+                    "filename": "Src\\Bootstrap\\Engines\\InitDioJSONes.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Src\\Bootstrap\\Engines\\SokraTILES.gd"
+                },
+                {
+                    "blank": 27,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Src\\Bootstrap\\GameInit\\GameInit.gd"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Src\\Bootstrap\\GameInit\\GameInitSzene.tscn"
+                },
+                {
+                    "blank": 11,
+                    "code": 5,
+                    "comment": 3,
+                    "filename": "Src\\Cogsmos Framework\\ArisPROCGENes\\ArisPROCGENes.gd"
+                },
+                {
+                    "blank": 11,
+                    "code": 25,
+                    "comment": 4,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\demokrECS.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Actor Entity.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 14,
+                    "comment": 2,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\Effect_Unit_Component.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_EFFECT_Condition.gd"
+                },
+                {
+                    "blank": 16,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_EFFECT_Statmod.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_SPACE.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_TIME.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_TRIGGER_Base.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Effect\\slots\\Effect_Comp_TRIGGER_Specific.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\EffectEntity.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Interactable Entity.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\KitSet\\Kit Modules\\AppendixKitPart.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\KitSet\\Kit Modules\\BaseKitPart.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\KitSet\\Kit Modules\\Kit Parts\\KitPartEntity.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\KitSet\\Kit Modules\\ModKitPart.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 42,
+                    "comment": 1,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\KitSet\\KitSetEntity.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Loot Entity.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Player\\Belongings\\Gear.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Player\\Belongings\\Kitventory.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Player\\Player Entity.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Entities\\Tile Entity.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Manager\\Atlas.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Manager\\Entity Converter.gd"
+                },
+                {
+                    "blank": 43,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Manager\\GroupManager.gd"
+                },
+                {
+                    "blank": 18,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Manager\\PerformanceManager.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 46,
+                    "comment": 1,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Manager\\SystemManager.gd"
+                },
+                {
+                    "blank": 56,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Module Structure\\Controller.gd"
+                },
+                {
+                    "blank": 65,
+                    "code": 108,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Module Structure\\EntityManager.gd"
+                },
+                {
+                    "blank": 27,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\Module Structure\\system.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\parts of Entities\\Component.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 48,
+                    "comment": 3,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\parts of Entities\\Entity.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 40,
+                    "comment": 1,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\parts of Entities\\Group.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DemcorECTS\\parts of Entities\\Template.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\dioJSONes.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\Interpreter.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\Hub.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\U_CHANGE_TEXTURE.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\U_DEAL_PLAIN_DAMAGE.gd"
+                },
+                {
+                    "blank": 10,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\U_DEAL_STRUCTURAL_DAMAGE.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\U_OPEN_DOOR.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Dynamic Parser\\StatMod\\U_SPAWN_TILE.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\EffectParser\\dictToEffectEnt.gd"
+                },
+                {
+                    "blank": 31,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\Interpreter\\InterpreterHub.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\JsonToEntityParser\\ComponentConstructor.gd"
+                },
+                {
+                    "blank": 36,
+                    "code": 62,
+                    "comment": 3,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\JsonToEntityParser\\JSONToEntityParser.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\JsonToEntityParser\\TilesetParser.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\DioJSONes\\SYNTAX.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\Condition\\addCond.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\Condition\\changeCond.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\Condition\\removeCond.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\HeGEL.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\InjectionComponents\\foo.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\HeGEL\\Stats\\changeCond.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Chunk Visualicer\\parent\\SokraTiles_Chunk_Basic.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Chunk Visualicer\\SokraTiles_Chunk_Actors.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Chunk Visualicer\\SokraTiles_Chunk_Animation.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Chunk Visualicer\\SokraTiles_Chunk_Floor.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Chunk Visualicer\\SokraTiles_Chunk_Interactables.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Debug.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\Layer.gd"
+                },
+                {
+                    "blank": 54,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\FrameWork\\TilemapParse\\Tilemap.gd"
+                },
+                {
+                    "blank": 30,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "Src\\Cogsmos Framework\\SokraTILEs\\sokraTILES.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C0.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C1.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C10.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C11.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C12.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C13.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C14.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C15.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C16.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C17.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C18.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C19.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C2.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C20.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C21.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C22.gd"
+                },
+                {
+                    "blank": 10,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C23.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C24.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C25.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C26.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C27.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C28.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C29.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C3.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C30.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C31.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C32.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C33.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C34.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C35.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C36.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C37.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C38.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C39.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C4.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C40.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C41.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C42.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C43.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C44.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C45.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C47.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C48.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C49.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C5.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C50.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C51.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C52.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C53.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C54.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C55.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C56.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C57.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C58.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C59.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C6.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C60.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C61.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C62.gd"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C7.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C8.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Components\\C9.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F1.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F2.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F3.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F4.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F5.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F6.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F7.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Flags\\F8.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "Src\\Components\\Injected Comp\\I1.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Components\\INJECTED_COMP.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Src\\Gameloop.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "Src\\Logic\\Modules\\000_Basic Tiles Atlas\\Controller\\API.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\000_Basic Tiles Atlas\\Entity Manager\\TileEntManager.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\001_Metahuman Stats\\Controller\\API.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\001_Metahuman Stats\\IO\\Input.gd"
+                },
+                {
+                    "blank": 18,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\001_Metahuman Stats\\Systems\\BasicStatChange.gd"
+                },
+                {
+                    "blank": 34,
+                    "code": 32,
+                    "comment": 2,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Controller\\API.gd"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\Events\\condition.gd"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\Events\\StatMod.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\SpaceSlots\\Medium\\MediumHub.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\SpaceSlots\\Source\\SourceHub.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\Syntax.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\Trigger\\BaseTrigger.gd"
+                },
+                {
+                    "blank": 35,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\Trigger\\SpecificTrigger.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\TriggerBasic\\TriggerSlot.gd"
+                },
+                {
+                    "blank": 34,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\002_Effect Generator\\Entity Manager\\TriggerSpecific\\Hub.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Controller\\API.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Entity Manager\\ConditionIndex.gd"
+                },
+                {
+                    "blank": 28,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Elemental\\Earth\\test.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Elemental\\Fire\\burning.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Elemental\\Fire\\Incinerating.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Elemental\\Fire\\Spreading.gd"
+                },
+                {
+                    "blank": 42,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Parent Class.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Psychological\\Confusing\\Wandering.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Senses\\Sight\\Overstimulating.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\003_Conditions\\Strategies\\Senses\\Sight\\Understimulating.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\004_Items\\Controller\\API.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Controller\\API.gd"
+                },
+                {
+                    "blank": 38,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Entity Manager\\kitMerge.gd"
+                },
+                {
+                    "blank": 11,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Systems\\getter.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Systems\\InitialKitPartToAct.gd"
+                },
+                {
+                    "blank": 40,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Systems\\kitRun.gd"
+                },
+                {
+                    "blank": 28,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\005_KitSet\\Systems\\kitSelect.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\006_Kitparts\\Controller\\API.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\006_Kitparts\\Entity Manager\\Kit constructor.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\007_Procgen Actor\\Controller\\API.gd"
+                },
+                {
+                    "blank": 31,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\007_Procgen Actor\\Entity Manager\\CreateNPCProcess.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\007_Procgen Actor\\Entity Manager\\DynamicNPC.gd"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\008_Procgen Chunk\\Controller\\API.gd"
+                },
+                {
+                    "blank": 24,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Controller\\API.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\IO\\in.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\IO\\out.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Actor\\NPC.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Actor\\Player.gd"
+                },
+                {
+                    "blank": 38,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Animation\\Conditions.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Animation\\Selection.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Magic\\Magic Floor.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Magic\\Magic Interactables.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Matrix\\Matrix Floor.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Matrix\\Matrix Interactables.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Meat\\Meat Floor.gd"
+                },
+                {
+                    "blank": 30,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Layer\\Meat\\Meat Interactables.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\009_Tilemap Structure\\Systems\\Tile Interpreter.gd"
+                },
+                {
+                    "blank": 2,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\010_DioJSONes interpreter\\Controller\\API.gd"
+                },
+                {
+                    "blank": 24,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Controller\\API.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\io\\In.gd"
+                },
+                {
+                    "blank": 30,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\chargen.gd"
+                },
+                {
+                    "blank": 40,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\Interface FSM\\FSM Hub.gd"
+                },
+                {
+                    "blank": 35,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\Interface FSM\\MouseHover.gd"
+                },
+                {
+                    "blank": 39,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\Interface FSM\\MouseLogik.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\Interface FSM\\MouseMarker.gd"
+                },
+                {
+                    "blank": 38,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\Interface FSM\\SidePanel.gd"
+                },
+                {
+                    "blank": 45,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\PlayerMovement\\FSM Hub.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Input\\PanicMode\\UserinputHub.gd"
+                },
+                {
+                    "blank": 41,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\loadChar.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\011_Player\\Systems\\Utils.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\012_Behavior\\Controller\\API.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\013_Entropy\\Controller\\API.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\013_Entropy\\io\\In.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\014_Tilemap Selector\\Controller\\API.gd"
+                },
+                {
+                    "blank": 38,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\014_Tilemap Selector\\Systems\\Complex.gd"
+                },
+                {
+                    "blank": 22,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\014_Tilemap Selector\\Systems\\Simplex.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\014_Tilemap Selector\\Systems\\Utils.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\015_Basic Static Interactables Atlas\\Controller\\API.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\015_Basic Static Interactables Atlas\\Entity Manager\\TileEntManager.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\Controller\\API.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Actors.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Interactables.gd"
+                },
+                {
+                    "blank": 25,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\KitPart.gd"
+                },
+                {
+                    "blank": 28,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Race.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Role.gd"
+                },
+                {
+                    "blank": 30,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Specialty.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\017_Atlas\\System\\Tiles.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\018_Loot\\Controller\\API.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\Modules\\018_Loot\\Entity Manager\\entMan.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\COMP.gd"
+                },
+                {
+                    "blank": 79,
+                    "code": 234,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Enum.gd"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Cloudprinter.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Common.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Inventory.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Kitventory.gd"
+                },
+                {
+                    "blank": 11,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Player Singleton.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Recycler.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Runner.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Stats.gd"
+                },
+                {
+                    "blank": 27,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\Team.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Player\\WorldMap.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Signals.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\Main.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\Dictionary.gd"
+                },
+                {
+                    "blank": 11,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\DirectoryManager.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\Filepath Builder.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\JSONParser.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\KitsUILoader.gd"
+                },
+                {
+                    "blank": 9,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\NodesManager.gd"
+                },
+                {
+                    "blank": 17,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "Src\\Logic\\single scripts\\Util\\SubUtils\\RNG.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\EntropyBar.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\HUD\\Camera2D.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\HUD\\Menue loader.gd"
+                },
+                {
+                    "blank": 10,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\PanicMode.tscn"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\rng Backgrounf.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\SidePanelCache.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Inv Side Panel\\Inv.gd"
+                },
+                {
+                    "blank": 86,
+                    "code": 855,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Inv Side Panel\\Inv.tscn"
+                },
+                {
+                    "blank": 8,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Kits Side Panel\\Kits.gd"
+                },
+                {
+                    "blank": 93,
+                    "code": 923,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Kits Side Panel\\Kits.tscn"
+                },
+                {
+                    "blank": 15,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Monitor Side Panel\\Monitor.gd"
+                },
+                {
+                    "blank": 28,
+                    "code": 302,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Monitor Side Panel\\Monitor.tscn"
+                },
+                {
+                    "blank": 6,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\News Side Panel\\News.gd"
+                },
+                {
+                    "blank": 92,
+                    "code": 991,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\News Side Panel\\News.tscn"
+                },
+                {
+                    "blank": 5,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Onlook Sub Panel\\News.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 151,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Onlook Sub Panel\\Onlook.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 201,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\Action.tscn"
+                },
+                {
+                    "blank": 14,
+                    "code": 96,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\Entrope Bar.tscn"
+                },
+                {
+                    "blank": 11,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\GUI.tscn"
+                },
+                {
+                    "blank": 25,
+                    "code": 143,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\Map.tscn"
+                },
+                {
+                    "blank": 24,
+                    "code": 214,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\Quest.tscn"
+                },
+                {
+                    "blank": 15,
+                    "code": 128,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\Rootpanel\\SidePanel.tscn"
+                },
+                {
+                    "blank": 33,
+                    "code": 315,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\ViewModes\\dummy.tscn"
+                },
+                {
+                    "blank": 7,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\PanicMode\\Subscenes\\ViewModes\\Input handler.gd"
+                },
+                {
+                    "blank": 33,
+                    "code": 333,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\HUD\\HUD.tscn"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\HUD\\instanceHUD.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\HUD\\ScreenSwapText.gd"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Init.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Init.tscn"
+                },
+                {
+                    "blank": 7,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Progression.tscn"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Restmode.gd"
+                },
+                {
+                    "blank": 127,
+                    "code": 1258,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Charsheet\\Charsheet.tscn"
+                },
+                {
+                    "blank": 73,
+                    "code": 564,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Inventar.tscn"
+                },
+                {
+                    "blank": 20,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\InventarInit.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\panicbutton.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Stats of Kit.gd"
+                },
+                {
+                    "blank": 111,
+                    "code": 886,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Cloudprinter.tscn"
+                },
+                {
+                    "blank": 111,
+                    "code": 885,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Inventory.tscn"
+                },
+                {
+                    "blank": 120,
+                    "code": 898,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\KitDetails.tscn"
+                },
+                {
+                    "blank": 11,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\KitOverview.gd"
+                },
+                {
+                    "blank": 120,
+                    "code": 900,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Kits.tscn"
+                },
+                {
+                    "blank": 35,
+                    "code": 330,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Kits.tscn~RF46a5cdb2.TMP"
+                },
+                {
+                    "blank": 93,
+                    "code": 861,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Recycler.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 185,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\Recycler.tscn~RF4693cc52.TMP"
+                },
+                {
+                    "blank": 98,
+                    "code": 950,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\ShopList.tscn"
+                },
+                {
+                    "blank": 42,
+                    "code": 391,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Inventory\\Subscene\\testrecycle.tscn"
+                },
+                {
+                    "blank": 10,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Self\\Rootnet\\Rootnet.tscn"
+                },
+                {
+                    "blank": 3,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\Filling Kits in Form EXTERN.gd"
+                },
+                {
+                    "blank": 38,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\Filling Kits in Form.gd"
+                },
+                {
+                    "blank": 40,
+                    "code": 253,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitAppend\\KitAppend.tscn"
+                },
+                {
+                    "blank": 40,
+                    "code": 253,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitAppend\\KitAppendAlt.tscn"
+                },
+                {
+                    "blank": 42,
+                    "code": 237,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitBase\\KitAppend.tscn"
+                },
+                {
+                    "blank": 62,
+                    "code": 395,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitBase\\KitBase.tscn"
+                },
+                {
+                    "blank": 52,
+                    "code": 293,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitBase\\KitMod.tscn"
+                },
+                {
+                    "blank": 9,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\KitBase\\KitSwapText.gd"
+                },
+                {
+                    "blank": 7,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\Station.tscn"
+                },
+                {
+                    "blank": 5,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\StationInit.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Stations\\StationManager.gd"
+                },
+                {
+                    "blank": 45,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Gameloop\\RestMode\\Userinput.gd"
+                },
+                {
+                    "blank": 19,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Checkbox\\Constructor.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Checkbox\\universal Cheackbox.tscn"
+                },
+                {
+                    "blank": 9,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Checkbox\\Userinput.gd"
+                },
+                {
+                    "blank": 10,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Flatbox Style\\StyleManager.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Look at Panel\\Initialice.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 242,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Look at Panel\\look at.tscn"
+                },
+                {
+                    "blank": 12,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Panel\\Constructor.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\ProgressionBar\\hover up.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\ProgressionBar\\ProgressionBar.gd"
+                },
+                {
+                    "blank": 16,
+                    "code": 82,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\ProgressionBar\\ProgressionBar.tscn"
+                },
+                {
+                    "blank": 14,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Templates\\GUI\\Textfield input\\TextClick.gd"
+                },
+                {
+                    "blank": 29,
+                    "code": 191,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Enter Restmode Popup\\charsheetr.tscn"
+                },
+                {
+                    "blank": 4,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Enter Restmode Popup\\enterRestmode\\buttonN.gd"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Enter Restmode Popup\\enterRestmode\\buttonY.gd"
+                },
+                {
+                    "blank": 11,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Enter Restmode Popup\\enterRestmode\\enterSaveroom.tscn"
+                },
+                {
+                    "blank": 6,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Enter Restmode Popup\\enterRestmode\\Panel.gd"
+                },
+                {
+                    "blank": 41,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\init.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\scripts\\AnimatedPNG.gd"
+                },
+                {
+                    "blank": 14,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\scripts\\AnimatedText.gd"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\scripts\\close MenuePoint.gd"
+                },
+                {
+                    "blank": 16,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\scripts\\MainMenuePoints.gd"
+                },
+                {
+                    "blank": 79,
+                    "code": 772,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\create new game\\create new game.tscn"
+                },
+                {
+                    "blank": 13,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\create new game\\Form Inputlistener.gd"
+                },
+                {
+                    "blank": 27,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\create new game\\initForm.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\credits.tscn"
+                },
+                {
+                    "blank": 33,
+                    "code": 299,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\Introduction.tscn"
+                },
+                {
+                    "blank": 18,
+                    "code": 123,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\News.tscn"
+                },
+                {
+                    "blank": 10,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\Patchnotes.tscn"
+                },
+                {
+                    "blank": 12,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\SubScene\\personal.tscn"
+                },
+                {
+                    "blank": 18,
+                    "code": 129,
+                    "comment": 0,
+                    "filename": "Src\\scenes\\Unique\\Titlescreen\\Title.tscn"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "test\\test.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "test\\test.tscn"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "tools\\Custome_NPC\\Suburban.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "tools\\debugKitsAtStart.json"
+                },
+                {
+                    "blank": 9,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "tools\\RuntimeConfigs\\default.cfg"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "tools\\RuntimeConfigs\\Statistics.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "tools\\RuntimeConfigs\\TilemapTest.json"
+                },
+                {
+                    "blank": 24,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "tools\\Statistics\\Components.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "tools\\Statistics\\Kitparts.gd"
+                },
+                {
+                    "blank": 18,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "tools\\VSCode Snippets.json"
+                }
+            ]
         }
     ]
 }

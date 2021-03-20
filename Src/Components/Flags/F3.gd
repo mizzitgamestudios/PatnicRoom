@@ -7,7 +7,7 @@ class_name F_3_ITEM
 ########################
 # --- AUTODOC -------- #
 ########################
-const autodoc={
+var  autodoc={
 	"title":"relevant layer",
 	"description":"descibes the most relevant layer of Tile",
 	"className":"C_3_ANY_LAYER",

@@ -12,13 +12,12 @@ func _init(valuePara:bool):
 ########################
 # --- AUTODOC -------- #
 ########################
-const autodoc={
-	"title":"Walkabillity",
-	"description":"Determinds of an Actor can Stay on this spot",
-	"className":"C_1_ANY_IS_WALKABLE",
-	"moduleName":"00_00 Basic Tile Components",
-	"dataType":"bool",
-	"notable":" "
+var  autodoc={
+	"suggestion"  : "",
+	"description" : "determinds if an Actor can walk on this tile",
+	"validInputs" : ["true","false"],
+	"validType"   : "validInputs",
+	"nameToShow"  : "Walkable",
 }
 static func name_quack():      return "C_1_ANY_IS_WALKABLE"
 static func dioJSONType_quack(): return "BOOLEAN"

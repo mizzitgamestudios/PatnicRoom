@@ -27,6 +27,9 @@ func TileAtlas():
 func TileSetAtlas():
 	return _tiles.atlas_Tilesets
 
+func getTileByTextureID(textureID:String):
+	return _tiles.atlas_Entry[textureID]
+
 
 
 # ---- INTERACT_ENTITY ---- #
