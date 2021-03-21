@@ -11,7 +11,7 @@ static func run(selectedPos,modValue):
 
 
 
-static func closeTierOne(selectedPos):
+static func closeTierOne(selectedPos, modValue=0):
 	var textureToPrint
 	if selectedPos.textureID() == "Suburban_2_0": textureToPrint = "Suburban_4_0"
 	if selectedPos.textureID() == "Suburban_2_1": textureToPrint = "Suburban_4_1"

@@ -3,7 +3,7 @@ class_name U_CHANGE_TEXTURE
 
 
 
-static func run(selectedPos, modValue:String):
+static func run(selectedPos, modValue):
 	var texture = selectedPos.getComp("C_2_ANY_TEXTURE_ID")
 	
 	HeGEL.changeStat(selectedPos,"C_2_ANY_TEXTURE_ID",modValue)

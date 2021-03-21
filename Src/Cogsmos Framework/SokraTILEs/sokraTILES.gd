@@ -14,9 +14,9 @@ extends Node
 ##  --- Subparts of Engine ---                                                ##
 ################################################################################
 
-var layerManager : SokraTILEs_LayerManager
+
 var tilemapManager : SokraTILEs_TilemapManager
-var tilemapDebug : SokraTILEs_TilemapDebug
+
 
 func getLayer(string:String) -> Dictionary:
 	match string:
@@ -75,29 +75,19 @@ func getAllActorsOnMap() -> Array :
 
 
 
-func getPlayer():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_PLAYER)
-func getActor():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_NPC)
+func getPlayer():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_PLAYER)
+func getActor():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_NPC)
 
-func getMeatInteract():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_INTERACTABLE)
-func getMeatFloor():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_GROUND)
+func getMeatInteract():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_INTERACTABLE)
+func getMeatFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_GROUND)
 
-func getMatrixInteract():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_INTERACTABLE)
-func getMatrixFloor():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_GROUND)
+func getMatrixInteract():	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_INTERACTABLE)
+func getMatrixFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_GROUND)
 
-func getMagicInteract():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_INTERACTABLE)
-func getMagicFloor():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_GROUND)
+func getMagicInteract():	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_INTERACTABLE)
+func getMagicFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_GROUND)
 
-func getSelection():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.SELECTION)
+func getSelection():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.SELECTION)
 
-func getCondition():
-	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.CONDITION)
+func getCondition():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.CONDITION)
 

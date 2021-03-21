@@ -3,9 +3,7 @@ class_name InitSokraTiles
 
 
 func _init() -> void:
-	SokraTiles.tilemapDebug = SokraTILEs_TilemapDebug.new()
 	SokraTiles.tilemapManager = SokraTILEs_TilemapManager.new()
-	SokraTiles.layerManager = SokraTILEs_LayerManager.new()
 	SokraTiles.tilemapManager = SokraTILEs_TilemapManager.new()
 	
 	#initialiceAllTilesets()

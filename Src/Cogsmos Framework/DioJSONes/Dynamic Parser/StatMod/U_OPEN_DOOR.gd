@@ -3,7 +3,7 @@ class_name U_OPEN_DOOR
 
 
 
-static func run(selectedPos):
+static func run(selectedPos,modValue=0):
 
 	var walkable           = selectedPos.getCompValue("C_1_ANY_IS_WALKABLE")
 	var texture            = selectedPos.getCompValue("C_2_ANY_TEXTURE_ID")

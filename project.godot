@@ -32,12 +32,12 @@ _global_script_classes=[ {
 "base": "KitPartEntity",
 "class": "AppendixKitPartEntity",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/AppendixKitPart.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/Appendix.gd"
 }, {
 "base": "KitPartEntity",
 "class": "BaseKitPartEntity",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/BaseKitPart.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/Base.gd"
 }, {
 "base": "Component",
 "class": "C_0_ANY_DESCRIPTION",
@@ -462,32 +462,32 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "Effect_Comp_EFFECT_Condition",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_EFFECT_Condition.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/condition.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_EFFECT_Statmod",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_EFFECT_Statmod.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/statMod.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_SPACE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_SPACE.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/space.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TIME",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_TIME.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/time.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TRIGGER_Base",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_TRIGGER_Base.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/baseTrigger.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TRIGGER_Specific",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/slots/Effect_Comp_TRIGGER_Specific.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/specificTrigger.gd"
 }, {
 "base": "Node",
 "class": "Effect_Generator_Syntax",
@@ -647,7 +647,7 @@ _global_script_classes=[ {
 "base": "Entity",
 "class": "KitPartEntity",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/Kit Parts/KitPartEntity.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/parent.gd"
 }, {
 "base": "Node",
 "class": "KitSelection",
@@ -687,7 +687,7 @@ _global_script_classes=[ {
 "base": "KitPartEntity",
 "class": "ModKitPartEntity",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/ModKitPart.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/Mod.gd"
 }, {
 "base": "Viewport",
 "class": "MouseHoverOverTileMap",
@@ -755,16 +755,6 @@ _global_script_classes=[ {
 "path": "res://Src/Bootstrap/GameInit/GameInit.gd"
 }, {
 "base": "Node",
-"class": "SokraTILEs_LayerManager",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Layer.gd"
-}, {
-"base": "Node",
-"class": "SokraTILEs_TilemapDebug",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Debug.gd"
-}, {
-"base": "Node",
 "class": "SokraTILEs_TilemapManager",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/TilemapParse/Tilemap.gd"
@@ -772,27 +762,27 @@ _global_script_classes=[ {
 "base": "SokraTiles_Chunk_Basic",
 "class": "SokraTiles_Chunk_Actors",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/SokraTiles_Chunk_Actors.gd"
+"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/Actor.gd"
 }, {
 "base": "SokraTiles_Chunk_Basic",
 "class": "SokraTiles_Chunk_Animation",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/SokraTiles_Chunk_Animation.gd"
+"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/Animation.gd"
 }, {
 "base": "TileMap",
 "class": "SokraTiles_Chunk_Basic",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/parent/SokraTiles_Chunk_Basic.gd"
+"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/Basic.gd"
 }, {
 "base": "SokraTiles_Chunk_Basic",
 "class": "SokraTiles_Chunk_Floor",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/SokraTiles_Chunk_Floor.gd"
+"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/Floor.gd"
 }, {
 "base": "SokraTiles_Chunk_Basic",
 "class": "SokraTiles_Chunk_Interactables",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/SokraTiles_Chunk_Interactables.gd"
+"path": "res://Src/Cogsmos Framework/SokraTILEs/FrameWork/Chunk Visualicer/Interactable.gd"
 }, {
 "base": "SokraTiles_Chunk_Floor",
 "class": "SokraTiles_Chunk_Magic_Floor",
@@ -1294,8 +1284,6 @@ _global_script_class_icons={
 "RestmodeUserinput": "",
 "Runner": "",
 "RuntimeParameter": "",
-"SokraTILEs_LayerManager": "",
-"SokraTILEs_TilemapDebug": "",
 "SokraTILEs_TilemapManager": "",
 "SokraTiles_Chunk_Actors": "",
 "SokraTiles_Chunk_Animation": "",
