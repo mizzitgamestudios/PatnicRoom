@@ -565,11 +565,6 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player/Belongings/Gear.gd"
 }, {
 "base": "Node",
-"class": "GroupManager",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Manager/GroupManager.gd"
-}, {
-"base": "Node",
 "class": "Group_Atlas",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Group.gd"
@@ -1246,7 +1241,6 @@ _global_script_class_icons={
 "FileHub": "",
 "FilepathBuilder": "",
 "GearEntity": "",
-"GroupManager": "",
 "Group_Atlas": "",
 "HeGEL_AddCond": "",
 "HeGEL_ChangeCond": "",

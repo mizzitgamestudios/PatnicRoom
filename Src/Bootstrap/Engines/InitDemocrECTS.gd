@@ -6,8 +6,6 @@ class_name InitDemocrECTS
 
 
 func _init():
-	DemokrECTS.groupManager = GroupManager.new()
-	DemokrECTS.groupManager.initGroups()
 	DemokrECTS.entityConverter = DemocrECTS_EntityConverter.new()
 	
 
