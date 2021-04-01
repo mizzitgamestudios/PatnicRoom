@@ -14,7 +14,7 @@ func _init(valuePara:String):
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "Name of Entity",
+	"description" : "short reference name shown in the most cases",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
 	"nameToShow"  : "Name",

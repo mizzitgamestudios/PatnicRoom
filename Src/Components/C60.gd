@@ -16,10 +16,10 @@ func _init(valuePara):
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"description" : "choose the kit to specialice",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "base-kit reference",
 }
 static func name_quack():      return "C_60_BASE_KIT_REFERENCE"
 static func dioJSONType_quack(): return "STRING"

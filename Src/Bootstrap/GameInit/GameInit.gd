@@ -19,7 +19,7 @@
 extends Node
 class_name RuntimeParameter
 
-var settingToUse: String = "default";    # <---- WRITE RUNTIME PARAMETER HERE
+var settingToUse: String = "statistics";    # <---- WRITE RUNTIME PARAMETER HERE
 
 
 var startConfig: ConfigFile = ConfigFile.new();

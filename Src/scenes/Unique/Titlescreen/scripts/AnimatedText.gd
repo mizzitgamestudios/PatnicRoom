@@ -5,7 +5,7 @@ var nthFrameToSwitch
 var speed
 var sumOfFrames=0
 var nthFrameToAnimate
-func initialice():
+func _init():
 	nthFrameToAnimate = 2
 	nthFrameToSwitch = 50
 	speed = 0.2

@@ -1,12 +1,12 @@
 [
  {
-  "suggestion": "should not have mor than 80 charackters",
+  "suggestion": "something offensive or hyperbolic,best case both",
   "description": "is shown to the player in things like mousehover or onlook-action",
   "validInputs": [
 
   ],
   "validType": "STRING",
-  "nameToShow": "description",
+  "nameToShow": "lore-description",
   "componentName": "C_0_ANY_DESCRIPTION"
  },
  {
@@ -71,7 +71,7 @@
  },
  {
   "suggestion": "",
-  "description": "Name of Entity",
+  "description": "short reference name shown in the most cases",
   "validInputs": [
 
   ],
@@ -111,7 +111,7 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "like description a flavor-text",
   "validInputs": [
 
   ],
@@ -131,12 +131,12 @@
  },
  {
   "suggestion": "",
-  "description": "",
+  "description": "the name of the specialty which references to multiple Synonyms",
   "validInputs": [
 
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "index Name",
   "componentName": "C_14_ACTOR_SPECIALTY_NAME"
  },
  {
@@ -181,12 +181,12 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "add modifiers to the biological potential of an Actors",
   "validInputs": [
 
   ],
   "validType": "DICTIONARY",
-  "nameToShow": "role description",
+  "nameToShow": "Attributes",
   "componentName": "C_19_ACTOR_ATTRIBUTES"
  },
  {
@@ -241,17 +241,17 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "choose\traces for prejudices",
   "validInputs": [
 
   ],
   "validType": "ARRAY",
-  "nameToShow": "role description",
+  "nameToShow": "racial enemies",
   "componentName": "C_27_ACTOR_RACIAL_ENEMIES"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "yes this is pride and prejudices reference,go read it.its good :D",
+  "description": "choose\traces for pride",
   "validInputs": [
 
   ],
@@ -281,12 +281,20 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "type of kit of the Surv9",
   "validInputs": [
-
+   "CYBERWARE",
+   "HACK",
+   "DRONE",
+   "INFUSION",
+   "SPELL",
+   "RITE",
+   "MEELE",
+   "GUN",
+   "ARMOR"
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "kit Category",
   "componentName": "C_31_KIT_CAT_TYPE"
  },
  {
@@ -300,13 +308,13 @@
   "componentName": "C_32_ANY_LIST_OF_CONDITIONS"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "guide value: Rarity*1",
+  "description": "by actions of player",
   "validInputs": [
 
   ],
   "validType": "INTEGER",
-  "nameToShow": "role description",
+  "nameToShow": "cooldown",
   "componentName": "C_33_KIT_COOLDOWN_TIMER"
  },
  {
@@ -320,43 +328,47 @@
   "componentName": "C_34_ANY_LOG_TO_STRING"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "about 80 characters at max",
+  "description": "shown as short explaination of usage",
   "validInputs": [
 
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "summary",
   "componentName": "C_35_KIT_MECHANICAL_SUMMARY"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "guide value: Rarity*1,5",
+  "description": "number of Panicrooms before its usable",
   "validInputs": [
 
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "setup time",
   "componentName": "C_36_KIT_MOD_TIME"
  },
  {
   "suggestion": "",
   "description": "name of its fightingstyle",
   "validInputs": [
-
+   "MEAT",
+   "MAGIC",
+   "MATRIX"
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "layer of perception",
   "componentName": "C_37_ANY_M_TYPE"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "Base: Main definition, Mod: Specialication, Appendix: Side-effect",
+  "description": "place in Kitset",
   "validInputs": [
-
+   "BASE",
+   "MOD",
+   "APPENDIX"
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "kit Part",
   "componentName": "C_38_KIT_PART_TYPE"
  },
  {
@@ -411,22 +423,22 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "list of differnt names for this spcialication",
   "validInputs": [
 
   ],
   "validType": "ARRAY",
-  "nameToShow": "role description",
+  "nameToShow": "synonyms",
   "componentName": "C_47_ANY_SYNONYM"
  },
  {
-  "suggestion": "",
-  "description": "name of its fightingstyle",
+  "suggestion": "1: Drek, 5: Fixer, 10: R&D-Prototype",
+  "description": "chance to loot on a scale of 1 to 10",
   "validInputs": [
 
   ],
   "validType": "INTEGER",
-  "nameToShow": "role description",
+  "nameToShow": "Rarity",
   "componentName": "C_48_ANY_RARITY"
  },
  {
@@ -491,12 +503,12 @@
  },
  {
   "suggestion": "",
-  "description": "name of its fightingstyle",
+  "description": "choose the kit to specialice",
   "validInputs": [
 
   ],
   "validType": "STRING",
-  "nameToShow": "role description",
+  "nameToShow": "base-kit reference",
   "componentName": "C_60_BASE_KIT_REFERENCE"
  },
  {

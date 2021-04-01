@@ -1,0 +1,359 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Text_Default.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Src/scenes/Unique/Titlescreen/SubScene/create new game/create new game alt.gd" type="Script" id=2]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=6]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="DynamicFont" id=3]
+size = 15
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.298039, 0.298039, 0.298039, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.729412, 0.231373, 0.231373, 1 )
+
+[node name="root_Create" type="Node2D"]
+position = Vector2( -528, -192 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 816.0
+margin_top = 640.0
+margin_right = 1872.0
+margin_bottom = 944.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Name" type="Control" parent="Panel2"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Name"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 288.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "My Name is"
+text = "My Name is"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Panel2/Name"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 72.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="Panel2/Name"]
+margin_left = 384.0
+margin_top = 32.0
+margin_right = 640.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Attribute" type="Control" parent="Panel2"]
+modulate = Color( 1, 1, 1, 0.196078 )
+margin_top = 64.0
+margin_right = 40.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/Attribute"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Attribute"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 160.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "I am a"
+text = "I am a"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/Attribute"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+
+[node name="Skill" type="Control" parent="Panel2"]
+modulate = Color( 1, 1, 1, 0.196078 )
+margin_top = 112.0
+margin_right = 40.0
+margin_bottom = 152.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/Skill"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Skill"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 272.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Specialiced in"
+text = "Specialiced in"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/Skill"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Race" type="Control" parent="Panel2"]
+margin_top = 160.0
+margin_right = 40.0
+margin_bottom = 200.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/Race"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Race"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 272.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Specialiced in"
+text = "Specialiced in"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/Race"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="kits" type="Control" parent="Panel2"]
+margin_top = 208.0
+margin_right = 40.0
+margin_bottom = 248.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/kits"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/kits"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 368.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Trying to survive with"
+text = "Trying to survive with"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/kits"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="start" type="Control" parent="."]
+margin_left = 1608.0
+margin_top = 960.0
+margin_right = 1872.0
+margin_bottom = 1024.0
+
+[node name="Panel" type="Panel" parent="start"]
+margin_right = 264.0
+margin_bottom = 64.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="start"]
+margin_left = 26.0
+margin_top = 6.99994
+margin_right = 61.0
+margin_bottom = 16.9999
+rect_rotation = 45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4" type="Panel" parent="start"]
+margin_left = 18.7874
+margin_top = 50.4874
+margin_right = 53.7874
+margin_bottom = 60.4874
+rect_rotation = -45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel5" type="Panel" parent="start"]
+margin_left = 50.0001
+margin_top = 7.00006
+margin_right = 85.0001
+margin_bottom = 17.0001
+rect_rotation = 45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel6" type="Panel" parent="start"]
+margin_left = 42.7874
+margin_top = 50.4874
+margin_right = 77.7874
+margin_bottom = 60.4874
+rect_rotation = -45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel7" type="Panel" parent="start"]
+margin_left = 74.0
+margin_top = 6.60315
+margin_right = 109.0
+margin_bottom = 16.6031
+rect_rotation = 45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel8" type="Panel" parent="start"]
+margin_left = 66.7874
+margin_top = 50.0906
+margin_right = 101.787
+margin_bottom = 60.0906
+rect_rotation = -45.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="start"]
+margin_left = 104.0
+margin_top = 16.0
+margin_right = 255.0
+margin_bottom = 52.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center]P[color=red]@[/color]ANIC[/center]"
+text = "P@ANIC"

@@ -13,11 +13,11 @@ func _init(valuePara):
 # --- AUTODOC -------- #
 ########################
 var  autodoc={
-	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"suggestion"  : "guide value: Rarity*1,5",
+	"description" : "number of Panicrooms before its usable",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "setup time",
 }
 static func name_quack():      return "C_36_KIT_MOD_TIME"
 static func dioJSONType_quack(): return "STRING"

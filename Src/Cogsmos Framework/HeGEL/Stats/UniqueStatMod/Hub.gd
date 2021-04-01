@@ -4,8 +4,8 @@ class_name DIOJSONES_UNIQUE_STATMOD
 
 
 static func manageUniqueStatmod(selectedPos, statmodName:String, modValue):
-	var nameOfUniqueStatmods  = DIOJSONES_SYNTAX.EFFECT_UNIQUE_STATMOD.keys()
-	var classOfUniqueStatmods = DIOJSONES_SYNTAX.EFFECT_UNIQUE_STATMOD.values()
+	var nameOfUniqueStatmods  = Syntax_Effect.EFFECT_UNIQUE_STATMOD.keys()
+	var classOfUniqueStatmods = Syntax_Effect.EFFECT_UNIQUE_STATMOD.values()
 
 	if is_instance_valid(selectedPos):
 

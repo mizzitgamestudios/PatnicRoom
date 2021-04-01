@@ -32,7 +32,7 @@ func statModParse(statModArray):
 
 
 		for j in currentTile.size():
-			if   DIOJSONES_SYNTAX.EFFECT_UNIQUE_STATMOD.has(keyword):  DIOJSONES_UNIQUE_STATMOD.manageUniqueStatmod(currentTile[j],keyword,modValue)
+			if   Syntax_Effect.EFFECT_UNIQUE_STATMOD.has(keyword):  DIOJSONES_UNIQUE_STATMOD.manageUniqueStatmod(currentTile[j],keyword,modValue)
 			elif COMP.ATLAS_INDEX_COMP.has(keyword):                   
 				HeGEL.changeStat(currentTile[j],keyword,modValue)
 

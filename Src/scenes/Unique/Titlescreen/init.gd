@@ -13,14 +13,14 @@ var backgroundFilepaths=[
 var animate:bool=false
 func _ready():
 		setRandomBackground()
+		isready = true
 		setSubtitle()
-		get_node("Hauptmenü").initialice()
-		get_node("gametitle").initialice()
-		get_node("gametitle/dynamic subtitle").initialice()
-		
-		
-		
-		
+		#get_node("Hauptmenü").initialice()
+		#get_node("gametitle").initialice()
+		#get_node("gametitle/dynamic subtitle").initialice()
+
+func _init() -> void:
+	isready = false
 
 
 
@@ -33,16 +33,17 @@ func setRandomBackground():
 	
 	var texture = load(currentBackground)
 	get_node("background").texture=texture
-	
-	
+
 
 
 #########################
 ## -- Textanimation -- ##
 #########################
+var isready
 func _physics_process(delta):
-	get_node("gametitle").animateTitleSprite()
-	get_node("gametitle/dynamic subtitle").animateTitleSprite()
+	if isready:
+		get_node("gametitle").animateTitleSprite()
+		get_node("gametitle/dynamic subtitle").animateTitleSprite()
 
 
 
@@ -60,7 +61,7 @@ func setSubtitle():
 
 func _input(event):
 	if event.is_pressed() and event.is_action("escape"):
-		get_node("Hauptmenü").removeAllNodes()
+		get_tree().change_scene("res://Src/scenes/Unique/Titlescreen/Title.tscn")
 
 
 

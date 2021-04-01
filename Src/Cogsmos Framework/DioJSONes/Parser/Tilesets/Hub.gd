@@ -19,9 +19,9 @@ func parseTileSetToEntities(tiles):
 	
 	for tile in tiles:
 		var propertiesCache={}
-		for i in tile["properties"].size():				
+		for i in tile["properties"].size():
+			
 			var property                  = tile["properties"][i]
-				
 			
 			var porpertyName              = ( str(property["name"]) )
 			var porpertyValue             = property["value"]

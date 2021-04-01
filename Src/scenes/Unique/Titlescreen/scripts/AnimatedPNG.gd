@@ -3,14 +3,16 @@ class_name AnimatedPNG
 
 var nthFrameToSwitch
 var speed
-var sumOfFrames=0
+var sumOfFrames
 var nthFrameToAnimate
-func initialice():
-	nthFrameToAnimate = 2
+
+
+func _init() -> void:
+	sumOfFrames = 0
 	nthFrameToSwitch = 100
+	nthFrameToAnimate = 2
 	speed = 0.3
 	goesUp=true
-
 
 var pos
 var goesUp

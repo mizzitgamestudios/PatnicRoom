@@ -14,10 +14,10 @@ func _init(valuePara):
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"description" : "list of differnt names for this spcialication",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "synonyms",
 }
 static func name_quack():      return "C_47_ANY_SYNONYM"
 static func dioJSONType_quack(): return "ARRAY"

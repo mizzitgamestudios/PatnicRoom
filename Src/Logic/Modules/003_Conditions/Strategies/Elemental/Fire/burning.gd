@@ -9,10 +9,10 @@ func _init(levelPara:int, durationPara:int) -> void:
 	self.logToString
 	
 	self.symbioticComponents = {}
-
-	self.conditionSymbiotic = {
-		 "Elemental_Fire_Burning" : IC_1_FOO
-	}
+#
+#	self.conditionSymbiotic = {
+#		 "Elemental_Fire_Burning" : IC_1_FOO
+#	}
 
 
 

@@ -46,7 +46,7 @@ func sortKitpartsAtlas():
 func getKitByDrirectName(name:String):
 	return _kitparts.getDirectByAtlas(name)
 func getKitGroup(name:String):
-	return _kitparts.allBasekitGroups[name]
+	return _kitparts.allBasekitGroups[name.to_lower()]
 
 
 

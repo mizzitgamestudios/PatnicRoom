@@ -40,6 +40,7 @@ func socialLimit() 					-> int:				return .getCompValue(C_26_ACTOR_INDIRECT_STAT
 
 func setPos(positionPara:Vector2):     position = positionPara
 
+func pos(): return position()
 func position() 					-> Vector2:		return position
 func posX()							-> int:         return int(position.x)
 func posY()							-> int:			return int(position.y)

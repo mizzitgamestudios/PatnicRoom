@@ -11,11 +11,11 @@ func _init(valuePara:String):
 # --- AUTODOC -------- #
 ########################
 var autodoc={
-	"suggestion"  : "should not have mor than 80 charackters",
+	"suggestion"  : "something offensive or hyperbolic,best case both",
 	"description" : "is shown to the player in things like mousehover or onlook-action",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "description",
+	"nameToShow"  : "lore-description",
 }
 static func name_quack():      return "C_0_ANY_DESCRIPTION"
 static func dioJSONType_quack(): return "STRING"

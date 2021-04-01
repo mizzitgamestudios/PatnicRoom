@@ -14,7 +14,7 @@ func _init(valuePara):
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"description" : "like description a flavor-text",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
 	"nameToShow"  : "role description",

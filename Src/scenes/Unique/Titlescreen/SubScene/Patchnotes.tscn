@@ -3,10 +3,10 @@
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
 [ext_resource path="res://Media/FixedDays Font/Text_Header.tres" type="DynamicFont" id=2]
 
-[sub_resource type="StreamTexture" id=2]
+[sub_resource type="StreamTexture" id=1]
 flags = 4
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
 border_width_left = 3
 border_width_top = 3
@@ -14,7 +14,7 @@ border_width_right = 3
 border_width_bottom = 3
 border_color = Color( 0.12549, 0.14902, 0.211765, 1 )
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=3]
 size = 18
 font_data = ExtResource( 1 )
 
@@ -33,7 +33,7 @@ margin_left = 80.0
 margin_top = 368.0
 margin_right = 887.0
 margin_bottom = 1054.0
-texture = SubResource( 2 )
+texture = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -43,7 +43,7 @@ margin_left = 136.0
 margin_top = 320.0
 margin_right = 480.0
 margin_bottom = 1048.0
-custom_styles/panel = SubResource( 3 )
+custom_styles/panel = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -57,7 +57,7 @@ margin_left = 140.0
 margin_top = 361.0
 margin_right = 476.0
 margin_bottom = 1041.0
-custom_fonts/normal_font = SubResource( 4 )
+custom_fonts/normal_font = SubResource( 3 )
 bbcode_enabled = true
 bbcode_text = "date: 17.12.2020
 

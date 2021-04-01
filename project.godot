@@ -409,15 +409,10 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/gs_logger/appenders/console_appender.gd"
 }, {
-"base": "Node",
-"class": "DIOJSONES_SYNTAX",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/SYNTAX.gd"
-}, {
 "base": "Object",
 "class": "DIOJSONES_UNIQUE_STATMOD",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/Hub.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/Hub.gd"
 }, {
 "base": "Node",
 "class": "DemocrECTS_Controller",
@@ -447,12 +442,12 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "DioJSONes_Interpreter",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Interpreter/InterpreterHub.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/Interpreter.gd"
 }, {
 "base": "Component",
 "class": "DioJSONes_SubParser_ComponentConstructor",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/JsonToEntityParser/ComponentConstructor.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Common/ComponentConstructor.gd"
 }, {
 "base": "Object",
 "class": "EffectEntity",
@@ -462,32 +457,32 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "Effect_Comp_EFFECT_Condition",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/condition.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/condition.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_EFFECT_Statmod",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/statMod.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/statMod.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_SPACE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/space.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/space.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TIME",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/time.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/time.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TRIGGER_Base",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/baseTrigger.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/baseTrigger.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_TRIGGER_Specific",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/effect slot components/specificTrigger.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/specificTrigger.gd"
 }, {
 "base": "Node",
 "class": "Effect_Generator_Syntax",
@@ -497,7 +492,7 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "Effect_Unit_Component",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/Effect_Unit_Component.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Unit.gd"
 }, {
 "base": "Object",
 "class": "Entity",
@@ -559,15 +554,15 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/single scripts/Util/SubUtils/Filepath Builder.gd"
 }, {
+"base": "RichTextLabel",
+"class": "FromatedRichtextLabel",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Textfield input/FormatedRichTextLabel.gd"
+}, {
 "base": "Entity",
 "class": "GearEntity",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player/Belongings/Gear.gd"
-}, {
-"base": "Node",
-"class": "Group_Atlas",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Group.gd"
 }, {
 "base": "Component",
 "class": "HeGEL_AddCond",
@@ -595,11 +590,6 @@ _global_script_classes=[ {
 "path": "res://addons/gs_logger/layouts/html_layout.gd"
 }, {
 "base": "Component",
-"class": "IC_1_FOO",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/InjectionComponents/foo.gd"
-}, {
-"base": "Component",
 "class": "INJECTED_COMP",
 "language": "GDScript",
 "path": "res://Src/Components/INJECTED_COMP.gd"
@@ -619,6 +609,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Bootstrap/Engines/SokraTILES.gd"
 }, {
+"base": "Node",
+"class": "Injectables_AddToScene",
+"language": "GDScript",
+"path": "res://Src/scenes/Templates/GUI/Textfield input/Injectables/Injectable_ChangeScene.gd"
+}, {
 "base": "Entity",
 "class": "InteractEntity",
 "language": "GDScript",
@@ -637,7 +632,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "JsonToEntityParser",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/JsonToEntityParser/JSONToEntityParser.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Common/Common.gd"
 }, {
 "base": "Entity",
 "class": "KitPartEntity",
@@ -845,6 +840,16 @@ _global_script_classes=[ {
 "path": "res://Src/scenes/Templates/GUI/Flatbox Style/StyleManager.gd"
 }, {
 "base": "Node",
+"class": "Syntax_Effect",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/SYNTAX/Effect.gd"
+}, {
+"base": "Node",
+"class": "Syntax_Loot",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/SYNTAX/Loot.gd"
+}, {
+"base": "Node",
 "class": "System",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Module Structure/system.gd"
@@ -859,11 +864,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/single scripts/Player/Team.gd"
 }, {
-"base": "Component",
-"class": "TemplateManager",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Template.gd"
-}, {
 "base": "RichTextLabel",
 "class": "TextInputField",
 "language": "GDScript",
@@ -877,37 +877,42 @@ _global_script_classes=[ {
 "base": "Object",
 "class": "TilesetParser",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/JsonToEntityParser/TilesetParser.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Tilesets/Hub.gd"
 }, {
 "base": "Object",
 "class": "U_CHANGE_TEXTURE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_CHANGE_TEXTURE.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_CHANGE_TEXTURE.gd"
 }, {
 "base": "Object",
 "class": "U_CLOSE_DOOR",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_CLOSE_DOOR.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_CLOSE_DOOR.gd"
 }, {
 "base": "Object",
 "class": "U_DEAL_PLAIN_DAMAGE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_PLAIN_DAMAGE.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_DEAL_PLAIN_DAMAGE.gd"
 }, {
 "base": "Object",
 "class": "U_DEAL_STRUCTURAL_DAMAGE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_DEAL_STRUCTURAL_DAMAGE.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_DEAL_STRUCTURAL_DAMAGE.gd"
+}, {
+"base": "Object",
+"class": "U_MOVE_TILE",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_SPAWN_TILE copy.gd"
 }, {
 "base": "Object",
 "class": "U_OPEN_DOOR",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_OPEN_DOOR.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_OPEN_DOOR.gd"
 }, {
 "base": "Object",
 "class": "U_SPAWN_TILE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/Dynamic Parser/StatMod/U_SPAWN_TILE.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_SPAWN_TILE.gd"
 }, {
 "base": "Panel",
 "class": "UniversalCheckbox",
@@ -927,7 +932,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "_002_EntityManager",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DioJSONes/EffectParser/dictToEffectEnt.gd"
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Hub.gd"
 }, {
 "base": "Object",
 "class": "_003_ConditionIndex",
@@ -1087,7 +1092,7 @@ _global_script_classes=[ {
 "base": "DemocrECTS_EntityManager",
 "class": "_18_TileEntManager",
 "language": "GDScript",
-"path": "res://Src/Logic/Modules/018_Loot/Entity Manager/entMan.gd"
+"path": "res://Src/Logic/Modules/999_Entities/Entity Manager/tile.gd"
 }, {
 "base": "Object",
 "class": "_2_BasicStatChange",
@@ -1210,7 +1215,6 @@ _global_script_class_icons={
 "Cond_Confusing_Wandering": "",
 "Cond_Parent": "",
 "ConsoleAppender": "",
-"DIOJSONES_SYNTAX": "",
 "DIOJSONES_UNIQUE_STATMOD": "",
 "DemocrECTS_Controller": "",
 "DemocrECTS_EntityConverter": "",
@@ -1240,18 +1244,18 @@ _global_script_class_icons={
 "FileAppender": "",
 "FileHub": "",
 "FilepathBuilder": "",
+"FromatedRichtextLabel": "",
 "GearEntity": "",
-"Group_Atlas": "",
 "HeGEL_AddCond": "",
 "HeGEL_ChangeCond": "",
 "HeGEL_ChangeStat": "",
 "HeGEL_RemoveCond": "",
 "HtmlLayout": "",
-"IC_1_FOO": "",
 "INJECTED_COMP": "",
 "InitDemocrECTS": "",
 "InitDioJSONes": "",
 "InitSokraTiles": "",
+"Injectables_AddToScene": "",
 "InteractEntity": "",
 "Inventory": "",
 "JsonParser": "",
@@ -1297,10 +1301,11 @@ _global_script_class_icons={
 "StationManager": "",
 "Stats": "",
 "StyleManager": "",
+"Syntax_Effect": "",
+"Syntax_Loot": "",
 "System": "",
 "SystemManager": "",
 "Team": "",
-"TemplateManager": "",
 "TextInputField": "",
 "TileEntity": "",
 "TilesetParser": "",
@@ -1308,6 +1313,7 @@ _global_script_class_icons={
 "U_CLOSE_DOOR": "",
 "U_DEAL_PLAIN_DAMAGE": "",
 "U_DEAL_STRUCTURAL_DAMAGE": "",
+"U_MOVE_TILE": "",
 "U_OPEN_DOOR": "",
 "U_SPAWN_TILE": "",
 "UniversalCheckbox": "",

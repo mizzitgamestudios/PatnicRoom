@@ -1,10 +1,10 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Src/scenes/Unique/Titlescreen/scripts/MainMenuePoints.gd" type="Script" id=2]
 [ext_resource path="res://Src/scenes/Unique/Titlescreen/scripts/AnimatedPNG.gd" type="Script" id=3]
 [ext_resource path="res://Src/scenes/Unique/Titlescreen/scripts/AnimatedText.gd" type="Script" id=4]
 [ext_resource path="res://Src/scenes/Unique/Titlescreen/init.gd" type="Script" id=5]
 [ext_resource path="res://Media/GUI/Titlescreen/Title.png" type="Texture" id=6]
+[ext_resource path="res://Src/scenes/Unique/Titlescreen/MainMenuePoints.gd" type="Script" id=7]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=8]
 
 [sub_resource type="DynamicFont" id=1]
@@ -68,7 +68,15 @@ __meta__ = {
 }
 
 [node name="Hauptmenü" type="Node2D" parent="."]
-script = ExtResource( 2 )
+
+[node name="Control" type="Control" parent="."]
+margin_left = 2.51971
+margin_right = 42.5197
+margin_bottom = 40.0
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Panel3" type="Panel" parent="."]
 margin_left = 984.0

@@ -1,5 +1,5 @@
 extends Node
-class_name DIOJSONES_SYNTAX
+class_name Syntax_Loot
 
 
 #----- TRIGGER -------------------------------------------------------------------##

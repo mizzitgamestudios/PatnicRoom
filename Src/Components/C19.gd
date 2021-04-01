@@ -67,10 +67,10 @@ func fillValue():
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"description" : "add modifiers to the biological potential of an Actors",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "Attributes",
 }
 static func name_quack():      return "C_19_ACTOR_ATTRIBUTES"
 static func dioJSONType_quack(): return "DICTIONARY"

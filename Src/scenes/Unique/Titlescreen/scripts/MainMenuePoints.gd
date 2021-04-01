@@ -2,9 +2,9 @@ extends Node
 
 #nodename,Textinhalt,upperLeft
 var MenuepointsAttributes={
-	0:["load","load last game",1500,577],
-	1:["start","start new game",1500,649],
-	2:["credits","credits",1500,769],
+	0:["load","load last game",1500,575],
+	1:["start","start new game",1500,775],
+	2:["credits","credits",1500,900],
 	3:["options","options",1500,841],
 	4:["introduction","introduction",1500,913],
 	5:["news","news",1500,1000],
@@ -16,13 +16,13 @@ var newsInst
 var patchInst
 var personalInst
 var createInst
-func _ready() -> void:
-	creditsInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/credits.tscn")
-	introInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/Introduction.tscn")
-	newsInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/News.tscn")
-	patchInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/Patchnotes.tscn")
-	personalInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/personal.tscn")
-	createInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/create new game/create new game.tscn")
+#func _ready() -> void:
+	#creditsInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/credits.tscn")
+	#introInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/Introduction.tscn")
+	#newsInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/News.tscn")
+	#patchInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/Patchnotes.tscn")
+	#personalInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/personal.tscn")
+	#createInst = getInstanceOfSubscene("res://Src/scenes/Unique/Titlescreen/SubScene/create new game/create new game.tscn")
 
 
 

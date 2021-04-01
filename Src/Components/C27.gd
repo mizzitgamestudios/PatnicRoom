@@ -20,10 +20,10 @@ func removeFromInventory(entPara):
 ########################
 var  autodoc={
 	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"description" : "choose	races for prejudices",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "racial enemies",
 }
 static func name_quack():      return "C_27_ACTOR_RACIAL_ENEMIES"
 static func dioJSONType_quack(): return "ARRAY"

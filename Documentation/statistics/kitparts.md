@@ -19,7 +19,7 @@
 |rarity|3|
 |modTime|2|
 #### Mods:  
-|[Object:3387]|opens Sec2 doors|
+|[Object:3380]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|
@@ -29,6 +29,16 @@
 |cooldownTime|5|
 |rarity|5|
 |modTime|5|
+#### Mods:  
+ 
+### Door lock
+|name|value|
+|-|-|
+|description|When you don't want the mafia in your living room|
+|mechanicalSummary|Lock nearby doors|
+|cooldownTime|8|
+|rarity|3|
+|modTime|3|
 #### Mods:  
  
 # Drones  
@@ -66,5 +76,15 @@
  
 # Rites  
 # Meeles  
+### Viking bycicle helmet
+|name|value|
+|-|-|
+|description|once a mandatory protetction in sweden,now worn by the bycicle infantry|
+|mechanicalSummary||
+|cooldownTime|0|
+|rarity|0|
+|modTime||
+#### Mods:  
+ 
 # Guns  
 # Armors  

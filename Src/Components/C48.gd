@@ -13,11 +13,11 @@ func _init(valuePara):
 # --- AUTODOC -------- #
 ########################
 var  autodoc={
-	"suggestion"  : "",
-	"description" : "name of its fightingstyle",
+	"suggestion"  : "1: Drek, 5: Fixer, 10: R&D-Prototype",
+	"description" : "chance to loot on a scale of 1 to 10",
 	"validInputs" : [],
 	"validType"   : dioJSONType_quack(),
-	"nameToShow"  : "role description",
+	"nameToShow"  : "Rarity",
 }
 static func name_quack():      return "C_48_ANY_RARITY"
 static func dioJSONType_quack(): return "INTEGER"
