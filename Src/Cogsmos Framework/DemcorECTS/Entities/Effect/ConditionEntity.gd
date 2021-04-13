@@ -45,6 +45,7 @@ func _On_Effect_Turn_Started():
 				run()
 				duration -= 1;
 		else:
+			affectedEnt.dictOfConds.erase(indexName_quack())
 			self.queue_free()
 
 

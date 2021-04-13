@@ -729,6 +729,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Manager/PerformanceManager.gd"
 }, {
+"base": "Cond_Parent",
+"class": "Physiological_Movement_Incapacitated",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Physiological/Movement/incapacitated.gd"
+}, {
 "base": "Entity",
 "class": "PlayerEntity",
 "language": "GDScript",
@@ -1329,6 +1334,7 @@ _global_script_class_icons={
 "PanelConstructor": "",
 "PatternLayout": "",
 "PerformanceManager": "",
+"Physiological_Movement_Incapacitated": "",
 "PlayerEntity": "",
 "RNGClass": "",
 "Recycler": "",

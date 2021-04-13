@@ -21,14 +21,15 @@ func loopThroughActor():
 
 
 func walk(ent:ActorEntity):
-	var direction = Util.RNG.getRandomNumber(0,3)
-	var directionEnum = ENUM.DIRECTION_FOUR.values()[direction]
+	if !ent.dictOfConds.has("Physiological_Movement_Incapacitated"):
+		var direction = Util.RNG.getRandomNumber(0,3)
+		var directionEnum = ENUM.DIRECTION_FOUR.values()[direction]
 
-	actorLayer = SokraTiles.getActor()
-	actorLayer._drawCell(ent.textureID(), ent.pos())
-	
-	actorLayer.moveActor(directionEnum,ent)
-	actorLayer._drawCell(ent.pos(),ent.textureID())
+		actorLayer = SokraTiles.getActor()
+		actorLayer._drawCell(ent.textureID(), ent.pos())
+		
+		actorLayer.moveActor(directionEnum,ent)
+		actorLayer._drawCell(ent.pos(),ent.textureID())
 
 	
 
