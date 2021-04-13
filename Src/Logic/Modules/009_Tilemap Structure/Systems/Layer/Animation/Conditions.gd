@@ -14,8 +14,8 @@ func _ready():
 
 #----- FUF ----------------------------------------------------------------------##
 
-func addLayerEntry(ent,textureID:String):
-	layerEntriesOnMap.append( LayerEntry.new(ent,textureID) )
+func addLayerEntry(ent,condClassName,textureID:String):
+	layerEntriesOnMap.append( LayerEntry.new(ent,condClassName,textureID) )
 	updateMap()
 
 func removeLayerEntry(ent):
@@ -27,23 +27,35 @@ func removeLayerEntry(ent):
 
 func updateMap():
 	.clear()
-
+	var toRemove = []
+	
 	for i in layerEntriesOnMap.size():
 		var currentLayerEntry = layerEntriesOnMap[i]
-		var currentPos        = currentLayerEntry.affectedEnt.pos()
+		
+		if isNullReference(currentLayerEntry): 
+			toRemove.append(i)
+			
+		else:
+			var currentPos = currentLayerEntry.affectedEnt.pos()
+			_drawCell(currentLayerEntry.textureID,currentPos)
+	
+	
+	for i in toRemove.size():
+		layerEntriesOnMap.remove(toRemove[i])
 
-		_drawCell(currentLayerEntry.textureID,currentPos)
 
-
-
+func isNullReference(currentLayerEntry:LayerEntry):
+	return !is_instance_valid(currentLayerEntry.conditionInstance) or !is_instance_valid(currentLayerEntry.affectedEnt)
 
 
 class LayerEntry:
 	var affectedEnt
 	var textureID: String
 	var oldPosCache
+	var conditionInstance
 
-	func _init(affectedEntPara,textureIDPara):
+	func _init(affectedEntPara,condClassName,textureIDPara):
+		conditionInstance = affectedEntPara.dictOfConds[condClassName]
 		affectedEnt = affectedEntPara
 		oldPosCache = affectedEnt.pos()
 		textureID   = textureIDPara

@@ -28,7 +28,7 @@ func walk(ent:ActorEntity):
 	actorLayer._drawCell(ent.textureID(), ent.pos())
 	
 	actorLayer.moveActor(directionEnum,ent)
-	actorLayer._drawCell(ent.posX(),ent.posY(),ent.textureID())
+	actorLayer._drawCell(ent.pos(),ent.textureID())
 
 	
 

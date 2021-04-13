@@ -74,8 +74,15 @@ func mergeWithKitpart(merge:KitSetEntity,kitpart):
 
 
 func appendValue(values:Array,slotToChange):
-	slotToChange.metaKeyword.append(values[0])
-	slotToChange.metaValue.append(values[1])
+	for i in values.size():
+		if values[i][0] == "HAS_STAT":
+			slotToChange.metaKeyword.append("HAS_STAT")
+			slotToChange.metaValue.append(values[i][1])
+		
+		else:
+			slotToChange.metaKeyword.append(values[0])
+			slotToChange.metaValue.append(values[1])
+
 
 func removeValue(values:Array,slotToChange):
 	slotToChange.metaKeyword.erase(values[0])

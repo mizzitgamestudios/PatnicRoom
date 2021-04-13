@@ -45,7 +45,7 @@ func position() 					-> Vector2:		return position
 func posX()							-> int:         return int(position.x)
 func posY()							-> int:			return int(position.y)
 
-
+func mouseHover_quack(): return "player"
 
 func _init() -> void:
 	position = Vector2(0,0)

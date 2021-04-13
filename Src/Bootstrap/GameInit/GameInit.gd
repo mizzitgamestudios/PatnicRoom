@@ -19,7 +19,7 @@
 extends Node
 class_name RuntimeParameter
 
-var settingToUse: String = "statistics";    # <---- WRITE RUNTIME PARAMETER HERE
+var settingToUse: String = "quickStart";    # <---- WRITE RUNTIME PARAMETER HERE
 
 
 var startConfig: ConfigFile = ConfigFile.new();
@@ -35,22 +35,15 @@ func _ready() -> void:
 			runRestmode();
 		"statistics":
 			runStatistics()
+		"quickStart":
+			runQuickStart()
 
 
 
 #----- DEFAULT -------------------------------------------------------------------##
 
 func runDefault() -> void:
-	var settings = {
-			"fullscreen":startConfig.get_value("display","window/size/Fullscreen"),
-			"displayWidth":startConfig.get_value("display","window/size/width"),
-			"displayHeight":startConfig.get_value("display","window/size/height")
-			}
-	
-	ProjectSettings.set_setting("display/window/size/fullscreen",settings["fullscreen"])
-	ProjectSettings.set_setting("display/window/size/width",settings["displayWidth"])
-	ProjectSettings.set_setting("display/window/size/heigh",settings["displayHeight"])
-	
+	setSettings()
 	Gameloop.startTitleMode()
 
 
@@ -65,7 +58,7 @@ func runTilemapTest() -> void:
 	
 	get_tree().change_scene("res://Src/scenes/Gameloop/PanicMode/PanicMode.tscn")
 
-	
+
 
 #----- START IN RESTMODE ---------------------------------------------------------##
 
@@ -78,9 +71,53 @@ func runRestmode() -> void:
 
 func runStatistics():
 	var jsonParse = Util.JSONParser.fileToDictionary("res://tools/RuntimeConfigs/statistics.json")
-
-	if jsonParse["kitparts"]:             load("res://tools/Statistics/Kitparts.gd").new().getKitparts()
-	if jsonParse["componentsForForm"]:    load("res://tools/Statistics/Components.gd").new().writeJSONForForm()
+	
+	
+	if jsonParse["kitparts"]:
+		load("res://tools/Statistics/KitpartsMD.gd").new().getKitparts()
+		load("res://tools/Statistics/kitpartsJSON.gd").new().getKitpartsJSON()
+	
+	if jsonParse["componentsForForm"]:
+		load("res://tools/Statistics/Components.gd").new().writeJSONForForm()
+	
 	
 	print("STATISTICS COMPUTED")
 	get_tree().quit()
+
+
+
+#----- QUICK START ---------------------------------------------------------------##
+
+func runQuickStart():
+	setSettings()
+	
+	var dict           = Util.JSONParser.fileToDictionary("res://config/Runner/generated/generall and stats.json")
+	var quickStartDict = Util.JSONParser.fileToDictionary("res://tools/RuntimeConfigs/quickStart.json")
+	
+	dict ["Kits"]      = quickStartDict["kit"]
+	dict ["race"]      = quickStartDict["race"]
+	dict["name"]       = quickStartDict["name"]
+	
+	API_011_Player.chargenSelecttion = dict
+	
+	
+	API_011_Player.generateNewChar()
+	Gameloop.startPanicMode()
+
+
+
+
+
+
+
+
+func setSettings():
+	var settings = {
+	"fullscreen":startConfig.get_value("display","window/size/Fullscreen"),
+	"displayWidth":startConfig.get_value("display","window/size/width"),
+	"displayHeight":startConfig.get_value("display","window/size/height")
+	}
+
+	ProjectSettings.set_setting("display/window/size/fullscreen",settings["fullscreen"])
+	ProjectSettings.set_setting("display/window/size/width",settings["displayWidth"])
+	ProjectSettings.set_setting("display/window/size/heigh",settings["displayHeight"])

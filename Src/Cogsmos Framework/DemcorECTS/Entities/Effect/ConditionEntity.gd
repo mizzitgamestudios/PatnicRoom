@@ -10,7 +10,7 @@ var logToString          : String
 
 var affectedEnt          : Entity
 
-var symbioticComponents  : Dictionary
+
 var conditionSymbiotic   : Dictionary    # []
 var initStatSymbiotic    : Array         # [ ["HP",">","100","I_1"],["HP",">","100","I_1"] ]
 var listOfStatSymbiotics : Array
@@ -24,23 +24,28 @@ func _init() -> void:
 	
 
 
-func attachToEnt(ent):
+func attachToEnt(ent,className:String):
 	Signals.connect("Effect_Turn_Started", self, "_On_Effect_Turn_Started")
 	Signals.connect("Effect_Turn_Finished", self, "validatePossibleSymbiotics")
 	
 	self.affectedEnt                        = ent
-	ent.dictOfConds[self.get_instance_id()] = self
+	ent.dictOfConds[className] = self
 
-
+	
 
 #----- AUTOMATION ----------------------------------------------------------------##
 
 func _On_Effect_Turn_Started():
-	if !isNeutraliced() or duration >= 0 : 
-		run()
-		duration -= 1;
-	else:
-		self.free()
+	if !is_instance_valid(affectedEnt) :
+		self.queue_free()
+	elif is_instance_valid(affectedEnt):
+		print("neutralized " + str(!isNeutraliced()))
+		if duration >= 0:
+			if !isNeutraliced(): 
+				run()
+				duration -= 1;
+		else:
+			self.queue_free()
 
 
 
@@ -97,6 +102,7 @@ func statSymbioticValidate():
 			
 		if currentStatSet : currentComparrison.injectionComponent.run()
 
-
-
-	
+			
+func indexName_quack(): return ""
+func hasNotConditionAlready(entToSpread):
+	return !entToSpread.dictOfConds.has(self.indexName_quack()) or !is_instance_valid(entToSpread.dictOfConds[indexName_quack()])

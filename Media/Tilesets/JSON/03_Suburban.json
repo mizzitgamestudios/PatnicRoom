@@ -51,6 +51,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_64_APPLY_CONDITION_WALKING",
+                 "type":"string",
+                 "value":"Elemental_Water_Wet(5)"
+                }, 
+                {
                  "name":"C_6_TILE_NAME",
                  "type":"string",
                  "value":"Water"
@@ -94,6 +99,11 @@
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_63_IS_BURNABLE",
+                 "type":"bool",
+                 "value":true
                 }, 
                 {
                  "name":"C_6_TILE_NAME",
@@ -1049,6 +1059,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_65_TIER",
+                 "type":"int",
+                 "value":1
+                }, 
+                {
                  "name":"C_6_TILE_NAME",
                  "type":"string",
                  "value":"Simple Door"
@@ -1102,6 +1117,11 @@
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_65_TIER",
+                 "type":"int",
+                 "value":1
                 }, 
                 {
                  "name":"C_6_TILE_NAME",
@@ -1159,6 +1179,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_65_TIER",
+                 "type":"int",
+                 "value":2
+                }, 
+                {
                  "name":"C_6_TILE_NAME",
                  "type":"string",
                  "value":"Secure Door"
@@ -1212,6 +1237,11 @@
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_65_TIER",
+                 "type":"int",
+                 "value":2
                 }, 
                 {
                  "name":"C_6_TILE_NAME",

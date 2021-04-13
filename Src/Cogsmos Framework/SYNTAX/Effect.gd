@@ -44,20 +44,6 @@ const EFFECT_SPACE_MEDIUM = {
 
 
 
-#----- STATMOD ---------------------------------------------------------------------##
-
-const EFFECT_UNIQUE_STATMOD = {
-	"U_CHANGE_TEXTURE"         : U_CHANGE_TEXTURE,
-	"U_DEAL_PLAIN_DAMAGE"      : U_DEAL_PLAIN_DAMAGE,
-	"U_OPEN_DOOR"              : U_OPEN_DOOR,
-	"U_DEAL_STRUCTURAL_DAMAGE" : U_DEAL_STRUCTURAL_DAMAGE,
-	"U_SPAWN_TILE"             : U_SPAWN_TILE,
-	"U_CLOSE_DOOR"             : U_CLOSE_DOOR,
-	"U_MOVE_TILE"              : U_MOVE_TILE,
-}
-
-
-
 #----- CONDITION -------------------------------------------------------------------##
 
 const EFFECT_UNIQUE_CONDITION = {}

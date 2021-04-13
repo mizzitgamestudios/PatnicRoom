@@ -39,7 +39,9 @@ func moveActor(directionEnum,ent):
 		ent.setPos(newPos)
 		_drawCell( -1 , oldPos )
 		_drawCell( ent.textureID() , newPos )
-
+	
+	attachCondIfPossible(newPos,ent)
+	
 
 
 func isTileWalkable(pos:Vector2):
@@ -54,6 +56,11 @@ func isTileWalkable(pos:Vector2):
 		var ent=SokraTiles.getMeatFloor().getEntByPos_quack(pos)
 		return ent.isWalkable()
 
+func attachCondIfPossible(newPos,ent):
+	var tile = SokraTiles.getMeatFloor().getEntByPos_quack(newPos)
+	if tile.has("C_64_APPLY_CONDITION_WALKING"):
 
+		var condName     = tile.getComp("C_64_APPLY_CONDITION_WALKING").condIndex
+		var condDuration = tile.getComp("C_64_APPLY_CONDITION_WALKING").duration
 
-
+		API_003_Condition.attachConditionToEnt(ent,condName,int(condDuration))

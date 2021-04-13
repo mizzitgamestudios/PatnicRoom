@@ -33,6 +33,7 @@ const EFFECT_TRIGGER_SPECIFIC = {
 	"HAS_CONDITION"  : "HAS_CONDITION",
 	"HAS_STAT"       : "HAS_STAT",
 	"HAS_TEXTURE"	 : "HAS_TEXTURE",
+	"IS_DOOR"        : "IS_DOOR",
 	"CHANCE"         : "CHANCE" }
 
 

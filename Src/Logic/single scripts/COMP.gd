@@ -79,11 +79,14 @@ var ATLAS_INDEX_COMP ={
 	"C_56_BASE_CONNECTOR"					:	C_56_BASE_CONNECTOR,
 	"C_58_ALTERNATIVE_TEXTURES"             :   C_58_ALTERNATIVE_TEXTURES,
 	"C_59_KIT_MOD_CHANGE"                   :   C_59_KIT_MOD_CHANGE,
-	"C_60_BASE_KIT_REFERENCE"              : C_60_BASE_KIT_REFERENCE,
-	"C_8_STRUCTURE_HP"                     : C_8_STRUCTURE_HP,
-	"C_9_CREDITS_ACCOUNT"                 : C_9_CREDITS_ACCOUNT,
-	"C_61_LOOT_TABLE" : C_61_LOOT_TABLE,
-	"C_62_LOOT_STATE":C_62_LOOT_STATE
+	"C_60_BASE_KIT_REFERENCE"               :   C_60_BASE_KIT_REFERENCE,
+	"C_8_STRUCTURE_HP"                      :   C_8_STRUCTURE_HP,
+	"C_9_CREDITS_ACCOUNT"                   :   C_9_CREDITS_ACCOUNT,
+	"C_65_TIER"                             :   C_65_TIER,
+	"C_61_LOOT_TABLE"                       :   C_61_LOOT_TABLE,
+	"C_62_LOOT_STATE"                       :   C_62_LOOT_STATE,
+	"C_63_IS_BURNABLE"                      :   C_63_IS_BURNABLE,
+	"C_64_APPLY_CONDITION_WALKING"          :   C_64_APPLY_CONDITION_WALKING
 }
 
 var ATLAS_FLAGS ={
@@ -98,5 +101,5 @@ var ATLAS_FLAGS ={
 	"F_9_IS_DOOR"							:   9,
 	"F_10_ACTOR_ATTRIBUTES_ROLES"           :  10,
 	"F_11_ACTOR_ATTRIBUTES_RACE"            :  11,
-	"F_12_LOOT_SOURCE_TYPE"                      : 12
+	"F_12_LOOT_SOURCE_TYPE"                 :  12
 }

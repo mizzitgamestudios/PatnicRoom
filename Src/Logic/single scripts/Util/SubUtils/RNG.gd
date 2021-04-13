@@ -36,9 +36,20 @@ func getRandomNumber(from,to):
 	rng.randomize()
 	return rng.randi_range(from,to)
 
-
-
-
+func getRandomPositionModifier(factor:int):
+	var positionModifier = Vector2(0,0)
+	for i in factor:
+		var dir = Util.RNG.getRandomNumber(0,7)
+		match dir:
+			0: positionModifier += Vector2(1,0)
+			1: positionModifier += Vector2(1,1)
+			2: positionModifier += Vector2(0,1)
+			3: positionModifier += Vector2(-1,1)
+			4: positionModifier += Vector2(-1,0)
+			5: positionModifier += Vector2(-1,-1)
+			6: positionModifier += Vector2(0,-1)
+			7: positionModifier += Vector2(1,-1)
+	return positionModifier
 
 
 

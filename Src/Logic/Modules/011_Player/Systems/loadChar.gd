@@ -86,9 +86,10 @@ func loadGear():
 func loadKitventory():
 	for i in dictOfChar["Kits"].size():
 		
-		var kitSetEnt = API_005_KitSet.addKitsetToPlayer(dictOfChar["Kits"][i])
-		kitSetEnt.currentCooldownTime = kitSetEnt.cooldownTime
-		charToLoad.getComp(C_51_PLAYER_KITSETS.name_quack()).addKitSet(kitSetEnt)
+		if str(dictOfChar["Kits"][i][0]) != "NULL":
+			var kitSetEnt = API_005_KitSet.addKitsetToPlayer(dictOfChar["Kits"][i])
+			kitSetEnt.currentCooldownTime = kitSetEnt.cooldownTime
+			charToLoad.getComp(C_51_PLAYER_KITSETS.name_quack()).addKitSet(kitSetEnt)
 
 # ---- INDIRECT ---- #
 func loadIndirectStats():

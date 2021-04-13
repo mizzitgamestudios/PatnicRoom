@@ -15,7 +15,7 @@ var _tilemapOfPlayer
 var _actorsOnMap
 var _interactablesOnMap
 
-var dirtyTiles = []
+var dirtyTiles = {}
 
 func _ready():
 	_tileInterpreter = _TileInterpreter.new()
@@ -38,19 +38,19 @@ func interpreteTile(pos:Vector2,node:Node):
 
 
 func appendDirtyTiles(tile):
-	var layerNode = getTilemapLayerByEntity(tile)
-	dirtyTiles.append([ [layerNode], [tile] ])
-
+	dirtyTiles[tile.get_instance_id()] = tile
 
 func updateDirtyTiles():
 	for i in dirtyTiles.size():
+		var currentEnt = dirtyTiles.values()[i]
 		
-		var currentNode = dirtyTiles[i][0][0]
-		var currentTile = dirtyTiles[i][1][0]
+		var currentNode = getTilemapLayerByEntity(currentEnt)
+		var currentTile = currentEnt
 		
 		var pos = currentTile.pos()
 		
 		currentNode.drawCell_quack(currentTile.textureID(),currentTile.pos())
+	dirtyTiles = {}
 
 
 
@@ -78,7 +78,7 @@ func replaceEntOnPos(ent,pos,posAlt=0):
 	var tilemapNode = getTilemapLayerByEntity(ent)
 	ent.setPos(pos)
 
-	if tilemapNode.entsOnMap.has(pos):
+	if tilemapNode.entsOnMap.has(pos) and pos != ent.pos():
 		var oldEnt = tilemapNode.entsOnMap[pos] 
 		instance_from_id(oldEnt).free()
 

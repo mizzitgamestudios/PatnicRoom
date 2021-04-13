@@ -1,0 +1,24 @@
+extends Component
+class_name C_67_IS_DOOR
+
+var value 
+
+
+func _init(valuePara):
+	name="C_65_TIER"
+	value = valuePara
+
+
+
+########################
+# --- AUTODOC -------- #
+########################
+var  autodoc={
+	"suggestion"  : "on a scale of 1 to 10",
+	"description" : "quality of Item",
+	"validInputs" : [],
+	"validType"   : dioJSONType_quack(),
+	"nameToShow"  : "tier",
+}
+static func name_quack():      return "C_65_TIER"
+static func dioJSONType_quack(): return "INTEGER"

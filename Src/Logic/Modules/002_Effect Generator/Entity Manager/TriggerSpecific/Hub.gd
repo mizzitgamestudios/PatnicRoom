@@ -2,87 +2,35 @@ extends Object
 class_name _02_TirggerSpecificHub
 
 
-
+var operatorCache = ""
 func manageSpecificTrigger(ent:KitSetEntity,collectedEnts:Array):
 	var returnArray = []
 	var specificTrigger = ent.initialSelect["TRIGGER_SPECIFIC"]
 	
-	var metaValue = specificTrigger.metaValue
 	var keyword = specificTrigger.metaKeyword
 	for i in keyword.size():
-		match keyword[i]:
-			"BASE"            :  returnArray += collectedEnts
-			"HAS_CONDITION"   :  returnArray += hasCond(collectedEnts,specificTrigger[0])
-			"HAS_STAT"        :  returnArray += hasStat(collectedEnts,metaValue)
-			"END_HAS_REACHED" :  return collectedEnts
-			"CHANCE"          :  return collectedEnts
-			"HAS_TEXTURE"     :  returnArray += hasTexture(collectedEnts,metaValue[i])
-	print(returnArray.size())
-	return returnArray
-
-
-
-
-func hasCond(collectedEnts,condName:String):
-	var returnArr = []
-	for i in collectedEnts.size():
-		var currentLayer = collectedEnts[i]
 		
-		for j in currentLayer.size():
-			var currentEnt = currentLayer[j]
-
-			if currentEnt.hasCond(condName):  returnArr.append(currentEnt)
-
-	return returnArr
-
-
-
-func hasStat(collectedEnts,metaValue):
-	var returnArr = []
-	for i in collectedEnts.size():
-		var currentLayer = collectedEnts[i]
-		var currentEnt = currentLayer
-	#	for j in currentLayer.size():
-	#		var currentEnt = currentLayer[j]
-
-		for k in metaValue.size():
-			var currentComp = metaValue[k][0]
-			var operator = metaValue[k][1]
-			var comparator = metaValue[k][2]
+		
+		if keyword[i] == "AND": 
+			var currentCollect = appendByKeyword(collectedEnts,specificTrigger,i+1)
+			returnArray        = reduceToCommonAnominator(returnArray,currentCollect)
+			operatorCache      = ""
+		
+		
+		if keyword[i] == "OR" : 
+			var currentCollect = appendByKeyword(collectedEnts,specificTrigger,i+1)
+			returnArray += currentCollect
+			operatorCache = ""
+		
+		
+		else:
+			var currentCollect = appendByKeyword(collectedEnts,specificTrigger,i)
+			if i == 0: returnArray = currentCollect
 			
-			if currentEnt.has(currentComp):  
-				if isComparrissonValid(currentEnt.getCompValue(currentComp),operator,comparator):
-					returnArr.append(currentEnt)
-			
-	return returnArr
-
-func isComparrissonValid(condName:String,operator:String,comparator:String):
-	if condName == "Suburban_4_1"and condName == "Suburban_4_0":
-		print("debug")
-	
-	match operator:
-		">"  :  return int(condName) >  int(comparator)
-		"<"  :  return int(condName) <  int(comparator)
-		"==" :  return condName == comparator
-		"!=" :  return condName != comparator
-
-
-
-func endHasReached():
-	pass
-
-
-
-func hasTexture(collectedEnts:Array,metaValue):
-	var returnArray = []
-
-	for j in collectedEnts.size():
-		var currentEnt = collectedEnts[j]
-		var textureOfEnt = currentEnt.textureID()
-
-		if textureOfEnt == metaValue: 
-			returnArray.append(currentEnt)
-
+			if i+1 < keyword.size():
+				if keyword[i+1] == "AND": operatorCache = "AND"
+				if keyword[i+1] == "OR": operatorCache = "OR"
+		
 	return returnArray
 
 
@@ -90,3 +38,34 @@ func hasTexture(collectedEnts:Array,metaValue):
 
 
 
+
+func appendByKeyword(collectedEnts,specificTrigger,i):
+	var currentCollect = []
+	match specificTrigger.metaKeyword[i]:
+		
+		"HAS_CONDITION"   :  return _Has_Condition.run(collectedEnts,specificTrigger[0])
+		"HAS_STAT"        :  return _Has_StatMod.run(collectedEnts,specificTrigger.metaValue[i])
+		"HAS_TEXTURE"     :  return _Has_Texture.run(collectedEnts,specificTrigger.metaValue[i])
+		"IS_DOOR"         :  return _Is_Door.run(collectedEnts,specificTrigger.metaValue[i])
+		"BASE"            :  return collectedEnts
+
+
+
+
+
+
+
+func reduceToCommonAnominator(returnArray,currentCollect):
+	var comnmonArray = []
+	
+	for i in currentCollect.size():
+		var currentCollectEntry = currentCollect[i]
+		var objectID = currentCollectEntry.get_instance_id()
+		
+		for j in returnArray.size():
+			var currentReturnEntry = currentCollect[i]
+			var returnID = currentCollectEntry.get_instance_id()
+			
+			if returnID == objectID: comnmonArray.append(currentCollectEntry)
+	
+	return comnmonArray

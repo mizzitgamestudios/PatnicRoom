@@ -18,13 +18,7 @@
    ".github":true,
    "icon.png.import": true,
    ".mono":true
-},
-
-
-    //---------------------\\
-  // ---- READABILLITY ---- \\
-//---------------------------\\
-"editor.fontFamily": "Fira Code medium",        // monospace font with ligature
+}, // monospace font with ligature
 "editor.fontLigatures": true,                   // enables Ligature
 
 "editor.suggestFontSize": 20,                   // Normal Text size

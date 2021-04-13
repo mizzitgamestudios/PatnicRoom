@@ -15,16 +15,21 @@ func generateNewChar():
 
 func getFilledChargenPreset():
 	var dictOfPlayer = API_011_Player.chargenSelecttion
-	var randomKit    = randomSelectkit( API_011_Player.chargenSelecttion["Kits"])
-	var arr          = []
-	var kitArray     = []
+	var kitArray
+	if API_011_Player.chargenSelecttion["Kits"] != "NULL":
+		var randomKit    = randomSelectkit( API_011_Player.chargenSelecttion["Kits"])
+		var arr          = []
+		kitArray         = []
+		
+		if API_011_Player.chargenSelecttion["Kits"] is String :
+			arr.append(randomKit)
+			arr.append("NULL")
+			arr.append("NULL")
+		
+		kitArray.append(arr)
 	
-	if API_011_Player.chargenSelecttion["Kits"] is String :
-		arr.append(randomKit)
-		arr.append("NULL")
-		arr.append("NULL")
-	
-	kitArray.append(arr)
+	else:
+		 kitArray= [["NULL","NULL","NULL"]]
 	
 	API_011_Player.chargenSelecttion["Kits"] = kitArray
 	

@@ -14,6 +14,7 @@ func runKitSet(kitset):
 
 func statModParse(statModArray):
 	var selectedTiles   = API_011_Player.getSelectedTilesComp().getAlerted()
+	#API_011_Player.getSelectedTilesComp().resetAlerted()
 	for i in statModArray.size():
 
 		var currentTile = selectedTiles [0]
@@ -28,11 +29,14 @@ func statModParse(statModArray):
 		if currentStat.size() == 1:
 			keyword     = currentStat   [0]
 			modValue    = 0
-		
+			
+		if currentStat.size() == 3:
+			keyword     = currentStat   [0]
+			modValue    = [currentStat[1],currentStat[2]]
 
 
 		for j in currentTile.size():
-			if   Syntax_Effect.EFFECT_UNIQUE_STATMOD.has(keyword):  DIOJSONES_UNIQUE_STATMOD.manageUniqueStatmod(currentTile[j],keyword,modValue)
+			if API_019_Effect_Statmod.hasStatmodInIndex(keyword): API_019_Effect_Statmod.manageUniqueStatmod(currentTile[j],keyword,modValue)
 			elif COMP.ATLAS_INDEX_COMP.has(keyword):                   
 				HeGEL.changeStat(currentTile[j],keyword,modValue)
 

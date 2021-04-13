@@ -21,10 +21,12 @@ func _init():
 	DioJSONes.initSubsystems();
 	
 	_interpreter = DioJSONes.interpreter;
-
+	
 	var _listOfAllJSONs: Array = deserialiceTheCoinage(ENUM.BASE_GAME_DATA_PATH)
 	parseAll(_listOfAllJSONs)
-	
+
+	_listOfAllJSONs = deserialiceTheCoinage("res://Gamedata/Custome/")
+	parseAll(_listOfAllJSONs)
 
 
 #----- DESERIALICATION ------------------------------------------------------##

@@ -19,12 +19,7 @@
         "slot":"TRIGGER_SPECIFIC",
         "unit":"SPAWN",
         "mode":"APPEND",
-        "value":["HAS_TEXTURE","Suburban_4_4"]
-    },{
-        "slot":"TRIGGER_SPECIFIC",
-        "unit":"SPAWN",
-        "mode":"APPEND",
-        "value":["HAS_TEXTURE","Suburban_4_3"]
+        "value":["OR",["HAS_STAT",["C_65_TIER","==","2"]]]
     }]
 
 

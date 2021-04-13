@@ -1,10 +1,11 @@
 {
    "kitsAtStart":[
 
-      ["Heartbleed-Bug",        "NULL",              "NULL" ],
-      ["Doorkey Spoofer",       "social engineered", "NULL" ],
-      ["Viking bycicle helmet",       "NULL", "NULL" ]
+      ["Doorkey Spoofer" , "NULL"              , "NULL" ],
+      ["Door lock"       , "NULL"              , "NULL" ],
+      ["Crispyfier"      , "NULL"              , "NULL" ],
+      ["Doorkey Spoofer" , "social engineered" , "NULL" ]
    ]
 
-   
+
 }

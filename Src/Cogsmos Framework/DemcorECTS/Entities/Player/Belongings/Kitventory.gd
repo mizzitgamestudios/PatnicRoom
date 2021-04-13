@@ -4,9 +4,12 @@ class_name C_51_PLAYER_KITSETS
 
 var listOfKits: Dictionary = {}
 var maxKits: int = 10
-var name = "C_51_PLAYER_KITSETS"
-var owner 
 
+
+
+func _init() -> void:
+	self.name = "C_51_PLAYER_KITSETS"
+	var owner 
 
 func getKitSet(kitToString:String):
 	return listOfKits[kitToString]

@@ -1,4 +1,4 @@
-extends Object
+extends Node
 #//CLASS One Of the most important Classes in our Game.                            
 #//CLASS They are Compositions of multiple Components and Templates.               
 #//CLASS There are more specific Entities which uses its Dictionary and functions. 

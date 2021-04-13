@@ -330,6 +330,21 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C62.gd"
 }, {
 "base": "Component",
+"class": "C_63_IS_BURNABLE",
+"language": "GDScript",
+"path": "res://Src/Components/C63.gd"
+}, {
+"base": "Component",
+"class": "C_64_APPLY_CONDITION_WALKING",
+"language": "GDScript",
+"path": "res://Src/Components/C64.gd"
+}, {
+"base": "Component",
+"class": "C_65_TIER",
+"language": "GDScript",
+"path": "res://Src/Components/C66.gd"
+}, {
+"base": "Component",
 "class": "C_6_TILE_NAME",
 "language": "GDScript",
 "path": "res://Src/Components/C6.gd"
@@ -380,19 +395,9 @@ _global_script_classes=[ {
 "path": "res://Src/Logic/Modules/003_Conditions/Strategies/Senses/Sight/Understimulating.gd"
 }, {
 "base": "Cond_Parent",
-"class": "Cond_Burning_Incinerating",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/Fire/Incinerating.gd"
-}, {
-"base": "Cond_Parent",
 "class": "Cond_Burning_Root",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/Fire/burning.gd"
-}, {
-"base": "Cond_Parent",
-"class": "Cond_Burning_Spreading",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/Fire/Spreading.gd"
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Confusing_Wandering",
@@ -402,17 +407,17 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Cond_Parent",
 "language": "GDScript",
-"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Parent Class.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/ConditionEntity.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_Water_Wet",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/Elemental/Water/wet.gd"
 }, {
 "base": "Appender",
 "class": "ConsoleAppender",
 "language": "GDScript",
 "path": "res://addons/gs_logger/appenders/console_appender.gd"
-}, {
-"base": "Object",
-"class": "DIOJSONES_UNIQUE_STATMOD",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/Hub.gd"
 }, {
 "base": "Node",
 "class": "DemocrECTS_Controller",
@@ -452,7 +457,7 @@ _global_script_classes=[ {
 "base": "Object",
 "class": "EffectEntity",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/EffectEntity.gd"
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/EffectEntity.gd"
 }, {
 "base": "Component",
 "class": "Effect_Comp_EFFECT_Condition",
@@ -494,7 +499,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Unit.gd"
 }, {
-"base": "Object",
+"base": "Node",
 "class": "Entity",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Entity.gd"
@@ -569,6 +574,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/HeGEL/Condition/addCond.gd"
 }, {
+"base": "Object",
+"class": "HeGEL_Binary_Comparison",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Rulesets/BinaryComparison.gd"
+}, {
 "base": "Component",
 "class": "HeGEL_ChangeCond",
 "language": "GDScript",
@@ -577,7 +587,7 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "HeGEL_ChangeStat",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/changeCond.gd"
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/changeStat.gd"
 }, {
 "base": "Component",
 "class": "HeGEL_RemoveCond",
@@ -593,6 +603,11 @@ _global_script_classes=[ {
 "class": "INJECTED_COMP",
 "language": "GDScript",
 "path": "res://Src/Components/INJECTED_COMP.gd"
+}, {
+"base": "Object",
+"class": "I_1_Binary_Comparison",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/InjectionComponents/I_1_Binary_Comparison.gd"
 }, {
 "base": "Node",
 "class": "InitDemocrECTS",
@@ -839,6 +854,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/scenes/Templates/GUI/Flatbox Style/StyleManager.gd"
 }, {
+"base": "Object",
+"class": "SymbiosisFlags",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/SymbiosisFlags.gd"
+}, {
+"base": "Entity",
+"class": "SymbioticsEntity",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/SymbioticEntity.gd"
+}, {
 "base": "Node",
 "class": "Syntax_Effect",
 "language": "GDScript",
@@ -880,39 +905,39 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Tilesets/Hub.gd"
 }, {
 "base": "Object",
-"class": "U_CHANGE_TEXTURE",
+"class": "U_CHANGE_RAW_VALUE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_CHANGE_TEXTURE.gd"
-}, {
-"base": "Object",
-"class": "U_CLOSE_DOOR",
-"language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_CLOSE_DOOR.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Changing/change raw value.gd"
 }, {
 "base": "Object",
 "class": "U_DEAL_PLAIN_DAMAGE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_DEAL_PLAIN_DAMAGE.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Damaging/Deal Plain Damage.gd"
 }, {
 "base": "Object",
 "class": "U_DEAL_STRUCTURAL_DAMAGE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_DEAL_STRUCTURAL_DAMAGE.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Damaging/Deal Structural Damage.gd"
 }, {
 "base": "Object",
-"class": "U_MOVE_TILE",
+"class": "U_EXCHANGE_TEXTURE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_SPAWN_TILE copy.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Changing/exchange Texture.gd"
 }, {
 "base": "Object",
-"class": "U_OPEN_DOOR",
+"class": "U_MOVE_PLAYER",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_OPEN_DOOR.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Player/Move Tile.gd"
 }, {
 "base": "Object",
 "class": "U_SPAWN_TILE",
 "language": "GDScript",
-"path": "res://Src/Cogsmos Framework/HeGEL/Stats/UniqueStatMod/U_SPAWN_TILE.gd"
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Creation/Spawn Tile.gd"
+}, {
+"base": "Object",
+"class": "U_SPAWN_TILE_AROUND",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Creation/Spawn Tile around.gd"
 }, {
 "base": "Panel",
 "class": "UniversalCheckbox",
@@ -1094,6 +1119,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/999_Entities/Entity Manager/tile.gd"
 }, {
+"base": "Node",
+"class": "_19_Unique_Statmod_Index",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/019_Effect_Statmods/Controller/Index.gd"
+}, {
 "base": "Object",
 "class": "_2_BasicStatChange",
 "language": "GDScript",
@@ -1113,6 +1143,26 @@ _global_script_classes=[ {
 "class": "_6_KitpartEntityManager",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/006_Kitparts/Entity Manager/Kit constructor.gd"
+}, {
+"base": "Object",
+"class": "_Has_Condition",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Entity Manager/TriggerSpecific/Specifics/HasCond.gd"
+}, {
+"base": "Object",
+"class": "_Has_StatMod",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Entity Manager/TriggerSpecific/Specifics/HasStat.gd"
+}, {
+"base": "Object",
+"class": "_Has_Texture",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Entity Manager/TriggerSpecific/Specifics/HasTexture.gd"
+}, {
+"base": "Object",
+"class": "_Is_Door",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/002_Effect Generator/Entity Manager/TriggerSpecific/Specifics/IsDoor.gd"
 }, {
 "base": "Node",
 "class": "_KitsUILoader",
@@ -1199,6 +1249,9 @@ _global_script_class_icons={
 "C_60_BASE_KIT_REFERENCE": "",
 "C_61_LOOT_TABLE": "",
 "C_62_LOOT_STATE": "",
+"C_63_IS_BURNABLE": "",
+"C_64_APPLY_CONDITION_WALKING": "",
+"C_65_TIER": "",
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
 "C_8_STRUCTURE_HP": "",
@@ -1209,13 +1262,11 @@ _global_script_class_icons={
 "Component": "",
 "Cond_Blinding_Overstimulating": "",
 "Cond_Blinding_Understimulating": "",
-"Cond_Burning_Incinerating": "",
 "Cond_Burning_Root": "",
-"Cond_Burning_Spreading": "",
 "Cond_Confusing_Wandering": "",
 "Cond_Parent": "",
+"Cond_Water_Wet": "",
 "ConsoleAppender": "",
-"DIOJSONES_UNIQUE_STATMOD": "",
 "DemocrECTS_Controller": "",
 "DemocrECTS_EntityConverter": "",
 "DemocrECTS_EntityManager": "",
@@ -1247,11 +1298,13 @@ _global_script_class_icons={
 "FromatedRichtextLabel": "",
 "GearEntity": "",
 "HeGEL_AddCond": "",
+"HeGEL_Binary_Comparison": "",
 "HeGEL_ChangeCond": "",
 "HeGEL_ChangeStat": "",
 "HeGEL_RemoveCond": "",
 "HtmlLayout": "",
 "INJECTED_COMP": "",
+"I_1_Binary_Comparison": "",
 "InitDemocrECTS": "",
 "InitDioJSONes": "",
 "InitSokraTiles": "",
@@ -1301,6 +1354,8 @@ _global_script_class_icons={
 "StationManager": "",
 "Stats": "",
 "StyleManager": "",
+"SymbiosisFlags": "",
+"SymbioticsEntity": "",
 "Syntax_Effect": "",
 "Syntax_Loot": "",
 "System": "",
@@ -1309,13 +1364,13 @@ _global_script_class_icons={
 "TextInputField": "",
 "TileEntity": "",
 "TilesetParser": "",
-"U_CHANGE_TEXTURE": "",
-"U_CLOSE_DOOR": "",
+"U_CHANGE_RAW_VALUE": "",
 "U_DEAL_PLAIN_DAMAGE": "",
 "U_DEAL_STRUCTURAL_DAMAGE": "",
-"U_MOVE_TILE": "",
-"U_OPEN_DOOR": "",
+"U_EXCHANGE_TEXTURE": "",
+"U_MOVE_PLAYER": "",
 "U_SPAWN_TILE": "",
+"U_SPAWN_TILE_AROUND": "",
 "UniversalCheckbox": "",
 "Utils": "",
 "WorldMap": "",
@@ -1352,10 +1407,15 @@ _global_script_class_icons={
 "_17_Specialty": "",
 "_17_Tiles": "",
 "_18_TileEntManager": "",
+"_19_Unique_Statmod_Index": "",
 "_2_BasicStatChange": "",
 "_5_KitRun": "",
 "_5_KitSelect": "",
 "_6_KitpartEntityManager": "",
+"_Has_Condition": "",
+"_Has_StatMod": "",
+"_Has_Texture": "",
+"_Is_Door": "",
 "_KitsUILoader": "",
 "_TileInterpreter": "",
 "_menueLoader": "",
@@ -1412,6 +1472,7 @@ IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
 UserData="*res://addons/github-integration/scripts/user_data.gd"
 RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 API_018_Loot="*res://Src/Logic/Modules/018_Loot/Controller/API.gd"
+API_019_Effect_Statmod="*res://Src/Logic/Modules/019_Effect_Statmods/Controller/API.gd"
 
 [debug]
 

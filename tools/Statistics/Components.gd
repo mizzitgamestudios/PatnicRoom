@@ -40,6 +40,8 @@ func getAutoDoc(currentCompClass,currentCompString):
 	elif currentCompString == "C_49_EFFECT_REFERENCE":  currentCompInstance = currentCompClass.new(0)
 	elif currentCompString == "C_51_PLAYER_KITSETS":  currentCompInstance = currentCompClass.new()
 	elif currentCompString == "C_56_BASE_CONNECTOR":  currentCompInstance = currentCompClass.new()
+	elif currentCompString == "C_64_APPLY_CONDITION_WALKING":  currentCompInstance = currentCompClass.new("()")
+	
 	
 	else:
 		match mockUpDataType:

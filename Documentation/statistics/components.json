@@ -532,6 +532,16 @@
   "componentName": "C_9_CREDITS_ACCOUNT"
  },
  {
+  "suggestion": "on a scale of 1 to 10",
+  "description": "quality of Item",
+  "validInputs": [
+
+  ],
+  "validType": "INTEGER",
+  "nameToShow": "tier",
+  "componentName": "C_65_TIER"
+ },
+ {
   "suggestion": "",
   "description": "name of its fightingstyle",
   "validInputs": [
@@ -550,5 +560,25 @@
   "validType": "STRING",
   "nameToShow": "role description",
   "componentName": "C_62_LOOT_STATE"
+ },
+ {
+  "suggestion": "",
+  "description": "makes it able to spread fire",
+  "validInputs": [
+
+  ],
+  "validType": "BOOLEAN",
+  "nameToShow": "burnable",
+  "componentName": "C_63_IS_BURNABLE"
+ },
+ {
+  "suggestion": "",
+  "description": "applies condition when walking on tile",
+  "validInputs": [
+
+  ],
+  "validType": "STRING",
+  "nameToShow": "condition by walking",
+  "componentName": "C_64_APPLY_CONDITION_WALKING"
  }
 ]

@@ -10,6 +10,16 @@
 |modTime|2|
 #### Mods:  
  
+### Door lock
+|name|value|
+|-|-|
+|description|When you don't want the mafia in your living room|
+|mechanicalSummary|Lock nearby doors|
+|cooldownTime|8|
+|rarity|3|
+|modTime|3|
+#### Mods:  
+ 
 ### Doorkey Spoofer
 |name|value|
 |-|-|
@@ -19,7 +29,7 @@
 |rarity|3|
 |modTime|2|
 #### Mods:  
-|[Object:3380]|opens Sec2 doors|
+|[Node:3341]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|
@@ -29,16 +39,6 @@
 |cooldownTime|5|
 |rarity|5|
 |modTime|5|
-#### Mods:  
- 
-### Door lock
-|name|value|
-|-|-|
-|description|When you don't want the mafia in your living room|
-|mechanicalSummary|Lock nearby doors|
-|cooldownTime|8|
-|rarity|3|
-|modTime|3|
 #### Mods:  
  
 # Drones  
@@ -54,16 +54,6 @@
 #### Mods:  
  
 # Spells  
-### kid
-|name|value|
-|-|-|
-|description|this is a meme,dont try to understands its name,buts its veeeery deep.very clever|
-|mechanicalSummary|pulls up a wall of earth|
-|cooldownTime|8|
-|rarity|4|
-|modTime|3|
-#### Mods:  
- 
 ### Crispyfier
 |name|value|
 |-|-|
@@ -71,6 +61,26 @@
 |mechanicalSummary|Burns grass and People|
 |cooldownTime|4|
 |rarity|3|
+|modTime|2|
+#### Mods:  
+ 
+### Earthwall
+|name|value|
+|-|-|
+|description|   |
+|mechanicalSummary|pulls up a wall of earth|
+|cooldownTime|8|
+|rarity|4|
+|modTime|3|
+#### Mods:  
+ 
+### offensive insult
+|name|value|
+|-|-|
+|description|Intimidates your enemies into an embarrassing accident|
+|mechanicalSummary|Spawns a 2x2 puddle of water|
+|cooldownTime|4|
+|rarity|4|
 |modTime|2|
 #### Mods:  
  

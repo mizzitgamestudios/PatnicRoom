@@ -53,7 +53,7 @@
                ["Elemental_Fire_Burning","3","1"]
             ],
             "STAT_MOD":[
-               ["U_DEAL_PLAIN_DAMAGE","2"]
+               ["U_DEAL_PLAIN_DAMAGE","-1"]
             ]}
 
       }}

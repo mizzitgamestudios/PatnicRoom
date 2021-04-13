@@ -1,5 +1,4 @@
 extends Entity
-
 class_name TileEntity
 
 
@@ -11,19 +10,8 @@ var position : 		Vector2
 func _ready() -> void:
 	addAttributesToDictOfComps()
 
-#----- SIGNALS ---------------------------------------------------------------##
 
-func _on_TileEntity_looks_for_comp(emit:TileEntity, reach:int, compName:String):
-	return isSignalInReach(emit,reach) and self.has(compName)
-
-func _on_TileEntity_Validate_Use(emit:TileEntity, reach:int, tileNamePara:String):	
-	return isSignalInReach(emit,reach) and self.textureID() == tileNamePara
-
-func _on_TileEntity_Validate_Use_With_Comp(signalSource:TileEntity, reach:int, tileNamePara:String, componentName:String):
-	return has(componentName) and _on_TileEntity_Validate_Use(signalSource,reach,tileNamePara)
-
-
-
+	
 #----- GETTER ----------------------------------------------------------------##
 
 func staticTilesetNR() -> int: 		return getCompValue(C_7_TILE_STATIC_TILESET_NR.name_quack())
