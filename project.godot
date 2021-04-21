@@ -330,7 +330,7 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C62.gd"
 }, {
 "base": "Component",
-"class": "C_63_IS_BURNABLE",
+"class": "C_63_IS_SPREADING_CONDITION",
 "language": "GDScript",
 "path": "res://Src/Components/C63.gd"
 }, {
@@ -343,6 +343,11 @@ _global_script_classes=[ {
 "class": "C_65_TIER",
 "language": "GDScript",
 "path": "res://Src/Components/C66.gd"
+}, {
+"base": "Component",
+"class": "C_66_UNIVERSAL_ID",
+"language": "GDScript",
+"path": "res://Src/Components/C65.gd"
 }, {
 "base": "Component",
 "class": "C_6_TILE_NAME",
@@ -383,6 +388,11 @@ _global_script_classes=[ {
 "class": "Component",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Component.gd"
+}, {
+"base": "Cond_Parent",
+"class": "Cond_BAN_Electrifying",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/003_Conditions/Strategies/BAN Manipulation/electrifying.gd"
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Blinding_Overstimulating",
@@ -930,7 +940,7 @@ _global_script_classes=[ {
 "path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Changing/exchange Texture.gd"
 }, {
 "base": "Object",
-"class": "U_MOVE_PLAYER",
+"class": "U_MOVE_USER",
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/019_Effect_Statmods/Statmods/Player/Move Tile.gd"
 }, {
@@ -1129,11 +1139,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Logic/Modules/019_Effect_Statmods/Controller/Index.gd"
 }, {
-"base": "Object",
-"class": "_2_BasicStatChange",
-"language": "GDScript",
-"path": "res://Src/Logic/Modules/001_Metahuman Stats/Systems/BasicStatChange.gd"
-}, {
 "base": "Component",
 "class": "_5_KitRun",
 "language": "GDScript",
@@ -1254,9 +1259,10 @@ _global_script_class_icons={
 "C_60_BASE_KIT_REFERENCE": "",
 "C_61_LOOT_TABLE": "",
 "C_62_LOOT_STATE": "",
-"C_63_IS_BURNABLE": "",
+"C_63_IS_SPREADING_CONDITION": "",
 "C_64_APPLY_CONDITION_WALKING": "",
 "C_65_TIER": "",
+"C_66_UNIVERSAL_ID": "",
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
 "C_8_STRUCTURE_HP": "",
@@ -1265,6 +1271,7 @@ _global_script_class_icons={
 "Cloudprinter": "",
 "Common": "",
 "Component": "",
+"Cond_BAN_Electrifying": "",
 "Cond_Blinding_Overstimulating": "",
 "Cond_Blinding_Understimulating": "",
 "Cond_Burning_Root": "",
@@ -1374,7 +1381,7 @@ _global_script_class_icons={
 "U_DEAL_PLAIN_DAMAGE": "",
 "U_DEAL_STRUCTURAL_DAMAGE": "",
 "U_EXCHANGE_TEXTURE": "",
-"U_MOVE_PLAYER": "",
+"U_MOVE_USER": "",
 "U_SPAWN_TILE": "",
 "U_SPAWN_TILE_AROUND": "",
 "UniversalCheckbox": "",
@@ -1414,7 +1421,6 @@ _global_script_class_icons={
 "_17_Tiles": "",
 "_18_TileEntManager": "",
 "_19_Unique_Statmod_Index": "",
-"_2_BasicStatChange": "",
 "_5_KitRun": "",
 "_5_KitSelect": "",
 "_6_KitpartEntityManager": "",

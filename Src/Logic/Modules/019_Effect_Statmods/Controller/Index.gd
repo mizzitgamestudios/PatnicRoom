@@ -12,5 +12,5 @@ const EFFECT_UNIQUE_STATMOD = {
 	"U_SPAWN_TILE"             : U_SPAWN_TILE,
 	"U_SPAWN_TILE_AROUND"      : U_SPAWN_TILE_AROUND,
 	
-	"U_MOVE_PLAYER"            : U_MOVE_PLAYER
+	"U_MOVE_USER"            : U_MOVE_USER
 }

@@ -15,21 +15,19 @@ func initialice(layerEnum):
 var cachedSelects = {}
 var allAnimations = {}
 
-func cacheForSelection(toCache:Dictionary):
-	cachedSelects = toCache
+func cacheForSelection(toCache:Dictionary): cachedSelects = toCache
+func logStaticAnimation(tilesToAnimate):    allAnimations.append(tilesToAnimate)
 
 
 
 func cancelCachedSelection():
 	for i in cachedSelects.size():
-
 		var currentSelect = cachedSelects[i]
 		._drawCell(currentSelect["pos"].x,currentSelect["pos"].y,currentSelect["tex"])
+
 	cachedSelects= {}
 
 
-func logStaticAnimation(tilesToAnimate):
-	allAnimations.append(tilesToAnimate)
 
 
 

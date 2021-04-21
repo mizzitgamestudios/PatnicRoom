@@ -15,13 +15,19 @@
    "C_60_BASE_KIT_REFERENCE"     : "Doorkey Spoofer",
 
    "C_59_KIT_MOD_CHANGE":
-   [{
+[{
         "slot":"TRIGGER_SPECIFIC",
         "unit":"SPAWN",
-        "mode":"APPEND",
-        "value":["OR",["HAS_STAT",["C_65_TIER","==","2"]]]
-    }]
+        "mode":"APPEND_BY_OR",
+        "value":[["HAS_STAT",["C_65_TIER","==","2"]]]
+},
 
-
+{
+    "slot":"TRIGGER_SPECIFIC",
+    "unit":"SPAWN",
+    "mode":"APPEND_BY_OR",
+    "value":[["IS_DOOR","IS_CLOSED"]  ]
+}
+   ]
     
 }

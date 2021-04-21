@@ -34,7 +34,7 @@
       
 
       "SPACE":{
-         "SPACE-0":{  "MEDIUM":"LINEA",  "SOURCE":"SELF",  "REACH":"2",  "M_TYPE":"MEAT"  }
+         "SPACE-0":{  "MEDIUM":"SELECT",  "SOURCE":"SELF",  "REACH":"30",  "M_TYPE":"MEAT"  }
          
       },
       

@@ -4,15 +4,19 @@ class_name DemocrECTS_EntityManager
  
 #----- INITIALICER ---------------------------------------------------------------##
 
-var name: String =""
 var entityType
-var mandatoryComponents: Array
-var knownEntities: Array
+var mandatoryComponents : Array
+var knownEntities       : Array
+var name                : String
+
+
+var applyConditionsShorts = ["C_64"]
+var applyConditions       = ["C_64_APPLY_CONDITION_WALKING"]
 
 #VAR namePara: name of System                                                 
 #VAR mandatoryComponents Array of String value of lowest common denominators  
 func _init(namePara:String, mandatoryComponentsPara:Array):
-	name          = namePara
+	name = namePara
 	
 	for i in mandatoryComponentsPara.size():
 		mandatoryComponents.append( mandatoryComponentsPara[i].name_quack() )
@@ -72,7 +76,12 @@ func _constructEnt_quack(dict,newEnt):
 			if is_instance_valid(compClass): 
 				var compInstance = compClass.new( dict[currentDictEntry] )
 				newEnt.addComponent(compInstance)
-
+			else:
+				for j in applyConditionsShorts.size():
+					if currentDictEntry.begins_with(applyConditionsShorts[j]):
+						var component = COMP.GET_COMPONENT(applyConditions[j])
+						component = component.new( dict.values()[i])
+						newEnt.addComponent(component)
 			# - Flags - #
 			var flagInstance = COMP.GET_FLAG(currentDictEntry)
 			if flagInstance is int: 

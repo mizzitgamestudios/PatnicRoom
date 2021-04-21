@@ -11,7 +11,10 @@ func _init(valuePara:String):
 	value = valuePara
 	
 	var cache = valuePara.split("(")
-	duration = cache[1].split(")")[0]
+	duration  = cache[1].split(")")[0]
+	
+	var cacheTwo     = valuePara.split("[]")
+	if cacheTwo.size() > 1:  level  = cacheTwo[1].split("]")[0]
 	
 	condIndex = cache[0]
 

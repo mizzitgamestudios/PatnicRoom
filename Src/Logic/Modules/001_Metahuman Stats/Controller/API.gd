@@ -3,12 +3,6 @@ extends DemocrECTS_Controller
 
 #----- INITIALICER ---------------------------------------------------------------##
 
-var basicStatChange : _2_BasicStatChange
-
-
-func _init():
-	basicStatChange = _2_BasicStatChange.new()
-
 
 
 #----- GETTER ---------------------------------------------------------------##
@@ -18,7 +12,7 @@ func changeStat(playerEnt_actorEnt,compOfEnt,mod):
 	if ENUM.hasEnum(ENUM.ATTRIBUTES,compOfEnt):
 		mod = int(mod)
 
-		basicStatChange.changeStat(playerEnt_actorEnt,compOfEnt,mod)
+		
 
 
 

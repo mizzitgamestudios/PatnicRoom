@@ -9,9 +9,9 @@ var effect: EffectEntity
 
 
 func name() 				-> String: 			return getCompValue(C_6_TILE_NAME.name_quack())
-func decription()   		-> String:				return getCompValue(C_0_ANY_DESCRIPTION.name_quack())
+func decription()   		-> String:			return getCompValue(C_0_ANY_DESCRIPTION.name_quack())
 func toString()   		    -> String:			return getCompValue(C_40_ANY_TO_STRING.name_quack())
-func mechanicalSummary()    -> String:				return getCompValue(C_35_KIT_MECHANICAL_SUMMARY.name_quack())
+func mechanicalSummary()    -> String:			return getCompValue(C_35_KIT_MECHANICAL_SUMMARY.name_quack())
 func mType()      			-> String: 			return getCompValue(C_37_ANY_M_TYPE.name_quack())
 func catType()   		    -> String:			return getCompValue(C_31_KIT_CAT_TYPE.name_quack())
 func partType()        		-> String:			return getCompValue(C_38_KIT_PART_TYPE.name_quack())

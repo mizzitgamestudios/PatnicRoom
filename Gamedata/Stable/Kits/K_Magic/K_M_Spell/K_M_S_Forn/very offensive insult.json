@@ -52,7 +52,7 @@
              "CONDITION":[
              ],
              "STAT_MOD":[
-                ["U_SPAWN_TILE_AROUND",["Suburban_0_0","1"]]
+                ["U_SPAWN_TILE_AROUND",["Suburban_0_0","1",2]]
              ]}
  
        }}

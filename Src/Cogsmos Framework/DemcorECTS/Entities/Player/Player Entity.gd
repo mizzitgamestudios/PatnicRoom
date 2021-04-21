@@ -2,12 +2,21 @@ extends Entity
 class_name PlayerEntity
 
 
+#----- INITIALICE ------------------------------------------------------------##
+
 var position : Vector2
 
+func _init() -> void:
+	position = Vector2(0,0)
+	addComponent(C_51_PLAYER_KITSETS.new())
+	addComponent(C_2_ANY_TEXTURE_ID.new("General_0_5"))
+	addComponent(C_44_PLAYER_STREETNAME.new("the unkown"))
 
 
 
-# generall
+#----- GETTER ----------------------------------------------------------------##
+
+# --- generall --- #
 func playerName() 					-> int:				return .getCompValue(C_45_PLAYER_NAME.name_quack())
 func textureID()					-> String:			return .getCompValue(C_2_ANY_TEXTURE_ID.name_quack())
 func description() 					-> bool:			return .getCompValue(C_0_ANY_DESCRIPTION.name_quack())
@@ -16,7 +25,7 @@ func getKitOfKitset(numberInKitset) -> KitSetEntity: 	return .getComp(C_51_PLAYE
 func kitset() 						-> KitSetEntity: 	return .getComp(C_51_PLAYER_KITSETS.name_quack())
 
 
-# attributes 
+# --- attributes --- #
 func logic() 						-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name_quack()).logic.value
 func agillity() 					-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name_quack()).agillity.value
 func reaction() 					-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name_quack()).reaction.value
@@ -27,11 +36,11 @@ func intuition() 					-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name
 func charisma() 				 	-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name_quack()).charisma.value
 func willpower()  					-> int:				return .getCompValue(C_19_ACTOR_ATTRIBUTES.name_quack()).willpower.value
 
-# skills
+# --- skills --- #
 func skills(skillname) 				-> int: 			return .getCompValue(C_20_ACTOR_SKILLBLOCK).value[skillname]
 
 
-# indirect stats
+# --- indirect stats --- #
 func hitpoints() 					-> int:				return .getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).hitpoints.value
 func carriageCapacity() 			-> int:				return .getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).carriageCapacity
 func mentalLimit() 					-> int:				return .getCompValue(C_26_ACTOR_INDIRECT_STATS.name_quack()).mentalLimit
@@ -46,11 +55,5 @@ func posX()							-> int:         return int(position.x)
 func posY()							-> int:			return int(position.y)
 
 func mouseHover_quack(): return "player"
-
-func _init() -> void:
-	position = Vector2(0,0)
-	addComponent(C_51_PLAYER_KITSETS.new())
-	addComponent(C_2_ANY_TEXTURE_ID.new("General_0_5"))
-	addComponent(C_44_PLAYER_STREETNAME.new("the unkown"))
 
 

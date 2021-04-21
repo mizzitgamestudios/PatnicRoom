@@ -13,22 +13,22 @@ func _drawWholeLayer() -> void:
 		var currentEnt = instance_from_id(entsToPars[i])
 		
 		currentEnt.setPos( posOfEnts[i])
-		
-		_drawCell( currentEnt.textureID(), posOfEnts[i] )
+		_drawCell(currentEnt.textureID(), posOfEnts[i] )
 
 
 func _drawCell(id, mainPos, altPos=0):
-	if id is String:  id = self.tile_set.find_tile_by_name(id)
-	if mainPos is int:       set_cell(mainPos.x,altPos,id)
-	if mainPos is Vector2:   set_cell(mainPos.x,mainPos.y,id)
+	if id      is String  : id = self.tile_set.find_tile_by_name(id)
+
+	if mainPos is int     : set_cell(mainPos.x, altPos, id)
+	if mainPos is Vector2 : set_cell(mainPos.x, mainPos.y, id)
 
 
 
 
 
 func checkForVector(mainPos, altPos=0):
-	if mainPos is int:       return Vector2(mainPos,altPos)
-	if mainPos is Vector2:   return mainPos
+	if mainPos is int     :   return Vector2(mainPos,altPos)
+	if mainPos is Vector2 :   return mainPos
 
 
 func stopAtDefaultTilemapSize(pos:Vector2):
@@ -39,9 +39,9 @@ func stopAtDefaultTilemapSize(pos:Vector2):
 
 func convertForPivot(typeEnum:int,pos:Vector2):
 	match typeEnum:
-		ENUM.TYPES_ON_MAP.TILE:     return Vector2(pos.x,pos.y)
-		ENUM.TYPES_ON_MAP.ACTOR:    return Vector2(pos.x,pos.y)
-		ENUM.TYPES_ON_MAP.INTERACT: return Vector2(pos.y,pos.x)
-		ENUM.TYPES_ON_MAP.MARKER:   return Vector2(pos.x,pos.y)
-		ENUM.TYPES_ON_MAP.PLAYER:   return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.TILE     : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.ACTOR    : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.INTERACT : return Vector2(pos.y,pos.x)
+		ENUM.TYPES_ON_MAP.MARKER   : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.PLAYER   : return Vector2(pos.x,pos.y)
 

@@ -41,13 +41,15 @@ func manageSpecificTrigger(ent:KitSetEntity,collectedEnts:Array):
 
 func appendByKeyword(collectedEnts,specificTrigger,i):
 	var currentCollect = []
-	match specificTrigger.metaKeyword[i]:
-		
-		"HAS_CONDITION"   :  return _Has_Condition.run(collectedEnts,specificTrigger[0])
-		"HAS_STAT"        :  return _Has_StatMod.run(collectedEnts,specificTrigger.metaValue[i])
-		"HAS_TEXTURE"     :  return _Has_Texture.run(collectedEnts,specificTrigger.metaValue[i])
-		"IS_DOOR"         :  return _Is_Door.run(collectedEnts,specificTrigger.metaValue[i])
-		"BASE"            :  return collectedEnts
+	if specificTrigger.metaKeyword.size() > i:
+		match specificTrigger.metaKeyword[i]:
+			
+			"HAS_CONDITION"   :  return _Has_Condition.run(collectedEnts,specificTrigger[0])
+			"HAS_STAT"        :  return _Has_StatMod.run(collectedEnts,specificTrigger.metaValue[i])
+			"HAS_TEXTURE"     :  return _Has_Texture.run(collectedEnts,specificTrigger.metaValue[i])
+			"IS_DOOR"         :  return _Is_Door.run(collectedEnts,specificTrigger.metaValue[i])
+			_                 :  return collectedEnts
+	else: return []
 
 
 
@@ -58,13 +60,17 @@ func appendByKeyword(collectedEnts,specificTrigger,i):
 func reduceToCommonAnominator(returnArray,currentCollect):
 	var comnmonArray = []
 	
+#	for i in currentCollect.size():
+#		var currentCollectEntryID = currentCollect[i].get_instance_id()
+#		var currentReturnEntryID  = currentCollect[i].get_instance_id()
+#
 	for i in currentCollect.size():
 		var currentCollectEntry = currentCollect[i]
 		var objectID = currentCollectEntry.get_instance_id()
 		
 		for j in returnArray.size():
-			var currentReturnEntry = currentCollect[i]
-			var returnID = currentCollectEntry.get_instance_id()
+			var currentReturnEntry = returnArray[j]
+			var returnID = currentReturnEntry.get_instance_id()
 			
 			if returnID == objectID: comnmonArray.append(currentCollectEntry)
 	

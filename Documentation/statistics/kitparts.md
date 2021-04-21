@@ -29,7 +29,7 @@
 |rarity|3|
 |modTime|2|
 #### Mods:  
-|[Node:3341]|opens Sec2 doors|
+|[Node:3350]|opens Sec2 doors|
  
 ### Heartbleed-Bug
 |name|value|
@@ -97,4 +97,14 @@
 #### Mods:  
  
 # Guns  
+### T-Shirt Cannon
+|name|value|
+|-|-|
+|description|TOTAL RECALL: MAY SHOOT CAUSE OF FIRMWARE-BUG STRRAIGHTJACKETS|
+|mechanicalSummary|deals 3 damage, takes abillity to move for 3 actions|
+|cooldownTime|2|
+|rarity|3|
+|modTime|2|
+#### Mods:  
+ 
 # Armors  

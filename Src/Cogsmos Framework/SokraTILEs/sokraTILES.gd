@@ -10,43 +10,15 @@
 
 extends Node
 
-################################################################################
-##  --- Subparts of Engine ---                                                ##
-################################################################################
 
+#----- INITIALICE ------------------------------------------------------------##
 
 var tilemapManager : SokraTILEs_TilemapManager
 
-
-func getLayer(string:String) -> Dictionary:
-	match string:
-		"actors":				return SokraTiles.tilemap[0]
-		"pc":					return SokraTiles.tilemap[7]
-		"Matrix ground":		return SokraTiles.tilemap[3]
-		"Matrix interactables":	return SokraTiles.tilemap[4]
-		"Meat ground":			return SokraTiles.tilemap[1]
-		"Meat interactables":	return SokraTiles.tilemap[2]
-		"Magic ground":			return SokraTiles.tilemap[5]
-		"Magic interactables":	return SokraTiles.tilemap[6]
-		"selection":			return SokraTiles.tilemap[7]
-		"condition":			return SokraTiles.tilemap[8]
-	return {}
-
-
-################################################################################
-##  --- Variables ---                                                         ##
-################################################################################
-
-
-var tilemap = {}
-var tilemapNode = {}
-
+var tilemap       = {}
+var tilemapNode   = {}
 var Actors_on_map = {}
 
-
-################################################################################
-##  --- Main ---                                                              ##
-################################################################################
 
 func parseTilemap(tileMapFilePath:String):
 	tilemapManager.createTilemap(tileMapFilePath)
@@ -54,8 +26,6 @@ func parseTilemap(tileMapFilePath:String):
 func createEmptyLayer() -> Dictionary:
 	return tilemapManager.tilemapParser.parseEmptyLayer()
 
-func getTilemapLayer(enumOfLayer):
-	return tilemapNode[enumOfLayer]
 
 func getParsedLayer(layerEnum):
 	return getLayer(layerEnum)
@@ -63,7 +33,7 @@ func getParsedLayer(layerEnum):
 func addChunkToKnownLayers(layerEnum,chunkClass):
 	tilemapNode[layerEnum] = chunkClass
 
-func setNewTilemap(tilemap:Array):
+func setNewTilemap(tilemap:Array): 
 	self.tilemap = tilemap
 
 # returns Array of ActorEntities
@@ -72,8 +42,7 @@ func getAllActorsOnMap() -> Array :
 
 
 
-
-
+#----- GETTER ----------------------------------------------------------------##
 
 func getPlayer():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_PLAYER)
 func getActor():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_NPC)
@@ -91,3 +60,18 @@ func getSelection():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.SE
 
 func getCondition():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.CONDITION)
 
+	
+func getTilemapLayer(enumOfLayer): return tilemapNode[enumOfLayer]
+func getLayer(string:String) -> Dictionary:
+	match string:
+		"actors"               : return SokraTiles.tilemap[0]
+		"pc"                   : return SokraTiles.tilemap[7]
+		"Matrix ground"        : return SokraTiles.tilemap[3]
+		"Matrix interactables" : return SokraTiles.tilemap[4]
+		"Meat ground"          : return SokraTiles.tilemap[1]
+		"Meat interactables"   : return SokraTiles.tilemap[2]
+		"Magic ground"         : return SokraTiles.tilemap[5]
+		"Magic interactables"  : return SokraTiles.tilemap[6]
+		"selection"            : return SokraTiles.tilemap[7]
+		"condition"            : return SokraTiles.tilemap[8]
+	return {}

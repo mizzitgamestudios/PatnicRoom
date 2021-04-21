@@ -70,6 +70,15 @@ func mergeWithKitpart(merge:KitSetEntity,kitpart):
 			"APPEND" : appendValue( currentStat["value"], slotToChange )
 			"REMOVE" : removeValue( currentStat["value"], slotToChange )
 			"CAHNGE" : changeValue( currentStat["value"], slotToChange )
+			
+			"APPEND_BY_OR": 
+				slotToChange.metaKeyword.append("OR")
+				slotToChange.metaValue.append("OR")
+				appendValue(currentStat["value"], slotToChange)
+			"APPEND_BY_AND": 
+				slotToChange.metaKeyword.append("AND")
+				slotToChange.metaValue.append("AND")
+				appendValue(currentStat["value"], slotToChange)
 
 
 
@@ -78,6 +87,10 @@ func appendValue(values:Array,slotToChange):
 		if values[i][0] == "HAS_STAT":
 			slotToChange.metaKeyword.append("HAS_STAT")
 			slotToChange.metaValue.append(values[i][1])
+		
+		
+		if values.size() == 1:
+			values = values[0]
 		
 		else:
 			slotToChange.metaKeyword.append(values[0])

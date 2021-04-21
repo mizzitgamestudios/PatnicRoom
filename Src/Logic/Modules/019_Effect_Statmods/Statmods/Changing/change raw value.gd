@@ -3,14 +3,14 @@ class_name U_CHANGE_RAW_VALUE
 
 
 
-static func run(selectedPos,modValue):
+static func run(ent,modValue):
 	var compToString   = modValue[0]
 	var valueToChange  = modValue[1]
 	var saniticedValue = null
 	
 	
 	if COMP.GET_COMPONENT(compToString) != null:
-		var compToChange = selectedPos.getComp(compToString)
+		var compToChange = ent.getComp(compToString)
 		
 		if   compToChange.dioJSONType_quack() == "STRING"     : saniticedValue = addAsString(valueToChange)
 		elif compToChange.dioJSONType_quack() == "INTEGER"    : saniticedValue = addAsInteger(valueToChange)

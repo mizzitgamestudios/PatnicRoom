@@ -3,29 +3,30 @@ class_name U_EXCHANGE_TEXTURE
 
 
 
-static func run(selectedPos,modValue):
+static func run(ent,modValue):
 
-	var tier = selectedPos.getCompValue("C_65_TIER")
+	var tier = ent.getCompValue("C_65_TIER")
 	
 	var isValidCheck = false
-	if closeTierTwo(selectedPos): isValidCheck = true
-	if closeTierOne(selectedPos): isValidCheck = true 
+	
+	if closeTierTwo(ent): isValidCheck = true
+	if closeTierOne(ent): isValidCheck = true 
 	
 	if isValidCheck:
-		var textureToChange = selectedPos.getCompValue("C_58_ALTERNATIVE_TEXTURES")
-		var currentTexture  = selectedPos.getCompValue("C_2_ANY_TEXTURE_ID")
+		var textureToChange = ent.getCompValue("C_58_ALTERNATIVE_TEXTURES")
+		var currentTexture  = ent.getCompValue("C_2_ANY_TEXTURE_ID")
 
-		selectedPos.getComp("C_58_ALTERNATIVE_TEXTURES").value = currentTexture
-		selectedPos.getComp("C_2_ANY_TEXTURE_ID").value        = textureToChange
+		ent.getComp("C_58_ALTERNATIVE_TEXTURES").value = currentTexture
+		ent.getComp("C_2_ANY_TEXTURE_ID").value        = textureToChange
 		
-		API_009_Tilemap.appendDirtyTiles(selectedPos)
+		API_009_Tilemap.appendDirtyTiles(ent)
 
 
 
-static func closeTierOne(selectedPos, modValue=0):
+static func closeTierOne(ent, modValue=0):
 	return true
 
 
 
-static func closeTierTwo(selectedPos):
+static func closeTierTwo(ent):
 	return true

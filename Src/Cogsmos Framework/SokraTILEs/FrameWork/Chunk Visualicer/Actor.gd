@@ -17,7 +17,7 @@ func _cleanMap():
 		
 		var oldPos = currentSet[0]
 		var newPos = currentSet[1]
-		var ent = entsOnMap[oldPos]
+		var ent    = entsOnMap[oldPos]
 	
 		._drawCell(oldPos.x,oldPos.y,-1)
 		._drawCell(newPos.x,newPos.y,ent.textureID.value)
@@ -37,8 +37,8 @@ func moveActor(directionEnum,ent):
 
 		_addToDirtyTiles(oldPos,newPos)
 		ent.setPos(newPos)
-		_drawCell( -1 , oldPos )
-		_drawCell( ent.textureID() , newPos )
+		_drawCell(-1, oldPos)
+		_drawCell(ent.textureID(), newPos)
 	
 	attachCondIfPossible(newPos,ent)
 	
@@ -46,15 +46,14 @@ func moveActor(directionEnum,ent):
 
 func isTileWalkable(pos:Vector2):
 	var returnBool = true
-	var debugOne = true
-	var debugTwo = true
-	var debugThree = true
 	
 	if SokraTiles.getMeatInteract().entsOnMap.has(pos):
 		return SokraTiles.getMeatInteract().getEntByPos_quack(pos).getCompValue("C_1_ANY_IS_WALKABLE")
 	else:
-		var ent=SokraTiles.getMeatFloor().getEntByPos_quack(pos)
+		var ent = SokraTiles.getMeatFloor().getEntByPos_quack(pos)
 		return ent.isWalkable()
+
+
 
 func attachCondIfPossible(newPos,ent):
 	var tile = SokraTiles.getMeatFloor().getEntByPos_quack(newPos)
@@ -63,4 +62,4 @@ func attachCondIfPossible(newPos,ent):
 		var condName     = tile.getComp("C_64_APPLY_CONDITION_WALKING").condIndex
 		var condDuration = tile.getComp("C_64_APPLY_CONDITION_WALKING").duration
 
-		API_003_Condition.attachConditionToEnt(ent,condName,int(condDuration))
+		API_003_Condition.attachConditionToEnt(ent, condName, int(condDuration) )

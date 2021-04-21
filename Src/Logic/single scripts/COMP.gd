@@ -85,7 +85,7 @@ var ATLAS_INDEX_COMP ={
 	"C_65_TIER"                             :   C_65_TIER,
 	"C_61_LOOT_TABLE"                       :   C_61_LOOT_TABLE,
 	"C_62_LOOT_STATE"                       :   C_62_LOOT_STATE,
-	"C_63_IS_BURNABLE"                      :   C_63_IS_BURNABLE,
+	"C_63_IS_SPREADING_CONDITION"                      :   C_63_IS_SPREADING_CONDITION,
 	"C_64_APPLY_CONDITION_WALKING"          :   C_64_APPLY_CONDITION_WALKING
 }
 

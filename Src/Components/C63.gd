@@ -1,11 +1,11 @@
 extends Component
-class_name C_63_IS_BURNABLE
+class_name C_63_IS_SPREADING_CONDITION
 
 var value 
 
 
 func _init(valuePara):
-	name="C_63_IS_BURNABLE"
+	name="C_63_IS_SPREADING_CONDITION"
 	value = valuePara
 
 
@@ -20,5 +20,5 @@ var  autodoc={
 	"validType"   : dioJSONType_quack(),
 	"nameToShow"  : "burnable",
 }
-static func name_quack():      return "C_63_IS_BURNABLE"
-static func dioJSONType_quack(): return "BOOLEAN"
+static func name_quack():      return "C_63_IS_SPREADING_CONDITION"
+static func dioJSONType_quack(): return "STRING"

@@ -13,10 +13,11 @@ static func run(collectedEnts,metaValues):
 	for i in collectedEnts.size():
 		var currentEnt = collectedEnts[i]
 		
-		var currentCompValue = currentEnt.getCompValue(compToString)
-		if isComparrissonValid(str(currentCompValue),operator,comparator): 
-			returnArr.append(currentEnt)
-			#if currentEnt.hasCond(condName):  returnArr.append(currentEnt)
+		if currentEnt.has(compToString):
+			var currentCompValue = currentEnt.getCompValue(compToString)
+			if isComparrissonValid(str(currentCompValue),operator,comparator): 
+				returnArr.append(currentEnt)
+				#if currentEnt.hasCond(condName):  returnArr.append(currentEnt)
 
 
 	return returnArr

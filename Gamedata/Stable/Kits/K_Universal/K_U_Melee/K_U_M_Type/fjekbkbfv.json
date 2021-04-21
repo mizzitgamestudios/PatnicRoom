@@ -52,7 +52,7 @@
           "EFFECT-0":{
              "CONDITION":[],
              "STAT_MOD":[
-                ["U_MOVE_PLAYER",[ "CHARGE","-30"]]
+                ["U_MOVE_USER",[ "CHARGE","-30"]]
 
              ]}
  

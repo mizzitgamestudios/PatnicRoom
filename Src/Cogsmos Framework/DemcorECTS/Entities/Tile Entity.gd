@@ -8,7 +8,7 @@ var uniqueComponents : Entity
 var position : 		Vector2
 
 func _ready() -> void:
-	addAttributesToDictOfComps()
+	API_000_BasicTilesAtlas.addAttributesToDictOfComps(self)
 
 
 	
@@ -26,11 +26,15 @@ func mouseHover_quack() -> String:  return textureID()
 func pos()             -> Vector2:	return position
 func posX()            -> int:		return int(position.x)
 func posY()            -> int:		return int(position.y)
+func typeToString()    -> String: 	return "TILE"
+func type()            -> String:	return ENUM.TYPES_ON_MAP.TILE
 		
 func setPos(pos:Vector2): 	position = pos
 
-func typeToString(): return "TILE"
-func type(): return ENUM.TYPES_ON_MAP.TILE
+
+
+#----- HELPER ----------------------------------------------------------------##
+
 func isSignalInReach(signalSource:TileEntity,reach:int) -> bool:
 	var posBool :bool = false
 	
@@ -42,11 +46,7 @@ func isSignalInReach(signalSource:TileEntity,reach:int) -> bool:
 
 
 func getNameForGroupEntry():
-	if has(C_6_TILE_NAME.name_quack()):
-		return getCompValue(C_6_TILE_NAME)
-	else:
-		return tileName()
+	if has(C_6_TILE_NAME.name_quack()): return getCompValue(C_6_TILE_NAME)
+	else:                               return tileName()
 
-
-func addAttributesToDictOfComps():
-	API_000_BasicTilesAtlas.addAttributesToDictOfComps(self)
+		

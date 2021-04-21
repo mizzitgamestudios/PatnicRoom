@@ -51,6 +51,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"C_64_2_APPLY_CONDITION_WALKING",
+                 "type":"string",
+                 "value":"Cond_BAN_Electrifying(1)"
+                }, 
+                {
                  "name":"C_64_APPLY_CONDITION_WALKING",
                  "type":"string",
                  "value":"Elemental_Water_Wet(5)"
@@ -101,9 +106,9 @@
                  "value":0
                 }, 
                 {
-                 "name":"C_63_IS_BURNABLE",
-                 "type":"bool",
-                 "value":true
+                 "name":"C_63_IS_SPREADING_CONDITION",
+                 "type":"string",
+                 "value":"Elemental_Fire_Burning"
                 }, 
                 {
                  "name":"C_6_TILE_NAME",
@@ -149,6 +154,11 @@
                  "name":"C_5_ANY_MATRIX_NOISE",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"C_63_IS_SPREADING_CONDITION",
+                 "type":"string",
+                 "value":"Cond_BAN_Electrifying"
                 }, 
                 {
                  "name":"C_6_TILE_NAME",

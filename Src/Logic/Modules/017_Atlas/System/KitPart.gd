@@ -40,28 +40,26 @@ func sortEntries():
 
 	for i in baseKitParts.size():
 		var currentKitpart = baseKitParts.values()[i]
+		
+		var currentKitName = currentKitpart.name()
+		var currentKitType = currentKitpart.catType()
+		
+		var kitpartEntry   = KitpartEntry.new(currentKitpart)
+		
+		match currentKitType:
+			"CYBERWARE" : cyberware [currentKitName] = kitpartEntry
+			"HACK"      : hack      [currentKitName] = kitpartEntry
+			"DRONE"     : drone     [currentKitName] = kitpartEntry
 
-		match currentKitpart.catType():
-			"CYBERWARE":
-				cyberware[currentKitpart.name()] 	= KitpartEntry.new( currentKitpart )
-			"HACK":
-				hack[currentKitpart.name()] 		= KitpartEntry.new( currentKitpart )
-			"DRONE":
-				drone[currentKitpart.name()] 		= KitpartEntry.new( currentKitpart )
+			"MEELE"     : meele     [currentKitName] = kitpartEntry
+			"GUN"       : gun       [currentKitName] = kitpartEntry
+			"ARMOR"     : armor     [currentKitName] = kitpartEntry
 
-			"MEELE":
-				meele[currentKitpart.name()] 		= KitpartEntry.new( currentKitpart )
-			"GUN":
-				gun[currentKitpart.name()] 			= KitpartEntry.new( currentKitpart )
-			"ARMOR":
-				armor[currentKitpart.name()] 		= KitpartEntry.new( currentKitpart )
+			"INFUSION"  : infusion  [currentKitName] = kitpartEntry
+			"SPELL"     : spell     [currentKitName] = kitpartEntry
+			"RITE"      : rite      [currentKitName] = kitpartEntry
 
-			"INFUSION":
-				infusion[currentKitpart.name()] 	= KitpartEntry.new( currentKitpart )
-			"SPELL":
-				spell[currentKitpart.name()]		= KitpartEntry.new( currentKitpart )
-			"RITE":
-				rite[currentKitpart.name()] 		= KitpartEntry.new( currentKitpart )
+
 
 
 class KitpartEntry:
@@ -70,10 +68,10 @@ class KitpartEntry:
 
 	func _init(basepara) -> void:
 		baseKit = basepara
+		var arr = API_017_Atlas._kitparts.getEntitiesWithCompValue(basepara.name(), "C_60_BASE_KIT_REFERENCE")
 
-		var arr = API_017_Atlas._kitparts.getEntitiesWithCompValue(basepara.name(),C_60_BASE_KIT_REFERENCE.name_quack())
 		for i in arr.size():
-			var currentMod = arr.values()[i]
+			var currentMod           = arr.values()[i]
 			modArr[currentMod.name()] = arr.values()[i]
 
 

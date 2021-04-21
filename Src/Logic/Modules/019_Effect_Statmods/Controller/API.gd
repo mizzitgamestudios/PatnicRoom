@@ -10,19 +10,24 @@ func _init() -> void:
 	self.name       = "API_019_EffectStatmods"
 	_statmodindex = _19_Unique_Statmod_Index.new()
 
-func manageUniqueStatmod(selectedPos, statmodName:String, modValue):
+
+
+#----- GETTER --------------------------------------------------------------------##
+
+func manageUniqueStatmod(ent, statmodName:String, modValue):
 	var nameOfUniqueStatmods  = _statmodindex.EFFECT_UNIQUE_STATMOD.keys()
 	var classOfUniqueStatmods = _statmodindex.EFFECT_UNIQUE_STATMOD.values()
 
-	if is_instance_valid(selectedPos):
-
+	if is_instance_valid(ent):
 		for i in nameOfUniqueStatmods.size():
 
 			var currentClass = classOfUniqueStatmods[i]
 			var currentName  = nameOfUniqueStatmods[i]
 
-			if statmodName  == currentName:
-				currentClass.run(selectedPos,modValue)
+			
+			if statmodName  == currentName: currentClass.run(ent,modValue)
+
+
 
 func hasStatmodInIndex(toLookUp:String):
 	return _statmodindex.EFFECT_UNIQUE_STATMOD.has(toLookUp)

@@ -1,11 +1,11 @@
 extends Object
-class_name U_MOVE_PLAYER
+class_name U_MOVE_USER
 
 
 
-static func run(selectedPos, modValue):
+static func run(ent, modValue):
 	var posOfPlayer = API_011_Player.currentChar.pos()
-	var posOfTarget = selectedPos.pos()
+	var posOfTarget = ent.pos()
 
 	var walkOnY     = false
 

@@ -3,15 +3,15 @@ class_name U_DEAL_PLAIN_DAMAGE
 
 
 
-static func run(selectedPos, modValue):
-	if selectedPos is ActorEntity:
+static func run(ent, modValue):
+	if ent is ActorEntity:
 
-		selectedPos.getComp("C_57_HITPOINTS").value = selectedPos.getComp("C_57_HITPOINTS").value + int(modValue)
+		ent.getComp("C_57_HITPOINTS").value = ent.getComp("C_57_HITPOINTS").value + int(modValue)
 		
-		var value = selectedPos.hitpoints()
+		var value = ent.hitpoints()
 
 		if value <= 0: 
-			API_007_ProcgenActor.removeActorFromGame(selectedPos)
+			API_007_ProcgenActor.removeActorFromGame(ent)
 
 		
  

@@ -1,5 +1,5 @@
 extends Component
-class_name C_67_IS_DOOR
+class_name C_65_TIER
 
 var value 
 

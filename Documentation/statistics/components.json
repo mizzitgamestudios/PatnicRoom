@@ -569,7 +569,7 @@
   ],
   "validType": "BOOLEAN",
   "nameToShow": "burnable",
-  "componentName": "C_63_IS_BURNABLE"
+  "componentName": "C_63_IS_SPREADING_CONDITION"
  },
  {
   "suggestion": "",
