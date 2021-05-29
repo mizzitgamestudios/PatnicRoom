@@ -1,0 +1,33 @@
+{
+
+    "C_6_TILE_NAME"         : "Arsenist",
+    "C_65_TIER"             : 1,            
+    "F_6_ACTOR_ATTRIBUTES"  : "N/A",
+    "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
+    "C_0_ANY_DESCRIPTION"   : "Young teenager with behavioural problems and attention deficit",
+    "C_47_ANY_SYNONYM"      : ["Troublemaker","Arsenist","Firestarter"],
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" : 0,
+      "agi" : 1,
+      "rea" : 1,
+      "str" : 0,
+  
+      "wil" : -1,
+      "log" : -1,
+      "int" : 2,
+      "cha" : -2
+    },
+    
+    "C_20_ACTOR_SKILLBLOCK" : {
+      "SURVIVAL" : "3",
+      "SNEAKING"   : "5",
+      "PERCEPTION" : "4",
+      "INTIMIDATION"  : "5",
+      "COMPUTER"   : "3"
+      }
+  
+  
+  
+  }
+  

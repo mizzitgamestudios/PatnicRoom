@@ -1,0 +1,759 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add --dev @types/net
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@types%2fnet: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1225:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+  	"name": "godot-tools",
+  	"displayName": "godot-tools",
+  	"icon": "icon.png",
+  	"version": "1.1.0",
+  	"description": "Tools for game development with godot game engine",
+  	"repository": {
+  		"type": "git",
+  		"url": "https://github.com/godotengine/godot-vscode-plugin"
+  	},
+  	"author": "The Godot Engine community",
+  	"publisher": "geequlim",
+  	"engines": {
+  		"vscode": "^1.33.0"
+  	},
+  	"categories": [
+  		"Other",
+  		"Debuggers"
+  	],
+  	"activationEvents": [
+  		"workspaceContains:project.godot",
+  		"onLanguage:gdscript",
+  		"onDebugResolve:godot"
+  	],
+  	"main": "./out/extension.js",
+  	"scripts": {
+  		"vscode:prepublish": "npm run compile",
+  		"compile": "tsc -p ./",
+  		"lint": "tslint -p ./",
+  		"watch": "tsc -watch -p ./"
+  	},
+  	"contributes": {
+  		"commands": [
+  			{
+  				"command": "godot-tool.open_editor",
+  				"title": "Godot Tools: Open workspace with Godot editor"
+  			},
+  			{
+  				"command": "godot-tool.run_project",
+  				"title": "Godot Tools: Run workspace as Godot project"
+  			},
+  			{
+  				"command": "godot-tool.list_native_classes",
+  				"title": "Godot Tools: List native classes of godot"
+  			},
+  			{
+  				"command": "godot-tool.debugger.inspect_node",
+  				"title": "Inspect Remote Node",
+  				"icon": {
+  					"light": "resources/light/icon_GUI_visibility_visible.svg",
+  					"dark": "resources/dark/icon_GUI_visibility_visible.svg"
+  				}
+  			},
+  			{
+  				"command": "godot-tool.debugger.refresh_scene_tree",
+  				"title": "Refresh",
+  				"icon": {
+  					"light": "resources/light/icon_refresh.svg",
+  					"dark": "resources/dark/icon_refresh.svg"
+  				}
+  			},
+  			{
+  				"command": "godot-tool.debugger.refresh_inspector",
+  				"title": "Refresh",
+  				"icon": {
+  					"light": "resources/light/icon_refresh.svg",
+  					"dark": "resources/dark/icon_refresh.svg"
+  				}
+  			},
+  			{
+  				"command": "godot-tool.debugger.edit_value",
+  				"title": "Edit value",
+  				"icon": {
+  					"light": "resources/light/icon_edit.svg",
+  					"dark": "resources/dark/icon_edit.svg"
+  				}
+  			}
+  		],
+  		"configuration": {
+  			"type": "object",
+  			"title": "Godot Tools configuration",
+  			"properties": {
+  				"godot_tools.gdscript_lsp_server_port": {
+  					"type": "number",
+  					"default": 6008,
+  					"description": "The websocket server port of the GDScript language server"
+  				},
+  				"godot_tools.editor_path": {
+  					"type": "string",
+  					"default": "",
+  					"description": "The absolute path to the Godot editor executable"
+  				},
+  				"godot-tool.check_status": {
+  					"type": "string",
+  					"default": "",
+  					"description": "Check the gdscript language server connection status"
+  				}
+  			}
+  		},
+  		"languages": [
+  			{
+  				"id": "gdscript",
+  				"aliases": [
+  					"GDScript",
+  					"gdscript"
+  				],
+  				"extensions": [
+  					".gd"
+  				],
+  				"configuration": "./configurations/gdscript-configuration.json"
+  			},
+  			{
+  				"id": "properties",
+  				"extensions": [
+  					"cfg",
+  					"tres",
+  					"tscn",
+  					"godot",
+  					"gdns",
+  					"gdnlib",
+  					"import"
+  				]
+  			}
+  		],
+  		"grammars": [
+  			{
+  				"language": "gdscript",
+  				"scopeName": "source.gdscript",
+  				"path": "./configurations/GDScript.tmLanguage.json"
+  			}
+  		],
+  		"snippets": [
+  			{
+  				"language": "gdscript",
+  				"path": "./configurations/snippets.json"
+  			}
+  		],
+  		"debuggers": [
+  			{
+  				"type": "godot",
+  				"label": "Godot Debug",
+  				"program": "./out/debugger/debug_adapter.js",
+  				"runtime": "node",
+  				"configurationAttributes": {
+  					"launch": {
+  						"required": [
+  							"project",
+  							"port",
+  							"address"
+  						],
+  						"properties": {
+  							"project": {
+  								"type": "string",
+  								"description": "Absolute path to a directory with a project.godot file.",
+  								"default": "${workspaceFolder}"
+  							},
+  							"port": {
+  								"type": "number",
+  								"description": "The port number for the Godot remote debugger to use.",
+  								"default": 6007
+  							},
+  							"address": {
+  								"type": "string",
+  								"description": "The IP address for the Godot remote debugger to use.",
+  								"default": "127.0.0.1"
+  							},
+  							"launch_game_instance": {
+  								"type": "boolean",
+  								"description": "Whether to launch an instance of the workspace's game, or wait for a debug session to connect.",
+  								"default": true
+  							},
+  							"launch_scene": {
+  								"type": "boolean",
+  								"description": "Whether to launch an instance the currently opened TSCN file, or launch the game project. Only works with launch_game_instance being true.",
+  								"default": false
+  							},
+  							"scene_file": {
+  								"type": "string",
+  								"description": "Relative path from the godot.project file to a TSCN file. If launch_scene and launch_game_instance are true, and this file is defined, will launch the specified file instead of looking for an active TSCN file.",
+  								"default": ""
+  							}
+  						}
+  					}
+  				},
+  				"initialConfigurations": [
+  					{
+  						"name": "Godot",
+  						"type": "godot",
+  						"request": "launch",
+  						"project": "${workspaceFolder}",
+  						"port": 6007,
+  						"address": "127.0.0.1",
+  						"launch_game_instance": true,
+  						"launch_scene": false
+  					}
+  				],
+  				"configurationSnippets": [
+  					{
+  						"label": "Godot Debug: Launch",
+  						"description": "A new configuration for debugging a Godot project.",
+  						"body": {
+  							"type": "godot",
+  							"request": "launch",
+  							"project": "${workspaceFolder}",
+  							"port": 6007,
+  							"address": "127.0.0.1",
+  							"launch_game_instance": true,
+  							"launch_scene": false
+  						}
+  					}
+  				]
+  			}
+  		],
+  		"breakpoints": [
+  			{
+  				"language": "gdscript"
+  			}
+  		],
+  		"views": {
+  			"debug": [
+  				{
+  					"id": "active-scene-tree",
+  					"name": "Active Scene Tree",
+  					"when": "inDebugMode && debugType == 'godot'"
+  				},
+  				{
+  					"id": "inspect-node",
+  					"name": "Inspector",
+  					"when": "inDebugMode && debugType == 'godot'"
+  				}
+  			]
+  		},
+  		"menus": {
+  			"view/title": [
+  				{
+  					"command": "godot-tool.debugger.refresh_scene_tree",
+  					"when": "view == active-scene-tree",
+  					"group": "navigation"
+  				},
+  				{
+  					"command": "godot-tool.debugger.refresh_inspector",
+  					"when": "view == inspect-node",
+  					"group": "navigation"
+  				}
+  			],
+  			"view/item/context": [
+  				{
+  					"command": "godot-tool.debugger.inspect_node",
+  					"when": "view == active-scene-tree",
+  					"group": "inline"
+  				},
+  				{
+  					"command": "godot-tool.debugger.inspect_node",
+  					"when": "view == inspect-node && viewItem == remote_object",
+  					"group": "inline"
+  				},
+  				{
+  					"command": "godot-tool.debugger.edit_value",
+  					"when": "view == inspect-node && viewItem == editable_value",
+  					"group": "inline"
+  				}
+  			]
+  		}
+  	},
+  	"devDependencies": {
+  		"@types/marked": "^0.6.5",
+  		"@types/mocha": "^2.2.42",
+  		"@types/node": "^10.12.21",
+  		"@types/prismjs": "^1.16.0",
+  		"@types/vscode": "^1.33.0",
+  		"@types/ws": "^6.0.1",
+  		"tslint": "^5.16.0",
+  		"typescript": "^3.5.1"
+  	},
+  	"dependencies": {
+  		"await-notify": "^1.0.1",
+  		"global": "^4.4.0",
+  		"marked": "^0.7.0",
+  		"net": "^1.0.2",
+  		"terminate": "^2.1.2",
+  		"vscode-debugadapter": "^1.38.0",
+  		"vscode-languageclient": "^5.2.1",
+  		"ws": "^7.0.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  # THIS IS AN AUTOGENERATED FILE. DO NOT EDIT THIS FILE DIRECTLY.
+  # yarn lockfile v1
+  
+  
+  "@babel/code-frame@^7.0.0":
+    version "7.8.3"
+    resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
+    integrity sha1-M+JZA9dIEYFTThLsCiXxa2/PQZ4=
+    dependencies:
+      "@babel/highlight" "^7.8.3"
+  
+  "@babel/helper-validator-identifier@^7.9.0":
+    version "7.9.5"
+    resolved "https://registry.npm.taobao.org/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.9.5.tgz#90977a8e6fbf6b431a7dc31752eee233bf052d80"
+    integrity sha1-kJd6jm+/a0MafcMXUu7iM78FLYA=
+  
+  "@babel/highlight@^7.8.3":
+    version "7.9.0"
+    resolved "https://registry.npm.taobao.org/@babel/highlight/download/@babel/highlight-7.9.0.tgz?cache=0&sync_timestamp=1584746125589&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fhighlight%2Fdownload%2F%40babel%2Fhighlight-7.9.0.tgz#4e9b45ccb82b79607271b2979ad82c7b68163079"
+    integrity sha1-TptFzLgreWBycbKXmtgse2gWMHk=
+    dependencies:
+      "@babel/helper-validator-identifier" "^7.9.0"
+      chalk "^2.0.0"
+      js-tokens "^4.0.0"
+  
+  "@types/marked@^0.6.5":
+    version "0.6.5"
+    resolved "https://registry.npm.taobao.org/@types/marked/download/@types/marked-0.6.5.tgz#3cf2a56ef615dad24aaf99784ef90a9eba4e29d8"
+    integrity sha1-PPKlbvYV2tJKr5l4TvkKnrpOKdg=
+  
+  "@types/mocha@^2.2.42":
+    version "2.2.48"
+    resolved "https://registry.npm.taobao.org/@types/mocha/download/@types/mocha-2.2.48.tgz#3523b126a0b049482e1c3c11877460f76622ffab"
+    integrity sha1-NSOxJqCwSUguHDwRh3Rg92Yi/6s=
+  
+  "@types/node@*":
+    version "14.0.1"
+    resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.0.1.tgz?cache=0&sync_timestamp=1589330215205&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.0.1.tgz#5d93e0a099cd0acd5ef3d5bde3c086e1f49ff68c"
+    integrity sha1-XZPgoJnNCs1e89W948CG4fSf9ow=
+  
+  "@types/node@^10.12.21":
+    version "10.17.21"
+    resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-10.17.21.tgz?cache=0&sync_timestamp=1589330215205&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-10.17.21.tgz#c00e9603399126925806bed2d9a1e37da506965e"
+    integrity sha1-wA6WAzmRJpJYBr7S2aHjfaUGll4=
+  
+  "@types/prismjs@^1.16.0":
+    version "1.16.0"
+    resolved "https://registry.npm.taobao.org/@types/prismjs/download/@types/prismjs-1.16.0.tgz#4328c9f65698e59f4feade8f4e5d928c748fd643"
+    integrity sha1-QyjJ9laY5Z9P6t6PTl2SjHSP1kM=
+  
+  "@types/vscode@^1.33.0":
+    version "1.45.0"
+    resolved "https://registry.npm.taobao.org/@types/vscode/download/@types/vscode-1.45.0.tgz#8a07e740aa1ca7264da8cb17be87b733836d6c01"
+    integrity sha1-igfnQKocpyZNqMsXvoe3M4NtbAE=
+  
+  "@types/ws@^6.0.1":
+    version "6.0.4"
+    resolved "https://registry.npm.taobao.org/@types/ws/download/@types/ws-6.0.4.tgz?cache=0&sync_timestamp=1588203761110&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fws%2Fdownload%2F%40types%2Fws-6.0.4.tgz#7797707c8acce8f76d8c34b370d4645b70421ff1"
+    integrity sha1-d5dwfIrM6PdtjDSzcNRkW3BCH/E=
+    dependencies:
+      "@types/node" "*"
+  
+  ansi-styles@^3.2.1:
+    version "3.2.1"
+    resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
+    integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
+    dependencies:
+      color-convert "^1.9.0"
+  
+  argparse@^1.0.7:
+    version "1.0.10"
+    resolved "https://registry.npm.taobao.org/argparse/download/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+    integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
+    dependencies:
+      sprintf-js "~1.0.2"
+  
+  await-notify@^1.0.1:
+    version "1.0.1"
+    resolved "https://registry.npm.taobao.org/await-notify/download/await-notify-1.0.1.tgz#0b48133b22e524181e11557665185f2a2f3ce47c"
+    integrity sha1-C0gTOyLlJBgeEVV2ZRhfKi885Hw=
+  
+  balanced-match@^1.0.0:
+    version "1.0.0"
+    resolved "https://registry.npm.taobao.org/balanced-match/download/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
+    integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+  
+  brace-expansion@^1.1.7:
+    version "1.1.11"
+    resolved "https://registry.npm.taobao.org/brace-expansion/download/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
+    integrity sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=
+    dependencies:
+      balanced-match "^1.0.0"
+      concat-map "0.0.1"
+  
+  builtin-modules@^1.1.1:
+    version "1.1.1"
+    resolved "https://registry.npm.taobao.org/builtin-modules/download/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
+    integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
+  
+  chalk@^2.0.0, chalk@^2.3.0:
+    version "2.4.2"
+    resolved "https://registry.npm.taobao.org/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
+    integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
+    dependencies:
+      ansi-styles "^3.2.1"
+      escape-string-regexp "^1.0.5"
+      supports-color "^5.3.0"
+  
+  color-convert@^1.9.0:
+    version "1.9.3"
+    resolved "https://registry.npm.taobao.org/color-convert/download/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
+    integrity sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg=
+    dependencies:
+      color-name "1.1.3"
+  
+  color-name@1.1.3:
+    version "1.1.3"
+    resolved "https://registry.npm.taobao.org/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
+    integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+  
+  commander@^2.12.1:
+    version "2.20.3"
+    resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+    integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+  
+  concat-map@0.0.1:
+    version "0.0.1"
+    resolved "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+    integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  
+  diff@^4.0.1:
+    version "4.0.2"
+    resolved "https://registry.npm.taobao.org/diff/download/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
+    integrity sha1-YPOuy4nV+uUgwRqhnvwruYKq3n0=
+  
+  dom-walk@^0.1.0:
+    version "0.1.2"
+    resolved "https://registry.npm.taobao.org/dom-walk/download/dom-walk-0.1.2.tgz?cache=0&sync_timestamp=1585903968629&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdom-walk%2Fdownload%2Fdom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
+    integrity sha1-DFSL7wSPTR8qlySQAiNgYNqj/YQ=
+  
+  duplexer@~0.1.1:
+    version "0.1.1"
+    resolved "https://registry.npm.taobao.org/duplexer/download/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
+    integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
+  
+  escape-string-regexp@^1.0.5:
+    version "1.0.5"
+    resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz?cache=0&sync_timestamp=1587627212242&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+    integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+  
+  esprima@^4.0.0:
+    version "4.0.1"
+    resolved "https://registry.npm.taobao.org/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+    integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
+  
+  event-stream@=3.3.4:
+    version "3.3.4"
+    resolved "https://registry.npm.taobao.org/event-stream/download/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
+    integrity sha1-SrTJoPWlTbkzi0w02Gv86PSzVXE=
+    dependencies:
+      duplexer "~0.1.1"
+      from "~0"
+      map-stream "~0.1.0"
+      pause-stream "0.0.11"
+      split "0.3"
+      stream-combiner "~0.0.4"
+      through "~2.3.1"
+  
+  from@~0:
+    version "0.1.7"
+    resolved "https://registry.npm.taobao.org/from/download/from-0.1.7.tgz#83c60afc58b9c56997007ed1a768b3ab303a44fe"
+    integrity sha1-g8YK/Fi5xWmXAH7Rp2izqzA6RP4=
+  
+  fs.realpath@^1.0.0:
+    version "1.0.0"
+    resolved "https://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+    integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+  
+  glob@^7.1.1:
+    version "7.1.6"
+    resolved "https://registry.npm.taobao.org/glob/download/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
+    integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
+    dependencies:
+      fs.realpath "^1.0.0"
+      inflight "^1.0.4"
+      inherits "2"
+      minimatch "^3.0.4"
+      once "^1.3.0"
+      path-is-absolute "^1.0.0"
+  
+  global@^4.4.0:
+    version "4.4.0"
+    resolved "https://registry.npm.taobao.org/global/download/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+    integrity sha1-PnsQUXkAajI+1xqvyj6cV6XMZAY=
+    dependencies:
+      min-document "^2.19.0"
+      process "^0.11.10"
+  
+  has-flag@^3.0.0:
+    version "3.0.0"
+    resolved "https://registry.npm.taobao.org/has-flag/download/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
+    integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+  
+  inflight@^1.0.4:
+    version "1.0.6"
+    resolved "https://registry.npm.taobao.org/inflight/download/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
+    integrity sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+    dependencies:
+      once "^1.3.0"
+      wrappy "1"
+  
+  inherits@2:
+    version "2.0.4"
+    resolved "https://registry.npm.taobao.org/inherits/download/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+    integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+  
+  js-tokens@^4.0.0:
+    version "4.0.0"
+    resolved "https://registry.npm.taobao.org/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+    integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+  
+  js-yaml@^3.13.1:
+    version "3.13.1"
+    resolved "https://registry.npm.taobao.org/js-yaml/download/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+    integrity sha1-r/FRswv9+o5J4F2iLnQV6d+jeEc=
+    dependencies:
+      argparse "^1.0.7"
+      esprima "^4.0.0"
+  
+  map-stream@~0.1.0:
+    version "0.1.0"
+    resolved "https://registry.npm.taobao.org/map-stream/download/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
+    integrity sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=
+  
+  marked@^0.7.0:
+    version "0.7.0"
+    resolved "https://registry.npm.taobao.org/marked/download/marked-0.7.0.tgz?cache=0&sync_timestamp=1587431610388&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmarked%2Fdownload%2Fmarked-0.7.0.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
+    integrity sha1-tkIB8FHScbHtwQoE0a6bdLuOXA4=
+  
+  min-document@^2.19.0:
+    version "2.19.0"
+    resolved "https://registry.npm.taobao.org/min-document/download/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+    integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+    dependencies:
+      dom-walk "^0.1.0"
+  
+  minimatch@^3.0.4:
+    version "3.0.4"
+    resolved "https://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+    integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
+    dependencies:
+      brace-expansion "^1.1.7"
+  
+  minimist@^1.2.5:
+    version "1.2.5"
+    resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz?cache=0&sync_timestamp=1584051606680&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+    integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  
+  mkdirp@^0.5.1:
+    version "0.5.5"
+    resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.5.tgz?cache=0&sync_timestamp=1587535418745&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmkdirp%2Fdownload%2Fmkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
+    integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
+    dependencies:
+      minimist "^1.2.5"
+  
+  net@^1.0.2:
+    version "1.0.2"
+    resolved "https://registry.npm.taobao.org/net/download/net-1.0.2.tgz#d1757ec9a7fb2371d83cf4755ce3e27e10829388"
+    integrity sha1-0XV+yaf7I3HYPPR1XOPifhCCk4g=
+  
+  once@^1.3.0:
+    version "1.4.0"
+    resolved "https://registry.npm.taobao.org/once/download/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+    integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+    dependencies:
+      wrappy "1"
+  
+  path-is-absolute@^1.0.0:
+    version "1.0.1"
+    resolved "https://registry.npm.taobao.org/path-is-absolute/download/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+    integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  
+  path-parse@^1.0.6:
+    version "1.0.6"
+    resolved "https://registry.npm.taobao.org/path-parse/download/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+    integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+  
+  pause-stream@0.0.11:
+    version "0.0.11"
+    resolved "https://registry.npm.taobao.org/pause-stream/download/pause-stream-0.0.11.tgz#fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445"
+    integrity sha1-/lo0sMvOErWqaitAPuLnO2AvFEU=
+    dependencies:
+      through "~2.3"
+  
+  process@^0.11.10:
+    version "0.11.10"
+    resolved "https://registry.npm.taobao.org/process/download/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+    integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+  
+  ps-tree@^1.1.1:
+    version "1.2.0"
+    resolved "https://registry.npm.taobao.org/ps-tree/download/ps-tree-1.2.0.tgz#5e7425b89508736cdd4f2224d028f7bb3f722ebd"
+    integrity sha1-XnQluJUIc2zdTyIk0Cj3uz9yLr0=
+    dependencies:
+      event-stream "=3.3.4"
+  
+  resolve@^1.3.2:
+    version "1.17.0"
+    resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
+    integrity sha1-sllBtUloIxzC0bt2p5y38sC/hEQ=
+    dependencies:
+      path-parse "^1.0.6"
+  
+  semver@^5.3.0, semver@^5.5.0:
+    version "5.7.1"
+    resolved "https://registry.npm.taobao.org/semver/download/semver-5.7.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
+    integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
+  
+  split@0.3:
+    version "0.3.3"
+    resolved "https://registry.npm.taobao.org/split/download/split-0.3.3.tgz#cd0eea5e63a211dfff7eb0f091c4133e2d0dd28f"
+    integrity sha1-zQ7qXmOiEd//frDwkcQTPi0N0o8=
+    dependencies:
+      through "2"
+  
+  sprintf-js@~1.0.2:
+    version "1.0.3"
+    resolved "https://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+    integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+  
+  stream-combiner@~0.0.4:
+    version "0.0.4"
+    resolved "https://registry.npm.taobao.org/stream-combiner/download/stream-combiner-0.0.4.tgz#4d5e433c185261dde623ca3f44c586bcf5c4ad14"
+    integrity sha1-TV5DPBhSYd3mI8o/RMWGvPXErRQ=
+    dependencies:
+      duplexer "~0.1.1"
+  
+  supports-color@^5.3.0:
+    version "5.5.0"
+    resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
+    integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
+    dependencies:
+      has-flag "^3.0.0"
+  
+  terminate@^2.1.2:
+    version "2.1.2"
+    resolved "https://registry.npm.taobao.org/terminate/download/terminate-2.1.2.tgz#3c78b9dc7559cb66af215c622cce906d415e2ef9"
+    integrity sha1-PHi53HVZy2avIVxiLM6QbUFeLvk=
+    dependencies:
+      ps-tree "^1.1.1"
+  
+  through@2, through@~2.3, through@~2.3.1:
+    version "2.3.8"
+    resolved "https://registry.npm.taobao.org/through/download/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+    integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+  
+  tslib@^1.8.0, tslib@^1.8.1:
+    version "1.12.0"
+    resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.12.0.tgz#d1fc9cacd06a1456c62f2902b361573e83d66473"
+    integrity sha1-0fycrNBqFFbGLykCs2FXPoPWZHM=
+  
+  tslint@^5.16.0:
+    version "5.20.1"
+    resolved "https://registry.npm.taobao.org/tslint/download/tslint-5.20.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslint%2Fdownload%2Ftslint-5.20.1.tgz#e401e8aeda0152bc44dd07e614034f3f80c67b7d"
+    integrity sha1-5AHortoBUrxE3QfmFANPP4DGe30=
+    dependencies:
+      "@babel/code-frame" "^7.0.0"
+      builtin-modules "^1.1.1"
+      chalk "^2.3.0"
+      commander "^2.12.1"
+      diff "^4.0.1"
+      glob "^7.1.1"
+      js-yaml "^3.13.1"
+      minimatch "^3.0.4"
+      mkdirp "^0.5.1"
+      resolve "^1.3.2"
+      semver "^5.3.0"
+      tslib "^1.8.0"
+      tsutils "^2.29.0"
+  
+  tsutils@^2.29.0:
+    version "2.29.0"
+    resolved "https://registry.npm.taobao.org/tsutils/download/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
+    integrity sha1-MrSIUBRnrL7dS4VJhnOggSrKC5k=
+    dependencies:
+      tslib "^1.8.1"
+  
+  typescript@^3.5.1:
+    version "3.9.2"
+    resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.9.2.tgz?cache=0&sync_timestamp=1589326967636&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-3.9.2.tgz#64e9c8e9be6ea583c54607677dd4680a1cf35db9"
+    integrity sha1-ZOnI6b5upYPFRgdnfdRoChzzXbk=
+  
+  vscode-debugadapter@^1.38.0:
+    version "1.40.0"
+    resolved "https://registry.npm.taobao.org/vscode-debugadapter/download/vscode-debugadapter-1.40.0.tgz#a5f2050601979913b289706e49dc58a95b7b1ae5"
+    integrity sha1-pfIFBgGXmROyiXBuSdxYqVt7GuU=
+    dependencies:
+      mkdirp "^0.5.1"
+      vscode-debugprotocol "1.40.0"
+  
+  vscode-debugprotocol@1.40.0:
+    version "1.40.0"
+    resolved "https://registry.npm.taobao.org/vscode-debugprotocol/download/vscode-debugprotocol-1.40.0.tgz#63e1f670a6f5c4928f3f91b27b259a21c4db7861"
+    integrity sha1-Y+H2cKb1xJKPP5GyeyWaIcTbeGE=
+  
+  vscode-jsonrpc@^4.0.0:
+    version "4.0.0"
+    resolved "https://registry.npm.taobao.org/vscode-jsonrpc/download/vscode-jsonrpc-4.0.0.tgz?cache=0&sync_timestamp=1584962852669&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvscode-jsonrpc%2Fdownload%2Fvscode-jsonrpc-4.0.0.tgz#a7bf74ef3254d0a0c272fab15c82128e378b3be9"
+    integrity sha1-p7907zJU0KDCcvqxXIISjjeLO+k=
+  
+  vscode-languageclient@^5.2.1:
+    version "5.2.1"
+    resolved "https://registry.npm.taobao.org/vscode-languageclient/download/vscode-languageclient-5.2.1.tgz#7cfc83a294c409f58cfa2b910a8cfeaad0397193"
+    integrity sha1-fPyDopTECfWM+iuRCoz+qtA5cZM=
+    dependencies:
+      semver "^5.5.0"
+      vscode-languageserver-protocol "3.14.1"
+  
+  vscode-languageserver-protocol@3.14.1:
+    version "3.14.1"
+    resolved "https://registry.npm.taobao.org/vscode-languageserver-protocol/download/vscode-languageserver-protocol-3.14.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvscode-languageserver-protocol%2Fdownload%2Fvscode-languageserver-protocol-3.14.1.tgz#b8aab6afae2849c84a8983d39a1cf742417afe2f"
+    integrity sha1-uKq2r64oSchKiYPTmhz3QkF6/i8=
+    dependencies:
+      vscode-jsonrpc "^4.0.0"
+      vscode-languageserver-types "3.14.0"
+  
+  vscode-languageserver-types@3.14.0:
+    version "3.14.0"
+    resolved "https://registry.npm.taobao.org/vscode-languageserver-types/download/vscode-languageserver-types-3.14.0.tgz#d3b5952246d30e5241592b6dde8280e03942e743"
+    integrity sha1-07WVIkbTDlJBWStt3oKA4DlC50M=
+  
+  wrappy@1:
+    version "1.0.2"
+    resolved "https://registry.npm.taobao.org/wrappy/download/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+    integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+  
+  ws@^7.0.0:
+    version "7.3.0"
+    resolved "https://registry.npm.taobao.org/ws/download/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
+    integrity sha1-Sy9/IZs9Nze8Gi+/FF2CW5TTj/0=

@@ -1,0 +1,83 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Src/Frontend/content creation/Rows/Optionbox/button.gd" type="Script" id=5]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.223529, 0.219608, 0.219608, 0.721569 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+outline_color = Color( 0.603922, 0.129412, 0.129412, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.0235294, 0.631373, 0.615686, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 15
+font_data = ExtResource( 3 )
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 0, 64 )
+script = ExtResource( 5 )
+
+[node name="separator" type="Panel" parent="."]
+margin_top = 54.0
+margin_right = 1704.0
+margin_bottom = 59.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameRTL" type="RichTextLabel" parent="."]
+margin_left = 8.0
+margin_right = 304.0
+margin_bottom = 24.0
+custom_fonts/normal_font = ExtResource( 4 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="descriptionRTL" type="RichTextLabel" parent="."]
+margin_left = 1136.0
+margin_right = 1912.0
+margin_bottom = 24.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="typeRTL" type="RichTextLabel" parent="."]
+margin_left = 296.0
+margin_right = 448.0
+margin_bottom = 24.0
+custom_fonts/normal_font = ExtResource( 4 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="Button" parent="."]
+margin_left = 420.0
+margin_right = 552.0
+margin_bottom = 22.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Click Me"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_up" from="input" to="." method="_on_input_button_up"]

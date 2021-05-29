@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Media/presets/defualtEffectnput.tres" type="StyleBox" id=1]
+[ext_resource path="res://Src/Frontend/content creation/Input/Inputmodules effect/TextRTL/EffectRTLScript.gd" type="Script" id=2]
+[ext_resource path="res://Media/presets/formEffectDefualt.tres" type="DynamicFont" id=3]
+
+[node name="TextInput" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 190.0
+margin_top = 4.0
+margin_right = 478.0
+margin_bottom = 44.0
+custom_styles/panel = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input2" type="RichTextLabel" parent="Panel"]
+margin_left = 12.0
+margin_right = 284.0
+margin_bottom = 40.0
+custom_fonts/normal_font = ExtResource( 3 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+meta_underlined = false
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

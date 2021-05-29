@@ -1,0 +1,591 @@
+[
+	{
+		"suggestion": "something offensive or hyperbolic,best case both",
+		"description": "is shown to the player in things like mousehover or onlook-action",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "lore-description",
+		"componentName": "C_0_ANY_DESCRIPTION"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds if an Actor can walk on this tile",
+		"validInputs": [
+			"true",
+			"false"
+		],
+		"validType": "validInputs",
+		"nameToShow": "Walkable",
+		"componentName": "C_1_ANY_IS_WALKABLE"
+	},
+	{
+		"suggestion": "*tilesetname*_*rownumber*_*collumnumber*",
+		"description": "Name of the Texture to be shown",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Texture-ID",
+		"componentName": "C_2_ANY_TEXTURE_ID"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds on which layer the entity is indexed on Map",
+		"validInputs": [
+			"actors",
+			"pc",
+			"Meat ground",
+			"Meat interactables",
+			"Matrix ground",
+			"Matrix interactables",
+			"Magic ground",
+			"Magic interactables",
+			"selection",
+			"condition"
+		],
+		"validType": "validInputs",
+		"nameToShow": "Layer",
+		"componentName": "C_3_ANY_LAYER"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds the handicap for sourronding dice tosses",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Magic Noise",
+		"componentName": "C_4_ANY_MAGIC_NOISE"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds the handicap for sourronding dice tosses",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Matrix Noise",
+		"componentName": "C_5_ANY_MATRIX_NOISE"
+	},
+	{
+		"suggestion": "",
+		"description": "short reference name shown in the most cases",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Name",
+		"componentName": "C_6_TILE_NAME"
+	},
+	{
+		"suggestion": "",
+		"description": "Number of tile in Master-atlas",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "static Tileset Number (do not fill)",
+		"componentName": "C_7_TILE_STATIC_TILESET_NR"
+	},
+	{
+		"suggestion": "",
+		"description": "Health for inanimated Objects",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Structural Healthpoint",
+		"componentName": "C_8_STRUCTURE_HP"
+	},
+	{
+		"suggestion": "",
+		"description": "amount of money",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "credits",
+		"componentName": "C_9_CREDITS_ACCOUNT"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds the handicap for sourronding dice tosses",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "perks",
+		"componentName": "C_10_ACTOR_PERKS"
+	},
+	{
+		"suggestion": "",
+		"description": "determinds basic attributes and relations",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Race",
+		"componentName": "C_11_ACTOR_RACE_NAME"
+	},
+	{
+		"suggestion": "",
+		"description": "Groupname of Role",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Role category",
+		"componentName": "C_13_ACTOR_ROLE_NAME"
+	},
+	{
+		"suggestion": "recommended length 2-3 words",
+		"description": "short name reference",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Specialty name",
+		"componentName": "C_14_ACTOR_SPECIALTY_NAME"
+	},
+	{
+		"suggestion": "",
+		"description": "All Bodypart-template of Race",
+		"validInputs": [
+
+		],
+		"validType": "CONTAINER",
+		"nameToShow": "List of All BOdyparts",
+		"componentName": "C_15_ACTOR_ARRAY_BODYPARTS"
+	},
+	{
+		"suggestion": "",
+		"description": "connected Bodyparts",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "list of linked bodyparts",
+		"componentName": "C_16_ACTOR_BODYPARTS_CONNECTS"
+	},
+	{
+		"suggestion": "",
+		"description": "Bodypart hit %",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "propabillity to get random hit in percent",
+		"componentName": "C_17_ACTOR_BODYPARTS_HITPROBABILLITY"
+	},
+	{
+		"suggestion": "",
+		"description": "Attribute mod",
+		"validInputs": [
+
+		],
+		"validType": "NULL",
+		"nameToShow": "modulacation of C_19, we recommend C_19 for usage",
+		"componentName": "C_18_ACTOR_ATTRIBUTEMOD"
+	},
+	{
+		"suggestion": "",
+		"description": "add modifiers to the biological potential of an Actors",
+		"validInputs": [
+			"Strength:int",
+			"Agillity:int",
+			"Reaction:int",
+			"Constitution:int",
+			"Logic:int",
+			"Intuition:int",
+			"Charisma:int",
+			"Willpower:int"
+		],
+		"validType": "DICTIONARY",
+		"nameToShow": "Attributes",
+		"componentName": "C_19_ACTOR_ATTRIBUTES"
+	},
+	{
+		"suggestion": "",
+		"description": "List of all skills and their values",
+		"validInputs": [
+
+		],
+		"validType": "DICTIONARY",
+		"nameToShow": "Skillblock",
+		"componentName": "C_20_ACTOR_SKILLBLOCK"
+	},
+	{
+		"suggestion": "often the same as C_6, maybe shorter",
+		"description": "often used Reference name",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Name",
+		"componentName": "C_21_TILE_TILENAME"
+	},
+	{
+		"suggestion": "",
+		"description": "max. succeses per dice-role",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Limits",
+		"componentName": "C_22_ACTOR_LIMITS"
+	},
+	{
+		"suggestion": "",
+		"description": "max units actor can carry",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Carriage capacity",
+		"componentName": "C_23_ACTOR_CARRIAGE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "DICTIONARY",
+		"nameToShow": "Indirect Stats",
+		"componentName": "C_26_ACTOR_INDIRECT_STATS"
+	},
+	{
+		"suggestion": "",
+		"description": "choose\traces for prejudices",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "racial enemies",
+		"componentName": "C_27_ACTOR_RACIAL_ENEMIES"
+	},
+	{
+		"suggestion": "yes this is reference",
+		"description": "choose\traces for pride",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "racial friends",
+		"componentName": "C_28_ACTOR_RACIAL_FRIENDS"
+	},
+	{
+		"suggestion": "",
+		"description": "the usual price when its bought",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "listing price",
+		"componentName": "C_29_ANY_LISTING_PRICE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "role description",
+		"componentName": "C_30_ANY_NEEDED_BACKPACK_SLOTS"
+	},
+	{
+		"suggestion": "",
+		"description": "type of kit of the Surv9",
+		"validInputs": [
+			"CYBERWARE",
+			"HACK",
+			"DRONE",
+			"INFUSION",
+			"SPELL",
+			"RITE",
+			"MEELE",
+			"GUN",
+			"ARMOR"
+		],
+		"validType": "STRING",
+		"nameToShow": "kit Category",
+		"componentName": "C_31_KIT_CAT_TYPE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "role description",
+		"componentName": "C_32_ANY_LIST_OF_CONDITIONS"
+	},
+	{
+		"suggestion": "guide value: Rarity*1",
+		"description": "by actions of player",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "cooldown",
+		"componentName": "C_33_KIT_COOLDOWN_TIMER"
+	},
+	{
+		"suggestion": "",
+		"description": "is shown to the player in logs",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "log entry",
+		"componentName": "C_34_ANY_LOG_TO_STRING"
+	},
+	{
+		"suggestion": "about 80 characters at max",
+		"description": "shown as short explaination of usage",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "summary",
+		"componentName": "C_35_KIT_MECHANICAL_SUMMARY"
+	},
+	{
+		"suggestion": "guide value: Rarity*1,5",
+		"description": "number of Panicrooms before its usable",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "setup time",
+		"componentName": "C_36_KIT_MOD_TIME"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+			"MEAT",
+			"MAGIC",
+			"MATRIX"
+		],
+		"validType": "STRING",
+		"nameToShow": "layer of perception",
+		"componentName": "C_37_ANY_M_TYPE"
+	},
+	{
+		"suggestion": "Base: Main definition, Mod: Specialication, Appendix: Side-effect",
+		"description": "place in Kitset",
+		"validInputs": [
+			"BASE",
+			"MOD",
+			"APPENDIX"
+		],
+		"validType": "STRING",
+		"nameToShow": "kit Part",
+		"componentName": "C_38_KIT_PART_TYPE"
+	},
+	{
+		"suggestion": "",
+		"description": "often as same as C_6",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "toString",
+		"componentName": "C_40_ANY_TO_STRING"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "role description",
+		"componentName": "C_42_ROLE_VARIETY"
+	},
+	{
+		"suggestion": "",
+		"description": "Playername",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Playername",
+		"componentName": "C_43_PLAYER_DESCRIPTION"
+	},
+	{
+		"suggestion": "",
+		"description": "unique Title",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Streetname",
+		"componentName": "C_44_PLAYER_STREETNAME"
+	},
+	{
+		"suggestion": "",
+		"description": "Playername",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "Playername",
+		"componentName": "C_45_PLAYER_NAME"
+	},
+	{
+		"suggestion": "",
+		"description": "list of differnt names for this spcialication",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "synonyms",
+		"componentName": "C_47_ANY_SYNONYM"
+	},
+	{
+		"suggestion": "1: Drek, 5: Fixer, 10: R&D-Prototype",
+		"description": "chance to loot on a scale of 1 to 10",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "Rarity",
+		"componentName": "C_48_ANY_RARITY"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "EFFECT",
+		"nameToShow": "Is used to build EffectEntity",
+		"componentName": "C_49_EFFECT_REFERENCE"
+	},
+	{
+		"suggestion": "",
+		"description": "like description a flavor-text",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "role description",
+		"componentName": "C_50_ACTOR_ROLE_DESCRIPTION"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "role description",
+		"componentName": "C_51_PLAYER_KITSETS"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "role description",
+		"componentName": "C_54_ANY_ENTITY_TYPE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "role description",
+		"componentName": "C_56_BASE_CONNECTOR"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "role description",
+		"componentName": "C_58_ALTERNATIVE_TEXTURES"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "ARRAY",
+		"nameToShow": "role description",
+		"componentName": "C_59_KIT_MOD_CHANGE"
+	},
+	{
+		"suggestion": "",
+		"description": "choose the kit to specialice",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "base-kit reference",
+		"componentName": "C_60_BASE_KIT_REFERENCE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "DICTIONARY",
+		"nameToShow": "role description",
+		"componentName": "C_61_LOOT_TABLE"
+	},
+	{
+		"suggestion": "",
+		"description": "name of its fightingstyle",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "role description",
+		"componentName": "C_62_LOOT_STATE"
+	},
+	{
+		"suggestion": "",
+		"description": "makes it able to spread fire",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "burnable",
+		"componentName": "C_63_APPLY_CONDITION_SPREADING"
+	},
+	{
+		"suggestion": "",
+		"description": "applies condition when walking on tile",
+		"validInputs": [
+
+		],
+		"validType": "STRING",
+		"nameToShow": "condition by walking",
+		"componentName": "C_64_APPLY_CONDITION_WALKING"
+	},
+	{
+		"suggestion": "on a scale of 1 to 10",
+		"description": "quality of Item",
+		"validInputs": [
+
+		],
+		"validType": "INTEGER",
+		"nameToShow": "tier",
+		"componentName": "C_65_TIER"
+	}
+]

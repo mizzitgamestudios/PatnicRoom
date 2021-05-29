@@ -1,0 +1,302 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Src/Frontend/content creation/Forms/Effect/timeslotsManager.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.192157, 0.65098, 0.65098, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.192157, 0.372549, 0.65098, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.25098, 0.192157, 0.65098, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.027451, 0.396078, 0.556863, 0.639216 )
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0, 0, 0, 0.639216 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.133333, 0.584314, 0.658824, 1 )
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.0980392, 0.152941, 0.670588, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.521569, 0.470588, 0.0705882, 1 )
+
+[node name="Effect" type="Node2D"]
+position = Vector2( 0, -8 )
+script = ExtResource( 3 )
+
+[node name="Area" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="space" type="Panel" parent="Area"]
+margin_left = 16.0
+margin_top = 568.0
+margin_right = 320.0
+margin_bottom = 968.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Area/space"]
+margin_top = 360.0
+margin_right = 304.0
+margin_bottom = 400.0
+custom_fonts/normal_font = SubResource( 2 )
+custom_colors/font_color_shadow = Color( 1, 0, 0.701961, 1 )
+custom_constants/shadow_offset_x = 5
+bbcode_enabled = true
+bbcode_text = "[center] SPACE [/center]"
+text = " SPACE "
+scroll_active = false
+
+[node name="trigger" type="Panel" parent="Area"]
+margin_left = 382.0
+margin_top = 568.0
+margin_right = 896.0
+margin_bottom = 968.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Area/trigger"]
+margin_top = 360.0
+margin_right = 514.0
+margin_bottom = 400.0
+custom_fonts/normal_font = SubResource( 2 )
+custom_colors/font_color_shadow = Color( 1, 0, 0.701961, 1 )
+custom_constants/shadow_offset_x = 5
+bbcode_enabled = true
+bbcode_text = "[center]TRIGGER [/center]"
+text = "TRIGGER "
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="effect" type="Panel" parent="Area"]
+margin_left = 944.0
+margin_top = 568.0
+margin_right = 1464.0
+margin_bottom = 968.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Area/effect"]
+margin_top = 360.0
+margin_right = 520.0
+margin_bottom = 400.0
+custom_fonts/normal_font = SubResource( 2 )
+custom_colors/font_color_shadow = Color( 1, 0, 0.701961, 1 )
+custom_constants/shadow_offset_x = 5
+bbcode_enabled = true
+bbcode_text = "[center] EFFECT[/center]"
+text = " EFFECT"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Frame" type="Panel" parent="Area"]
+margin_left = -8.0
+margin_top = 488.0
+margin_right = 1504.0
+margin_bottom = 984.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Navbar" type="Panel" parent="Area"]
+margin_top = 504.0
+margin_right = 1504.0
+margin_bottom = 560.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="timeslots" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0" type="Control" parent="timeslots"]
+margin_left = 68.0
+margin_top = 512.0
+margin_right = 108.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="timeslots/0"]
+margin_right = 184.0
+margin_bottom = 40.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckButton" type="CheckButton" parent="timeslots/0"]
+margin_right = 184.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 2 )
+text = "SPAWN-TIME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Control" parent="timeslots"]
+margin_left = 324.0
+margin_top = 512.0
+margin_right = 364.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="timeslots/1"]
+margin_right = 184.0
+margin_bottom = 40.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckButton" type="CheckButton" parent="timeslots/1"]
+margin_right = 184.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 2 )
+text = "ONSET-TIME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Control" parent="timeslots"]
+margin_left = 581.0
+margin_top = 512.0
+margin_right = 621.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="timeslots/2"]
+margin_right = 195.0
+margin_bottom = 40.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckButton" type="CheckButton" parent="timeslots/2"]
+margin_right = 195.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 2 )
+text = "EFFECT-TIME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Control" parent="timeslots"]
+margin_left = 836.0
+margin_top = 512.0
+margin_right = 876.0
+margin_bottom = 552.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="timeslots/3"]
+margin_right = 188.0
+margin_bottom = 40.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckButton" type="CheckButton" parent="timeslots/3"]
+margin_right = 190.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 2 )
+text = "OFFSET-TIME"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="clear" type="Button" parent="timeslots"]
+margin_left = 1232.0
+margin_top = 512.0
+margin_right = 1408.0
+margin_bottom = 552.0
+custom_styles/normal = SubResource( 8 )
+custom_fonts/font = ExtResource( 2 )
+text = "DELETE OPEN SLOT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="timeslots/0/CheckButton" to="." method="openSpawn"]
+[connection signal="pressed" from="timeslots/1/CheckButton" to="." method="openOnset"]
+[connection signal="pressed" from="timeslots/2/CheckButton" to="timeslots" method="openEffect"]
+[connection signal="pressed" from="timeslots/2/CheckButton" to="." method="openEffect"]
+[connection signal="pressed" from="timeslots/3/CheckButton" to="." method="openOffset"]

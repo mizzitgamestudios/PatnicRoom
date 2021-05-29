@@ -1,0 +1,137 @@
+{
+	"name": "unibeautify-vscode",
+	"displayName": "Unibeautify - Universal Formatter",
+	"version": "0.8.2",
+	"description": "Unibeautify (Universal Code Formatter) for Visual Studio Code",
+	"preview": true,
+	"main": "index.js",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#ffe04b",
+		"theme": "light"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"scripts": {
+		"vscode:prepublish": "npm run build && npm run update-readme",
+		"test": "cross-env CODE_TESTS_WORKSPACE=testProject CODE_TESTS_PATH=${INIT_CWD}/out/test/test-runner node ./node_modules/vscode/bin/test",
+		"build": "npm run clean && tsc",
+		"dev": "npm run clean && tsc --watch",
+		"clean": "rimraf out/",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"update-readme": "node out/scripts/update-readme",
+		"lint": "tslint -c tslint.json --format verbose 'src/**/*.ts'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Unibeautify/vscode.git"
+	},
+	"keywords": [
+		"beautify",
+		"beautifier",
+		"format",
+		"format code",
+		"formatter",
+		"code formatter",
+		"pretty",
+		"prettify",
+		"unibeautify"
+	],
+	"categories": [
+		"Formatters"
+	],
+	"author": {
+		"name": "Glavin Wiechert",
+		"email": "glavin.wiechert@gmail.com"
+	},
+	"publisher": "Glavin001",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Unibeautify/vscode/issues"
+	},
+	"homepage": "https://github.com/Unibeautify/vscode#readme",
+	"badges": [
+		{
+			"url": "https://badges.greenkeeper.io/Unibeautify/vscode.svg",
+			"href": "https://greenkeeper.io/",
+			"description": "Greenkeeper"
+		},
+		{
+			"url": "https://travis-ci.com/Unibeautify/vscode.svg?branch=master",
+			"href": "https://travis-ci.com/Unibeautify/vscode",
+			"description": "Continuous integration (Travis)"
+		}
+	],
+	"engines": {
+		"vscode": "^1.6.0"
+	},
+	"devDependencies": {
+		"@types/cosmiconfig": "5.0.3",
+		"@types/diff": "4.0.2",
+		"@types/jest": "24.9.1",
+		"@types/lodash": "4.14.150",
+		"@types/node": "12.12.21",
+		"@types/source-map-support": "0.5.1",
+		"cross-env": "6.0.3",
+		"jest": "24.9.0",
+		"jest-environment-node": "24.9.0",
+		"rimraf": "3.0.2",
+		"source-map-support": "0.5.19",
+		"ts-jest": "24.3.0",
+		"tslint-clean-code": "0.2.10",
+		"tslint-microsoft-contrib": "6.2.0",
+		"vscode": "1.1.37"
+	},
+	"dependencies": {
+		"@unibeautify/beautifier-black": "^0.1.1",
+		"@unibeautify/beautifier-clang-format": "^0.2.0",
+		"@unibeautify/beautifier-csscomb": "^0.1.0",
+		"@unibeautify/beautifier-eslint": "^0.6.0",
+		"@unibeautify/beautifier-gofmt": "^0.1.0",
+		"@unibeautify/beautifier-js-beautify": "^0.4.0",
+		"@unibeautify/beautifier-php-codesniffer": "^0.1.1",
+		"@unibeautify/beautifier-php-cs-fixer": "^0.4.0",
+		"@unibeautify/beautifier-prettier": "^0.9.0",
+		"@unibeautify/beautifier-prettydiff": "^0.6.0",
+		"@unibeautify/beautifier-sqlformat": "^0.0.1",
+		"@unibeautify/beautifier-stylelint": "0.0.1",
+		"@unibeautify/beautifier-tslint": "^0.1.0",
+		"@unibeautify/beautifier-yapf": "^0.3.0",
+		"cosmiconfig": "^5.2.1",
+		"csscomb": "^4.3.0",
+		"diff": "^4.0.0",
+		"eslint": "^4.19.1",
+		"js-beautify": "^1.10.2",
+		"prettier": "^1.18.2",
+		"prettydiff2": "^2.2.8",
+		"stylelint": "^9.7.1",
+		"tslint": "^5.20.1",
+		"typescript": "3.8.3",
+		"unibeautify": "^0.17.0"
+	},
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Unibeautify Configuration",
+			"properties": {
+				"unibeautify.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable/disable Unibeautify formatter"
+				},
+				"unibeautify.defaultConfig": {
+					"type": "string",
+					"default": null,
+					"description": "The absolute path to a fallback configuration file, when Unibeautify doesn‘t find a .unibeautifyrc in your workspace directory."
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "e4bd808e-248b-47ba-8bab-48b1f8c35ebc",
+		"publisherId": "34268abb-adce-4192-ab0e-c43993f5ba88",
+		"publisherDisplayName": "Glavin Wiechert",
+		"installedTimestamp": 1621036234195
+	}
+}

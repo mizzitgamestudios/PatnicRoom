@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "unibeautify.enabled": true,
+    "prettier.disableLanguages": [
+        "css",
+        "html",
+        "javascript",
+        "jsx",
+        "vue",
+        "typescript"
+    ],
+    "files.associations": {
+        "*.myphp": "php"
+    },
+    "unibeautify.defaultConfig": null
+}

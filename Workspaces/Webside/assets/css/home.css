@@ -1,0 +1,12 @@
+.grid-container {
+    align: center;
+	display: grid;
+	grid-template-rows: 200px 200px;
+	grid-template-columns: 200px 200px 200px;
+	grid-gap: 5px;
+   
+}
+.grid-container .grid-item1{
+    background-color: tomato;
+}
+

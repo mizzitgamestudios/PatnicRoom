@@ -1,0 +1,33 @@
+{
+    "mandatory to fill out" : [
+        "C_6_TILE_NAME",
+        "C_0_ANY_DESCRIPTION",
+        "C_47_ANY_SYNONYM",
+    
+        "C_19_ACTOR_ATTRIBUTES",
+        "C_20_ACTOR_SKILLBLOCK"
+    ],
+
+    "flags to add" : [
+        "F_10_ACTOR_ATTRIBUTES_ROLES"
+        ,"F_6_ACTOR_ATTRIBUTES"
+    ],
+
+    "mirrored values" : {
+        "C_40_ANY_TO_STRING" : "C_6_TILE_NAME"
+    },
+
+    "static values":{
+
+    },
+
+    "dynamic values" : [
+
+    ],
+
+    "filename prefix" : "[ACTOR] [ROLE] ",
+
+    "entity with effect": false
+
+  }
+  

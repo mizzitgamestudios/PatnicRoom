@@ -1,0 +1,14 @@
+{
+  "SLIDER"     : "res://Src/Frontend/content creation/Input/InputModules universal/Slider/sliderScene.tscn",
+  "TEXT"       : "res://Src/Frontend/content creation/Input/InputModules universal/RTL/RTLScene.tscn",
+
+  "OPTION_BOX" : "res://Src/Frontend/content creation/Input/InputModules universal/Morphbox/OptionboxScene.tscn",
+  "DICTIONARY" : "res://Src/Frontend/content creation/Input/InputModules universal/dictionary/Dictionary.tscn",
+
+  "COMPARATOR" : "res://Src/Frontend/content creation/Input/InputModules universal/Comparator/ComparatorScene.tscn",
+  "TEXTURE"    : "res://Src/Frontend/content creation/Input/InputModules universal/Texture/TextureScene.tscn",
+  "CONDITION"  : "res://Src/Frontend/content creation/Input/InputModules universal/Condition/Condition.tscn"
+
+
+
+}

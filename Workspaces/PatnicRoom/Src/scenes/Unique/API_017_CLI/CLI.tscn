@@ -1,0 +1,229 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Src/scenes/Unique/API_017_CLI/TextInputField.gd" type="Script" id=1]
+[ext_resource path="res://Media/FixedDays Font/Text_Default.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Src/scenes/Unique/API_017_CLI/RichTextLabel.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.172549, 0.164706, 0.164706, 0.933333 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0, 0, 0, 0.988235 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="panel" type="Panel" parent="."]
+margin_right = 1936.0
+margin_bottom = 1080.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="toString"]
+visible = false
+margin_left = 1096.0
+margin_top = 128.0
+margin_right = 1856.0
+margin_bottom = 1064.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="toString"]
+margin_left = 48.0
+margin_top = 272.0
+margin_right = 1840.0
+margin_bottom = 1064.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="selection" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cmd" type="Control" parent="selection"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="RichTextLabel" parent="selection/cmd"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "cmd:"
+text = "cmd:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="selection/cmd"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="parameter1" type="Control" parent="selection"]
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+
+[node name="toString" type="RichTextLabel" parent="selection/parameter1"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="selection/parameter1"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="parameter2" type="Control" parent="selection"]
+margin_top = 71.0
+margin_right = 40.0
+margin_bottom = 111.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="RichTextLabel" parent="selection/parameter2"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="selection/parameter2"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="parameter3" type="Control" parent="selection"]
+margin_top = 99.0
+margin_right = 40.0
+margin_bottom = 139.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="RichTextLabel" parent="selection/parameter3"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="selection/parameter3"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Input" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Textfield" type="Panel" parent="Input"]
+margin_left = 1129.0
+margin_top = 71.0
+margin_right = 1608.0
+margin_bottom = 111.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextInputField" type="RichTextLabel" parent="Input/Textfield"]
+margin_left = -1.0
+margin_right = 479.0
+margin_bottom = 40.0
+custom_fonts/normal_font = ExtResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VScrollBar" type="OptionButton" parent="Input"]
+visible = false
+margin_left = 1608.0
+margin_top = 72.0
+margin_right = 1800.0
+margin_bottom = 111.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Input/VScrollBar"]
+margin_top = -32.0
+margin_right = 192.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Suggestions"
+text = "Suggestions"
+__meta__ = {
+"_edit_use_anchors_": false
+}

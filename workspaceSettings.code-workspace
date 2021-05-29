@@ -1,0 +1,356 @@
+{
+	"folders": [ 
+		// vvvv use for Generall
+		 {"path": "."}
+
+		// vvvv use for GODOT Debugging
+		//{"path": "Workspaces/PatnicRoom"},{"path": "Workspaces/GameData"},{"path": "Workspaces/DioJSONes"},{"path": "Workspaces/DevCLI"},{"path": "Workspaces/Webside"},{"path": "docs/docs"} 
+	],
+
+
+	"settings": {
+
+
+			//-----------------\\
+			// ---- GENERALL ---- \\
+			//-----------------------\\
+		"godot_tools.editor_path": "C:/Users/Daniel/Desktop/godot.exe",
+
+		
+			//
+			// Navigation
+			//
+		"explorer.autoReveal": "focusNoScroll",                   // disables search when focus is on fileexplorer,needed for keybindings
+		"workbench.list.automaticKeyboardNavigation": false,      // idk at the moment,needs doku
+
+
+			//
+			// file-types to exclude for showing in Navbar:
+			//
+		"files.exclude": {                              
+		"**/.import"          : true,
+		"**/.addons"          : true,
+		"**/.godot"           : true,
+		"**/.icon.png"        : true,
+		".**/.github"         :	true,
+		"**/.icon.png.import" :	true,
+		"**/.mono"            :	true,
+		},
+		
+
+
+			//
+			// Editor appearence
+			//
+		"editor.links": true,
+		"editor.fontLigatures": true,                   									// enables Ligature
+		"editor.fontSize": 10,                   											// Text size combined with Zoomlevel
+		"editor.inlineHints.fontSize": 20,              									// code suggestion size
+		"workbench.editor.revealIfOpen": true,         						 				// focuses already opened files when clicked again in explorer
+		"editor.tokenColorCustomizations":{"[One Dark Pro]": {"comments": "#fff897"}},    // more visible Comments
+		"window.zoomLevel": 1,
+
+
+		"VSCodeCounter.outputDirectory": "Workspaces/DevCLI/Output/Workspace Stats",
+		"VSCodeCounter.useFilesExclude":true,
+		"VSCodeCounter.exclude": [
+			"**/vendor/**",
+			"**/mkDocs/**",
+			"**/css/main.css",
+			"**/.gitignore",
+			"**/site/**",
+			"**/.vscode/**",
+			"**/Backups/**",
+			"**/node_modules/**",
+			"**/Installer/**",
+			"**/extensions/**",
+			
+			"**/*.*.import",
+
+			"**/*.png",
+			"**/*.svg", 
+			"**/*.jpg" 
+		],
+
+
+
+			//-----------------\\
+			// ---- FOLDER ----- \\
+			//-----------------------\\
+
+			//
+			// custome Icons for folders by vscode-icons,improves distinguishing between diffrent types of modules
+			//
+		"vsicons.associations.folders": [
+			{ "icon": "log", 			"extensions": ["DioJSONes"], 					"format": "FileFormat.svg" },
+			{ "icon": "src", 			"extensions": ["PatnicRoom"], 					"format": "FileFormat.svg" },
+			{ "icon": "view", 			"extensions": ["Webside"], 						"format": "FileFormat.svg" },
+			{ "icon": "db", 			"extensions": ["GameData"], 					"format": "FileFormat.svg" },
+			{ "icon": "helper", 		"extensions": ["DevCLI","cogsmos Framework"], 	"format": "FileFormat.svg" },
+			{ "icon": "github", 		"extensions": ["Meta"], 						"format": "FileFormat.svg" },
+			{ "icon": "vscode", 		"extensions": ["VSCodeSetup"], 					"format": "FileFormat.svg" },
+			
+			{ "icon": "paket", 			"extensions": ["Components"], 					"format": "FileFormat.svg" },
+			{ "icon": "e2e", 			"extensions": ["IO"], 							"format": "FileFormat.svg" },
+			{ "icon": "helper", 		"extensions": ["Systems"], 						"format": "FileFormat.svg" },
+			{ "icon": "dependabot", 	"extensions": ["Unit Test"],					"format": "FileFormat.svg" },
+			{ "icon": "public",			"extensions": ["Entity Manager"], 				"format": "FileFormat.svg" },
+			{ "icon": "redis", 			"extensions": ["GameData"], 					"format": "FileFormat.svg" },
+			{ "icon": "docs", 			"extensions": ["Documentation"],				"format": "FileFormat.svg" },
+			{ "icon": "theme", 			"extensions": ["Media","scenes"],      	   		"format": "FileFormat.svg" },
+			{ "icon": "app", 			"extensions": ["Engine"], 						"format": "FileFormat.svg" },
+			{ "icon": "azurepipelines", "extensions": ["Bootstrap"], 					"format": "FileFormat.svg" },
+			{ "icon": "binary", 		"extensions": ["Logic"], 						"format": "FileFormat.svg" },
+			{ "icon": "binary", 		"extensions": ["Workspaces"], 					"format": "FileFormat.svg" },
+			{ "icon": "docs", 			"extensions": ["Documentation"], 				"format": "FileFormat.svg" },
+			{ "icon": "library", 		"extensions": ["Indexes"],  					"format": "FileFormat.svg" },
+			
+
+			
+		
+			//
+			// Modules of Game, needs Maintainance
+			//
+			{ "icon": "plugin", "format": "FileFormat.svg",
+				"extensions": [
+					"001_Atlas",
+					"002_Tilemap_Structure",
+					"003_Entropy",
+					"004_KitSet",
+					"006_Player",
+					"006_Kitparts",
+					"007_Effect_Generator",
+					"008_Conditions",
+					"009_Statmods",
+					"010_Tilemap_Selector",
+					"011_Procgen_Actor",
+					"012_Procgen Chunk",
+					"013_Procgen_Loot",
+					"014_Behavior",
+					"015_Items",
+					"016_Ruleset_Injector",
+					"017_CLI"
+			]}
+			
+		],
+		
+		
+			//----------------\\
+		  // ---- ANCHORS ---- \\
+		//----------------------\\
+		"commentAnchors.tags.rulerStyle": "full",                   // not quite sure,i am sorry lol 
+		"commentAnchors.tags.displayHierarchyInWorkspace": true,    // shows HTML like nesting in Achorbar
+		
+		"commentAnchors.workspace.matchFiles": "**/PatnicRoom/**",               // folder to parse (improves performance)
+		"commentAnchors.workspace.excludeFiles":"**/docs/** , **/backup/** , **/VSCodeSetup/** , **/Workspaces/Webside/**",
+		
+		"commentAnchors.workspace.pathFormat": "abbreviated",       // shows summariced Filepath 
+		"commentAnchors.scrollPosition": "center",
+		"commentAnchors.tags.separators": [
+			" - ",
+			": ",
+			" "
+		],
+
+		//
+		// Types of Comments:
+		//
+		 
+		"commentAnchors.tags.list": [
+			{"tag": "NOTE","enabled": false},
+			{"tag": "ANCHOR","enabled": false},
+			{"tag": "TODO","enabled": false},
+			{"tag": "FIXME","enabled": false},
+			{"tag": "LINK","enabled": false},
+			{"tag": "REVIEW","enabled": false},
+			{"tag": "STUB","enabled": false},
+			{"tag": "SECTION","enabled": false},
+
+
+
+
+// Separator			
+//
+//			# ----- EXAMPLES --------------------------------------------------------------- ##
+
+// Meta Structure
+//
+//			# BOOKMARK    Lorem Ipsum Dolor Emit La Vi                                         
+//
+//			# DOCS        Lorem Ipsum Dolor Emit La Vi                                         
+
+
+// Contextual TODO
+//
+//			# BUG         Lorem Ipsum Dolor Emit La Vi   
+//
+//			# STUB        Lorem Ipsum Dolor Emit La Vi   
+//
+//			# REVIEW      Lorem Ipsum Dolor Emit La Vi   
+//
+//          # REFACTOR    Lorem Ipsum Dolor Emit La Vi   
+
+
+// Highlevel explanation
+//
+//			# VAR    Lorem Ipsum Dolor Emit La Vi 
+//			# FUNC   Lorem Ipsum Dolor Emit La Vi 
+// 			# CLASS  Lorem Ipsum Dolor Emit La Vi 
+
+
+			//
+			// Meta Structure
+			//
+			{   
+				"tag": "# BOOKMARK",//Simple Reference					
+				"isItalic": false,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#84faef",     
+				"backgroundColor": "#23274a",
+				"scope": "workspace",
+				"behavior": "anchor",
+				"borderStyle": "1px outset #5ed1c6",
+				"borderRadius": 6
+			},{   
+				"tag": "# DOCS",// reference to Documentation			
+				"isItalic": false,
+				"styleComment": true,   
+				"isBold": true,
+				"iconColor": "emerald",
+				"highlightColor": "#ffffff",
+				"backgroundColor": "#67262b",
+				"scope": "file",
+				"behavior": "link",
+				"borderStyle": "2px solid #ffffff",
+				"borderRadius": 2,
+			},
+
+
+
+
+			//
+			// Contextual TODO
+			//
+			{   
+				"tag": "# STUB",// needs implementing    					
+				"isItalic": false,
+				"styleComment": true,
+				"isBold": true,
+				"iconColor": "teal",
+				"highlightColor": "#d15aa9",
+				"backgroundColor": "#0f192b",      
+				"scope": "file",
+				"behavior": "anchor",
+				"borderStyle": "1px inset #dbac65",
+				"borderRadius": 5
+			},{   
+				"tag": "# BUG",// needs fixing								
+				"isItalic": false,	
+				"styleComment": true,
+				"isBold": true,
+				"iconColor": "red",
+				"highlightColor": "#f76a6a",
+				"backgroundColor": "#0f192b",
+				"scope": "workspace",
+				"behavior": "anchor",
+				"borderStyle": "1px inset #dbac65",
+				"borderRadius": 5
+			},{   
+				"tag": "# REVIEW",// new cool stuff to show					
+				"isItalic": false,
+				"styleComment": true,
+				"isBold": true,
+				"iconColor": "emerald", 
+				"highlightColor": "#5ad166",     
+				"backgroundColor": "#0f192b",
+				"scope": "workspace",
+				"behavior": "anchor",
+				"borderStyle": "1px inset #dbac65",
+				"borderRadius": 5
+			},{   
+				"tag": "# REFACTOR",// new cool stuff to show					
+				"isItalic": false,
+				"styleComment": true,
+				"isBold": true,
+				"iconColor": "emerald", 
+				"highlightColor": "#E4FCFD",     
+				"backgroundColor": "#0f192b",
+				"scope": "workspace",
+				"behavior": "anchor",
+				"borderStyle": "1px inset #dbac65",
+				"borderRadius": 5
+			},
+		
+		
+		
+			//
+			// Highlevel explanation
+			//
+			{   
+				"tag": "# VAR",// more about parameter if necessary			# VAR    Lorem Ipsum Dolor Emit La Vi 
+				"isItalic": true,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#F3D833",     
+				"backgroundColor": "#223828",
+				"scope": "file",
+				"behavior": "anchor",
+				"borderStyle": "2px dotted #336340",
+				"borderRadius": 1
+			},{   
+				"tag": "# CLASS",// more about parameter if necessary 		# CLASS    Lorem Ipsum Dolor Emit La Vi 
+				"isItalic": true,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#F3D833",     
+				"backgroundColor": "#382224",
+				"scope": "file",
+				"behavior": "anchor",
+				"borderStyle": "2px dotted #573538",
+				"borderRadius": 1
+			},{   
+				"tag": "# FUNC",// more about parameter if necessary		# FUNC    Lorem Ipsum Dolor Emit La Vi 
+				"isItalic": true,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#F3D833",     //2f425c   4EAFBC   445770
+				"backgroundColor": "#222538",
+				"scope": "file",
+				"behavior": "anchor",
+				"borderStyle": "2px dotted #445770",
+				"borderRadius": 1
+			},
+			
+
+
+			//
+			// Separator
+			//
+			{   
+				"tag": "# -----",// more about parameter if necessary
+				"isItalic": true,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#54ffff",     //2f425c   4EAFBC   445770
+				"backgroundColor": "#282C34",
+				"scope": "file",
+				"behavior": "anchor",
+				"borderStyle": "3px groove #445770",
+				"borderRadius": 10
+			}
+		
+			
+		],
+		"git.ignoreLimitWarning": true
+
+
+
+
+	}
+}

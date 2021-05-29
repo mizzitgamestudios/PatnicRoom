@@ -1,0 +1,100 @@
+// Place your key bindings in this file to override the defaults
+[
+
+    // F6 toggles ZenMode when not active and switches to FileExplorer
+       {"key":     "f6",
+        "command": "extension.multiCommand.execute",
+        "args": {  "sequence": [
+                   "workbench.action.toggleZenMode",
+                   "workbench.files.action.showActiveFileInExplorer",]
+         },"when":    "!inZenMode"},
+
+
+    // opens to Fileexplorer when in ZenMode
+       {"key":     "f6",
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "when":    "!explorerViewletVisible && inZenMode"},
+
+
+    // opens to Fileexplorer when in ZenMode
+       {"key":     "esc",
+        "command": "workbench.action.exitZenMode",
+        "when":    "inZenMode"},
+
+
+
+
+
+
+
+
+
+    // F1 toggles search selected in all Files of Project
+       {"key":     "f1",
+        "command": "workbench.view.search",
+        "when":    "editorTextFocus"},
+
+
+
+
+        {
+         "key": "numpad9",
+         "command": "workbench.action.nextEditor"
+       },{
+         "key": "numpad7",
+         "command": "workbench.action.previousEditor"
+       },
+
+              //switch to left panel
+       {"key":     "numpad1",
+         "command": "workbench.action.moveEditorToPreviousGroup"},
+
+              //switch to left panel
+              {"key":     "numpad3",
+               "command": "workbench.action.moveEditorToNextGroup"},
+
+      //switch to left panel
+       {"key":     "numpad4",
+         "command": "workbench.action.focusLeftGroup",
+         "when":    "multipleEditorGroups "},
+
+      //switch to right panel
+      {"key":     "numpad6",
+         "command": "workbench.action.focusRightGroup",
+         "when":    "multipleEditorGroups "},
+
+
+
+
+
+      {"key":"numpad0",
+            "command": "epicAnchors.focus",
+            "when": ""
+         },
+
+
+
+
+
+         {"key":     "numpad_add",
+            "command": "workbench.files.action.showActiveFileInExplorer"},
+
+
+  { // Unbind unconditional default
+    "key": "numpad5",
+    "command": "-workbench.action.focusSideBar"
+  },
+
+  { // |→2
+    "key": "numpad2",
+    "when": "sideBarFocus",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  { // |←1
+   "key": "numpad8",
+   "when": "!sideBarFocus",
+   "command": "workbench.action.focusSideBar"
+ },
+
+
+]

@@ -1,0 +1,1 @@
+:::image type="content" source="../Media/Page-1/Full-HD.png" alt-text="overview of Workspaces":::
