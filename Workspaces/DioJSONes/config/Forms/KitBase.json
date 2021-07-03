@@ -1,0 +1,39 @@
+{
+  "mandatory to fill out" : [
+     "C_6_TILE_NAME"
+    ,"C_0_ANY_DESCRIPTION"
+    ,"C_35_KIT_MECHANICAL_SUMMARY"
+    ,"C_48_ANY_RARITY"
+
+    ,"C_31_KIT_CAT_TYPE"
+    ,"C_36_KIT_MOD_TIME"
+    ,"C_33_KIT_COOLDOWN_TIMER"
+
+    ,"C_60_BASE_KIT_REFERENCE"
+  ],
+
+
+  "flags to add" : [
+    "F_5_KITPART_TYPE"
+  ],
+
+
+  "mirrored values" : {
+    "C_40_ANY_TO_STRING" : "C_6_TILE_NAME"
+  },
+
+
+  "static values":{
+    "C_38_KIT_PART_TYPE" : "BASE"
+  },
+
+
+  "dynamic values" : [
+    "C_37_ANY_M_TYPE"
+  ],
+
+  "filename prefix" : "[KIT] [BASE] ",
+
+  "entity with effect": true
+
+}

@@ -1,0 +1,320 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Media/actor.png" type="Texture" id=1]
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Media/presets/formEffectDefualt.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Media/presets/backToMainManueButton.tres" type="StyleBox" id=5]
+[ext_resource path="res://Src/Frontend/content management/Browse/Browse.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.52549, 0.266667, 0.247059, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.247059, 0.47451, 0.52549, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.247059, 0.52549, 0.341176, 1 )
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="Panel" type="TextureRect" parent="."]
+margin_right = 2560.0
+margin_bottom = 1440.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_right = 216.0
+margin_bottom = 54.0
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_text = "Browser"
+text = "Browser"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Form" type="Control" parent="."]
+margin_top = 64.0
+margin_right = 40.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hint" type="Control" parent="."]
+margin_left = 16.0
+margin_top = 112.0
+margin_right = 56.0
+margin_bottom = 152.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backToMainMenue" type="Button" parent="."]
+margin_left = 480.0
+margin_top = 8.0
+margin_right = 672.0
+margin_bottom = 56.0
+custom_styles/normal = ExtResource( 5 )
+custom_fonts/font = ExtResource( 4 )
+text = "BACK TO MAIN-MENUE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="type" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 240.0
+margin_right = 344.0
+margin_bottom = 320.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control2" type="Panel" parent="type"]
+margin_top = -24.0
+margin_right = 88.0
+margin_bottom = 16.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="type"]
+margin_left = 8.0
+margin_top = -27.0
+margin_right = 72.0
+margin_bottom = 13.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Type"
+text = "Type"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="type"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="base" type="Button" parent="type/Control"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 133.0
+margin_bottom = 28.0
+text = "Base Kitparts"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="app" type="Button" parent="type/Control"]
+margin_left = 8.0
+margin_top = 56.0
+margin_right = 133.0
+margin_bottom = 76.0
+text = "Appendix Kitparts"
+
+[node name="mod" type="Button" parent="type/Control"]
+margin_left = 8.0
+margin_top = 32.0
+margin_right = 133.0
+margin_bottom = 52.0
+text = "Mod Kitparts"
+
+[node name="race" type="Button" parent="type/Control"]
+margin_left = 144.0
+margin_top = 8.0
+margin_right = 269.0
+margin_bottom = 28.0
+text = "Races"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="role" type="Button" parent="type/Control"]
+margin_left = 144.0
+margin_top = 32.0
+margin_right = 269.0
+margin_bottom = 52.0
+text = "Roles"
+
+[node name="specialty" type="Button" parent="type/Control"]
+margin_left = 144.0
+margin_top = 56.0
+margin_right = 269.0
+margin_bottom = 76.0
+text = "Specialties"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="type2" type="Panel" parent="."]
+margin_left = 376.0
+margin_top = 240.0
+margin_right = 656.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( -144, -56 )
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control2" type="Panel" parent="type2"]
+margin_top = -24.0
+margin_right = 168.0
+margin_bottom = 16.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="type2"]
+margin_left = 8.0
+margin_top = -27.0
+margin_right = 168.0
+margin_bottom = 13.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Components"
+text = "Components"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="type2"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="base" type="Button" parent="type2/Control"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 133.0
+margin_bottom = 28.0
+text = "Base Kitparts"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="app" type="Button" parent="type2/Control"]
+margin_left = 8.0
+margin_top = 56.0
+margin_right = 133.0
+margin_bottom = 76.0
+text = "Appendix Kitparts"
+
+[node name="mod" type="Button" parent="type2/Control"]
+margin_left = 8.0
+margin_top = 32.0
+margin_right = 133.0
+margin_bottom = 52.0
+text = "Mod Kitparts"
+
+[node name="race" type="Button" parent="type2/Control"]
+margin_left = 144.0
+margin_top = 8.0
+margin_right = 269.0
+margin_bottom = 28.0
+text = "Races"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="role" type="Button" parent="type2/Control"]
+margin_left = 144.0
+margin_top = 32.0
+margin_right = 269.0
+margin_bottom = 52.0
+text = "Roles"
+
+[node name="specialty" type="Button" parent="type2/Control"]
+margin_left = 144.0
+margin_top = 56.0
+margin_right = 269.0
+margin_bottom = 76.0
+text = "Specialties"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="type3" type="Panel" parent="."]
+margin_left = 680.0
+margin_top = 240.0
+margin_right = 822.0
+margin_bottom = 320.0
+rect_pivot_offset = Vector2( -144, -56 )
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control2" type="Panel" parent="type3"]
+margin_top = -24.0
+margin_right = 112.0
+margin_bottom = 16.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="type3"]
+margin_left = 8.0
+margin_top = -27.0
+margin_right = 112.0
+margin_bottom = 13.0
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "M-Type"
+text = "M-Type"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="type3"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="base" type="Button" parent="type3/Control"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 133.0
+margin_bottom = 28.0
+text = "Meat"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="app" type="Button" parent="type3/Control"]
+margin_left = 8.0
+margin_top = 56.0
+margin_right = 133.0
+margin_bottom = 76.0
+text = "Matrix"
+
+[node name="mod" type="Button" parent="type3/Control"]
+margin_left = 8.0
+margin_top = 32.0
+margin_right = 133.0
+margin_bottom = 52.0
+text = "Magic"
+[connection signal="pressed" from="backToMainMenue" to="." method="backToMainMenue"]

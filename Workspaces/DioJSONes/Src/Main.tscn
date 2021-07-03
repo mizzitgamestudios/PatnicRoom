@@ -1,0 +1,244 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Media/Title.png" type="Texture" id=2]
+[ext_resource path="res://Src/MainMenu.gd" type="Script" id=3]
+[ext_resource path="res://Media/mainMenue.png" type="Texture" id=4]
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+outline_color = Color( 0.603922, 0.129412, 0.129412, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.654902, 0.419608, 0.419608, 0.631373 )
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.435294, 0.0784314, 0.0784314, 1 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.654902, 0.647059, 0.419608, 0.631373 )
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.6, 0.537255, 0.184314, 1 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.443137, 0.419608, 0.654902, 0.631373 )
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.105882, 0.0431373, 0.470588, 1 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.419608, 0.649387, 0.654902, 0.631373 )
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 30
+corner_radius_bottom_left = 30
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Panel" type="TextureRect" parent="."]
+margin_left = 1.00974e-28
+margin_top = -2.11896
+margin_right = 2560.0
+margin_bottom = 1437.88
+rect_scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Sprite" parent="."]
+position = Vector2( 514.604, 205.6 )
+texture = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Title"]
+margin_left = 274.409
+margin_top = 49.2647
+margin_right = 532.409
+margin_bottom = 153.265
+custom_fonts/normal_font = SubResource( 1 )
+custom_colors/font_color_shadow = Color( 0.898039, 0.160784, 0.160784, 1 )
+bbcode_enabled = true
+bbcode_text = "DioJSONes Edition"
+text = "DioJSONes Edition"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Actors" type="Panel" parent="."]
+margin_top = 544.0
+margin_right = 780.0
+margin_bottom = 736.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="race" type="Button" parent="Actors"]
+margin_left = 16.0
+margin_top = 72.0
+margin_right = 216.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A RACE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="role" type="Button" parent="Actors"]
+margin_left = 272.0
+margin_top = 72.0
+margin_right = 472.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A ROLE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="specialty" type="Button" parent="Actors"]
+margin_left = 528.0
+margin_top = 72.0
+margin_right = 728.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A SPECIALTY"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Kits" type="Panel" parent="."]
+margin_top = 320.0
+margin_right = 780.0
+margin_bottom = 512.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="base" type="Button" parent="Kits"]
+margin_left = 16.0
+margin_top = 72.0
+margin_right = 216.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A BASE-KIT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mod" type="Button" parent="Kits"]
+margin_left = 272.0
+margin_top = 72.0001
+margin_right = 472.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A MOD-KIT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Button" parent="Kits"]
+margin_left = 528.0
+margin_top = 72.0
+margin_right = 728.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 5 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE A APPENDIX-KIT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Gear" type="Panel" parent="."]
+margin_top = 768.0
+margin_right = 780.0
+margin_bottom = 960.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="items" type="Button" parent="Gear"]
+margin_left = 272.0
+margin_top = 72.0
+margin_right = 472.0
+margin_bottom = 122.0
+custom_styles/normal = SubResource( 7 )
+custom_fonts/font = ExtResource( 5 )
+text = "CREATE AN ITEM"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Gear2" type="Panel" parent="."]
+margin_left = 1656.0
+margin_top = 592.0
+margin_right = 1981.0
+margin_bottom = 974.0
+custom_styles/panel = SubResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="items" type="Button" parent="Gear2"]
+margin_left = 69.0
+margin_top = 45.0
+margin_right = 269.0
+margin_bottom = 95.0
+custom_styles/normal = SubResource( 7 )
+custom_fonts/font = ExtResource( 5 )
+text = "Browse"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Actors/race" to="." method="startActorsRace"]
+[connection signal="pressed" from="Actors/role" to="." method="startActorRole"]
+[connection signal="pressed" from="Actors/specialty" to="." method="startActorSpecialty"]
+[connection signal="pressed" from="Kits/base" to="." method="startKitBase"]
+[connection signal="pressed" from="Kits/mod" to="." method="startKitMod"]
+[connection signal="pressed" from="Kits/appendix" to="." method="startKitAppendix"]
+[connection signal="pressed" from="Gear/items" to="." method="getItemsConsumable"]
+[connection signal="pressed" from="Gear2/items" to="." method="_on_browse_pressed"]

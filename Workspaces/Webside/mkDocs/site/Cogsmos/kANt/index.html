@@ -1,0 +1,776 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://mizzitgamestudios.github.io/Cogsmos/kANt/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
+    
+    
+      
+        <title>kANt - P@tnicRoom Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Noto Sans";--md-code-font-family:""}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="lime">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diojsones" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="P@tnicRoom Documentation" class="md-header__button md-logo" aria-label="P@tnicRoom Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            P@tnicRoom Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              kANt
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/mizzitgamestudios/PatnicRoom/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="P@tnicRoom Documentation" class="md-nav__button md-logo" aria-label="P@tnicRoom Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    P@tnicRoom Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/mizzitgamestudios/PatnicRoom/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gettingStartedOverview/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atlasOverview/" class="md-nav__link">
+        Atlas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entitiesOverview/" class="md-nav__link">
+        Game-elements
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cogsmosOverview/" class="md-nav__link">
+        Framework
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modulesOverview/" class="md-nav__link">
+        Modules
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syntaxOverview/" class="md-nav__link">
+        Syntax
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conventionsOverview/" class="md-nav__link">
+        Conventions
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convention" class="md-nav__link">
+    Convention
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constructors" class="md-nav__link">
+    Constructors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/mizzitgamestudios/PatnicRoom/edit/master/docs/Cogsmos/kANt.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="diojsones">dioJSONes</h1>
+<ul>
+<li><a href="#Convention">Convention</a></li>
+<li><a href="#Types">Types</a></li>
+<li><a href="#Constructors">Constructors</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>dioJSONes is my attempt of a compromise between Developer and Contentdesigner.</p>
+<p>while developers have the necessary knowledge of Programming language and experience to implement functions of features,
+they therefore have a lack of time to use this to implement instances of features in a game.</p>
+<p>Contentdesigners have creative ideas and intuition for game elements but therefore no knowledge in the areas of development.</p>
+<p>dioJSONes defines a set of naming conventions and special keywords which will be interpretet at the parsing of JSONs for special uses.
+i.e:
+* Constructors to instanciate Entities
+* Inheritance of other JSON-files
+* Systematic structure of data</p>
+<h2 id="convention">Convention</h2>
+<p><strong>Needed Keys</strong>
+* Each object needs a type-key which defines how DioJSONes will parse and interpret data into the game.
+<a href="#DUMMY">see the list of types for reference.</a>
+* Each object needs an id-key to make them retraceable.
+more info to its syntax is further down.</p>
+<pre><code class="language-json">{
+&quot;type&quot;: &quot;skill&quot;,
+&quot;name&quot;: &quot;acrobatics&quot;,
+&quot;ID&quot;:   &quot;acrobatics_skill&quot;
+}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>common keys</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>unique String to Identify data</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>one worded description for reference</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Text which will be shown to player for more information</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Template</strong>
+For comfort and to minimice parsing errors,every type of JSON-files has in its folder a Template.
+make sure to copy it into a new Textfile and customice the placeholder to your actual content.</p>
+<p><strong>Units</strong>
+| Abbrevation | meaning |
+|--|--|
+|  |  |</p>
+<p><strong>Comments</strong>
+To add a explanation of an Entry,type a new one above itself with the key "//" with the number of comment and your explanation as value.</p>
+<pre><code class="language-json">{
+&quot;//1&quot;:  &quot;this is a comment to give an example of the syntax&quot;
+}
+</code></pre>
+<p><strong>Key-Naming</strong>
+the usual conevntion for porgrammers is to "separate" variables by camelCase (i.e "theQuickBrownFoxJumpsOverTheLazyDog").
+but it may take some time to get used to it.So for comfort,Contentdesigner can use snake_case, i.e:</p>
+<pre><code class="language-json">{
+&quot;syntax&quot;:&quot;the_quick_brown_fox_jumps_over_the_lazy_dog&quot;
+}
+</code></pre>
+<p><em>note</em>: every word is written in lower case and the underscore happens at the front of the second word.</p>
+<p><em>explanation</em>: a underscore symbolices something is not overaching but closely relatet to the word before it</p>
+<p><strong>ID-Naming</strong>
+like state,ID are very important,and even more is a static and reliable naming of them.
+an ID starts with its grouping,groupings are sequentiall names of subfolders,separated with an take away(-)
+in example: the data of upper_leg.json in "Config/Anatomy/metahuman/"</p>
+<pre><code class="language-json">{
+&quot;grouping_example&quot;:&quot;A-Metahuman-&quot;
+}
+</code></pre>
+<p><em>note</em>: groupings are Capitaliced</p>
+<p><em>explanation</em>: the take away symbolices in comparrison to the underscore a overaching thing which can have many things (in this case arms or heads) under itself.
+                             the the subfolders before the last are cut short to their first letter.</p>
+<p>after groupings,what follows is the name of the JSON-File itself.
+in example: the data of upper_leg.json in "Config/Anatomy/metahuman/"</p>
+<pre><code class="language-json">{
+&quot;whole_ID&quot;:&quot;Anatomy-Metahuman-upper_leg&quot;
+}
+</code></pre>
+<h2 id="constructors">Constructors</h2>
+<p>sometimes its usefull to have json defined thing in an other json,for example can we modify
+stats by </p>
+<h2 id="types">Types</h2>
+<table>
+<thead>
+<tr>
+<th>Types</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anatomy</td>
+<td>Bodyparts of diffrent races</td>
+</tr>
+<tr>
+<td>ASCII_Art</td>
+<td>Predefined texts</td>
+</tr>
+<tr>
+<td>Chunk_Keywords</td>
+<td>Keywords for attributes of Chunk</td>
+</tr>
+<tr>
+<td>Conditions</td>
+<td>Effects on the Body by external factors</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;Entities_Attributes</td>
+<td></td>
+</tr>
+<tr>
+<td>ET_Race</td>
+<td>Attributes of diffrent Races</td>
+</tr>
+<tr>
+<td>ET_Roles</td>
+<td>Attributes of diffrent Roles</td>
+</tr>
+<tr>
+<td>ET_Specialties</td>
+<td>Attributes of diffrent Specialties</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Factions</td>
+<td>groups of people</td>
+</tr>
+<tr>
+<td>Flags</td>
+<td>valueless Components for plausibillity-checks</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;Items</td>
+<td></td>
+</tr>
+<tr>
+<td>I_Consumables</td>
+<td>one time use items</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;Kits</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;&gt;K_Electronics</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_E_Cyberware</td>
+<td></td>
+</tr>
+<tr>
+<td>K_E_C_Model</td>
+<td>Effect of Cyberware</td>
+</tr>
+<tr>
+<td>K_E_C_Integration</td>
+<td>Appliance of Cyberware</td>
+</tr>
+<tr>
+<td>K_E_C_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_E_Drone</td>
+<td></td>
+</tr>
+<tr>
+<td>K_E_D_Frame</td>
+<td>basemodell of Drone</td>
+</tr>
+<tr>
+<td>K_E_D_Movement</td>
+<td>i.e propellent or wheels</td>
+</tr>
+<tr>
+<td>K_E_D_Sensor</td>
+<td>i.e Infrared sight or sonar hearing</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_E_Hack</td>
+<td></td>
+</tr>
+<tr>
+<td>K_E_H_Daemon</td>
+<td>Effect of Hack</td>
+</tr>
+<tr>
+<td>K_E_H_Target</td>
+<td>i.e data, persona or device</td>
+</tr>
+<tr>
+<td>K_E_H_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;K_Magic</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_M_Infusion</td>
+<td></td>
+</tr>
+<tr>
+<td>K_M_I_Power</td>
+<td>Effect of Infusion</td>
+</tr>
+<tr>
+<td>K_M_I_Bodypart</td>
+<td>Anatomical placement</td>
+</tr>
+<tr>
+<td>K_M_I_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_M_Spell</td>
+<td></td>
+</tr>
+<tr>
+<td>K_M_S_Formular</td>
+<td>Effect of Spell</td>
+</tr>
+<tr>
+<td>K_M_S_Medium</td>
+<td>movement of map i.e instant or area</td>
+</tr>
+<tr>
+<td>K_M_S_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_M_Conjuration</td>
+<td></td>
+</tr>
+<tr>
+<td>K_M_C_Force</td>
+<td>Effect of Cyberware</td>
+</tr>
+<tr>
+<td>K_M_C_Behavior</td>
+<td>priority i.e healing</td>
+</tr>
+<tr>
+<td>K_M_C_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;K_Universal</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_U_Armor</td>
+<td></td>
+</tr>
+<tr>
+<td>K_U_A_Coating</td>
+<td>protection of external factors</td>
+</tr>
+<tr>
+<td>K_U_A_Matterial</td>
+<td>protection of damage</td>
+</tr>
+<tr>
+<td>K_U_A_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_U_Gun</td>
+<td></td>
+</tr>
+<tr>
+<td>K_U_G_Frame</td>
+<td>basemodell of Gun</td>
+</tr>
+<tr>
+<td>K_U_A_Sight</td>
+<td>effective range</td>
+</tr>
+<tr>
+<td>K_U_A_Ammunation</td>
+<td>damagetype</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;K_U_Meele</td>
+<td></td>
+</tr>
+<tr>
+<td>K_U_M_Hitzone</td>
+<td>i.e blunt or sharp or punctual</td>
+</tr>
+<tr>
+<td>K_U_A_Shaft</td>
+<td>i.e handguard</td>
+</tr>
+<tr>
+<td>K_U_A_Appendix</td>
+<td>Customiced expansion</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;Loot_Tables</td>
+<td></td>
+</tr>
+<tr>
+<td>LT_Object</td>
+<td>probabillity of items i.e crates or save</td>
+</tr>
+<tr>
+<td>LT_Entities</td>
+<td>probabillity of items i.e corpses</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Statistics</td>
+<td>Stats of last Playthrough</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;Meta</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;&gt;M_Archivements</td>
+<td>Milestones which player has reached in a game once</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1d3bfcf1.min.js"></script>
+      
+    
+  </body>
+</html>

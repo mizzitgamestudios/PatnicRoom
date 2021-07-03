@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Src/Frontend/content creation/Input/InputModules universal/Condition/InputRTL2.gd" type="Script" id=1]
+[ext_resource path="res://Src/Frontend/content creation/Input/InputModules universal/Condition/ConditionScene.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.12549, 0.686275, 0.478431, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+
+[node name="Slider" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="marker" type="Panel" parent="."]
+margin_left = 190.0
+margin_top = 4.0
+margin_right = 478.0
+margin_bottom = 44.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputRTL3" type="Panel" parent="marker"]
+margin_left = 210.0
+margin_top = 9.0
+margin_right = 282.0
+margin_bottom = 33.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputRTL2" type="RichTextLabel" parent="marker/InputRTL3"]
+margin_left = 16.0
+margin_top = 3.0
+margin_right = 80.0
+margin_bottom = 24.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputRTL4" type="Panel" parent="marker"]
+margin_left = 130.0
+margin_top = 9.0
+margin_right = 194.0
+margin_bottom = 33.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputRTL" type="RichTextLabel" parent="marker/InputRTL4"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 64.0
+margin_bottom = 24.0
+bbcode_enabled = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,1452 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/HUD/HUD.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Station/StationInit.gd" type="Script" id=3]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Station/All KitParts.gd" type="Script" id=4]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Station/current Kit.gd" type="Script" id=6]
+[ext_resource path="res://Media/FixedDays Font/Text_Default.tres" type="DynamicFont" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.14902, 0.14902, 0.14902, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.462745, 0.541176, 0.694118, 1 )
+corner_radius_top_left = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="DynamicFont" id=4]
+size = 25
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.14902, 0.14902, 0.14902, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="DynamicFont" id=6]
+size = 30
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 20
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0.188235, 0.643137, 0.396078, 0.498039 )
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.423529, 0.462745, 0.541176, 1 )
+corner_radius_top_left = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="DynamicFont" id=11]
+size = 40
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=12]
+size = 50
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_mipmaps = true
+font_data = ExtResource( 1 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="background" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="root_HUD" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1176, 8 )
+
+[node name="current Kit" type="Control" parent="."]
+margin_left = 1136.0
+margin_top = 512.0
+margin_right = 1176.0
+margin_bottom = 552.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Overhead2" type="Panel" parent="current Kit"]
+margin_left = -88.0
+margin_top = -88.0
+margin_right = 208.0
+margin_bottom = -30.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="current Kit"]
+margin_left = -88.0
+margin_top = -34.0
+margin_right = 760.0
+margin_bottom = 64.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="RichTextLabel" parent="current Kit"]
+margin_left = -88.0
+margin_top = -73.0
+margin_right = 208.0
+margin_bottom = -41.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[center]Current Kitset"
+text = "Current Kitset"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="content" type="Control" parent="current Kit"]
+margin_left = -400.0
+margin_top = 64.0
+margin_right = -360.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="current Kit/content"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="current Kit/content/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 4 )
+custom_colors/font_color_shadow = Color( 0.505882, 0.0823529, 0.0823529, 1 )
+scroll_active = false
+
+[node name="buttons" type="Control" parent="current Kit/content/appendix"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="current Kit/content/appendix/buttons"]
+visible = false
+margin_left = 8.0
+margin_top = -29.0
+margin_right = 80.0
+margin_bottom = -9.0
+text = "DELETE"
+
+[node name="add" type="Button" parent="current Kit/content/appendix/buttons"]
+visible = false
+margin_left = 87.0
+margin_top = -29.0
+margin_right = 159.0
+margin_bottom = -9.0
+text = "ADD"
+
+[node name="change" type="Button" parent="current Kit/content/appendix/buttons"]
+visible = false
+margin_left = 167.0
+margin_top = -29.0
+margin_right = 239.0
+margin_bottom = -9.0
+text = "CHANGE"
+
+[node name="mod" type="Panel" parent="current Kit/content"]
+margin_left = 320.0
+margin_top = -43.0
+margin_right = 576.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="current Kit/content/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 4 )
+custom_colors/font_color_shadow = Color( 0.505882, 0.0823529, 0.0823529, 1 )
+custom_constants/shadow_offset_x = 1
+scroll_active = false
+
+[node name="buttons" type="Control" parent="current Kit/content/mod"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="delete" type="Button" parent="current Kit/content/mod/buttons"]
+visible = false
+margin_left = 8.0
+margin_top = -29.0
+margin_right = 80.0
+margin_bottom = -9.0
+text = "DELETE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="add" type="Button" parent="current Kit/content/mod/buttons"]
+visible = false
+margin_left = 87.0
+margin_top = -29.0
+margin_right = 159.0
+margin_bottom = -9.0
+text = "ADD"
+
+[node name="change" type="Button" parent="current Kit/content/mod/buttons"]
+visible = false
+margin_left = 167.0
+margin_top = -29.0
+margin_right = 239.0
+margin_bottom = -9.0
+text = "CHANGE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="base" type="Panel" parent="current Kit/content"]
+margin_left = 600.0
+margin_top = -43.0
+margin_right = 856.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="current Kit/content/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 4 )
+custom_colors/font_color_shadow = Color( 0.505882, 0.0823529, 0.0823529, 1 )
+scroll_active = false
+
+[node name="buttons" type="Control" parent="current Kit/content/base"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="delete" type="Button" parent="current Kit/content/base/buttons"]
+visible = false
+margin_left = 8.0
+margin_top = -29.0
+margin_right = 80.0
+margin_bottom = -9.0
+text = "DELETE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="add" type="Button" parent="current Kit/content/base/buttons"]
+visible = false
+margin_left = 87.0
+margin_top = -29.0
+margin_right = 159.0
+margin_bottom = -9.0
+text = "ADD"
+
+[node name="change" type="Button" parent="current Kit/content/base/buttons"]
+visible = false
+margin_left = 167.0
+margin_top = -29.0
+margin_right = 239.0
+margin_bottom = -9.0
+text = "CHANGE"
+
+[node name="All KitParts" type="Control" parent="."]
+margin_left = 736.0
+margin_top = 658.0
+margin_right = 776.0
+margin_bottom = 698.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Overhead" type="Panel" parent="All KitParts"]
+margin_left = -12.0
+margin_top = -122.0
+margin_right = 302.0
+margin_bottom = -60.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Main" type="Panel" parent="All KitParts"]
+margin_left = -12.0
+margin_top = -74.0
+margin_right = 1160.0
+margin_bottom = 372.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="RichTextLabel" parent="All KitParts"]
+margin_left = -12.0
+margin_top = -110.0
+margin_right = 302.0
+margin_bottom = -78.0
+custom_fonts/normal_font = SubResource( 6 )
+bbcode_enabled = true
+bbcode_text = "[center]Geared Kitsets"
+text = "Geared Kitsets"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0" type="Control" parent="All KitParts"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/0"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/0/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/0"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/0/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="All KitParts/0"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/0/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/0"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/0/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/0"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/0/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="0" type="Button" parent="All KitParts/0"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Control" parent="All KitParts"]
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/1"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/1/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/1"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/1/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mod" type="Panel" parent="All KitParts/1"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/1/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/1"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/1/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="appendix" type="Panel" parent="All KitParts/1"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/1/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="1" type="Button" parent="All KitParts/1"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Control" parent="All KitParts"]
+margin_top = 80.0
+margin_right = 40.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/2"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/2/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/2"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/2/category"]
+margin_left = 8.0
+margin_top = -7.0
+margin_right = 160.0
+margin_bottom = 27.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="All KitParts/2"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/2/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/2"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/2/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/2"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/2/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="2" type="Button" parent="All KitParts/2"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Control" parent="All KitParts"]
+margin_top = 120.0
+margin_right = 40.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/3"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/3/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/3"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/3/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mod" type="Panel" parent="All KitParts/3"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/3/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/3"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/3/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="appendix" type="Panel" parent="All KitParts/3"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/3/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="3" type="Button" parent="All KitParts/3"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Control" parent="All KitParts"]
+margin_top = 160.0
+margin_right = 40.0
+margin_bottom = 200.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/4"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/4/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/4"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/4/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="All KitParts/4"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/4/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/4"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/4/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/4"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/4/base"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 256.0
+margin_bottom = 18.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="4" type="Button" parent="All KitParts/4"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5" type="Control" parent="All KitParts"]
+margin_top = 200.0
+margin_right = 40.0
+margin_bottom = 240.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/5"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/5/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/5"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/5/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mod" type="Panel" parent="All KitParts/5"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/5/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/5"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/5/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="appendix" type="Panel" parent="All KitParts/5"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/5/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = SubResource( 7 )
+scroll_active = false
+
+[node name="5" type="Button" parent="All KitParts/5"]
+margin_top = -40.0
+margin_right = 1137.0
+margin_bottom = -20.0
+custom_styles/hover = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Control" parent="All KitParts"]
+margin_top = 240.0
+margin_right = 40.0
+margin_bottom = 280.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/6"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/6/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/6"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/6/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="All KitParts/6"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/6/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/6"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/6/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/6"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/6/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="7" type="Control" parent="All KitParts"]
+margin_top = 280.0
+margin_right = 40.0
+margin_bottom = 320.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/7"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/7/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/7"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/7/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="base" type="Panel" parent="All KitParts/7"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/7/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/7"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/7/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="appendix" type="Panel" parent="All KitParts/7"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/7/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="8" type="Control" parent="All KitParts"]
+margin_top = 320.0
+margin_right = 40.0
+margin_bottom = 360.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/8"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/8/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/8"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/8/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="appendix" type="Panel" parent="All KitParts/8"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/8/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="base" type="Panel" parent="All KitParts/8"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/8/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/8"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 3 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/8/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="9" type="Control" parent="All KitParts"]
+margin_top = 360.0
+margin_right = 40.0
+margin_bottom = 400.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mtype" type="Panel" parent="All KitParts/9"]
+margin_left = 24.0
+margin_top = -43.0
+margin_right = 136.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/9/Mtype"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 112.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="category" type="Panel" parent="All KitParts/9"]
+margin_left = 160.0
+margin_top = -43.0
+margin_right = 320.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/9/category"]
+margin_left = 8.0
+margin_top = -6.0
+margin_right = 160.0
+margin_bottom = 28.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="base" type="Panel" parent="All KitParts/9"]
+margin_left = 352.0
+margin_top = -43.0
+margin_right = 608.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/9/base"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="mod" type="Panel" parent="All KitParts/9"]
+margin_left = 616.0
+margin_top = -43.0
+margin_right = 872.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/9/mod"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="appendix" type="Panel" parent="All KitParts/9"]
+margin_left = 881.0
+margin_top = -43.0
+margin_right = 1137.0
+margin_bottom = -18.0
+custom_styles/panel = SubResource( 10 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="All KitParts/9/appendix"]
+margin_left = 8.0
+margin_top = -4.0
+margin_right = 256.0
+margin_bottom = 20.0
+custom_fonts/normal_font = ExtResource( 8 )
+scroll_active = false
+
+[node name="kitparts to gear" type="Control" parent="."]
+margin_left = 160.0
+margin_top = 120.0
+margin_right = 200.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="countdown" type="Control" parent="kitparts to gear"]
+margin_left = -176.0
+margin_top = -92.0
+margin_right = -136.0
+margin_bottom = -52.0
+
+[node name="Overhead3" type="Panel" parent="kitparts to gear/countdown"]
+margin_left = 1376.0
+margin_top = 384.0
+margin_right = 1912.0
+margin_bottom = 442.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="kitparts to gear/countdown/Overhead3"]
+margin_left = 8.0
+margin_top = 12.0
+margin_right = 416.0
+margin_bottom = 60.0
+custom_fonts/normal_font = SubResource( 11 )
+bbcode_text = "Time untill Upgrade:"
+text = "Time untill Upgrade:"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Control" parent="."]
+margin_left = 170.0
+margin_top = 149.0
+margin_right = 210.0
+margin_bottom = 189.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Title"]
+margin_left = 1032.0
+margin_top = -45.0
+margin_right = 1464.0
+margin_bottom = 136.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Title/Panel"]
+margin_top = 21.0
+margin_right = 432.0
+margin_bottom = 69.0
+custom_fonts/normal_font = SubResource( 12 )
+custom_colors/default_color = Color( 0.552941, 0.913725, 0.709804, 1 )
+custom_colors/font_color_shadow = Color( 0.298039, 0.352941, 0.807843, 1 )
+custom_constants/shadow_offset_x = 6
+custom_constants/shadow_offset_y = 3
+bbcode_enabled = true
+bbcode_text = "[center]WORKSHOP"
+text = "WORKSHOP"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="TextureRect" parent="Title/Panel"]
+margin_left = 4.0
+margin_top = 93.0
+margin_right = 44.0
+margin_bottom = 133.0
+rect_scale = Vector2( 2, 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="TextureRect" parent="Title/Panel"]
+margin_left = 176.0
+margin_top = 93.0
+margin_right = 216.0
+margin_bottom = 133.0
+rect_scale = Vector2( 2, 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="TextureRect" parent="Title/Panel"]
+margin_left = 360.0
+margin_top = 93.0
+margin_right = 390.0
+margin_bottom = 133.0
+rect_scale = Vector2( 2, 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="current Kit/content/appendix/buttons/add" to="." method="on_currentKit_Add" binds= [ 2 ]]
+[connection signal="pressed" from="current Kit/content/mod/buttons/add" to="." method="on_currentKit_Add" binds= [ 1 ]]
+[connection signal="pressed" from="current Kit/content/base/buttons/add" to="." method="on_currentKit_Add" binds= [ 0 ]]
+[connection signal="pressed" from="All KitParts/0/0" to="current Kit" method="buttonPressed" binds= [ 0 ]]
+[connection signal="pressed" from="All KitParts/1/1" to="current Kit" method="buttonPressed" binds= [ 1 ]]
+[connection signal="pressed" from="All KitParts/2/2" to="current Kit" method="buttonPressed" binds= [ 2 ]]
+[connection signal="pressed" from="All KitParts/3/3" to="current Kit" method="buttonPressed" binds= [ 3 ]]
+[connection signal="pressed" from="All KitParts/4/4" to="current Kit" method="buttonPressed" binds= [ 4 ]]
+[connection signal="pressed" from="All KitParts/5/5" to="current Kit" method="buttonPressed" binds= [ 5 ]]

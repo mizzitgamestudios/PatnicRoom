@@ -1,0 +1,30 @@
+{
+
+    "C_12_KITSET_INDEX"              : "WAGESLAVE",
+    "C_14_ACTOR_SPECIALTY_NAME"      : "Wageslave",
+    "F_6_ACTOR_ATTRIBUTES"           : "N/A",
+    "F_7_ACTOR_ATTRIBUTES_SPECIALTY" : "N/A",
+    "C_50_ACTOR_ROLE_DESCRIPTION"    : "your average joe with a sixty hour week and a small paycheck",
+    "C_47_ANY_SYNONYM"               : ["sleepdeprived worker","desprate SINer","Wageslave"],
+    "C_6_TILE_NAME"                  : "Wageslave",
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" :  2,
+      "agi" :  0,
+      "rea" :  0,
+      "str" :  0,
+  
+      "wil" :  -1,
+      "log" :  1,
+      "int" : -1,
+      "cha" :  0
+    },
+  
+  
+    "C_20_ACTOR_SKILLBLOCK" : {
+
+    }
+    
+  
+    
+  }

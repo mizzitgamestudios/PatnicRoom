@@ -1,0 +1,21 @@
+{
+	"C_6_TILE_NAME": "Feafdsf",
+	"C_0_ANY_DESCRIPTION": "Dsfesf",
+	"C_47_ANY_SYNONYM": "Eafd",
+	"C_19_ACTOR_ATTRIBUTES": {
+		"Strength": "2",
+		"Agillity": "2",
+		"Reaction": "2",
+		"Constitution": "2",
+		"Logic": "2",
+		"Intuition": "2",
+		"Charisma": "2",
+		"Willpower": "2"
+	},
+	"C_20_ACTOR_SKILLBLOCK": {
+
+	},
+	"F_10_ACTOR_ATTRIBUTES_ROLES": "N/A",
+	"F_6_ACTOR_ATTRIBUTES": "N/A",
+	"C_40_ANY_TO_STRING": "Feafdsf"
+}

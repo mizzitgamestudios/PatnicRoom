@@ -1,0 +1,34 @@
+{
+    "mandatory to fill out" : [
+         "C_37_ANY_M_TYPE"
+        ,"C_31_KIT_CAT_TYPE"
+        ,"C_38_KIT_PART_TYPE"
+        ,"C_6_TILE_NAME"
+    ],
+  
+  
+    "flags to add" : [
+     "F_3_ITEM"
+    ],
+  
+  
+    "mirrored values" : {
+        "C_40_ANY_TO_STRING" : "C_6_TILE_NAME"
+    },
+  
+  
+    "static values":{
+
+    },
+  
+  
+    "dynamic values" : [
+
+    ],
+  
+    "filename prefix" : "[ITEM] [CONSUMABLE] ",
+  
+    "entity with effect": true
+  
+  }
+  

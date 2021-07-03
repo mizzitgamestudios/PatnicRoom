@@ -1,0 +1,35 @@
+{
+
+    "C_12_KITSET_INDEX"     : "GUNSLINGER_1",
+    "C_6_TILE_NAME"         : "Gunslinger",
+    "C_65_TIER"             : 1,            
+    "F_6_ACTOR_ATTRIBUTES"  : "N/A",
+    "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
+    "C_0_ANY_DESCRIPTION"   : "edgy show off's without any understanding of their gun's",
+    "C_47_ANY_SYNONYM"      : ["pistolero","Hobo with gun","gun-owner"],
+    "C_37_ANY_M_TYPE"       : "MEAT",
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" : 1,
+      "agi" : 2,
+      "rea" : 1,
+      "str" : 0,
+  
+      "wil" : -1,
+      "log" : -1,
+      "int" : -1,
+      "cha" : -1
+    },
+    
+    "C_20_ACTOR_SKILLBLOCK" : {
+      "SURVIVAL" : "3",
+      "NEGOTIATION"   : "5",
+      "PERCEPTION" : "4",
+      "INTIMIDATION"  : "5",
+      "COMPUTER"   : "3"
+      }
+  
+  
+  
+  }
+  

@@ -1,0 +1,789 @@
+"filename", "language", "Properties", "GDScript", "JSON", "Markdown", "JSON with Comments", "YAML", "Rust", "Shell Script", "Python", "JavaScript", "HTML", "PHP", "CSS", "comment", "blank", "total"
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\CHANGELOG.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\README.md", "Markdown", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\VSCode Snippets.json", "JSON", 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\VSCodeSetup\Settings\keybindings.json", "JSON", 0, 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 38, 101
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\VSCodeSetup\Settings\settings.json", "JSON", 0, 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 39
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\VSCodeSetup\setupCustomeSettings.sh", "Shell Script", 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 15, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\backup_menue.rs", "Rust", 0, 0, 0, 0, 0, 0, 119, 0, 0, 0, 0, 0, 0, 0, 64, 183
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\distributer_menue.rs", "Rust", 0, 0, 0, 0, 0, 0, 327, 0, 0, 0, 0, 0, 0, 6, 156, 489
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\main.rs", "Rust", 0, 0, 0, 0, 0, 0, 114, 0, 0, 0, 0, 0, 0, 1, 55, 170
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\main_menue_printer.rs", "Rust", 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 22, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\mongoDB_menue.rs", "Rust", 0, 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 0, 0, 0, 38, 141
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\synchronicer_menue.rs", "Rust", 0, 0, 0, 0, 0, 0, 123, 0, 0, 0, 0, 0, 0, 0, 64, 187
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Cargo\src\terminal_formatter.rs", "Rust", 0, 0, 0, 0, 0, 0, 77, 0, 0, 0, 0, 0, 0, 2, 24, 103
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_13-53-30\details.md", "Markdown", 0, 0, 0, 753, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 759
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_13-53-30\results.md", "Markdown", 0, 0, 0, 336, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 343
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_16-38-57\details.md", "Markdown", 0, 0, 0, 764, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 770
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_16-38-57\results.md", "Markdown", 0, 0, 0, 338, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 345
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_17-00-51\details.md", "Markdown", 0, 0, 0, 756, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 762
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-06_17-00-51\results.md", "Markdown", 0, 0, 0, 335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 342
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-08_13-51-12\details.md", "Markdown", 0, 0, 0, 768, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 774
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-08_13-51-12\results.md", "Markdown", 0, 0, 0, 335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 342
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-20_06-17-36\details.md", "Markdown", 0, 0, 0, 797, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 803
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\Output\Workspace Stats\2021-06-20_06-17-36\results.md", "Markdown", 0, 0, 0, 335, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 342
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DevCLI\startPatnicRoom.sh", "Shell Script", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Bootstrap.json", "JSON", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\new_dynamicfont.tres", "Properties", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\options.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\EffectButton\Condition.tres", "Properties", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\EffectButton\Statmod.tres", "Properties", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\IntegerInput.tres", "Properties", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\StringInput.tres", "Properties", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\alert.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\backToMainManueButton.tres", "Properties", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\debugPanelStyle.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\debugPanel\green.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\debugPanel\red.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\debugPanel\yellow.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\defualtEffectnput.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\formEffectDefualt.tres", "Properties", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\highlightedEffectInput.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Media\presets\highlightedFormInput.tres", "Properties", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\DataStructures\EffectCache.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\DataStructures\FormFieldAttributes.gd", "GDScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\DataStructures\PanelAttributes\GroupAttributes.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\DataStructures\PanelAttributes\OptionboxAttributes.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\DataStructures\PanelAttributes\RTLAttributes.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Parser\Dynamic SubParser\C_37.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Parser\Dynamic SubParser\Hub.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Parser\Parser.gd", "GDScript", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 72
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Parser\effect SubParser.gd", "GDScript", 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 77
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Validator\ErrorMarker.gd", "GDScript", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 71
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Backend\Validator\Validator.gd", "GDScript", 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43, 103
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Bootstrap.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Dynamic Generator\FormFiller.gd", "GDScript", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 71
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Dynamic Generator\FormLayouter.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Actors\Form.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Actors\Form.tscn", "Properties", 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 199
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\EffectButton.gd", "GDScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\Form.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\Form.tscn", "Properties", 269, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 303
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\SlotInputs.tscn", "Properties", 1270, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 1437
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\SlotSpace.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\SlotUnits\Effect.gd", "GDScript", 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 76
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\SlotUnits\Space.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\SlotUnits\Trigger.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\scrollContainerRtl.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\selectionMenue.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 45
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Effect\timeslotsManager.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Gear\Items\Form.gd", "GDScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Gear\Items\Form.tscn", "Properties", 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 202
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Kit\Form.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 28
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Kit\Form.tscn", "Properties", 785, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 134, 919
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\Kit\choose kit to mod panel.gd", "GDScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Forms\ParentForm.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 13
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\COMPONENT\Component.tscn", "Properties", 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\COMPONENT\InputEffectRTL.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\COMPONENT\PanelInputHandler.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Comparator\ComparatorScene.tscn", "Properties", 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Comparator\InputEffectRTL.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Comparator\PanelInputHandler.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Condition\Condition.tscn", "Properties", 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Condition\ConditionScene.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Condition\InputRTL2.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 74
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Condition\conditionScene.tscn", "Properties", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Morphbox\universalMorphbox.gd", "GDScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 60
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Morphbox\universalMorphboxScript.tscn", "Properties", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Panel\PanelInputHandler.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\RTL\RTLScene.tscn", "Properties", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\RTL\inputComponentRTL.gd", "GDScript", 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 89
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Slider\sliderScene.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Slider\sliderScene.tscn", "Properties", 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Slider\sliderSkript.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Texture\InputRTL2.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 74
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Texture\PanelInputHandler.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Texture\TextureScene.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\Texture\TextureScene.tscn", "Properties", 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 71
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\dictionary\Dictionary.gd", "GDScript", 0, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46, 97
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\dictionary\Dictionary.tscn", "Properties", 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 69
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\dictionary\entry.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\dictionary\entry.tscn", "Properties", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\InputModules universal\is door\isDoor.tscn", "Properties", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\Inputmodules effect\MorphBox\EffectMorphBoxScript.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 54
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\Inputmodules effect\MorphBox\TriggerMorphBox.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\Inputmodules effect\TextRTL\EffectRTLScript.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 60
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Input\Inputmodules effect\TextRTL\RTLScene.tscn", "Properties", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Rows\Button\Button.tscn", "Properties", 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 84
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Rows\Optionbox\RowBoxScene.tscn", "Properties", 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 113
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Rows\Optionbox\button.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 71
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content creation\Rows\Text\RowTextScene.tscn", "Properties", 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 90
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content management\Browse\Browse.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Frontend\content management\Browse\Browse.tscn", "Properties", 282, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 321
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Main.tscn", "Properties", 219, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 245
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\MainMenu.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Single Scripts\CheckUp.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 78
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Single Scripts\ENUM.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Single Scripts\Syntax.gd", "GDScript", 0, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 81
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Single Scripts\Util.gd", "GDScript", 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 79
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Util\DataTypeHandler.gd", "GDScript", 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Util\Filehandler.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Util\InputHandler.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\Src\Util\RowTypeHandler.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\ActorRace.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\ActorRole.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\ActorSpecialty.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\ItemsConsumables.json", "JSON", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\KitAppendix.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\KitBase.json", "JSON", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 40
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\Forms\KitMod.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\ListReferences.json", "JSON", 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\ModulesReference.json", "JSON", 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\SyntaxAtlas.json", "JSON", 0, 0, 214, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 238
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\SyntaxIndex.json", "JSON", 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\config\components.json", "JSON", 0, 0, 541, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 592
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\mongoDB\test.py", "Python", 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\DioJSONes\project.godot", "Properties", 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 182
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Personal\[ACTOR] [ROLE] Feafdsf.json", "JSON", 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Personal\[KIT] [BASE] 22esfvdfdvsgfvsr.json", "JSON", 0, 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Races\Dwarf.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Races\Elf.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Races\Human.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Races\Orc.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Races\Troll.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Arsenist_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Brawler_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Gunslinger_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Hacker_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Infobroker_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Roles\Spellcaster_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Specialties\Drug dealer.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Specialties\bottle collector.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Specialties\esoteric conartist.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Specialties\fecal analycer.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Actor_Attributes\Specialties\freelancer hobo.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Gear\Loot_Tables\example.json", "JSON", 0, 0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 117
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Magic\Infusion\Base\4th Wallbreak.json", "JSON", 0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Magic\Spell\Base\Earthwall.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Magic\Spell\Base\crispyfier.json", "JSON", 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Magic\Spell\Base\offensive insult.json", "JSON", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Cyberware\Base\Brick-palm.json", "JSON", 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Cyberware\Base\Fingerguns.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Hack\Base\Doorkey Spoofer.json", "JSON", 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Hack\Base\Doorlock.json", "JSON", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Hack\Base\HeartbleedBug.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 62
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Matrix\Hack\Mod\Doorkey Spoofer___social engineered.json", "JSON", 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\GameData\Stable\Kits\Meat\Gun\Base\TshirtCannon.json", "JSON", 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Races\Dwarf.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Races\Elf.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Races\Human.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Races\Orc.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Races\Troll.json", "JSON", 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Arsenist_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Brawler_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Gunslinger_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Hacker_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Infobroker_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Roles\Spellcaster_1.json", "JSON", 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Specialties\Drug dealer.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Specialties\bottle collector.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Specialties\esoteric conartist.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Specialties\fecal analycer.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Actor_Attributes\Specialties\freelancer hobo.json", "JSON", 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Magic\Infusion\Base\4th Wallbreak.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 62
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Magic\Spell\Base\Earthwall.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Magic\Spell\Base\crispyfier.json", "JSON", 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Magic\Spell\Base\very offensive insult.json", "JSON", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Cyberware\Base\Brick-palm.json", "JSON", 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Cyberware\Base\Fingerguns.json", "JSON", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Hack\Base\Doorkey Spoofer.json", "JSON", 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Hack\Base\Doorlock.json", "JSON", 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Hack\Base\HeartbleedBug.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 62
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Matrix\Hack\Mod\Doorkey Spoofer___social engineered.json", "JSON", 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\GameData\Stable\Kits\Meat\Gun\Base\TshirtCannon.json", "JSON", 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\COMP.gd", "GDScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 57
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Components\_Comp.gd", "GDScript", 0, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 79
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Components\_Flags.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Conditions.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\ENUM.gd", "GDScript", 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 100
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\DIOJSONES.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\ENTROPY.gd", "GDScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\INPUT_PANIC.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\INPUT_REST.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 27
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\ITEMS.gd", "GDScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\KITS.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\MINIMAL_COMP.gd", "GDScript", 0, 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 95
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\PLAYER.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Enums\SOKRATILES.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Signals.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Statmods.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Syntax.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Syntax\EFFECT.gd", "GDScript", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 67
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Syntax\LOOT_TABLE.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Indexes\Syntax\SYNTAX.json", "JSON", 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 54
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\FixedDays Font\Panel_Title.tres", "Properties", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\FixedDays Font\Text_Default.tres", "Properties", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\FixedDays Font\Text_Header.tres", "Properties", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\FixedDays Font\new_dynamicfontdata.tres", "Properties", 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\Special\DebugCompass.json", "JSON", 0, 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\Special\Template.json", "JSON", 0, 0, 159, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 159
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\Special\devroom.json", "JSON", 0, 0, 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\SuburbanTestSide.json", "JSON", 0, 0, 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\custome\Devroom.json", "JSON", 0, 0, 164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 164
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\custome\Suburban.json", "JSON", 0, 0, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 216
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\TileMap\custome\test.json", "JSON", 0, 0, 157, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 157
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\01_General.json", "JSON", 0, 0, 535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 535
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\02_POI.json", "JSON", 0, 0, 527, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 527
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\03_Suburban.json", "JSON", 0, 0, 2856, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2856
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\04_CommonBNPC.json", "JSON", 0, 0, 923, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 923
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\05_Security.json", "JSON", 0, 0, 1058, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1058
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\06_Marker.json", "JSON", 0, 0, 338, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 338
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\07_Shop.json", "JSON", 0, 0, 719, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 719
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\JSON\08_Nature.json", "JSON", 0, 0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 77
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Media\Tilesets\all.tres", "Properties", 2143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2146
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Meta\knownBugs.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\BooStrap.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 6, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\Engines\InitDemocrECTS.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\Engines\InitDioJSONes.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 26, 57
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\Engines\InitSokraTILES.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInitSzene.tscn", "Properties", 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 132
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Manager.gd", "GDScript", 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\BootMode.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\BootMode.tscn", "Properties", 194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 219
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\ContentManager.tscn", "Properties", 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\Event.tscn", "Properties", 228, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 257
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\StartingKits.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\GameInit\Submenues\StartingKits.tscn", "Properties", 297, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 335
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Bootstrap\Parameters\GameInit.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 55, 114
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\ArisPROCGENes\ArisPROCGENes.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic.gd", "GDScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 30, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\FSM_Action.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 61
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\FSM_InfoPanel.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 46, 87
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\FSM_Interface.gd", "GDScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 16, 28
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\FSM_Movement.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 21, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\MouseLogik\MouseHover.gd", "GDScript", 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 37, 85
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\MouseLogik\MouseLogik.gd", "GDScript", 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 41, 99
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Panic\MouseLogik\MouseMarker.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 39
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Rest.gd", "GDScript", 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 44, 93
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Rest\FSM_Station.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Rest\FillingStation.gd", "GDScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 41, 84
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_Rest\Form_Getter.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\FSM_StateValidator.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\Main.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\System\InfoPanel.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DavINCi\System\getter.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 21, 40
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Actor Entity.gd", "GDScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 25, 68
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Effect\ConditionEntity.gd", "GDScript", 0, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 48, 121
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Effect\EffectEntity.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 21, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Effect\SymbioticEntity.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 14, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Interactable Entity.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 13, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\Appendix.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 7, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\Base.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 7, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\Mod.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 11, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\Kit Modules\parent.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 21, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\KitSet\KitSetEntity.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 30, 74
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Loot Entity.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Player Entity.gd", "GDScript", 0, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 65, 143
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Entities\Tile Entity.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 19, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\Atlas.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 32, 74
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\EntityManager\ConstructorParent.gd", "GDScript", 0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 62, 161
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\EntityManager\Hub.gd", "GDScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 22, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\EntityManager\types\Interactable.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\EntityManager\types\KitPart.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 17, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\EntityManager\types\Tile.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\PerformanceManager.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 19, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager\SystemManager.gd", "GDScript", 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 21, 67
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Module Structure\Controller.gd", "GDScript", 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 49, 118
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Module Structure\system.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 28, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\demokrECS.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 11, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\parts of Entities\Component.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DemcorECTS\parts of Entities\Entity.gd", "GDScript", 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 36, 84
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Common\Common.gd", "GDScript", 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 50, 107
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Common\ComponentConstructor.gd", "GDScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 75
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\baseTrigger.gd", "GDScript", 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\condition.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\space.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\specificTrigger.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\statMod.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Slots\time.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Effect Parts\Unit.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 27
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Effect\Hub.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 27, 56
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\Parser\Tilesets\Hub.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\DioJSONes\dioJSONes.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\HeGEL\HeGEL.gd", "GDScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\Actor.gd", "GDScript", 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 66
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\Animation.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 39
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\Basic.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\Floor.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\Chunk Visualicer\Interactable.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 14
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\FrameWork\TilemapParse\Tilemap.gd", "GDScript", 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 59, 152
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Cogsmos Framework\SokraTILEs\sokraTILES.gd", "GDScript", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 25, 69
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C0.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C1.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C10.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C11.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C12.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C13.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C14.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C15.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C16.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C17.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C18.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 28
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C19.gd", "GDScript", 0, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 77
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C2.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C20.gd", "GDScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C21.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C22.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C23.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C24.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C25.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C26.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C27.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C28.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C29.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C3.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C30.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C31.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C32.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C33.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C34.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C35.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C36.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C37.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C38.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C39.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C4.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C40.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C41.gd", "GDScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C42.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C43.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C44.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C45.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C47.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C48.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C49.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C5.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C50.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C51.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C52.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C53.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C54.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C55.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C56.gd", "GDScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C57.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 27
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C58.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C59.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C6.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C60.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C61.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C62.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C63.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C64.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C65.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C66.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C67.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C68.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 39
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C7.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C8.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C80.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C9.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C90.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\C99.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F1.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F2.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F3.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F4.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F5.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F6.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F7.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\Flags\F8.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Components\INJECTED_COMP.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Gameloop.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\Controller\API.gd", "GDScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 26, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\Actor\Race.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 29, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\Actor\Role.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 29, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\Actor\Specialty.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 29, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\Interactables.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 25, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\KitPart.gd", "GDScript", 0, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 38, 103
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\001_Atlas\SubAtlas\Tiles.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 36, 53
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Controller\API.gd", "GDScript", 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 37, 90
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\IO\in.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\IO\out.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Actor\NPC.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 19, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Actor\Player.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Animation\Conditions.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 46, 85
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Animation\Selection.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 23, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Magic\Magic Floor.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Magic\Magic Interactables.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Matrix\Matrix Floor.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Matrix\Matrix Interactables.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Meat\Meat Floor.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 13, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Layer\Meat\Meat Interactables.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 32, 75
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\002_Tilemap_Structure\Systems\Tile Interpreter.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\003_Entropy\Controller\API.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 18, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\003_Entropy\io\In.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Controller\API.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 36, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Entity Manager\kitMerge.gd", "GDScript", 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 55, 131
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Systems\InitialKitPartToAct.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 26, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Systems\getter.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Systems\kitRun.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\004_KitSet\Systems\kitSelect.gd", "GDScript", 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 43, 100
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Controller\API.gd", "GDScript", 0, 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 64, 144
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Characters\Runner.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Characters\Stats.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Characters\Team.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Chargen\Utils.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Chargen\chargen.gd", "GDScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 70
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Chargen\loadChar.gd", "GDScript", 0, 71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 46, 119
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Gear\Cloudprinter.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Gear\Common.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Gear\Inventory.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 28
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Gear\Kitventory.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 37, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\Gear\Recycler.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\Systems\meta\WorldMap.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\006_Player\io\In.gd", "GDScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Controller\API.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 36, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Medium\Hub.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Medium\_AREA.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Medium\_LINEA.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Medium\_SELECT.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Source\Hub.gd", "GDScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\SpaceSlots\Source\_SELF.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerBasic\Hub.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\Hub.gd", "GDScript", 0, 37, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 72
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_BASE.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_COMPARE_STAT.gd", "GDScript", 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 81
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_HAS_CONDITION.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 54
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_HAS_FLAG.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_HAS_TEXTURE.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\007_Effect_Generator\Entity Manager\TriggerSpecific\_IS_DOOR.gd", "GDScript", 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 81
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Controller\API.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 25, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\InjectionComponents\I_1_Binary_Comparison.gd", "GDScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\BAN Manipulation\electrifying.gd", "GDScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Elemental\Fire\burning.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 60
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Elemental\Water\wet.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Physiological\Movement\incapacitated.gd", "GDScript", 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 68
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Psychological\Confusing\Wandering.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Senses\Sight\Overstimulating.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\008_Conditions\Strategies\Senses\Sight\Understimulating.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Controller\API.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 23, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Changing\change raw value.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 87
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Changing\exchange Texture.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Creation\Spawn Tile around.gd", "GDScript", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 69
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Creation\Spawn Tile.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 51
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Damaging\Deal Plain Damage.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Damaging\Deal Structural Damage.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\009_Statmods\Statmods\Player\Move Tile.gd", "GDScript", 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 68
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Controller\API.gd", "GDScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 30, 78
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Manager\selectManager.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\Utils.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\area.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 46
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\crosshair.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\linea area.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 25
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\quader.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\select.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 28
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\010_Tilemap_Selector\Systems\universal.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\011_Procgen_Actor\Controller\API.gd", "GDScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 17, 41
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\011_Procgen_Actor\Entity Manager\CreateNPCProcess.gd", "GDScript", 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 32, 82
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\011_Procgen_Actor\Entity Manager\DynamicNPC.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\012_Procgen Chunk\Controller\API.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\013_Procgen_Loot\Controller\API.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\013_Procgen_Loot\Entity Manager\entMan.gd", "GDScript", 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 19, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\014_Behavior\Controller\API.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\015_Items\Controller\API.gd", "GDScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\017_CLI\Controller\API.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\017_CLI\Controller\Syntax.gd", "GDScript", 0, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 116
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Modules\017_CLI\Systems\RESTMODE.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 11
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\MDWriter.gd", "GDScript", 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 115
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\Main.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\Dictionary.gd", "GDScript", 0, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 70
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\DirectoryManager.gd", "GDScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 51
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\Filepath Builder.gd", "GDScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\JSONParser.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\KitsUILoader.gd", "GDScript", 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\NodesManager.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\Util\SubUtils\RNG.gd", "GDScript", 0, 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 67
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\EntropyBar.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\HUD\Camera2D.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\HUD\Menue loader.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 66
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\PanicMode.tscn", "Properties", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 38
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\SidePanelCache.gd", "GDScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Inv Side Panel\Inv.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Inv Side Panel\Inv.tscn", "Properties", 856, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 87, 943
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Kits Side Panel\AnimationPlayer.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Kits Side Panel\Kits.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Kits Side Panel\Kits.tscn", "Properties", 926, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 1021
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Monitor Side Panel\Monitor.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Monitor Side Panel\Monitor.tscn", "Properties", 303, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 332
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\News Side Panel\News.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\News Side Panel\News.tscn", "Properties", 992, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 93, 1085
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Onlook Sub Panel\News.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Onlook Sub Panel\Onlook.tscn", "Properties", 151, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 164
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Action.tscn", "Properties", 201, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 225
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Entrope Bar.tscn", "Properties", 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 111
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\GUI.tscn", "Properties", 79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 91
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Map.tscn", "Properties", 143, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 176
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\Quest.tscn", "Properties", 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 265
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\Rootpanel\SidePanel.tscn", "Properties", 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 144
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\ViewModes\Input handler.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\Subscenes\ViewModes\dummy.tscn", "Properties", 315, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 349
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\UserinputHub.gd", "GDScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\PanicMode\rng Backgrounf.gd", "GDScript", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\HUD\HUD.tscn", "Properties", 336, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 370
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\HUD\Manager.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\HUD\ScreenSwapText.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\HUD\instanceHUD.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\HUD\text.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Progression.tscn", "Properties", 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 23, 74
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Charsheet\Charsheet.tscn", "Properties", 3091, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 336, 3427
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Filter.gd", "GDScript", 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Generall.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Inventar.tscn", "Properties", 4866, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 516, 5382
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\InventarInit.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 46
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Kit Info.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\ScrollContainer.gd", "GDScript", 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 68
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\SlotManager\Effect.gd", "GDScript", 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 76
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\SlotManager\Space.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\SlotManager\Time.gd", "GDScript", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\SlotManager\Trigger.gd", "GDScript", 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 46, 111
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\InsertKitSet.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\KitOverview.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\KitSetEntryOne.tscn", "Properties", 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 151
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\KitSetEntryTwo.tscn", "Properties", 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 148
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\Subscene\Recycler.tscn", "Properties", 861, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 955
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\TimeSlotButton\Butto4n.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\TimeSlotButton\Button.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\TimeSlotButton\Button3.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\TimeSlotButton\button2.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Inventory\panicbutton.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 19
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Self\Rootnet\Rootnet.tscn", "Properties", 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 56
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\All KitParts.gd", "GDScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Category.gd", "GDScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Fill Form\FillAppendix.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 13
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Fill Form\FillBase.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 15
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Fill Form\FillMod.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 13
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Fill Form\table.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Fill Form\table.tscn", "Properties", 822, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 123, 945
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\KitSwapText.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\Station.tscn", "Properties", 1330, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 176, 1506
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\StationInit.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\VBoxContainer2.gd", "GDScript", 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\current Kit.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Gameloop\RestMode\Station\kitparts to gear.gd", "GDScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Checkbox\Constructor.gd", "GDScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 82
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Checkbox\Userinput.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Checkbox\universal Cheackbox.tscn", "Properties", 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Flatbox Style\StyleManager.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Look at Panel\Initialice.gd", "GDScript", 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 72
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Look at Panel\look at.tscn", "Properties", 242, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 269
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Panel\Constructor.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 40
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\ProgressionBar\ProgressionBar.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\ProgressionBar\ProgressionBar.tscn", "Properties", 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 99
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\ProgressionBar\hover up.gd", "GDScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 47
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Textfield input\FormatedRichTextLabel.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 61
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Textfield input\Injectables\Injectable_ChangeScene.gd", "GDScript", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Templates\GUI\Textfield input\TextClick.gd", "GDScript", 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\CLI.tscn", "Properties", 2992, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 311, 3303
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\Description.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\Gear.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\Parameter.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\RichTextLabel.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\Spawn.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\TextInputField.gd", "GDScript", 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 106
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\common.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 31
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\input.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\API_017_CLI\kits.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 35
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Enter Restmode Popup\charsheetr.tscn", "Properties", 191, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 221
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Enter Restmode Popup\enterRestmode\Panel.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Enter Restmode Popup\enterRestmode\buttonN.gd", "GDScript", 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Enter Restmode Popup\enterRestmode\buttonY.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Enter Restmode Popup\enterRestmode\enterSaveroom.tscn", "Properties", 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 108
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\Hauptmenü.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 21
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\MainMenuePoints.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\RichTextLabel.gd", "GDScript", 0, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 40
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\Introduction.tscn", "Properties", 299, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 333
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\News.tscn", "Properties", 166, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43, 209
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\Patchnotes.tscn", "Properties", 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 104
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\Form Inputlistener.gd", "GDScript", 0, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\create new game alt.gd", "GDScript", 0, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 92
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\create new game alt.tscn", "Properties", 321, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 360
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\create new game.tscn", "Properties", 916, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 126, 1052
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\custome kitpart.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33, 69
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\initForm.gd", "GDScript", 0, 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 102
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\create new game\nameInput.gd", "GDScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\credits.tscn", "Properties", 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 110
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\SubScene\personal.tscn", "Properties", 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 117
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\Title.tscn", "Properties", 230, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 261
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\init.gd", "GDScript", 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 77
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\rtk.gd", "GDScript", 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 11
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\scripts\AnimatedPNG.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\scripts\AnimatedText.gd", "GDScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 49
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\scripts\MainMenuePoints.gd", "GDScript", 0, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17, 87
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\Src\scenes\Unique\Titlescreen\scripts\close MenuePoint.gd", "GDScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\appender.gd", "GDScript", 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 15, 46
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\appenders\console_appender.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\appenders\file_appender.gd", "GDScript", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\layout.gd", "GDScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\layouts\html_layout.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 14, 72
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\layouts\pattern_layout.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\logger.gd", "GDScript", 0, 184, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 53, 244
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\message.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\plugin.cfg", "Properties", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\plugin.gd", "GDScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 11
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gs_logger\utils.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 42
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\GutScene.gd", "GDScript", 0, 349, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 433
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\GutScene.tscn", "Properties", 424, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 472
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\LICENSE.md", "Markdown", 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\UserFileViewer.gd", "GDScript", 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 56
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\UserFileViewer.tscn", "Properties", 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 128
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\autofree.gd", "GDScript", 0, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 60
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\comparator.gd", "GDScript", 0, 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 131
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\compare_result.gd", "GDScript", 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\diff_formatter.gd", "GDScript", 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 65
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\diff_tool.gd", "GDScript", 0, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 38, 162
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\doubler.gd", "GDScript", 0, 439, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 108, 557
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\gut.gd", "GDScript", 0, 1089, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 204, 274, 1567
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\gut_cmdln.gd", "GDScript", 0, 339, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 54, 403
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\gut_plugin.gd", "GDScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\hook_script.gd", "GDScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8, 36
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\logger.gd", "GDScript", 0, 277, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 66, 349
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\method_maker.gd", "GDScript", 0, 181, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 28, 214
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\one_to_many.gd", "GDScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6, 39
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\optparse.gd", "GDScript", 0, 206, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 36, 249
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\orphan_counter.gd", "GDScript", 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 56
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\parameter_factory.gd", "GDScript", 0, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 75
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\parameter_handler.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 37
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\plugin.cfg", "Properties", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\plugin_control.gd", "GDScript", 0, 211, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 30, 248
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\printers.gd", "GDScript", 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 38, 158
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\signal_watcher.gd", "GDScript", 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 167
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\spy.gd", "GDScript", 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 109
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\strutils.gd", "GDScript", 0, 136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 23, 167
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\stub_params.gd", "GDScript", 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\stubber.gd", "GDScript", 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 164
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\summary.gd", "GDScript", 0, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 34, 172
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\test.gd", "GDScript", 0, 1172, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 187, 208, 1567
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\test_collector.gd", "GDScript", 0, 236, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 41, 287
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\thing_counter.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 44
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\gut\utils.gd", "GDScript", 0, 243, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 45, 57, 345
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\mono_debugger\MonoDebugger.gd", "GDScript", 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 26
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\addons\mono_debugger\plugin.cfg", "Properties", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\Savestate\One\Runner\chargen presets.json", "JSON", 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 52
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\Savestate\One\Runner\generated\Inventory.json", "JSON", 0, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 86
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\Savestate\One\Runner\generated\generall and stats.json", "JSON", 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 91
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\Savestate\One\Runner\player.json", "JSON", 0, 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 87
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\Suburban.json", "JSON", 0, 0, 216, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 216
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\debugKitsAtStart.json", "JSON", 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 16
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\config\experimental_tilemap.json", "JSON", 0, 0, 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\default_env.tres", "Properties", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\export_presets.cfg", "Properties", 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 43
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\project.godot", "Properties", 1936, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 1963
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\test\test.md", "Markdown", 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\test\test.tscn", "Properties", 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\RuntimeConfigs\Custome_NPC\Suburban.json", "JSON", 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 30
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\RuntimeConfigs\Statistics.json", "JSON", 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 42
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\RuntimeConfigs\Text-inserts\DynamicSubtitle.json", "JSON", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 24
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\RuntimeConfigs\quickStart.json", "JSON", 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\JSON\Components.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 33
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\JSON\Effect.gd", "GDScript", 0, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 138
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\JSON\kitparts.gd", "GDScript", 0, 79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 66, 146
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\Atlas.gd", "GDScript", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\Components.gd", "GDScript", 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\Effect.gd", "GDScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 47
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\Tileset.gd", "GDScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 34
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\enum.gd", "GDScript", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 64
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\MD\kitparts.gd", "GDScript", 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 56
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\StatisticHub.gd", "GDScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 47
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Components.md", "Markdown", 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 66
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Enum.md", "Markdown", 0, 0, 0, 184, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 68, 252
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Kitparts.md", "Markdown", 0, 0, 0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 145
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Race.md", "Markdown", 0, 0, 0, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 98
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Role.md", "Markdown", 0, 0, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 134
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Specialty.md", "Markdown", 0, 0, 0, 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 113
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Static.md", "Markdown", 0, 0, 0, 2378, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 189, 2567
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Tile.md", "Markdown", 0, 0, 0, 3540, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 281, 3821
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Atlas_Tilesets.md", "Markdown", 0, 0, 0, 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 206
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Syntax Components.json", "JSON", 0, 0, 224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 225
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\Syntax Components.md", "Markdown", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\PatnicRoom\tools\Statistics\output\components.json", "JSON", 0, 0, 541, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 592
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\About.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 0, 0, 51, 84, 350
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\Blogpost.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 141, 0, 0, 17, 45, 203
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\Download.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 259, 0, 0, 19, 89, 367
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\Event.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 215, 0, 0, 51, 84, 350
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\Patch.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 136, 0, 0, 17, 58, 211
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\Team.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 156, 0, 0, 17, 51, 224
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\about.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 9
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\blog.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 3, 6
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\download.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 2, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\font-awesome.min.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 1, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\home.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 3, 13
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\patchnotes.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 12
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\responsive.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2151, 14, 579, 2744
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\style.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1195, 69, 237, 1501
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\assets\css\team.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 6, 29
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 202, 0, 0, 21, 64, 287
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\contact-form-process.php", "PHP", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0, 2, 20, 77
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\forms\contact.php", "PHP", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 16, 8, 42
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\js\jquery.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 2, 6
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\js\main.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 185, 0, 0, 0, 54, 26, 265
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\js\skel.min.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\Workspaces\Webside\src\js\util.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 326, 0, 0, 0, 75, 186, 587
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Components.md", "Markdown", 0, 0, 0, 59, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 66
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Enum.md", "Markdown", 0, 0, 0, 225, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78, 303
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Kitparts.md", "Markdown", 0, 0, 0, 106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 61, 167
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Race.md", "Markdown", 0, 0, 0, 81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 98
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Role.md", "Markdown", 0, 0, 0, 115, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 134
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Specialty.md", "Markdown", 0, 0, 0, 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 113
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Static.md", "Markdown", 0, 0, 0, 2378, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 189, 2567
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Tile.md", "Markdown", 0, 0, 0, 3540, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 281, 3821
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Atlas_Tilesets.md", "Markdown", 0, 0, 0, 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 206
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\Kitparts.json", "JSON", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Atlas\components.json", "JSON", 0, 0, 541, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 51, 592
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\arisPROCGENes.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\democrECS.md", "Markdown", 0, 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 100
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\descARtes.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\dioJSONes.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\heGEL.md", "Markdown", 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\kANt.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\mARx.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Cogsmos\sokraTILES.md", "Markdown", 0, 0, 0, 146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 175
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Conventions\enum.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Conventions\moduleStructure.md", "Markdown", 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Conventions\naming.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Conventions\styling.md", "Markdown", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 22
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Core\Atlas.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Core\RuntimeParameter.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\actor.md", "Markdown", 0, 0, 0, 64, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 89
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\condition.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\effect.md", "Markdown", 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 42
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\interact.md", "Markdown", 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 58
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\kitpart.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\kitset.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\loot.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\player.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\symbiotic.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Entities\tile.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 59
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Landing.md", "Markdown", 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\001.md", "Markdown", 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\002.md", "Markdown", 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\003.md", "Markdown", 0, 0, 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 48
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\004.md", "Markdown", 0, 0, 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 50
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\005.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\006.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\007.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\008.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\009.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\010.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\011.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\012.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\013.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\014.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\015.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Modules\016.md", "Markdown", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 10
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Syntax\Effect Syntax.md", "Markdown", 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 53
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Syntax\Syntax Components.json", "JSON", 0, 0, 210, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 211
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Syntax\Syntax Components.md", "Markdown", 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 47
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Syntax\effectOverview.md", "Markdown", 0, 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 63
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\Syntax\lootTables.md", "Markdown", 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 17
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\atlasOverview.md", "Markdown", 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\cogsmosOverview.md", "Markdown", 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 23, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\conventionsOverview.md", "Markdown", 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\entitiesOverview.md", "Markdown", 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 20
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\gettingStartedOverview.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\modulesOverview.md", "Markdown", 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 32
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\overview.md", "Markdown", 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\syntaxOverview.md", "Markdown", 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\docs\tags.md", "Markdown", 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 7
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\docs\mkdocs.yml", "YAML", 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 13, 55
+"c:\Users\Daniel\Documents\GitHub\PatnicRoom Developer Edition\workspaceSettings.code-workspace", "JSON with Comments", 0, 0, 0, 0, 47, 0, 0, 0, 0, 0, 0, 0, 0, 317, 15, 379
+"Total", "-", 31870, 16469, 13228, 20811, 47, 42, 900, 35, 6, 515, 1324, 73, 3454, 1744, 17362, 107880

@@ -1,0 +1,116 @@
+{
+    "LOOT_TABLE_ID": "EXAMPLE_0",
+
+
+
+    "CONTENT" : {
+      
+      "1" : {
+          "CHANCE_PER_HUNDRED" : "10.5",
+          "LOOT_TYPE"          : "CREDITS",
+            "AMOUNT"             : { "TYPE":"HARD_WIRED" , "VALUE":"120" }
+      },
+      
+  
+      "2" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "CREDITS",
+        "AMOUNT"             : { "TYPE":"SIMPLE_RANDOM" , "VALUE":["10","50"] }
+      },
+      
+  
+      "3" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "CREDITS",
+        "AMOUNT"             : { "TYPE":"COMPLEX_RANDOM" , "VALUE":["10W6","+","50"] }
+      },
+      
+  
+      "4" : {
+        "CHANCE_PER_HUNDRED"         : "100",
+        "LOOT_TYPE"                  : "EVENT",
+  
+        "LOG"                        : "Something is happening...role on",
+        "LOG_SUCCESS"                : "You did it",
+        "LOG_FAILURE"                : "Better lcuk next Time",
+  
+        "SKILL_TO_CHECK"             : "ASSENSING",
+        "TRASH_HOLD"                 : "4",
+        "EFFECT_REFERENCE_SUCCES"    : "1",
+        "EFFECT_REFERENCE_FAILURE"   : "VOID"
+      },
+      
+  
+      "5" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "CONSUMABLES",
+        "LISTING"            : { "CONSUMABLE_FLAG" : "FIRST_AID" },
+        "AMOUNT"             : { "TYPE":"HARD_WIRED" , "VALUE":"1" }
+      },
+      
+  
+      "6" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "CONSUMABLES",
+        "AMOUNT"             : { "TYPE":"HARD_WIRED" , "VALUE":"1" },
+        "LISTING"            : { "HARD_WIRED" : [
+                "itemNameOne"
+              ,"itemNameTwo"]
+      },
+        
+        
+      "7" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "KIT_PART",
+        "AMOUNT"             : { "TYPE":"HARD_WIRED" , "VALUE":"1" },
+        "LISTING"            : { "TYPE" : {
+                "M_TYPE"    : "MEAT_MAGIC",
+              "PART"      : "BASE",
+              "RELEVANCE" : "IRRELEVANT" }
+      },
+
+
+      "8" : {
+        "CHANCE_PER_HUNDRED" : "100",
+        "LOOT_TYPE"          : "KIT_PART",
+        "AMOUNT"             : { "TYPE":"HARD_WIRED" , "VALUE":"1" },
+        "LISTING"            : { "HARD_WIRED" : [
+                "itemNameOne"
+              ,"itemNameTwo"]
+      }
+      
+    },
+
+
+
+    "EFFECT_REFERENCES":{
+        "1" : {      
+          "TIME":{
+                "TIME-0":"INSTANT",
+                "TIME-1":"N/A",
+                "TIME-2":"N/A",
+                "TIME-3":"N/A"
+                },
+          "TRIGGER":{
+             "TRIGGER-0":{
+                "BASE":"TILE_ACTOR",
+                "SPECIFIC":[ ["BASE","BASE"]]
+             }},
+          "SPACE":{
+             "SPACE-0":{
+                "MEDIUM":"LINEA",
+                "SOURCE":"SELF",
+                "REACH":"4",
+                "M_TYPE":"MEAT"
+            }},
+          "EFFECT":{
+             "EFFECT-0":{
+                "CONDITION":[ ["Elemental_Fire_Burning","3","1"] ],
+                "STAT_MOD":[ ["U_DEAL_PLAIN_DAMAGE","-1"] ]}
+            }
+        }  
+    }
+
+
+    
+}

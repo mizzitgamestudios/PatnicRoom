@@ -1,0 +1,31 @@
+{
+
+    "C_14_ACTOR_SPECIALTY_NAME"      : "bottle collector",
+    "F_6_ACTOR_ATTRIBUTES"           : "N/A",
+    "F_7_ACTOR_ATTRIBUTES_SPECIALTY" : "N/A",
+    "C_50_ACTOR_ROLE_DESCRIPTION"    : "probably still earns as  mucg as your typicall wageslave",
+    "C_47_ANY_SYNONYM"               : ["bottle collector","coupon collector","dumpster diver"],
+    "C_6_TILE_NAME"                  : "bottle collector",
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" :  2,
+      "agi" :  0,
+      "rea" :  0,
+      "str" :  0,
+  
+      "wil" :  1,
+      "log" : -1,
+      "int" : -1,
+      "cha" :  0
+    },
+  
+  
+    "C_20_ACTOR_SKILLBLOCK" : {
+      "NEGOTIATION"  : "2",
+      "DISGUISE"     : "3",
+      "CHEMISTRY"    : "5"
+    }
+    
+  
+    
+  }

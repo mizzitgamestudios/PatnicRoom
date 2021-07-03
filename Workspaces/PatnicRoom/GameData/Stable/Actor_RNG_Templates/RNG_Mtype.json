@@ -1,0 +1,27 @@
+{
+    "PARSER_EXCEPTION_MARKER" : "NPC_TEMPLATE"
+
+
+
+    ,"NAME"       : "RNG_M_TYPE"
+
+    ,"RACE"       : { "FOCUSED_M_TYPE" : ["HUMAN"]   }
+    ,"SPECIALTY"  : { "FOCUSED_M_TYPE" : ["MAGIC"]  }
+    ,"ROLE"       : { "FOCUSED_M_TYPE" : ["MATRIX"] }
+    ,"TRAITS"     : { "INDEX" : []                  }
+    ,"LOOT_TABLES" : {     "":""                          }
+
+
+
+    ,"KITSETS" : { 
+        "INDEX" : [
+             ["C_S_1" , "NULL" , "NULL"]
+            ,["C_S_2" , "NULL" , "NULL"]
+        ]
+    }
+    
+    ,"ITEMS" : { 
+        "INDEX" : ["Arsenist","Brawler"]
+    }
+
+}

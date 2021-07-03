@@ -1,0 +1,34 @@
+{
+  "mandatory to fill out" : [
+     "C_6_TILE_NAME"
+    ,"C_0_ANY_DESCRIPTION"
+
+    ,"C_27_ACTOR_RACIAL_ENEMIES"
+    ,"C_28_ACTOR_RACIAL_FRIENDS"
+
+    ,"C_19_ACTOR_ATTRIBUTES"
+    
+  ],
+
+  "flags to add" : [
+     "F_11_ACTOR_ATTRIBUTES_RACE"
+    ,"F_6_ACTOR_ATTRIBUTES"
+  ],
+
+  "mirrored values" : {
+    "C_40_ANY_TO_STRING" : "C_6_TILE_NAME"
+  },
+
+  "static values" : {
+
+  },
+
+  "dynamic values" : [
+
+  ],
+
+  "filename prefix" : "[ACTOR] [RACE] ",
+
+  "entity with effect" : false
+
+}

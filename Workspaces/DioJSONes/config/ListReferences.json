@@ -1,0 +1,22 @@
+{
+  "TILE_SET":[
+     "General"
+    ,"POI"
+    ,"Suburban"
+    ,"CommonBNPC"
+    ,"Security"
+    ,"Marker"
+    ,"Shop"
+    ,"Nature"
+  ],
+
+
+  "CONDITION":[
+     "Elemental_Fire_Burning"
+    ,"Physiological_Movement_Incapacitated"
+    ,"Elemental_Water_Wet"
+    ,"Cond_BAN_Electrifying"
+  ]
+
+
+}

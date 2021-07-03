@@ -1,0 +1,29 @@
+{
+
+	"wrapper":[
+		{
+			"C_12_FOR_RACE":"DWARF",
+			"C_12_FOR_ROLE":"SPELLCASTER_1",
+			"C_12_FOR_SPECIALTY":"ESOTERIC_CONARTIST",
+			"C_6_TILE_NAME":"CommonBNPC_0_0",
+			"posX":"34",
+			"posY":"28"
+		},{
+			"C_12_FOR_RACE":"DWARF",
+			"C_12_FOR_ROLE":"SPELLCASTER_1",
+			"C_12_FOR_SPECIALTY":"ESOTERIC_CONARTIST",
+			"C_6_TILE_NAME":"CommonBNPC_0_2",
+			"posX":"29",
+			"posY":"40"
+	},
+	{
+		"C_12_FOR_RACE":"DWARF",
+		"C_12_FOR_ROLE":"SPELLCASTER_1",
+		"C_12_FOR_SPECIALTY":"ESOTERIC_CONARTIST",
+		"C_6_TILE_NAME":"CommonBNPC_1_6",
+		"posX":"18",
+		"posY":"42"
+}
+	]
+
+}

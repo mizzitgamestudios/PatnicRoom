@@ -1,3 +1,0 @@
-extends DemocrECTS_Controller
-
-

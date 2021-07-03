@@ -1,0 +1,28 @@
+{
+
+    "C_6_TILE_NAME"               : "scorching",
+    "F_5_KITPART_TYPE"            : "N/A",
+    "F_16_KITPART_TYPE_MOD"      : "N/A",
+    "C_12_KITSET_INDEX"           : "C_S_1__M_2",
+    "C_0_ANY_DESCRIPTION"         : "The flame that burns Twice as bright burns half as long",
+    "C_40_ANY_TO_STRING"          : "scorching",
+    "C_35_KIT_MECHANICAL_SUMMARY" : "Fire lasts just 1 Turn but does the three times the damage",
+    "C_48_ANY_RARITY"             : "5",
+ 
+    "C_37_ANY_M_TYPE"             : "MAGIC",
+    "C_31_KIT_CAT_TYPE"           : "SPELL",
+    "C_38_KIT_PART_TYPE"          : "MOD",
+    "C_36_KIT_MOD_TIME"           : "2",
+    "C_33_KIT_COOLDOWN_TIMER"     : "1",
+    "C_60_BASE_KIT_REFERENCE"     : "Crispyfier",
+ 
+    "C_59_KIT_MOD_CHANGE":
+ [{
+         "slot":"EFFECT_CONDITION",
+         "unit":"SPAWN",
+         "mode":"CHANGE",
+         "value":[["Elemental_Fire_Burning","1","3"]]
+ }
+    ]
+     
+ }

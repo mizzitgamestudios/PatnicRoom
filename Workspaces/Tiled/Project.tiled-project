@@ -1,0 +1,11 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "../../../../../extensions",
+    "folders": [
+        "../PatnicRoom/Media/Tilesets",
+        "../PatnicRoom/Media/TileMap"
+    ],
+    "objectTypesFile": ""
+}

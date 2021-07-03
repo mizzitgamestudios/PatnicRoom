@@ -1,0 +1,237 @@
+{
+
+
+    "SELF": {
+      "keyword": "SELF",
+      "toString": "self",
+      "unit": "SPACE",
+      "stat": "SOURCE",
+      "explanation": "source of the effect is the position of the player-character",
+      "moduleName": "VOID"
+    },
+    "LINEA": {
+      "keyword": "LINEA",
+      "toString": "linea",
+      "unit": "SPACE",
+      "stat": "MEDIUM",
+      "explanation": "draws a cross at soruce in all four direction,a directional input set the final select on the appropiated line",
+      "moduleName": "VOID"
+    },
+    "SELECT": {
+      "keyword": "SELECT",
+      "toString": "advanced search",
+      "unit": "SPACE",
+      "stat": "MEDIUM",
+      "explanation": "selects every entity seen on screen (Tiles,Statics,Actors), specific triggers recommended",
+      "moduleName": "VOID"
+    },
+    "AREA": {
+      "keyword": "AREA",
+      "toString": "circle area",
+      "unit": "SPACE",
+      "stat": "MEDIUM",
+      "explanation": "draws a Circle at soruce",
+      "moduleName": "VOID"
+    },
+
+
+
+
+    "TILE": {
+      "keyword": "TILE",
+      "toString": "TILE",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Ground",
+      "moduleName": "VOID"
+    },
+    "ACTOR": {
+      "keyword": "ACTOR",
+      "toString": "ACTOR",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Actors",
+      "moduleName": "VOID"
+    },
+    "INTERACT": {
+      "keyword": "INTERACT",
+      "toString": "INTERACT",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Interactables",
+      "moduleName": "VOID"
+    },
+    "ALL": {
+      "keyword": "ALL",
+      "toString": "ALL",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Interactables and Ground and Actors",
+      "moduleName": "VOID"
+    },
+    "INTERACT_ACTOR": {
+      "keyword": "INTERACT_ACTOR",
+      "toString": "INTERACT_ACTOR",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Interactables and Actors",
+      "moduleName": "VOID"
+    },
+    "INTERACT_TILE": {
+      "keyword": "INTERACT_TILE",
+      "toString": "INTERACT_TILE",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Interactables and Ground",
+      "moduleName": "VOID"
+    },
+    "TILE_ACTOR": {
+      "keyword": "TILE_ACTOR",
+      "toString": "TILE_ACTOR",
+      "unit": "TRIGGER",
+      "stat": "BASIC",
+      "explanation": "Actors and Ground",
+      "moduleName": "VOID"
+    },
+
+
+
+
+    "BASE": {
+      "keyword": "BASE",
+      "toString": "basic Trigger",
+      "unit": "TRIGGER",
+      "stat": "SPECIFIC",
+      "explanation": "dont reduces selects any further",
+      "moduleName": "VOID"
+    },
+    "HAS_CONDITION": {
+      "keyword": "HAS_CONDITION",
+      "toString": "has condition",
+      "unit": "TRIGGER",
+      "stat": "SPECIFIC",
+      "explanation": "validates select if entity is affected by an Condition",
+      "moduleName": "CONDITION"
+    },
+    "HAS_STAT": {
+      "keyword": "HAS_STAT",
+      "toString": "compare stat",
+      "unit": "TRIGGER",
+      "stat": "SPECIFIC",
+      "explanation": "compare the stat X if its Y than Z",
+      "moduleName": "COMPARATOR"
+    },
+    "HAS_TEXTURE": {
+      "keyword": "HAS_TEXTURE",
+      "toString": "has texture",
+      "unit": "TRIGGER",
+      "stat": "SPECIFIC",
+      "explanation": "if it has the textureID (put together by tileset-toString,x,y)",
+      "moduleName": "TEXTURE"
+    },
+    "IS_DOOR": {
+      "keyword": "IS_DOOR",
+      "toString": "is a door",
+      "unit": "TRIGGER",
+      "stat": "SPECIFIC",
+      "explanation": "if it has the flag F_9_IS_DOOR",
+      "moduleName": "IS_DOOR"
+    },
+
+
+
+
+    "U_CHANGE_RAW_VALUE": {
+      "keyword": "U_CHANGE_RAW_VALUE",
+      "toString": "change plain values",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "change a Component-values",
+      "moduleName": "COMPONENT"
+    },
+    "U_EXCHANGE_TEXTURE": {
+      "keyword": "U_EXCHANGE_TEXTURE",
+      "toString": "exchange Texture",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "Change Texture to C_58_ALTERNATIVE_TEXTURES",
+      "moduleName": "VOID"
+    },
+    "U_DEAL_PLAIN_DAMAGE": {
+      "keyword": "U_DEAL_PLAIN_DAMAGE",
+      "toString": "Deal plain damage",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "Deal damage to actors",
+      "moduleName": "SLIDER"
+    },
+    "U_DEAL_STRUCTURAL_DAMAGE": {
+      "keyword": "U_DEAL_STRUCTURAL_DAMAGE",
+      "toString": "Deal structural damage",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "Deal damage to interactables",
+      "moduleName": "SLIDER"
+    },
+    "U_SPAWN_TILE": {
+      "keyword": "U_SPAWN_TILE",
+      "toString": "Spawns Tile",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "Spawn Tile by TextureID",
+      "moduleName": "TEXTURE"
+    },
+    "U_SPAWN_TILE_AROUND": {
+      "keyword": "U_SPAWN_TILE_AROUND",
+      "toString": "Spawns Tile around",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "Spawn Tile around by TextureID",
+      "moduleName": "TEXTURE"
+    },
+    "U_MOVE_USER": {
+      "keyword": "U_MOVE_USER",
+      "toString": "Move User",
+      "unit": "EFFECT",
+      "stat": "STAT_MOD",
+      "explanation": "WIP",
+      "moduleName": "VOID"
+    }
+
+
+      ,"Elemental_Fire_Burning"               : { "toString":"Burning"        , "requirement":[]   , "moduleName":"CONDITION" }
+      ,"Elemental_Water_Wet"                  : { "toString":"Wet"            , "requirement":[]   , "moduleName":"CONDITION" }
+      ,"Physiological_Movement_Incapacitated" : { "toString":"Incapacitated"  , "requirement":[]   , "moduleName":"CONDITION" }
+      ,"Cond_BAN_Electrifying"                : { "toString":"Electrifying"   , "requirement":[]   , "moduleName":"CONDITION" },
+
+
+
+      "MEAT": {
+        "keyword": "MEAT",
+        "toString": "Meat",
+        "unit": "SPACE",
+        "stat": "M_TYPE",
+        "explanation": "Meat",
+        "moduleName": "VOID"
+      },
+      "MAGIC": {
+        "keyword": "MAGIC",
+        "toString": "Magic",
+        "unit": "SPACE",
+        "stat": "M_TYPE",
+        "explanation": "Magic",
+        "moduleName": "VOID"
+      },
+      "MATRIX": {
+        "keyword": "MATRIX",
+        "toString": "Matrix",
+        "unit": "SPACE",
+        "stat": "M_TYPE",
+        "explanation": "Matrix",
+        "moduleName": "VOID"
+      }
+
+
+
+
+}

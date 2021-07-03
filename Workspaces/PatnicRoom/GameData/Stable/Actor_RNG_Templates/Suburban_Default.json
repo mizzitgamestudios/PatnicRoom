@@ -1,0 +1,23 @@
+{
+    "PARSER_EXCEPTION_MARKER" : "NPC_TEMPLATE"
+
+    ,"NAME"       : "SUBURBAN_DEFAULT"
+    
+    ,"RACE"       : { "INDEX" : ["HUMAN","DWARF","ELF"]         }
+    ,"SPECIALTY"  : { "INDEX" : ["WAGESLAVE" , "DRUG_DEALER" , "ESOTERIC_CONARTIST"] }
+    ,"ROLE"       : { "INDEX" : ["INFOBROKER_1" , "ARSENIST_1" , "HACKER_1" , "BRAWLER_1"] }
+    ,"TRAITS"     : { "INDEX" : []                              }
+    ,"LOOT_TABLE" : {                                           }
+
+
+
+    ,"KITSETS" : { 
+        "INDEX" : [
+        ]
+    }
+    
+    ,"ITEMS" : { 
+        "INDEX" : []
+    }
+
+}

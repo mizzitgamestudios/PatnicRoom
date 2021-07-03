@@ -1,0 +1,31 @@
+  
+{
+
+    "C_6_TILE_NAME"              : "Elf",
+    "C_0_ANY_DESCRIPTION"        : "just like humans,but in tiny",
+    "F_6_ACTOR_ATTRIBUTES"       : "N/A",
+    "F_11_ACTOR_ATTRIBUTES_RACE" :"N/A",
+  
+    "C_27_ACTOR_RACIAL_ENEMIES"  : [
+      "Orc",
+      "Troll"
+    ],
+    "C_28_ACTOR_RACIAL_FRIENDS"  : [
+      "Human"
+    ],
+  
+    "C_19_ACTOR_ATTRIBUTES"      : {
+      "constitution" : 5,
+      "agillity"     : 2,
+      "reaction"     : 3,
+      "strength"     : 5,
+  
+      "willpower"    : 3,
+      "logic"        : 2,
+      "intuition"    : 2,
+      "charisma"     : 1
+    }
+  
+  
+  
+  }
