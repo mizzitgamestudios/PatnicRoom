@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Src/Frontend/content creation/Input/InputModules universal/Slider/sliderSkript.gd" type="Script" id=2]
 [ext_resource path="res://Src/Frontend/content creation/Input/InputModules universal/Slider/sliderScene.gd" type="Script" id=3]
+=======
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Src/Frontend/content creation/Input/InputModules universal/Slider/sliderSkript.gd" type="Script" id=2]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.12549, 0.686275, 0.478431, 1 )
@@ -17,7 +24,10 @@ size = 30
 font_data = ExtResource( 1 )
 
 [node name="Slider" type="Node2D"]
+<<<<<<< HEAD
 script = ExtResource( 3 )
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 [node name="marker" type="Panel" parent="."]
 margin_left = 190.0

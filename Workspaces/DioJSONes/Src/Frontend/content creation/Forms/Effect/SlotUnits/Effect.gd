@@ -31,6 +31,7 @@ func getScrollContainer(string):
 		for i in range(0,4):listOfEffects[i].bbcode_text = ""
 	
 	listOfEffects[counter].bbcode_text = string
+<<<<<<< HEAD
 	if string != "":
 		var keyword = SYNTAX.crossReferenceInputKeyword[string]
 		var moduleName = SYNTAX.masterAtlas[keyword]["moduleName"]
@@ -44,12 +45,16 @@ func getScrollContainer(string):
 				listOfEffects[counter].inputModule.effectShortName=keyword
 			listOfEffects[counter].get_parent().add_child(inst)
 			counter += 1
+=======
+	counter += 1
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
 func getUnits(effectCache:EffectCache):
 	var cacheCond = []
 	var cacheStat = []
+<<<<<<< HEAD
 	
 	for entry in listOfEffects:
 		if is_instance_valid(entry.inputModule):
@@ -65,6 +70,13 @@ func getUnits(effectCache:EffectCache):
 			if SYNTAX.GET_STAT_MOD_TO_STRING().has(entry.getInputToString()): 
 				cacheStat.append([Utils.foobar(keyword),value])
 		
+=======
+	for entry in listOfEffects:
+		var toString = entry.getInputToString()
+		if toString != "":
+			if SYNTAX.GET_CONDITION_TO_STRING().has(entry.getInputToString()): cacheCond.append(toString)
+			if SYNTAX.GET_STAT_MOD_TO_STRING().has(entry.getInputToString()): cacheStat.append(toString)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	effectCache.effectCondition = cacheCond
 	effectCache.effectStatmod   = cacheStat

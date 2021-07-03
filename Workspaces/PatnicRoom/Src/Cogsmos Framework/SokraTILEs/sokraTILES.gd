@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+###############################################################################################################################
+#                                                                                                                             #
+# Klasse:		--- SokraTILES ---                                                                                         #
+# description:	Responsible for the generation of Game-elements,ecspecially Chunks #
+#                                                                                                                             #
+# data flow:	External JSON -> Tilemap(ActorLayer)                                                                          #
+# often called:	N/A                                                                                                           #
+#                                                                                                                             #
+###############################################################################################################################
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 extends Node
 
@@ -35,6 +47,7 @@ func getAllActorsOnMap() -> Array :
 
 # ----- GETTER --------------------------------------------------------------- ##
 
+<<<<<<< HEAD
 func getPlayer():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES.LAYER.ACTOR_PLAYER)
 func getActor():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES.LAYER.ACTOR_NPC)
 
@@ -50,6 +63,23 @@ func getMagicFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES.LAYER.M
 func getSelection():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES.LAYER.SELECTION)
 
 func getCondition():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES.LAYER.CONDITION)
+=======
+func getPlayer():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_PLAYER)
+func getActor():			return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.ACTOR_NPC)
+
+func getMeatInteract():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_INTERACTABLE)
+func getMeatFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MEAT_GROUND)
+
+func getMatrixInteract():	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_INTERACTABLE)
+func getMatrixFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MATRIX_GROUND)
+
+func getMagicInteract():	return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_INTERACTABLE)
+func getMagicFloor():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.MAGIC_GROUND)
+
+func getSelection():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.SELECTION)
+
+func getCondition():		return SokraTiles.getTilemapLayer(ENUM.SOKRATILES_LAYER.CONDITION)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 	
 func getTilemapLayer(enumOfLayer): return tilemapNode[enumOfLayer]

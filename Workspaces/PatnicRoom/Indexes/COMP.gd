@@ -1,6 +1,7 @@
  extends Node
 
 
+<<<<<<< HEAD
 var ATLAS_INDEX_CLASS       = {}
 var ATLAS_INDEX_COMP        = {}
 var ATLAS_FLAGS             = {}
@@ -15,6 +16,18 @@ func _init() -> void:
 	ATLAS_FLAGS              = _Flags.getFlags()
 	ATLAS_CONSUMABLE_GROUPS  = _Flags.getConsumableFlags()
 	ATLAS_INDEX_CLASS        = _Template.getTemplate()
+=======
+var ATLAS_INDEX_COMP = {}
+var ATLAS_FLAGS      = {}
+
+var ATLAS_COMP_INDEX = {}
+var CLASSES_ARRAY
+var INDEX_ARRAY
+
+func _init() -> void:
+	ATLAS_INDEX_COMP = _Comp.getComponents()
+	ATLAS_FLAGS      = _Flags.getFlags()
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	
 	CLASSES_ARRAY    = ATLAS_INDEX_COMP.values()
@@ -25,22 +38,29 @@ func _init() -> void:
 		ATLAS_COMP_INDEX[CLASSES_ARRAY[i]] = INDEX_ARRAY[i]
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 func GET_BOTH(searchName:String, debugPara=false):
 	if   ATLAS_INDEX_COMP.has(searchName):    return ATLAS_INDEX_COMP[searchName]
 	elif ATLAS_FLAGS.has(searchName):         return ATLAS_FLAGS[searchName]
 	elif debugPara:                           print("Compnent with name: "+searchName+" not found"); return null
 	
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 func GET_COMPONENT(componentName:String, debugPara=false):
 	if ATLAS_INDEX_COMP.has(componentName): return ATLAS_INDEX_COMP[componentName]
 	elif debugPara:                         print("Compnent with name: "+componentName+" not found"); return null
 
+<<<<<<< HEAD
 
 func GET_FLAG(flagName:String, debugPara=false):
 	if   ATLAS_FLAGS.has(flagName):         return flagName
@@ -74,3 +94,10 @@ func HAS_DICT_TEMPLATE(dict:Dictionary):
 	for entry in dict.keys(): 
 		if COMP.HAS_TEMPLATE(entry): return true
 	return false
+=======
+func GET_FLAG(flagName:String, debugPara=false):
+	if   ATLAS_FLAGS.has(flagName):         return ATLAS_FLAGS.get(flagName)
+	elif debugPara:                         return print("flag with name: "+flagName+" not found")
+	else:                                   return null
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

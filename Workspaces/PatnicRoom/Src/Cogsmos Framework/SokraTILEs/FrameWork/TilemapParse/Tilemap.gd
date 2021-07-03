@@ -79,7 +79,11 @@ func findPlayer(layer:Array=[]):
 		for y in size:
 
 			if layer[x*100+y] != 0:
+<<<<<<< HEAD
 				API_006_Player.currentChar.setPos(Vector2(y,x))
+=======
+				API_006_Player.currentChar.position = Vector2(y,x)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 # ----- TILE INSERTER -------------------------------------------------------- ##
@@ -109,8 +113,13 @@ func getTileEntity(tileNrDynamic:int,setNrDynamic:int):
 		var tileNrStatic = currentEnt.staticTilesetNR()
 		
 		if tileNrStatic == tileNrDynamic:
+<<<<<<< HEAD
 			return API_001_Atlas.getTileByTextureID(currentEnt.textureID())
 
+=======
+			if   currentEnt is TileEntity     : return DemokrECTS.initialiceNewEntry(currentEnt)
+			elif currentEnt is InteractEntity : return DemokrECTS.initialiceNewEntry(currentEnt)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

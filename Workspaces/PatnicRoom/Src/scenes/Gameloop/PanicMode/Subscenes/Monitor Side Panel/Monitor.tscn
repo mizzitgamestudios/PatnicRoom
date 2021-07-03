@@ -150,9 +150,15 @@ __meta__ = {
 }
 
 [node name="lifted tab" type="Panel" parent="."]
+<<<<<<< HEAD
 margin_left = 1822.0
 margin_top = 424.0
 margin_right = 1925.0
+=======
+margin_left = 1806.0
+margin_top = 424.0
+margin_right = 1909.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_bottom = 615.0
 custom_styles/panel = SubResource( 2 )
 __meta__ = {
@@ -160,9 +166,15 @@ __meta__ = {
 }
 
 [node name="tab text" type="RichTextLabel" parent="."]
+<<<<<<< HEAD
 margin_left = 1864.0
 margin_top = 614.0
 margin_right = 2056.0
+=======
+margin_left = 1856.0
+margin_top = 614.0
+margin_right = 2048.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_bottom = 678.0
 rect_rotation = 270.0
 custom_fonts/normal_font = ExtResource( 1 )

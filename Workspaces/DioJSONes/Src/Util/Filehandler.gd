@@ -33,5 +33,9 @@ func printForm(dict:Dictionary):
 
 func getModule(moduleString):
 	var dict = Utils.fileToDictionary("res://config/ModulesReference.json")
+<<<<<<< HEAD
 	if moduleString != "VOID": return dict[moduleString]
+=======
+	return dict[moduleString]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 

@@ -1,0 +1,53 @@
+{
+	"C_6_TILE_NAME": "Ww",
+	"C_0_ANY_DESCRIPTION": "Ww",
+	"C_35_KIT_MECHANICAL_SUMMARY": "W",
+	"C_48_ANY_RARITY": "22",
+	"C_31_KIT_CAT_TYPE": "CYBERWARE",
+	"C_36_KIT_MOD_TIME": "2",
+	"C_33_KIT_COOLDOWN_TIMER": "2",
+	"C_60_BASE_KIT_REFERENCE": "2",
+	"F_5_KITPART_TYPE": "N/A",
+	"C_40_ANY_TO_STRING": "Ww",
+	"C_38_KIT_PART_TYPE": "BASE",
+	"C_49_EFFECT_REFERENCE": {
+		"TRIGGER": {
+			"TRIGGER-1": {
+				"BASE": "Interactables and Actors",
+				"SPECIFIC": [
+					"Chance by 100",
+					"Chance by 100",
+					"Chance by 100",
+					"Chance by 100",
+					"Chance by 100",
+					"Chance by 100"
+				]
+			}
+		},
+		"SPACE": {
+			"SPACE-1": {
+				"REACH": "2",
+				"MEDIUM": "Circle",
+				"SOURCE": "LAST_HIT",
+				"M_TYPE": "Matrix"
+			}
+		},
+		"EFFECT": {
+			"EFFECT-1": {
+				"CONDITION": [
+
+				],
+				"STAT_MOD": [
+
+				]
+			}
+		},
+		"TIME": {
+			"TIME-1": 2,
+			"TIME-2": "N/A",
+			"TIME-3": "N/A",
+			"TIME-4": "N/A"
+		}
+	},
+	"C_37_M_TYPE": "MATRIX"
+}

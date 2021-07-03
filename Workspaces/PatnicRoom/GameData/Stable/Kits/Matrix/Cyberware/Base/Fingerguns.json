@@ -3,8 +3,11 @@
 
    "C_6_TILE_NAME"               : "Finger Guns",
    "F_5_KITPART_TYPE"            : "N/A",
+<<<<<<< HEAD
    "F_15_KITPART_TYPE_BASE"      : "N/A",
    "C_12_KITSET_INDEX"           : "X_C_2",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_0_ANY_DESCRIPTION"         : "silenced pistole installed in your index finger. a Community favorite of professional Hitman and eccentric Gays",
    "C_40_ANY_TO_STRING"          : "Finger Guns",
    "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec1 doors",
@@ -26,7 +29,11 @@
       "TIME-1":"N/A",
       "TIME-2":"N/A",
       "TIME-3":"N/A"
+<<<<<<< HEAD
       }, 
+=======
+      },
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
       "TRIGGER":{
@@ -34,7 +41,10 @@
             "BASE":"INTERACT_ACTOR",
             "SPECIFIC":[
                ["HAS_TEXTURE","Suburban_4_0"],
+<<<<<<< HEAD
                ["AND"],
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                ["HAS_TEXTURE","Suburban_4_1"]
             ]}
 
@@ -56,7 +66,11 @@
          "EFFECT-0":{
             "CONDITION":[],
             "STAT_MOD":[
+<<<<<<< HEAD
     
+=======
+            ["U_OPEN_DOOR"]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             ]}
 
       }}

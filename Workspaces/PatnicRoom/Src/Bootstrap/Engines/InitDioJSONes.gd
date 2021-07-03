@@ -8,7 +8,11 @@ class_name InitDioJSONes
 # VAR simple hack if your Inpector gets buggy again                                   
 # VAR change value to n to stop at the n'th file to stopand at a breakpoint at L.25   
 # VAR set the value to -1 for no breakpointing                                        
+<<<<<<< HEAD
 var stopAt: int = 24
+=======
+var stopAt: int = -1
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -19,6 +23,7 @@ var parser     = JsonToEntityParser.new()
 var dirManager = Directory.new()
 
 func _init():
+<<<<<<< HEAD
 	var listOfAllJSONs  = deserialiceTheCoinage(ENUM.DIOJSONES.BASE_GAME_DATA_PATH)
 	var allDictsToParse = []
 	
@@ -27,6 +32,18 @@ func _init():
 		allDictsToParse.append(cache)
 	
 	parser.parseGameData(allDictsToParse)
+=======
+	var listOfAllJSONs = deserialiceTheCoinage(ENUM.BASE_GAME_DATA_PATH)
+	
+	for i in listOfAllJSONs.size():
+		var dictionary     = Util.JSONParser.fileToDictionary(listOfAllJSONs[i])
+		var returnForDebug = parser.parse(dictionary)
+		
+		if stopAt != -1 and stopAt == i:
+			print("DEBUG")
+
+			
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 # ----- FILEPATH-GETTER ----------------------------------------------------- ##
 

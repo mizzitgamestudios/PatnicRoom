@@ -24,12 +24,21 @@ static func getInputTypeOfEnum(event:InputEvent) -> int:
 	
 
 static func getInputTypeByEnum(inputEnum):
+<<<<<<< HEAD
 	if   ENUM.INPUT_PANIC.INPUTS.INTERFACE.values().has(inputEnum) : return ENUM.INPUT_PANIC.INPUT_MODE.INTERFACE
 	elif ENUM.INPUT_PANIC.INPUTS.ACTION.values().has(inputEnum)    : return ENUM.INPUT_PANIC.INPUT_MODE.ACTION
 	elif ENUM.INPUT_PANIC.INPUTS.INFO.values().has(inputEnum)      : return ENUM.INPUT_PANIC.INPUT_MODE.INFO
 	elif ENUM.INPUT_PANIC.INPUTS.MOVEMENT.values().has(inputEnum)  : return ENUM.INPUT_PANIC.INPUT_MODE.MOVEMENT
 	
 	else:                                       return ENUM.INPUT_PANIC.INPUT_MODE.VOID
+=======
+	if   ENUM.INPUTS.INTERFACE.values().has(inputEnum) : return ENUM.INPUT_MODE.INTERFACE
+	elif ENUM.INPUTS.ACTION.values().has(inputEnum)    : return ENUM.INPUT_MODE.ACTION
+	elif ENUM.INPUTS.INFO.values().has(inputEnum)      : return ENUM.INPUT_MODE.INFO
+	elif ENUM.INPUTS.MOVEMENT.values().has(inputEnum)  : return ENUM.INPUT_MODE.MOVEMENT
+	
+	else:                                       return ENUM.INPUT_MODE.VOID
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

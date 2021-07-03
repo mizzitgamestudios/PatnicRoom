@@ -1617,6 +1617,7 @@ static int __Pyx_check_binary_version(void);
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_stop_on_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, CYTHON_UNUSED PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto*/
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, PyObject *__pyx_v_exception_type); /* proto*/
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_name(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame); /* proto*/
@@ -1624,6 +1625,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_retur
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_return_values(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame); /* proto*/
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfiltered_back_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame); /* proto*/
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, int __pyx_skip_dispatch); /* proto*/
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_stop_on_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, CYTHON_UNUSED PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, PyObject *__pyx_v_exception_type); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_name(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_return_values(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_arg); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_return_values(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfiltered_back_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame); /* proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, int __pyx_skip_dispatch); /* proto*/
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 /* Module declarations from 'libc.string' */
 
@@ -1702,7 +1712,11 @@ static const char __pyx_k_line[] = "line";
 static const char __pyx_k_main[] = "main";
 static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_path[] = "path";
+<<<<<<< HEAD
 static const char __pyx_kEffect_Space_Source_Self[] = "self";
+=======
+static const char __pyx_k_self[] = "self";
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static const char __pyx_k_stat[] = "stat";
 static const char __pyx_k_stop[] = "stop";
 static const char __pyx_k_test[] = "__test__";
@@ -1813,7 +1827,11 @@ static const char __pyx_k_StopIteration[] = "StopIteration";
 static const char __pyx_k_cmd_step_into[] = "cmd_step_into";
 static const char __pyx_k_cmd_step_over[] = "cmd_step_over";
 static const char __pyx_k_get_file_type[] = "get_file_type";
+<<<<<<< HEAD
 static const char __pyx_kEffect_Trigger_Specific_Has_Condition[] = "has_condition";
+=======
+static const char __pyx_k_has_condition[] = "has_condition";
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static const char __pyx_k_method_object[] = "method_object";
 static const char __pyx_k_original_call[] = "_original_call";
 static const char __pyx_k_pydb_disposed[] = "pydb_disposed";
@@ -2102,7 +2120,11 @@ static PyObject *__pyx_n_s_global_notify_skipped_step_in_l;
 static PyObject *__pyx_n_s_handle_breakpoint_condition;
 static PyObject *__pyx_n_s_handle_breakpoint_expression;
 static PyObject *__pyx_n_s_handle_user_exception;
+<<<<<<< HEAD
 static PyObject *__pyx_n_sEffect_Trigger_Specific_Has_Condition;
+=======
+static PyObject *__pyx_n_s_has_condition;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static PyObject *__pyx_n_s_has_plugin_exception_breaks;
 static PyObject *__pyx_n_s_has_plugin_line_breaks;
 static PyObject *__pyx_n_s_i;
@@ -2200,7 +2222,11 @@ static PyObject *__pyx_n_s_returns;
 static PyObject *__pyx_n_s_rfind;
 static PyObject *__pyx_n_s_run;
 static PyObject *__pyx_kp_s_s_s;
+<<<<<<< HEAD
 static PyObject *__pyx_n_sEffect_Space_Source_Self;
+=======
+static PyObject *__pyx_n_s_self;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static PyObject *__pyx_n_s_send_caught_exception_stack;
 static PyObject *__pyx_n_s_send_caught_exception_stack_proc;
 static PyObject *__pyx_n_s_set_additional_thread_info;
@@ -2248,6 +2274,7 @@ static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_kp_s_utf_8;
 static PyObject *__pyx_n_s_version;
 static PyObject *__pyx_n_s_writer;
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self); /* proto */
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_thread); /* proto */
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self); /* proto */
@@ -2386,6 +2413,146 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_Safe
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_thread); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread_info(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_thread); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_2get_smart_step_into_variant_from_frame_offset(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_args, CYTHON_UNUSED PyObject *__pyx_v_kwargs); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_2__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_4__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_user_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_in_because_of_filters(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v_method_object); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4get_method_object(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_and_get_trace_func(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_2trace_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_frame_trace_dispatch, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_2trace_dispatch_and_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_args); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_value); /* proto */
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDBAdditionalThreadInfo(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__TryExceptContainerObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDBFrame(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_SafeCallWrapper(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static PyObject *__pyx_tp_new_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_14_pydevd_bundle_13pydevd_cython_PyDBFrame(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -2453,22 +2620,35 @@ static PyObject *__pyx_codeobj__37;
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2489,7 +2669,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_state = __pyx_t_2;
+=======
+  __pyx_v_self->pydev_state = __pyx_t_2;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":67
  *     def __init__(self):
@@ -2500,9 +2684,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __pyx_vEffect_Space_Source_Self->pydev_step_stop = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_step_stop);
+  __Pyx_DECREF(__pyx_v_self->pydev_step_stop);
+  __pyx_v_self->pydev_step_stop = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":75
  *         # method the strategy is changed to a step in).
@@ -2511,7 +2701,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_step_cmd = -1  # Something as CMD_STEP_INTO, CMD_STEP_OVER, etc.
  * 
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_original_step_cmd = -1;
+=======
+  __pyx_v_self->pydev_original_step_cmd = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":76
  * 
@@ -2520,7 +2714,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  * 
  *         self.pydev_notify_kill = False
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_step_cmd = -1;
+=======
+  __pyx_v_self->pydev_step_cmd = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":78
  *         self.pydev_step_cmd = -1  # Something as CMD_STEP_INTO, CMD_STEP_OVER, etc.
@@ -2529,7 +2727,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_django_resolve_frame = False
  *         self.pydev_call_from_jinja2 = None
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_notify_kill = 0;
+=======
+  __pyx_v_self->pydev_notify_kill = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":79
  * 
@@ -2538,7 +2740,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_call_from_jinja2 = None
  *         self.pydev_call_inside_jinja2 = None
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_django_resolve_frame = 0;
+=======
+  __pyx_v_self->pydev_django_resolve_frame = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":80
  *         self.pydev_notify_kill = False
@@ -2549,9 +2755,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2 = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_from_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_from_jinja2);
+  __pyx_v_self->pydev_call_from_jinja2 = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":81
  *         self.pydev_django_resolve_frame = False
@@ -2562,9 +2774,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2 = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __pyx_v_self->pydev_call_inside_jinja2 = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":82
  *         self.pydev_call_from_jinja2 = None
@@ -2573,7 +2791,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.conditional_breakpoint_exception = None
  *         self.pydev_message = ''
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->is_tracing = 0;
+=======
+  __pyx_v_self->is_tracing = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":83
  *         self.pydev_call_inside_jinja2 = None
@@ -2584,9 +2806,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->conditional_breakpoint_exception);
+  __Pyx_DECREF(__pyx_v_self->conditional_breakpoint_exception);
+  __pyx_v_self->conditional_breakpoint_exception = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":84
  *         self.is_tracing = 0
@@ -2597,9 +2825,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(__pyx_kp_s_);
   __Pyx_GIVEREF(__pyx_kp_s_);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __pyx_vEffect_Space_Source_Self->pydev_message = __pyx_kp_s_;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_message);
+  __Pyx_DECREF(__pyx_v_self->pydev_message);
+  __pyx_v_self->pydev_message = __pyx_kp_s_;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":85
  *         self.conditional_breakpoint_exception = None
@@ -2612,7 +2846,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_2 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->suspend_type = __pyx_t_2;
+=======
+  __pyx_v_self->suspend_type = __pyx_t_2;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":86
  *         self.pydev_message = ''
@@ -2621,7 +2859,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_func_name = '.invalid.'  # Must match the type in cython
  *         self.suspended_at_unhandled = False
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_next_line = -1;
+=======
+  __pyx_v_self->pydev_next_line = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":87
  *         self.suspend_type = PYTHON_SUSPEND
@@ -2632,9 +2874,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(__pyx_kp_s_invalid);
   __Pyx_GIVEREF(__pyx_kp_s_invalid);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __pyx_vEffect_Space_Source_Self->pydev_func_name = __pyx_kp_s_invalid;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_func_name);
+  __Pyx_DECREF(__pyx_v_self->pydev_func_name);
+  __pyx_v_self->pydev_func_name = __pyx_kp_s_invalid;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":88
  *         self.pydev_next_line = -1
@@ -2643,7 +2891,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.trace_suspend_type = 'trace'  # 'trace' or 'frame_eval'
  *         self.top_level_thread_tracer_no_back_frames = []
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->suspended_at_unhandled = 0;
+=======
+  __pyx_v_self->suspended_at_unhandled = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":89
  *         self.pydev_func_name = '.invalid.'  # Must match the type in cython
@@ -2654,9 +2906,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(__pyx_n_s_trace);
   __Pyx_GIVEREF(__pyx_n_s_trace);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __pyx_vEffect_Space_Source_Self->trace_suspend_type = __pyx_n_s_trace;
+=======
+  __Pyx_GOTREF(__pyx_v_self->trace_suspend_type);
+  __Pyx_DECREF(__pyx_v_self->trace_suspend_type);
+  __pyx_v_self->trace_suspend_type = __pyx_n_s_trace;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":90
  *         self.suspended_at_unhandled = False
@@ -2668,9 +2926,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames = __pyx_t_1;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __pyx_v_self->top_level_thread_tracer_no_back_frames = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* "_pydevd_bundle/pydevd_cython.pyx":91
@@ -2682,9 +2946,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __pyx_v_self->top_level_thread_tracer_unhandled = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":92
  *         self.top_level_thread_tracer_no_back_frames = []
@@ -2695,9 +2965,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __pyx_vEffect_Space_Source_Self->thread_tracer = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->thread_tracer);
+  __Pyx_DECREF(__pyx_v_self->thread_tracer);
+  __pyx_v_self->thread_tracer = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":93
  *         self.top_level_thread_tracer_unhandled = None
@@ -2708,9 +2984,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __pyx_vEffect_Space_Source_Self->step_in_initial_location = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->step_in_initial_location);
+  __Pyx_DECREF(__pyx_v_self->step_in_initial_location);
+  __pyx_v_self->step_in_initial_location = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":94
  *         self.thread_tracer = None
@@ -2719,7 +3001,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_smart_child_offset = -1
  *         self.pydev_smart_step_into_variants = ()
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_smart_parent_offset = -1;
+=======
+  __pyx_v_self->pydev_smart_parent_offset = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":95
  *         self.step_in_initial_location = None
@@ -2728,7 +3014,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  *         self.pydev_smart_step_into_variants = ()
  *         self.target_id_to_smart_step_into_variant = {}
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_smart_child_offset = -1;
+=======
+  __pyx_v_self->pydev_smart_child_offset = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":96
  *         self.pydev_smart_parent_offset = -1
@@ -2739,9 +3029,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
   __Pyx_INCREF(__pyx_empty_tuple);
   __Pyx_GIVEREF(__pyx_empty_tuple);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants = __pyx_empty_tuple;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __Pyx_DECREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __pyx_v_self->pydev_smart_step_into_variants = __pyx_empty_tuple;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":97
  *         self.pydev_smart_child_offset = -1
@@ -2753,9 +3049,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __Pyx_DECREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __pyx_v_self->target_id_to_smart_step_into_variant = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* "_pydevd_bundle/pydevd_cython.pyx":65
@@ -2787,6 +3089,7 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_3get_topmost_frame(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_thread); /*proto*/
 static char __pyx_doc_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame[] = "\n        Gets the topmost frame for the given thread. Note that it may be None\n        and callers should remove the reference to the frame as soon as possible\n        to avoid disturbing user code.\n        ";
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_3get_topmost_frame(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_thread) {
@@ -2794,13 +3097,26 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_topmost_frame (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_thread));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_3get_topmost_frame(PyObject *__pyx_v_self, PyObject *__pyx_v_thread); /*proto*/
+static char __pyx_doc_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame[] = "\n        Gets the topmost frame for the given thread. Note that it may be None\n        and callers should remove the reference to the frame as soon as possible\n        to avoid disturbing user code.\n        ";
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_3get_topmost_frame(PyObject *__pyx_v_self, PyObject *__pyx_v_thread) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("get_topmost_frame (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_thread));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_thread) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_2get_topmost_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_thread) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_current_frames = NULL;
   PyObject *__pyx_v_topmost_frame = NULL;
   PyObject *__pyx_r = NULL;
@@ -2831,7 +3147,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_3)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_3);
@@ -2860,7 +3180,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -2933,7 +3257,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
     __pyx_t_8 = NULL;
     __pyx_t_9 = 0;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
       __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_8)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_8);
@@ -3052,19 +3380,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_5__str__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_5__str__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__str__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_5__str__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_5__str__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__str__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_4__str__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3092,19 +3433,33 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  * 
  * 
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_step_cmd); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_vEffect_Space_Source_Self->pydev_notify_kill); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_step_cmd); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_self->pydev_notify_kill); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = PyTuple_New(4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 125, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_vEffect_Space_Source_Self->pydev_step_stop);
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_step_stop);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_step_stop);
+  PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_v_self->pydev_step_stop);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_3);
@@ -3157,19 +3512,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3178,7 +3546,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3196,19 +3568,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_11pydev_state_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3217,7 +3602,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 2, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_state = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_state = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3239,25 +3628,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_step_stop;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_step_stop);
+  __pyx_r = __pyx_v_self->pydev_step_stop;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -3268,27 +3675,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __pyx_vEffect_Space_Source_Self->pydev_step_stop = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_step_stop);
+  __Pyx_DECREF(__pyx_v_self->pydev_step_stop);
+  __pyx_v_self->pydev_step_stop = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3297,27 +3723,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __pyx_vEffect_Space_Source_Self->pydev_step_stop = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_step_stop);
+  __Pyx_DECREF(__pyx_v_self->pydev_step_stop);
+  __pyx_v_self->pydev_step_stop = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3334,19 +3779,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3355,7 +3813,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_original_step_cmd); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_original_step_cmd); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3373,19 +3835,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_23pydev_original_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3394,7 +3869,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 4, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_original_step_cmd = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_original_step_cmd = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3416,19 +3895,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3437,7 +3929,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_step_cmd); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 5, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_step_cmd); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 5, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3455,19 +3951,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_14pydev_step_cmd_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3476,7 +3985,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 5, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_step_cmd = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_step_cmd = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3498,19 +4011,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3519,7 +4045,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_vEffect_Space_Source_Self->pydev_notify_kill); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 6, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->pydev_notify_kill); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3537,19 +4067,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_17pydev_notify_kill_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3558,7 +4101,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 6, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_notify_kill = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_notify_kill = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3580,25 +4127,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_smart_step_stop;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_smart_step_stop);
+  __pyx_r = __pyx_v_self->pydev_smart_step_stop;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -3609,27 +4174,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __pyx_vEffect_Space_Source_Self->pydev_smart_step_stop = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_smart_step_stop);
+  __Pyx_DECREF(__pyx_v_self->pydev_smart_step_stop);
+  __pyx_v_self->pydev_smart_step_stop = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3638,27 +4222,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_21pydev_smart_step_stop_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __pyx_vEffect_Space_Source_Self->pydev_smart_step_stop = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_smart_step_stop);
+  __Pyx_DECREF(__pyx_v_self->pydev_smart_step_stop);
+  __pyx_v_self->pydev_smart_step_stop = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3675,19 +4278,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3696,7 +4312,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_vEffect_Space_Source_Self->pydev_django_resolve_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 8, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->pydev_django_resolve_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 8, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3714,19 +4334,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_26pydev_django_resolve_frame_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -3735,7 +4368,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 8, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_django_resolve_frame = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_django_resolve_frame = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3757,25 +4394,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_call_from_jinja2);
+  __pyx_r = __pyx_v_self->pydev_call_from_jinja2;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -3786,27 +4441,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2 = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_from_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_from_jinja2);
+  __pyx_v_self->pydev_call_from_jinja2 = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3815,27 +4489,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22pydev_call_from_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2 = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_from_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_from_jinja2);
+  __pyx_v_self->pydev_call_from_jinja2 = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3852,25 +4545,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __pyx_r = __pyx_v_self->pydev_call_inside_jinja2;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -3881,27 +4592,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2 = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __pyx_v_self->pydev_call_inside_jinja2 = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3910,27 +4640,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_call_inside_jinja2_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2);
   __pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2 = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __Pyx_DECREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __pyx_v_self->pydev_call_inside_jinja2 = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -3947,19 +4696,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3968,7 +4730,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->is_tracing); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 11, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->is_tracing); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 11, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3986,19 +4752,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_10is_tracing_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -4007,7 +4786,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 11, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->is_tracing = __pyx_t_1;
+=======
+  __pyx_v_self->is_tracing = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4029,25 +4812,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __pyx_r = __pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception;
+=======
+  __Pyx_INCREF(__pyx_v_self->conditional_breakpoint_exception);
+  __pyx_r = __pyx_v_self->conditional_breakpoint_exception;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4058,19 +4859,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4082,9 +4896,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->conditional_breakpoint_exception);
+  __Pyx_DECREF(__pyx_v_self->conditional_breakpoint_exception);
+  __pyx_v_self->conditional_breakpoint_exception = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -4100,27 +4920,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_32conditional_breakpoint_exception_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception);
   __pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->conditional_breakpoint_exception);
+  __Pyx_DECREF(__pyx_v_self->conditional_breakpoint_exception);
+  __pyx_v_self->conditional_breakpoint_exception = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4137,25 +4976,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_message;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_message);
+  __pyx_r = __pyx_v_self->pydev_message;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4166,19 +5023,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4190,9 +5060,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __pyx_vEffect_Space_Source_Self->pydev_message = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_message);
+  __Pyx_DECREF(__pyx_v_self->pydev_message);
+  __pyx_v_self->pydev_message = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -4208,27 +5084,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13pydev_message_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __pyx_vEffect_Space_Source_Self->pydev_message = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_message);
+  __Pyx_DECREF(__pyx_v_self->pydev_message);
+  __pyx_v_self->pydev_message = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4245,19 +5140,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4266,7 +5174,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->suspend_type); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 14, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->suspend_type); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 14, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4284,19 +5196,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_12suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -4305,7 +5230,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 14, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->suspend_type = __pyx_t_1;
+=======
+  __pyx_v_self->suspend_type = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4327,19 +5256,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4348,7 +5290,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_next_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 15, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_next_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 15, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4366,19 +5312,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_next_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -4387,7 +5346,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 15, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_next_line = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_next_line = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4409,25 +5372,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_func_name;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_func_name);
+  __pyx_r = __pyx_v_self->pydev_func_name;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4438,19 +5419,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4462,9 +5456,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __pyx_vEffect_Space_Source_Self->pydev_func_name = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_func_name);
+  __Pyx_DECREF(__pyx_v_self->pydev_func_name);
+  __pyx_v_self->pydev_func_name = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -4480,27 +5480,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_15pydev_func_name_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_func_name);
   __pyx_vEffect_Space_Source_Self->pydev_func_name = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_func_name);
+  __Pyx_DECREF(__pyx_v_self->pydev_func_name);
+  __pyx_v_self->pydev_func_name = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4517,19 +5536,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4538,7 +5570,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_vEffect_Space_Source_Self->suspended_at_unhandled); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->suspended_at_unhandled); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4556,19 +5592,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_22suspended_at_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -4577,7 +5626,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->suspended_at_unhandled = __pyx_t_1;
+=======
+  __pyx_v_self->suspended_at_unhandled = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4599,25 +5652,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __pyx_r = __pyx_vEffect_Space_Source_Self->trace_suspend_type;
+=======
+  __Pyx_INCREF(__pyx_v_self->trace_suspend_type);
+  __pyx_r = __pyx_v_self->trace_suspend_type;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4628,19 +5699,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4652,9 +5736,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __pyx_vEffect_Space_Source_Self->trace_suspend_type = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->trace_suspend_type);
+  __Pyx_DECREF(__pyx_v_self->trace_suspend_type);
+  __pyx_v_self->trace_suspend_type = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -4670,27 +5760,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_18trace_suspend_type_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __pyx_vEffect_Space_Source_Self->trace_suspend_type = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->trace_suspend_type);
+  __Pyx_DECREF(__pyx_v_self->trace_suspend_type);
+  __pyx_v_self->trace_suspend_type = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4707,25 +5816,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __pyx_r = __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames;
+=======
+  __Pyx_INCREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __pyx_r = __pyx_v_self->top_level_thread_tracer_no_back_frames;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4736,27 +5863,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __pyx_v_self->top_level_thread_tracer_no_back_frames = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4765,27 +5911,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_38top_level_thread_tracer_no_back_frames_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __pyx_v_self->top_level_thread_tracer_no_back_frames = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4802,25 +5967,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __pyx_r = __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled;
+=======
+  __Pyx_INCREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __pyx_r = __pyx_v_self->top_level_thread_tracer_unhandled;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4831,27 +6014,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __pyx_v_self->top_level_thread_tracer_unhandled = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4860,27 +6062,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_33top_level_thread_tracer_unhandled_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled);
   __pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __Pyx_DECREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __pyx_v_self->top_level_thread_tracer_unhandled = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4897,25 +6118,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __pyx_r = __pyx_vEffect_Space_Source_Self->thread_tracer;
+=======
+  __Pyx_INCREF(__pyx_v_self->thread_tracer);
+  __pyx_r = __pyx_v_self->thread_tracer;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -4926,27 +6165,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __pyx_vEffect_Space_Source_Self->thread_tracer = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->thread_tracer);
+  __Pyx_DECREF(__pyx_v_self->thread_tracer);
+  __pyx_v_self->thread_tracer = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4955,27 +6213,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_13thread_tracer_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->thread_tracer);
   __pyx_vEffect_Space_Source_Self->thread_tracer = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->thread_tracer);
+  __Pyx_DECREF(__pyx_v_self->thread_tracer);
+  __pyx_v_self->thread_tracer = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -4992,25 +6269,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __pyx_r = __pyx_vEffect_Space_Source_Self->step_in_initial_location;
+=======
+  __Pyx_INCREF(__pyx_v_self->step_in_initial_location);
+  __pyx_r = __pyx_v_self->step_in_initial_location;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -5021,27 +6316,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __pyx_vEffect_Space_Source_Self->step_in_initial_location = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->step_in_initial_location);
+  __Pyx_DECREF(__pyx_v_self->step_in_initial_location);
+  __pyx_v_self->step_in_initial_location = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5050,27 +6364,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24step_in_initial_location_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __pyx_vEffect_Space_Source_Self->step_in_initial_location = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->step_in_initial_location);
+  __Pyx_DECREF(__pyx_v_self->step_in_initial_location);
+  __pyx_v_self->step_in_initial_location = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5087,19 +6420,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5108,7 +6454,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_smart_parent_offset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 23, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_smart_parent_offset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 23, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5126,19 +6476,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_25pydev_smart_parent_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -5147,7 +6510,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 23, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_smart_parent_offset = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_smart_parent_offset = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5169,19 +6536,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5190,7 +6570,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->pydev_smart_child_offset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 24, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_smart_child_offset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 24, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5208,19 +6592,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_24pydev_smart_child_offset_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -5229,7 +6626,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 24, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->pydev_smart_child_offset = __pyx_t_1;
+=======
+  __pyx_v_self->pydev_smart_child_offset = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5250,25 +6651,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __pyx_r = __pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants;
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __pyx_r = __pyx_v_self->pydev_smart_step_into_variants;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -5279,19 +6698,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5303,9 +6735,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __Pyx_DECREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __pyx_v_self->pydev_smart_step_into_variants = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -5321,27 +6759,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_30pydev_smart_step_into_variants_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __Pyx_DECREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __pyx_v_self->pydev_smart_step_into_variants = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5356,25 +6813,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __pyx_r = __pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant;
+=======
+  __Pyx_INCREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __pyx_r = __pyx_v_self->target_id_to_smart_step_into_variant;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -5385,19 +6860,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5409,9 +6897,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __Pyx_DECREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __pyx_v_self->target_id_to_smart_step_into_variant = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -5427,27 +6921,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_36target_id_to_smart_step_into_variant_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __Pyx_DECREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __pyx_v_self->target_id_to_smart_step_into_variant = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -5462,19 +6975,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -5507,6 +7033,7 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->is_tracing); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_vEffect_Space_Source_Self->pydev_django_resolve_frame); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
@@ -5550,6 +7077,51 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->pydev_message);
   PyTuple_SET_ITEM(__pyx_t_12, 6, __pyx_vEffect_Space_Source_Self->pydev_message);
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->is_tracing); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_self->pydev_django_resolve_frame); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_next_line); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_self->pydev_notify_kill); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_original_step_cmd); if (unlikely(!__pyx_t_5)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_smart_child_offset); if (unlikely(!__pyx_t_6)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_7 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_smart_parent_offset); if (unlikely(!__pyx_t_7)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_state); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_9 = __Pyx_PyInt_From_int(__pyx_v_self->pydev_step_cmd); if (unlikely(!__pyx_t_9)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __pyx_t_10 = __Pyx_PyInt_From_int(__pyx_v_self->suspend_type); if (unlikely(!__pyx_t_10)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __pyx_t_11 = __Pyx_PyBool_FromLong(__pyx_v_self->suspended_at_unhandled); if (unlikely(!__pyx_t_11)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_11);
+  __pyx_t_12 = PyTuple_New(25); if (unlikely(!__pyx_t_12)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_12);
+  __Pyx_INCREF(__pyx_v_self->conditional_breakpoint_exception);
+  __Pyx_GIVEREF(__pyx_v_self->conditional_breakpoint_exception);
+  PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_v_self->conditional_breakpoint_exception);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_12, 1, __pyx_t_1);
+  __Pyx_INCREF(__pyx_v_self->pydev_call_from_jinja2);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_call_from_jinja2);
+  PyTuple_SET_ITEM(__pyx_t_12, 2, __pyx_v_self->pydev_call_from_jinja2);
+  __Pyx_INCREF(__pyx_v_self->pydev_call_inside_jinja2);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_call_inside_jinja2);
+  PyTuple_SET_ITEM(__pyx_t_12, 3, __pyx_v_self->pydev_call_inside_jinja2);
+  __Pyx_GIVEREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_12, 4, __pyx_t_2);
+  __Pyx_INCREF(__pyx_v_self->pydev_func_name);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_func_name);
+  PyTuple_SET_ITEM(__pyx_t_12, 5, __pyx_v_self->pydev_func_name);
+  __Pyx_INCREF(__pyx_v_self->pydev_message);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_message);
+  PyTuple_SET_ITEM(__pyx_t_12, 6, __pyx_v_self->pydev_message);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_12, 7, __pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_4);
@@ -5560,26 +7132,45 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   PyTuple_SET_ITEM(__pyx_t_12, 10, __pyx_t_6);
   __Pyx_GIVEREF(__pyx_t_7);
   PyTuple_SET_ITEM(__pyx_t_12, 11, __pyx_t_7);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   PyTuple_SET_ITEM(__pyx_t_12, 12, __pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants);
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
   PyTuple_SET_ITEM(__pyx_t_12, 13, __pyx_vEffect_Space_Source_Self->pydev_smart_step_stop);
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_smart_step_into_variants);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_smart_step_into_variants);
+  PyTuple_SET_ITEM(__pyx_t_12, 12, __pyx_v_self->pydev_smart_step_into_variants);
+  __Pyx_INCREF(__pyx_v_self->pydev_smart_step_stop);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_smart_step_stop);
+  PyTuple_SET_ITEM(__pyx_t_12, 13, __pyx_v_self->pydev_smart_step_stop);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GIVEREF(__pyx_t_8);
   PyTuple_SET_ITEM(__pyx_t_12, 14, __pyx_t_8);
   __Pyx_GIVEREF(__pyx_t_9);
   PyTuple_SET_ITEM(__pyx_t_12, 15, __pyx_t_9);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->pydev_step_stop);
   PyTuple_SET_ITEM(__pyx_t_12, 16, __pyx_vEffect_Space_Source_Self->pydev_step_stop);
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->step_in_initial_location);
   PyTuple_SET_ITEM(__pyx_t_12, 17, __pyx_vEffect_Space_Source_Self->step_in_initial_location);
+=======
+  __Pyx_INCREF(__pyx_v_self->pydev_step_stop);
+  __Pyx_GIVEREF(__pyx_v_self->pydev_step_stop);
+  PyTuple_SET_ITEM(__pyx_t_12, 16, __pyx_v_self->pydev_step_stop);
+  __Pyx_INCREF(__pyx_v_self->step_in_initial_location);
+  __Pyx_GIVEREF(__pyx_v_self->step_in_initial_location);
+  PyTuple_SET_ITEM(__pyx_t_12, 17, __pyx_v_self->step_in_initial_location);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GIVEREF(__pyx_t_10);
   PyTuple_SET_ITEM(__pyx_t_12, 18, __pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_11);
   PyTuple_SET_ITEM(__pyx_t_12, 19, __pyx_t_11);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
   PyTuple_SET_ITEM(__pyx_t_12, 20, __pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant);
@@ -5595,6 +7186,23 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->trace_suspend_type);
   PyTuple_SET_ITEM(__pyx_t_12, 24, __pyx_vEffect_Space_Source_Self->trace_suspend_type);
+=======
+  __Pyx_INCREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  __Pyx_GIVEREF(__pyx_v_self->target_id_to_smart_step_into_variant);
+  PyTuple_SET_ITEM(__pyx_t_12, 20, __pyx_v_self->target_id_to_smart_step_into_variant);
+  __Pyx_INCREF(__pyx_v_self->thread_tracer);
+  __Pyx_GIVEREF(__pyx_v_self->thread_tracer);
+  PyTuple_SET_ITEM(__pyx_t_12, 21, __pyx_v_self->thread_tracer);
+  __Pyx_INCREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_GIVEREF(__pyx_v_self->top_level_thread_tracer_no_back_frames);
+  PyTuple_SET_ITEM(__pyx_t_12, 22, __pyx_v_self->top_level_thread_tracer_no_back_frames);
+  __Pyx_INCREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  __Pyx_GIVEREF(__pyx_v_self->top_level_thread_tracer_unhandled);
+  PyTuple_SET_ITEM(__pyx_t_12, 23, __pyx_v_self->top_level_thread_tracer_unhandled);
+  __Pyx_INCREF(__pyx_v_self->trace_suspend_type);
+  __Pyx_GIVEREF(__pyx_v_self->trace_suspend_type);
+  PyTuple_SET_ITEM(__pyx_t_12, 24, __pyx_v_self->trace_suspend_type);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
   __pyx_t_3 = 0;
@@ -5616,7 +7224,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_12 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_12)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_12 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_12)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_12);
   __pyx_v__dict = __pyx_t_12;
   __pyx_t_12 = 0;
@@ -5677,98 +7289,154 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  *         return __pyx_unpickle_PyDBAdditionalThreadInfo, (type(self), 0xf7933ef, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->conditional_breakpoint_exception != ((PyObject*)Py_None));
+=======
+    __pyx_t_13 = (__pyx_v_self->conditional_breakpoint_exception != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->pydev_call_from_jinja2 != Py_None);
+=======
+    __pyx_t_15 = (__pyx_v_self->pydev_call_from_jinja2 != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->pydev_call_inside_jinja2 != Py_None);
+=======
+    __pyx_t_13 = (__pyx_v_self->pydev_call_inside_jinja2 != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->pydev_func_name != ((PyObject*)Py_None));
+=======
+    __pyx_t_15 = (__pyx_v_self->pydev_func_name != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->pydev_message != ((PyObject*)Py_None));
+=======
+    __pyx_t_13 = (__pyx_v_self->pydev_message != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->pydev_smart_step_into_variants != ((PyObject*)Py_None));
+=======
+    __pyx_t_15 = (__pyx_v_self->pydev_smart_step_into_variants != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->pydev_smart_step_stop != Py_None);
+=======
+    __pyx_t_13 = (__pyx_v_self->pydev_smart_step_stop != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->pydev_step_stop != Py_None);
+=======
+    __pyx_t_15 = (__pyx_v_self->pydev_step_stop != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->step_in_initial_location != Py_None);
+=======
+    __pyx_t_13 = (__pyx_v_self->step_in_initial_location != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->target_id_to_smart_step_into_variant != ((PyObject*)Py_None));
+=======
+    __pyx_t_15 = (__pyx_v_self->target_id_to_smart_step_into_variant != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->thread_tracer != Py_None);
+=======
+    __pyx_t_13 = (__pyx_v_self->thread_tracer != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_no_back_frames != Py_None);
+=======
+    __pyx_t_15 = (__pyx_v_self->top_level_thread_tracer_no_back_frames != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     if (!__pyx_t_13) {
     } else {
       __pyx_t_14 = __pyx_t_13;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_13 = (__pyx_vEffect_Space_Source_Self->top_level_thread_tracer_unhandled != Py_None);
+=======
+    __pyx_t_13 = (__pyx_v_self->top_level_thread_tracer_unhandled != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_15 = (__pyx_t_13 != 0);
     if (!__pyx_t_15) {
     } else {
       __pyx_t_14 = __pyx_t_15;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_15 = (__pyx_vEffect_Space_Source_Self->trace_suspend_type != ((PyObject*)Py_None));
+=======
+    __pyx_t_15 = (__pyx_v_self->trace_suspend_type != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_13 = (__pyx_t_15 != 0);
     __pyx_t_14 = __pyx_t_13;
     __pyx_L4_bool_binop_done:;
@@ -5798,9 +7466,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
     __Pyx_GOTREF(__pyx_t_11);
     __pyx_t_12 = PyTuple_New(3); if (unlikely(!__pyx_t_12)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_12, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_12, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_259601391);
     __Pyx_GIVEREF(__pyx_int_259601391);
     PyTuple_SET_ITEM(__pyx_t_12, 1, __pyx_int_259601391);
@@ -5844,9 +7518,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
     __Pyx_GOTREF(__pyx_t_10);
     __pyx_t_12 = PyTuple_New(3); if (unlikely(!__pyx_t_12)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_12, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_12, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_259601391);
     __Pyx_GIVEREF(__pyx_int_259601391);
     PyTuple_SET_ITEM(__pyx_t_12, 1, __pyx_int_259601391);
@@ -5904,19 +7584,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThreadInfo_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5931,7 +7624,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  *     __pyx_unpickle_PyDBAdditionalThreadInfo__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBAdditionalThreadInfo__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBAdditionalThreadInfo__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -5964,6 +7661,7 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24PyDBAdditionalThrea
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_thread); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info = {"set_additional_thread_info", (PyCFunction)__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info, METH_O, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_thread) {
@@ -5971,13 +7669,26 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_threa
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_additional_thread_info (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread_info(__pyxEffect_Space_Source_Self, ((PyObject *)__pyx_v_thread));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info(PyObject *__pyx_self, PyObject *__pyx_v_thread); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info = {"set_additional_thread_info", (PyCFunction)__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info, METH_O, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_1set_additional_thread_info(PyObject *__pyx_self, PyObject *__pyx_v_thread) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("set_additional_thread_info (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread_info(__pyx_self, ((PyObject *)__pyx_v_thread));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread_info(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_thread) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread_info(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_thread) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_additional_info = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -6109,7 +7820,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_13 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_12))) {
+<<<<<<< HEAD
           __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_12);
+=======
+          __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_12);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_13)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
             __Pyx_INCREF(__pyx_t_13);
@@ -6342,9 +8057,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_set_additional_thread
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset = {"get_smart_step_into_variant_from_frame_offset", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset = {"get_smart_step_into_variant_from_frame_offset", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_variant_from_frame_offset(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   CYTHON_UNUSED PyObject *__pyx_v_args = 0;
   CYTHON_UNUSED PyObject *__pyx_v_kwargs = 0;
   PyObject *__pyx_r = 0;
@@ -6353,7 +8074,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_
   if (unlikely(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_smart_step_into_variant_from_frame_offset", 1))) return NULL;
   __Pyx_INCREF(__pyx_args);
   __pyx_v_args = __pyx_args;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_2get_smart_step_into_variant_from_frame_offset(__pyxEffect_Space_Source_Self, __pyx_v_args, __pyx_v_kwargs);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_2get_smart_step_into_variant_from_frame_offset(__pyx_self, __pyx_v_args, __pyx_v_kwargs);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -6362,7 +8087,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_3get_smart_step_into_
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_2get_smart_step_into_variant_from_frame_offset(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, CYTHON_UNUSED PyObject *__pyx_v_args, CYTHON_UNUSED PyObject *__pyx_v_kwargs) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_2get_smart_step_into_variant_from_frame_offset(CYTHON_UNUSED PyObject *__pyx_self, CYTHON_UNUSED PyObject *__pyx_v_args, CYTHON_UNUSED PyObject *__pyx_v_kwargs) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_smart_step_into_variant_from_frame_offset", 0);
@@ -6499,7 +8228,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
         __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_6)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
           __Pyx_INCREF(__pyx_t_6);
@@ -6634,7 +8367,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_9 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
           __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+          __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_9)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
             __Pyx_INCREF(__pyx_t_9);
@@ -6775,7 +8512,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_9 = NULL;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
             __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+            __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_9)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
               __Pyx_INCREF(__pyx_t_9);
@@ -6933,22 +8674,35 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self));
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
@@ -6962,9 +8716,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":243
  * cdef class _TryExceptContainerObj:
@@ -6989,25 +8749,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj___
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_r = __pyx_vEffect_Space_Source_Self->try_except_infos;
+=======
+  __Pyx_INCREF(__pyx_v_self->try_except_infos);
+  __pyx_r = __pyx_v_self->try_except_infos;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -7018,19 +8796,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7042,9 +8833,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -7060,27 +8857,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -7095,19 +8911,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_16
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_3__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_3__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_2__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_3__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_2__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_2__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_2__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -7132,9 +8961,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  */
   __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_vEffect_Space_Source_Self->try_except_infos);
+=======
+  __Pyx_INCREF(__pyx_v_self->try_except_infos);
+  __Pyx_GIVEREF(__pyx_v_self->try_except_infos);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_self->try_except_infos);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_v_state = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
@@ -7145,7 +8980,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__dict = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -7206,7 +9045,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  *         return __pyx_unpickle__TryExceptContainerObj, (type(self), 0xc8b6eb1, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->try_except_infos != ((PyObject*)Py_None));
+=======
+    __pyx_t_3 = (__pyx_v_self->try_except_infos != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_v_use_setstate = __pyx_t_3;
   }
   __pyx_L3:;
@@ -7233,9 +9076,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_210464433);
     __Pyx_GIVEREF(__pyx_int_210464433);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_210464433);
@@ -7279,9 +9128,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_210464433);
     __Pyx_GIVEREF(__pyx_int_210464433);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_210464433);
@@ -7330,19 +9185,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_5__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_5__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_4__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_5__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_4__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_4__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainerObj_4__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython__TryExceptContainerObj *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7357,7 +9225,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  *     __pyx_unpickle__TryExceptContainerObj__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle__TryExceptContainerObj__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle__TryExceptContainerObj__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -7390,8 +9262,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22_TryExceptContainer
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -7436,7 +9313,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObje
   return -1;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_args), (&PyTuple_Type), 1, "args", 1))) __PYX_ERR(0, 279, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_args);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), __pyx_v_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -7447,7 +9328,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_1__init__(PyObje
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
@@ -7461,9 +9346,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct 
  */
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = __pyx_v_args;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = __pyx_v_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":281
  *     def __init__(self, tuple args):
@@ -7472,7 +9363,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct 
  *         self.exc_info = ()
  *     # ELSE
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->should_skip = -1;
+=======
+  __pyx_v_self->should_skip = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":282
  *         self._args = args # In the cython version we don't need to pass the frame
@@ -7483,9 +9378,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct 
  */
   __Pyx_INCREF(__pyx_empty_tuple);
   __Pyx_GIVEREF(__pyx_empty_tuple);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->exc_info);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->exc_info);
   __pyx_vEffect_Space_Source_Self->exc_info = __pyx_empty_tuple;
+=======
+  __Pyx_GOTREF(__pyx_v_self->exc_info);
+  __Pyx_DECREF(__pyx_v_self->exc_info);
+  __pyx_v_self->exc_info = __pyx_empty_tuple;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":279
  *     cdef int should_skip
@@ -7510,8 +9411,13 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame___init__(struct 
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspend(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspend(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspend(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspend(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
   PyObject *__pyx_r = 0;
@@ -7522,7 +9428,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspe
   __Pyx_GOTREF(__pyx_v_kwargs);
   __Pyx_INCREF(__pyx_args);
   __pyx_v_args = __pyx_args;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspend(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_args, __pyx_v_kwargs);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspend(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), __pyx_v_args, __pyx_v_kwargs);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -7531,7 +9441,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_3set_suspe
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7549,11 +9463,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspe
  * 
  *     def do_wait_suspend(self, *args, **kwargs):
  */
+<<<<<<< HEAD
   if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(0, 294, __pyx_L1_error)
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 294, __pyx_L1_error)
+=======
+  if (unlikely(__pyx_v_self->_args == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(0, 294, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 294, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -7598,8 +9520,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_2set_suspe
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_suspend(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_suspend(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_suspend(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_suspend(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
   PyObject *__pyx_r = 0;
@@ -7610,7 +9537,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_s
   __Pyx_GOTREF(__pyx_v_kwargs);
   __Pyx_INCREF(__pyx_args);
   __pyx_v_args = __pyx_args;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_suspend(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_args, __pyx_v_kwargs);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_suspend(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), __pyx_v_args, __pyx_v_kwargs);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -7619,7 +9550,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_5do_wait_s
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_suspend(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7637,11 +9572,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_s
  * 
  *     # IFDEF CYTHON -- DONT EDIT THIS FILE (it is automatically generated)
  */
+<<<<<<< HEAD
   if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(0, 297, __pyx_L1_error)
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 297, __pyx_L1_error)
+=======
+  if (unlikely(__pyx_v_self->_args == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(0, 297, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 297, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -7686,8 +9629,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_4do_wait_s
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exception(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exception(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exception(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exception(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -7754,7 +9702,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exc
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_event), (&PyString_Type), 1, "event", 1))) __PYX_ERR(0, 300, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exception(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exception(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -7765,7 +9717,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_7trace_exc
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_v_should_stop;
   PyObject *__pyx_v_exc_info = 0;
   PyObject *__pyx_v_frame_skips_cache = NULL;
@@ -7807,7 +9763,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  * 
  *             if should_stop:
  */
+<<<<<<< HEAD
     __pyx_t_3 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_should_stop_on_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
+=======
+    __pyx_t_3 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_should_stop_on_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_3);
     if ((likely(PyTuple_CheckExact(__pyx_t_3))) || (PyList_CheckExact(__pyx_t_3))) {
       PyObject* sequence = __pyx_t_3;
@@ -7881,7 +9841,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
       __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_EXCEPTION_TYPE_HANDLED); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 310, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       if (!(likely(PyString_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_t_3)->tp_name), 0))) __PYX_ERR(0, 310, __pyx_L1_error)
+<<<<<<< HEAD
       __pyx_t_5 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_handle_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 310, __pyx_L1_error)
+=======
+      __pyx_t_5 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_handle_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_3)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 310, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 310, __pyx_L1_error)
@@ -7896,7 +9860,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *         elif event == 'return':
  */
         __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 311, __pyx_L1_error)
+=======
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 311, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_r = __pyx_t_5;
         __pyx_t_5 = 0;
@@ -7948,8 +9916,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *             if exc_info and arg is None:
  *                 frame_skips_cache, frame_cache_key = self._args[4], self._args[5]
  */
+<<<<<<< HEAD
     if (!(likely(PyTuple_CheckExact(__pyx_vEffect_Space_Source_Self->exc_info))||((__pyx_vEffect_Space_Source_Self->exc_info) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_vEffect_Space_Source_Self->exc_info)->tp_name), 0))) __PYX_ERR(0, 314, __pyx_L1_error)
     __pyx_t_5 = __pyx_vEffect_Space_Source_Self->exc_info;
+=======
+    if (!(likely(PyTuple_CheckExact(__pyx_v_self->exc_info))||((__pyx_v_self->exc_info) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v_self->exc_info)->tp_name), 0))) __PYX_ERR(0, 314, __pyx_L1_error)
+    __pyx_t_5 = __pyx_v_self->exc_info;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_t_5);
     __pyx_v_exc_info = ((PyObject*)__pyx_t_5);
     __pyx_t_5 = 0;
@@ -7980,6 +9953,7 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *                 custom_key = (frame_cache_key, 'try_exc_info')
  *                 container_obj = frame_skips_cache.get(custom_key)
  */
+<<<<<<< HEAD
       if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
         PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
         __PYX_ERR(0, 316, __pyx_L1_error)
@@ -7991,6 +9965,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
         __PYX_ERR(0, 316, __pyx_L1_error)
       }
       __pyx_t_3 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 316, __pyx_L1_error)
+=======
+      if (unlikely(__pyx_v_self->_args == Py_None)) {
+        PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+        __PYX_ERR(0, 316, __pyx_L1_error)
+      }
+      __pyx_t_5 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 4, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 316, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      if (unlikely(__pyx_v_self->_args == Py_None)) {
+        PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+        __PYX_ERR(0, 316, __pyx_L1_error)
+      }
+      __pyx_t_3 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 5, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 316, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_v_frame_skips_cache = __pyx_t_5;
       __pyx_t_5 = 0;
@@ -8026,7 +10013,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_4 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
         __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+        __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_4)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
           __Pyx_INCREF(__pyx_t_4);
@@ -8083,11 +10074,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *                         self.handle_user_exception(frame):
  *                     return self.trace_dispatch
  */
+<<<<<<< HEAD
       if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
         PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
         __PYX_ERR(0, 321, __pyx_L1_error)
       }
       __pyx_t_3 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+=======
+      if (unlikely(__pyx_v_self->_args == Py_None)) {
+        PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+        __PYX_ERR(0, 321, __pyx_L1_error)
+      }
+      __pyx_t_3 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       __Pyx_GOTREF(__pyx_t_3);
       if (unlikely(__pyx_v_exc_info == Py_None)) {
         PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -8123,11 +10122,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *                     return self.trace_dispatch
  * 
  */
+<<<<<<< HEAD
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 322, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_3 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
         __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 322, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_3 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+        __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_3)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
           __Pyx_INCREF(__pyx_t_3);
@@ -8162,7 +10169,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *         return self.trace_exception
  */
         __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 323, __pyx_L1_error)
+=======
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 323, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_r = __pyx_t_4;
         __pyx_t_4 = 0;
@@ -8204,7 +10215,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *     # IFDEF CYTHON -- DONT EDIT THIS FILE (it is automatically generated)
  */
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 325, __pyx_L1_error)
+=======
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 325, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -8246,7 +10261,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_6trace_exc
  *         cdef bint should_stop;
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_stop_on_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, CYTHON_UNUSED PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_stop_on_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, CYTHON_UNUSED PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *__pyx_v_info = 0;
   int __pyx_v_should_stop;
   int __pyx_v_was_just_raised;
@@ -8295,11 +10314,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
  *         info = self._args[2]
  *         should_stop = False
  */
+<<<<<<< HEAD
   if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(0, 338, __pyx_L1_error)
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 338, __pyx_L1_error)
+=======
+  if (unlikely(__pyx_v_self->_args == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(0, 338, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 338, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_main_debugger = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -8311,11 +10338,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
  *         should_stop = False
  * 
  */
+<<<<<<< HEAD
   if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(0, 339, __pyx_L1_error)
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 339, __pyx_L1_error)
+=======
+  if (unlikely(__pyx_v_self->_args == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(0, 339, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 339, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo))))) __PYX_ERR(0, 339, __pyx_L1_error)
   __pyx_v_info = ((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBAdditionalThreadInfo *)__pyx_t_1);
@@ -8489,7 +10524,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
             __pyx_t_3 = NULL;
             __pyx_t_12 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
               __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+              __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_3)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
                 __Pyx_INCREF(__pyx_t_3);
@@ -8500,7 +10539,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
             }
             #if CYTHON_FAST_PYCALL
             if (PyFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[6] = {__pyx_t_3, __pyx_v_main_debugger, ((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_arg};
+=======
+              PyObject *__pyx_temp[6] = {__pyx_t_3, __pyx_v_main_debugger, ((PyObject *)__pyx_v_self), __pyx_v_frame, __pyx_v_self->_args, __pyx_v_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_12, 5+__pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L9_error)
               __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
               __Pyx_GOTREF(__pyx_t_4);
@@ -8508,7 +10551,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
             #endif
             #if CYTHON_FAST_PYCCALL
             if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[6] = {__pyx_t_3, __pyx_v_main_debugger, ((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_arg};
+=======
+              PyObject *__pyx_temp[6] = {__pyx_t_3, __pyx_v_main_debugger, ((PyObject *)__pyx_v_self), __pyx_v_frame, __pyx_v_self->_args, __pyx_v_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_12, 5+__pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L9_error)
               __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
               __Pyx_GOTREF(__pyx_t_4);
@@ -8523,6 +10570,7 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __Pyx_INCREF(__pyx_v_main_debugger);
               __Pyx_GIVEREF(__pyx_v_main_debugger);
               PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_12, __pyx_v_main_debugger);
+<<<<<<< HEAD
               __Pyx_INCREF(((PyObject *)__pyx_vEffect_Space_Source_Self));
               __Pyx_GIVEREF(((PyObject *)__pyx_vEffect_Space_Source_Self));
               PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_12, ((PyObject *)__pyx_vEffect_Space_Source_Self));
@@ -8532,6 +10580,17 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
               __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
               PyTuple_SET_ITEM(__pyx_t_5, 3+__pyx_t_12, __pyx_vEffect_Space_Source_Self->_args);
+=======
+              __Pyx_INCREF(((PyObject *)__pyx_v_self));
+              __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
+              PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_12, ((PyObject *)__pyx_v_self));
+              __Pyx_INCREF(__pyx_v_frame);
+              __Pyx_GIVEREF(__pyx_v_frame);
+              PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_12, __pyx_v_frame);
+              __Pyx_INCREF(__pyx_v_self->_args);
+              __Pyx_GIVEREF(__pyx_v_self->_args);
+              PyTuple_SET_ITEM(__pyx_t_5, 3+__pyx_t_12, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_INCREF(__pyx_v_arg);
               __Pyx_GIVEREF(__pyx_v_arg);
               PyTuple_SET_ITEM(__pyx_t_5, 4+__pyx_t_12, __pyx_v_arg);
@@ -8674,7 +10733,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
           __pyx_t_13 = NULL;
           if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_14))) {
+<<<<<<< HEAD
             __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_14);
+=======
+            __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_14);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_13)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
               __Pyx_INCREF(__pyx_t_13);
@@ -8744,7 +10807,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_1 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
           __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_1)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
             __Pyx_INCREF(__pyx_t_1);
@@ -8815,7 +10882,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_4 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
           __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+          __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_4)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
             __Pyx_INCREF(__pyx_t_4);
@@ -8882,7 +10953,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
           __pyx_t_3 = NULL;
           __pyx_t_12 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
             __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+            __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_3)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_3);
@@ -8989,7 +11064,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
           __pyx_t_4 = NULL;
           __pyx_t_12 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_4);
@@ -9162,7 +11241,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
             __pyx_t_3 = NULL;
             __pyx_t_12 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+<<<<<<< HEAD
               __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_14);
+=======
+              __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_14);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_3)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
                 __Pyx_INCREF(__pyx_t_3);
@@ -9246,7 +11329,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
               __pyx_t_14 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
                 __pyx_t_14 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+                __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_14)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                   __Pyx_INCREF(__pyx_t_14);
@@ -9311,7 +11398,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
             __pyx_t_13 = NULL;
             __pyx_t_12 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
               __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+              __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_13)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                 __Pyx_INCREF(__pyx_t_13);
@@ -9426,7 +11517,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __pyx_t_14 = NULL;
               __pyx_t_12 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
                 __pyx_t_14 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+                __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_14)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                   __Pyx_INCREF(__pyx_t_14);
@@ -9514,7 +11609,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __pyx_t_14 = NULL;
               __pyx_t_12 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
                 __pyx_t_14 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+                __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_14)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                   __Pyx_INCREF(__pyx_t_14);
@@ -9584,7 +11683,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
  *                                     if not exc_info:
  *                                         exc_info = (arg, frame.f_lineno, set([frame.f_lineno]))
  */
+<<<<<<< HEAD
                 __pyx_t_1 = __pyx_vEffect_Space_Source_Self->exc_info;
+=======
+                __pyx_t_1 = __pyx_v_self->exc_info;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 __Pyx_INCREF(__pyx_t_1);
                 __Pyx_XDECREF_SET(__pyx_v_exc_info, __pyx_t_1);
                 __pyx_t_1 = 0;
@@ -9665,7 +11768,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
                   __Pyx_GOTREF(__pyx_t_1);
                   __pyx_t_13 = NULL;
                   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_17))) {
+<<<<<<< HEAD
                     __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_17);
+=======
+                    __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_17);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                     if (likely(__pyx_t_13)) {
                       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_17);
                       __Pyx_INCREF(__pyx_t_13);
@@ -9715,9 +11822,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
  */
                 __Pyx_INCREF(__pyx_v_exc_info);
                 __Pyx_GIVEREF(__pyx_v_exc_info);
+<<<<<<< HEAD
                 __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->exc_info);
                 __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->exc_info);
                 __pyx_vEffect_Space_Source_Self->exc_info = __pyx_v_exc_info;
+=======
+                __Pyx_GOTREF(__pyx_v_self->exc_info);
+                __Pyx_DECREF(__pyx_v_self->exc_info);
+                __pyx_v_self->exc_info = __pyx_v_exc_info;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
                 /* "_pydevd_bundle/pydevd_cython.pyx":404
  *                                 # Note: we don't stop here, we just collect the exc_info to use later on...
@@ -9800,7 +11913,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
               __Pyx_GOTREF(__pyx_t_1);
               __pyx_t_13 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
                 __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+                __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_13)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                   __Pyx_INCREF(__pyx_t_13);
@@ -10072,7 +12189,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
                   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
                   __pyx_t_3 = NULL;
                   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+<<<<<<< HEAD
                     __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_14);
+=======
+                    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_14);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                     if (likely(__pyx_t_3)) {
                       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
                       __Pyx_INCREF(__pyx_t_3);
@@ -10191,7 +12312,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
         __pyx_t_17 = NULL;
         __pyx_t_12 = 0;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
           __pyx_t_17 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+          __pyx_t_17 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_17)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
             __Pyx_INCREF(__pyx_t_17);
@@ -10272,7 +12397,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
           __pyx_t_13 = NULL;
           __pyx_t_12 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
             __pyx_t_13 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+            __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_13)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_13);
@@ -10426,19 +12555,32 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__should_sto
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_9handle_user_exception(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_9handle_user_exception(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("handle_user_exception (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_user_exception(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_frame));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_9handle_user_exception(PyObject *__pyx_v_self, PyObject *__pyx_v_frame); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_9handle_user_exception(PyObject *__pyx_v_self, PyObject *__pyx_v_frame) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("handle_user_exception (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_user_exception(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), ((PyObject *)__pyx_v_frame));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_user_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_user_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_exc_info = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -10458,7 +12600,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_us
  *         if exc_info:
  *             return self._handle_exception(frame, 'exception', exc_info[0], EXCEPTION_TYPE_USER_UNHANDLED)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_vEffect_Space_Source_Self->exc_info;
+=======
+  __pyx_t_1 = __pyx_v_self->exc_info;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_INCREF(__pyx_t_1);
   __pyx_v_exc_info = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -10486,7 +12632,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_us
     __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_EXCEPTION_TYPE_USER_UNHANDLED); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 452, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     if (!(likely(PyString_CheckExact(__pyx_t_3))||((__pyx_t_3) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_t_3)->tp_name), 0))) __PYX_ERR(0, 452, __pyx_L1_error)
+<<<<<<< HEAD
     __pyx_t_4 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_handle_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_n_s_exception, __pyx_t_1, ((PyObject*)__pyx_t_3)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 452, __pyx_L1_error)
+=======
+    __pyx_t_4 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_handle_exception(__pyx_v_self, __pyx_v_frame, __pyx_n_s_exception, __pyx_t_1, ((PyObject*)__pyx_t_3)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 452, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10545,7 +12695,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_8handle_us
  *         cdef tuple abs_real_path_and_base;
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, PyObject *__pyx_v_exception_type) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exception(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, PyObject *__pyx_v_exception_type) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_v_stopped;
   PyObject *__pyx_v_abs_real_path_and_base = 0;
   PyObject *__pyx_v_absolute_filename = 0;
@@ -10636,11 +12790,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  * 
  *             initial_trace_obj = trace_obj
  */
+<<<<<<< HEAD
     if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
       __PYX_ERR(0, 476, __pyx_L4_error)
     }
     __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L4_error)
+=======
+    if (unlikely(__pyx_v_self->_args == Py_None)) {
+      PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+      __PYX_ERR(0, 476, __pyx_L4_error)
+    }
+    __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_main_debugger = __pyx_t_1;
     __pyx_t_1 = 0;
@@ -10768,7 +12930,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
         __Pyx_GOTREF(__pyx_t_8);
         __pyx_t_9 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
           __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+          __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_9)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
             __Pyx_INCREF(__pyx_t_9);
@@ -10827,7 +12993,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  * 
  *                     lines_ignored = filename_to_lines_where_exceptions_are_ignored.get(canonical_normalized_filename)
  */
+<<<<<<< HEAD
         __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_filename_to_lines_where_exceptio); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 493, __pyx_L4_error)
+=======
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_filename_to_lines_where_exceptio); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 493, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_1);
         if (!(likely(PyDict_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "dict", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(0, 493, __pyx_L4_error)
         __Pyx_XDECREF_SET(__pyx_v_filename_to_lines_where_exceptions_are_ignored, ((PyObject*)__pyx_t_1));
@@ -10918,7 +13088,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             __pyx_t_7 = NULL;
             if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
               __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+              __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_7)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                 __Pyx_INCREF(__pyx_t_7);
@@ -11031,14 +13205,22 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  *                     if last_stat != curr_stat:
  *                         self.filename_to_stat_info[absolute_filename] = curr_stat
  */
+<<<<<<< HEAD
         __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_filename_to_stat_info); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 505, __pyx_L4_error)
+=======
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_filename_to_stat_info); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 505, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_8);
         __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_get); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 505, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_8 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
           __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+          __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_8)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
             __Pyx_INCREF(__pyx_t_8);
@@ -11073,7 +13255,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  *                         lines_ignored.clear()
  *                         try:
  */
+<<<<<<< HEAD
           __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_filename_to_stat_info); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 507, __pyx_L4_error)
+=======
+          __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_filename_to_stat_info); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 507, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_1);
           if (unlikely(PyObject_SetItem(__pyx_t_1, __pyx_v_absolute_filename, __pyx_v_curr_stat) < 0)) __PYX_ERR(0, 507, __pyx_L4_error)
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11121,7 +13307,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
               __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
               __pyx_t_7 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                 __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_7)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                   __Pyx_INCREF(__pyx_t_7);
@@ -11182,7 +13372,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
               __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
               __pyx_t_14 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_15))) {
+<<<<<<< HEAD
                 __pyx_t_14 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_15);
+=======
+                __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_15);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_14)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_15);
                   __Pyx_INCREF(__pyx_t_14);
@@ -11246,7 +13440,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_8 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
           __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+          __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_8)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
             __Pyx_INCREF(__pyx_t_8);
@@ -11392,7 +13590,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
               __pyx_t_1 = NULL;
               __pyx_t_16 = 0;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                 __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_1)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                   __Pyx_INCREF(__pyx_t_1);
@@ -11491,7 +13693,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
               __pyx_t_1 = NULL;
               __pyx_t_16 = 0;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_14))) {
+<<<<<<< HEAD
                 __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_14);
+=======
+                __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_14);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_1)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
                   __Pyx_INCREF(__pyx_t_1);
@@ -11576,7 +13782,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
           __pyx_t_8 = NULL;
           if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
             __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+            __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_8)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
               __Pyx_INCREF(__pyx_t_8);
@@ -11722,11 +13932,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  * 
  *             try:
  */
+<<<<<<< HEAD
     if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
       __PYX_ERR(0, 548, __pyx_L4_error)
     }
     __pyx_t_5 = __Pyx_GetItemInt_Tuple(__pyx_vEffect_Space_Source_Self->_args, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 548, __pyx_L4_error)
+=======
+    if (unlikely(__pyx_v_self->_args == Py_None)) {
+      PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+      __PYX_ERR(0, 548, __pyx_L4_error)
+    }
+    __pyx_t_5 = __Pyx_GetItemInt_Tuple(__pyx_v_self->_args, 3, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 548, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_v_thread = __pyx_t_5;
     __pyx_t_5 = 0;
@@ -11853,7 +14071,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
         __pyx_t_8 = NULL;
         __pyx_t_16 = 0;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_15))) {
+<<<<<<< HEAD
           __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_15);
+=======
+          __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_15);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_8)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_15);
             __Pyx_INCREF(__pyx_t_8);
@@ -11918,12 +14140,20 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  *                     self.do_wait_suspend(thread, frame, event, arg, exception_type=exception_type)
  *                 finally:
  */
+<<<<<<< HEAD
           __pyx_t_15 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 562, __pyx_L59_error)
+=======
+          __pyx_t_15 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 562, __pyx_L59_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_15);
           __pyx_t_9 = NULL;
           __pyx_t_16 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_15))) {
+<<<<<<< HEAD
             __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_15);
+=======
+            __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_15);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_9)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_15);
               __Pyx_INCREF(__pyx_t_9);
@@ -11974,7 +14204,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  *                 finally:
  *                     main_debugger.send_caught_exception_stack_proceeded(thread)
  */
+<<<<<<< HEAD
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 563, __pyx_L59_error)
+=======
+          __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 563, __pyx_L59_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_t_15 = PyTuple_New(4); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 563, __pyx_L59_error)
           __Pyx_GOTREF(__pyx_t_15);
@@ -12014,7 +14248,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
             __Pyx_GOTREF(__pyx_t_7);
             __pyx_t_15 = NULL;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
               __pyx_t_15 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+              __pyx_t_15 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_15)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
                 __Pyx_INCREF(__pyx_t_15);
@@ -12057,7 +14295,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
               __Pyx_GOTREF(__pyx_t_7);
               __pyx_t_15 = NULL;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
                 __pyx_t_15 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+                __pyx_t_15 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_15)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
                   __Pyx_INCREF(__pyx_t_15);
@@ -12151,7 +14393,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_8 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_14))) {
+<<<<<<< HEAD
           __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_14);
+=======
+          __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_14);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_8)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
             __Pyx_INCREF(__pyx_t_8);
@@ -12203,7 +14449,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
       __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_9)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_9);
@@ -12232,7 +14482,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_9 = NULL;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
         __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+        __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_9)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
           __Pyx_INCREF(__pyx_t_9);
@@ -12363,7 +14617,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_9 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
           __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+          __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_9)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
             __Pyx_INCREF(__pyx_t_9);
@@ -12499,7 +14757,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_9 = NULL;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
         __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+        __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_9)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
           __Pyx_INCREF(__pyx_t_9);
@@ -12667,7 +14929,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__handle_exc
  *     # ELSE
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_name(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_name(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_func_name = 0;
   PyObject *__pyx_v_code_obj = NULL;
   PyObject *__pyx_v_cls_name = NULL;
@@ -12743,7 +15009,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_na
       __pyx_t_6 = NULL;
       __pyx_t_7 = 0;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
         __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_6)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
           __Pyx_INCREF(__pyx_t_6);
@@ -12887,7 +15157,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_na
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __pyx_t_11 = NULL;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_12))) {
+<<<<<<< HEAD
         __pyx_t_11 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_12);
+=======
+        __pyx_t_11 = PyMethod_GET_SELF(__pyx_t_12);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_11)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
           __Pyx_INCREF(__pyx_t_11);
@@ -12980,7 +15254,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_get_func_na
  * #     def _show_return_values(self, frame, arg):
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_return_values(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_return_values(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_f_locals_back = NULL;
   PyObject *__pyx_v_return_values_dict = NULL;
   PyObject *__pyx_v_name = NULL;
@@ -13073,7 +15351,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_retur
           __pyx_t_9 = NULL;
           __pyx_t_10 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
             __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+            __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_9)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
               __Pyx_INCREF(__pyx_t_9);
@@ -13171,7 +15453,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_retur
  *                     return_values_dict[name] = arg
  *             except:
  */
+<<<<<<< HEAD
           __pyx_t_5 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->get_func_name(__pyx_vEffect_Space_Source_Self, __pyx_v_frame); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 616, __pyx_L6_error)
+=======
+          __pyx_t_5 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->get_func_name(__pyx_v_self, __pyx_v_frame); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 616, __pyx_L6_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_5);
           __pyx_v_name = __pyx_t_5;
           __pyx_t_5 = 0;
@@ -13241,7 +15527,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_retur
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_t_9 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_12))) {
+<<<<<<< HEAD
           __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_12);
+=======
+          __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_12);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_9)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
             __Pyx_INCREF(__pyx_t_9);
@@ -13374,7 +15664,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__show_retur
  * #     def _remove_return_values(self, main_debugger, frame):
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_return_values(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_return_values(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_f_locals_back = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -13442,7 +15736,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_ret
         __pyx_t_7 = NULL;
         __pyx_t_8 = 0;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
           __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+          __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_7)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
             __Pyx_INCREF(__pyx_t_7);
@@ -13528,7 +15826,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_ret
           __pyx_t_5 = NULL;
           __pyx_t_8 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
             __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+            __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_5)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
               __Pyx_INCREF(__pyx_t_5);
@@ -13630,7 +15932,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_ret
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_5 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_12))) {
+<<<<<<< HEAD
           __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_12);
+=======
+          __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_12);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_5)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_12);
             __Pyx_INCREF(__pyx_t_5);
@@ -13761,7 +16067,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__remove_ret
  * #     def _get_unfiltered_back_frame(self, main_debugger, frame):
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfiltered_back_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfiltered_back_frame(CYTHON_UNUSED struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_main_debugger, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_f = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -13855,7 +16165,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfilt
       __pyx_t_5 = NULL;
       __pyx_t_7 = 0;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
         __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+        __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_5)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
           __Pyx_INCREF(__pyx_t_5);
@@ -13989,8 +16303,13 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame__get_unfilt
  *         cdef bint is_exception_event;
  */
 
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, int __pyx_skip_dispatch) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg, int __pyx_skip_dispatch) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_abs_path_canonical_path_and_base = 0;
   int __pyx_v_is_exception_event;
   int __pyx_v_has_exception_breakpoints;
@@ -14087,6 +16406,7 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
   /* Check if called by wrapper */
   if (unlikely(__pyx_skip_dispatch)) ;
   /* Check if overridden in Python */
+<<<<<<< HEAD
   else if (unlikely((Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))->tp_dictoffset != 0) || (Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))->tp_flags & (Py_TPFLAGS_IS_ABSTRACT | Py_TPFLAGS_HEAPTYPE)))) {
     #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_PYTYPE_LOOKUP && CYTHON_USE_TYPE_SLOTS
     static PY_UINT64_T __pyx_tp_dict_version = __PYX_DICT_VERSION_INIT, __pyx_obj_dict_version = __PYX_DICT_VERSION_INIT;
@@ -14094,6 +16414,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_vEffect_Space_Source_Self));
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+=======
+  else if (unlikely((Py_TYPE(((PyObject *)__pyx_v_self))->tp_dictoffset != 0) || (Py_TYPE(((PyObject *)__pyx_v_self))->tp_flags & (Py_TPFLAGS_IS_ABSTRACT | Py_TPFLAGS_HEAPTYPE)))) {
+    #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_PYTYPE_LOOKUP && CYTHON_USE_TYPE_SLOTS
+    static PY_UINT64_T __pyx_tp_dict_version = __PYX_DICT_VERSION_INIT, __pyx_obj_dict_version = __PYX_DICT_VERSION_INIT;
+    if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
+      PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
+      #endif
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch)) {
         __Pyx_XDECREF(__pyx_r);
@@ -14101,7 +16430,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
         __pyx_t_3 = __pyx_t_1; __pyx_t_4 = NULL;
         __pyx_t_5 = 0;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
           __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+          __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_4)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
             __Pyx_INCREF(__pyx_t_4);
@@ -14152,8 +16485,13 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
         goto __pyx_L0;
       }
       #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_PYTYPE_LOOKUP && CYTHON_USE_TYPE_SLOTS
+<<<<<<< HEAD
       __pyx_tp_dict_version = __Pyx_get_tp_dict_version(((PyObject *)__pyx_vEffect_Space_Source_Self));
       __pyx_obj_dict_version = __Pyx_get_object_dict_version(((PyObject *)__pyx_vEffect_Space_Source_Self));
+=======
+      __pyx_tp_dict_version = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
+      __pyx_obj_dict_version = __Pyx_get_object_dict_version(((PyObject *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (unlikely(__pyx_type_dict_guard != __pyx_tp_dict_version)) {
         __pyx_tp_dict_version = __pyx_obj_dict_version = __PYX_DICT_VERSION_INIT;
       }
@@ -14171,7 +16509,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *         # if DEBUG: print('frame trace_dispatch %s %s %s %s %s %s, stop: %s' % (frame.f_lineno, frame.f_code.co_name, frame.f_code.co_filename, event, constant_to_str(info.pydev_step_cmd), arg, info.pydev_step_stop))
  *         try:
  */
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_vEffect_Space_Source_Self->_args;
+=======
+  __pyx_t_1 = __pyx_v_self->_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_INCREF(__pyx_t_1);
   if (likely(__pyx_t_1 != Py_None)) {
     PyObject* sequence = __pyx_t_1;
@@ -14597,7 +16939,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __Pyx_GOTREF(__pyx_t_7);
           __pyx_t_4 = NULL;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_4);
@@ -14667,7 +17013,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_6 = NULL;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
               __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+              __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_6)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
                 __Pyx_INCREF(__pyx_t_6);
@@ -14737,7 +17087,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         if self.exc_info:
  */
           __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
           __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 755, __pyx_L4_error)
+=======
+          __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 755, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_1);
           __pyx_r = __pyx_t_1;
           __pyx_t_1 = 0;
@@ -14760,7 +17114,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             return self.trace_dispatch
  */
         /*else*/ {
+<<<<<<< HEAD
           __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_vEffect_Space_Source_Self->exc_info); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 757, __pyx_L4_error)
+=======
+          __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_self->exc_info); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 757, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (__pyx_t_9) {
 
             /* "_pydevd_bundle/pydevd_cython.pyx":758
@@ -14770,11 +17128,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             return self.trace_dispatch
  * 
  */
+<<<<<<< HEAD
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 758, __pyx_L4_error)
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_7 = NULL;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
               __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+            __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 758, __pyx_L4_error)
+            __Pyx_GOTREF(__pyx_t_8);
+            __pyx_t_7 = NULL;
+            if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+              __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_7)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                 __Pyx_INCREF(__pyx_t_7);
@@ -14797,7 +17163,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         # Tricky handling: usually when we're on a frame which is about to exit
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 759, __pyx_L4_error)
+=======
+            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 759, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_1);
             __pyx_r = __pyx_t_1;
             __pyx_t_1 = 0;
@@ -14843,7 +17213,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                                 if f is not None:
  *                                     info.pydev_step_cmd = 206
  */
+<<<<<<< HEAD
               __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_get_unfiltered_back_frame(__pyx_vEffect_Space_Source_Self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 773, __pyx_L4_error)
+=======
+              __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_get_unfiltered_back_frame(__pyx_v_self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 773, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_1);
               __pyx_v_f = __pyx_t_1;
               __pyx_t_1 = 0;
@@ -14994,7 +17368,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                                 if f is not None:
  *                                     info.pydev_step_stop = f
  */
+<<<<<<< HEAD
               __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_get_unfiltered_back_frame(__pyx_vEffect_Space_Source_Self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 788, __pyx_L4_error)
+=======
+              __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_get_unfiltered_back_frame(__pyx_v_self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 788, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_1);
               __pyx_v_f = __pyx_t_1;
               __pyx_t_1 = 0;
@@ -15127,7 +17505,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         if should_stop:
  *                             if self._handle_exception(frame, event, arg, EXCEPTION_TYPE_HANDLED):
  */
+<<<<<<< HEAD
           __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_should_stop_on_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 798, __pyx_L4_error)
+=======
+          __pyx_t_1 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_should_stop_on_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 798, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_1);
           if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
             PyObject* sequence = __pyx_t_1;
@@ -15201,7 +17583,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_EXCEPTION_TYPE_HANDLED); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 800, __pyx_L4_error)
             __Pyx_GOTREF(__pyx_t_1);
             if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(0, 800, __pyx_L4_error)
+<<<<<<< HEAD
             __pyx_t_7 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_handle_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_1)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 800, __pyx_L4_error)
+=======
+            __pyx_t_7 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_handle_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_1)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 800, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_7);
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 800, __pyx_L4_error)
@@ -15216,7 +17602,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     return self.trace_dispatch
  */
               __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
               __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 801, __pyx_L4_error)
+=======
+              __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 801, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_7);
               __pyx_r = __pyx_t_7;
               __pyx_t_7 = 0;
@@ -15257,7 +17647,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     # event == 'call' or event == 'c_XXX'
  */
         __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
         __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 803, __pyx_L4_error)
+=======
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 803, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_r = __pyx_t_7;
         __pyx_t_7 = 0;
@@ -15281,7 +17675,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  */
       /*else*/ {
         __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
         __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 806, __pyx_L4_error)
+=======
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 806, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_r = __pyx_t_7;
         __pyx_t_7 = 0;
@@ -15512,7 +17910,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         if self.handle_user_exception(frame):
  *                             return self.trace_dispatch
  */
+<<<<<<< HEAD
         __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_vEffect_Space_Source_Self->exc_info); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 834, __pyx_L4_error)
+=======
+        __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_self->exc_info); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 834, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (__pyx_t_9) {
 
           /* "_pydevd_bundle/pydevd_cython.pyx":835
@@ -15522,11 +17924,19 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             return self.trace_dispatch
  * 
  */
+<<<<<<< HEAD
           __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 835, __pyx_L4_error)
           __Pyx_GOTREF(__pyx_t_1);
           __pyx_t_8 = NULL;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
             __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+          __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_handle_user_exception); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 835, __pyx_L4_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __pyx_t_8 = NULL;
+          if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+            __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_8)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_8);
@@ -15551,7 +17961,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                 elif event == 'call':
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 836, __pyx_L4_error)
+=======
+            __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 836, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_7);
             __pyx_r = __pyx_t_7;
             __pyx_t_7 = 0;
@@ -15689,7 +18103,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         if should_stop:
  *                             if self._handle_exception(frame, event, arg, EXCEPTION_TYPE_HANDLED):
  */
+<<<<<<< HEAD
           __pyx_t_7 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_should_stop_on_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 848, __pyx_L4_error)
+=======
+          __pyx_t_7 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_should_stop_on_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 848, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_7);
           if ((likely(PyTuple_CheckExact(__pyx_t_7))) || (PyList_CheckExact(__pyx_t_7))) {
             PyObject* sequence = __pyx_t_7;
@@ -15763,7 +18181,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_EXCEPTION_TYPE_HANDLED); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 850, __pyx_L4_error)
             __Pyx_GOTREF(__pyx_t_7);
             if (!(likely(PyString_CheckExact(__pyx_t_7))||((__pyx_t_7) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_t_7)->tp_name), 0))) __PYX_ERR(0, 850, __pyx_L4_error)
+<<<<<<< HEAD
             __pyx_t_8 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_handle_exception(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_7)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 850, __pyx_L4_error)
+=======
+            __pyx_t_8 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_handle_exception(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, ((PyObject*)__pyx_t_7)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 850, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_8);
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 850, __pyx_L4_error)
@@ -15778,7 +18200,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     is_return = False
  */
               __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
               __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 851, __pyx_L4_error)
+=======
+              __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 851, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_8);
               __pyx_r = __pyx_t_8;
               __pyx_t_8 = 0;
@@ -15857,7 +18283,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  */
       /*else*/ {
         __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
         __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 858, __pyx_L4_error)
+=======
+        __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 858, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_8);
         __pyx_r = __pyx_t_8;
         __pyx_t_8 = 0;
@@ -15897,7 +18327,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_4 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
         __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+        __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_4)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
           __Pyx_INCREF(__pyx_t_4);
@@ -16157,7 +18591,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_7 = NULL;
           __pyx_t_5 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
             __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+            __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_7)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
               __Pyx_INCREF(__pyx_t_7);
@@ -16244,7 +18682,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_7 = NULL;
           __pyx_t_5 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
             __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+            __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_7)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
               __Pyx_INCREF(__pyx_t_7);
@@ -16500,7 +18942,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __pyx_t_3 = NULL;
             __pyx_t_5 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
               __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+              __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_3)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                 __Pyx_INCREF(__pyx_t_3);
@@ -16676,7 +19122,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             return None if is_call else NO_FTRACE
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 915, __pyx_L4_error)
+=======
+            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 915, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_1);
             __pyx_r = __pyx_t_1;
             __pyx_t_1 = 0;
@@ -16779,7 +19229,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     breakpoints_in_frame_cache = frame_skips_cache.get(frame_cache_key, -1)
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 924, __pyx_L4_error)
+=======
+            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 924, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_1);
             __pyx_r = __pyx_t_1;
             __pyx_t_1 = 0;
@@ -16903,7 +19357,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __Pyx_GOTREF(__pyx_t_8);
               __pyx_t_3 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
                 __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+                __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_3)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
                   __Pyx_INCREF(__pyx_t_3);
@@ -17166,7 +19624,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __Pyx_GOTREF(__pyx_t_3);
               __pyx_t_7 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_7)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_7);
@@ -17395,7 +19857,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             return None if is_call else NO_FTRACE
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 970, __pyx_L4_error)
+=======
+            __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_exception); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 970, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_r = __pyx_t_8;
             __pyx_t_8 = 0;
@@ -17705,7 +20171,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_4 = NULL;
           __pyx_t_5 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
               __Pyx_INCREF(__pyx_t_4);
@@ -17716,7 +20186,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           }
           #if CYTHON_FAST_PYCALL
           if (PyFunction_Check(__pyx_t_8)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[6] = {__pyx_t_4, __pyx_v_main_debugger, ((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args};
+=======
+            PyObject *__pyx_temp[6] = {__pyx_t_4, __pyx_v_main_debugger, ((PyObject *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_5, 5+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 994, __pyx_L98_error)
             __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_GOTREF(__pyx_t_1);
@@ -17724,7 +20198,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           #endif
           #if CYTHON_FAST_PYCCALL
           if (__Pyx_PyFastCFunction_Check(__pyx_t_8)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[6] = {__pyx_t_4, __pyx_v_main_debugger, ((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args};
+=======
+            PyObject *__pyx_temp[6] = {__pyx_t_4, __pyx_v_main_debugger, ((PyObject *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_5, 5+__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 994, __pyx_L98_error)
             __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_GOTREF(__pyx_t_1);
@@ -17739,18 +20217,30 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_INCREF(__pyx_v_main_debugger);
             __Pyx_GIVEREF(__pyx_v_main_debugger);
             PyTuple_SET_ITEM(__pyx_t_3, 0+__pyx_t_5, __pyx_v_main_debugger);
+<<<<<<< HEAD
             __Pyx_INCREF(((PyObject *)__pyx_vEffect_Space_Source_Self));
             __Pyx_GIVEREF(((PyObject *)__pyx_vEffect_Space_Source_Self));
             PyTuple_SET_ITEM(__pyx_t_3, 1+__pyx_t_5, ((PyObject *)__pyx_vEffect_Space_Source_Self));
+=======
+            __Pyx_INCREF(((PyObject *)__pyx_v_self));
+            __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
+            PyTuple_SET_ITEM(__pyx_t_3, 1+__pyx_t_5, ((PyObject *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_INCREF(__pyx_v_frame);
             __Pyx_GIVEREF(__pyx_v_frame);
             PyTuple_SET_ITEM(__pyx_t_3, 2+__pyx_t_5, __pyx_v_frame);
             __Pyx_INCREF(__pyx_v_event);
             __Pyx_GIVEREF(__pyx_v_event);
             PyTuple_SET_ITEM(__pyx_t_3, 3+__pyx_t_5, __pyx_v_event);
+<<<<<<< HEAD
             __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
             __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
             PyTuple_SET_ITEM(__pyx_t_3, 4+__pyx_t_5, __pyx_vEffect_Space_Source_Self->_args);
+=======
+            __Pyx_INCREF(__pyx_v_self->_args);
+            __Pyx_GIVEREF(__pyx_v_self->_args);
+            PyTuple_SET_ITEM(__pyx_t_3, 4+__pyx_t_5, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 994, __pyx_L98_error)
             __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -17915,7 +20405,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             eval_result = main_debugger.handle_breakpoint_condition(info, breakpoint, new_frame)
  * 
  */
+<<<<<<< HEAD
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_breakpoint, __pyx_n_sEffect_Trigger_Specific_Has_Condition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1004, __pyx_L98_error)
+=======
+            __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_breakpoint, __pyx_n_s_has_condition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1004, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 1004, __pyx_L98_error)
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -17934,7 +20428,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __pyx_t_8 = NULL;
               __pyx_t_5 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_8)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_8);
@@ -18018,7 +20516,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __pyx_t_1 = NULL;
               __pyx_t_5 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_1)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_1);
@@ -18120,7 +20622,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_1 = NULL;
                 __pyx_t_5 = 0;
                 if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                   __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                  __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_1)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                     __Pyx_INCREF(__pyx_t_1);
@@ -18181,7 +20687,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
                 __pyx_t_8 = NULL;
                 if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
                   __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+                  __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_8)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
                     __Pyx_INCREF(__pyx_t_8);
@@ -18221,7 +20731,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             if not eval_result:
  *                                 stop = False
  */
+<<<<<<< HEAD
             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_breakpoint, __pyx_n_sEffect_Trigger_Specific_Has_Condition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1013, __pyx_L98_error)
+=======
+            __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_breakpoint, __pyx_n_s_has_condition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1013, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_4);
             __pyx_t_14 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_14 < 0)) __PYX_ERR(0, 1013, __pyx_L98_error)
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -18348,7 +20862,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                 if main_debugger.show_return_values:
  */
             __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
             __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1028, __pyx_L98_error)
+=======
+            __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1028, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_6);
             __pyx_r = __pyx_t_6;
             __pyx_t_6 = 0;
@@ -18540,7 +21058,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_1 = NULL;
           __pyx_t_5 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
             __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+            __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_1)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
               __Pyx_INCREF(__pyx_t_1);
@@ -18611,7 +21133,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  * 
  *                 elif main_debugger.remove_return_values_flag:
  */
+<<<<<<< HEAD
             __pyx_t_6 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_show_return_values(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_arg); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1041, __pyx_L98_error)
+=======
+            __pyx_t_6 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_show_return_values(__pyx_v_self, __pyx_v_frame, __pyx_v_arg); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1041, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
@@ -18663,7 +21189,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     finally:
  *                         main_debugger.remove_return_values_flag = False
  */
+<<<<<<< HEAD
             __pyx_t_6 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self->__pyx_vtab)->_remove_return_values(__pyx_vEffect_Space_Source_Self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1045, __pyx_L147_error)
+=======
+            __pyx_t_6 = ((struct __pyx_vtabstruct_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self->__pyx_vtab)->_remove_return_values(__pyx_v_self, __pyx_v_main_debugger, __pyx_v_frame); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1045, __pyx_L147_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_6);
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           }
@@ -18761,7 +21291,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         thread,
  *                         111,
  */
+<<<<<<< HEAD
           __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1050, __pyx_L98_error)
+=======
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1050, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_6);
 
           /* "_pydevd_bundle/pydevd_cython.pyx":1051
@@ -18862,7 +21396,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_4 = NULL;
           __pyx_t_20 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
               __Pyx_INCREF(__pyx_t_4);
@@ -18969,12 +21507,20 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     return self.trace_dispatch
  *                 else:
  */
+<<<<<<< HEAD
           __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1063, __pyx_L98_error)
+=======
+          __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1063, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_7);
           __pyx_t_6 = NULL;
           __pyx_t_20 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
             __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+            __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_6)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
               __Pyx_INCREF(__pyx_t_6);
@@ -19032,7 +21578,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     if not breakpoint and is_line:
  */
           __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
           __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1064, __pyx_L98_error)
+=======
+          __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1064, __pyx_L98_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           __Pyx_GOTREF(__pyx_t_3);
           __pyx_r = __pyx_t_3;
           __pyx_t_3 = 0;
@@ -19140,7 +21690,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __pyx_t_1 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
           __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_1)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
             __Pyx_INCREF(__pyx_t_1);
@@ -19241,7 +21795,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         # I.e.: cache the result on self.should_skip (no need to evaluate the same frame multiple times).
  *                         # Note that on a code reload, we won't re-evaluate this because in practice, the frame.f_code
  */
+<<<<<<< HEAD
           __pyx_t_14 = ((__pyx_vEffect_Space_Source_Self->should_skip == -1L) != 0);
+=======
+          __pyx_t_14 = ((__pyx_v_self->should_skip == -1L) != 0);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (__pyx_t_14) {
 
             /* "_pydevd_bundle/pydevd_cython.pyx":1082
@@ -19265,7 +21823,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __pyx_t_6 = NULL;
             __pyx_t_20 = 0;
             if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_6)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_6);
@@ -19322,7 +21884,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             should_skip = self.should_skip = 0
  */
               __pyx_v_should_skip = 1;
+<<<<<<< HEAD
               __pyx_vEffect_Space_Source_Self->should_skip = 1;
+=======
+              __pyx_v_self->should_skip = 1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
               /* "_pydevd_bundle/pydevd_cython.pyx":1082
  *                         # Note that on a code reload, we won't re-evaluate this because in practice, the frame.f_code
@@ -19343,7 +21909,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  */
             /*else*/ {
               __pyx_v_should_skip = 0;
+<<<<<<< HEAD
               __pyx_vEffect_Space_Source_Self->should_skip = 0;
+=======
+              __pyx_v_self->should_skip = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             }
             __pyx_L171:;
 
@@ -19365,7 +21935,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                 plugin_stop = False
  */
           /*else*/ {
+<<<<<<< HEAD
             __pyx_t_20 = __pyx_vEffect_Space_Source_Self->should_skip;
+=======
+            __pyx_t_20 = __pyx_v_self->should_skip;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_v_should_skip = __pyx_t_20;
           }
           __pyx_L170:;
@@ -19498,7 +22072,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __pyx_t_8 = NULL;
               __pyx_t_20 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_8)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_8);
@@ -19616,7 +22194,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_GOTREF(__pyx_t_6);
             __pyx_t_4 = NULL;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_4)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_4);
@@ -19702,7 +22284,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_8 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                   __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                  __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_8)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                     __Pyx_INCREF(__pyx_t_8);
@@ -20005,7 +22591,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __pyx_t_4 = NULL;
             __pyx_t_20 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_4)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_4);
@@ -20016,7 +22606,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             }
             #if CYTHON_FAST_PYCALL
             if (PyFunction_Check(__pyx_t_3)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[7] = {__pyx_t_4, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_t_6};
+=======
+              PyObject *__pyx_temp[7] = {__pyx_t_4, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_t_6};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_20, 6+__pyx_t_20); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1130, __pyx_L163_error)
               __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
               __Pyx_GOTREF(__pyx_t_1);
@@ -20025,7 +22619,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             #endif
             #if CYTHON_FAST_PYCCALL
             if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[7] = {__pyx_t_4, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_t_6};
+=======
+              PyObject *__pyx_temp[7] = {__pyx_t_4, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_t_6};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_20, 6+__pyx_t_20); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1130, __pyx_L163_error)
               __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
               __Pyx_GOTREF(__pyx_t_1);
@@ -20047,9 +22645,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __Pyx_INCREF(__pyx_v_event);
               __Pyx_GIVEREF(__pyx_v_event);
               PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_20, __pyx_v_event);
+<<<<<<< HEAD
               __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
               __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
               PyTuple_SET_ITEM(__pyx_t_7, 3+__pyx_t_20, __pyx_vEffect_Space_Source_Self->_args);
+=======
+              __Pyx_INCREF(__pyx_v_self->_args);
+              __Pyx_GIVEREF(__pyx_v_self->_args);
+              PyTuple_SET_ITEM(__pyx_t_7, 3+__pyx_t_20, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_INCREF(__pyx_v_stop_info);
               __Pyx_GIVEREF(__pyx_v_stop_info);
               PyTuple_SET_ITEM(__pyx_t_7, 4+__pyx_t_20, __pyx_v_stop_info);
@@ -20222,7 +22826,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __pyx_t_6 = NULL;
             __pyx_t_20 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
               __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+              __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_6)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
                 __Pyx_INCREF(__pyx_t_6);
@@ -20233,7 +22841,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             }
             #if CYTHON_FAST_PYCALL
             if (PyFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[7] = {__pyx_t_6, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_t_7};
+=======
+              PyObject *__pyx_temp[7] = {__pyx_t_6, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_t_7};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_20, 6+__pyx_t_20); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1143, __pyx_L163_error)
               __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
               __Pyx_GOTREF(__pyx_t_3);
@@ -20242,7 +22854,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             #endif
             #if CYTHON_FAST_PYCCALL
             if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
               PyObject *__pyx_temp[7] = {__pyx_t_6, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_t_7};
+=======
+              PyObject *__pyx_temp[7] = {__pyx_t_6, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_t_7};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_20, 6+__pyx_t_20); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1143, __pyx_L163_error)
               __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
               __Pyx_GOTREF(__pyx_t_3);
@@ -20264,9 +22880,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __Pyx_INCREF(__pyx_v_event);
               __Pyx_GIVEREF(__pyx_v_event);
               PyTuple_SET_ITEM(__pyx_t_4, 2+__pyx_t_20, __pyx_v_event);
+<<<<<<< HEAD
               __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
               __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
               PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_20, __pyx_vEffect_Space_Source_Self->_args);
+=======
+              __Pyx_INCREF(__pyx_v_self->_args);
+              __Pyx_GIVEREF(__pyx_v_self->_args);
+              PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_20, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_INCREF(__pyx_v_stop_info);
               __Pyx_GIVEREF(__pyx_v_stop_info);
               PyTuple_SET_ITEM(__pyx_t_4, 4+__pyx_t_20, __pyx_v_stop_info);
@@ -20548,7 +23170,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_7 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                   __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                  __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_7)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                     __Pyx_INCREF(__pyx_t_7);
@@ -20607,7 +23233,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_7 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
                   __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+                  __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_7)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
                     __Pyx_INCREF(__pyx_t_7);
@@ -20954,7 +23584,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_8 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                   __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                  __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_8)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                     __Pyx_INCREF(__pyx_t_8);
@@ -21041,7 +23675,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_1 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                   __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                  __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_1)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                     __Pyx_INCREF(__pyx_t_1);
@@ -21100,7 +23738,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_1 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                   __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                  __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_1)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                     __Pyx_INCREF(__pyx_t_1);
@@ -21377,7 +24019,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_7 = NULL;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_7)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_7);
@@ -21460,7 +24106,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           __pyx_t_7 = NULL;
           __pyx_t_20 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
             __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+            __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_7)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
               __Pyx_INCREF(__pyx_t_7);
@@ -21471,7 +24121,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           }
           #if CYTHON_FAST_PYCALL
           if (PyFunction_Check(__pyx_t_3)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[8] = {__pyx_t_7, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_v_arg, __pyx_t_6};
+=======
+            PyObject *__pyx_temp[8] = {__pyx_t_7, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_v_arg, __pyx_t_6};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_8 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_20, 7+__pyx_t_20); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1231, __pyx_L163_error)
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_GOTREF(__pyx_t_8);
@@ -21480,7 +24134,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
           #endif
           #if CYTHON_FAST_PYCCALL
           if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[8] = {__pyx_t_7, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_vEffect_Space_Source_Self->_args, __pyx_v_stop_info, __pyx_v_arg, __pyx_t_6};
+=======
+            PyObject *__pyx_temp[8] = {__pyx_t_7, __pyx_v_main_debugger, __pyx_v_frame, __pyx_v_event, __pyx_v_self->_args, __pyx_v_stop_info, __pyx_v_arg, __pyx_t_6};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_8 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_20, 7+__pyx_t_20); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1231, __pyx_L163_error)
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_GOTREF(__pyx_t_8);
@@ -21502,9 +24160,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_INCREF(__pyx_v_event);
             __Pyx_GIVEREF(__pyx_v_event);
             PyTuple_SET_ITEM(__pyx_t_4, 2+__pyx_t_20, __pyx_v_event);
+<<<<<<< HEAD
             __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
             __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
             PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_20, __pyx_vEffect_Space_Source_Self->_args);
+=======
+            __Pyx_INCREF(__pyx_v_self->_args);
+            __Pyx_GIVEREF(__pyx_v_self->_args);
+            PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_20, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_INCREF(__pyx_v_stop_info);
             __Pyx_GIVEREF(__pyx_v_stop_info);
             PyTuple_SET_ITEM(__pyx_t_4, 4+__pyx_t_20, __pyx_v_stop_info);
@@ -21559,7 +24223,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         self.do_wait_suspend(thread, frame, event, arg)
  *                     elif is_return:  # return event
  */
+<<<<<<< HEAD
             __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1234, __pyx_L163_error)
+=======
+            __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1234, __pyx_L163_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_8);
             __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_step_cmd); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1234, __pyx_L163_error)
             __Pyx_GOTREF(__pyx_t_3);
@@ -21591,12 +24259,20 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                     elif is_return:  # return event
  *                         back = frame.f_back
  */
+<<<<<<< HEAD
             __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1235, __pyx_L163_error)
+=======
+            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1235, __pyx_L163_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __Pyx_GOTREF(__pyx_t_3);
             __pyx_t_4 = NULL;
             __pyx_t_20 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_4)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_4);
@@ -21700,7 +24376,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
               __Pyx_GOTREF(__pyx_t_3);
               __pyx_t_8 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_8)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_8);
@@ -21913,7 +24593,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                 __pyx_t_4 = NULL;
                 __pyx_t_20 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                   __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                  __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_4)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                     __Pyx_INCREF(__pyx_t_4);
@@ -21971,7 +24655,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
                   __Pyx_GOTREF(__pyx_t_8);
                   __pyx_t_3 = NULL;
                   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                     __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                     if (likely(__pyx_t_3)) {
                       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                       __Pyx_INCREF(__pyx_t_3);
@@ -22053,7 +24741,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                             self.do_wait_suspend(thread, back, event, arg)
  *                         else:
  */
+<<<<<<< HEAD
               __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1263, __pyx_L163_error)
+=======
+              __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_suspend); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 1263, __pyx_L163_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_6);
               __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_step_cmd); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1263, __pyx_L163_error)
               __Pyx_GOTREF(__pyx_t_8);
@@ -22085,12 +24777,20 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *                         else:
  *                             # in jython we may not have a back frame
  */
+<<<<<<< HEAD
               __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1264, __pyx_L163_error)
+=======
+              __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_do_wait_suspend); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1264, __pyx_L163_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               __Pyx_GOTREF(__pyx_t_8);
               __pyx_t_3 = NULL;
               __pyx_t_20 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
                 __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+                __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_3)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
                   __Pyx_INCREF(__pyx_t_3);
@@ -22309,7 +25009,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
             __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
             __pyx_t_7 = NULL;
             if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
               __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+              __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_7)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
                 __Pyx_INCREF(__pyx_t_7);
@@ -22527,7 +25231,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
  *             info.is_tracing -= 1
  */
     __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1287, __pyx_L4_error)
+=======
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1287, __pyx_L4_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_r = __pyx_t_4;
     __pyx_t_4 = 0;
@@ -22658,8 +25366,13 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispa
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_dispatch(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -22726,7 +25439,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_di
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_event), (&PyString_Type), 1, "event", 1))) __PYX_ERR(0, 662, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_dispatch(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_dispatch(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -22737,7 +25454,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_11trace_di
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_dispatch(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -22746,7 +25467,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_di
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("trace_dispatch", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(__pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_trace_dispatch(__pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -22770,19 +25495,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_10trace_di
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_13__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_13__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_13__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_13__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -22806,6 +25544,7 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->should_skip); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
@@ -22816,6 +25555,18 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->exc_info);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->exc_info);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_vEffect_Space_Source_Self->exc_info);
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->should_skip); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __Pyx_GIVEREF(__pyx_v_self->_args);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_self->_args);
+  __Pyx_INCREF(__pyx_v_self->exc_info);
+  __Pyx_GIVEREF(__pyx_v_self->exc_info);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_self->exc_info);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_t_1);
   __pyx_t_1 = 0;
@@ -22829,7 +25580,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_2 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_2 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v__dict = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -22890,14 +25645,22 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
  *         return __pyx_unpickle_PyDBFrame, (type(self), 0x506e682, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->_args != ((PyObject*)Py_None));
+=======
+    __pyx_t_3 = (__pyx_v_self->_args != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_5 = (__pyx_t_3 != 0);
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_5 = (__pyx_vEffect_Space_Source_Self->exc_info != Py_None);
+=======
+    __pyx_t_5 = (__pyx_v_self->exc_info != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_3 = (__pyx_t_5 != 0);
     __pyx_t_4 = __pyx_t_3;
     __pyx_L4_bool_binop_done:;
@@ -22927,9 +25690,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_84338306);
     __Pyx_GIVEREF(__pyx_int_84338306);
     PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_int_84338306);
@@ -22973,9 +25742,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_84338306);
     __Pyx_GIVEREF(__pyx_int_84338306);
     PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_int_84338306);
@@ -23024,19 +25799,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_12__reduce
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_15__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_15__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_15__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_15__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_PyDBFrame *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -23051,7 +25839,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setsta
  *     __pyx_unpickle_PyDBFrame__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBFrame__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBFrame__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -23084,9 +25876,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_9PyDBFrame_14__setsta
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters = {"notify_skipped_step_in_because_of_filters", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters = {"notify_skipped_step_in_because_of_filters", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_in_because_of_filters(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_py_db = 0;
   PyObject *__pyx_v_frame = 0;
   int __pyx_lineno = 0;
@@ -23141,14 +25939,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_5notify_skipped_step_
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_in_because_of_filters(__pyxEffect_Space_Source_Self, __pyx_v_py_db, __pyx_v_frame);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_in_because_of_filters(__pyx_self, __pyx_v_py_db, __pyx_v_frame);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_in_because_of_filters(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_in_because_of_filters(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -23183,7 +25989,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_5);
@@ -23261,7 +26071,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_
           __Pyx_GOTREF(__pyx_t_3);
           __pyx_t_4 = NULL;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
               __Pyx_INCREF(__pyx_t_4);
@@ -23410,8 +26224,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_4notify_skipped_step_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_method_object = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -23455,14 +26274,22 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_1__init__
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_vEffect_Space_Source_Self), __pyx_v_method_object);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_v_self), __pyx_v_method_object);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_method_object) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v_method_object) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
@@ -23476,9 +26303,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(
  */
   __Pyx_INCREF(__pyx_v_method_object);
   __Pyx_GIVEREF(__pyx_v_method_object);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->method_object);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->method_object);
   __pyx_vEffect_Space_Source_Self->method_object = __pyx_v_method_object;
+=======
+  __Pyx_GOTREF(__pyx_v_self->method_object);
+  __Pyx_DECREF(__pyx_v_self->method_object);
+  __pyx_v_self->method_object = __pyx_v_method_object;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1341
  * cdef class SafeCallWrapper:
@@ -23503,8 +26336,13 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper___init__(
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__call__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__call__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__call__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__call__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -23512,7 +26350,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__call__", 0))) return NULL;
   __Pyx_INCREF(__pyx_args);
   __pyx_v_args = __pyx_args;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__call__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_vEffect_Space_Source_Self), __pyx_v_args);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__call__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_v_self), __pyx_v_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_args);
@@ -23520,7 +26362,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_3__
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v_args) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_method_obj;
   PyObject *__pyx_v_ret = NULL;
   PyObject *__pyx_r = NULL;
@@ -23540,7 +26386,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__
  *         Py_INCREF(<object>method_obj)
  *         ret = (<object>method_obj)(*args)
  */
+<<<<<<< HEAD
   __pyx_v_method_obj = ((PyObject *)__pyx_vEffect_Space_Source_Self->method_object);
+=======
+  __pyx_v_method_obj = ((PyObject *)__pyx_v_self->method_object);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1347
  *         #in the frame, and that reference might get destroyed by set trace on frame and parents
@@ -23624,19 +26474,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_2__
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_5get_method_object(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_5get_method_object(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_method_object (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4get_method_object(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_5get_method_object(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_5get_method_object(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("get_method_object (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4get_method_object(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4get_method_object(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4get_method_object(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_method_object", 0);
@@ -23649,8 +26512,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4ge
  * # ENDIF
  */
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->method_object);
   __pyx_r = __pyx_vEffect_Space_Source_Self->method_object;
+=======
+  __Pyx_INCREF(__pyx_v_self->method_object);
+  __pyx_r = __pyx_v_self->method_object;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1351
@@ -23675,19 +26543,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_4ge
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -23712,9 +26593,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
  */
   __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->method_object);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->method_object);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_vEffect_Space_Source_Self->method_object);
+=======
+  __Pyx_INCREF(__pyx_v_self->method_object);
+  __Pyx_GIVEREF(__pyx_v_self->method_object);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_self->method_object);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_v_state = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
@@ -23725,7 +26612,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__dict = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -23786,7 +26677,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
  *         return __pyx_unpickle_SafeCallWrapper, (type(self), 0x77c077b, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->method_object != Py_None);
+=======
+    __pyx_t_3 = (__pyx_v_self->method_object != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_v_use_setstate = __pyx_t_3;
   }
   __pyx_L3:;
@@ -23813,9 +26708,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_125568891);
     __Pyx_GIVEREF(__pyx_int_125568891);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_125568891);
@@ -23859,9 +26760,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_125568891);
     __Pyx_GIVEREF(__pyx_int_125568891);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_125568891);
@@ -23910,19 +26817,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_6__
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_SafeCallWrapper *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -23937,7 +26857,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__
  *     __pyx_unpickle_SafeCallWrapper__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_SafeCallWrapper__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_SafeCallWrapper__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -23970,9 +26894,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_15SafeCallWrapper_8__
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func = {"fix_top_level_trace_and_get_trace_func", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func = {"fix_top_level_trace_and_get_trace_func", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_and_get_trace_func(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_py_db = 0;
   PyObject *__pyx_v_frame = 0;
   int __pyx_lineno = 0;
@@ -24027,14 +26957,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_7fix_top_level_trace_
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_and_get_trace_func(__pyxEffect_Space_Source_Self, __pyx_v_py_db, __pyx_v_frame);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_and_get_trace_func(__pyx_self, __pyx_v_py_db, __pyx_v_frame);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_and_get_trace_func(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_and_get_trace_func(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_name = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_thread = NULL;
@@ -24383,7 +27321,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __pyx_t_3 = NULL;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
           __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+          __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_3)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
             __Pyx_INCREF(__pyx_t_3);
@@ -24391,7 +27333,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
             __Pyx_DECREF_SET(__pyx_t_7, function);
           }
         }
+<<<<<<< HEAD
         __pyx_t_4 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_3, __pyx_n_sEffect_Space_Source_Self) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_n_sEffect_Space_Source_Self);
+=======
+        __pyx_t_4 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_3, __pyx_n_s_self) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_n_s_self);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1398, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
@@ -24775,7 +27721,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_10 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_9))) {
+<<<<<<< HEAD
         __pyx_t_10 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_9);
+=======
+        __pyx_t_10 = PyMethod_GET_SELF(__pyx_t_9);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_10)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_9);
           __Pyx_INCREF(__pyx_t_10);
@@ -24790,7 +27740,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_9 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
         __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+        __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_9)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
           __Pyx_INCREF(__pyx_t_9);
@@ -24861,7 +27815,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
         __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_7)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
           __Pyx_INCREF(__pyx_t_7);
@@ -24912,7 +27870,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_7 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
       __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_7)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_7);
@@ -25053,7 +28015,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_14 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_10))) {
+<<<<<<< HEAD
         __pyx_t_14 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_10);
+=======
+        __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_10);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         if (likely(__pyx_t_14)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_10);
           __Pyx_INCREF(__pyx_t_14);
@@ -25271,7 +28237,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_7 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
       __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_7)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_7);
@@ -25491,9 +28461,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_6fix_top_level_trace_
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_9trace_dispatch = {"trace_dispatch", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_9trace_dispatch = {"trace_dispatch", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_py_db = 0;
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
@@ -25570,14 +28546,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_9trace_dispatch(PyObj
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(__pyxEffect_Space_Source_Self, __pyx_v_py_db, __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(__pyx_self, __pyx_v_py_db, __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_py_db, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_thread_trace_func = NULL;
   PyObject *__pyx_v_apply_to_settrace = NULL;
   PyObject *__pyx_r = NULL;
@@ -25607,7 +28591,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHO
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_3)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_3);
@@ -25763,7 +28751,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHO
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_2 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
       __pyx_t_2 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_2)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
         __Pyx_INCREF(__pyx_t_2);
@@ -25799,7 +28791,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHO
   __pyx_t_5 = __pyx_v_thread_trace_func; __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+<<<<<<< HEAD
     __pyx_t_2 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_5);
+=======
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_2)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
       __Pyx_INCREF(__pyx_t_2);
@@ -25881,8 +28877,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_8trace_dispatch(CYTHO
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -25927,7 +28928,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
   return -1;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_args), (&PyTuple_Type), 1, "args", 1))) __PYX_ERR(0, 1497, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self), __pyx_v_args);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self), __pyx_v_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -25938,7 +28943,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v_args) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
@@ -25952,9 +28961,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
  */
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = __pyx_v_args;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = __pyx_v_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1497
  * cdef class TopLevelThreadTracerOnlyUnhandledExceptions:
@@ -25979,8 +28994,13 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_3trace_unhandled_exceptions(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_3trace_unhandled_exceptions(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_3trace_unhandled_exceptions(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_3trace_unhandled_exceptions(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   CYTHON_UNUSED PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -26046,14 +29066,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_2trace_unhandled_exceptions(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_2trace_unhandled_exceptions(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_2trace_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_2trace_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_py_db = NULL;
   PyObject *__pyx_v_t = NULL;
   PyObject *__pyx_v_additional_info = NULL;
@@ -26098,11 +29126,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  *             if arg is not None:
  *                 if not additional_info.suspended_at_unhandled:
  */
+<<<<<<< HEAD
     if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
       __PYX_ERR(0, 1510, __pyx_L1_error)
     }
     __pyx_t_4 = __Pyx_PyTuple_GetSlice(__pyx_vEffect_Space_Source_Self->_args, 0, 3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1510, __pyx_L1_error)
+=======
+    if (unlikely(__pyx_v_self->_args == Py_None)) {
+      PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+      __PYX_ERR(0, 1510, __pyx_L1_error)
+    }
+    __pyx_t_4 = __Pyx_PyTuple_GetSlice(__pyx_v_self->_args, 0, 3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1510, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_GOTREF(__pyx_t_4);
     if (1) {
       PyObject* sequence = __pyx_t_4;
@@ -26182,7 +29218,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
         __pyx_t_6 = NULL;
         __pyx_t_8 = 0;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
           __pyx_t_6 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+          __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_6)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
             __Pyx_INCREF(__pyx_t_6);
@@ -26267,7 +29307,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  *     def get_trace_dispatch_func(self):
  */
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_unhandled_exceptions); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1518, __pyx_L1_error)
+=======
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_unhandled_exceptions); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1518, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
@@ -26307,19 +29351,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5get_trace_dispatch_func(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5get_trace_dispatch_func(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_trace_dispatch_func (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_4get_trace_dispatch_func(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5get_trace_dispatch_func(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5get_trace_dispatch_func(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("get_trace_dispatch_func (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_4get_trace_dispatch_func(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26336,7 +29393,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  * 
  */
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_unhandled_exceptions); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1521, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_unhandled_exceptions); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1521, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -26370,25 +29431,43 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_args;
+=======
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __pyx_r = __pyx_v_self->_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -26399,19 +29478,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26423,9 +29515,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -26441,27 +29539,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -26476,19 +29593,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyU
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -26513,9 +29643,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  */
   __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_vEffect_Space_Source_Self->_args);
+=======
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __Pyx_GIVEREF(__pyx_v_self->_args);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_v_state = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
@@ -26526,7 +29662,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__dict = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -26587,7 +29727,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  *         return __pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions, (type(self), 0x3d7902a, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->_args != ((PyObject*)Py_None));
+=======
+    __pyx_t_3 = (__pyx_v_self->_args != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_v_use_setstate = __pyx_t_3;
   }
   __pyx_L3:;
@@ -26614,9 +29758,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_64458794);
     __Pyx_GIVEREF(__pyx_int_64458794);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_64458794);
@@ -26660,9 +29810,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_64458794);
     __Pyx_GIVEREF(__pyx_int_64458794);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_64458794);
@@ -26711,19 +29867,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTracerOnlyUnhandledExceptions_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerOnlyUnhandledExceptions *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26738,7 +29907,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  *     __pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -26771,8 +29944,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_43TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame_trace_dispatch = 0;
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
@@ -26828,7 +30006,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   return -1;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_args), (&PyTuple_Type), 1, "args", 1))) __PYX_ERR(0, 1532, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame_trace_dispatch, __pyx_v_args);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), __pyx_v_frame_trace_dispatch, __pyx_v_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -26839,7 +30021,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame_trace_dispatch, PyObject *__pyx_v_args) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_frame_trace_dispatch, PyObject *__pyx_v_args) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26857,9 +30043,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
   __Pyx_INCREF(__pyx_v_frame_trace_dispatch);
   __Pyx_GIVEREF(__pyx_v_frame_trace_dispatch);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch = __pyx_v_frame_trace_dispatch;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_frame_trace_dispatch);
+  __Pyx_DECREF(__pyx_v_self->_frame_trace_dispatch);
+  __pyx_v_self->_frame_trace_dispatch = __pyx_v_frame_trace_dispatch;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1534
  *     def __init__(self, frame_trace_dispatch, tuple args):
@@ -26870,9 +30062,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = __pyx_v_args;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = __pyx_v_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1535
  *         self._frame_trace_dispatch = frame_trace_dispatch
@@ -26883,9 +30081,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1536
  *         self._args = args
@@ -26896,9 +30100,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __pyx_vEffect_Space_Source_Self->_last_exc_arg = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+  __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+  __pyx_v_self->_last_exc_arg = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1537
  *         self.try_except_infos = None
@@ -26910,9 +30120,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   __pyx_t_1 = PySet_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1537, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __pyx_vEffect_Space_Source_Self->_raise_lines = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_raise_lines);
+  __Pyx_DECREF(__pyx_v_self->_raise_lines);
+  __pyx_v_self->_raise_lines = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1538
@@ -26922,7 +30138,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  * # ELSE
  * # class TopLevelThreadTracerNoBackFrame(object):
  */
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->_last_raise_line = -1;
+=======
+  __pyx_v_self->_last_raise_line = -1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1532
  *     cdef public set _raise_lines;
@@ -26953,8 +30173,13 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_3trace_dispatch_and_unhandled_exceptions(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_3trace_dispatch_and_unhandled_exceptions(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_3trace_dispatch_and_unhandled_exceptions(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_3trace_dispatch_and_unhandled_exceptions(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -27020,14 +30245,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_2trace_dispatch_and_unhandled_exceptions(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_2trace_dispatch_and_unhandled_exceptions(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_2trace_dispatch_and_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_2trace_dispatch_and_unhandled_exceptions(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame_trace_dispatch = NULL;
   PyObject *__pyx_v_py_db = NULL;
   PyObject *__pyx_v_t = NULL;
@@ -27064,7 +30297,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *         if frame_trace_dispatch is not None:
  *             self._frame_trace_dispatch = frame_trace_dispatch(frame, event, arg)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch;
+=======
+  __pyx_t_1 = __pyx_v_self->_frame_trace_dispatch;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_INCREF(__pyx_t_1);
   __pyx_v_frame_trace_dispatch = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -27091,7 +30328,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     __pyx_t_4 = __pyx_v_frame_trace_dispatch; __pyx_t_5 = NULL;
     __pyx_t_6 = 0;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_5);
@@ -27137,9 +30378,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
     __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
     __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch = __pyx_t_1;
+=======
+    __Pyx_GOTREF(__pyx_v_self->_frame_trace_dispatch);
+    __Pyx_DECREF(__pyx_v_self->_frame_trace_dispatch);
+    __pyx_v_self->_frame_trace_dispatch = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_1 = 0;
 
     /* "_pydevd_bundle/pydevd_cython.pyx":1566
@@ -27170,9 +30417,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  */
     __Pyx_INCREF(__pyx_v_arg);
     __Pyx_GIVEREF(__pyx_v_arg);
+<<<<<<< HEAD
     __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
     __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
     __pyx_vEffect_Space_Source_Self->_last_exc_arg = __pyx_v_arg;
+=======
+    __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+    __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+    __pyx_v_self->_last_exc_arg = __pyx_v_arg;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
     /* "_pydevd_bundle/pydevd_cython.pyx":1571
  *         if event == 'exception':
@@ -27181,13 +30434,21 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *             self._last_raise_line = frame.f_lineno
  * 
  */
+<<<<<<< HEAD
     if (unlikely(__pyx_vEffect_Space_Source_Self->_raise_lines == Py_None)) {
+=======
+    if (unlikely(__pyx_v_self->_raise_lines == Py_None)) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "add");
       __PYX_ERR(0, 1571, __pyx_L1_error)
     }
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_frame, __pyx_n_s_f_lineno); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1571, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __pyx_t_8 = PySet_Add(__pyx_vEffect_Space_Source_Self->_raise_lines, __pyx_t_1); if (unlikely(__pyx_t_8 == ((int)-1))) __PYX_ERR(0, 1571, __pyx_L1_error)
+=======
+    __pyx_t_8 = PySet_Add(__pyx_v_self->_raise_lines, __pyx_t_1); if (unlikely(__pyx_t_8 == ((int)-1))) __PYX_ERR(0, 1571, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
     /* "_pydevd_bundle/pydevd_cython.pyx":1572
@@ -27201,7 +30462,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1572, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+<<<<<<< HEAD
     __pyx_vEffect_Space_Source_Self->_last_raise_line = __pyx_t_6;
+=======
+    __pyx_v_self->_last_raise_line = __pyx_t_6;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
     /* "_pydevd_bundle/pydevd_cython.pyx":1569
  *             self._frame_trace_dispatch = frame_trace_dispatch(frame, event, arg)
@@ -27226,7 +30491,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     __pyx_t_3 = __pyx_t_2;
     goto __pyx_L5_bool_binop_done;
   }
+<<<<<<< HEAD
   __pyx_t_2 = (__pyx_vEffect_Space_Source_Self->_last_exc_arg != Py_None);
+=======
+  __pyx_t_2 = (__pyx_v_self->_last_exc_arg != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_9 = (__pyx_t_2 != 0);
   __pyx_t_3 = __pyx_t_9;
   __pyx_L5_bool_binop_done:;
@@ -27248,11 +30517,19 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *                 if not additional_info.suspended_at_unhandled:  # Note: only check it here, don't set.
  *                     if is_unhandled_exception(self, py_db, frame, self._last_raise_line, self._raise_lines):
  */
+<<<<<<< HEAD
       if (unlikely(__pyx_vEffect_Space_Source_Self->_args == Py_None)) {
         PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
         __PYX_ERR(0, 1577, __pyx_L8_error)
       }
       __pyx_t_1 = __Pyx_PyTuple_GetSlice(__pyx_vEffect_Space_Source_Self->_args, 0, 3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L8_error)
+=======
+      if (unlikely(__pyx_v_self->_args == Py_None)) {
+        PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+        __PYX_ERR(0, 1577, __pyx_L8_error)
+      }
+      __pyx_t_1 = __Pyx_PyTuple_GetSlice(__pyx_v_self->_args, 0, 3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1577, __pyx_L8_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       __Pyx_GOTREF(__pyx_t_1);
       if (1) {
         PyObject* sequence = __pyx_t_1;
@@ -27307,9 +30584,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *                         py_db.stop_on_unhandled_exception(py_db, t, additional_info, self._last_exc_arg)
  *             finally:
  */
+<<<<<<< HEAD
         __pyx_t_1 = __pyx_vEffect_Space_Source_Self->_raise_lines;
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_v_py_db, __pyx_v_frame, __pyx_vEffect_Space_Source_Self->_last_raise_line, ((PyObject*)__pyx_t_1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1579, __pyx_L8_error)
+=======
+        __pyx_t_1 = __pyx_v_self->_raise_lines;
+        __Pyx_INCREF(__pyx_t_1);
+        __pyx_t_5 = __pyx_f_14_pydevd_bundle_13pydevd_cython_is_unhandled_exception(((PyObject *)__pyx_v_self), __pyx_v_py_db, __pyx_v_frame, __pyx_v_self->_last_raise_line, ((PyObject*)__pyx_t_1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1579, __pyx_L8_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_9 < 0)) __PYX_ERR(0, 1579, __pyx_L8_error)
@@ -27328,7 +30611,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
           __pyx_t_7 = NULL;
           __pyx_t_6 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
             __pyx_t_7 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+            __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_7)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
               __Pyx_INCREF(__pyx_t_7);
@@ -27339,7 +30626,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
           }
           #if CYTHON_FAST_PYCALL
           if (PyFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_v_py_db, __pyx_v_t, __pyx_v_additional_info, __pyx_vEffect_Space_Source_Self->_last_exc_arg};
+=======
+            PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_v_py_db, __pyx_v_t, __pyx_v_additional_info, __pyx_v_self->_last_exc_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 4+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1580, __pyx_L8_error)
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_GOTREF(__pyx_t_5);
@@ -27347,7 +30638,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
           #endif
           #if CYTHON_FAST_PYCCALL
           if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
             PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_v_py_db, __pyx_v_t, __pyx_v_additional_info, __pyx_vEffect_Space_Source_Self->_last_exc_arg};
+=======
+            PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_v_py_db, __pyx_v_t, __pyx_v_additional_info, __pyx_v_self->_last_exc_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 4+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1580, __pyx_L8_error)
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
             __Pyx_GOTREF(__pyx_t_5);
@@ -27368,9 +30663,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
             __Pyx_INCREF(__pyx_v_additional_info);
             __Pyx_GIVEREF(__pyx_v_additional_info);
             PyTuple_SET_ITEM(__pyx_t_4, 2+__pyx_t_6, __pyx_v_additional_info);
+<<<<<<< HEAD
             __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
             __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
             PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_6, __pyx_vEffect_Space_Source_Self->_last_exc_arg);
+=======
+            __Pyx_INCREF(__pyx_v_self->_last_exc_arg);
+            __Pyx_GIVEREF(__pyx_v_self->_last_exc_arg);
+            PyTuple_SET_ITEM(__pyx_t_4, 3+__pyx_t_6, __pyx_v_self->_last_exc_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1580, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_5);
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -27408,9 +30709,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
       /*normal exit:*/{
         __Pyx_INCREF(Py_None);
         __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
         __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
         __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
         __pyx_vEffect_Space_Source_Self->_last_exc_arg = Py_None;
+=======
+        __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+        __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+        __pyx_v_self->_last_exc_arg = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         goto __pyx_L9;
       }
       __pyx_L8_error:;
@@ -27434,9 +30741,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
         {
           __Pyx_INCREF(Py_None);
           __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
           __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
           __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
           __pyx_vEffect_Space_Source_Self->_last_exc_arg = Py_None;
+=======
+          __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+          __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+          __pyx_v_self->_last_exc_arg = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         }
         if (PY_MAJOR_VERSION >= 3) {
           __Pyx_XGIVEREF(__pyx_t_15);
@@ -27472,7 +30785,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  * 
  *         # Need to reset (the call to _frame_trace_dispatch may have changed it).
  */
+<<<<<<< HEAD
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch_and_unhandled_exc); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1585, __pyx_L1_error)
+=======
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch_and_unhandled_exc); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1585, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_v_ret = __pyx_t_5;
   __pyx_t_5 = 0;
@@ -27537,19 +30854,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5get_trace_dispatch_func(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5get_trace_dispatch_func(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_trace_dispatch_func (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_4get_trace_dispatch_func(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5get_trace_dispatch_func(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5get_trace_dispatch_func(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("get_trace_dispatch_func (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_4get_trace_dispatch_func(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_4get_trace_dispatch_func(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -27566,7 +30896,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  * 
  */
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_trace_dispatch_and_unhandled_exc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1596, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_trace_dispatch_and_unhandled_exc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1596, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -27600,25 +30934,43 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch;
+=======
+  __Pyx_INCREF(__pyx_v_self->_frame_trace_dispatch);
+  __pyx_r = __pyx_v_self->_frame_trace_dispatch;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -27629,27 +30981,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_frame_trace_dispatch);
+  __Pyx_DECREF(__pyx_v_self->_frame_trace_dispatch);
+  __pyx_v_self->_frame_trace_dispatch = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27658,27 +31029,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_21_frame_trace_dispatch_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch);
   __pyx_vEffect_Space_Source_Self->_frame_trace_dispatch = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_frame_trace_dispatch);
+  __Pyx_DECREF(__pyx_v_self->_frame_trace_dispatch);
+  __pyx_v_self->_frame_trace_dispatch = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27695,25 +31085,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_args;
+=======
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __pyx_r = __pyx_v_self->_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -27724,19 +31132,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -27748,9 +31169,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -27766,27 +31193,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27803,25 +31249,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_r = __pyx_vEffect_Space_Source_Self->try_except_infos;
+=======
+  __Pyx_INCREF(__pyx_v_self->try_except_infos);
+  __pyx_r = __pyx_v_self->try_except_infos;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -27832,27 +31296,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27861,27 +31344,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16try_except_infos_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __pyx_vEffect_Space_Source_Self->try_except_infos = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->try_except_infos);
+  __Pyx_DECREF(__pyx_v_self->try_except_infos);
+  __pyx_v_self->try_except_infos = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27898,25 +31400,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_last_exc_arg;
+=======
+  __Pyx_INCREF(__pyx_v_self->_last_exc_arg);
+  __pyx_r = __pyx_v_self->_last_exc_arg;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -27927,27 +31447,46 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__", 0);
   __Pyx_INCREF(__pyx_v_value);
   __Pyx_GIVEREF(__pyx_v_value);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __pyx_vEffect_Space_Source_Self->_last_exc_arg = __pyx_v_value;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+  __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+  __pyx_v_self->_last_exc_arg = __pyx_v_value;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27956,27 +31495,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_13_last_exc_arg_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_last_exc_arg);
   __pyx_vEffect_Space_Source_Self->_last_exc_arg = Py_None;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_last_exc_arg);
+  __Pyx_DECREF(__pyx_v_self->_last_exc_arg);
+  __pyx_v_self->_last_exc_arg = Py_None;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -27993,25 +31551,43 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_raise_lines;
+=======
+  __Pyx_INCREF(__pyx_v_self->_raise_lines);
+  __pyx_r = __pyx_v_self->_raise_lines;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -28022,19 +31598,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28046,9 +31635,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __pyx_vEffect_Space_Source_Self->_raise_lines = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_raise_lines);
+  __Pyx_DECREF(__pyx_v_self->_raise_lines);
+  __pyx_v_self->_raise_lines = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -28064,27 +31659,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_12_raise_lines_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_raise_lines);
   __pyx_vEffect_Space_Source_Self->_raise_lines = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_raise_lines);
+  __Pyx_DECREF(__pyx_v_self->_raise_lines);
+  __pyx_v_self->_raise_lines = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -28101,19 +31715,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28122,7 +31749,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->_last_raise_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1531, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_last_raise_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1531, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -28140,19 +31771,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_16_last_raise_line_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -28161,7 +31805,11 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
   __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_value); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1531, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_vEffect_Space_Source_Self->_last_raise_line = __pyx_t_1;
+=======
+  __pyx_v_self->_last_raise_line = __pyx_t_1;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -28181,19 +31829,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBac
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_7__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_7__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_6__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_6__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -28217,6 +31878,7 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_vEffect_Space_Source_Self->_last_raise_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(6); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
@@ -28238,6 +31900,29 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->try_except_infos);
   PyTuple_SET_ITEM(__pyx_t_2, 5, __pyx_vEffect_Space_Source_Self->try_except_infos);
+=======
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->_last_raise_line); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(6); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __Pyx_GIVEREF(__pyx_v_self->_args);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_self->_args);
+  __Pyx_INCREF(__pyx_v_self->_frame_trace_dispatch);
+  __Pyx_GIVEREF(__pyx_v_self->_frame_trace_dispatch);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_self->_frame_trace_dispatch);
+  __Pyx_INCREF(__pyx_v_self->_last_exc_arg);
+  __Pyx_GIVEREF(__pyx_v_self->_last_exc_arg);
+  PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_v_self->_last_exc_arg);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 3, __pyx_t_1);
+  __Pyx_INCREF(__pyx_v_self->_raise_lines);
+  __Pyx_GIVEREF(__pyx_v_self->_raise_lines);
+  PyTuple_SET_ITEM(__pyx_t_2, 4, __pyx_v_self->_raise_lines);
+  __Pyx_INCREF(__pyx_v_self->try_except_infos);
+  __Pyx_GIVEREF(__pyx_v_self->try_except_infos);
+  PyTuple_SET_ITEM(__pyx_t_2, 5, __pyx_v_self->try_except_infos);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
   __pyx_v_state = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
@@ -28249,7 +31934,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_2 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_2 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v__dict = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -28310,35 +31999,55 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *         return __pyx_unpickle_TopLevelThreadTracerNoBackFrame, (type(self), 0xa3a9ec1, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->_args != ((PyObject*)Py_None));
+=======
+    __pyx_t_3 = (__pyx_v_self->_args != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_5 = (__pyx_t_3 != 0);
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_5 = (__pyx_vEffect_Space_Source_Self->_frame_trace_dispatch != Py_None);
+=======
+    __pyx_t_5 = (__pyx_v_self->_frame_trace_dispatch != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_3 = (__pyx_t_5 != 0);
     if (!__pyx_t_3) {
     } else {
       __pyx_t_4 = __pyx_t_3;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->_last_exc_arg != Py_None);
+=======
+    __pyx_t_3 = (__pyx_v_self->_last_exc_arg != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_5 = (__pyx_t_3 != 0);
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_5 = (__pyx_vEffect_Space_Source_Self->_raise_lines != ((PyObject*)Py_None));
+=======
+    __pyx_t_5 = (__pyx_v_self->_raise_lines != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_3 = (__pyx_t_5 != 0);
     if (!__pyx_t_3) {
     } else {
       __pyx_t_4 = __pyx_t_3;
       goto __pyx_L4_bool_binop_done;
     }
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->try_except_infos != Py_None);
+=======
+    __pyx_t_3 = (__pyx_v_self->try_except_infos != Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_5 = (__pyx_t_3 != 0);
     __pyx_t_4 = __pyx_t_5;
     __pyx_L4_bool_binop_done:;
@@ -28368,9 +32077,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_171613889);
     __Pyx_GIVEREF(__pyx_int_171613889);
     PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_int_171613889);
@@ -28414,9 +32129,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_171613889);
     __Pyx_GIVEREF(__pyx_int_171613889);
     PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_int_171613889);
@@ -28465,19 +32186,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_9__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_9__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_8__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTracerNoBackFrame_8__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_TopLevelThreadTracerNoBackFrame *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28492,7 +32226,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  *     __pyx_unpickle_TopLevelThreadTracerNoBackFrame__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLevelThreadTracerNoBackFrame__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLevelThreadTracerNoBackFrame__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -28525,8 +32263,13 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_31TopLevelThreadTrace
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_args = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -28571,7 +32314,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(Py
   return -1;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_args), (&PyTuple_Type), 1, "args", 1))) __PYX_ERR(0, 1602, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self), __pyx_v_args);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self), __pyx_v_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   goto __pyx_L0;
@@ -28582,7 +32329,11 @@ static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_1__init__(Py
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_args) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_args) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
@@ -28596,9 +32347,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(str
  */
   __Pyx_INCREF(__pyx_v_args);
   __Pyx_GIVEREF(__pyx_v_args);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = __pyx_v_args;
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = __pyx_v_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* "_pydevd_bundle/pydevd_cython.pyx":1602
  * cdef class ThreadTracer:
@@ -28623,12 +32380,20 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer___init__(str
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_3__call__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_3__call__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 static char __pyx_doc_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__[] = " This is the callback used when we enter some context in the debugger.\n\n        We also decorate the thread we are in with info about the debugging.\n        The attributes added are:\n            pydev_state\n            pydev_step_stop\n            pydev_step_cmd\n            pydev_notify_kill\n\n        :param PyDB py_db:\n            This is the global debugger (this method should actually be added as a method to it).\n        ";
 #if CYTHON_COMPILING_IN_CPYTHON
 struct wrapperbase __pyx_wrapperbase_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__;
 #endif
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_3__call__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_3__call__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -28694,14 +32459,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_3__cal
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self), __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__call__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_v_pydev_step_cmd;
   PyObject *__pyx_v_frame_cache_key = 0;
   PyObject *__pyx_v_cache_skips = 0;
@@ -28747,7 +32520,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
  *         if additional_info.is_tracing:
  *             return None if event == 'call' else NO_FTRACE  # we don't wan't to trace code invoked from pydevd_frame.trace_dispatch
  */
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_vEffect_Space_Source_Self->_args;
+=======
+  __pyx_t_1 = __pyx_v_self->_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_INCREF(__pyx_t_1);
   if (likely(__pyx_t_1 != Py_None)) {
     PyObject* sequence = __pyx_t_1;
@@ -28937,7 +32714,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
         __Pyx_GOTREF(__pyx_t_6);
         __pyx_t_5 = NULL;
         if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
           __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+          __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_5)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
             __Pyx_INCREF(__pyx_t_5);
@@ -28968,7 +32749,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
           __Pyx_GOTREF(__pyx_t_4);
           __pyx_t_3 = NULL;
           if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+<<<<<<< HEAD
             __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_4);
+=======
+            __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_3)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
               __Pyx_INCREF(__pyx_t_3);
@@ -28983,7 +32768,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __pyx_t_4 = NULL;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
             __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_4)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
               __Pyx_INCREF(__pyx_t_4);
@@ -29183,7 +32972,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
                 __pyx_t_5 = NULL;
                 __pyx_t_11 = 0;
                 if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
                   __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+                  __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                   if (likely(__pyx_t_5)) {
                     PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
                     __Pyx_INCREF(__pyx_t_5);
@@ -29502,7 +33295,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
             __Pyx_GOTREF(__pyx_t_3);
             __pyx_t_2 = NULL;
             if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
               __pyx_t_2 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+              __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_2)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                 __Pyx_INCREF(__pyx_t_2);
@@ -29557,7 +33354,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
         __pyx_t_4 = NULL;
         __pyx_t_11 = 0;
         if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
           __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+          __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
           if (likely(__pyx_t_4)) {
             PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
             __Pyx_INCREF(__pyx_t_4);
@@ -29644,7 +33445,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
             __pyx_t_4 = NULL;
             __pyx_t_11 = 0;
             if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
               __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+              __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
               if (likely(__pyx_t_4)) {
                 PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
                 __Pyx_INCREF(__pyx_t_4);
@@ -29825,7 +33630,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
           __pyx_t_1 = NULL;
           __pyx_t_11 = 0;
           if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
             __pyx_t_1 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+            __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             if (likely(__pyx_t_1)) {
               PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
               __Pyx_INCREF(__pyx_t_1);
@@ -29935,7 +33744,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
               __pyx_t_4 = NULL;
               __pyx_t_11 = 0;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
                 __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+                __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_4)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
                   __Pyx_INCREF(__pyx_t_4);
@@ -30047,7 +33860,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
               __pyx_t_3 = NULL;
               __pyx_t_11 = 0;
               if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+<<<<<<< HEAD
                 __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_6);
+=======
+                __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_6);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_3)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
                   __Pyx_INCREF(__pyx_t_3);
@@ -30523,7 +34340,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
               __Pyx_GOTREF(__pyx_t_3);
               __pyx_t_2 = NULL;
               if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
+<<<<<<< HEAD
                 __pyx_t_2 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_3);
+=======
+                __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                 if (likely(__pyx_t_2)) {
                   PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
                   __Pyx_INCREF(__pyx_t_2);
@@ -30737,25 +34558,43 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_2__cal
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_1__get__(PyObject *__pyx_vEffect_Space_Source_Self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_1__get__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_1__get__(PyObject *__pyx_v_self) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__get__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args___get__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args___get__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_r = __pyx_vEffect_Space_Source_Self->_args;
+=======
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __pyx_r = __pyx_v_self->_args;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   goto __pyx_L0;
 
   /* function exit code */
@@ -30766,19 +34605,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_3__set__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v_value));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_3__set__(PyObject *__pyx_v_self, PyObject *__pyx_v_value) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__set__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self), ((PyObject *)__pyx_v_value));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_value) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__set__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v_value) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -30790,9 +34642,15 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__se
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)__pyx_t_1);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_t_1 = 0;
 
   /* function exit code */
@@ -30808,27 +34666,46 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_2__se
 }
 
 /* Python wrapper */
+<<<<<<< HEAD
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self); /*proto*/
 static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_5__del__(PyObject *__pyx_vEffect_Space_Source_Self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self));
+=======
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_5__del__(PyObject *__pyx_v_self); /*proto*/
+static int __pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_5__del__(PyObject *__pyx_v_self) {
+  int __pyx_r;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__del__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__del__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self) {
+=======
+static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__del__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__del__", 0);
   __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(Py_None);
+<<<<<<< HEAD
   __Pyx_GOTREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_DECREF(__pyx_vEffect_Space_Source_Self->_args);
   __pyx_vEffect_Space_Source_Self->_args = ((PyObject*)Py_None);
+=======
+  __Pyx_GOTREF(__pyx_v_self->_args);
+  __Pyx_DECREF(__pyx_v_self->_args);
+  __pyx_v_self->_args = ((PyObject*)Py_None);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __pyx_r = 0;
@@ -30843,19 +34720,32 @@ static int __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5_args_4__de
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5__reduce_cython__(PyObject *__pyx_vEffect_Space_Source_Self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_5__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__reduce_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__reduce_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -30880,9 +34770,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
  */
   __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
   __Pyx_INCREF(__pyx_vEffect_Space_Source_Self->_args);
   __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self->_args);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_vEffect_Space_Source_Self->_args);
+=======
+  __Pyx_INCREF(__pyx_v_self->_args);
+  __Pyx_GIVEREF(__pyx_v_self->_args);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_self->_args);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __pyx_v_state = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
@@ -30893,7 +34789,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
  *     if _dict is not None:
  *         state += (_dict,)
  */
+<<<<<<< HEAD
   __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_vEffect_Space_Source_Self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+=======
+  __pyx_t_1 = __Pyx_GetAttr3(((PyObject *)__pyx_v_self), __pyx_n_s_dict, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 6, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v__dict = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -30954,7 +34854,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
  *         return __pyx_unpickle_ThreadTracer, (type(self), 0x3d7902a, None), state
  */
   /*else*/ {
+<<<<<<< HEAD
     __pyx_t_3 = (__pyx_vEffect_Space_Source_Self->_args != ((PyObject*)Py_None));
+=======
+    __pyx_t_3 = (__pyx_v_self->_args != ((PyObject*)Py_None));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_v_use_setstate = __pyx_t_3;
   }
   __pyx_L3:;
@@ -30981,9 +34885,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 13, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_64458794);
     __Pyx_GIVEREF(__pyx_int_64458794);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_64458794);
@@ -31027,9 +34937,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_1 = PyTuple_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 15, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
     PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_vEffect_Space_Source_Self))));
+=======
+    __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_int_64458794);
     __Pyx_GIVEREF(__pyx_int_64458794);
     PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_int_64458794);
@@ -31078,19 +34994,32 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_4__red
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_7__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state); /*proto*/
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_7__setstate_cython__(PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_vEffect_Space_Source_Self), ((PyObject *)__pyx_v___pyx_state));
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_7__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_7__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__setstate_cython__(((struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__setstate_cython__(struct __pyx_obj_14_pydevd_bundle_13pydevd_cython_ThreadTracer *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -31105,7 +35034,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__set
  *     __pyx_unpickle_ThreadTracer__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v___pyx_state)->tp_name), 0))) __PYX_ERR(2, 17, __pyx_L1_error)
+<<<<<<< HEAD
   __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_ThreadTracer__set_state(__pyx_vEffect_Space_Source_Self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+=======
+  __pyx_t_1 = __pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_ThreadTracer__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 17, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -31138,10 +35071,17 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12ThreadTracer_6__set
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_11__call__ = {"__call__", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_vEffect_Space_Source_Self = 0;
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_11__call__ = {"__call__", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyObject *__pyx_v_self = 0;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v_frame = 0;
   PyObject *__pyx_v_event = 0;
   PyObject *__pyx_v_arg = 0;
@@ -31152,7 +35092,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__call__ (wrapper)", 0);
   {
+<<<<<<< HEAD
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_sEffect_Space_Source_Self,&__pyx_n_s_frame,&__pyx_n_s_event,&__pyx_n_s_arg,0};
+=======
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_frame,&__pyx_n_s_event,&__pyx_n_s_arg,0};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     PyObject* values[4] = {0,0,0,0};
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
@@ -31172,7 +35116,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *
       kw_args = PyDict_Size(__pyx_kwds);
       switch (pos_args) {
         case  0:
+<<<<<<< HEAD
         if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_sEffect_Space_Source_Self)) != 0)) kw_args--;
+=======
+        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_self)) != 0)) kw_args--;
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
@@ -31204,7 +35152,11 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
       values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
     }
+<<<<<<< HEAD
     __pyx_vEffect_Space_Source_Self = values[0];
+=======
+    __pyx_v_self = values[0];
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_v_frame = values[1];
     __pyx_v_event = values[2];
     __pyx_v_arg = values[3];
@@ -31217,14 +35169,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_11__call__(PyObject *
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(__pyxEffect_Space_Source_Self, __pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(__pyx_self, __pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_vEffect_Space_Source_Self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_frame, PyObject *__pyx_v_event, PyObject *__pyx_v_arg) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -31246,7 +35206,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_constructed_tid_to_last_frame); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1772, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+<<<<<<< HEAD
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_vEffect_Space_Source_Self, __pyx_n_s_args_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1772, __pyx_L1_error)
+=======
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_args_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1772, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1772, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -31271,7 +35235,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+<<<<<<< HEAD
     __pyx_t_3 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_1);
+=======
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_3)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
       __Pyx_INCREF(__pyx_t_3);
@@ -31282,7 +35250,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
   }
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
     PyObject *__pyx_temp[5] = {__pyx_t_3, __pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg};
+=======
+    PyObject *__pyx_temp[5] = {__pyx_t_3, __pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1773, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_2);
@@ -31290,7 +35262,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
   #endif
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+<<<<<<< HEAD
     PyObject *__pyx_temp[5] = {__pyx_t_3, __pyx_vEffect_Space_Source_Self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg};
+=======
+    PyObject *__pyx_temp[5] = {__pyx_t_3, __pyx_v_self, __pyx_v_frame, __pyx_v_event, __pyx_v_arg};
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1773, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_2);
@@ -31302,9 +35278,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
     if (__pyx_t_3) {
       __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3); __pyx_t_3 = NULL;
     }
+<<<<<<< HEAD
     __Pyx_INCREF(__pyx_vEffect_Space_Source_Self);
     __Pyx_GIVEREF(__pyx_vEffect_Space_Source_Self);
     PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_4, __pyx_vEffect_Space_Source_Self);
+=======
+    __Pyx_INCREF(__pyx_v_self);
+    __Pyx_GIVEREF(__pyx_v_self);
+    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_4, __pyx_v_self);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     __Pyx_INCREF(__pyx_v_frame);
     __Pyx_GIVEREF(__pyx_v_frame);
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_v_frame);
@@ -31352,9 +35334,15 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_10__call__(CYTHON_UNU
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo = {"__pyx_unpickle_PyDBAdditionalThreadInfo", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo = {"__pyx_unpickle_PyDBAdditionalThreadInfo", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDBAdditionalThreadInfo(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -31420,14 +35408,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_13__pyx_unpickle_PyDB
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDBAdditionalThreadInfo(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDBAdditionalThreadInfo(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDBAdditionalThreadInfo(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDBAdditionalThreadInfo(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -31490,7 +35486,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDB
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -31528,7 +35528,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_12__pyx_unpickle_PyDB
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -31943,7 +35947,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBAdd
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
       __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_9)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
         __Pyx_INCREF(__pyx_t_9);
@@ -31998,9 +36006,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBAdd
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj = {"__pyx_unpickle__TryExceptContainerObj", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj = {"__pyx_unpickle__TryExceptContainerObj", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__TryExceptContainerObj(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -32066,14 +36080,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_15__pyx_unpickle__Try
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__TryExceptContainerObj(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__TryExceptContainerObj(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__TryExceptContainerObj(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__TryExceptContainerObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -32136,7 +36158,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__Try
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -32174,7 +36200,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_14__pyx_unpickle__Try
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -32341,7 +36371,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle__TryExc
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_8 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
       __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_8)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_8);
@@ -32396,9 +36430,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle__TryExc
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame = {"__pyx_unpickle_PyDBFrame", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame = {"__pyx_unpickle_PyDBFrame", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDBFrame(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -32464,14 +36504,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_17__pyx_unpickle_PyDB
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDBFrame(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDBFrame(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDBFrame(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDBFrame(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -32534,7 +36582,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDB
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -32572,7 +36624,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_16__pyx_unpickle_PyDB
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -32760,7 +36816,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBFra
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
       __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_9)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
         __Pyx_INCREF(__pyx_t_9);
@@ -32815,9 +36875,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_PyDBFra
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper = {"__pyx_unpickle_SafeCallWrapper", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper = {"__pyx_unpickle_SafeCallWrapper", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_SafeCallWrapper(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -32883,14 +36949,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_19__pyx_unpickle_Safe
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_SafeCallWrapper(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_SafeCallWrapper(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_SafeCallWrapper(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_SafeCallWrapper(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -32953,7 +37027,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_Safe
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -32991,7 +37069,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_18__pyx_unpickle_Safe
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -33157,7 +37239,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_SafeCal
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_8 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
       __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_8)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_8);
@@ -33212,9 +37298,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_SafeCal
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions = {"__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions = {"__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -33280,14 +37372,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_21__pyx_unpickle_TopL
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopLevelThreadTracerOnlyUnhandledExceptions(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -33350,7 +37450,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopL
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -33388,7 +37492,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_20__pyx_unpickle_TopL
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -33555,7 +37663,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLeve
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_8 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
       __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_8)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_8);
@@ -33610,9 +37722,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLeve
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame = {"__pyx_unpickle_TopLevelThreadTracerNoBackFrame", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame = {"__pyx_unpickle_TopLevelThreadTracerNoBackFrame", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopLevelThreadTracerNoBackFrame(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -33678,14 +37796,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_23__pyx_unpickle_TopL
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopLevelThreadTracerNoBackFrame(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -33748,7 +37874,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopL
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -33786,7 +37916,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_22__pyx_unpickle_TopL
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -34008,7 +38142,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLeve
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
+<<<<<<< HEAD
       __pyx_t_9 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_8);
+=======
+      __pyx_t_9 = PyMethod_GET_SELF(__pyx_t_8);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_9)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_8);
         __Pyx_INCREF(__pyx_t_9);
@@ -34063,9 +38201,15 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_TopLeve
  */
 
 /* Python wrapper */
+<<<<<<< HEAD
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer = {"__pyx_unpickle_ThreadTracer", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer, METH_VARARGS|METH_KEYWORDS, 0};
 static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer(PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+=======
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer = {"__pyx_unpickle_ThreadTracer", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_ThreadTracer(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_type = 0;
   long __pyx_v___pyx_checksum;
   PyObject *__pyx_v___pyx_state = 0;
@@ -34131,14 +38275,22 @@ static PyObject *__pyx_pw_14_pydevd_bundle_13pydevd_cython_25__pyx_unpickle_Thre
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
+<<<<<<< HEAD
   __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(__pyxEffect_Space_Source_Self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+=======
+  __pyx_r = __pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
+<<<<<<< HEAD
 static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(CYTHON_UNUSED PyObject *__pyxEffect_Space_Source_Self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+=======
+static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_ThreadTracer(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -34201,7 +38353,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_Thre
     __Pyx_INCREF(__pyx_v___pyx_PickleError);
     __pyx_t_2 = __pyx_v___pyx_PickleError; __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
       __pyx_t_5 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_5)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_5);
@@ -34239,7 +38395,11 @@ static PyObject *__pyx_pf_14_pydevd_bundle_13pydevd_cython_24__pyx_unpickle_Thre
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+<<<<<<< HEAD
     __pyx_t_4 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_2);
+=======
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (likely(__pyx_t_4)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_4);
@@ -34406,7 +38566,11 @@ static PyObject *__pyx_f_14_pydevd_bundle_13pydevd_cython___pyx_unpickle_ThreadT
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_8 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+<<<<<<< HEAD
       __pyx_t_8 = PyMethod_GETEffect_Space_Source_Self(__pyx_t_7);
+=======
+      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       if (likely(__pyx_t_8)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_8);
@@ -36123,7 +40287,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_handle_breakpoint_condition, __pyx_k_handle_breakpoint_condition, sizeof(__pyx_k_handle_breakpoint_condition), 0, 0, 1, 1},
   {&__pyx_n_s_handle_breakpoint_expression, __pyx_k_handle_breakpoint_expression, sizeof(__pyx_k_handle_breakpoint_expression), 0, 0, 1, 1},
   {&__pyx_n_s_handle_user_exception, __pyx_k_handle_user_exception, sizeof(__pyx_k_handle_user_exception), 0, 0, 1, 1},
+<<<<<<< HEAD
   {&__pyx_n_sEffect_Trigger_Specific_Has_Condition, __pyx_kEffect_Trigger_Specific_Has_Condition, sizeof(__pyx_kEffect_Trigger_Specific_Has_Condition), 0, 0, 1, 1},
+=======
+  {&__pyx_n_s_has_condition, __pyx_k_has_condition, sizeof(__pyx_k_has_condition), 0, 0, 1, 1},
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   {&__pyx_n_s_has_plugin_exception_breaks, __pyx_k_has_plugin_exception_breaks, sizeof(__pyx_k_has_plugin_exception_breaks), 0, 0, 1, 1},
   {&__pyx_n_s_has_plugin_line_breaks, __pyx_k_has_plugin_line_breaks, sizeof(__pyx_k_has_plugin_line_breaks), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
@@ -36221,7 +40389,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_rfind, __pyx_k_rfind, sizeof(__pyx_k_rfind), 0, 0, 1, 1},
   {&__pyx_n_s_run, __pyx_k_run, sizeof(__pyx_k_run), 0, 0, 1, 1},
   {&__pyx_kp_s_s_s, __pyx_k_s_s, sizeof(__pyx_k_s_s), 0, 0, 1, 0},
+<<<<<<< HEAD
   {&__pyx_n_sEffect_Space_Source_Self, __pyx_kEffect_Space_Source_Self, sizeof(__pyx_kEffect_Space_Source_Self), 0, 0, 1, 1},
+=======
+  {&__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   {&__pyx_n_s_send_caught_exception_stack, __pyx_k_send_caught_exception_stack, sizeof(__pyx_k_send_caught_exception_stack), 0, 0, 1, 1},
   {&__pyx_n_s_send_caught_exception_stack_proc, __pyx_k_send_caught_exception_stack_proc, sizeof(__pyx_k_send_caught_exception_stack_proc), 0, 0, 1, 1},
   {&__pyx_n_s_set_additional_thread_info, __pyx_k_set_additional_thread_info, sizeof(__pyx_k_set_additional_thread_info), 0, 0, 1, 1},
@@ -36422,7 +40594,11 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         constructed_tid_to_last_frame[self._args[1].ident] = frame
  *         return _original_call(self, frame, event, arg)
  */
+<<<<<<< HEAD
   __pyx_tuple__22 = PyTuple_Pack(4, __pyx_n_sEffect_Space_Source_Self, __pyx_n_s_frame, __pyx_n_s_event, __pyx_n_s_arg); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 1771, __pyx_L1_error)
+=======
+  __pyx_tuple__22 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_frame, __pyx_n_s_event, __pyx_n_s_arg); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 1771, __pyx_L1_error)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
   __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(4, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_pydevd_bundle_pydevd_cython_pyx, __pyx_n_s_call_2, 1771, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 1771, __pyx_L1_error)
@@ -38274,7 +42450,11 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject
     PyObject *self, *result;
     PyCFunction cfunc;
     cfunc = PyCFunction_GET_FUNCTION(func);
+<<<<<<< HEAD
     self = PyCFunction_GETEffect_Space_Source_Self(func);
+=======
+    self = PyCFunction_GET_SELF(func);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     if (unlikely(Py_EnterRecursiveCall((char*)" while calling a Python object")))
         return NULL;
     result = cfunc(self, arg);
@@ -38315,7 +42495,11 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {
 static CYTHON_INLINE PyObject * __Pyx_PyCFunction_FastCall(PyObject *func_obj, PyObject **args, Py_ssize_t nargs) {
     PyCFunctionObject *func = (PyCFunctionObject*)func_obj;
     PyCFunction meth = PyCFunction_GET_FUNCTION(func);
+<<<<<<< HEAD
     PyObject *self = PyCFunction_GETEffect_Space_Source_Self(func);
+=======
+    PyObject *self = PyCFunction_GET_SELF(func);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     int flags = PyCFunction_GET_FLAGS(func);
     assert(PyCFunction_Check(func));
     assert(METH_FASTCALL == (flags & ~(METH_CLASS | METH_STATIC | METH_COEXIST | METH_KEYWORDS | METH_STACKLESS)));
@@ -39698,7 +43882,11 @@ static int __Pyx_PyObject_GetMethod(PyObject *obj, PyObject *name, PyObject **me
 #endif
 try_unpack:
 #if CYTHON_UNPACK_METHODS
+<<<<<<< HEAD
     if (likely(attr) && PyMethod_Check(attr) && likely(PyMethod_GETEffect_Space_Source_Self(attr) == obj)) {
+=======
+    if (likely(attr) && PyMethod_Check(attr) && likely(PyMethod_GET_SELF(attr) == obj)) {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
         PyObject *function = PyMethod_GET_FUNCTION(attr);
         Py_INCREF(function);
         Py_DECREF(attr);

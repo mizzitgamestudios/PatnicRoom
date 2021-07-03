@@ -18,7 +18,10 @@
 | C_9_CREDITS_ACCOUNT |  | amount of money | [] | INTEGER | credits | 
 | C_10_ACTOR_PERKS |  | determinds the handicap for sourronding dice tosses | [] | ARRAY | perks | 
 | C_11_ACTOR_RACE_NAME |  | determinds basic attributes and relations | [] | STRING | Race | 
+<<<<<<< HEAD
 | C_12_KITSET_INDEX |  | determinds the mousehover text | [] | STRING | role description | 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 | C_13_ACTOR_ROLE_NAME |  | Groupname of Role | [] | STRING | Role category | 
 | C_14_ACTOR_SPECIALTY_NAME | recommended length 2-3 words | short name reference | [] | STRING | Specialty name | 
 | C_15_ACTOR_ARRAY_BODYPARTS |  | All Bodypart-template of Race | [] | CONTAINER | List of All BOdyparts | 
@@ -30,7 +33,10 @@
 | C_21_TILE_TILENAME | often the same as C_6, maybe shorter | often used Reference name | [] | STRING | Name | 
 | C_22_ACTOR_LIMITS |  | max. succeses per dice-role | [] | INTEGER | Limits | 
 | C_23_ACTOR_CARRIAGE |  | max units actor can carry | [] | INTEGER | Carriage capacity | 
+<<<<<<< HEAD
 | C_24_ANY_REQUIRED_RACE |  | Template reference to an required race | [] | TEMPLATE | required race | 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 | C_26_ACTOR_INDIRECT_STATS |  | name of its fightingstyle | [] | DICTIONARY | Indirect Stats | 
 | C_27_ACTOR_RACIAL_ENEMIES |  | choose	races for prejudices | [] | ARRAY | racial enemies | 
 | C_28_ACTOR_RACIAL_FRIENDS | yes this is reference | choose	races for pride | [] | ARRAY | racial friends | 
@@ -43,7 +49,11 @@
 | C_35_KIT_MECHANICAL_SUMMARY | about 80 characters at max | shown as short explaination of usage | [] | STRING | summary | 
 | C_36_KIT_MOD_TIME | guide value: Rarity*1,5 | number of Panicrooms before its usable | [] | STRING | setup time | 
 | C_37_ANY_M_TYPE |  | name of its fightingstyle | [MEAT, MAGIC, MATRIX] | STRING | layer of perception | 
+<<<<<<< HEAD
 | C_38_KIT_PART_TYPE | Base: Main definition, Mod: Specialication, Appendix: Side-effect | place in Kitset | [BASE, MOD, APPENDIX] | STRING | kit Part | 
+=======
+| C_38_KIT_PART_TYPE | Base: Main definition, Mod: Specialication, Appendix: Side-effect | place in Kitset | [BASE, MOD, APPENDIX] | INTEGER | kit Part | 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 | C_40_ANY_TO_STRING |  | often as same as C_6 | [] | STRING | toString | 
 | C_42_ROLE_VARIETY |  | name of its fightingstyle | [] | ARRAY | role description | 
 | C_43_PLAYER_DESCRIPTION |  | Playername | [] | STRING | Playername | 

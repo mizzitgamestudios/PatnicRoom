@@ -1,5 +1,5 @@
 extends Node
-class_name _Syntax_Effect_Statmod
+class_name _19_Unique_Statmod_Index
 
 
 const EFFECT_UNIQUE_STATMOD = {

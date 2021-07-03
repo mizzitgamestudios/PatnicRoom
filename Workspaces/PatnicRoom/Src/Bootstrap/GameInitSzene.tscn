@@ -86,7 +86,10 @@ __meta__ = {
 }
 
 [node name="communityContent" type="Button" parent="optionsPanel"]
+<<<<<<< HEAD
 visible = false
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_left = 16.0
 margin_top = 96.0
 margin_right = 208.0
@@ -97,7 +100,10 @@ __meta__ = {
 }
 
 [node name="Event" type="Button" parent="optionsPanel"]
+<<<<<<< HEAD
 visible = false
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_left = 16.0
 margin_top = 152.0
 margin_right = 208.0

@@ -297,6 +297,11 @@ __meta__ = {
 }
 [connection signal="pressed" from="timeslots/0/CheckButton" to="." method="openSpawn"]
 [connection signal="pressed" from="timeslots/1/CheckButton" to="." method="openOnset"]
+<<<<<<< HEAD
 [connection signal="pressed" from="timeslots/2/CheckButton" to="." method="openEffect"]
 [connection signal="pressed" from="timeslots/2/CheckButton" to="timeslots" method="openEffect"]
+=======
+[connection signal="pressed" from="timeslots/2/CheckButton" to="timeslots" method="openEffect"]
+[connection signal="pressed" from="timeslots/2/CheckButton" to="." method="openEffect"]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 [connection signal="pressed" from="timeslots/3/CheckButton" to="." method="openOffset"]

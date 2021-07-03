@@ -70,9 +70,14 @@ __meta__ = {
 }
 
 [node name="boot1" type="Control" parent="Control"]
+<<<<<<< HEAD
 margin_top = -16.0
 margin_right = 40.0
 margin_bottom = 24.0
+=======
+margin_right = 40.0
+margin_bottom = 40.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -88,9 +93,15 @@ __meta__ = {
 }
 
 [node name="boot3" type="Control" parent="Control"]
+<<<<<<< HEAD
 margin_top = 24.0
 margin_right = 40.0
 margin_bottom = 64.0
+=======
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -106,10 +117,16 @@ __meta__ = {
 }
 
 [node name="boot2" type="Control" parent="Control"]
+<<<<<<< HEAD
 margin_left = 416.0
 margin_top = -16.0
 margin_right = 456.0
 margin_bottom = 24.0
+=======
+margin_top = 96.0
+margin_right = 40.0
+margin_bottom = 136.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -121,6 +138,7 @@ margin_right = 496.0
 margin_bottom = 272.0
 text = "Statistics"
 
+<<<<<<< HEAD
 [node name="boot5" type="Control" parent="Control"]
 margin_left = 208.0
 margin_top = -16.0
@@ -145,6 +163,12 @@ margin_left = 208.0
 margin_top = 24.0
 margin_right = 248.0
 margin_bottom = 64.0
+=======
+[node name="boot4" type="Control" parent="Control"]
+margin_top = 152.0
+margin_right = 40.0
+margin_bottom = 192.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -213,6 +237,9 @@ __meta__ = {
 [connection signal="pressed" from="Control/boot1/Button" to="." method="_on_Restmode_pressed"]
 [connection signal="pressed" from="Control/boot3/Button" to="." method="_on_Quickstart_pressed"]
 [connection signal="pressed" from="Control/boot2/Button" to="." method="_on_Statistics_pressed"]
+<<<<<<< HEAD
 [connection signal="pressed" from="Control/boot5/Button" to="." method="_on_Experimental_pressed"]
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 [connection signal="pressed" from="Control/boot4/Button" to="." method="_on_Tilemap_pressed"]
 [connection signal="pressed" from="Control/boot4/details" to="." method="_on_tilemap_details_pressed"]

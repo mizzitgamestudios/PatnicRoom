@@ -1,13 +1,19 @@
 {
 
+<<<<<<< HEAD
     "C_12_KITSET_INDEX"          : "ARSENIST_1",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     "C_6_TILE_NAME"         : "Arsenist",
     "C_65_TIER"             : 1,            
     "F_6_ACTOR_ATTRIBUTES"  : "N/A",
     "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
     "C_0_ANY_DESCRIPTION"   : "Young teenager with behavioural problems and attention deficit",
     "C_47_ANY_SYNONYM"      : ["Troublemaker","Arsenist","Firestarter"],
+<<<<<<< HEAD
     "C_37_ANY_M_TYPE"       : "MEAT",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   
     "C_19_ACTOR_ATTRIBUTES" : {
       "con" : 0,

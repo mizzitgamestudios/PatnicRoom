@@ -56,7 +56,7 @@
                  "value":"awfca"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -101,7 +101,7 @@
                  "value":"srwh"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -146,7 +146,7 @@
                  "value":"hrfs"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -191,7 +191,7 @@
                  "value":"efagf"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -236,7 +236,7 @@
                  "value":"fsy<h"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -281,7 +281,7 @@
                  "value":"esagva"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -326,7 +326,7 @@
                  "value":"asffs"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -371,7 +371,7 @@
                  "value":"asfag"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -416,7 +416,7 @@
                  "value":"asgsda"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -461,7 +461,7 @@
                  "value":"daga"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -506,7 +506,7 @@
                  "value":"dsagagd"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -551,7 +551,7 @@
                  "value":"eaged"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -596,7 +596,7 @@
                  "value":"asgfgas"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -641,7 +641,7 @@
                  "value":"asfgag"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -686,7 +686,7 @@
                  "value":"adsgad"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -731,7 +731,7 @@
                  "value":"asfgasg"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -776,7 +776,7 @@
                  "value":"dagegae"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -821,7 +821,7 @@
                  "value":"aegsdga"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -866,7 +866,7 @@
                  "value":"sag"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -911,7 +911,7 @@
                  "value":"adsggad"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -956,7 +956,7 @@
                  "value":"afsfs"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -1001,7 +1001,7 @@
                  "value":"asfsa"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],
@@ -1046,7 +1046,7 @@
                  "value":"adsgfda"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }],

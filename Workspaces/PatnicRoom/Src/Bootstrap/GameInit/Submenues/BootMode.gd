@@ -34,6 +34,7 @@ func _on_Tilemap_pressed() -> void:
 	OS.window_fullscreen = !OS.window_fullscreen
 	GameInit.runTilemapTest()
 
+<<<<<<< HEAD
 
 
 
@@ -61,3 +62,5 @@ func _on_Experimental_pressed() -> void:
 
 
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

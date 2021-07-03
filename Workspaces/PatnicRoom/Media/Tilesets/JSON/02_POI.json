@@ -61,7 +61,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -111,7 +115,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -161,7 +169,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -211,7 +223,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -261,7 +277,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -311,7 +331,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -361,7 +385,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -411,7 +439,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -461,7 +493,11 @@
                  "value":0
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -516,7 +552,11 @@
                  "value":false
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }]

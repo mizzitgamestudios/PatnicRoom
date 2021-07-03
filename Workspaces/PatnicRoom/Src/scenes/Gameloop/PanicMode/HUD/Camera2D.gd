@@ -7,8 +7,8 @@ func _ready() -> void:
 
 
 func updateCenter(player:Vector2) -> void:
-		var pixelToTileX = player.x*ENUM.SOKRATILES.TILE_PIXEL_SIZE
-		var pixelToTileY = player.y*ENUM.SOKRATILES.TILE_PIXEL_SIZE
+		var pixelToTileX = player.x*ENUM.PANIC_TILE_PIXEL_SIZE
+		var pixelToTileY = player.y*ENUM.PANIC_TILE_PIXEL_SIZE
 		
 		position.x = pixelToTileX
 		position.y = pixelToTileY

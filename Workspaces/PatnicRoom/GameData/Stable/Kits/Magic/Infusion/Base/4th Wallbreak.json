@@ -1,15 +1,23 @@
  {
 
    "C_6_TILE_NAME"               : "4th Wallbreak",
+<<<<<<< HEAD
    "C_12_KITSET_INDEX"           : "C_I_1",
    "F_5_KITPART_TYPE"            : "N/A",
    "F_15_KITPART_TYPE_BASE"      : "N/A",
+=======
+   "F_5_KITPART_TYPE"            : "N/A",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_0_ANY_DESCRIPTION"         : "//TODO: add description",
    "C_40_ANY_TO_STRING"          : "4th Wallbreak",
    "C_35_KIT_MECHANICAL_SUMMARY" : "deals 10 structure-pointts damage, 20 for thin walls",
    "C_48_ANY_RARITY"             : "3",
 
+<<<<<<< HEAD
    "C_37_ANY_M_TYPE"             : "MEAT",
+=======
+   "C_37_ANY_M_TYPE"             : "MAGIC",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_31_KIT_CAT_TYPE"           : "INFUSION",
    "C_38_KIT_PART_TYPE"          : "BASE",
    "C_36_KIT_MOD_TIME"           : "2",
@@ -32,7 +40,14 @@
          "TRIGGER-0":{
             "BASE":"INTERACT_ACTOR",
             "SPECIFIC":[
+<<<<<<< HEAD
                ["HAS_FLAG","F_8_IS_WALL"]
+=======
+               ["HAS_TEXTURE","Suburban_5_13"],
+               ["HAS_TEXTURE","Suburban_7_13"],
+               ["HAS_TEXTURE","Suburban_6_12"],
+               ["HAS_TEXTURE","Suburban_6_14"]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
             ]}
 
       },

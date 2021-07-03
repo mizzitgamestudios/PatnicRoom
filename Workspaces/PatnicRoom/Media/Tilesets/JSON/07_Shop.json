@@ -6,7 +6,7 @@
  "name":"Shop",
  "spacing":0,
  "tilecount":256,
- "tiledversion":"1.7.0",
+ "tiledversion":"1.4.2",
  "tileheight":16,
  "tiles":[
         {
@@ -48,7 +48,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -92,7 +97,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -136,7 +146,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -180,7 +195,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -224,7 +244,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -268,7 +293,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -312,7 +342,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -356,7 +391,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -400,7 +440,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -444,7 +489,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -488,7 +538,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -532,7 +587,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -576,7 +636,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -620,7 +685,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -664,7 +734,12 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
@@ -708,12 +783,17 @@
                  "value":"Simple Door"
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"F_9_IS_DOOR",
                  "type":"bool",
                  "value":false
                 }]
         }],
  "tilewidth":16,
  "type":"tileset",
- "version":"1.6"
+ "version":1.4
 }

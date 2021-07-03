@@ -261,7 +261,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -316,7 +320,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -371,7 +379,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -426,7 +438,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -481,7 +497,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -536,7 +556,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -591,7 +615,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -646,7 +674,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -696,7 +728,11 @@
                  "value":"Simple open door"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -745,7 +781,11 @@
                  "value":"Simple open door"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -799,7 +839,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -854,7 +898,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -909,7 +957,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -964,7 +1016,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1019,7 +1075,11 @@
                  "value":10
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1079,7 +1139,11 @@
                  "value":"Simple Door"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -1139,7 +1203,11 @@
                  "value":"s.kln"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -1199,7 +1267,11 @@
                  "value":"Secure Door"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -1259,7 +1331,11 @@
                  "value":"Secure Door"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }, 
@@ -1314,7 +1390,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1374,7 +1454,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1434,7 +1518,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1494,7 +1582,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1544,7 +1636,11 @@
                  "value":"Window"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -1589,7 +1685,11 @@
                  "value":"Window"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -1634,7 +1734,11 @@
                  "value":"Window"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -1679,7 +1783,11 @@
                  "value":"Window"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -1729,7 +1837,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1789,7 +1901,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1849,7 +1965,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1909,7 +2029,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -1964,7 +2088,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -2024,7 +2152,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -2084,7 +2216,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -2144,7 +2280,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -2204,7 +2344,11 @@
                  "value":20
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":true
                 }, 
@@ -2394,7 +2538,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -2439,7 +2587,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -2484,7 +2636,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -2619,7 +2775,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -2664,7 +2824,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],
@@ -2709,7 +2873,11 @@
                  "value":"Van"
                 }, 
                 {
+<<<<<<< HEAD
                  "name":"F_1_INTERACTABLE_TYPE",
+=======
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
                  "type":"bool",
                  "value":false
                 }],

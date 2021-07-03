@@ -109,10 +109,96 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Race" type="Control" parent="Panel2"]
 margin_top = 56.0
 margin_right = 40.0
 margin_bottom = 96.0
+=======
+[node name="Attribute" type="Control" parent="Panel2"]
+modulate = Color( 1, 1, 1, 0.196078 )
+margin_top = 64.0
+margin_right = 40.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/Attribute"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Attribute"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 160.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "I am a"
+text = "I am a"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/Attribute"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+
+[node name="Skill" type="Control" parent="Panel2"]
+modulate = Color( 1, 1, 1, 0.196078 )
+margin_top = 112.0
+margin_right = 40.0
+margin_bottom = 152.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Panel2/Skill"]
+margin_left = 376.0
+margin_top = 32.0
+margin_right = 648.0
+margin_bottom = 69.0
+custom_styles/normal = SubResource( 3 )
+custom_fonts/font = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel2/Skill"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 272.0
+margin_bottom = 72.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Specialiced in"
+text = "Specialiced in"
+
+[node name="toString" type="RichTextLabel" parent="Panel2/Skill"]
+margin_left = 656.0
+margin_top = 32.0
+margin_right = 1040.0
+margin_bottom = 72.0
+custom_fonts/normal_font = SubResource( 4 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Race" type="Control" parent="Panel2"]
+margin_top = 160.0
+margin_right = 40.0
+margin_bottom = 200.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -135,8 +221,13 @@ margin_right = 272.0
 margin_bottom = 72.0
 custom_fonts/normal_font = ExtResource( 1 )
 bbcode_enabled = true
+<<<<<<< HEAD
 bbcode_text = "I am a"
 text = "I am a"
+=======
+bbcode_text = "Specialiced in"
+text = "Specialiced in"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 [node name="toString" type="RichTextLabel" parent="Panel2/Race"]
 margin_left = 656.0
@@ -150,9 +241,15 @@ __meta__ = {
 }
 
 [node name="kits" type="Control" parent="Panel2"]
+<<<<<<< HEAD
 margin_top = 112.0
 margin_right = 40.0
 margin_bottom = 152.0
+=======
+margin_top = 208.0
+margin_right = 40.0
+margin_bottom = 248.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -190,7 +287,10 @@ __meta__ = {
 }
 
 [node name="start" type="Control" parent="."]
+<<<<<<< HEAD
 visible = false
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_left = 1608.0
 margin_top = 960.0
 margin_right = 1872.0

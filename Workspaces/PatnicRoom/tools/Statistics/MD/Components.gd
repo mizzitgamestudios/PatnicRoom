@@ -29,7 +29,11 @@ static func calcStats():
 	
 		
 	
+<<<<<<< HEAD
 		mdWriter.writeData("res://tools/Statistics/output/Atlas_Components.md")
+=======
+	mdWriter.writeData("res://tools/Statistics/output/Atlas_Components.md")
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

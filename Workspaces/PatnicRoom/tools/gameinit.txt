@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 bootMenue
+=======
+quickStart
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

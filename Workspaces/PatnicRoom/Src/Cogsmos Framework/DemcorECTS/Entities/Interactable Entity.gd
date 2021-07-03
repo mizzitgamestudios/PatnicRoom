@@ -26,11 +26,34 @@ func pos()             -> Vector2:	return position
 func posX()            -> int:		return int(position.x)
 func posY()            -> int:		return int(position.y)
 
+<<<<<<< HEAD
 func typeToString(): return ENUM.SOKRATILES.TYPES_ON_MAP.INTERACT
+=======
+func typeToString(): return ENUM.TYPES_ON_MAP.INTERACT
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 func setPos(pos:Vector2):
 	position = pos
 
+<<<<<<< HEAD
 func type(): return ENUM.SOKRATILES.TYPES_ON_MAP.INTERACT
 
 	
+=======
+func type(): return ENUM.TYPES_ON_MAP.INTERACT
+func isSignalInReach(signalSource:TileEntity,reach:int) -> bool:
+	var posBool :bool = false
+	
+	if (signalSource.currentPosition.x + reach) - self.posX() >= 0: posBool = true
+	elif (signalSource.currentPosition.y + reach) - self.posY() >= 0: posBool = true
+	
+	return true
+
+
+
+func getNameForGroupEntry():
+	if has(C_6_TILE_NAME.name_quack()):
+		return getCompValue(C_6_TILE_NAME)
+	else:
+		return tileName()
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

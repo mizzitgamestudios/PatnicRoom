@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![# P@tnicRoom - Developer Edition](banner.png)  
 
 
@@ -121,3 +122,8 @@ P@tnicRoom is made possible by the following:
  * all [Developers]() of our used VSCode extensions
 
 
+=======
+
+
+To Doc at PatnicRoom\Src\Cogsmos Framework\DemcorECTS\Manager
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

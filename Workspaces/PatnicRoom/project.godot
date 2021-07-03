@@ -14,11 +14,14 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Actor Entity.gd"
 }, {
+<<<<<<< HEAD
 "base": "Node",
 "class": "ActorRNGTemplate",
 "language": "GDScript",
 "path": "res://Src/Modules/011_Procgen_Actor/Systems/ActorTemplateMeta.gd"
 }, {
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Sprite",
 "class": "AnimatedPNG",
 "language": "GDScript",
@@ -60,11 +63,14 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C11.gd"
 }, {
 "base": "Component",
+<<<<<<< HEAD
 "class": "C_12_KITSET_INDEX",
 "language": "GDScript",
 "path": "res://Src/Components/C12.gd"
 }, {
 "base": "Component",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "class": "C_13_ACTOR_ROLE_NAME",
 "language": "GDScript",
 "path": "res://Src/Components/C13.gd"
@@ -125,7 +131,11 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C23.gd"
 }, {
 "base": "Component",
+<<<<<<< HEAD
 "class": "C_24_ANY_REQUIRED_RACE",
+=======
+"class": "C_24_ANY_CONDITION",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "language": "GDScript",
 "path": "res://Src/Components/C24.gd"
 }, {
@@ -267,12 +277,26 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "C_50_ACTOR_ROLE_DESCRIPTION",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Components/C50.gd"
 }, {
 "base": "Component",
 "class": "C_51_PLAYER_KITSETS",
 "language": "GDScript",
 "path": "res://Src/Components/C51.gd"
+=======
+"path": "res://Src/Components/C51.gd"
+}, {
+"base": "Component",
+"class": "C_50_Player_Selected_Tiles",
+"language": "GDScript",
+"path": "res://Src/Components/C50.gd"
+}, {
+"base": "Entity",
+"class": "C_51_PLAYER_KITSETS",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player/Belongings/Kitventory.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Component",
 "class": "C_52_ACTOR_GEAR",
@@ -364,11 +388,14 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Components/C67.gd"
 }, {
+<<<<<<< HEAD
 "base": "Entity",
 "class": "C_68_KITVENTORY",
 "language": "GDScript",
 "path": "res://Src/Components/C68.gd"
 }, {
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Component",
 "class": "C_6_TILE_NAME",
 "language": "GDScript",
@@ -390,6 +417,14 @@ _global_script_classes=[ {
 "path": "res://Src/Components/C90.gd"
 }, {
 "base": "Component",
+<<<<<<< HEAD
+=======
+"class": "C_99_ANY_TEST",
+"language": "GDScript",
+"path": "res://Src/Components/C99.gd"
+}, {
+"base": "Component",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "class": "C_9_CREDITS_ACCOUNT",
 "language": "GDScript",
 "path": "res://Src/Components/C9.gd"
@@ -402,12 +437,21 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Cloudprinter",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Gear/Cloudprinter.gd"
 }, {
 "base": "Node",
 "class": "CommonInventory",
 "language": "GDScript",
 "path": "res://Src/Modules/006_Player/Systems/Gear/Common.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/Cloudprinter.gd"
+}, {
+"base": "Node",
+"class": "Common",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Common.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "Component",
@@ -417,27 +461,47 @@ _global_script_classes=[ {
 "base": "Cond_Parent",
 "class": "Cond_BAN_Electrifying",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/BAN Manipulation/electrifying.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/BAN Manipulation/electrifying.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Blinding_Overstimulating",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Senses/Sight/Overstimulating.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Senses/Sight/Overstimulating.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Blinding_Understimulating",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Senses/Sight/Understimulating.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Senses/Sight/Understimulating.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Burning_Root",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Elemental/Fire/burning.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Elemental/Fire/burning.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Cond_Parent",
 "class": "Cond_Confusing_Wandering",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Psychological/Confusing/Wandering.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Psychological/Confusing/Wandering.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "Cond_Parent",
@@ -447,7 +511,11 @@ _global_script_classes=[ {
 "base": "Cond_Parent",
 "class": "Cond_Water_Wet",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Elemental/Water/wet.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Elemental/Water/wet.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Appender",
 "class": "ConsoleAppender",
@@ -472,7 +540,16 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "DictionaryUtil",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/Dictionary.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/Dictionary.gd"
+}, {
+"base": "Component",
+"class": "DioJSONes_SubParser_ComponentConstructor",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Common/ComponentConstructor.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "EffectEntity",
@@ -509,6 +586,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Effect Parts/Slots/specificTrigger.gd"
 }, {
+<<<<<<< HEAD
 "base": "Object",
 "class": "Effect_Space_Medium_Area",
 "language": "GDScript",
@@ -563,6 +641,12 @@ _global_script_classes=[ {
 "class": "Effect_Trigger_Specific_Is_Door",
 "language": "GDScript",
 "path": "res://Src/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/_IS_DOOR.gd"
+=======
+"base": "Node",
+"class": "Effect_Generator_Syntax",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/Syntax.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Component",
 "class": "Effect_Unit_Component",
@@ -575,7 +659,11 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Entity.gd"
 }, {
 "base": "Component",
+<<<<<<< HEAD
 "class": "F_1_INTERACTABLE_TYPE",
+=======
+"class": "F_1_STATIC_INTERACTABLE_TYPE",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "language": "GDScript",
 "path": "res://Src/Components/Flags/F1.gd"
 }, {
@@ -622,18 +710,59 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "FileHub",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/DirectoryManager.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/DirectoryManager.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "FilepathBuilder",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/Filepath Builder.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/Filepath Builder.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "RichTextLabel",
 "class": "FromatedRichtextLabel",
 "language": "GDScript",
 "path": "res://Src/scenes/Templates/GUI/Textfield input/FormatedRichTextLabel.gd"
 }, {
+<<<<<<< HEAD
+=======
+"base": "Entity",
+"class": "GearEntity",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player/Belongings/Gear.gd"
+}, {
+"base": "Component",
+"class": "HeGEL_AddCond",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Condition/addCond.gd"
+}, {
+"base": "Object",
+"class": "HeGEL_Binary_Comparison",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Rulesets/BinaryComparison.gd"
+}, {
+"base": "Component",
+"class": "HeGEL_ChangeCond",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Condition/changeCond.gd"
+}, {
+"base": "Component",
+"class": "HeGEL_ChangeStat",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Stats/changeStat.gd"
+}, {
+"base": "Component",
+"class": "HeGEL_RemoveCond",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/HeGEL/Condition/removeCond.gd"
+}, {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Layout",
 "class": "HtmlLayout",
 "language": "GDScript",
@@ -647,7 +776,11 @@ _global_script_classes=[ {
 "base": "Object",
 "class": "I_1_Binary_Comparison",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/InjectionComponents/I_1_Binary_Comparison.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/InjectionComponents/I_1_Binary_Comparison.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "InitDemocrECTS",
@@ -677,12 +810,20 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Inventory",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Gear/Inventory.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/Inventory.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "JsonParser",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/JSONParser.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/JSONParser.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "JsonToEntityParser",
@@ -695,6 +836,7 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/KitSet/Kit Modules/parent.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
 "class": "KitSelectionAppendix",
 "language": "GDScript",
 "path": "res://Src/scenes/Gameloop/RestMode/Station/Fill Form/FillAppendix.gd"
@@ -708,6 +850,16 @@ _global_script_classes=[ {
 "class": "KitSelectionMod",
 "language": "GDScript",
 "path": "res://Src/scenes/Gameloop/RestMode/Station/Fill Form/FillMod.gd"
+=======
+"class": "KitSelection",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/Filling Kits in Form.gd"
+}, {
+"base": "Node",
+"class": "KitSelectioneXTERN",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/Filling Kits in Form EXTERN.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Entity",
 "class": "KitSetEntity",
@@ -717,7 +869,11 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "Kitventory",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Gear/Kitventory.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/Kitventory.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Reference",
 "class": "Layout",
@@ -730,6 +886,7 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Loot Entity.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
 "class": "LootTable_Syntax",
 "language": "GDScript",
 "path": "res://Indexes/Syntax/LOOT_TABLE.gd"
@@ -738,6 +895,11 @@ _global_script_classes=[ {
 "class": "MarkdownWriter",
 "language": "GDScript",
 "path": "res://Src/Util/MDWriter.gd"
+=======
+"class": "MarkdownWriter",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/MDWriter.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Reference",
 "class": "Message",
@@ -764,6 +926,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DavINCi/FSM_Panic/MouseLogik/MouseMarker.gd"
 }, {
+<<<<<<< HEAD
 "base": "Object",
 "class": "NPC_Syntax",
 "language": "GDScript",
@@ -773,6 +936,12 @@ _global_script_classes=[ {
 "class": "NodesManager",
 "language": "GDScript",
 "path": "res://Src/Util/SubUtils/NodesManager.gd"
+=======
+"base": "Node",
+"class": "NodesManager",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Util/SubUtils/NodesManager.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Control",
 "class": "PanelConstructor",
@@ -792,27 +961,53 @@ _global_script_classes=[ {
 "base": "Cond_Parent",
 "class": "Physiological_Movement_Incapacitated",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/008_Conditions/Strategies/Physiological/Movement/incapacitated.gd"
+=======
+"path": "res://Src/Logic/Modules/008_Conditions/Strategies/Physiological/Movement/incapacitated.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Entity",
 "class": "PlayerEntity",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player Entity.gd"
+=======
+"path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Player/Player Entity.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "RNGClass",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/RNG.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/RNG.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Component",
 "class": "Recycler",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Gear/Recycler.gd"
 }, {
 "base": "Node",
 "class": "Rest_Form_Getter",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DavINCi/FSM_Rest/Form_Getter.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/Recycler.gd"
+}, {
+"base": "Node",
+"class": "RestmodeUserinput",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Userinput.gd"
+}, {
+"base": "Node",
+"class": "Runner",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Runner.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "RuntimeParameter",
@@ -852,57 +1047,102 @@ _global_script_classes=[ {
 "base": "SokraTiles_Chunk_Floor",
 "class": "SokraTiles_Chunk_Magic_Floor",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Floor.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Floor.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Interactables",
 "class": "SokraTiles_Chunk_Magic_Interactables",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Interactables.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Interactables.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Floor",
 "class": "SokraTiles_Chunk_Matrix_Floor",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Floor.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Floor.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Interactables",
 "class": "SokraTiles_Chunk_Matrix_Interactables",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Interactables.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Interactables.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Floor",
 "class": "SokraTiles_Chunk_Meat_Floor",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Floor.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Floor.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Interactables",
 "class": "SokraTiles_Chunk_Meat_Interactables",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Interactables.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Interactables.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Actors",
 "class": "SokraTiles_Chunk_NPC",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Actor/NPC.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Actor/NPC.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Actors",
 "class": "SokraTiles_Chunk_Player",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Actor/Player.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Actor/Player.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Animation",
 "class": "Sokratiles_Chunk_Condition",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Conditions.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Conditions.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "SokraTiles_Chunk_Animation",
 "class": "Sokratiles_Chunk_Selection",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Selection.gd"
 }, {
 "base": "Node",
 "class": "Stations",
 "language": "GDScript",
 "path": "res://Src/Modules/006_Player/Systems/Gear/Station.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Selection.gd"
+}, {
+"base": "Node",
+"class": "StationManager",
+"language": "GDScript",
+"path": "res://Src/scenes/Gameloop/RestMode/Stations/StationManager.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "Statistics_Components_JSON",
@@ -920,11 +1160,14 @@ _global_script_classes=[ {
 "path": "res://tools/Statistics/MD/kitparts.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
 "class": "Statistics_Tiles_MD",
 "language": "GDScript",
 "path": "res://tools/Statistics/MD/Tiles.gd"
 }, {
 "base": "Node",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "class": "Statistics_atlas_MD",
 "language": "GDScript",
 "path": "res://tools/Statistics/MD/Atlas.gd"
@@ -935,6 +1178,7 @@ _global_script_classes=[ {
 "path": "res://tools/Statistics/MD/Components.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
 "class": "Statistics_effectsSyntax_JSON",
 "language": "GDScript",
 "path": "res://tools/Statistics/JSON/Effect.gd"
@@ -945,6 +1189,8 @@ _global_script_classes=[ {
 "path": "res://tools/Statistics/MD/Effect.gd"
 }, {
 "base": "Node",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "class": "Statistics_enum_MD",
 "language": "GDScript",
 "path": "res://tools/Statistics/MD/enum.gd"
@@ -962,19 +1208,44 @@ _global_script_classes=[ {
 "base": "Component",
 "class": "Stats",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Characters/Stats.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/Stats.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Control",
 "class": "StyleManager",
 "language": "GDScript",
 "path": "res://Src/scenes/Templates/GUI/Flatbox Style/StyleManager.gd"
 }, {
+<<<<<<< HEAD
+=======
+"base": "Object",
+"class": "SymbiosisFlags",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/SymbiosisFlags.gd"
+}, {
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Entity",
 "class": "SymbioticsEntity",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Entities/Effect/SymbioticEntity.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
+=======
+"class": "Syntax_Effect",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/SYNTAX/Effect.gd"
+}, {
+"base": "Node",
+"class": "Syntax_Loot",
+"language": "GDScript",
+"path": "res://Src/Cogsmos Framework/SYNTAX/Loot.gd"
+}, {
+"base": "Node",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "class": "System",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Module Structure/system.gd"
@@ -984,6 +1255,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Manager/SystemManager.gd"
 }, {
+<<<<<<< HEAD
 "base": "Component",
 "class": "T_1_REQUIRED_RACE",
 "language": "GDScript",
@@ -998,6 +1270,12 @@ _global_script_classes=[ {
 "class": "Template",
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/parts of Entities/Template.gd"
+=======
+"base": "Node",
+"class": "Team",
+"language": "GDScript",
+"path": "res://Src/Logic/single scripts/Player/Team.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "RichTextLabel",
 "class": "TextInputField",
@@ -1017,37 +1295,65 @@ _global_script_classes=[ {
 "base": "Object",
 "class": "U_CHANGE_RAW_VALUE",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Changing/change raw value.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Changing/change raw value.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_DEAL_PLAIN_DAMAGE",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Damaging/Deal Plain Damage.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Damaging/Deal Plain Damage.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_DEAL_STRUCTURAL_DAMAGE",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Damaging/Deal Structural Damage.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Damaging/Deal Structural Damage.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_EXCHANGE_TEXTURE",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Changing/exchange Texture.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Changing/exchange Texture.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_MOVE_USER",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Player/Move Tile.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Player/Move Tile.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_SPAWN_TILE",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Creation/Spawn Tile.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Creation/Spawn Tile.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "U_SPAWN_TILE_AROUND",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/009_Statmods/Statmods/Creation/Spawn Tile around.gd"
+=======
+"path": "res://Src/Logic/Modules/009_Statmods/Statmods/Creation/Spawn Tile around.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Panel",
 "class": "UniversalCheckbox",
@@ -1062,7 +1368,11 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "WorldMap",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/meta/WorldMap.gd"
+=======
+"path": "res://Src/Logic/single scripts/Player/WorldMap.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_002_EntityManager",
@@ -1070,194 +1380,351 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Effect/Hub.gd"
 }, {
 "base": "Object",
+<<<<<<< HEAD
 "class": "_005_Get",
 "language": "GDScript",
 "path": "res://Src/Modules/004_KitSet/Systems/getter.gd"
+=======
+"class": "_003_ConditionIndex",
+"language": "GDScript",
+"path": "res://Indexes/Conditions.gd"
+}, {
+"base": "Object",
+"class": "_005_Get",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/004_KitSet/Systems/getter.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_005_KitSetMerger",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/004_KitSet/Entity Manager/kitMerge.gd"
+=======
+"path": "res://Src/Logic/Modules/004_KitSet/Entity Manager/kitMerge.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_005_Select",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/004_KitSet/Systems/InitialKitPartToAct.gd"
+=======
+"path": "res://Src/Logic/Modules/004_KitSet/Systems/InitialKitPartToAct.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_010_In",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/IO/in.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/IO/in.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_010_Out",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/IO/out.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/IO/out.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_area",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/area.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/area.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_linea",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/crosshair.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/crosshair.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_lineaArea",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/linea area.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/linea area.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_quad",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/quader.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/quader.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_select",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/select.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/select.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_010_selectManager",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Manager/selectManager.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Manager/selectManager.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_010_universal",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/universal.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/universal.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_011_CharLoader",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Chargen/loadChar.gd"
+=======
+"path": "res://Src/Logic/Modules/006_Player/Systems/loadChar.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_011_Chargen",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Chargen/chargen.gd"
 }, {
 "base": "Object",
 "class": "_011_Hub_Template",
 "language": "GDScript",
 "path": "res://Src/Modules/011_Procgen_Actor/Systems/Parser Hub.gd"
+=======
+"path": "res://Src/Logic/Modules/006_Player/Systems/chargen.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_011_In",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/io/In.gd"
+=======
+"path": "res://Src/Logic/Modules/006_Player/io/In.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_011_Utils",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/006_Player/Systems/Chargen/Utils.gd"
+=======
+"path": "res://Src/Logic/Modules/006_Player/Systems/Utils.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_012_In",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/003_Entropy/io/In.gd"
+=======
+"path": "res://Src/Logic/Modules/003_Entropy/io/In.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_014_Utils",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/010_Tilemap_Selector/Systems/Utils.gd"
+=======
+"path": "res://Src/Logic/Modules/010_Tilemap_Selector/Systems/Utils.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_017_Syntax",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/017_CLI/Controller/Syntax.gd"
+=======
+"path": "res://Src/Logic/Modules/017_CLI/Controller/Syntax.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_02_MediumHub",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Medium/Hub.gd"
+=======
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Medium/MediumHub.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_02_SourceHub",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Source/Hub.gd"
+=======
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Source/SourceHub.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_02_TirggerSpecificHub",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Hub.gd"
+=======
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Hub.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_02_TriggerBaseHub",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/007_Effect_Generator/Entity Manager/TriggerBasic/Hub.gd"
+=======
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerBasic/TriggerSlot.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_03_00_EntityManager",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/011_Procgen_Actor/Entity Manager/DynamicNPC.gd"
 }, {
 "base": "Node",
 "class": "_17_Actor_Template",
 "language": "GDScript",
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Actor/Template.gd"
+=======
+"path": "res://Src/Logic/Modules/011_Procgen_Actor/Entity Manager/DynamicNPC.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Interactables",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Interactables.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/Interactables.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Kitparts",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/KitPart.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/KitPart.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Race",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Actor/Race.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/Actor/Race.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Role",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Actor/Role.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/Actor/Role.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Specialty",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Actor/Specialty.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/Actor/Specialty.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemokrECTS_Atlas",
 "class": "_17_Tiles",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/001_Atlas/SubAtlas/Tiles.gd"
+=======
+"path": "res://Src/Logic/Modules/001_Atlas/SubAtlas/Tiles.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "DemocrECTS_EntityManager",
 "class": "_18_TileEntManager",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/013_Procgen_Loot/Entity Manager/entMan.gd"
+=======
+"path": "res://Src/Logic/Modules/013_Procgen_Loot/Entity Manager/entMan.gd"
+}, {
+"base": "Node",
+"class": "_19_Unique_Statmod_Index",
+"language": "GDScript",
+"path": "res://Indexes/Statmods.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Component",
 "class": "_5_KitRun",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/004_KitSet/Systems/kitRun.gd"
+=======
+"path": "res://Src/Logic/Modules/004_KitSet/Systems/kitRun.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Component",
 "class": "_5_KitSelect",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/004_KitSet/Systems/kitSelect.gd"
+=======
+"path": "res://Src/Logic/Modules/004_KitSet/Systems/kitSelect.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_7_EntMan_Actor",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/011_Procgen_Actor/Entity Manager/CreateNPCProcess.gd"
 }, {
 "base": "Node",
 "class": "_API_017_Cmd_Restmode",
 "language": "GDScript",
 "path": "res://Src/Modules/017_CLI/Systems/RESTMODE.gd"
+=======
+"path": "res://Src/Logic/Modules/011_Procgen_Actor/Entity Manager/CreateNPCProcess.gd"
+}, {
+"base": "Object",
+"class": "_Area",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Medium/mediums/select.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_Comp",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Indexes/Components/_Comp.gd"
+=======
+"path": "res://Indexes/subIndexes/_Comp.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_DavINCi_FSM_Action",
@@ -1289,6 +1756,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DavINCi/FSM_Rest.gd"
 }, {
+<<<<<<< HEAD
 "base": "Node",
 "class": "_DavINCi_FSM_StateValidator",
 "language": "GDScript",
@@ -1299,6 +1767,8 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DavINCi/FSM_Rest/FSM_Station.gd"
 }, {
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Object",
 "class": "_Davinci_InfoPanel",
 "language": "GDScript",
@@ -1314,6 +1784,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Manager/EntityManager/Hub.gd"
 }, {
+<<<<<<< HEAD
 "base": "Component",
 "class": "_DioJSON_Common_Component",
 "language": "GDScript",
@@ -1324,6 +1795,8 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Src/Cogsmos Framework/DioJSONes/Parser/Common/templateToParse.gd"
 }, {
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "DemocrECTS_EntityManager",
 "class": "_EntCon_Interactable",
 "language": "GDScript",
@@ -1340,6 +1813,7 @@ _global_script_classes=[ {
 "path": "res://Src/Cogsmos Framework/DemcorECTS/Manager/EntityManager/types/Tile.gd"
 }, {
 "base": "Node",
+<<<<<<< HEAD
 "class": "_Enum_DioJSONes",
 "language": "GDScript",
 "path": "res://Indexes/Enums/DIOJSONES.gd"
@@ -1388,10 +1862,36 @@ _global_script_classes=[ {
 "class": "_Flags",
 "language": "GDScript",
 "path": "res://Indexes/Components/_Flags.gd"
+=======
+"class": "_Flags",
+"language": "GDScript",
+"path": "res://Indexes/subIndexes/_Flags.gd"
+}, {
+"base": "Object",
+"class": "_Has_Condition",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Specifics/HasCond.gd"
+}, {
+"base": "Object",
+"class": "_Has_StatMod",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Specifics/HasStat.gd"
+}, {
+"base": "Object",
+"class": "_Has_Texture",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Specifics/HasTexture.gd"
+}, {
+"base": "Object",
+"class": "_Is_Door",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/TriggerSpecific/Specifics/IsDoor.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_KitsUILoader",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Util/SubUtils/KitsUILoader.gd"
 }, {
 "base": "Node",
@@ -1423,11 +1923,33 @@ _global_script_classes=[ {
 "class": "_Template",
 "language": "GDScript",
 "path": "res://Indexes/Components/_Template.gd"
+=======
+"path": "res://Src/Logic/single scripts/Util/SubUtils/KitsUILoader.gd"
+}, {
+"base": "Object",
+"class": "_Linea",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Medium/mediums/linea.gd"
+}, {
+"base": "Object",
+"class": "_Select",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Medium/mediums/area.gd"
+}, {
+"base": "Object",
+"class": "_Self",
+"language": "GDScript",
+"path": "res://Src/Logic/Modules/007_Effect_Generator/Entity Manager/SpaceSlots/Source/sources/self.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Object",
 "class": "_TileInterpreter",
 "language": "GDScript",
+<<<<<<< HEAD
 "path": "res://Src/Modules/002_Tilemap_Structure/Systems/Tile Interpreter.gd"
+=======
+"path": "res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Tile Interpreter.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 }, {
 "base": "Node",
 "class": "_menueLoader",
@@ -1436,7 +1958,10 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "ActorEntity": "",
+<<<<<<< HEAD
 "ActorRNGTemplate": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "AnimatedPNG": "",
 "AnimatedText": "",
 "Appender": "",
@@ -1445,7 +1970,10 @@ _global_script_class_icons={
 "C_0_ANY_DESCRIPTION": "",
 "C_10_ACTOR_PERKS": "",
 "C_11_ACTOR_RACE_NAME": "",
+<<<<<<< HEAD
 "C_12_KITSET_INDEX": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "C_13_ACTOR_ROLE_NAME": "",
 "C_14_ACTOR_SPECIALTY_NAME": "",
 "C_15_ACTOR_ARRAY_BODYPARTS": "",
@@ -1458,7 +1986,11 @@ _global_script_class_icons={
 "C_21_TILE_TILENAME": "",
 "C_22_ACTOR_LIMITS": "",
 "C_23_ACTOR_CARRIAGE": "",
+<<<<<<< HEAD
 "C_24_ANY_REQUIRED_RACE": "",
+=======
+"C_24_ANY_CONDITION": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "C_25_ACTOR_PAINTOLLERANCE": "",
 "C_26_ACTOR_INDIRECT_STATS": "",
 "C_27_ACTOR_RACIAL_ENEMIES": "",
@@ -1487,6 +2019,10 @@ _global_script_class_icons={
 "C_49_EFFECT_REFERENCE": "",
 "C_4_ANY_MAGIC_NOISE": "",
 "C_50_ACTOR_ROLE_DESCRIPTION": "",
+<<<<<<< HEAD
+=======
+"C_50_Player_Selected_Tiles": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "C_51_PLAYER_KITSETS": "",
 "C_52_ACTOR_GEAR": "",
 "C_53_Actor_SELECTED_TILE": "",
@@ -1506,15 +2042,26 @@ _global_script_class_icons={
 "C_65_TIER": "",
 "C_66_UNIVERSAL_ID": "",
 "C_67_ANY_POSITION": "",
+<<<<<<< HEAD
 "C_68_KITVENTORY": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "C_6_TILE_NAME": "",
 "C_7_TILE_STATIC_TILESET_NR": "",
 "C_8_STRUCTURE_HP": "",
 "C_90_ANY_TEST": "",
+<<<<<<< HEAD
 "C_9_CREDITS_ACCOUNT": "",
 "CheckboxConstructor": "",
 "Cloudprinter": "",
 "CommonInventory": "",
+=======
+"C_99_ANY_TEST": "",
+"C_9_CREDITS_ACCOUNT": "",
+"CheckboxConstructor": "",
+"Cloudprinter": "",
+"Common": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "Component": "",
 "Cond_BAN_Electrifying": "",
 "Cond_Blinding_Overstimulating": "",
@@ -1528,6 +2075,10 @@ _global_script_class_icons={
 "DemocrECTS_EntityManager": "",
 "DemokrECTS_Atlas": "",
 "DictionaryUtil": "",
+<<<<<<< HEAD
+=======
+"DioJSONes_SubParser_ComponentConstructor": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "EffectEntity": "",
 "Effect_Comp_EFFECT_Condition": "",
 "Effect_Comp_EFFECT_Statmod": "",
@@ -1535,6 +2086,7 @@ _global_script_class_icons={
 "Effect_Comp_TIME": "",
 "Effect_Comp_TRIGGER_Base": "",
 "Effect_Comp_TRIGGER_Specific": "",
+<<<<<<< HEAD
 "Effect_Space_Medium_Area": "",
 "Effect_Space_Medium_Linea": "",
 "Effect_Space_Medium_Select": "",
@@ -1549,6 +2101,12 @@ _global_script_class_icons={
 "Effect_Unit_Component": "",
 "Entity": "",
 "F_1_INTERACTABLE_TYPE": "",
+=======
+"Effect_Generator_Syntax": "",
+"Effect_Unit_Component": "",
+"Entity": "",
+"F_1_STATIC_INTERACTABLE_TYPE": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "F_2_TILE_TYPE": "",
 "F_3_ITEM": "",
 "F_4_PLAYER_TYPE": "",
@@ -1560,6 +2118,15 @@ _global_script_class_icons={
 "FileHub": "",
 "FilepathBuilder": "",
 "FromatedRichtextLabel": "",
+<<<<<<< HEAD
+=======
+"GearEntity": "",
+"HeGEL_AddCond": "",
+"HeGEL_Binary_Comparison": "",
+"HeGEL_ChangeCond": "",
+"HeGEL_ChangeStat": "",
+"HeGEL_RemoveCond": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "HtmlLayout": "",
 "INJECTED_COMP": "",
 "I_1_Binary_Comparison": "",
@@ -1572,21 +2139,32 @@ _global_script_class_icons={
 "JsonParser": "",
 "JsonToEntityParser": "",
 "KitPartEntity": "",
+<<<<<<< HEAD
 "KitSelectionAppendix": "",
 "KitSelectionBase": "",
 "KitSelectionMod": "",
+=======
+"KitSelection": "",
+"KitSelectioneXTERN": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "KitSetEntity": "",
 "Kitventory": "",
 "Layout": "",
 "LootSourceEntity": "",
+<<<<<<< HEAD
 "LootTable_Syntax": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "MarkdownWriter": "",
 "Message": "",
 "ModKitPartEntity": "",
 "MouseHoverOverTileMap": "",
 "MouseLogic": "",
 "MouseMarker": "",
+<<<<<<< HEAD
 "NPC_Syntax": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "NodesManager": "",
 "PanelConstructor": "",
 "PatternLayout": "",
@@ -1595,7 +2173,12 @@ _global_script_class_icons={
 "PlayerEntity": "",
 "RNGClass": "",
 "Recycler": "",
+<<<<<<< HEAD
 "Rest_Form_Getter": "",
+=======
+"RestmodeUserinput": "",
+"Runner": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "RuntimeParameter": "",
 "SokraTILEs_TilemapManager": "",
 "SokraTiles_Chunk_Actors": "",
@@ -1613,6 +2196,7 @@ _global_script_class_icons={
 "SokraTiles_Chunk_Player": "",
 "Sokratiles_Chunk_Condition": "",
 "Sokratiles_Chunk_Selection": "",
+<<<<<<< HEAD
 "Stations": "",
 "Statistics_Components_JSON": "",
 "Statistics_Hub": "",
@@ -1622,17 +2206,35 @@ _global_script_class_icons={
 "Statistics_components_MD": "",
 "Statistics_effectsSyntax_JSON": "",
 "Statistics_effectsSyntax_MD": "",
+=======
+"StationManager": "",
+"Statistics_Components_JSON": "",
+"Statistics_Hub": "",
+"Statistics_MD_Kitparts": "",
+"Statistics_atlas_MD": "",
+"Statistics_components_MD": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "Statistics_enum_MD": "",
 "Statistics_kitparts_JSON": "",
 "Statistics_tileset_MD": "",
 "Stats": "",
 "StyleManager": "",
+<<<<<<< HEAD
 "SymbioticsEntity": "",
 "System": "",
 "SystemManager": "",
 "T_1_REQUIRED_RACE": "",
 "Team": "",
 "Template": "",
+=======
+"SymbiosisFlags": "",
+"SymbioticsEntity": "",
+"Syntax_Effect": "",
+"Syntax_Loot": "",
+"System": "",
+"SystemManager": "",
+"Team": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "TextInputField": "",
 "TileEntity": "",
 "TilesetParser": "",
@@ -1647,6 +2249,10 @@ _global_script_class_icons={
 "Utils": "",
 "WorldMap": "",
 "_002_EntityManager": "",
+<<<<<<< HEAD
+=======
+"_003_ConditionIndex": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "_005_Get": "",
 "_005_KitSetMerger": "",
 "_005_Select": "",
@@ -1661,7 +2267,10 @@ _global_script_class_icons={
 "_010_universal": "",
 "_011_CharLoader": "",
 "_011_Chargen": "",
+<<<<<<< HEAD
 "_011_Hub_Template": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "_011_In": "",
 "_011_Utils": "",
 "_012_In": "",
@@ -1672,7 +2281,10 @@ _global_script_class_icons={
 "_02_TirggerSpecificHub": "",
 "_02_TriggerBaseHub": "",
 "_03_00_EntityManager": "",
+<<<<<<< HEAD
 "_17_Actor_Template": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "_17_Interactables": "",
 "_17_Kitparts": "",
 "_17_Race": "",
@@ -1680,10 +2292,18 @@ _global_script_class_icons={
 "_17_Specialty": "",
 "_17_Tiles": "",
 "_18_TileEntManager": "",
+<<<<<<< HEAD
 "_5_KitRun": "",
 "_5_KitSelect": "",
 "_7_EntMan_Actor": "",
 "_API_017_Cmd_Restmode": "",
+=======
+"_19_Unique_Statmod_Index": "",
+"_5_KitRun": "",
+"_5_KitSelect": "",
+"_7_EntMan_Actor": "",
+"_Area": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "_Comp": "",
 "_DavINCi_FSM_Action": "",
 "_DavINCi_FSM_InfoPanel": "",
@@ -1691,6 +2311,7 @@ _global_script_class_icons={
 "_DavINCi_FSM_Movement": "",
 "_DavINCi_FSM_Panic": "",
 "_DavINCi_FSM_Rest": "",
+<<<<<<< HEAD
 "_DavINCi_FSM_StateValidator": "",
 "_DavINCi_FSM_Station": "",
 "_Davinci_InfoPanel": "",
@@ -1718,6 +2339,23 @@ _global_script_class_icons={
 "_Syntax_Effect_Condition": "",
 "_Syntax_Effect_Statmod": "",
 "_Template": "",
+=======
+"_Davinci_InfoPanel": "",
+"_Davinci_getter": "",
+"_DemocrECTS_EntityConverter": "",
+"_EntCon_Interactable": "",
+"_EntCon_KitPart": "",
+"_EntCon_Tile": "",
+"_Flags": "",
+"_Has_Condition": "",
+"_Has_StatMod": "",
+"_Has_Texture": "",
+"_Is_Door": "",
+"_KitsUILoader": "",
+"_Linea": "",
+"_Select": "",
+"_Self": "",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "_TileInterpreter": "",
 "_menueLoader": ""
 }
@@ -1734,6 +2372,7 @@ run/main_scene="res://Src/Bootstrap/GameInitSzene.tscn"
 [autoload]
 
 Logger="*res://addons/gs_logger/logger.gd"
+<<<<<<< HEAD
 Util="*res://Src/Util/Main.gd"
 ENUM="*res://Indexes/ENUM.gd"
 SYNTAX="*res://Indexes/Syntax.gd"
@@ -1756,10 +2395,37 @@ API_013_ProcgenLoot="*res://Src/Modules/013_Procgen_Loot/Controller/API.gd"
 API_015_Items="*res://Src/Modules/015_Items/Controller/API.gd"
 API_017_CLI="*res://Src/Modules/017_CLI/Controller/API.gd"
 HeGEL="*res://Src/Cogsmos Framework/HeGEL/HeGEL.gd"
+=======
+Util="*res://Src/Logic/single scripts/Util/Main.gd"
+ENUM="*res://Indexes/ENUM.gd"
+COMP="*res://Indexes/COMP.gd"
+Signals="*res://Indexes/Signals.gd"
+API_001_Atlas="*res://Src/Logic/Modules/001_Atlas/Controller/API.gd"
+API_002_Tilemap="*res://Src/Logic/Modules/002_Tilemap_Structure/Controller/API.gd"
+API_003_Entropy="*res://Src/Logic/Modules/003_Entropy/Controller/API.gd"
+API_004_KitSet="*res://Src/Logic/Modules/004_KitSet/Controller/API.gd"
+API_006_Player="*res://Src/Logic/Modules/006_Player/Controller/API.gd"
+API_007_Effect="*res://Src/Logic/Modules/007_Effect_Generator/Controller/API.gd"
+API_008_Condition="*res://Src/Logic/Modules/008_Conditions/Controller/API.gd"
+API_009_Statmod="*res://Src/Logic/Modules/009_Statmods/Controller/API.gd"
+API_010_TilemapSelector="*res://Src/Logic/Modules/010_Tilemap_Selector/Controller/API.gd"
+API_011_ProcgenActor="*res://Src/Logic/Modules/011_Procgen_Actor/Controller/API.gd"
+API_012_ProcgenChunk="*res://Src/Logic/Modules/012_Procgen Chunk/Controller/API.gd"
+API_014_Behavior="*res://Src/Logic/Modules/014_Behavior/Controller/API.gd"
+API_013_ProcgenLoot="*res://Src/Logic/Modules/013_Procgen_Loot/Controller/API.gd"
+API_015_Items="*res://Src/Logic/Modules/015_Items/Controller/API.gd"
+API_017_CLI="*res://Src/Logic/Modules/017_CLI/Controller/API.gd"
+HeGEL="*res://Src/Cogsmos Framework/HeGEL/HeGEL.gd"
+DemokrECTS="*res://Src/Cogsmos Framework/DemcorECTS/demokrECS.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 DavINCi="*res://Src/Cogsmos Framework/DavINCi/Main.gd"
 SokraTiles="*res://Src/Cogsmos Framework/SokraTILEs/sokraTILES.gd"
 DioJSONes="*res://Src/Cogsmos Framework/DioJSONes/dioJSONes.gd"
 ArisPROCGENes="*res://Src/Cogsmos Framework/ArisPROCGENes/ArisPROCGENes.gd"
+<<<<<<< HEAD
+=======
+Player="*res://Src/Logic/single scripts/Player/Player Singleton.gd"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 Gameloop="*res://Src/Gameloop.gd"
 GameInit="*res://Src/Bootstrap/Parameters/GameInit.gd"
 BooStrap="*res://Src/Bootstrap/BooStrap.gd"

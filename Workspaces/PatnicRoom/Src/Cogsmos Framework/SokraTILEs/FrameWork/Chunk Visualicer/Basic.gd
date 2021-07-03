@@ -40,9 +40,17 @@ func stopAtDefaultTilemapSize(pos:Vector2):
 
 func convertForPivot(typeEnum:int,pos:Vector2):
 	match typeEnum:
+<<<<<<< HEAD
 		ENUM.SOKRATILES.TYPES_ON_MAP.TILE     : return Vector2(pos.x,pos.y)
 		ENUM.SOKRATILES.TYPES_ON_MAP.ACTOR    : return Vector2(pos.x,pos.y)
 		ENUM.SOKRATILES.TYPES_ON_MAP.INTERACT : return Vector2(pos.y,pos.x)
 		ENUM.SOKRATILES.TYPES_ON_MAP.MARKER   : return Vector2(pos.x,pos.y)
 		ENUM.SOKRATILES.TYPES_ON_MAP.PLAYER   : return Vector2(pos.x,pos.y)
+=======
+		ENUM.TYPES_ON_MAP.TILE     : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.ACTOR    : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.INTERACT : return Vector2(pos.y,pos.x)
+		ENUM.TYPES_ON_MAP.MARKER   : return Vector2(pos.x,pos.y)
+		ENUM.TYPES_ON_MAP.PLAYER   : return Vector2(pos.x,pos.y)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 

@@ -4,7 +4,11 @@ class_name MouseLogic
 
 # ----- INITIALICE ----------------------------------------------------------- ##
 
+<<<<<<< HEAD
 var tilemapCenter = ENUM.SOKRATILES.CENTER_TO_DRAW
+=======
+var tilemapCenter = ENUM.PANIC_CENTER_TO_DRAW
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 var layersToCheck = []
 var playerTilemapNode 
 
@@ -63,7 +67,11 @@ func isMouseOnNode(mouse):
 # ----- GETTER --------------------------------------------------------------- ##
 
 
+<<<<<<< HEAD
 func getMousePos(mousePos):                 return getMouseHoverOnTilemap( mousePos, API_006_Player.currentChar.pos() )
+=======
+func getMousePos(mousePos):                 return getMouseHoverOnTilemap( mousePos, API_006_Player.currentChar.position() )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 func getContextualEntityOfHover(mousePos):  return checkForEntites( getMousePos(mousePos) )
 	
 
@@ -78,7 +86,11 @@ func getMouseHoverOnTilemap(mousePos,playerPos):
 
 
 func getMouseOnTilemap(mouse):
+<<<<<<< HEAD
 	var size = ENUM.SOKRATILES.TILE_PIXEL_SIZE / 2
+=======
+	var size = ENUM.PANIC_TILE_PIXEL_SIZE / 2
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	return playerTilemapNode.world_to_map( Vector2(mouse.x+size, mouse.y-size) )   # pos by tile SHOWN on screen with deadzone
 
 

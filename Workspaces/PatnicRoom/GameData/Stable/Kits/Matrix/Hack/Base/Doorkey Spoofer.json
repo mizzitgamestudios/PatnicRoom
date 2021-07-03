@@ -2,8 +2,11 @@
 
    "C_6_TILE_NAME"               : "Doorkey Spoofer",
    "C_40_ANY_TO_STRING"          : "Doorkey Spoofer",
+<<<<<<< HEAD
    "C_12_KITSET_INDEX"           : "X_H_1",
    "F_15_KITPART_TYPE_BASE"      : "N/A",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_0_ANY_DESCRIPTION"         : "A HomeSec apprentice accidentily posted their account password on P2.1,almost like an inivitation for readers into the homes of his customers",
    "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec1 doors",
    

@@ -1,34 +1,22 @@
 extends RichTextLabel
 
 var writtenOut
-var sceneToLoad
-var enumNr
-
-func initialice(scenePara,enumPara) -> void:
-	sceneToLoad = scenePara
-	enumNr      = enumPara
-
 func _ready():
+	
 	bbcode_enabled = true
 	writtenOut=bbcode_text
 	bbcode_text = "[color=white]"+writtenOut+"[/color]"	
 
 
-func _input(event:InputEvent) -> void:
-	if isMouseOnNode(self) and event.is_action("Interface_Mouse_Left"):
-		DavINCi.FSM_Hub.changeSzeneByInputEnum(self.enumNr,0)
-	if isMouseOnNode(self):
-		bbcode_text = "[color=yellow]"+writtenOut
-	if !isMouseOnNode(self):
-		bbcode_text = writtenOut
 
+func _input(event):
+	checkForInput(event)
 
-
-func isMouseOnNode(node):
-	var minVec = node.rect_global_position
-	var cacheSizeOfRect = Vector2(node.get_end().x-node.get_begin().x,node.get_end().y-node.get_begin().y)
-	var maxVec = Vector2(minVec.x+cacheSizeOfRect.x,minVec.y+cacheSizeOfRect.y)
-		
-	var mouse = node.get_global_mouse_position()
-
-	return mouse.x > minVec.x and mouse.y > minVec.y and mouse.x < maxVec.x and mouse.y < maxVec.y
+func checkForInput(event):
+	if event is InputEventKey and event.is_pressed():
+		RestMode.userinput.keyInputCompute(event,get_node("."))
+	
+	if event is InputEventMouse and Util.Nodes.isMouseOnNode(get_node(".")):
+		RestMode.userinput.mouseInputCompute(event,get_node("."))
+	else:
+		bbcode_text = "[color=white]"+writtenOut+"[/color]"

@@ -21,11 +21,16 @@ func getModuleToMorph(index:int):
 	var doc = SYNTAX.INPUT_TO_KEYWORD(selectedItem)
 	var syntax = SYNTAX.masterAtlas
 	doc = syntax[doc]
+<<<<<<< HEAD
 	if doc.has("moduleName"):
 	
 		if doc["moduleName"] != "VOID":
 			inputNode =Utils.getLoadedModule(doc["moduleName"]).instance()
 			add_child(inputNode)
+=======
+	inputNode =Utils.getLoadedModule(doc["moduleName"]).instance()
+	add_child(inputNode)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	
 	

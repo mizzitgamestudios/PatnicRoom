@@ -1,0 +1,279 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Stations/Filling Kits in Form.gd" type="Script" id=3]
+
+
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 57
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.337255, 0.337255, 0.337255, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[node name="KitModRoot" type="Node2D"]
+position = Vector2( 76, 197 )
+script = ExtResource( 3 )
+
+[node name="Module Title" type="Panel" parent="."]
+margin_left = 684.0
+margin_top = 331.0
+margin_right = 1828.0
+margin_bottom = 403.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="RichTextLabel" parent="Module Title"]
+margin_left = 3.0
+margin_top = 4.0
+margin_right = 384.0
+margin_bottom = 68.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="List of entries" type="VBoxContainer" parent="."]
+margin_left = 687.0
+margin_top = 403.0
+margin_right = 1825.0
+margin_bottom = 603.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer1" type="HBoxContainer" parent="List of entries"]
+margin_right = 1138.0
+margin_bottom = 40.0
+custom_constants/separation = 3
+
+[node name="name" type="Panel" parent="List of entries/HBoxContainer1"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer1/name"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="List of entries/HBoxContainer1"]
+margin_left = 384.0
+margin_right = 1138.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 754, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer1/toString"]
+margin_right = 754.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="List of entries"]
+margin_top = 40.0
+margin_right = 1138.0
+margin_bottom = 80.0
+custom_constants/separation = 3
+
+[node name="name" type="Panel" parent="List of entries/HBoxContainer2"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer2/name"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="List of entries/HBoxContainer2"]
+margin_left = 384.0
+margin_right = 1138.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 754, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer2/toString"]
+margin_right = 754.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="List of entries"]
+margin_top = 80.0
+margin_right = 1138.0
+margin_bottom = 120.0
+custom_constants/separation = 3
+
+[node name="name" type="Panel" parent="List of entries/HBoxContainer3"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer3/name"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="List of entries/HBoxContainer3"]
+margin_left = 384.0
+margin_right = 1138.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 754, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer3/toString"]
+margin_right = 754.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="List of entries"]
+margin_top = 120.0
+margin_right = 1138.0
+margin_bottom = 160.0
+custom_constants/separation = 3
+
+[node name="name" type="Panel" parent="List of entries/HBoxContainer4"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer4/name"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="List of entries/HBoxContainer4"]
+margin_left = 384.0
+margin_right = 1138.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 754, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer4/toString"]
+margin_right = 754.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="List of entries"]
+margin_top = 160.0
+margin_right = 1138.0
+margin_bottom = 200.0
+custom_constants/separation = 3
+
+[node name="name" type="Panel" parent="List of entries/HBoxContainer5"]
+margin_right = 381.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer5/name"]
+margin_left = -3.0
+margin_right = 378.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="List of entries/HBoxContainer5"]
+margin_left = 384.0
+margin_right = 1138.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 754, 40 )
+custom_styles/panel = SubResource( 3 )
+
+[node name="text" type="RichTextLabel" parent="List of entries/HBoxContainer5/toString"]
+margin_right = 754.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 381, 40 )
+
+[node name="Frame0" type="Panel" parent="."]
+margin_left = 1068.0
+margin_top = 403.0
+margin_right = 1071.0
+margin_bottom = 603.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Frame1" type="Panel" parent="."]
+margin_left = 684.0
+margin_top = 403.0
+margin_right = 687.0
+margin_bottom = 603.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Frame2" type="Panel" parent="."]
+margin_left = 684.0
+margin_top = 603.0
+margin_right = 1828.0
+margin_bottom = 606.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Frame3" type="Panel" parent="."]
+margin_left = 1825.0
+margin_top = 331.0
+margin_right = 1828.0
+margin_bottom = 603.0
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -17,4 +17,8 @@ static func getAutoDoc(): return{
 }
 static func name_quack():      return "F_5_KITPART_TYPE"
  ;
+<<<<<<< HEAD
 static func dioJSONType_quack(): return "FLAG"
+=======
+static func dioJSONType_quack(): return "FLAG"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

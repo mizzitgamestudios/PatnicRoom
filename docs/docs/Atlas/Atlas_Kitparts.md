@@ -67,6 +67,20 @@
 
 
 
+<<<<<<< HEAD
+=======
+### social engineered
+| Stat | Value | 
+|  --  |  --  | 
+| description | This well known hack, causes heart-implants to overcharge and electronics untill the heart cant keep up the pace and explodes. Its sudden and gruesome death was feared by citizens in the early days of internal cyberware and the go-to argument of Naturalistic activists | 
+| mechanicalSummary | opens Sec2 doors | 
+| cooldownTime | 1 | 
+| rarity | 5 | 
+| modTime | 2 | 
+
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 ## Drones
 
 
@@ -84,6 +98,7 @@
 
 
 
+<<<<<<< HEAD
 ### tar vomit
 | Stat | Value | 
 |  --  |  --  | 
@@ -95,6 +110,8 @@
 
 
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 ## Spells
 
 

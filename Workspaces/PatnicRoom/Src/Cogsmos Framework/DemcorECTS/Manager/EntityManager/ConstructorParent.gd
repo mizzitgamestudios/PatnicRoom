@@ -63,7 +63,11 @@ func _constructEnt_quack(dict,newEnt):
 						
 			# FUNC FLAGS #
 			var flagInstance = COMP.GET_FLAG(currentDictEntry)
+<<<<<<< HEAD
 			if flagInstance is String: 
+=======
+			if flagInstance is int: 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 				newEnt.addFlag(flagInstance)
 
 

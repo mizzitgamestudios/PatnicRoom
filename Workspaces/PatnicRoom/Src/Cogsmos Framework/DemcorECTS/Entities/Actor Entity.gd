@@ -12,7 +12,14 @@ class_name ActorEntity
 
 var position: Vector2
 var conditionList = []
+<<<<<<< HEAD
 var rngTemplate: ActorRNGTemplate
+=======
+export var health:int  = 0
+
+func _ready() -> void:
+	health = getComp(C_57_HITPOINTS.name_quack()).value
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -26,8 +33,13 @@ func staticTilesetlNr() -> String:	return getCompValue(C_7_TILE_STATIC_TILESET_N
 func synonym()          -> String:	return getCompValue(C_47_ANY_SYNONYM.name_quack())
 func mouseHover_quack() -> String:  return synonym()
 
+<<<<<<< HEAD
 func type()             -> String:  return ENUM.SOKRATILES.TYPES_ON_MAP.ACTOR
 func typeToString()     -> String:  return ENUM.SOKRATILES.TYPES_ON_MAP.ACTOR
+=======
+func type()             -> String:  return ENUM.TYPES_ON_MAP.ACTOR
+func typeToString()     -> String:  return ENUM.TYPES_ON_MAP.ACTOR
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 func position()         -> Vector2:	return position
 func pos()				-> Vector2: return position()

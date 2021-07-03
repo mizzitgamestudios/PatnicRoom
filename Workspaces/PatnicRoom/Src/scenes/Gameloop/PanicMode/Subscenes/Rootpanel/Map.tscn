@@ -1,5 +1,6 @@
 [gd_scene load_steps=14 format=2]
 
+<<<<<<< HEAD
 [ext_resource path="res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Floor.gd" type="Script" id=1]
 [ext_resource path="res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Interactables.gd" type="Script" id=2]
 [ext_resource path="res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Floor.gd" type="Script" id=3]
@@ -14,6 +15,21 @@
 [ext_resource path="res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Floor.gd" type="Script" id=12]
 [ext_resource path="res://Src/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Conditions.gd" type="Script" id=13]
 
+=======
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Floor.gd" type="Script" id=1]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Meat/Meat Interactables.gd" type="Script" id=2]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Floor.gd" type="Script" id=3]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Magic/Magic Interactables.gd" type="Script" id=4]
+[ext_resource path="res://Media/Tilesets/all.tres" type="TileSet" id=5]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Selection.gd" type="Script" id=6]
+[ext_resource path="res://Src/Cogsmos Framework/DavINCi/FSM_Panic/MouseLogik/MouseHover.gd" type="Script" id=7]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Actor/NPC.gd" type="Script" id=8]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Actor/Player.gd" type="Script" id=9]
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/HUD/Camera2D.gd" type="Script" id=10]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Interactables.gd" type="Script" id=11]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Matrix/Matrix Floor.gd" type="Script" id=12]
+[ext_resource path="res://Src/Logic/Modules/002_Tilemap_Structure/Systems/Layer/Animation/Conditions.gd" type="Script" id=13]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

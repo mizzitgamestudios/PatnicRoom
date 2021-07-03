@@ -53,7 +53,7 @@
          "EFFECT-0":{
             "CONDITION":[],
             "STAT_MOD":[
-           
+            ["U_OPEN_DOOR"]
             ]}
 
       }}

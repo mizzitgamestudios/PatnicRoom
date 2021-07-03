@@ -1,9 +1,13 @@
 {
    "C_0_ANY_DESCRIPTION":"A conducting metal surface on the palmcomma it started as a simple tool for prankster but got placed in headlines after it made some electrical devices unusable by shortcurciting",
    "C_31_KIT_CAT_TYPE":"CYBERWARE",
+<<<<<<< HEAD
    "C_12_KITSET_INDEX"           : "X_C_1",
    "C_33_KIT_COOLDOWN_TIMER":"3",
    "F_15_KITPART_TYPE_BASE"      : "N/A",
+=======
+   "C_33_KIT_COOLDOWN_TIMER":"3",
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_35_KIT_MECHANICAL_SUMMARY":"Deals 5 electrical damage",
    "C_36_KIT_MOD_TIME":"MEAT",
    "C_37_ANY_M_TYPE":"MEAT",

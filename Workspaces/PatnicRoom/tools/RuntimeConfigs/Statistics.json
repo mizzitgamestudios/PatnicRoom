@@ -14,8 +14,12 @@
 
         "atlas_role"      : true,
         "atlas_specialty" : true,
+<<<<<<< HEAD
         "atlas_race"      : true,
         "syntax_component": true
+=======
+        "atlas_race"      : true
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     },
 
 
@@ -33,8 +37,12 @@
 
         "atlas_role"      : false,
         "atlas_specialty" : false,
+<<<<<<< HEAD
         "atlas_race"      : false,
         "syntax_component": true
+=======
+        "atlas_race"      : false
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     }
 
 

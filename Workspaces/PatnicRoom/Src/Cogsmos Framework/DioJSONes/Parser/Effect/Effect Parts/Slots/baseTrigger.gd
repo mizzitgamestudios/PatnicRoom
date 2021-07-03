@@ -6,7 +6,7 @@ var value
 func _init(valuePara):
 	name = "Effect_Comp_TRIGGER_Base"
 	
-	if SYNTAX.EFFECT.HAS_TRIGGER_BASE(valuePara):
+	if Effect_Generator_Syntax.EFFECT_TRIGGER_BASE.has(valuePara):
 		value = valuePara
 
 

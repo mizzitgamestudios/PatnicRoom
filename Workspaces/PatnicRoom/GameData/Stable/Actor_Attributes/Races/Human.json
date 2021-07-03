@@ -1,6 +1,9 @@
   
 {
+<<<<<<< HEAD
     "C_12_KITSET_INDEX"          : "HUMAN",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
     "C_6_TILE_NAME"              : "Human",
     "C_0_ANY_DESCRIPTION"        : "just like humans,but in tiny",

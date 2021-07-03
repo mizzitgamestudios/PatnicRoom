@@ -2,6 +2,7 @@ extends Node
 class_name _DavINCi_FSM_Rest
 
 
+<<<<<<< HEAD
 # ----- INITIALICE ----------------------------------------------------------- ##
 
 
@@ -82,6 +83,13 @@ func cacheStation(inputEnum):
 	if   ENUM.INPUT_REST.STATION.RETREAT  == inputEnum : DavINCi.cachedInput = ENUM.SOKRATILES.M_TYPE.MAGIC
 	elif ENUM.INPUT_REST.STATION.WORKSHOP == inputEnum : DavINCi.cachedInput = ENUM.SOKRATILES.M_TYPE.MEAT
 	elif ENUM.INPUT_REST.STATION.TERMINAL == inputEnum : DavINCi.cachedInput = ENUM.SOKRATILES.M_TYPE.MATRIX
+=======
+
+
+
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -90,3 +98,7 @@ func cacheStation(inputEnum):
 
 
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

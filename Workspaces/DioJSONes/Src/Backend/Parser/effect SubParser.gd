@@ -70,7 +70,11 @@ static func prepareDict():
 	dictToReturn["TRIGGER"] = {}
 	dictToReturn["SPACE"]   = {}
 	dictToReturn["EFFECT"]  = {}
+<<<<<<< HEAD
 	dictToReturn["TIME"]    = { "TIME-0":"N/A","TIME-1":"N/A","TIME-2":"N/A","TIME-3":"N/A" }
+=======
+	dictToReturn["TIME"]    = { "TIME-1":"N/A","TIME-2":"N/A","TIME-3":"N/A","TIME-4":"N/A" }
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	return dictToReturn
 
 

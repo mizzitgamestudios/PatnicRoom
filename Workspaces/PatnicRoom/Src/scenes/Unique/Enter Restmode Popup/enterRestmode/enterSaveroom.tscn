@@ -1,6 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Media/FixedDays Font/Text_Header.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/buttonN.gd" type="Script" id=2]
+[ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/buttonY.gd" type="Script" id=3]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=4]
 [ext_resource path="res://Src/scenes/Unique/Enter Restmode Popup/enterRestmode/Panel.gd" type="Script" id=5]
 
@@ -56,6 +58,7 @@ margin_top = 500.0
 margin_right = 460.0
 margin_bottom = 540.0
 custom_styles/panel = SubResource( 2 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -79,6 +82,7 @@ margin_top = 500.0
 margin_right = 632.0
 margin_bottom = 540.0
 custom_styles/panel = SubResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -95,13 +99,3 @@ text = "Rest"
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Button" type="Button" parent="."]
-margin_left = 480.0
-margin_top = 560.0
-margin_right = 584.0
-margin_bottom = 580.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

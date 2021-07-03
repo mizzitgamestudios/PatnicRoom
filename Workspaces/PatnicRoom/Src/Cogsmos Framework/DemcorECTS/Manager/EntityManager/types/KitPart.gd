@@ -7,6 +7,7 @@ class_name _EntCon_KitPart
 
 var kitpartEntityIndex = C_6_TILE_NAME.name_quack()
 
+<<<<<<< HEAD
 # FUNC Neccessary,provides parent with needed vars 
 func _init(namePara,mandatoryComponents).(namePara,mandatoryComponents) -> void: pass
 
@@ -20,6 +21,11 @@ func _convertEnt_quack(dict,newEnt):
 	var kitPart = self._copyEnt_quack(dict,newEnt)
 	API_001_Atlas._kitparts.addEntity(kitPart)
 	return kitPart
+=======
+func _init(namePara,mandatoryComponents).(namePara,mandatoryComponents) -> void: pass
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

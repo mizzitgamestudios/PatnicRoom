@@ -275,6 +275,7 @@ bbcode_enabled = true
 scroll_active = false
 script = ExtResource( 3 )
 
+<<<<<<< HEAD
 [node name="Panel2" type="Panel" parent="."]
 margin_left = 64.0
 margin_top = 280.0
@@ -288,20 +289,36 @@ __meta__ = {
 [node name="Control" type="Control" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
+=======
+[node name="kitset6" type="Control" parent="Panel"]
+margin_top = 240.0
+margin_right = 40.0
+margin_bottom = 280.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="CheckButton" type="CheckButton" parent="Control"]
 margin_left = 600.0
 margin_top = 424.0
 margin_right = 676.0
 margin_bottom = 464.0
 pressed = true
+=======
+[node name="Panel" type="Panel" parent="Panel/kitset6"]
+margin_left = 8.0
+margin_top = 24.0
+margin_right = 656.0
+margin_bottom = 64.0
+custom_styles/panel = SubResource( 2 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="mod2" type="RichTextLabel" parent="Control"]
 margin_left = 384.0
 margin_top = 432.0
@@ -313,6 +330,44 @@ bbcode_text = "Start with Kits extra"
 text = "Start with Kits extra"
 scroll_active = false
 script = ExtResource( 3 )
+=======
+[node name="mod" type="RichTextLabel" parent="Panel/kitset6"]
+margin_left = 24.0
+margin_top = 32.0
+margin_right = 216.0
+margin_bottom = 56.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+scroll_active = false
+script = ExtResource( 3 )
+
+[node name="base" type="RichTextLabel" parent="Panel/kitset6"]
+margin_left = 232.0
+margin_top = 32.0
+margin_right = 448.0
+margin_bottom = 56.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+scroll_active = false
+script = ExtResource( 3 )
+
+[node name="app" type="RichTextLabel" parent="Panel/kitset6"]
+margin_left = 472.0
+margin_top = 32.0
+margin_right = 656.0
+margin_bottom = 56.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+scroll_active = false
+script = ExtResource( 3 )
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 64.0
+margin_top = 280.0
+margin_right = 272.0
+margin_bottom = 336.0
+custom_styles/panel = SubResource( 1 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }

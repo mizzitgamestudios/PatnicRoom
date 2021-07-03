@@ -7,21 +7,21 @@ var value
 func _init(valuePara):
 	name = "Effect_Comp_TIME"
 	
-	if str(valuePara) == "INSTANT":
+	if valuePara == "INSTANT":
 		value = 0
-		metaValue = str(valuePara)
+		metaValue = valuePara
 	
 
 	else:
 		value = int(valuePara)
 		metaValue = "TIME_DELAY"
 	
-		if str(valuePara) == "N/A":
+		if valuePara == "N/A":
 			value = 999
 			metaValue = "N/A"
 	
 		
-		if str(valuePara) == "0":
+		if valuePara == "0":
 			value = 0
 			metaValue = "INSTANT"
 	

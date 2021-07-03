@@ -35,9 +35,15 @@ func fillMorphBoxes():
 
 func getUnits(effectCache:EffectCache):
 	effectCache.spaceReach  = reach.getInputToString()
+<<<<<<< HEAD
 	effectCache.spaceMedium = Utils.foobar(medium.getInputToString())
 	effectCache.spaceSource = Utils.foobar(source.getInputToString())
 	effectCache.spaceMType  = Utils.foobar(mType.getInputToString())
+=======
+	effectCache.spaceMedium = medium.getInputToString()
+	effectCache.spaceSource = source.getInputToString()
+	effectCache.spaceMType  = mType.getInputToString()
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	effectCache.spaceLength = length.getInputToString()
 	return effectCache
 

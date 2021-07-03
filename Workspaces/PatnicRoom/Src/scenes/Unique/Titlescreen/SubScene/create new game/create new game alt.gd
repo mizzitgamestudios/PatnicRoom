@@ -47,7 +47,10 @@ func fillKits():
 func _input(event: InputEvent) -> void:
 	var kitNr  = kitsNode.selected
 	var raceNr = raceNode.selected
+<<<<<<< HEAD
 	var charName = nameNode.bbcode_text
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	if Util.Nodes.isMouseOnNode(nameNode) and event is InputEventKey:
 		var charToAdd = event.as_text()
@@ -64,7 +67,11 @@ func _input(event: InputEvent) -> void:
 		get_node("Panel2/Race/toString").bbcode_text = currentRaceToString
 	
 	
+<<<<<<< HEAD
 	if isSelectValid(kitNr) and isSelectValid(raceNr) and charName != "":
+=======
+	if isSelectValid(kitNr) and isSelectValid(raceNr):
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 		startButton.visible = true
 	
 	
@@ -89,4 +96,8 @@ func setUpChargenDict(raceNr:int,kitNr:int):
 
 
 func isSelectValid(selectNr:int):		return selectNr > 0
+<<<<<<< HEAD
 func isGameStartable(event:InputEvent):	return Util.Nodes.isMouseOnNode(startButton) and event.is_action_pressed("Interface_Mouse_Left")
+=======
+func isGameStartable(event:InputEvent):	return Util.Nodes.isMouseOnNode(startButton) and event.is_action_pressed("Input_Mouse_Left")
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

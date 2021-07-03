@@ -8,7 +8,10 @@ onready var highlightStyle:    StyleBoxFlat = load("res://Media/presets/highligh
 
 onready var inputMode:         bool         = false
 onready var inputContent:      String       = ""
+<<<<<<< HEAD
 onready var inputModule
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

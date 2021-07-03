@@ -21,6 +21,7 @@ func _on_ItemSelected(index:int) -> void:
 	get_node("../../..").addToShow()
 	remove_child(inputNode)
 	
+<<<<<<< HEAD
 	
 	var keyword = SYNTAX.crossReferenceInputKeyword[selectedItem]
 	var module = SYNTAX.masterAtlas[keyword]["moduleName"]
@@ -29,6 +30,13 @@ func _on_ItemSelected(index:int) -> void:
 		inputNode = inputNode.instance()
 		self.add_child(inputNode)
 		
+=======
+	if selectedItem != "just plain selected from above" and selectedItem != "is Door":
+		inputNode = Utils.getLoadedModuleByToString(selectedItem)
+		inputNode = inputNode.instance()
+		self.add_child(inputNode)
+	
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 func setCurrentListOfEffectsByType():
 	if   currentType == ENUM.EFFECT_TYPE.CONDITION:  currentListOfElements  = listOfCondtiions

@@ -62,3 +62,15 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+<<<<<<< HEAD
+=======
+
+[node name="OptionButton" type="OptionButton" parent="marker"]
+margin_left = 7.0
+margin_top = 10.0
+margin_right = 122.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

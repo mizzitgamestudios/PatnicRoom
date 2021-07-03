@@ -1,13 +1,19 @@
 {
 
+<<<<<<< HEAD
     "C_12_KITSET_INDEX"     : "SPELLCASTER_1",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     "C_6_TILE_NAME"         : "Spellcaster_Tier_One",
     "F_6_ACTOR_ATTRIBUTES"  : "N/A",
     "C_65_TIER"             : 1,   
     "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
     "C_0_ANY_DESCRIPTION"   : "weak guys throwing wild punches,lasts 2 rounds in the ring and 9 weeks in coma",
     "C_47_ANY_SYNONYM"      : ["orc"],
+<<<<<<< HEAD
     "C_37_ANY_M_TYPE"       : "MAGIC",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
   
     "C_19_ACTOR_ATTRIBUTES" : {
       "con" : 2,

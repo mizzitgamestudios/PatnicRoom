@@ -22,8 +22,13 @@ func layer()           -> String: 	return getCompValue(C_3_ANY_LAYER.name_quack(
 func tileName()        -> String:	return getCompValue(C_6_TILE_NAME.name_quack())
 
 # VAR TYPE     
+<<<<<<< HEAD
 func typeToString()    -> String: 	return ENUM.SOKRATILES.TYPES_ON_MAP.TILE
 func type()            -> String:	return ENUM.SOKRATILES.TYPES_ON_MAP.TILE
+=======
+func typeToString()    -> String: 	return ENUM.TYPES_ON_MAP.TILE
+func type()            -> String:	return ENUM.TYPES_ON_MAP.TILE
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 func isWalkable()      -> bool: 	return getCompValue(C_1_ANY_IS_WALKABLE.name_quack())
 func mouseHover_quack() -> String:  return textureID()
 
@@ -44,4 +49,25 @@ func magicNoise()      -> int:		return getCompValue(C_4_ANY_MAGIC_NOISE.name_qua
 func setPos(pos:Vector2): 	position = pos
 
 
+<<<<<<< HEAD
 	
+=======
+
+# ----- HELPER --------------------------------------------------------------- ##
+
+func isSignalInReach(signalSource:TileEntity,reach:int) -> bool:
+	var posBool :bool = false
+	
+	if (signalSource.currentPosition.x + reach) - self.posX() >= 0: posBool = true
+	elif (signalSource.currentPosition.y + reach) - self.posY() >= 0: posBool = true
+	
+	return true
+
+
+
+func getNameForGroupEntry():
+	if has(C_6_TILE_NAME.name_quack()): return getCompValue(C_6_TILE_NAME)
+	else:                               return tileName()
+
+		
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

@@ -1,24 +1,30 @@
 extends Component
 class_name Effect_Comp_TRIGGER_Specific
 
-var specificTriggers = []
+var value
+var metaValue = []
+var metaKeyword = []
 
 func _init(valuePara):
 	name = "Effect_Comp_TRIGGER_Specific"
-	var keywords = SYNTAX.EFFECT().TRIGGER.SPECIFIC
 	
-	for currentEntry in valuePara:
-		var meta  = currentEntry[0]
+	
+	for i in valuePara.size():
+		if valuePara[i][0] == "BASE":
+			metaKeyword.append(valuePara[i][0])
+			metaValue.append(valuePara[i][1])
+
+		elif valuePara[i][0] == "HAS_STAT":
+			metaKeyword.append(valuePara[i][0])
+			metaValue.append([ valuePara[i][1][0],valuePara[i][1][1],valuePara[i][1][2] ])
 		
-		if isConnector(meta):   specificTriggers.append(meta)
-		
+		elif valuePara[i][0] == "AND" or valuePara[i][0] == "OR":
+			metaKeyword.append(valuePara[i][0])
+			metaValue.append(valuePara[i][0])
+
 		else:
-			var value           = currentEntry[1]
-			var keywordInstance = keywords[meta].new( [value] )
-			specificTriggers.append(keywordInstance)
+			metaKeyword.append(valuePara[i][0])
+			metaValue.append(valuePara[i][1])
 
 
-
-
-func isConnector(meta): return meta == "AND" or meta == "OR"
 

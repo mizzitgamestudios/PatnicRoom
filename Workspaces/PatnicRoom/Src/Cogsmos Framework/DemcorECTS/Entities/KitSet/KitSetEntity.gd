@@ -25,7 +25,11 @@ var cooldownTime        : int		# VAR number of rounds in action untill its reusa
 var currentCooldownTime : int		# VAR dynamic cooldownTime                            
 
 var mType               : String	# VAR ENUM.M_TYPE.X                                   
+<<<<<<< HEAD
 var reach               : int       # VAR number of Tiles it can effect         
+=======
+var reach               : int       # VAR number of Tiles it can effect                   
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 var effect: EffectEntity
 var initialSelect       = []        # VAR Quickreference for the Player-select on Tilemap 

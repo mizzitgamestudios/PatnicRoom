@@ -4,12 +4,16 @@
 		 {"path": "."}
 
 		// vvvv use for GODOT Debugging
+<<<<<<< HEAD
 	//	{"path": "."},
 	//	{"path": "-------------------------------"},
 	//	{"path": "---SINGLE-WORKSPACES---"},
 	//	{"path": "------------------------------- "},
 	//	{"path": "Workspaces/PatnicRoom"}
 	//	,{"path": "Workspaces/GameData"},{"path": "Workspaces/DioJSONes"},{"path": "Workspaces/DevCLI"},{"path": "Workspaces/Webside"},{"path": "docs/docs"},
+=======
+		//{"path": "Workspaces/PatnicRoom"},{"path": "Workspaces/GameData"},{"path": "Workspaces/DioJSONes"},{"path": "Workspaces/DevCLI"},{"path": "Workspaces/Webside"},{"path": "docs/docs"} 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	],
 
 
@@ -55,6 +59,7 @@
 		"editor.tokenColorCustomizations":{"[One Dark Pro]": {"comments": "#fff897"}},    // more visible Comments
 		"window.zoomLevel": 1,
 
+<<<<<<< HEAD
 	
 		"VSCodeCounter.outputDirectory": "Workspaces/DevCLI/Output/Workspace Stats",
 		"VSCodeCounter.useFilesExclude":true,
@@ -75,6 +80,28 @@
 			,"**/*.png"
 			,"**/*.svg"
 			,"**/*.jpg"
+=======
+
+		"VSCodeCounter.outputDirectory": "Workspaces/DevCLI/Output/Workspace Stats",
+		"VSCodeCounter.useFilesExclude":true,
+		"VSCodeCounter.exclude": [
+			"**/vendor/**",
+			"**/mkDocs/**",
+			"**/css/main.css",
+			"**/.gitignore",
+			"**/site/**",
+			"**/.vscode/**",
+			"**/Backups/**",
+			"**/node_modules/**",
+			"**/Installer/**",
+			"**/extensions/**",
+			
+			"**/*.*.import",
+
+			"**/*.png",
+			"**/*.svg", 
+			"**/*.jpg" 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 		],
 
 
@@ -86,7 +113,10 @@
 			//
 			// custome Icons for folders by vscode-icons,improves distinguishing between diffrent types of modules
 			//
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 		"vsicons.associations.folders": [
 			{ "icon": "log", 			"extensions": ["DioJSONes"], 					"format": "FileFormat.svg" },
 			{ "icon": "src", 			"extensions": ["PatnicRoom"], 					"format": "FileFormat.svg" },
@@ -119,6 +149,7 @@
 			//
 			{ "icon": "plugin", "format": "FileFormat.svg",
 				"extensions": [
+<<<<<<< HEAD
 					 "001_Atlas"
 					,"002_Tilemap_Structure"
 					,"003_Entropy"
@@ -136,6 +167,25 @@
 					,"015_Items"
 					,"016_Ruleset_Injector"
 					,"017_CLI"
+=======
+					"001_Atlas",
+					"002_Tilemap_Structure",
+					"003_Entropy",
+					"004_KitSet",
+					"006_Player",
+					"006_Kitparts",
+					"007_Effect_Generator",
+					"008_Conditions",
+					"009_Statmods",
+					"010_Tilemap_Selector",
+					"011_Procgen_Actor",
+					"012_Procgen Chunk",
+					"013_Procgen_Loot",
+					"014_Behavior",
+					"015_Items",
+					"016_Ruleset_Injector",
+					"017_CLI"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 			]}
 			
 		],
@@ -163,6 +213,7 @@
 		//
 		 
 		"commentAnchors.tags.list": [
+<<<<<<< HEAD
 			{"tag": "NOTE"		,	"enabled": false},
 			{"tag": "ANCHOR"	,	"enabled": false},
 			{"tag": "TODO"		,	"enabled": false},
@@ -171,6 +222,16 @@
 			{"tag": "REVIEW"	,	"enabled": false},
 			{"tag": "STUB"		,	"enabled": false},
 			{"tag": "SECTION"	,	"enabled": false},
+=======
+			{"tag": "NOTE","enabled": false},
+			{"tag": "ANCHOR","enabled": false},
+			{"tag": "TODO","enabled": false},
+			{"tag": "FIXME","enabled": false},
+			{"tag": "LINK","enabled": false},
+			{"tag": "REVIEW","enabled": false},
+			{"tag": "STUB","enabled": false},
+			{"tag": "SECTION","enabled": false},
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -178,8 +239,11 @@
 // Separator			
 //
 //			# ----- EXAMPLES --------------------------------------------------------------- ##
+<<<<<<< HEAD
 //
 //			#>>> Example <<<# 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 // Meta Structure
 //
@@ -206,9 +270,12 @@
 // 			# CLASS  Lorem Ipsum Dolor Emit La Vi 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 			//
 			// Meta Structure
 			//
@@ -300,7 +367,11 @@
 			// Highlevel explanation
 			//
 			{   
+<<<<<<< HEAD
 				"tag": "# VAR",// more about parameter if necessary
+=======
+				"tag": "# VAR",// more about parameter if necessary			# VAR    Lorem Ipsum Dolor Emit La Vi 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 				"isItalic": true,
 				"styleComment": true,
 				"isBold": false,
@@ -312,7 +383,11 @@
 				"borderStyle": "2px dotted #336340",
 				"borderRadius": 1
 			},{   
+<<<<<<< HEAD
 				"tag": "# CLASS",// File summary 
+=======
+				"tag": "# CLASS",// more about parameter if necessary 		# CLASS    Lorem Ipsum Dolor Emit La Vi 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 				"isItalic": true,
 				"styleComment": true,
 				"isBold": false,
@@ -324,7 +399,11 @@
 				"borderStyle": "2px dotted #573538",
 				"borderRadius": 1
 			},{   
+<<<<<<< HEAD
 				"tag": "# FUNC",// Function Notes
+=======
+				"tag": "# FUNC",// more about parameter if necessary		# FUNC    Lorem Ipsum Dolor Emit La Vi 
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 				"isItalic": true,
 				"styleComment": true,
 				"isBold": false,
@@ -343,17 +422,27 @@
 			// Separator
 			//
 			{   
+<<<<<<< HEAD
 				"tag": "# -----",// new Thematic area
 				"isItalic": true,
 				"styleComment": true,
 				"isBold": true,
 				"iconColor": "blurple",
 				"highlightColor": "#eeff00",     //2f425c   4EAFBC   445770
+=======
+				"tag": "# -----",// more about parameter if necessary
+				"isItalic": true,
+				"styleComment": true,
+				"isBold": false,
+				"iconColor": "blurple",
+				"highlightColor": "#54ffff",     //2f425c   4EAFBC   445770
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 				"backgroundColor": "#282C34",
 				"scope": "file",
 				"behavior": "anchor",
 				"borderStyle": "3px groove #445770",
 				"borderRadius": 10
+<<<<<<< HEAD
 			},
 			{   
 				"tag": "#>>>",// new subarea
@@ -367,6 +456,8 @@
 				"behavior": "anchor",
 				"borderStyle": "0px groove #445770",
 				"borderRadius": 3
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 			}
 		
 			

@@ -2,11 +2,24 @@ extends Node2D
 
 
 func _ready():
+<<<<<<< HEAD
 	Gameloop.scene = self
 	get_node("background").texture = Util.RNG.getRngBackground()
 
 
 
+=======
+	get_node("background").texture = RestMode.background
+
+
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventMouseButton:
+		if Util.Nodes.isMouseOnNode(get_node("root_Kits/list")):
+			getSpecificCLickedNode()
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 var player = API_006_Player.currentChar
 func getSpecificCLickedNode():
 	for i in 10:
@@ -35,6 +48,7 @@ func setStatsFor(kitPart:KitPartEntity):
 	get_node("root_Kits2/whole Panel/Generall/description value Panel/text").bbcode_text = str(kitPart.decription())
 	get_node("root_Kits2/whole Panel/Meta/Rarity value Panel/text").bbcode_text = "[center]"+str(kitPart.rarity())
 	get_node("root_Kits2/whole Panel/Meta/cooldown value Panel/text").bbcode_text = "[center]"+str(kitPart.cooldownTime())
+<<<<<<< HEAD
 
 
 
@@ -61,3 +75,8 @@ func fillByFlag(kitset,comp,type):
 		"TO_PARSE" : kitset.getCompValue(comp),
 		"TO_SHOW"  : get_node("Kit Info/"+type)
 		}
+=======
+	
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

@@ -1,7 +1,10 @@
 extends Node
 
 
+<<<<<<< HEAD
 var scene
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 func initPanic():
 	API_014_Behavior.loopThroughActor()
 
@@ -10,11 +13,19 @@ func startTitleMode():
 	get_tree().change_scene("res://Src/scenes/Unique/Titlescreen/Title.tscn")
 
 
+<<<<<<< HEAD
 func startRestMode():
 	#ENUM.GET("drones")
 	get_tree().change_scene("res://Src/scenes/Gameloop/RestMode/Progression.tscn")
 func startPanicMode():
 	SokraTiles.parseTilemap("res://Config/Suburban.json")
+=======
+
+func startRestMode():
+	get_tree().change_scene("res://Src/scenes/Gameloop/RestMode/Init.tscn")
+func startPanicMode():
+	SokraTiles.parseTilemap("res://Media/TileMap/custome/Suburban.json")
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	get_tree().change_scene("res://Src/scenes/Gameloop/PanicMode/PanicMode.tscn")
 
 

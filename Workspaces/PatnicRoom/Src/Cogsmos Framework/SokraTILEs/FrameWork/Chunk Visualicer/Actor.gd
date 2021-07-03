@@ -30,8 +30,13 @@ func _addToDirtyTiles(oldPos:Vector2,newPos:Vector2):
 
 
 func moveActor(directionEnum,ent):
+<<<<<<< HEAD
 	var newPos = API_010_TilemapSelector.getMovePos(ent.pos(),directionEnum)
 	var oldPos = ent.pos()
+=======
+	var newPos = API_010_TilemapSelector.getMovePos(ent.position(),directionEnum)
+	var oldPos = ent.position()
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 	if isTileWalkable(newPos):
 

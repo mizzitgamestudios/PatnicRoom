@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Src/scenes/Unique/API_017_CLI/TextInputField.gd" type="Script" id=1]
@@ -10,11 +11,19 @@
 [ext_resource path="res://Src/scenes/Unique/API_017_CLI/kits.gd" type="Script" id=8]
 [ext_resource path="res://Src/scenes/Unique/API_017_CLI/Spawn.gd" type="Script" id=9]
 [ext_resource path="res://Src/scenes/Unique/API_017_CLI/Gear.gd" type="Script" id=10]
+=======
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Src/scenes/Unique/API_017_CLI/TextInputField.gd" type="Script" id=1]
+[ext_resource path="res://Media/FixedDays Font/Text_Default.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Src/scenes/Unique/API_017_CLI/RichTextLabel.gd" type="Script" id=3]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.172549, 0.164706, 0.164706, 0.933333 )
 
 [sub_resource type="StyleBoxFlat" id=2]
+<<<<<<< HEAD
 bg_color = Color( 0.27451, 0.27451, 0.27451, 1 )
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
@@ -2717,10 +2726,21 @@ margin_left = 816.0
 margin_top = 1040.0
 margin_right = 856.0
 margin_bottom = 1080.0
+=======
+bg_color = Color( 0, 0, 0, 0.988235 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="panel" type="Panel" parent="."]
+margin_right = 1936.0
+margin_bottom = 1080.0
+custom_styles/panel = SubResource( 1 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Body" type="Panel" parent="Dummy2"]
 margin_left = 16.0
 margin_top = -173.0
@@ -2755,19 +2775,34 @@ margin_left = 464.0
 margin_top = -173.0
 margin_right = 472.0
 margin_bottom = -8.0
+=======
+[node name="toString" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="YSeparator" type="Panel" parent="Dummy2"]
 margin_left = 16.0
 margin_top = -173.0
 margin_right = 720.0
 margin_bottom = -168.0
+=======
+[node name="Panel" type="Panel" parent="toString"]
+visible = false
+margin_left = 1096.0
+margin_top = 128.0
+margin_right = 1856.0
+margin_bottom = 1064.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Title" type="RichTextLabel" parent="Dummy2"]
 margin_left = 16.0
 margin_top = -208.0
@@ -2779,10 +2814,21 @@ custom_constants/shadow_offset_x = 4
 custom_constants/shadow_offset_y = 2
 bbcode_enabled = true
 bbcode_text = "[center]"
+=======
+[node name="RichTextLabel" type="RichTextLabel" parent="toString"]
+margin_left = 48.0
+margin_top = 272.0
+margin_right = 1840.0
+margin_bottom = 1064.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+script = ExtResource( 3 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="VBoxContainer" type="VBoxContainer" parent="Dummy2"]
 margin_right = 40.0
 margin_bottom = 40.0
@@ -2831,10 +2877,16 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 7 )
 scroll_active = false
 script = ExtResource( 7 )
+=======
+[node name="selection" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="1" type="Control" parent="Dummy2/VBoxContainer"]
 margin_top = 20.0
 margin_right = 40.0
@@ -2852,10 +2904,16 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 5 )
 scroll_active = false
 script = ExtResource( 5 )
+=======
+[node name="cmd" type="Control" parent="selection"]
+margin_right = 40.0
+margin_bottom = 40.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="input" type="RichTextLabel" parent="Dummy2/VBoxContainer/1"]
 margin_left = 344.0
 margin_top = -168.0
@@ -2864,10 +2922,22 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 6 )
 scroll_active = false
 script = ExtResource( 4 )
+=======
+[node name="toString" type="RichTextLabel" parent="selection/cmd"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "cmd:"
+text = "cmd:"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Parameter" type="RichTextLabel" parent="Dummy2/VBoxContainer/1"]
 margin_left = 472.0
 margin_top = -168.0
@@ -2876,10 +2946,20 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 7 )
 scroll_active = false
 script = ExtResource( 7 )
+=======
+[node name="input" type="RichTextLabel" parent="selection/cmd"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="2" type="Control" parent="Dummy2/VBoxContainer"]
 margin_top = 40.0
 margin_right = 40.0
@@ -3089,10 +3169,27 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 6 )
 scroll_active = false
 script = ExtResource( 4 )
+=======
+[node name="parameter1" type="Control" parent="selection"]
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+
+[node name="toString" type="RichTextLabel" parent="selection/parameter1"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Parameter" type="RichTextLabel" parent="Dummy2/VBoxContainer/6"]
 margin_left = 472.0
 margin_top = -168.0
@@ -3101,10 +3198,20 @@ margin_bottom = -152.0
 custom_fonts/normal_font = SubResource( 7 )
 scroll_active = false
 script = ExtResource( 7 )
+=======
+[node name="input" type="RichTextLabel" parent="selection/parameter1"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="7" type="Control" parent="Dummy2/VBoxContainer"]
 margin_top = 140.0
 margin_right = 40.0
@@ -3155,10 +3262,17 @@ margin_left = 1411.0
 margin_top = 27.0
 margin_right = 1451.0
 margin_bottom = 67.0
+=======
+[node name="parameter2" type="Control" parent="selection"]
+margin_top = 71.0
+margin_right = 40.0
+margin_bottom = 111.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="cmd" type="Panel" parent="InputMonitor"]
 margin_left = -464.0
 margin_top = 48.0
@@ -3172,10 +3286,22 @@ margin_right = 159.0
 margin_bottom = 32.0
 custom_fonts/normal_font = SubResource( 11 )
 bbcode_enabled = true
+=======
+[node name="toString" type="RichTextLabel" parent="selection/parameter2"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Control" type="Control" parent="InputMonitor"]
 margin_left = -8.0
 margin_top = 8.0
@@ -3195,11 +3321,20 @@ margin_left = 7.0
 margin_right = 159.0
 margin_bottom = 32.0
 custom_fonts/normal_font = SubResource( 11 )
+=======
+[node name="input" type="RichTextLabel" parent="selection/parameter2"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 bbcode_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="1" type="Panel" parent="InputMonitor/Control"]
 visible = false
 margin_left = -456.0
@@ -3214,10 +3349,17 @@ margin_right = 159.0
 margin_bottom = 32.0
 custom_fonts/normal_font = SubResource( 11 )
 bbcode_enabled = true
+=======
+[node name="parameter3" type="Control" parent="selection"]
+margin_top = 99.0
+margin_right = 40.0
+margin_bottom = 139.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="2" type="Panel" parent="InputMonitor/Control"]
 visible = false
 margin_left = -456.0
@@ -3232,10 +3374,22 @@ margin_right = 159.0
 margin_bottom = 32.0
 custom_fonts/normal_font = SubResource( 11 )
 bbcode_enabled = true
+=======
+[node name="toString" type="RichTextLabel" parent="selection/parameter3"]
+margin_left = 808.0
+margin_top = 88.0
+margin_right = 896.0
+margin_bottom = 120.0
+custom_fonts/normal_font = ExtResource( 2 )
+bbcode_enabled = true
+bbcode_text = "para:"
+text = "para:"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="3" type="Panel" parent="InputMonitor/Control"]
 visible = false
 margin_left = -456.0
@@ -3249,6 +3403,14 @@ margin_left = 7.0
 margin_right = 159.0
 margin_bottom = 32.0
 custom_fonts/normal_font = SubResource( 11 )
+=======
+[node name="input" type="RichTextLabel" parent="selection/parameter3"]
+margin_left = 904.0
+margin_top = 92.0
+margin_right = 1096.0
+margin_bottom = 124.0
+custom_fonts/normal_font = ExtResource( 2 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 bbcode_enabled = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -3264,9 +3426,15 @@ __meta__ = {
 [node name="Textfield" type="Panel" parent="Input"]
 margin_left = 1129.0
 margin_top = 71.0
+<<<<<<< HEAD
 margin_right = 1792.0
 margin_bottom = 111.0
 custom_styles/panel = SubResource( 4 )
+=======
+margin_right = 1608.0
+margin_bottom = 111.0
+custom_styles/panel = SubResource( 2 )
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -3282,8 +3450,14 @@ __meta__ = {
 }
 
 [node name="VScrollBar" type="OptionButton" parent="Input"]
+<<<<<<< HEAD
 margin_left = 1608.0
 margin_top = 71.0
+=======
+visible = false
+margin_left = 1608.0
+margin_top = 72.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 margin_right = 1800.0
 margin_bottom = 111.0
 __meta__ = {

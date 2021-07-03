@@ -198,6 +198,7 @@ fn calc_build_filepaths(atlas_to_sync:Vec<&str>, output:&str){
         fs::write(filepath_to_copy,"");
     }
     let mut filepath_to_copy  = format!("{}\\components.json", output);
+<<<<<<< HEAD
     print_copy_paste("components.json");
     fs::write(filepath_to_copy,"");
 
@@ -207,6 +208,10 @@ fn calc_build_filepaths(atlas_to_sync:Vec<&str>, output:&str){
 
     let mut filepath_to_copy  = format!("{}\\Syntax Components.json", output);
     print_copy_paste("Syntax Components");
+=======
+
+    print_copy_paste("components.json");
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     fs::write(filepath_to_copy,"");
 }
 fn calc_start_patnicroom(root:&str){
@@ -237,6 +242,7 @@ fn calc_distribute_markdown(atlas_to_sync:Vec<&str>, output:&str, root:&str){
         print_copy_paste(current_dir);
         fs::copy(filepath_to_copy,filepath_to_paste);
     }
+<<<<<<< HEAD
 
     let mut filepath_to_copy  = format!("{}\\components.json", output);
     let mut filepath_to_paste = format!("{}docs\\docs\\Atlas\\components.json",root);
@@ -256,6 +262,13 @@ fn calc_distribute_markdown(atlas_to_sync:Vec<&str>, output:&str, root:&str){
     fs::copy(filepath_to_copy,filepath_to_paste);
 
 
+=======
+    let mut filepath_to_copy  = format!("{}\\components.json", output);
+    let mut filepath_to_paste = format!("{}docs\\docs\\Atlas\\components.json",root);
+
+    print_copy_paste("components.json");
+    fs::copy(filepath_to_copy,filepath_to_paste);
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     fs::remove_dir_all(output);
 }
 

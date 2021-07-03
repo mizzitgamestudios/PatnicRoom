@@ -25,8 +25,13 @@ func setSkillblock(dict):
 static func createSkillList():
 	var allSkillsList = {}
 	
+<<<<<<< HEAD
 	for i in ENUM.PLAYER.SKILL.size():
 		allSkillsList[ENUM.PLAYER.SKILL.keys()[i]] = 0
+=======
+	for i in ENUM.SKILL.size():
+		allSkillsList[ENUM.SKILL.keys()[i]] = 0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	return allSkillsList
 

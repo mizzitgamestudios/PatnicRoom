@@ -1,4 +1,12 @@
 { "columns":16,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
  "image":"..\/PNG\/01_General.png",
  "imageheight":256,
  "imagewidth":256,
@@ -6,7 +14,7 @@
  "name":"General",
  "spacing":0,
  "tilecount":256,
- "tiledversion":"1.7.0",
+ "tiledversion":"1.4.2",
  "tileheight":16,
  "tiles":[
         {
@@ -51,11 +59,6 @@
                  "name":"C_7_TILE_STATIC_TILESET_NR",
                  "type":"int",
                  "value":0
-                }, 
-                {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
                 }, 
                 {
                  "name":"F_4_PLAYER_TYPE",
@@ -107,11 +110,6 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
                  "name":"F_4_PLAYER_TYPE",
                  "type":"bool",
                  "value":false
@@ -159,11 +157,6 @@
                  "name":"C_7_TILE_STATIC_TILESET_NR",
                  "type":"int",
                  "value":0
-                }, 
-                {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
                 }, 
                 {
                  "name":"F_4_PLAYER_TYPE",
@@ -215,11 +208,6 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
                  "name":"F_4_PLAYER_TYPE",
                  "type":"bool",
                  "value":false
@@ -267,11 +255,6 @@
                  "name":"C_7_TILE_STATIC_TILESET_NR",
                  "type":"int",
                  "value":0
-                }, 
-                {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
                 }, 
                 {
                  "name":"F_4_PLAYER_TYPE",
@@ -323,11 +306,6 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_2_TILE_TYPE",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
                  "name":"F_4_PLAYER_TYPE",
                  "type":"bool",
                  "value":false
@@ -377,7 +355,7 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }]
@@ -426,7 +404,7 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }]
@@ -475,7 +453,7 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }]
@@ -524,12 +502,12 @@
                  "value":0
                 }, 
                 {
-                 "name":"F_1_INTERACTABLE_TYPE",
+                 "name":"F_1_STATIC_INTERACTABLE_TYPE",
                  "type":"bool",
                  "value":false
                 }]
         }],
  "tilewidth":16,
  "type":"tileset",
- "version":"1.6"
+ "version":1.4
 }

@@ -32,7 +32,11 @@ func cooldownTime()     	-> bool: 			return getCompValue(C_33_KIT_COOLDOWN_TIMER
 
 # VAR USAGE        
 func rarity()    			-> String:			return getCompValue(C_48_ANY_RARITY.name_quack())
+<<<<<<< HEAD
 func effectReference()      -> EffectEntity:			return getCompValue(C_49_EFFECT_REFERENCE.name_quack())
+=======
+func effectReference()      -> String:			return getCompValue(C_49_EFFECT_REFERENCE.name_quack())
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

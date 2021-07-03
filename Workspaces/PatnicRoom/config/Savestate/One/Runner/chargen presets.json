@@ -35,12 +35,15 @@
   "kits":[
     { "name":"Cyberware",  "toString":"extends your Body with unnatural powers",     "image":"res://Media/GUI/KitSymbols/Cyberware.png" },
     { "name":"Hack",      "toString":"manipulates surrounding electronics",         "image":"res://Media/GUI/KitSymbols/Hacks.png"     },
+    { "name":"Drone",     "toString":"WORK IN PROGRESSS",                           "image":"res://Media/GUI/KitSymbols/Drones.png"    },
 
     { "name":"Infusion",  "toString":"extends your Body with supernatural powers",  "image":"res://Media/GUI/KitSymbols/Infusion.png"  },
     { "name":"Spell",     "toString":"manipulates surrounding nature",              "image":"res://Media/GUI/KitSymbols/Spell.png"     },
+    { "name":"Rite",      "toString":"WORK IN PROGRESSS",                           "image":"res://Media/GUI/KitSymbols/Rite.png"      },
 
     { "name":"Gun",       "toString":"special ranged weapons",                      "image":"res://Media/GUI/KitSymbols/Gun.png"       },
-    { "name":"Meele",     "toString":"special close combat weapons",                "image":"res://Media/GUI/KitSymbols/Meele.png"     }
+    { "name":"Meele",     "toString":"special close combat weapons",                "image":"res://Media/GUI/KitSymbols/Meele.png"     },
+    { "name":"Armor",     "toString":"WORK IN PROGESS",                             "image":"res://Media/GUI/KitSymbols/Armor.png"     }
   ]
 
 

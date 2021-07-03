@@ -16,6 +16,10 @@
        "HAS_CONDITION"
       ,"HAS_TEXTURE"
       ,"HAS_STAT"
+<<<<<<< HEAD
+=======
+      ,"CHANCE"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
       ,"BASE"
       ,"IS_DOOR"
     ]
@@ -27,8 +31,24 @@
 
   "SPACE":{
 
+<<<<<<< HEAD
     "SOURCE":[ "SELF" ],
     "MEDIUM":[ "AREA" , "LINEA" , "SELECT" , "SELF" ]
+=======
+    "SOURCE":[
+       "LAST_TARGET"
+      ,"LAST_HIT"
+      ,"TEXTURE"
+      ,"SELF"
+    ],
+
+    "MEDIUM":[
+       "AREA"
+      ,"LINEA"
+      ,"LINEA_AREA"
+      ,"SELF"
+    ]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
   },
 
@@ -37,6 +57,7 @@
   "EFFECT":{
 
     "STAT_MOD":[
+<<<<<<< HEAD
        "U_CHANGE_RAW_VALUE"
       ,"U_MOVE_USER"
       
@@ -47,6 +68,17 @@
       
       ,"U_SPAWN_TILE"
       ,"U_SPAWN_TILE_AROUND"
+=======
+       "U_CHANGE_TEXTURE"
+      ,"U_SPAWN_TILE"
+      ,"U_MOVE_TILE"
+
+      ,"U_DEAL_PLAIN_DAMAGE"
+      ,"U_DEAL_STRUCTURAL_DAMAGE"
+
+      ,"U_OPEN_DOOR"
+      ,"U_CLOSE_DOOR"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
     ],
 
     "CONDITION":[

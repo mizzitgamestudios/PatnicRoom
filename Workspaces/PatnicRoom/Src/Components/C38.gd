@@ -5,8 +5,12 @@ var value
 
 func _init(valuePara):
 	name = "C_38_KIT_PART_TYPE"
+<<<<<<< HEAD
 	if valuePara is String: value = ENUM.KITS.PARTS.keys().find(valuePara)
 	if valuePara is int: value = valuePara
+=======
+	value = valuePara
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -21,4 +25,8 @@ static func getAutoDoc(): return{
 	"nameToShow"  : "kit Part",
 }
 static func name_quack():      return "C_38_KIT_PART_TYPE"
+<<<<<<< HEAD
 static func dioJSONType_quack(): return "STRING"
+=======
+static func dioJSONType_quack(): return "INTEGER"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

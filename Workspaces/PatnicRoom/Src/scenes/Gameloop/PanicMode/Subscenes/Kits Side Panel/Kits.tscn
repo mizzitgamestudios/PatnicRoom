@@ -2,7 +2,11 @@
 
 [ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=2]
+<<<<<<< HEAD
 [ext_resource path="res://Src/Util/SubUtils/KitsUILoader.gd" type="Script" id=3]
+=======
+[ext_resource path="res://Src/Logic/single scripts/Util/SubUtils/KitsUILoader.gd" type="Script" id=3]
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 [ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/Kits Side Panel/Kits.gd" type="Script" id=4]
 [ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/Kits Side Panel/AnimationPlayer.gd" type="Script" id=5]
 
@@ -243,6 +247,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="Button" type="Button" parent="."]
 margin_left = 1216.0
 margin_top = 128.0
@@ -268,6 +273,13 @@ margin_left = 1124.0
 margin_top = 168.0
 margin_right = 1924.0
 margin_bottom = 783.0
+=======
+[node name="container for kits seen" type="VBoxContainer" parent="."]
+margin_left = 1124.0
+margin_top = 176.0
+margin_right = 1924.0
+margin_bottom = 791.0
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 rect_min_size = Vector2( 800, 0 )
 custom_constants/separation = 35
 script = ExtResource( 3 )
@@ -1032,6 +1044,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+<<<<<<< HEAD
 [node name="container for kits seen2" type="VBoxContainer" parent="."]
 visible = false
 margin_left = 1124.0
@@ -1802,6 +1815,8 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/LeftToRight = SubResource( 15 )
 anims/RightToLeft = SubResource( 16 )

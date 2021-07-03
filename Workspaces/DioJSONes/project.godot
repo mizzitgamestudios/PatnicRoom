@@ -9,11 +9,14 @@
 config_version=4
 
 _global_script_classes=[ {
+<<<<<<< HEAD
 "base": "Node2D",
 "class": "Condition_Effect",
 "language": "GDScript",
 "path": "res://Src/Frontend/content creation/Input/InputModules universal/Condition/ConditionScene.gd"
 }, {
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "base": "Node",
 "class": "DataTypeHandler",
 "language": "GDScript",
@@ -125,7 +128,10 @@ _global_script_classes=[ {
 "path": "res://Src/Backend/Validator/ErrorMarker.gd"
 } ]
 _global_script_class_icons={
+<<<<<<< HEAD
 "Condition_Effect": "",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 "DataTypeHandler": "",
 "EffectCache": "",
 "EffectMorphBox": "",
@@ -171,6 +177,10 @@ Validator="*res://Src/Backend/Validator/Validator.gd"
 
 window/size/width=1980
 window/size/height=1020
+<<<<<<< HEAD
+=======
+window/size/borderless=true
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 [input]
 

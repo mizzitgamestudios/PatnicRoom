@@ -52,12 +52,20 @@ func addToShow():
 
 
 func getUnits(effectCache:EffectCache):
+<<<<<<< HEAD
 	effectCache.triggerBase = Utils.foobar(basicTrigger.getInputToString())
+=======
+	effectCache.triggerBase = basicTrigger.getInputToString()
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	var cache = []
 	for currentTrigger in listOfSpecificTrigger:
 		var toString = currentTrigger.getInputToString()
+<<<<<<< HEAD
 		if toString != "": cache.append(Utils.foobar(toString))
+=======
+		if toString != "": cache.append(toString)
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 		
 	effectCache.triggerSpecific = cache
 	return effectCache

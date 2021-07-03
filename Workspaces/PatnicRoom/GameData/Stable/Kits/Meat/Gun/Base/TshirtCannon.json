@@ -2,8 +2,11 @@
 
    "C_6_TILE_NAME"               : "T-Shirt Cannon",
    "F_5_KITPART_TYPE"            : "N/A",
+<<<<<<< HEAD
    "F_15_KITPART_TYPE_BASE"      : "N/A",
    "C_12_KITSET_INDEX"           : "T_G_1",
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
    "C_0_ANY_DESCRIPTION"         : "TOTAL RECALL: MAY SHOOT CAUSE OF FIRMWARE-BUG STRRAIGHTJACKETS",
    "C_40_ANY_TO_STRING"          : "T-Shirt Cannon",
    "C_35_KIT_MECHANICAL_SUMMARY" : "deals 3 damage, takes abillity to move for 3 actions",

@@ -1,5 +1,6 @@
 {
 
+<<<<<<< HEAD
 
     "SELF": {
       "keyword": "SELF",
@@ -198,10 +199,82 @@
       "moduleName": "VOID"
     }
 
+=======
+   "//--------------":"-------------------\\"
+  ,"//--------------":"SPACE--------------\\"
+  ,"//--------------":"-------------------\\"
+
+    ,"//--------------":"MEDIUM--------------\\"
+
+      ,"LINEA"      : { "toString":"Linea"                 }
+      ,"SELECT"     : { "toString":"Select"                }
+      ,"AREA"       : { "toString":"Circle"                }
+      ,"LINEA_AREA" : { "toString":"Linea and than Circle" }
+      ,"SELF"       : { "toString":"self"                  }
+
+
+    ,"//--------------":"M_TYPE--------------\\"
+
+      ,"MEAT"   : { "toString":"Meat"   }
+      ,"MAGIC"  : { "toString":"Magic"  }
+      ,"MATRIX" : { "toString":"Matrix" }
+
+
+
+
+  ,"//--------------":"---------------------\\"
+  ,"//--------------":"TRIGGER--------------\\"
+  ,"//--------------":"---------------------\\"
+
+    ,"//--------------":"BASIC--------------\\"
+
+      ,"BASE"           : { "toString":"just plain selected from above"      }
+
+      ,"INTERACT"       : { "toString":"Interactables"                       }
+      ,"ACTOR"          : { "toString":"Actors"                              }
+      ,"TILE"           : { "toString":"Ground"                              }
+
+      ,"INTERACT_ACTOR" : { "toString":"Interactables and Actors"            }
+      ,"INTERACT_TILE"  : { "toString":"Interactables and Ground"            }
+      ,"TILE_ACTOR"     : { "toString":"Actors and Ground"                   }
+
+      ,"ALL"            : { "toString":"Interactables and Ground and Actors" }
+
+
+    ,"//--------------":"SPECIFIC--------------\\"
+
+      ,"HAS_CONDITION" : { "toString":"Has Condition"                , "requirement":[]                              , "moduleName":"CONDITION"  , "list":"TILE_SET"
+      }
+      ,"HAS_TEXTURE"   : { "toString":"Has Texture"                  , "requirement":[]                              , "moduleName":"TEXTURE"                          }
+      ,"CHANCE"        : { "toString":"Chance by 100"                , "requirement":[]                              , "moduleName":"SLIDER"                           }
+      ,"IS_DOOR"       : { "toString":"is Door"                      , "requirement":["TRIGGER","BASIC","INTERACT"]                                                    }
+      ,"HAS_STAT"      : { "toString":"compares value Z of X with Y" , "requirement":[]                              , "moduleName":"COMPARATOR"                       }
+
+
+
+
+  ,"//--------------":"--------------------\\"
+  ,"//--------------":"EFFECT--------------\\"
+  ,"//--------------":"--------------------\\"
+
+    ,"//--------------":"STAT_MOD--------------\\"
+
+      ,"U_CHANGE_TEXTURE"         : { "toString":"Spawn Tile"                   , "requirement":[]   , "moduleName":"TEXTURE" }
+      ,"U_MOVE_TILE"              : { "toString":"moves selected target"        , "requirement":[]   , "moduleName":"" }
+      ,"U_SPAWN_TILE"             : { "toString":"changes target by TextureID"  , "requirement":[]   , "moduleName":"TEXTURE" }
+      ,"U_OPEN_DOOR"              : { "toString":"opens door"                   , "requirement":[]   , "moduleName":"" }
+      ,"U_CLOSE_DOOR"             : { "toString":"closes door"                  , "requirement":[]   , "moduleName":"" }
+      ,"U_DEAL_PLAIN_DAMAGE"      : { "toString":"Deal Damage"                  , "requirement":[]   , "moduleName":"SLIDER" }
+      ,"U_DEAL_STRUCTURAL_DAMAGE" : { "toString":"Deal structural Damage"       , "requirement":[]   , "moduleName":"SLIDER" }
+
+
+    ,"//--------------":"CONDITION--------------\\"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
       ,"Elemental_Fire_Burning"               : { "toString":"Burning"        , "requirement":[]   , "moduleName":"CONDITION" }
       ,"Elemental_Water_Wet"                  : { "toString":"Wet"            , "requirement":[]   , "moduleName":"CONDITION" }
       ,"Physiological_Movement_Incapacitated" : { "toString":"Incapacitated"  , "requirement":[]   , "moduleName":"CONDITION" }
+<<<<<<< HEAD
       ,"Cond_BAN_Electrifying"                : { "toString":"Electrifying"   , "requirement":[]   , "moduleName":"CONDITION" },
 
 
@@ -230,6 +303,13 @@
         "explanation": "Matrix",
         "moduleName": "VOID"
       }
+=======
+      ,"Cond_BAN_Electrifying"                : { "toString":"Electrifying"   , "requirement":[]   , "moduleName":"CONDITION" }
+
+
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 

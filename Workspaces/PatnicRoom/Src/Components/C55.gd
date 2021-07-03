@@ -27,4 +27,8 @@ static func getAutoDoc(): return{
 	"nameToShow"  : "role description",
 }
 static func name_quack():      return "C_55_Gear"
+<<<<<<< HEAD
 static func dioJSONType_quack(): return "NULL"
+=======
+static func dioJSONType_quack(): return "NULL"
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

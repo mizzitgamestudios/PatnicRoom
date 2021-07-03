@@ -39,7 +39,10 @@ func _ready() -> void:
 
 
 func runDefault() -> void:
+<<<<<<< HEAD
 	OS.window_fullscreen = true
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	Gameloop.startTitleMode()
 
 
@@ -49,8 +52,16 @@ func runDefault() -> void:
 
 func runTilemapTest() -> void:
 	OS.window_fullscreen = true
+<<<<<<< HEAD
 	generateQUickStartChar()
 	SokraTiles.parseTilemap("res://config/experimental_tilemap.json")
+=======
+	var jsonParse = Util.JSONParser.fileToDictionary("res://tools/RuntimeConfigs/tilemapTest.json")
+	var filepath = jsonParse["filepathToTilemap"]
+	
+	SokraTiles.parseTilemap(filepath)
+	
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	get_tree().change_scene("res://Src/scenes/Gameloop/PanicMode/PanicMode.tscn")
 
 
@@ -60,8 +71,12 @@ func runTilemapTest() -> void:
 
 func runRestmode() -> void:
 	OS.window_fullscreen = true
+<<<<<<< HEAD
 	generateQUickStartChar()
 	Gameloop.startRestMode()
+=======
+	get_tree().change_scene("res://Src/Gameloop_Scenes/RestMode/Init.tscn")
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 
@@ -80,6 +95,7 @@ func runStatistics():
 
 func runQuickStart():
 	OS.window_fullscreen = true
+<<<<<<< HEAD
 	generateQUickStartChar()
 	Gameloop.startPanicMode()
 
@@ -98,6 +114,8 @@ func runBootMenue():
 
 
 func generateQUickStartChar():
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	var dict           = Util.JSONParser.fileToDictionary("res://config/Savestate/One/Runner/generated/generall and stats.json")
 	var quickStartDict = Util.JSONParser.fileToDictionary("res://tools/RuntimeConfigs/quickStart.json")
 	
@@ -106,8 +124,24 @@ func generateQUickStartChar():
 	dict["name"]       = quickStartDict["name"]
 	
 	API_006_Player.chargenSelecttion = dict
+<<<<<<< HEAD
 	API_001_Atlas.getKitGroup("hack")
 	API_006_Player.generateNewChar()
 
 
 
+=======
+	
+	
+	API_006_Player.generateNewChar()
+	Gameloop.startPanicMode()
+
+
+
+# ----- BOOT MENUE --------------------------------------------------------------- ##
+
+
+func runBootMenue():
+	pass
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

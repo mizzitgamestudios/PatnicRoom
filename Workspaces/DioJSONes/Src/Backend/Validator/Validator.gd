@@ -44,8 +44,13 @@ func checkEffect():
 	
 	if isTimeSlotSet:
 		for i in effect.size():
+<<<<<<< HEAD
 			if timeSlotHasDuration(effect,i): 
 				checkSlot(effect,str(i))
+=======
+			if timeSlotHasDuration(effect,i+1): 
+				checkSlot(effect,str(i+1))
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 	
 	
 	else: effectErrors.append("NO_TIME_SLOT")

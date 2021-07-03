@@ -54,15 +54,20 @@ func getAttributesClassByComp(comp): 		return rowTypeHandler.getAttributesClassB
 
 
 
+<<<<<<< HEAD
 func getLoadedModule(moduleToString): 
 	if moduleToString != "VOID":
 		return load(filehandler.getModule(moduleToString))
+=======
+func getLoadedModule(moduleToString): return load(filehandler.getModule(moduleToString))
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 
 
 func getLoadedModuleByToString(selectedItem):
 	var key = SYNTAX.INPUT_TO_KEYWORD(selectedItem)
 	var syntax = SYNTAX.masterAtlas
 	syntax = SYNTAX.masterAtlas[key]["moduleName"]
+<<<<<<< HEAD
 	
 	if syntax != "VOID": return getLoadedModule(syntax)
 	else: return "VOID"
@@ -76,3 +81,11 @@ func foobar(string):
 			if entry==string:
 					return SYNTAX.crossReferenceInputKeyword.values()[i]
 	else: return "N/A"
+=======
+	return getLoadedModule(syntax)
+
+
+
+
+
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684

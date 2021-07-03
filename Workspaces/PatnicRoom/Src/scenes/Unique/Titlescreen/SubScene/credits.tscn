@@ -19,7 +19,10 @@ outline_color = Color( 0.196078, 0.196078, 0.196078, 1 )
 font_data = ExtResource( 3 )
 
 [node name="root_Credits" type="Node2D"]
+<<<<<<< HEAD
 position = Vector2( -504, -96 )
+=======
+>>>>>>> 14ed4bc523602584d0fecdfce3fc61f9ee8a2684
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_horizontal_guides_": [  ]

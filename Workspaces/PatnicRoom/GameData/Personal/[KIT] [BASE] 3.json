@@ -1,0 +1,49 @@
+{
+	"C_6_TILE_NAME": "3",
+	"C_0_ANY_DESCRIPTION": "3",
+	"C_35_KIT_MECHANICAL_SUMMARY": "33",
+	"C_48_ANY_RARITY": "3",
+	"C_31_KIT_CAT_TYPE": "CYBERWARE",
+	"C_36_KIT_MOD_TIME": "3",
+	"C_33_KIT_COOLDOWN_TIMER": "3",
+	"C_60_BASE_KIT_REFERENCE": "3",
+	"F_5_KITPART_TYPE": "N/A",
+	"C_40_ANY_TO_STRING": "3",
+	"C_38_KIT_PART_TYPE": "BASE",
+	"C_49_EFFECT_REFERENCE": {
+		"TRIGGER": {
+			"TRIGGER-1": {
+				"BASE": "Actors and Ground",
+				"SPECIFIC": [
+					"compares value Z of X with Y"
+				]
+			}
+		},
+		"SPACE": {
+			"SPACE-1": {
+				"REACH": "3",
+				"MEDIUM": "Linea",
+				"SOURCE": "LAST_TARGET",
+				"M_TYPE": "Magic"
+			}
+		},
+		"EFFECT": {
+			"EFFECT-1": {
+				"CONDITION": [
+
+				],
+				"STAT_MOD": [
+					"moves selected target",
+					"moves selected target"
+				]
+			}
+		},
+		"TIME": {
+			"TIME-1": 3,
+			"TIME-2": "N/A",
+			"TIME-3": "N/A",
+			"TIME-4": "N/A"
+		}
+	},
+	"C_37_M_TYPE": "MATRIX"
+}
