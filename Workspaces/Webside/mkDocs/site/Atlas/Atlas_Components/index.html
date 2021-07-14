@@ -1,0 +1,856 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://mizzitgamestudios.github.io/Atlas/Atlas_Components/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
+    
+    
+      
+        <title>Components - P@tnicRoom Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Noto Sans";--md-code-font-family:""}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="lime">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#components" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="P@tnicRoom Documentation" class="md-header__button md-logo" aria-label="P@tnicRoom Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            P@tnicRoom Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Components
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/mizzitgamestudios/PatnicRoom/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="P@tnicRoom Documentation" class="md-nav__button md-logo" aria-label="P@tnicRoom Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    P@tnicRoom Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/mizzitgamestudios/PatnicRoom/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gettingStartedOverview/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atlasOverview/" class="md-nav__link">
+        Atlas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entitiesOverview/" class="md-nav__link">
+        Game-elements
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cogsmosOverview/" class="md-nav__link">
+        Framework
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modulesOverview/" class="md-nav__link">
+        Modules
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syntaxOverview/" class="md-nav__link">
+        Syntax
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conventionsOverview/" class="md-nav__link">
+        Conventions
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/mizzitgamestudios/PatnicRoom/edit/master/docs/Atlas/Atlas_Components.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="components">Components</h1>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>suggestion</th>
+<th>description</th>
+<th>validInputs</th>
+<th>validType</th>
+<th>nameToShow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C_0_ANY_DESCRIPTION</td>
+<td>something offensive or hyperbolic,best case both</td>
+<td>is shown to the player in things like mousehover or onlook-action</td>
+<td>[]</td>
+<td>STRING</td>
+<td>lore-description</td>
+</tr>
+<tr>
+<td>C_1_ANY_IS_WALKABLE</td>
+<td></td>
+<td>determinds if an Actor can walk on this tile</td>
+<td>[true, false]</td>
+<td>validInputs</td>
+<td>Walkable</td>
+</tr>
+<tr>
+<td>C_2_ANY_TEXTURE_ID</td>
+<td><em>tilesetname</em><em><em>rownumber</em></em><em>collumnumber</em></td>
+<td>Name of the Texture to be shown</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Texture-ID</td>
+</tr>
+<tr>
+<td>C_3_ANY_LAYER</td>
+<td></td>
+<td>determinds on which layer the entity is indexed on Map</td>
+<td>[actors, pc, Meat ground, Meat interactables, Matrix ground, Matrix interactables, Magic ground, Magic interactables, selection, condition]</td>
+<td>validInputs</td>
+<td>Layer</td>
+</tr>
+<tr>
+<td>C_4_ANY_MAGIC_NOISE</td>
+<td></td>
+<td>determinds the handicap for sourronding dice tosses</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Magic Noise</td>
+</tr>
+<tr>
+<td>C_5_ANY_MATRIX_NOISE</td>
+<td></td>
+<td>determinds the handicap for sourronding dice tosses</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Matrix Noise</td>
+</tr>
+<tr>
+<td>C_6_TILE_NAME</td>
+<td></td>
+<td>short reference name shown in the most cases</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Name</td>
+</tr>
+<tr>
+<td>C_7_TILE_STATIC_TILESET_NR</td>
+<td></td>
+<td>Number of tile in Master-atlas</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>static Tileset Number (do not fill)</td>
+</tr>
+<tr>
+<td>C_8_STRUCTURE_HP</td>
+<td></td>
+<td>Health for inanimated Objects</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Structural Healthpoint</td>
+</tr>
+<tr>
+<td>C_9_CREDITS_ACCOUNT</td>
+<td></td>
+<td>amount of money</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>credits</td>
+</tr>
+<tr>
+<td>C_10_ACTOR_PERKS</td>
+<td></td>
+<td>determinds the handicap for sourronding dice tosses</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>perks</td>
+</tr>
+<tr>
+<td>C_11_ACTOR_RACE_NAME</td>
+<td></td>
+<td>determinds basic attributes and relations</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Race</td>
+</tr>
+<tr>
+<td>C_12_KITSET_INDEX</td>
+<td></td>
+<td>determinds the mousehover text</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_13_ACTOR_ROLE_NAME</td>
+<td></td>
+<td>Groupname of Role</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Role category</td>
+</tr>
+<tr>
+<td>C_14_ACTOR_SPECIALTY_NAME</td>
+<td>recommended length 2-3 words</td>
+<td>short name reference</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Specialty name</td>
+</tr>
+<tr>
+<td>C_15_ACTOR_ARRAY_BODYPARTS</td>
+<td></td>
+<td>All Bodypart-template of Race</td>
+<td>[]</td>
+<td>CONTAINER</td>
+<td>List of All BOdyparts</td>
+</tr>
+<tr>
+<td>C_16_ACTOR_BODYPARTS_CONNECTS</td>
+<td></td>
+<td>connected Bodyparts</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>list of linked bodyparts</td>
+</tr>
+<tr>
+<td>C_17_ACTOR_BODYPARTS_HITPROBABILLITY</td>
+<td></td>
+<td>Bodypart hit %</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>propabillity to get random hit in percent</td>
+</tr>
+<tr>
+<td>C_18_ACTOR_ATTRIBUTEMOD</td>
+<td></td>
+<td>Attribute mod</td>
+<td>[]</td>
+<td>NULL</td>
+<td>modulacation of C_19, we recommend C_19 for usage</td>
+</tr>
+<tr>
+<td>C_19_ACTOR_ATTRIBUTES</td>
+<td></td>
+<td>add modifiers to the biological potential of an Actors</td>
+<td>[Strength:int, Agillity:int, Reaction:int, Constitution:int, Logic:int, Intuition:int, Charisma:int, Willpower:int]</td>
+<td>DICTIONARY</td>
+<td>Attributes</td>
+</tr>
+<tr>
+<td>C_20_ACTOR_SKILLBLOCK</td>
+<td></td>
+<td>List of all skills and their values</td>
+<td>[]</td>
+<td>DICTIONARY</td>
+<td>Skillblock</td>
+</tr>
+<tr>
+<td>C_21_TILE_TILENAME</td>
+<td>often the same as C_6, maybe shorter</td>
+<td>often used Reference name</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Name</td>
+</tr>
+<tr>
+<td>C_22_ACTOR_LIMITS</td>
+<td></td>
+<td>max. succeses per dice-role</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Limits</td>
+</tr>
+<tr>
+<td>C_23_ACTOR_CARRIAGE</td>
+<td></td>
+<td>max units actor can carry</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Carriage capacity</td>
+</tr>
+<tr>
+<td>C_24_ANY_REQUIRED_RACE</td>
+<td></td>
+<td>Template reference to an required race</td>
+<td>[]</td>
+<td>TEMPLATE</td>
+<td>required race</td>
+</tr>
+<tr>
+<td>C_26_ACTOR_INDIRECT_STATS</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>DICTIONARY</td>
+<td>Indirect Stats</td>
+</tr>
+<tr>
+<td>C_27_ACTOR_RACIAL_ENEMIES</td>
+<td></td>
+<td>choose races for prejudices</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>racial enemies</td>
+</tr>
+<tr>
+<td>C_28_ACTOR_RACIAL_FRIENDS</td>
+<td>yes this is reference</td>
+<td>choose    races for pride</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>racial friends</td>
+</tr>
+<tr>
+<td>C_29_ANY_LISTING_PRICE</td>
+<td></td>
+<td>the usual price when its bought</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>listing price</td>
+</tr>
+<tr>
+<td>C_30_ANY_NEEDED_BACKPACK_SLOTS</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_31_KIT_CAT_TYPE</td>
+<td></td>
+<td>type of kit of the Surv9</td>
+<td>[CYBERWARE, HACK, DRONE, INFUSION, SPELL, RITE, MEELE, GUN, ARMOR]</td>
+<td>STRING</td>
+<td>kit Category</td>
+</tr>
+<tr>
+<td>C_32_ANY_LIST_OF_CONDITIONS</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_33_KIT_COOLDOWN_TIMER</td>
+<td>guide value: Rarity*1</td>
+<td>by actions of player</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>cooldown</td>
+</tr>
+<tr>
+<td>C_34_ANY_LOG_TO_STRING</td>
+<td></td>
+<td>is shown to the player in logs</td>
+<td>[]</td>
+<td>STRING</td>
+<td>log entry</td>
+</tr>
+<tr>
+<td>C_35_KIT_MECHANICAL_SUMMARY</td>
+<td>about 80 characters at max</td>
+<td>shown as short explaination of usage</td>
+<td>[]</td>
+<td>STRING</td>
+<td>summary</td>
+</tr>
+<tr>
+<td>C_36_KIT_MOD_TIME</td>
+<td>guide value: Rarity*1,5</td>
+<td>number of Panicrooms before its usable</td>
+<td>[]</td>
+<td>STRING</td>
+<td>setup time</td>
+</tr>
+<tr>
+<td>C_37_ANY_M_TYPE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[MEAT, MAGIC, MATRIX]</td>
+<td>STRING</td>
+<td>layer of perception</td>
+</tr>
+<tr>
+<td>C_38_KIT_PART_TYPE</td>
+<td>Base: Main definition, Mod: Specialication, Appendix: Side-effect</td>
+<td>place in Kitset</td>
+<td>[BASE, MOD, APPENDIX]</td>
+<td>STRING</td>
+<td>kit Part</td>
+</tr>
+<tr>
+<td>C_40_ANY_TO_STRING</td>
+<td></td>
+<td>often as same as C_6</td>
+<td>[]</td>
+<td>STRING</td>
+<td>toString</td>
+</tr>
+<tr>
+<td>C_42_ROLE_VARIETY</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_43_PLAYER_DESCRIPTION</td>
+<td></td>
+<td>Playername</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Playername</td>
+</tr>
+<tr>
+<td>C_44_PLAYER_STREETNAME</td>
+<td></td>
+<td>unique Title</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Streetname</td>
+</tr>
+<tr>
+<td>C_45_PLAYER_NAME</td>
+<td></td>
+<td>Playername</td>
+<td>[]</td>
+<td>STRING</td>
+<td>Playername</td>
+</tr>
+<tr>
+<td>C_47_ANY_SYNONYM</td>
+<td></td>
+<td>list of differnt names for this spcialication</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>synonyms</td>
+</tr>
+<tr>
+<td>C_48_ANY_RARITY</td>
+<td>1: Drek, 5: Fixer, 10: R&amp;D-Prototype</td>
+<td>chance to loot on a scale of 1 to 10</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>Rarity</td>
+</tr>
+<tr>
+<td>C_49_EFFECT_REFERENCE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>EFFECT</td>
+<td>Is used to build EffectEntity</td>
+</tr>
+<tr>
+<td>C_50_ACTOR_ROLE_DESCRIPTION</td>
+<td></td>
+<td>like description a flavor-text</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_51_PLAYER_KITSETS</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_54_ANY_ENTITY_TYPE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_56_BASE_CONNECTOR</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_58_ALTERNATIVE_TEXTURES</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_59_KIT_MOD_CHANGE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>ARRAY</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_60_BASE_KIT_REFERENCE</td>
+<td></td>
+<td>choose the kit to specialice</td>
+<td>[]</td>
+<td>STRING</td>
+<td>base-kit reference</td>
+</tr>
+<tr>
+<td>C_61_LOOT_TABLE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>DICTIONARY</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_62_LOOT_STATE</td>
+<td></td>
+<td>name of its fightingstyle</td>
+<td>[]</td>
+<td>STRING</td>
+<td>role description</td>
+</tr>
+<tr>
+<td>C_63_APPLY_CONDITION_SPREADING</td>
+<td></td>
+<td>makes it able to spread fire</td>
+<td>[]</td>
+<td>STRING</td>
+<td>burnable</td>
+</tr>
+<tr>
+<td>C_64_APPLY_CONDITION_WALKING</td>
+<td></td>
+<td>applies condition when walking on tile</td>
+<td>[]</td>
+<td>STRING</td>
+<td>condition by walking</td>
+</tr>
+<tr>
+<td>C_65_TIER</td>
+<td>on a scale of 1 to 10</td>
+<td>quality of Item</td>
+<td>[]</td>
+<td>INTEGER</td>
+<td>tier</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1d3bfcf1.min.js"></script>
+      
+    
+  </body>
+</html>

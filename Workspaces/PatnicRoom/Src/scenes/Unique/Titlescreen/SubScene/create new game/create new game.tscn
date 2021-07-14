@@ -1,0 +1,1051 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Text_Header.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Src/scenes/Unique/Titlescreen/SubScene/create new game/initForm.gd" type="Script" id=2]
+[ext_resource path="res://Src/scenes/Unique/Titlescreen/SubScene/create new game/Form Inputlistener.gd" type="Script" id=3]
+[ext_resource path="res://Media/GUI/Titlescreen/create new game formpng.png" type="Texture" id=4]
+[ext_resource path="res://Media/FixedDays Font/FixedSysTemplate.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=6]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.12549, 0.14902, 0.211765, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+outline_size = 2
+outline_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.2, 0.262745, 0.411765, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends Panel
+
+
+var inputField
+var textInput=\"\"
+var writeable=false
+func _ready():
+	inputField=get_node(\"nameInput\")
+	setRectPosOfPanel()
+
+
+func _input(event):
+####################################
+## -- when cursor on Textfield -- ##
+####################################
+	if event.is_pressed() and isMouseOnNode(minVec,maxVec):
+		if event.is_action(\"leftClickMouse\"):
+			writeable=true
+		if writeable:
+
+
+#delete last
+			if event.is_action(\"delete\"):
+				textInput.erase(textInput.length()-1,1)
+
+#writes out normal chars
+			elif event is  InputEventKey and !event.is_action(\"enter\"):
+				textInput += event.as_text()
+
+#shows new char in Panel
+			inputField.bbcode_text=textInput
+
+
+
+#enter commits and formats it
+			if event.is_action(\"enter\"):
+				inputField.bbcode_text=\"[color=yellow]\"+textInput
+
+########################################
+## -- when cursor out of Textfield -- ##
+########################################
+	if !isMouseOnNode(minVec,maxVec):
+		writeable=false
+		inputField.bbcode_text=\"[color=yellow]\"+textInput
+
+
+
+
+var minVec
+var maxVec
+func isMouseOnNode(minVec,maxVec):
+	var mouse = get_global_mouse_position()
+	return mouse.x > minVec.x and mouse.y > minVec.y and mouse.x < maxVec.x and mouse.y < maxVec.y
+
+func setRectPosOfPanel():
+	minVec = rect_global_position
+	var cacheSizeOfRect = Vector2(get_end().x-get_begin().x,get_end().y-get_begin().y)
+	maxVec = Vector2(minVec.x+cacheSizeOfRect.x,minVec.y+cacheSizeOfRect.y)
+
+
+"
+
+[sub_resource type="DynamicFont" id=5]
+size = 18
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0, 0.223529, 0.756863, 1 )
+
+[sub_resource type="GDScript" id=8]
+script/source = "extends Control
+
+
+
+var minVec
+var maxVec
+func _ready():
+	minVec = rect_global_position
+	var cacheSizeOfRect = Vector2(get_end().x-get_begin().x,get_end().y-get_begin().y)
+	maxVec = Vector2(minVec.x+cacheSizeOfRect.x,minVec.y+cacheSizeOfRect.y)
+
+
+
+func _process(delta):
+	var kit = API_011_Player.chargenSelecttion[\"Kits\"]
+	var perk = API_011_Player.chargenSelecttion[\"perks\"]
+	var race = API_011_Player.chargenSelecttion[\"race\"]
+	var nameText
+	nameText = get_node(\"..\").get_node(\"One Name/nameZone/nameInput\").bbcode_text
+	nameText.erase(0,14)
+	
+	var kitText = get_node(\"..\").get_node(\"form_starting kit2/custome kitpart/input/nameZone2/nameInput\")
+	var seedText = get_node(\"..\").get_node(\"Seed/nameZo6ne3/nameInput\")
+	
+	if isEveryCheckBoxSet():
+		if nameText.length()!=0:
+			if kitText.bbcode_text != \"\":
+				if nameText != \"\":
+					visible=true
+
+
+func isEveryCheckBoxSet():
+	var kit = API_011_Player.chargenSelecttion[\"Kits\"][0]
+	var perk = API_011_Player.chargenSelecttion[\"perks\"]
+	var race = API_011_Player.chargenSelecttion[\"race\"]
+	
+	if kit == null:
+		var debug = get_tree().get_current_scene().get_node(\"form_starting kit2/custome kitpart\").selectedKit
+	
+	return kit != null and race != null
+
+
+func _input(event):
+		if event.is_action_pressed(\"leftClickMouse\") and isMouseOnNode(minVec,maxVec):
+			var nameText = get_node(\"..\").get_node(\"One Name/nameZone/nameInput\").bbcode_text
+			nameText.erase(0,14)
+			API_011_Player.chargenSelecttion[\"name\"] = nameText
+			
+			
+			
+			Player.characterCreationProcess()
+			Gameloop.startPanicMode()
+
+func isMouseOnNode(minVec,maxVec):
+	var mouse = get_global_mouse_position()
+	return mouse.x > minVec.x and mouse.y > minVec.y and mouse.x < maxVec.x and mouse.y < maxVec.y
+"
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 0.196078 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.12549, 0.14902, 0.211765, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0.2, 0.262745, 0.411765, 1 )
+
+[node name="root_Create" type="Node2D"]
+position = Vector2( -326.575, -106.163 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
+
+[node name="form" type="Panel" parent="."]
+margin_left = 608.0
+margin_top = 440.0
+margin_right = 1816.0
+margin_bottom = 952.0
+custom_styles/panel = SubResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="form png" type="TextureRect" parent="."]
+margin_left = 608.0
+margin_top = 440.0
+margin_right = 1816.0
+margin_bottom = 952.0
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="header" type="RichTextLabel" parent="."]
+margin_left = 696.0
+margin_top = 464.0
+margin_right = 1104.0
+margin_bottom = 512.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow] create new Game"
+text = " create new Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="One Name" type="Node2D" parent="."]
+position = Vector2( 997, 476 )
+
+[node name="nameText" type="RichTextLabel" parent="One Name"]
+margin_left = 152.0
+margin_top = 64.0
+margin_right = 248.0
+margin_bottom = 96.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Name"
+text = "Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameZone" type="Panel" parent="One Name"]
+margin_left = 160.0
+margin_top = 104.0
+margin_right = 379.0
+margin_bottom = 136.0
+custom_styles/panel = SubResource( 3 )
+script = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="One Name/nameZone"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_right = 8.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="form_starting kit2" type="Node2D" parent="."]
+position = Vector2( -123, -18 )
+
+[node name="explanation" type="RichTextLabel" parent="form_starting kit2"]
+margin_left = 763.0
+margin_top = 598.0
+margin_right = 1187.0
+margin_bottom = 622.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Choose one random type of kit to start with: "
+text = "Choose one random type of kit to start with: "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="explanation2" type="RichTextLabel" parent="form_starting kit2"]
+margin_left = 1515.0
+margin_top = 530.0
+margin_right = 1979.0
+margin_bottom = 554.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "hint: hover over text to get more information"
+text = "hint: hover over text to get more information"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="header" type="RichTextLabel" parent="form_starting kit2"]
+margin_left = 763.0
+margin_top = 558.0
+margin_right = 987.0
+margin_bottom = 590.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Starting kit"
+text = "Starting kit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="form_starting kit2"]
+margin_left = 842.485
+margin_top = 892.1
+margin_right = 1110.49
+margin_bottom = 932.1
+custom_styles/panel = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="custome kitpart" type="Control" parent="form_starting kit2"]
+margin_left = 1061.73
+margin_top = 861.349
+margin_right = 1101.73
+margin_bottom = 901.349
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="suggest0" type="Panel" parent="form_starting kit2/custome kitpart"]
+margin_right = 198.0
+margin_bottom = 32.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="form_starting kit2/custome kitpart/suggest0"]
+margin_left = 8.0
+margin_top = 1.0
+margin_right = 204.0
+margin_bottom = 33.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="suggest1" type="Panel" parent="form_starting kit2/custome kitpart"]
+margin_top = 30.4049
+margin_right = 198.0
+margin_bottom = 62.4049
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="form_starting kit2/custome kitpart/suggest1"]
+margin_left = 8.0
+margin_top = 1.0
+margin_right = 204.0
+margin_bottom = 33.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="suggest2" type="Panel" parent="form_starting kit2/custome kitpart"]
+margin_top = 62.2249
+margin_right = 198.0
+margin_bottom = 94.2249
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="form_starting kit2/custome kitpart/suggest2"]
+margin_left = 8.70715
+margin_top = -1.12134
+margin_right = 204.707
+margin_bottom = 30.8787
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="Panel" parent="form_starting kit2/custome kitpart"]
+margin_left = -1061.73
+margin_top = -858.349
+margin_right = -1061.73
+margin_bottom = -858.349
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="explanation" type="RichTextLabel" parent="form_starting kit2/custome kitpart/input"]
+margin_left = 770.611
+margin_top = 848.675
+margin_right = 1077.61
+margin_bottom = 872.675
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]or type out one you already know!"
+text = "or type out one you already know!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameZone2" type="Panel" parent="form_starting kit2/custome kitpart/input"]
+margin_left = 770.611
+margin_top = 872.675
+margin_right = 1026.61
+margin_bottom = 904.675
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="form_starting kit2/custome kitpart/input/nameZone2"]
+margin_left = 8.0
+margin_right = 256.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Seed" type="Node2D" parent="."]
+position = Vector2( 1461, 426 )
+
+[node name="nameInput" type="RichTextLabel" parent="Seed"]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = -61.0
+margin_top = 114.0
+margin_right = 310.0
+margin_bottom = 146.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Seed (optional)"
+text = "Seed (optional)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameZone3" type="Panel" parent="Seed"]
+margin_left = -61.0
+margin_top = 154.0
+margin_right = 179.0
+margin_bottom = 186.0
+custom_styles/panel = SubResource( 3 )
+script = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="nameInput" type="RichTextLabel" parent="Seed/nameZone3"]
+margin_left = 8.0
+margin_right = 240.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Race" type="Node2D" parent="."]
+position = Vector2( -243, 138 )
+
+[node name="nameText" type="RichTextLabel" parent="Race"]
+margin_left = 1395.0
+margin_top = 483.0
+margin_right = 1622.0
+margin_bottom = 515.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Race"
+text = "Race"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="entry" type="Panel" parent="Race"]
+margin_left = -16.0
+margin_top = -8.0
+margin_right = -16.0
+margin_bottom = -8.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="checkbox12" type="Control" parent="Race/entry"]
+margin_left = 424.0
+margin_top = -112.0
+margin_right = 424.0
+margin_bottom = -112.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="true" type="Panel" parent="Race/entry/checkbox12"]
+visible = false
+margin_left = 1005.0
+margin_top = 653.0
+margin_right = 1025.0
+margin_bottom = 673.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="entry5" type="Panel" parent="Race"]
+margin_left = -16.0
+margin_top = 120.0
+margin_right = -16.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="checkbox9" type="Control" parent="Race/entry5"]
+margin_left = 424.0
+margin_top = -112.0
+margin_right = 424.0
+margin_bottom = -112.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="true" type="Panel" parent="Race/entry5/checkbox9"]
+visible = false
+margin_left = 1005.0
+margin_top = 653.0
+margin_right = 1025.0
+margin_bottom = 673.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="entry2" type="Panel" parent="Race"]
+margin_left = -16.0
+margin_top = -8.0
+margin_right = -16.0
+margin_bottom = -8.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="checkbox12" type="Control" parent="Race/entry2"]
+margin_left = 424.0
+margin_top = -48.0
+margin_right = 424.0
+margin_bottom = -48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="true" type="Panel" parent="Race/entry2/checkbox12"]
+visible = false
+margin_left = 1005.0
+margin_top = 653.0
+margin_right = 1025.0
+margin_bottom = 673.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="entry6" type="Panel" parent="Race"]
+margin_left = -16.0
+margin_top = 120.0
+margin_right = -16.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="checkbox9" type="Control" parent="Race/entry6"]
+margin_left = 424.0
+margin_top = -48.0
+margin_right = 424.0
+margin_bottom = -48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="true" type="Panel" parent="Race/entry6/checkbox9"]
+visible = false
+margin_left = 1005.0
+margin_top = 653.0
+margin_right = 1025.0
+margin_bottom = 673.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Perk" type="Node2D" parent="."]
+position = Vector2( 13, 162 )
+
+[node name="nameText" type="RichTextLabel" parent="Perk"]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1376.0
+margin_top = 456.0
+margin_right = 1736.0
+margin_bottom = 488.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow] Perk (placeholder)"
+text = " Perk (placeholder)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="explanation2" type="RichTextLabel" parent="Perk"]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1400.0
+margin_top = 496.0
+margin_right = 1824.0
+margin_bottom = 520.0
+rect_pivot_offset = Vector2( 184, 48 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]choose one Specialty to start with:"
+text = "choose one Specialty to start with:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+margin_left = 1624.0
+margin_top = 448.0
+margin_right = 1795.0
+margin_bottom = 512.0
+script = SubResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="Panel"]
+margin_right = 173.0
+margin_bottom = 67.0
+rect_pivot_offset = Vector2( 331, 63 )
+custom_styles/panel = SubResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 3.0
+margin_right = 173.0
+margin_bottom = 67.0
+custom_fonts/normal_font = SubResource( 2 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]finish
+chargen!"
+text = "finish
+chargen!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 693.0
+margin_top = 628.0
+margin_right = 741.0
+margin_bottom = 653.0
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Meat"
+text = "Meat"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_left = 684.0
+margin_top = 709.0
+margin_right = 740.0
+margin_bottom = 733.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Magic"
+text = "Magic"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel22" type="RichTextLabel" parent="."]
+margin_left = 672.0
+margin_top = 785.0
+margin_right = 728.0
+margin_bottom = 810.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Matrix"
+text = "Matrix"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel16" type="RichTextLabel" parent="."]
+margin_left = 808.0
+margin_top = 712.0
+margin_right = 893.0
+margin_bottom = 736.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "gives one of your bodyparts a magical attribute"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Infusion"
+text = "Infusion"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel18" type="RichTextLabel" parent="."]
+margin_left = 808.0
+margin_top = 788.0
+margin_right = 901.0
+margin_bottom = 813.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "enhances your body over its natural limits"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Cyberware"
+text = "Cyberware"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+margin_left = 808.0
+margin_top = 632.0
+margin_right = 870.0
+margin_bottom = 656.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "close quarter weapons high raw damage"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Melee"
+text = "Melee"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel19" type="RichTextLabel" parent="."]
+margin_left = 949.0
+margin_top = 632.0
+margin_right = 979.0
+margin_bottom = 656.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "projectile weapons with diverse types of damage"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Gun"
+text = "Gun"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel23" type="RichTextLabel" parent="."]
+margin_left = 1048.0
+margin_top = 632.0
+margin_right = 1096.0
+margin_bottom = 656.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "protects you of damage but also enviromental factors"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Armor"
+text = "Armor"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel20" type="RichTextLabel" parent="."]
+margin_left = 949.0
+margin_top = 712.0
+margin_right = 1003.0
+margin_bottom = 736.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "gives you one of many diffrent spells with"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Spell"
+text = "Spell"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel24" type="RichTextLabel" parent="."]
+margin_left = 1048.0
+margin_top = 712.0
+margin_right = 1088.0
+margin_bottom = 736.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "lets you summon a ghost to aid you"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Rite"
+text = "Rite"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel21" type="RichTextLabel" parent="."]
+margin_left = 949.0
+margin_top = 788.0
+margin_right = 987.0
+margin_bottom = 808.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "lets you controll and manipuate the internet of things"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Hack"
+text = "Hack"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel25" type="RichTextLabel" parent="."]
+margin_left = 1048.0
+margin_top = 788.0
+margin_right = 1128.0
+margin_bottom = 821.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Drone"
+text = "Drone"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="."]
+margin_left = 1216.0
+margin_top = 680.0
+margin_right = 1264.0
+margin_bottom = 709.0
+rect_pivot_offset = Vector2( 232, 112 )
+hint_tooltip = "Humans take up the mayority of mankind and are its litteral average:
+
+> there are no special perks
+> there are no secial attributes
+> there are no overwhelming racial tensions"
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Human"
+text = "Human"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="."]
+margin_left = 1216.0
+margin_top = 737.0
+margin_right = 1272.0
+margin_bottom = 760.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Dwarf"
+text = "Dwarf"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="."]
+margin_left = 1216.0
+margin_top = 800.0
+margin_right = 1288.0
+margin_bottom = 840.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Troll"
+text = "Troll"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="."]
+margin_left = 1216.0
+margin_top = 857.0
+margin_right = 1264.0
+margin_bottom = 880.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Elf"
+text = "Elf"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel8" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1461.0
+margin_top = 700.0
+margin_right = 1573.0
+margin_bottom = 743.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]go big or go home"
+text = "go big or go home"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel9" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1464.0
+margin_top = 777.0
+margin_right = 1552.0
+margin_bottom = 797.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]ganger"
+text = "ganger"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel10" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1464.0
+margin_top = 840.0
+margin_right = 1548.0
+margin_bottom = 860.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]Wanderer"
+text = "Wanderer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel11" type="RichTextLabel" parent="."]
+margin_left = 1464.0
+margin_top = 888.0
+margin_right = 1552.0
+margin_bottom = 911.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel12" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1664.0
+margin_top = 712.0
+margin_right = 1760.0
+margin_bottom = 736.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]sell out"
+text = "sell out"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel13" type="RichTextLabel" parent="."]
+modulate = Color( 1, 1, 1, 0.172549 )
+margin_left = 1664.0
+margin_top = 777.0
+margin_right = 1792.0
+margin_bottom = 802.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]most wanted"
+text = "most wanted"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel14" type="RichTextLabel" parent="."]
+margin_left = 1664.0
+margin_top = 829.0
+margin_right = 1784.0
+margin_bottom = 851.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel15" type="RichTextLabel" parent="."]
+margin_left = 1664.0
+margin_top = 888.0
+margin_right = 1762.0
+margin_bottom = 912.0
+rect_pivot_offset = Vector2( 232, 112 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+bbcode_text = "[color=yellow]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="."]
+modulate = Color( 1, 1, 1, 0.847059 )
+margin_left = 1040.0
+margin_top = 785.0
+margin_right = 1096.0
+margin_bottom = 817.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="."]
+modulate = Color( 1, 1, 1, 0.847059 )
+margin_left = 1040.0
+margin_top = 704.0
+margin_right = 1096.0
+margin_bottom = 736.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4" type="Panel" parent="."]
+modulate = Color( 1, 1, 1, 0.847059 )
+margin_left = 1040.0
+margin_top = 624.0
+margin_right = 1096.0
+margin_bottom = 656.0
+custom_styles/panel = SubResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,33 @@
+{
+
+    "C_6_TILE_NAME"         : "Infobroker",
+    "C_65_TIER"             : 1,            
+    "F_6_ACTOR_ATTRIBUTES"  : "N/A",
+    "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
+    "C_0_ANY_DESCRIPTION"   : "know it all smartasses but with knowledge and curiosity",
+    "C_47_ANY_SYNONYM"      : ["Smartass","Libary-camper","media-critic"],
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" : -1,
+      "agi" : -2,
+      "rea" : -1,
+      "str" : 0,
+  
+      "wil" : 1,
+      "log" : 2,
+      "int" : 1,
+      "cha" : 0
+    },
+    
+    "C_20_ACTOR_SKILLBLOCK" : {
+      "COMPUTER" : "3",
+      "ARTISAN"   : "5",
+      "SOFTWARE" : "4",
+      "IMPERSONATION"  : "5",
+      "PERCEPTION"   : "3"
+      }
+  
+  
+  
+  }
+  

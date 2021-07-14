@@ -1,0 +1,198 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Media/FixedSysTemplate.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Src/Frontend/content creation/Forms/Actors/Form.gd" type="Script" id=3]
+[ext_resource path="res://Media/actor.png" type="Texture" id=4]
+[ext_resource path="res://Media/presets/debugPanel/green.tres" type="StyleBox" id=5]
+[ext_resource path="res://Media/presets/backToMainManueButton.tres" type="StyleBox" id=6]
+
+
+
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.129412, 0.278431, 0.368627, 0.721569 )
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.321569, 0.317647, 0.317647, 0.764706 )
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.321569, 0.317647, 0.317647, 0.764706 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.321569, 0.317647, 0.317647, 0.764706 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.207843, 0.45098, 0.239216, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.670588, 0.698039, 0.180392, 1 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="DynamicFont" id=7]
+size = 30
+outline_color = Color( 0.603922, 0.129412, 0.129412, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 20
+outline_color = Color( 0.603922, 0.129412, 0.129412, 1 )
+font_data = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Panel" type="TextureRect" parent="."]
+margin_right = 2560.0
+margin_bottom = 1440.0
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_right = 640.0
+margin_bottom = 54.0
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_text = "CREATE A NEW ACTOR"
+text = "CREATE A NEW ACTOR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="gui" type="Control" parent="."]
+margin_top = 72.0
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="overhead" type="Panel" parent="gui"]
+margin_top = -8.0
+margin_right = 1520.0
+margin_bottom = 24.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="collumn0" type="Panel" parent="gui"]
+margin_right = 368.0
+margin_bottom = 24.0
+custom_styles/panel = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="collumn1" type="Panel" parent="gui"]
+margin_left = 424.0
+margin_right = 976.0
+margin_bottom = 24.0
+custom_styles/panel = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="collumn2" type="Panel" parent="gui"]
+margin_left = 996.0
+margin_right = 1508.0
+margin_bottom = 24.0
+custom_styles/panel = SubResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Form" type="Control" parent="."]
+margin_top = 64.0
+margin_right = 40.0
+margin_bottom = 104.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hint" type="Control" parent="."]
+margin_left = 16.0
+margin_top = 112.0
+margin_right = 56.0
+margin_bottom = 152.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backToMainMenue" type="Button" parent="."]
+margin_left = 480.0
+margin_top = 8.0
+margin_right = 672.0
+margin_bottom = 56.0
+custom_styles/normal = ExtResource( 6 )
+custom_fonts/font = ExtResource( 1 )
+text = "BACK TO MAIN-MENUE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="checkAndSave" type="Button" parent="."]
+margin_left = 1519.0
+margin_top = 992.0
+margin_right = 1879.0
+margin_bottom = 1072.0
+custom_styles/normal = SubResource( 6 )
+custom_fonts/font = SubResource( 7 )
+text = "CHECK AND SAVE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="debug" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="explain" type="Panel" parent="debug"]
+margin_left = 8.0
+margin_top = 992.0
+margin_right = 1512.0
+margin_bottom = 1072.0
+custom_styles/panel = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="debug/explain"]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 1504.0
+margin_bottom = 80.0
+custom_fonts/normal_font = SubResource( 8 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "according to all known physicis you should not be able to undestand the vast potential of rick and Morty.Rick is a Navy SEAL and he has over 200 confirmed kills so listen up,if you mess with him.you are in bad times,cause hifather is a lawyer and works at Microsoft and can bann you"
+text = "according to all known physicis you should not be able to undestand the vast potential of rick and Morty.Rick is a Navy SEAL and he has over 200 confirmed kills so listen up,if you mess with him.you are in bad times,cause hifather is a lawyer and works at Microsoft and can bann you"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="backToMainMenue" to="." method="backToMainMenue"]
+[connection signal="pressed" from="checkAndSave" to="." method="_on_checkAndSave_pressed"]

@@ -1,0 +1,133 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Src/Bootstrap/GameInit/Manager.gd" type="Script" id=1]
+[ext_resource path="res://Media/GUI/Titlescreen/Title.png" type="Texture" id=2]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+outline_size = 3
+outline_color = Color( 0.172549, 0.203922, 0.286275, 1 )
+font_data = ExtResource( 3 )
+
+[node name="Node" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1007.0
+margin_bottom = 504.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1081.0
+margin_bottom = 403.0
+rect_scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="default" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 168.0
+margin_right = 224.0
+margin_bottom = 208.0
+text = "Start game in default"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="options" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 224.0
+margin_right = 224.0
+margin_bottom = 264.0
+text = "Show advanced options"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionsPanel" type="Control" parent="."]
+visible = false
+margin_left = 16.0
+margin_top = 296.0
+margin_right = 240.0
+margin_bottom = 496.0
+
+[node name="form" type="Control" parent="optionsPanel"]
+margin_left = -56.0
+margin_top = -304.0
+margin_right = -16.0
+margin_bottom = -264.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="kitsToStart" type="Button" parent="optionsPanel"]
+margin_left = 16.0
+margin_top = -16.0
+margin_right = 208.0
+margin_bottom = 24.0
+text = "set kits to start with"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bootMode" type="Button" parent="optionsPanel"]
+margin_left = 16.0
+margin_top = 40.0
+margin_right = 208.0
+margin_bottom = 80.0
+text = "set mode to boot"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="communityContent" type="Button" parent="optionsPanel"]
+visible = false
+margin_left = 16.0
+margin_top = 96.0
+margin_right = 208.0
+margin_bottom = 136.0
+text = "WIP"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Event" type="Button" parent="optionsPanel"]
+visible = false
+margin_left = 16.0
+margin_top = 152.0
+margin_right = 208.0
+margin_bottom = 192.0
+text = "WIP"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 584.0
+margin_top = 328.0
+margin_right = 992.0
+margin_bottom = 488.0
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_enabled = true
+bbcode_text = "EVENT: 
+player-generatet content
+(theme)
+On 01.06.21"
+text = "EVENT: 
+player-generatet content
+(theme)
+On 01.06.21"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="default" to="." method="_on_default_pressed"]
+[connection signal="pressed" from="options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="optionsPanel/kitsToStart" to="." method="_on_kitsToStart_pressed"]
+[connection signal="pressed" from="optionsPanel/bootMode" to="." method="_on_bootMode_pressed"]
+[connection signal="pressed" from="optionsPanel/communityContent" to="." method="_on_communityContent_pressed"]
+[connection signal="pressed" from="optionsPanel/Event" to="." method="_on_Event_pressed"]

@@ -1,0 +1,181 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Condition_Effect",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/InputModules universal/Condition/ConditionScene.gd"
+}, {
+"base": "Node",
+"class": "DataTypeHandler",
+"language": "GDScript",
+"path": "res://Src/Util/DataTypeHandler.gd"
+}, {
+"base": "Node",
+"class": "EffectCache",
+"language": "GDScript",
+"path": "res://Src/Backend/DataStructures/EffectCache.gd"
+}, {
+"base": "MorphBox",
+"class": "EffectMorphBox",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/Inputmodules effect/MorphBox/EffectMorphBoxScript.gd"
+}, {
+"base": "Node",
+"class": "FileHandler",
+"language": "GDScript",
+"path": "res://Src/Util/Filehandler.gd"
+}, {
+"base": "Node",
+"class": "FormFieldAttributes",
+"language": "GDScript",
+"path": "res://Src/Backend/DataStructures/FormFieldAttributes.gd"
+}, {
+"base": "Node",
+"class": "FormFiller",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Dynamic Generator/FormFiller.gd"
+}, {
+"base": "FormFieldAttributes",
+"class": "GroupAttributes",
+"language": "GDScript",
+"path": "res://Src/Backend/DataStructures/PanelAttributes/GroupAttributes.gd"
+}, {
+"base": "RichTextLabel",
+"class": "InputEffectRTL",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/Inputmodules effect/TextRTL/EffectRTLScript.gd"
+}, {
+"base": "Node",
+"class": "InputHandler",
+"language": "GDScript",
+"path": "res://Src/Util/InputHandler.gd"
+}, {
+"base": "Panel",
+"class": "InputPanel",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/InputModules universal/Texture/PanelInputHandler.gd"
+}, {
+"base": "RichTextLabel",
+"class": "InputRTL",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/InputModules universal/RTL/inputComponentRTL.gd"
+}, {
+"base": "OptionButton",
+"class": "MorphBox",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/InputModules universal/Morphbox/universalMorphbox.gd"
+}, {
+"base": "FormFieldAttributes",
+"class": "OptionboxAttributes",
+"language": "GDScript",
+"path": "res://Src/Backend/DataStructures/PanelAttributes/OptionboxAttributes.gd"
+}, {
+"base": "Node",
+"class": "Parent_Form",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Forms/ParentForm.gd"
+}, {
+"base": "Node",
+"class": "Parser_Dynamic_C_37",
+"language": "GDScript",
+"path": "res://Src/Backend/Parser/Dynamic SubParser/C_37.gd"
+}, {
+"base": "Node",
+"class": "Parser_Dynamic_Hub",
+"language": "GDScript",
+"path": "res://Src/Backend/Parser/Dynamic SubParser/Hub.gd"
+}, {
+"base": "Node",
+"class": "Parser_Kit",
+"language": "GDScript",
+"path": "res://Src/Backend/Parser/effect SubParser.gd"
+}, {
+"base": "FormFieldAttributes",
+"class": "RTLAttributes",
+"language": "GDScript",
+"path": "res://Src/Backend/DataStructures/PanelAttributes/RTLAttributes.gd"
+}, {
+"base": "Node",
+"class": "RowTypeHandler",
+"language": "GDScript",
+"path": "res://Src/Util/RowTypeHandler.gd"
+}, {
+"base": "Node",
+"class": "Syntax_Effect",
+"language": "GDScript",
+"path": "res://Src/Single Scripts/Syntax.gd"
+}, {
+"base": "MorphBox",
+"class": "TriggerMorphBox",
+"language": "GDScript",
+"path": "res://Src/Frontend/content creation/Input/Inputmodules effect/MorphBox/TriggerMorphBox.gd"
+}, {
+"base": "Node",
+"class": "Validator_Error_Marker",
+"language": "GDScript",
+"path": "res://Src/Backend/Validator/ErrorMarker.gd"
+} ]
+_global_script_class_icons={
+"Condition_Effect": "",
+"DataTypeHandler": "",
+"EffectCache": "",
+"EffectMorphBox": "",
+"FileHandler": "",
+"FormFieldAttributes": "",
+"FormFiller": "",
+"GroupAttributes": "",
+"InputEffectRTL": "",
+"InputHandler": "",
+"InputPanel": "",
+"InputRTL": "",
+"MorphBox": "",
+"OptionboxAttributes": "",
+"Parent_Form": "",
+"Parser_Dynamic_C_37": "",
+"Parser_Dynamic_Hub": "",
+"Parser_Kit": "",
+"RTLAttributes": "",
+"RowTypeHandler": "",
+"Syntax_Effect": "",
+"TriggerMorphBox": "",
+"Validator_Error_Marker": ""
+}
+
+[application]
+
+config/name="Form"
+run/main_scene="res://Src/Main.tscn"
+
+[autoload]
+
+ENUM="*res://Src/Single Scripts/ENUM.gd"
+Utils="*res://Src/Single Scripts/Util.gd"
+Effect_Getter="*res://Src/Effect/getter.gd"
+Parser="*res://Src/Backend/Parser/Parser.gd"
+Caching="*res://Src/Single Scripts/Caching.gd"
+SYNTAX="*res://Src/Single Scripts/Syntax.gd"
+Bootstrap="*res://Src/Bootstrap.gd"
+CheckUp="*res://Src/Single Scripts/CheckUp.gd"
+Validator="*res://Src/Backend/Validator/Validator.gd"
+
+[display]
+
+window/size/width=1980
+window/size/height=1020
+
+[input]
+
+leftClick={
+"deadzone": 0.49,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}

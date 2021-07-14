@@ -1,0 +1,34 @@
+{
+
+    "C_12_KITSET_INDEX"     : "BRAWLER_1",
+    "C_6_TILE_NAME"         : "Brawler_Tier_One",
+    "F_6_ACTOR_ATTRIBUTES"  : "N/A",
+    "C_65_TIER"             : 1,   
+    "F_10_ACTOR_ATTRIBUTES_ROLES" :"N/A",
+    "C_0_ANY_DESCRIPTION"   : "weak guys throwing wild punches,lasts 2 rounds in the ring and 9 weeks in coma",
+    "C_47_ANY_SYNONYM"      : ["orc"],
+    "C_37_ANY_M_TYPE"       : "MEAT",
+  
+    "C_19_ACTOR_ATTRIBUTES" : {
+      "con" : 2,
+      "agi" : 0,
+      "rea" : 0,
+      "str" : 2,
+  
+      "wil" : -1,
+      "log" : -1,
+      "int" : -1,
+      "cha" : -1
+    },
+    
+    "C_20_ACTOR_SKILLBLOCK" : {
+      "GYMNASTICS" : "3",
+      "SNEAKING"   : "5",
+      "PERCEPTION" : "4",
+      "ASSENSING"  : "5",
+      "COMPUTER"   : "3"
+      }
+  
+  
+  
+  }

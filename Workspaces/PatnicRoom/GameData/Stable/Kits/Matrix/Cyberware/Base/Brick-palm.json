@@ -1,0 +1,48 @@
+{
+   "C_0_ANY_DESCRIPTION":"A conducting metal surface on the palmcomma it started as a simple tool for prankster but got placed in headlines after it made some electrical devices unusable by shortcurciting",
+   "C_31_KIT_CAT_TYPE":"CYBERWARE",
+   "C_12_KITSET_INDEX"           : "X_C_1",
+   "C_33_KIT_COOLDOWN_TIMER":"3",
+   "F_15_KITPART_TYPE_BASE"      : "N/A",
+   "C_35_KIT_MECHANICAL_SUMMARY":"Deals 5 electrical damage",
+   "C_36_KIT_MOD_TIME":"MEAT",
+   "C_37_ANY_M_TYPE":"MEAT",
+   "C_38_KIT_PART_TYPE":"BASE",
+   "C_40_ANY_TO_STRING":"Brick-palm",
+   "C_48_ANY_RARITY":"4",
+   "C_49_EFFECT_REFERENCE":{
+      "EFFECT":{
+         "EFFECT-0":{
+            "CONDITION":[
+               ["Cond_BAN_Electrifying","1","1 "]
+            ],
+            "STAT_MOD":[
+            ]
+         }
+      },
+      "SPACE":{
+         "SPACE-0":{
+            "MEDIUM":"LINEA",
+            "M_TYPE":"MEAT",
+            "REACH":"1",
+            "SOURCE":"SELF"
+         }
+      },
+      "TIME":{
+         "TIME-0":"1",
+         "TIME-1":"N/A",
+         "TIME-2":"N/A",
+         "TIME-3":"N/A"
+      },
+      "TRIGGER":{
+         "TRIGGER-0":{
+            "BASE":"ALL",
+            "SPECIFIC":[
+               ["HAS_STAT",["C_63_IS_SPREADING_CONDITION","==","Cond_BAN_Electrifying"]]
+            ]
+         }
+      }
+   },
+   "C_6_TILE_NAME":"Brick-palm",
+   "F_5_KITPART_TYPE":"N/A"
+}

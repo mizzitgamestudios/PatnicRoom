@@ -1,0 +1,942 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/Panel_Title.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Src/scenes/Gameloop/PanicMode/Subscenes/Inv Side Panel/Inv.gd" type="Script" id=2]
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 0.729412 )
+border_color = Color( 1, 1, 1, 1 )
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 13
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 20
+outline_size = 1
+outline_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.592157, 0.643137, 0.764706, 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 15
+font_data = ExtResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.337255, 0.396078, 0.529412, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.196078, 0.196078, 0.196078, 1 )
+border_width_top = 3
+border_width_bottom = 3
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+
+[sub_resource type="Animation" id=8]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("tab text:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1806, 406 ), Vector2( 1942.4, 406 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1806, 216 ), Vector2( 1922.4, 216 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("background:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1100, 8 ), Vector2( 1940, 8 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("tab text:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1942.4, 406 ), Vector2( 1806, 406 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("lifted tab:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1922.4, 216 ), Vector2( 1806, 216 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("background:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1940, 8 ), Vector2( 1100, 8 ) ]
+}
+
+[node name="root_inv" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="background" type="Panel" parent="."]
+margin_left = 1100.0
+margin_top = 8.0
+margin_right = 1823.0
+margin_bottom = 837.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background2" type="Panel" parent="."]
+margin_left = 1939.33
+margin_top = 8.0
+margin_right = 2662.33
+margin_bottom = 837.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Panel" parent="background2"]
+margin_left = -787.333
+margin_top = 72.0
+margin_right = -156.333
+margin_bottom = 112.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="background2/Control"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 160.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Inventory "
+text = "Inventory "
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="background2/Control"]
+margin_left = 216.0
+margin_top = 8.0
+margin_right = 320.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+bbcode_text = "Capacity:"
+text = "Capacity:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="background2/Control"]
+margin_left = 344.0
+margin_top = 8.0
+margin_right = 520.0
+margin_bottom = 32.0
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+bbcode_text = "xx / xx"
+text = "xx / xx"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="background2/Control"]
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 80.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="VBoxContainer" parent="background2/Control/VBoxContainer"]
+margin_right = 631.0
+margin_bottom = 640.0
+rect_min_size = Vector2( 40, 40 )
+custom_constants/separation = 0
+
+[node name="Panel" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_right = 631.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 40.0
+margin_right = 631.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel2"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel2"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel2"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel3" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 80.0
+margin_right = 631.0
+margin_bottom = 120.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel3"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel3"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel3"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel4" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 120.0
+margin_right = 631.0
+margin_bottom = 160.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel4"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel4"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel4"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel5" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 160.0
+margin_right = 631.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel5"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel5"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel5"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel6" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 200.0
+margin_right = 631.0
+margin_bottom = 240.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel6"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel6"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel6"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel7" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 240.0
+margin_right = 631.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel7"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel7"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel7"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel8" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 280.0
+margin_right = 631.0
+margin_bottom = 320.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel8"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel8"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel8"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel9" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 320.0
+margin_right = 631.0
+margin_bottom = 360.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel9"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel9"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel9"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel10" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 360.0
+margin_right = 631.0
+margin_bottom = 400.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel10"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel10"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel10"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel11" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 400.0
+margin_right = 631.0
+margin_bottom = 440.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel11"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel11"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel11"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel12" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 440.0
+margin_right = 631.0
+margin_bottom = 480.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel12"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel12"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel12"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel13" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 480.0
+margin_right = 631.0
+margin_bottom = 520.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel13"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel13"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel13"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel14" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 520.0
+margin_right = 631.0
+margin_bottom = 560.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel14"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel14"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel14"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel15" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 560.0
+margin_right = 631.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 4 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel15"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel15"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel15"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel16" type="Panel" parent="background2/Control/VBoxContainer/HBoxContainer"]
+margin_top = 600.0
+margin_right = 631.0
+margin_bottom = 640.0
+rect_min_size = Vector2( 631, 40 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="Name" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel16"]
+margin_top = 8.0
+margin_right = 200.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="description" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel16"]
+margin_left = 200.0
+margin_top = 8.0
+margin_right = 576.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 200, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="count" type="RichTextLabel" parent="background2/Control/VBoxContainer/HBoxContainer/Panel16"]
+margin_left = 584.0
+margin_top = 8.0
+margin_right = 634.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 50, 20 )
+custom_fonts/normal_font = SubResource( 5 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lifted tab" type="Panel" parent="."]
+margin_left = 1822.0
+margin_top = 216.0
+margin_right = 1925.0
+margin_bottom = 407.0
+custom_styles/panel = SubResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab text" type="RichTextLabel" parent="."]
+margin_left = 1806.0
+margin_top = 406.0
+margin_right = 1998.0
+margin_bottom = 470.0
+rect_rotation = 270.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center][color=yellow]J[/color]urnal"
+text = "Jurnal"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/LeftToRight = SubResource( 8 )
+anims/rightToLeft = SubResource( 9 )
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

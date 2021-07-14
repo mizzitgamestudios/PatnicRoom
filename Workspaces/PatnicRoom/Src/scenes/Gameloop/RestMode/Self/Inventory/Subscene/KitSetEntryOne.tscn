@@ -1,0 +1,150 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Media/FixedDays Font/new_dynamicfontdata.tres" type="DynamicFontData" id=1]
+[ext_resource path="res://Src/scenes/Gameloop/RestMode/Self/Inventory/Subscene/InsertKitSet.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.462745, 0.541176, 0.694118, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="DynamicFont" id=2]
+size = 15
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.188235, 0.643137, 0.396078, 0.498039 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.6, 0.6, 0.6, 0 )
+
+[node name="Node2D" type="Control"]
+margin_right = 904.0
+margin_bottom = 25.0
+rect_min_size = Vector2( 100, 0 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="M_Type" type="Panel" parent="."]
+margin_left = 16.0
+margin_right = 86.0
+margin_bottom = 25.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="M_Type"]
+margin_left = 11.0
+margin_right = 70.0
+margin_bottom = 16.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Matrix"
+text = "Matrix"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Category" type="Panel" parent="."]
+margin_left = 104.0
+margin_right = 184.0
+margin_bottom = 25.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Category"]
+margin_left = 8.0
+margin_right = 93.0
+margin_bottom = 16.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Infusion"
+text = "Infusion"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Part" type="Panel" parent="."]
+margin_left = 200.0
+margin_right = 280.0
+margin_bottom = 25.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Part"]
+margin_left = 8.0
+margin_right = 80.0
+margin_bottom = 16.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "Appendix"
+text = "Appendix"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="toString" type="Panel" parent="."]
+margin_left = 299.0
+margin_right = 552.0
+margin_bottom = 25.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="toString"]
+margin_right = 253.0
+margin_bottom = 16.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "the quick brown fox jumps "
+text = "the quick brown fox jumps "
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MechanicalSummary" type="Panel" parent="."]
+margin_left = 568.0
+margin_right = 904.0
+margin_bottom = 25.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MechanicalSummary"]
+margin_right = 336.0
+margin_bottom = 16.0
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+bbcode_text = "the quick brown fox jumps "
+text = "the quick brown fox jumps "
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_right = 904.0
+margin_bottom = 25.0
+custom_styles/hover = SubResource( 4 )
+custom_styles/normal = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

@@ -1,0 +1,7 @@
+[PatnicRoom]
+<player>
+<modder>
+<developer>
+[DioJSONes]
+[GameData]
+[Webside]

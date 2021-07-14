@@ -1,0 +1,41 @@
+{
+
+
+    "MD" : {
+        "kitparts"        : true,
+        "components"      : true,
+        "enum"            : true,
+
+        "tilesets"        : true,
+        "statistics"      : false,
+
+        "atlas_tile"      : true,
+        "atlas_static"    : true,
+
+        "atlas_role"      : true,
+        "atlas_specialty" : true,
+        "atlas_race"      : true,
+        "syntax_component": true
+    },
+
+
+
+    "JSON" : {
+        "kitparts"        : false,
+        "components"      : true,
+        "enum"            : false,
+
+        "tilesets"        : false,
+        "statistics"      : false,
+
+        "atlas_tile"      : false,
+        "atlas_static"    : false,
+
+        "atlas_role"      : false,
+        "atlas_specialty" : false,
+        "atlas_race"      : false,
+        "syntax_component": true
+    }
+
+
+}

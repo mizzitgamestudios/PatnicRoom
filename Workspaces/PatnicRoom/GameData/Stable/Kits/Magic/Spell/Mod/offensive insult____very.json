@@ -1,0 +1,29 @@
+{
+
+    "C_6_TILE_NAME"               : "very",
+    "F_5_KITPART_TYPE"            : "N/A",
+    "F_16_KITPART_TYPE_MOD"      : "N/A",
+    "C_12_KITSET_INDEX"           : "C_S_3__M_2",
+    "C_0_ANY_DESCRIPTION"         : "curse like a sailor or better said: like your CEO after your deadline is due",
+    "C_40_ANY_TO_STRING"          : "very",
+    "C_35_KIT_MECHANICAL_SUMMARY" : "increases the radius of accidents",
+    "C_48_ANY_RARITY"             : "5",
+ 
+    "C_37_ANY_M_TYPE"             : "MAGIC",
+    "C_31_KIT_CAT_TYPE"           : "SPELL",
+    "C_38_KIT_PART_TYPE"          : "MOD",
+    "C_36_KIT_MOD_TIME"           : "2",
+    "C_33_KIT_COOLDOWN_TIMER"     : "1",
+    "C_60_BASE_KIT_REFERENCE"     : "offensive insult",
+ 
+    "C_59_KIT_MOD_CHANGE":
+ [{
+         "slot":"EFFECT_STAT_MOD",
+         "unit":"SPAWN",
+         "mode":"CHANGE",
+         "value":[["U_SPAWN_TILE_AROUND",["Suburban_0_0","3",4]]]
+ }
+    ]
+     
+ }
+ 

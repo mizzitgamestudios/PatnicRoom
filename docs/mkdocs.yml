@@ -1,0 +1,54 @@
+site_name: P@tnicRoom Documentation
+
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+    primary:  blue
+    accent:  lime
+
+    features:
+      - navigation.top
+      - toc.integrate
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.expand
+
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - rust
+      - GDScript
+      - JSON
+      - Python
+
+  shortcuts:
+    help: 9      # tab
+    next: 39     # right arrow
+    previous: 37 # left arrow
+    search: 17   # cntrl
+
+  font:
+    text: Noto Sans
+
+
+
+repo_url: https://github.com/mizzitgamestudios/PatnicRoom
+site_url: https://mizzitgamestudios.github.io
+
+markdown_extensions:
+  - toc
+  - meta
+
+
+nav:
+  - Getting started: 'gettingStartedOverview.md'
+  - Atlas: 'atlasOverview.md'
+  - Game-elements: 'entitiesOverview.md'
+  - Framework: 'cogsmosOverview.md'
+  - Modules: 'modulesOverview.md'
+  - Syntax: 'syntaxOverview.md'
+  - Conventions: 'conventionsOverview.md'

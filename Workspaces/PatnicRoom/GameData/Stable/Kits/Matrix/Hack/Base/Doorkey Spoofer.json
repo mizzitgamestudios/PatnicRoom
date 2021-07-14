@@ -1,0 +1,59 @@
+{
+
+   "C_6_TILE_NAME"               : "Doorkey Spoofer",
+   "C_40_ANY_TO_STRING"          : "Doorkey Spoofer",
+   "C_12_KITSET_INDEX"           : "X_H_1",
+   "F_15_KITPART_TYPE_BASE"      : "N/A",
+   "C_0_ANY_DESCRIPTION"         : "A HomeSec apprentice accidentily posted their account password on P2.1,almost like an inivitation for readers into the homes of his customers",
+   "C_35_KIT_MECHANICAL_SUMMARY" : "opens Sec1 doors",
+   
+   "C_36_KIT_MOD_TIME"           : "2",
+   "C_33_KIT_COOLDOWN_TIMER"     : "4",
+   "C_48_ANY_RARITY"             : "3",
+   
+   
+   "F_5_KITPART_TYPE"            : "N/A",
+   "C_37_ANY_M_TYPE"             : "MEAT",
+   "C_31_KIT_CAT_TYPE"           : "HACK",
+   "C_38_KIT_PART_TYPE"          : "BASE",
+   
+
+   
+
+   "C_49_EFFECT_REFERENCE":{
+      
+      "TIME":{  "TIME-0":"INSTANT",  "TIME-1":"N/A",  "TIME-2":"N/A",  "TIME-3":"N/A"  },
+
+
+      "TRIGGER":{
+         "TRIGGER-0":{ "BASE":        "INTERACT_ACTOR" ,                   
+                       "SPECIFIC": [ ["IS_DOOR","IS_CLOSED"],
+                                     ["AND"],
+                                     ["HAS_STAT",["C_65_TIER","==","1"]]
+                                     ]}
+
+      },
+      
+
+      "SPACE":{
+         "SPACE-0":{  "MEDIUM":"SELECT",  "SOURCE":"SELF",  "REACH":"30",  "M_TYPE":"MEAT"  }
+         
+      },
+      
+
+      "EFFECT":{
+         "EFFECT-0":{  
+            "CONDITION":[],  
+            
+            "STAT_MOD":[
+               ["U_EXCHANGE_TEXTURE", ""],
+               ["U_CHANGE_RAW_VALUE","C_1_ANY_IS_WALKABLE",true]
+            ]  }
+
+
+      }
+   }
+
+      
+
+}
